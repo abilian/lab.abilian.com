@@ -1,0 +1,67 @@
+site_name: Abilian Innovation Lab
+
+#theme:
+#  name: material
+#  # custom_dir: theme
+#  logo: assets/logo.svg
+#  favicon: assets/img/layout/favicon.ico
+#  icon:
+#    repo: fontawesome/brands/github
+#  font: false
+#  features:
+#    - navigation.tracking
+#    - navigation.tabs
+#    - navigation.sections
+#  palette:
+#    - media: "(prefers-color-scheme: light)"
+#      scheme: default
+#      accent: deep purple
+#      toggle:
+#        icon: material/toggle-switch-off-outline
+#        name: Switch to dark mode
+#    - media: "(prefers-color-scheme: dark)"
+#      scheme: slate
+#      accent: deep purple
+#      toggle:
+#        icon: material/toggle-switch
+#        name: Switch to light mode
+
+theme:
+  name: material
+  custom_dir: theme
+  icon:
+    logo: material/book-open-page-variant
+#  palette:
+#    scheme: dracula
+#    primary: deep purple
+#    accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+#  pymdownx:
+#    sponsor: "https://github.com/sponsors/facelessuser"
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - toc:
+      permalink: true
+  - smarty
+  - sane_lists
+  - nl2br
+  - fenced_code
+  - pymdownx.magiclink
+  - pymdownx.tasklist
+  # - pymdownx.superfences
+
+
+plugins:
+  - search
+  - roamlinks
+  - tags:
+      tags_file: tags.md
+
