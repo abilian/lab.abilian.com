@@ -11,3 +11,6 @@ sync:
 
 deploy: build
 	rsync -e ssh -avz site/ web@lab.abilian.com:/srv/web/lab.abilian.com/
+
+clean:
+	rm -rf docs site

@@ -8,8 +8,6 @@ from dataclasses import dataclass, field
 from functools import cached_property
 from pathlib import Path
 
-from devtools import debug
-
 HOME = os.environ["HOME"]
 SRC = f"{HOME}/Documents/Vaults/Notes"
 DST = "docs"
@@ -20,20 +18,21 @@ PUBLISH = [
     "Projects/Cython+",
     "Projects/Python to WASM Compiler",
     #
+    "Tech/Apps",
     "Tech/Architecture",
     "Tech/Cloud",
     "Tech/Containers",
+    "Tech/Documentation",
     "Tech/Machine Learning",
     "Tech/Modeling",
+    "Tech/Persistence",
     "Tech/Programming techniques",
+    "Tech/Programming languages",
     "Tech/Python",
     "Tech/Security",
     "Tech/Tools",
-    "Tech/Security",
-    "Tech/UX-UI",
     "Tech/Web",
     #
-    "index.md",
 ]
 
 
@@ -124,7 +123,6 @@ def main():
         page.publish()
 
     for path in Path("pages").glob("*.md"):
-        debug(path)
         shutil.copy(path, DST)
 
 
