@@ -33,7 +33,7 @@ PUBLISH = [
     "Tech/UX-UI",
     "Tech/Web",
     #
-    "index.md"
+    "index.md",
 ]
 
 
