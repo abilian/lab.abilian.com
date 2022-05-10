@@ -12,6 +12,7 @@ mkdocs-material-extensions = "^1.0.3"
 mkdocs-roamlinks-plugin = "^0.1.3"
 
 [tool.poetry.dev-dependencies]
+devtools = "^0.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

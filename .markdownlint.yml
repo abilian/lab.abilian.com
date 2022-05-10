@@ -1,0 +1,12 @@
+#default: true
+#line-length: false
+#no-inline-html: false
+#code-block-style: false
+#no-hard-tabs:
+#  spaces-per-tab: 4
+#emphasis-style:
+#  style: "asterisk"
+#no-duplicate-header: false
+#
+no-bare-urls: false
+blanks-around-lists: false

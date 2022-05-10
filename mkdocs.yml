@@ -1,40 +1,28 @@
 site_name: Abilian Innovation Lab
 
-#theme:
-#  name: material
-#  # custom_dir: theme
-#  logo: assets/logo.svg
-#  favicon: assets/img/layout/favicon.ico
-#  icon:
-#    repo: fontawesome/brands/github
-#  font: false
-#  features:
-#    - navigation.tracking
-#    - navigation.tabs
-#    - navigation.sections
-#  palette:
-#    - media: "(prefers-color-scheme: light)"
-#      scheme: default
-#      accent: deep purple
-#      toggle:
-#        icon: material/toggle-switch-off-outline
-#        name: Switch to dark mode
-#    - media: "(prefers-color-scheme: dark)"
-#      scheme: slate
-#      accent: deep purple
-#      toggle:
-#        icon: material/toggle-switch
-#        name: Switch to light mode
+# docs_dir: docs/notes
 
 theme:
   name: material
   custom_dir: theme
   icon:
     logo: material/book-open-page-variant
-#  palette:
-#    scheme: dracula
-#    primary: deep purple
-#    accent: deep purple
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -42,11 +30,10 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.instant
-#  pymdownx:
-#    sponsor: "https://github.com/sponsors/facelessuser"
 
 # Extensions
 markdown_extensions:
+  - meta
   - footnotes
   - toc:
       permalink: true
@@ -58,10 +45,14 @@ markdown_extensions:
   - pymdownx.tasklist
   # - pymdownx.superfences
 
-
 plugins:
   - search
   - roamlinks
   - tags:
       tags_file: tags.md
 
+#nav:
+#  - Home: index.md
+#  - Tech
+#  - Projects
+#  - Tags: tags.md
