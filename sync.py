@@ -30,7 +30,7 @@ PUBLISH = [
     "Tech/Programming languages",
     "Tech/Python",
     "Tech/Security",
-    "Tech/Tools",
+    # "Tech/Tools",
     "Tech/Web",
     #
 ]
@@ -55,6 +55,9 @@ class Page:
 
         if "#private" in self.src_content:
             return False
+
+        if "#public" in self.src_content:
+            return True
 
         for publish in PUBLISH:
             if str(self.rel_path).startswith(publish):
