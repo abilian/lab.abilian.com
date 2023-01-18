@@ -44,14 +44,9 @@ class Page:
     tags: list = field(default_factory=list)
 
     def is_public(self):
-        keep = True
         for ignored in IGNORED:
             if f"/{ignored}/" in str(self.rel_path):
-                keep = False
-                break
-
-        if not keep:
-            return False
+                return False
 
         if "#private" in self.src_content:
             return False

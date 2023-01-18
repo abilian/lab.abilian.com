@@ -8,7 +8,7 @@ Welcome to the Abilian Innovation Lab!
 
 ### Ongoing
 
-[Nua](./Projects/NUA/00 NUA) - Nua streamlines the development, selection, installation and resilient operation of web applications in a self-hosted cloud environment.
+[Nua](./Projects/NUA/00 NUA/) - Nua streamlines the development, selection, installation and resilient operation of web applications in a self-hosted cloud environment.
 
 [Python to WASM Compiler](./Projects/Python to WASM Compiler/Python to WASM Compiler/).
 
