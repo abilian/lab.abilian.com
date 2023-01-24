@@ -10,7 +10,7 @@ sync:
 	python sync.py
 
 deploy: build
-	rsync -e ssh -avz site/ web@lab.abilian.com:/srv/web/lab.abilian.com/
+	rsync -e ssh --delete-after -avz site/ web@lab.abilian.com:/srv/web/lab.abilian.com/
 
 clean:
 	rm -rf docs site
