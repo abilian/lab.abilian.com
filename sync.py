@@ -33,6 +33,7 @@ PUBLISH = [
     # "Tech/Tools",
     "Tech/Web",
     #
+    "Cheat Sheets",
 ]
 
 
