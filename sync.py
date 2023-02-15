@@ -30,7 +30,7 @@ PUBLISH = [
     "Tech/Programming languages",
     "Tech/Python",
     "Tech/Security",
-    # "Tech/Tools",
+    "Tech/Tools",
     "Tech/Web",
     #
     "Cheat Sheets",
