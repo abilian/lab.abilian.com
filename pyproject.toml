@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Stefane Fermigier <sf@abilian.com>"]
 
+packages = [
+    { include = "lab", from = "src" },
+]
+
 [tool.poetry.dependencies]
 python = "^3.10"
 mkdocs = "^1.4.2"
@@ -11,8 +15,14 @@ mkdocs-material = "^9.0.12"
 mkdocs-material-extensions = "^1.1.1"
 mkdocs-roamlinks-plugin = "^0.2.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
+abilian-devtools = "^0.4.11"
 devtools = "^0.10.0"
+
+
+[tool.poetry.plugins."mkdocs.plugins"]
+lab = "lab.plugin:MyPlugin"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

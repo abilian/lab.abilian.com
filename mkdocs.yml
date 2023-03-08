@@ -46,6 +46,7 @@ markdown_extensions:
   # - pymdownx.superfences
 
 plugins:
+  - lab
   - search
   - roamlinks
   - tags:
@@ -53,6 +54,7 @@ plugins:
 
 #nav:
 #  - Home: index.md
-#  - Tech
 #  - Projects
+#  - Tech
+#  - Cheat Sheets
 #  - Tags: tags.md

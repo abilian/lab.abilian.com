@@ -76,36 +76,36 @@ class Page:
     def publish(self):
         self.dst_path.parent.mkdir(parents=True, exist_ok=True)
 
-        content = self.make_content()
+        content = self.src_content
         self.dst_path.open("w").write(content)
 
-    def make_content(self) -> str:
-        title = ""
-        src_lines = self.src_content.split("\n")
-        result = []
-        for line in src_lines:
-            tags = re.findall(r"^#([\w-]+)", line) + re.findall(r"\s#([\w-]+)", line)
-            if tags:
-                for tag in tags:
-                    self.tags.append(tag)
-            else:
-                result.append(line)
-
-        title = ""
-        for line in src_lines:
-            if m := re.match("# (\S.*)$", line):
-                title = m.group(1)
-                break
-
-        if not title:
-            title = self.dst_path.name[0 : -len(".md")]
-            result = [f"# {title}", ""] + result
-
-        if self.tags:
-            tag_line = json.dumps(self.tags)
-            result = ["---", f"tags: {tag_line}", "---"] + result
-
-        return "\n".join(result)
+    # def make_content(self) -> str:
+    #     title = ""
+    #     src_lines = self.src_content.split("\n")
+    #     result = []
+    #     for line in src_lines:
+    #         tags = re.findall(r"^#([\w-]+)", line) + re.findall(r"\s#([\w-]+)", line)
+    #         if tags:
+    #             for tag in tags:
+    #                 self.tags.append(tag)
+    #         else:
+    #             result.append(line)
+    #
+    #     title = ""
+    #     for line in src_lines:
+    #         if m := re.match("# (\S.*)$", line):
+    #             title = m.group(1)
+    #             break
+    #
+    #     if not title:
+    #         title = self.dst_path.name[0 : -len(".md")]
+    #         result = [f"# {title}", ""] + result
+    #
+    #     if self.tags:
+    #         tag_line = json.dumps(self.tags)
+    #         result = ["---", f"tags: {tag_line}", "---"] + result
+    #
+    #     return "\n".join(result)
 
 
 def main():
