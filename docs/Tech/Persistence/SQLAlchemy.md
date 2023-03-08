@@ -1,0 +1,4 @@
+## Reverse engineering
+
+Use `sqlacodegen`.
+
