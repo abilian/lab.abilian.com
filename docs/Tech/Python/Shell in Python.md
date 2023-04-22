@@ -6,6 +6,9 @@
 * [Shelmet](https://github.com/dgilland/shelmet): promising but no background tasks [[Shelmet]]
 * https://domonic.readthedocs.io/packages/terminal.html
 * https://pypi.org/project/shellby/
+- https://github.com/KonishchevDmitry/psh = Process management library
+- https://github.com/Ovsyanka83/pysh/ = A library of small functions that simplify scripting in python
+
 
 ## Shell -> Python converter / compilier
 - https://www.swag.uwaterloo.ca/bash2py/index.html
