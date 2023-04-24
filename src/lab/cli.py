@@ -2,6 +2,7 @@ import argparse
 import importlib.metadata
 import sys
 
+from .changelog import ChangeLog
 from .sync import sync
 
 VERSION = importlib.metadata.version("lab.abilian.com")
@@ -27,12 +28,16 @@ def main():
     )
     parser.add_argument(
         "command",
-        help="Command to run (sync)",
+        help="Command to run (sync, map...)",
     )
 
     args = parser.parse_args(sys.argv[1:])
-    if args.command == "sync":
-        sync()
+    match args.command:
+        case "sync":
+            sync()
+        case "changelog":
+            changelog = ChangeLog("docs/changelog.md")
+            changelog.process()
 
 
 if __name__ == "__main__":

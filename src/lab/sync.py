@@ -120,4 +120,3 @@ def sync():
 
     for path in Path("pages").glob("*.md"):
         shutil.copy(path, DST)
-

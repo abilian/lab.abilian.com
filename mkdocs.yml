@@ -52,6 +52,7 @@ plugins:
   - tags:
       tags_file: tags.md
 
+
 #nav:
 #  - Home: index.md
 #  - Projects

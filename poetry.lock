@@ -73,6 +73,21 @@ files = [
 test = ["coverage", "mypy", "pexpect", "ruff", "wheel"]
 
 [[package]]
+name = "arrow"
+version = "1.2.3"
+description = "Better dates & times for Python"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "arrow-1.2.3-py3-none-any.whl", hash = "sha256:5a49ab92e3b7b71d96cd6bfcc4df14efefc9dfa96ea19045815914a6ab6b1fe2"},
+    {file = "arrow-1.2.3.tar.gz", hash = "sha256:3934b30ca1b9f292376d9db15b19446088d12ec58629bc3f0da28fd55fb633a1"},
+]
+
+[package.dependencies]
+python-dateutil = ">=2.7.0"
+
+[[package]]
 name = "asttokens"
 version = "2.2.1"
 description = "Annotate AST trees with source code positions"
@@ -331,6 +346,21 @@ files = [
     {file = "charset_normalizer-3.1.0-cp39-cp39-win_amd64.whl", hash = "sha256:830d2948a5ec37c386d3170c483063798d7879037492540f10a475e3fd6f244b"},
     {file = "charset_normalizer-3.1.0-py3-none-any.whl", hash = "sha256:3d9098b479e78c85080c98e1e35ff40b4a31d8953102bb0fd7d1b6f8a2111a3d"},
 ]
+
+[[package]]
+name = "cheap-repr"
+version = "0.5.1"
+description = "Better version of repr/reprlib for short, cheap string representations."
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "cheap_repr-0.5.1-py2.py3-none-any.whl", hash = "sha256:30096998aeb49367a4a153988d7a99dce9dc59bbdd4b19740da6b4f3f97cf2ff"},
+    {file = "cheap_repr-0.5.1.tar.gz", hash = "sha256:31ec63b9d8394aa23d746c8376c8307f75f9fca0b983566b8bcf13cc661fe6dd"},
+]
+
+[package.extras]
+tests = ["Django", "Django (<2)", "Django (<3)", "chainmap", "numpy (>=1.16.3)", "numpy (>=1.16.3,<1.17)", "numpy (>=1.16.3,<1.19)", "pandas (>=0.24.2)", "pandas (>=0.24.2,<0.25)", "pandas (>=0.24.2,<0.26)", "pytest"]
 
 [[package]]
 name = "click"
@@ -2290,6 +2320,28 @@ files = [
 ]
 
 [[package]]
+name = "snoop"
+version = "0.4.3"
+description = "Powerful debugging tools for Python"
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "snoop-0.4.3-py2.py3-none-any.whl", hash = "sha256:b7418581889ff78b29d9dc5ad4625c4c475c74755fb5cba82c693c6e32afadc0"},
+    {file = "snoop-0.4.3.tar.gz", hash = "sha256:2e0930bb19ff0dbdaa6f5933f88e89ed5984210ea9f9de0e1d8231fa5c1c1f25"},
+]
+
+[package.dependencies]
+asttokens = "*"
+cheap-repr = ">=0.4.0"
+executing = "*"
+pygments = "*"
+six = "*"
+
+[package.extras]
+tests = ["Django", "birdseye", "littleutils", "numpy (>=1.16.5)", "pandas (>=0.24.2)", "pprintpp", "prettyprinter", "pytest", "pytest-order", "pytest-order (<=0.11.0)"]
+
+[[package]]
 name = "sortedcontainers"
 version = "2.4.0"
 description = "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set"
@@ -2519,4 +2571,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f673b375b70d74fa8060ece786a475636137c4dd551e0ced5a4faa1a4e3638d2"
+content-hash = "bfdcc0fb3d1201eabd5007ff0256203e8c7a029e59198e95ab4affdb93826eee"

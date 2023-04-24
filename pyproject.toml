@@ -14,10 +14,12 @@ mkdocs = "^1.4.2"
 mkdocs-material = "^9.1.7"
 mkdocs-material-extensions = "^1.1.1"
 mkdocs-roamlinks-plugin = "^0.2.0"
+arrow = "^1.2.3"
 
 [tool.poetry.group.dev.dependencies]
 abilian-devtools = "^0.4.18"
 devtools = "^0.10.0"
+snoop = "^0.4.3"
 
 
 [tool.poetry.scripts]
