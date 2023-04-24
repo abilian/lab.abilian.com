@@ -3,7 +3,6 @@ import re
 import time
 
 import mkdocs
-from devtools import debug
 from mkdocs.plugins import BasePlugin
 
 from lab.git import get_git_commit_timestamp
