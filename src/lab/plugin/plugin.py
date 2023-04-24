@@ -5,7 +5,7 @@ import time
 import mkdocs
 from mkdocs.plugins import BasePlugin
 
-from lab.git import get_git_commit_timestamp
+from .git import get_git_commit_timestamp
 
 log = logging.getLogger(f"mkdocs.plugins.{__name__}")
 log.addFilter(mkdocs.utils.warning_filter)

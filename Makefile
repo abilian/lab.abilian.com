@@ -7,7 +7,7 @@ build: sync
 	mkdocs build
 
 sync:
-	python sync.py
+	lab sync
 
 deploy: build
 	rsync -e ssh --delete-after -avz site/ web@lab.abilian.com:/srv/web/lab.abilian.com/

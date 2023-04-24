@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-
-import json
 import os
-import re
 import shutil
 from dataclasses import dataclass, field
 from functools import cached_property
@@ -108,7 +105,7 @@ class Page:
     #     return "\n".join(result)
 
 
-def main():
+def sync():
     if Path(DST).exists():
         shutil.rmtree(DST)
     os.makedirs(DST)
@@ -124,6 +121,3 @@ def main():
     for path in Path("pages").glob("*.md"):
         shutil.copy(path, DST)
 
-
-if __name__ == "__main__":
-    main()

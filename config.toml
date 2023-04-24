@@ -1,0 +1,31 @@
+[lab]
+SRC = "~/Documents/Vaults/Notes"
+DST = "docs"
+
+IGNORED = [
+    ".git",
+    ".obsidian",
+    ".DS_Store"
+]
+
+PUBLISH = [
+    "Projects/Cython+",
+    "Projects/Python to WASM Compiler",
+    #
+    "Tech/Apps",
+    "Tech/Architecture",
+    "Tech/Cloud",
+    "Tech/Containers",
+    "Tech/Documentation",
+    "Tech/Machine Learning",
+    "Tech/Modeling",
+    "Tech/Persistence",
+    "Tech/Programming techniques",
+    "Tech/Programming languages",
+    "Tech/Python",
+    "Tech/Security",
+    "Tech/Tools",
+    "Tech/Web",
+    #
+    "Cheat Sheets",
+]

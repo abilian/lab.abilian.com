@@ -20,6 +20,9 @@ abilian-devtools = "^0.4.18"
 devtools = "^0.10.0"
 
 
+[tool.poetry.scripts]
+lab = "lab.cli:main"
+
 [tool.poetry.plugins."mkdocs.plugins"]
 lab = "lab.plugin:MyPlugin"
 
