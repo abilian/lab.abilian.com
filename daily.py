@@ -19,6 +19,7 @@ def main():
     run("git", "add", "docs")
     run("git", "commit", "-a", "-m", "Update content")
     poetry_run("make", "deploy")
+    run("git", "push")
 
 
 if __name__ == "__main__":
