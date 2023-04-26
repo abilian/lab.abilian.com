@@ -1,6 +1,8 @@
-#!/usr/bin/env python3.11
+#!/usr/bin/env python3
 
 import subprocess as sp
+from os import chdir
+from pathlib import Path
 
 POETRY = "/Users/fermigier/.local/bin/poetry"
 
@@ -14,6 +16,7 @@ def poetry_run(*args):
 
 
 def main():
+    chdir(Path(__file__).parent)
     run("make", "clean")
     poetry_run("make", "sync")
     run("git", "add", "docs")
