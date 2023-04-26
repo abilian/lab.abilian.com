@@ -1,5 +1,6 @@
 
 ## General
+
 - https://datalog.sourceforge.net/datalog.html
 
 
@@ -13,14 +14,18 @@
     - https://rabraham.github.io/mercylog/intro.html
 
 ## In Lua
+
 - https://github.com/ramsdell/datalog
 
 ### In Java
+
 - https://github.com/HarvardPL/AbcDatalog
 
 ### In Clojure
+
 - https://tonsky.me/blog/datascript-2/
 
 ### See also
+
 - https://logica.dev/
 - Yedalog

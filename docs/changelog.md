@@ -12,8 +12,6 @@
 
 - [Argparse](/Tech/Python/CLI/Argparse/) (2023-04-26)
 
-- [Typst](/Tech/Typst/) (2023-04-24)
-
 - [(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/) (2023-04-24)
 
 - [Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/) (2023-04-24)
