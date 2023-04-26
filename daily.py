@@ -5,8 +5,8 @@ import subprocess as sp
 POETRY = "/Users/fermigier/.local/bin/poetry"
 
 
-def run(*args):
-    sp.run(args, check=True)
+def run(*args, check=True):
+    sp.run(args, check=check)
 
 
 def poetry_run(*args):
@@ -17,7 +17,7 @@ def main():
     run("make", "clean")
     poetry_run("make", "sync")
     run("git", "add", "docs")
-    run("git", "commit", "-a", "-m", "Update content")
+    run("git", "commit", "-a", "-m", "Update content", check=False)
     poetry_run("make", "deploy")
     run("git", "push")
 
