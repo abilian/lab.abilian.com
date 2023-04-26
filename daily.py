@@ -23,7 +23,7 @@ def main():
     run("make", "clean")
     poetry_run("make", "sync")
     run("git", "add", "docs")
-    run("git", "commit", "-a", "-m", "Update content", check=False)
+    run("git", "commit", "-m", "Update content", check=False)
     poetry_run("make", "deploy")
     run("git", "push")
 
