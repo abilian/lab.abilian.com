@@ -1,9 +1,14 @@
-.PHONY: run build sync
+.PHONY: run build sync deploy clean
 
-run: sync
+run:
+	lab sync
+	lab changelog
+	mkdocs build
 	mkdocs serve
 
-build: sync
+build:
+	lab sync
+	lab changelog
 	mkdocs build
 
 sync:
