@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
+import os
 import subprocess as sp
 from os import chdir
 from pathlib import Path
 
-POETRY = "/Users/fermigier/.local/bin/poetry"
+
+HOME = os.environ["HOME"]
+POETRY = f"{HOME}/.local/bin/poetry"
 
 
 def run(*args, check=True):
