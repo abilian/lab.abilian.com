@@ -10,6 +10,8 @@
 
 - [Python CLI](/Tech/Python/CLI/Python CLI/) (2023-04-26)
 
+- [Argparse](/Tech/Python/CLI/Argparse/) (2023-04-26)
+
 - [Typst](/Tech/Typst/) (2023-04-24)
 
 - [(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/) (2023-04-24)
@@ -23,8 +25,6 @@
 - [Python & WASM](/Tech/Python/Python & WASM/) (2023-04-22)
 
 - [CLI in Python](/Tech/Python/CLI/CLI in Python/) (2023-04-22)
-
-- [Argparse](/Tech/Python/CLI/Argparse/) (2023-04-22)
 
 - [Time series databases](/Tech/Cloud/Time series databases/) (2023-04-22)
 
