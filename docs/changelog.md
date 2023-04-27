@@ -2,6 +2,20 @@
 
 ## Recent changes (last 7 days)
 
+- [Monorepos](/Tech/Tools/Monorepos/) (2023-04-26)
+
+- [Automation](/Tech/Tools/Automation/) (2023-04-26)
+
+- [Typst](/Tech/Text composition/Typst/) (2023-04-26)
+
+- [Plugins](/Tech/Programming techniques/Plugins/) (2023-04-26)
+
+- [Zig](/Tech/Programming languages/Zig/) (2023-04-26)
+
+- [Rust](/Tech/Programming languages/Rust/) (2023-04-26)
+
+- [Datalog](/Tech/Programming languages/Datalog/) (2023-04-26)
+
 - [Task Runners](/Tech/Python/Task runners/Task Runners/) (2023-04-26)
 
 - [Invoke](/Tech/Python/Task runners/Invoke/) (2023-04-26)
@@ -86,13 +100,9 @@
 
 - [git-town](/Tech/Tools/git-town/) (2023-03-08)
 
-- [Monorepos](/Tech/Tools/Monorepos/) (2023-03-08)
-
 - [Fish](/Tech/Tools/Fish/) (2023-03-08)
 
 - [Devops](/Tech/Tools/Devops/) (2023-03-08)
-
-- [Automation](/Tech/Tools/Automation/) (2023-03-08)
 
 - [Wapiti](/Tech/Security/Wapiti/) (2023-03-08)
 
@@ -140,8 +150,6 @@
 
 - [Quick learn languages](/Tech/Programming techniques/Quick learn languages/) (2023-03-08)
 
-- [Plugins](/Tech/Programming techniques/Plugins/) (2023-03-08)
-
 - [Distributed computing](/Tech/Programming techniques/Distributed computing/) (2023-03-08)
 
 - [Compilers](/Tech/Programming techniques/Compilers/) (2023-03-08)
@@ -151,12 +159,6 @@
 - [BDD](/Tech/Programming techniques/BDD/) (2023-03-08)
 
 - [Assertions](/Tech/Programming techniques/Assertions/) (2023-03-08)
-
-- [Zig](/Tech/Programming languages/Zig/) (2023-03-08)
-
-- [Rust](/Tech/Programming languages/Rust/) (2023-03-08)
-
-- [Datalog](/Tech/Programming languages/Datalog/) (2023-03-08)
 
 - [Workday architecture](/Tech/Persistence/Workday architecture/) (2023-03-08)
 
