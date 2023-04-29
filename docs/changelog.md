@@ -30,6 +30,10 @@
 
 - [Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/) (2023-04-24)
 
+
+
+## Changed last 30 to 7 days
+
 - [Templating](/Tech/Web/Web (back-end)/Templating/) (2023-04-22)
 
 - [Shell in Python](/Tech/Python/Shell in Python/) (2023-04-22)
