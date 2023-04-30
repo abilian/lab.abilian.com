@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- [Python](/Tech/Python/Python/) (2023-04-29)
+
+- [Prefect](/Tech/Python/Prefect/) (2023-04-29)
+
+- [Apache Airflow](/Tech/Python/Apache Airflow/) (2023-04-29)
+
 - [Monorepos](/Tech/Tools/Monorepos/) (2023-04-26)
 
 - [Automation](/Tech/Tools/Automation/) (2023-04-26)
