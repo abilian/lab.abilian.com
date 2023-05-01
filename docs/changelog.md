@@ -32,13 +32,13 @@
 
 - [Argparse](/Tech/Python/CLI/Argparse/) (2023-04-26)
 
-- [(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/) (2023-04-24)
-
-- [Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/) (2023-04-24)
-
 
 
 ## Changed last 30 to 7 days
+
+- [(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/) (2023-04-24)
+
+- [Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/) (2023-04-24)
 
 - [Templating](/Tech/Web/Web (back-end)/Templating/) (2023-04-22)
 
