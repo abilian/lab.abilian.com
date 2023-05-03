@@ -22,6 +22,10 @@
 
 - [Datalog](/Tech/Programming languages/Datalog/) (2023-04-26)
 
+
+
+## Changed last 30 to 7 days
+
 - [Task Runners](/Tech/Python/Task runners/Task Runners/) (2023-04-26)
 
 - [Invoke](/Tech/Python/Task runners/Invoke/) (2023-04-26)
@@ -31,10 +35,6 @@
 - [Python CLI](/Tech/Python/CLI/Python CLI/) (2023-04-26)
 
 - [Argparse](/Tech/Python/CLI/Argparse/) (2023-04-26)
-
-
-
-## Changed last 30 to 7 days
 
 - [(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/) (2023-04-24)
 
