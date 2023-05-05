@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- [Docker](/Tech/Containers/Docker/) (2023-05-04)
+
 - [Load testing](/Tech/Web/Load testing/) (2023-05-03)
 
 - [Python](/Tech/Python/Python/) (2023-04-29)
@@ -205,8 +207,6 @@
 - [Modus Continens](/Tech/Containers/Modus Continens/) (2023-03-08)
 
 - [Kubernetes](/Tech/Containers/Kubernetes/) (2023-03-08)
-
-- [Docker](/Tech/Containers/Docker/) (2023-03-08)
 
 - [Containers](/Tech/Containers/Containers/) (2023-03-08)
 
