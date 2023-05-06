@@ -8,6 +8,42 @@
 
 - [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-06)
 
+- [Effective software development](/Tech/Software Engineering/Effective software development/) (2023-05-06)
+
+- [Design Patterns](/Tech/Software Engineering/Design Patterns/) (2023-05-06)
+
+- [Refactoring for Software Design Smells - Managing Technical Debt (2014)](/Tech/Software Engineering/Books/Refactoring for Software Design Smells - Managing Technical Debt (2014)/) (2023-05-06)
+
+- [Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/) (2023-05-06)
+
+- [A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/) (2023-05-06)
+
+- [Questions](/Tech/FOSS/Questions/) (2023-05-06)
+
+- [Principles and Values](/Tech/FOSS/Principles and Values/) (2023-05-06)
+
+- [Yoshai Benkler](/Tech/FOSS/People/Yoshai Benkler/) (2023-05-06)
+
+- [Stefane Fermigier](/Tech/FOSS/People/Stefane Fermigier/) (2023-05-06)
+
+- [Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/) (2023-05-06)
+
+- [Richard Stallman](/Tech/FOSS/People/Richard Stallman/) (2023-05-06)
+
+- [Lawrence Lessig](/Tech/FOSS/People/Lawrence Lessig/) (2023-05-06)
+
+- [Eric von Hippel](/Tech/FOSS/People/Eric von Hippel/) (2023-05-06)
+
+- [Eric Raymond](/Tech/FOSS/People/Eric Raymond/) (2023-05-06)
+
+- [Eben Moeglen](/Tech/FOSS/People/Eben Moeglen/) (2023-05-06)
+
+- [FOSS as a Software Development Model](/Tech/FOSS/FOSS as a Software Development Model/) (2023-05-06)
+
+- [FOSS Definitions](/Tech/FOSS/FOSS Definitions/) (2023-05-06)
+
+- [Digital Commons](/Tech/FOSS/Digital Commons/) (2023-05-06)
+
 - [Values](/Business/Values/) (2023-05-06)
 
 - [Business Insight](/Business/Management Competencies/Business Insight/) (2023-05-06)
@@ -20,6 +56,8 @@
 
 - [Accountability](/Business/Management Competencies/Accountability/) (2023-05-06)
 
+- [00 Business](/Business/00 Business/) (2023-05-06)
+
 - [Typst](/Tech/Text composition/Typst/) (2023-05-06)
 
 - [00 Technology](/Tech/00 Technology/) (2023-05-06)
@@ -27,8 +65,6 @@
 - [Retrospectives](/Business/Retrospectives/) (2023-05-06)
 
 - [Outcome over output](/Business/Outcome over output/) (2023-05-06)
-
-- [00 Business](/Business/00 Business/) (2023-05-06)
 
 - [Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/) (2023-05-06)
 
