@@ -1,6 +1,6 @@
 ## References
 
-
+[Design Patterns in Python for the Untrained Eye](https://arielortiz.info/s201911/pycon2019/docs/design_patterns.html) (Tutorial @ [PyCon USA 2019](https://us.pycon.org/2019/schedule/presentation/83/). May 1, 2019. Cleveland, OH. U.S.A.)
 
 ## Tayloring the classic design patterns to Python
 

@@ -2,11 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- [Zig](/Tech/Programming Languages/Zig/) (2023-05-06)
+- [Copywriting](/Business/Marketing/Copywriting/) (2023-05-06)
 
-- [Rust](/Tech/Programming Languages/Rust/) (2023-05-06)
-
-- [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-06)
+- [Innovation](/Tech/FOSS/Innovation/) (2023-05-06)
 
 - [Effective software development](/Tech/Software Engineering/Effective software development/) (2023-05-06)
 
