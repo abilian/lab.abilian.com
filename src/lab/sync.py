@@ -1,39 +1,47 @@
 #!/usr/bin/env python3
 import os
 import shutil
+import tomllib
 from dataclasses import dataclass, field
 from functools import cached_property
 from pathlib import Path
 
+CONFIG = tomllib.load(open("config.toml", "rb"))
+
 HOME = os.environ["HOME"]
-SRC = f"{HOME}/Documents/Vaults/Notes"
-DST = "docs"
 
-IGNORED = {".git", ".obsidian", ".DS_Store"}
+# SRC = f"{HOME}/Documents/Vaults/Notes"
+SRC = CONFIG["src"].format(HOME=HOME)
+DST = CONFIG["dst"]
+PUBLISH = CONFIG["publish"]
+IGNORED = CONFIG["ignored"]
 
-PUBLISH = [
-    "Business",
-    #
-    "Projects/Cython+",
-    "Projects/Python to WASM Compiler",
-    #
-    "Tech/Apps",
-    "Tech/Architecture",
-    "Tech/Cloud",
-    "Tech/Containers",
-    "Tech/Documentation",
-    "Tech/Machine Learning",
-    "Tech/Modeling",
-    "Tech/Persistence",
-    "Tech/Programming techniques",
-    "Tech/Programming languages",
-    "Tech/Python",
-    "Tech/Security",
-    "Tech/Tools",
-    "Tech/Web",
-    #
-    "Cheat Sheets",
-]
+
+# PUBLISH = [
+#     "Business",
+#     #
+#     "Projects/Cython+",
+#     "Projects/Python to WASM Compiler",
+#     #
+#     "Tech/Apps",
+#     "Tech/Architecture",
+#     "Tech/Cloud",
+#     "Tech/Containers",
+#     "Tech/Documentation",
+#     "Tech/FOSS",
+#     "Tech/Machine Learning",
+#     "Tech/Modeling",
+#     "Tech/Persistence",
+#     "Tech/Programming Techniques",
+#     "Tech/Programming Languages",
+#     "Tech/Python",
+#     "Tech/Security",
+#     "Tech/Software Engineering",
+#     "Tech/Tools",
+#     "Tech/Web",
+#     #
+#     "Cheat Sheets",
+# ]
 
 
 @dataclass

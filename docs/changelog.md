@@ -2,17 +2,37 @@
 
 ## Recent changes (last 7 days)
 
+- [Zig](/Tech/Programming Languages/Zig/) (2023-05-06)
+
+- [Rust](/Tech/Programming Languages/Rust/) (2023-05-06)
+
+- [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-06)
+
+- [Values](/Business/Values/) (2023-05-06)
+
+- [Business Insight](/Business/Management Competencies/Business Insight/) (2023-05-06)
+
+- [Attracting and Retaining Talent](/Business/Management Competencies/Attracting and Retaining Talent/) (2023-05-06)
+
+- [Ambiguity](/Business/Management Competencies/Ambiguity/) (2023-05-06)
+
+- [Action Orientation](/Business/Management Competencies/Action Orientation/) (2023-05-06)
+
+- [Accountability](/Business/Management Competencies/Accountability/) (2023-05-06)
+
+- [Typst](/Tech/Text composition/Typst/) (2023-05-06)
+
 - [00 Technology](/Tech/00 Technology/) (2023-05-06)
 
 - [Retrospectives](/Business/Retrospectives/) (2023-05-06)
+
+- [Outcome over output](/Business/Outcome over output/) (2023-05-06)
 
 - [00 Business](/Business/00 Business/) (2023-05-06)
 
 - [Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/) (2023-05-06)
 
 - [FASTEN](/Tech/Python/FASTEN/) (2023-05-06)
-
-- [Outcome over output](/Business/Outcome over output/) (2023-05-06)
 
 - [Product-led growth](/Business/Marketing/Product-led growth/) (2023-05-06)
 
@@ -35,16 +55,6 @@
 - [Monorepos](/Tech/Tools/Monorepos/) (2023-04-26)
 
 - [Automation](/Tech/Tools/Automation/) (2023-04-26)
-
-- [Typst](/Tech/Text composition/Typst/) (2023-04-26)
-
-- [Plugins](/Tech/Programming techniques/Plugins/) (2023-04-26)
-
-- [Zig](/Tech/Programming languages/Zig/) (2023-04-26)
-
-- [Rust](/Tech/Programming languages/Rust/) (2023-04-26)
-
-- [Datalog](/Tech/Programming languages/Datalog/) (2023-04-26)
 
 - [Task Runners](/Tech/Python/Task runners/Task Runners/) (2023-04-26)
 
@@ -175,20 +185,6 @@
 - [BlackSheep](/Tech/Python/BlackSheep/) (2023-03-08)
 
 - [Better Python](/Tech/Python/Better Python/) (2023-03-08)
-
-- [Rule-based programming](/Tech/Programming techniques/Rule-based programming/) (2023-03-08)
-
-- [Quick learn languages](/Tech/Programming techniques/Quick learn languages/) (2023-03-08)
-
-- [Distributed computing](/Tech/Programming techniques/Distributed computing/) (2023-03-08)
-
-- [Compilers](/Tech/Programming techniques/Compilers/) (2023-03-08)
-
-- [Code generation](/Tech/Programming techniques/Code generation/) (2023-03-08)
-
-- [BDD](/Tech/Programming techniques/BDD/) (2023-03-08)
-
-- [Assertions](/Tech/Programming techniques/Assertions/) (2023-03-08)
 
 - [Workday architecture](/Tech/Persistence/Workday architecture/) (2023-03-08)
 

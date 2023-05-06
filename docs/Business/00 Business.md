@@ -4,5 +4,7 @@ In this section, you'll find short or long notes covering various aspects of bus
 
 Currently our focus is on:
 
-- [Knowledge management](/Business/Knowledge%20Management/Is%20knowledge%20management%20dead%20%28or%20dying%29%3F/)
+- [[Accountability|Management Competencies]]
+- [Knowledge Management](/Business/Knowledge%20Management/Is%20knowledge%20management%20dead%20%28or%20dying%29%3F/)
 - [[Product-led growth|Marketing]]
+- [[Business/Values]] as a mean of value creation and talent acquisition

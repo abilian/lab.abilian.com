@@ -1,14 +1,16 @@
-[lab]
-SRC = "~/Documents/Vaults/Notes"
-DST = "docs"
+#[lab]
+src = "{HOME}/Documents/Vaults/Notes"
+dst = "docs"
 
-IGNORED = [
+ignored = [
     ".git",
     ".obsidian",
     ".DS_Store"
 ]
 
-PUBLISH = [
+publish = [
+    "Business",
+    #
     "Projects/Cython+",
     "Projects/Python to WASM Compiler",
     #
@@ -17,13 +19,15 @@ PUBLISH = [
     "Tech/Cloud",
     "Tech/Containers",
     "Tech/Documentation",
+    "Tech/FOSS",
     "Tech/Machine Learning",
     "Tech/Modeling",
     "Tech/Persistence",
-    "Tech/Programming techniques",
-    "Tech/Programming languages",
+    "Tech/Programming Techniques",
+    "Tech/Programming Languages",
     "Tech/Python",
     "Tech/Security",
+    "Tech/Software Engineering",
     "Tech/Tools",
     "Tech/Web",
     #

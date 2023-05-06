@@ -1,0 +1,3 @@
+Eben Moglen is an accomplished attorney, professor, and advocate for free and open-source software (FOSS). As a long-time advisor to the Free Software Foundation, he has contributed significantly to the development of guidelines and principles related to intellectual property rights (IPR) in the context of open-source software.
+
+Moglen's Law suggests that **the focus should be on removing frictions rather than creating incentives in the realm of open-source software**. By minimizing legal, social, and technological barriers, the natural creativity and collaboration of individuals and organizations can be unleashed, thereby fostering innovation.
