@@ -2,6 +2,16 @@
 
 ## Recent changes (last 7 days)
 
+- [Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/) (2023-05-06)
+
+- [FASTEN](/Tech/Python/FASTEN/) (2023-05-06)
+
+- [Outcome over output](/Business/Outcome over output/) (2023-05-06)
+
+- [Product-led growth](/Business/Marketing/Product-led growth/) (2023-05-06)
+
+- [Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/) (2023-05-06)
+
 - [Docker](/Tech/Containers/Docker/) (2023-05-04)
 
 - [Load testing](/Tech/Web/Load testing/) (2023-05-03)

@@ -12,6 +12,8 @@ DST = "docs"
 IGNORED = {".git", ".obsidian", ".DS_Store"}
 
 PUBLISH = [
+    "Business",
+    #
     "Projects/Cython+",
     "Projects/Python to WASM Compiler",
     #
@@ -47,6 +49,9 @@ class Page:
                 return False
 
         if "#private" in self.src_content:
+            return False
+
+        if "#draft" in self.src_content:
             return False
 
         if "#public" in self.src_content:
