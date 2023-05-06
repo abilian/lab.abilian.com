@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- [00 Technology](/Tech/00 Technology/) (2023-05-06)
+
+- [Retrospectives](/Business/Retrospectives/) (2023-05-06)
+
+- [00 Business](/Business/00 Business/) (2023-05-06)
+
 - [Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/) (2023-05-06)
 
 - [FASTEN](/Tech/Python/FASTEN/) (2023-05-06)

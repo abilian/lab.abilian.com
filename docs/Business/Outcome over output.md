@@ -1,5 +1,7 @@
 The outcome matters more than output, especially in the context of software development and product management. Let's break down the difference between the two and why focusing on the outcome is more important.
 
+## Outcome vs. output
+
 **Output** refers to the tangible results or deliverables produced during a project, such as lines of code, features implemented, or the number of tasks completed. Output is often easier to measure and track, which is why it is commonly used as a metric for evaluating productivity.
 
 **Outcome**, on the other hand, is the impact or value that the output generates. It refers to the desired end result, such as increased revenue, improved user experience, or reduced costs. The outcome is more closely aligned with an organization's goals and objectives.
@@ -26,7 +28,7 @@ Designing organizational processes that prioritize outcomes over outputs can hel
 
 7. **Measure and track progress**: Use outcome-based metrics, such as customer satisfaction, user engagement, or revenue growth, to evaluate the success of projects and initiatives. Regularly review and communicate these metrics to keep the focus on outcomes and drive continuous improvement.
 
-8. **Review and adapt**: Hold regular retrospectives to assess the effectiveness of the organizational processes and make necessary adjustments to improve the focus on outcomes.
+8. **Review and adapt**: Hold regular [[Retrospectives|retrospectives]] to assess the effectiveness of the organizational processes and make necessary adjustments to improve the focus on outcomes.
 
 9. **Recognize and reward outcome-focused behavior**: Celebrate successes and recognize team members who demonstrate a strong focus on outcomes. This can help to reinforce the importance of prioritizing outcomes and encourage others to adopt a similar mindset.
 
