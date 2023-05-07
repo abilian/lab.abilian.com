@@ -2,13 +2,37 @@
 
 ## Recent changes (last 7 days)
 
+- [Zig](/Tech/Programming Languages/Zig/) (2023-05-07)
+
+- [Rust](/Tech/Programming Languages/Rust/) (2023-05-07)
+
+- [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-07)
+
+- [Values](/Business/Principles/Values/) (2023-05-07)
+
+- [Outcome over output](/Business/Principles/Outcome over output/) (2023-05-07)
+
+- [Retrospectives](/Business/Practices/Retrospectives/) (2023-05-07)
+
+- [W. Edwards Deming](/Business/Authors/W. Edwards Deming/) (2023-05-07)
+
+- [Robert I. Sutton](/Business/Authors/Robert I. Sutton/) (2023-05-07)
+
+- [Peter Drucker](/Business/Authors/Peter Drucker/) (2023-05-07)
+
+- [Geoffrey Moore](/Business/Authors/Geoffrey Moore/) (2023-05-07)
+
+- [Andy Grove](/Business/Authors/Andy Grove/) (2023-05-07)
+
+- [Design Patterns](/Tech/Software Engineering/Design Patterns/) (2023-05-06)
+
+- [Linus Torvalds](/Tech/FOSS/People/Linus Torvalds/) (2023-05-06)
+
 - [Copywriting](/Business/Marketing/Copywriting/) (2023-05-06)
 
 - [Innovation](/Tech/FOSS/Innovation/) (2023-05-06)
 
 - [Effective software development](/Tech/Software Engineering/Effective software development/) (2023-05-06)
-
-- [Design Patterns](/Tech/Software Engineering/Design Patterns/) (2023-05-06)
 
 - [Refactoring for Software Design Smells - Managing Technical Debt (2014)](/Tech/Software Engineering/Books/Refactoring for Software Design Smells - Managing Technical Debt (2014)/) (2023-05-06)
 
@@ -42,8 +66,6 @@
 
 - [Digital Commons](/Tech/FOSS/Digital Commons/) (2023-05-06)
 
-- [Values](/Business/Values/) (2023-05-06)
-
 - [Business Insight](/Business/Management Competencies/Business Insight/) (2023-05-06)
 
 - [Attracting and Retaining Talent](/Business/Management Competencies/Attracting and Retaining Talent/) (2023-05-06)
@@ -60,10 +82,6 @@
 
 - [00 Technology](/Tech/00 Technology/) (2023-05-06)
 
-- [Retrospectives](/Business/Retrospectives/) (2023-05-06)
-
-- [Outcome over output](/Business/Outcome over output/) (2023-05-06)
-
 - [Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/) (2023-05-06)
 
 - [FASTEN](/Tech/Python/FASTEN/) (2023-05-06)
@@ -76,15 +94,15 @@
 
 - [Load testing](/Tech/Web/Load testing/) (2023-05-03)
 
+
+
+## Changed last 30 to 7 days
+
 - [Python](/Tech/Python/Python/) (2023-04-29)
 
 - [Prefect](/Tech/Python/Prefect/) (2023-04-29)
 
 - [Apache Airflow](/Tech/Python/Apache Airflow/) (2023-04-29)
-
-
-
-## Changed last 30 to 7 days
 
 - [Monorepos](/Tech/Tools/Monorepos/) (2023-04-26)
 

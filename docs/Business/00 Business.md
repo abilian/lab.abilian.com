@@ -7,4 +7,4 @@ Currently our focus is on:
 - [[Accountability|Management Competencies]]
 - [Knowledge Management](/Business/Knowledge%20Management/Is%20knowledge%20management%20dead%20%28or%20dying%29%3F/)
 - [[Product-led growth|Marketing]]
-- [[Business/Values]] as a mean of value creation and talent acquisition
+- [[Values]] as a mean of value creation and talent acquisition
