@@ -1,5 +1,7 @@
 "Refactoring for Software Design Smells: Managing Technical Debt" by Girish Suryanarayana, Ganesh Samarthyam, and Tushar Sharma (2014) is a comprehensive guide to identifying, analyzing, and addressing design issues in software systems, often referred to as "design smells" or "code smells." The book aims to help developers improve the quality and maintainability of their software by providing techniques for refactoring code to eliminate these smells and manage technical debt.
 
+## "Smells", aka technical debt
+
 The book begins by discussing the concept of technical debt and its impact on software projects. It then introduces 25 design smells, organized into four categories: foundational, creational, structural, and behavioral smells. For each smell, the authors provide detailed descriptions, examples, and explanations of the underlying design issues.
 
 Here are some of the main design smells identified in each category:
@@ -32,6 +34,8 @@ Here are some of the main design smells identified in each category:
     -   Shotgun Surgery: A change in the system that requires modifications to multiple modules, indicating a lack of cohesion and poor separation of concerns.
 
 These design smells, along with others identified in the book, serve as indicators of potential design problems in a software system. By recognizing and addressing these smells, developers can improve the quality, maintainability, and modularity of their software, effectively managing technical debt.
+
+## Refactoring techniques
 
 The main part of the book focuses on refactoring techniques to address design smells. The authors present over 60 refactoring strategies, accompanied by practical examples and step-by-step guidance. The book also offers insights into the relationship between design smells and software quality attributes, such as performance, robustness, and modifiability.
 

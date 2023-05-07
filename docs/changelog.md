@@ -2,17 +2,15 @@
 
 ## Recent changes (last 7 days)
 
-- [Zig](/Tech/Programming Languages/Zig/) (2023-05-07)
-
-- [Rust](/Tech/Programming Languages/Rust/) (2023-05-07)
-
-- [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-07)
+- [Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/) (2023-05-07)
 
 - [Values](/Business/Principles/Values/) (2023-05-07)
 
 - [Outcome over output](/Business/Principles/Outcome over output/) (2023-05-07)
 
 - [Retrospectives](/Business/Practices/Retrospectives/) (2023-05-07)
+
+- [Product-led growth](/Business/Marketing/Product-led growth/) (2023-05-07)
 
 - [W. Edwards Deming](/Business/Authors/W. Edwards Deming/) (2023-05-07)
 
@@ -23,6 +21,8 @@
 - [Geoffrey Moore](/Business/Authors/Geoffrey Moore/) (2023-05-07)
 
 - [Andy Grove](/Business/Authors/Andy Grove/) (2023-05-07)
+
+- [00 Business](/Business/00 Business/) (2023-05-07)
 
 - [Design Patterns](/Tech/Software Engineering/Design Patterns/) (2023-05-06)
 
@@ -76,8 +76,6 @@
 
 - [Accountability](/Business/Management Competencies/Accountability/) (2023-05-06)
 
-- [00 Business](/Business/00 Business/) (2023-05-06)
-
 - [Typst](/Tech/Text composition/Typst/) (2023-05-06)
 
 - [00 Technology](/Tech/00 Technology/) (2023-05-06)
@@ -85,8 +83,6 @@
 - [Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/) (2023-05-06)
 
 - [FASTEN](/Tech/Python/FASTEN/) (2023-05-06)
-
-- [Product-led growth](/Business/Marketing/Product-led growth/) (2023-05-06)
 
 - [Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/) (2023-05-06)
 

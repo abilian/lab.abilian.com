@@ -1,5 +1,6 @@
-
 "Extreme Programming Explained: Embrace Change" by Kent Beck (1999) is a seminal book that introduces the Extreme Programming (XP) methodology, an Agile software development approach focused on improving the quality and responsiveness of software development processes. The book outlines the principles, practices, and values of XP, providing a comprehensive guide for developers and managers looking to adopt this innovative approach.
+
+## Core ideas
 
 The core idea behind XP is to embrace change by creating a flexible, iterative, and collaborative software development process. The book covers the key principles and practices of XP, including:
 
@@ -13,6 +14,8 @@ The core idea behind XP is to embrace change by creating a flexible, iterative, 
 In addition to these practices, the book also emphasizes the importance of values such as communication, simplicity, feedback, and courage, which guide the behavior of team members and create a collaborative, supportive environment.
 
 "Extreme Programming Explained: Embrace Change" is a foundational book for anyone interested in Agile software development methodologies and XP in particular. The book offers practical advice and guidance on implementing XP practices and instilling the XP values within a team, ultimately leading to more effective, responsive, and high-quality software development processes.
+
+## Legacy
 
 Since the publication of "Extreme Programming Explained: Embrace Change" by Kent Beck in 1999, the practice of Extreme Programming (XP) has evolved, and some best practices have changed or been adapted to better suit the needs of modern software development teams. The core principles and values of XP, however, still hold true and are widely practiced.
 

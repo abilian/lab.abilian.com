@@ -1,5 +1,5 @@
 
-There are several important heuristics for effective software development that help our team create high-quality, maintainable, and efficient software.
+Here are several important heuristics for effective software development that help our team create high-quality, maintainable, and efficient software.
 
 Remember, these heuristics are guidelines to help you develop effective software, but they should not be treated as strict rules. Always consider the context and unique requirements of your project when applying these heuristics.
 
@@ -78,7 +78,7 @@ Some of the most influential works on this field include:
 
 1.  "The Mythical Man-Month" by Frederick P. Brooks Jr. (1975): This book discusses the challenges of managing large software projects and provides insights into the human factors that affect productivity and software quality.
 4.  "Code Complete: A Practical Handbook of Software Construction" by Steve McConnell (1993): This comprehensive guide covers best practices and techniques for writing high-quality code, focusing on topics like code organization, design, debugging, and testing.
-2.  "Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (1994): Also known as the "Gang of Four" book, this work introduces 23 classic design patterns and has been widely influential in object-oriented software development.
+2.  "Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (1994): Also known as the "Gang of Four" book, this work introduces 23 classic [[Design Patterns|design patterns]] and has been widely influential in object-oriented software development.
 9. "Object-Oriented Design Heuristics" by Arthur J. Riel (1996): The book presents a set of practical design heuristics or guidelines that can help developers create well-designed, maintainable, and reusable object-oriented software systems. The book covers various aspects of object-oriented design, including encapsulation, inheritance, polymorphism, and class relationships. It also provides numerous examples and case studies that illustrate the application of these heuristics in real-world software projects.
     - http://manclswx.com/talks/top_heuristics.html
     - [A presentation (lecture slides) on Riel's heuristics](https://www.ifi.uzh.ch/dam/jcr:ffffffff-fd5f-cdf8-ffff-ffffdfa437f0/swa-05-ooD.pdf) (see below)
