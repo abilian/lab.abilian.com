@@ -2,6 +2,28 @@
 
 ## Recent changes (last 7 days)
 
+- [Kanban System](/Tech/Software Engineering/Kanban System/) (2023-05-07)
+
+- [Effective software development](/Tech/Software Engineering/Effective software development/) (2023-05-07)
+
+- [Refactoring for Software Design Smells - Managing Technical Debt (2014)](/Tech/Software Engineering/Books/Refactoring for Software Design Smells - Managing Technical Debt (2014)/) (2023-05-07)
+
+- [Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/) (2023-05-07)
+
+- [A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/) (2023-05-07)
+
+- [Incentives](/Business/Practices/Incentives/) (2023-05-07)
+
+- [Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/) (2023-05-07)
+
+- [KM at SMEs](/Business/Knowledge Management/KM at SMEs/) (2023-05-07)
+
+- [W. Edwards Deming](/Business/Authors/W. Edwards Deming/) (2023-05-07)
+
+- [Donella Meadows](/Business/Authors/Donella Meadows/) (2023-05-07)
+
+- [00 Authors](/Business/Authors/00 Authors/) (2023-05-07)
+
 - [Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/) (2023-05-07)
 
 - [Values](/Business/Principles/Values/) (2023-05-07)
@@ -11,8 +33,6 @@
 - [Retrospectives](/Business/Practices/Retrospectives/) (2023-05-07)
 
 - [Product-led growth](/Business/Marketing/Product-led growth/) (2023-05-07)
-
-- [W. Edwards Deming](/Business/Authors/W. Edwards Deming/) (2023-05-07)
 
 - [Robert I. Sutton](/Business/Authors/Robert I. Sutton/) (2023-05-07)
 
@@ -31,14 +51,6 @@
 - [Copywriting](/Business/Marketing/Copywriting/) (2023-05-06)
 
 - [Innovation](/Tech/FOSS/Innovation/) (2023-05-06)
-
-- [Effective software development](/Tech/Software Engineering/Effective software development/) (2023-05-06)
-
-- [Refactoring for Software Design Smells - Managing Technical Debt (2014)](/Tech/Software Engineering/Books/Refactoring for Software Design Smells - Managing Technical Debt (2014)/) (2023-05-06)
-
-- [Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/) (2023-05-06)
-
-- [A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/) (2023-05-06)
 
 - [Questions](/Tech/FOSS/Questions/) (2023-05-06)
 
