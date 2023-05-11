@@ -2,13 +2,49 @@
 
 ## Recent changes (last 7 days)
 
-- [Zig](/Tech/Programming Languages/Zig/) (2023-05-11)
+- [Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/) (2023-05-11)
 
-- [Rust](/Tech/Programming Languages/Rust/) (2023-05-11)
+- [Various interesting tech (2015)](/Tech/Python/Various interesting tech (2015)/) (2023-05-11)
 
-- [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-11)
+- [Loguru](/Tech/Python/Useful Libraries/Loguru/) (2023-05-11)
+
+- [Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/) (2023-05-11)
+
+- [Boltons](/Tech/Python/Useful Libraries/Boltons/) (2023-05-11)
+
+- [Attrs](/Tech/Python/Useful Libraries/Attrs/) (2023-05-11)
+
+- [00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/) (2023-05-11)
+
+- [Time series databases](/Tech/Cloud/Time series databases/) (2023-05-11)
+
+- [SlapOS](/Tech/Cloud/SlapOS/) (2023-05-11)
+
+- [Prometheus](/Tech/Cloud/Prometheus/) (2023-05-11)
+
+- [Observability](/Tech/Cloud/Observability/) (2023-05-11)
+
+- [Lightweight distros](/Tech/Cloud/Lightweight distros/) (2023-05-11)
+
+- [Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/) (2023-05-11)
+
+- [Shynet](/Tech/Apps/Shynet/) (2023-05-11)
+
+- [Search](/Tech/Apps/Search/) (2023-05-11)
+
+- [OneGov](/Tech/Apps/OneGov/) (2023-05-11)
+
+- [Galene](/Tech/Apps/Galene/) (2023-05-11)
+
+- [Collabora Online](/Tech/Apps/Collabora Online/) (2023-05-11)
+
+- [Cabot](/Tech/Apps/Cabot/) (2023-05-11)
+
+- [00 Apps](/Tech/Apps/00 Apps/) (2023-05-11)
 
 - [Nua - SlapOS integration](/Projects/NUA/Nua - SlapOS integration/) (2023-05-11)
+
+- [00 NUA](/Projects/NUA/00 NUA/) (2023-05-11)
 
 - [Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/) (2023-05-10)
 
@@ -138,8 +174,6 @@
 
 - [(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/) (2023-04-24)
 
-- [Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/) (2023-04-24)
-
 - [Templating](/Tech/Web/Web (back-end)/Templating/) (2023-04-22)
 
 - [Shell in Python](/Tech/Python/Shell in Python/) (2023-04-22)
@@ -148,19 +182,11 @@
 
 - [CLI in Python](/Tech/Python/CLI/CLI in Python/) (2023-04-22)
 
-- [Time series databases](/Tech/Cloud/Time series databases/) (2023-04-22)
-
-- [Prometheus](/Tech/Cloud/Prometheus/) (2023-04-22)
-
-- [Observability](/Tech/Cloud/Observability/) (2023-04-22)
-
 
 
 ## Changed last 90 to 30 days
 
 - [Xpresso](/Tech/Web/Web (back-end)/Xpresso/) (2023-03-08)
-
-- [Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/) (2023-03-08)
 
 - [REST API](/Tech/Web/Web (back-end)/REST API/) (2023-03-08)
 
@@ -221,8 +247,6 @@
 - [RBAC](/Tech/Security/RBAC/) (2023-03-08)
 
 - [Web and text mining](/Tech/Python/Web and text mining/) (2023-03-08)
-
-- [Various interesting tech (2015)](/Tech/Python/Various interesting tech (2015)/) (2023-03-08)
 
 - [Typechecking](/Tech/Python/Typechecking/) (2023-03-08)
 
@@ -294,8 +318,6 @@
 
 - [Notes Alliance Cloud & Edge](/Tech/Cloud/Notes Alliance Cloud & Edge/) (2023-03-08)
 
-- [Lightweight distros](/Tech/Cloud/Lightweight distros/) (2023-03-08)
-
 - [Buildpacks](/Tech/Cloud/Buildpacks/) (2023-03-08)
 
 - [YAML](/Tech/Architecture/YAML/) (2023-03-08)
@@ -308,23 +330,9 @@
 
 - [Clean architecture](/Tech/Architecture/Clean architecture/) (2023-03-08)
 
-- [Shynet](/Tech/Apps/Shynet/) (2023-03-08)
-
-- [Search](/Tech/Apps/Search/) (2023-03-08)
-
-- [OneGov](/Tech/Apps/OneGov/) (2023-03-08)
-
-- [Galene](/Tech/Apps/Galene/) (2023-03-08)
-
-- [Collabora Online](/Tech/Apps/Collabora Online/) (2023-03-08)
-
-- [Cabot](/Tech/Apps/Cabot/) (2023-03-08)
-
 - [WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/) (2023-03-08)
 
 - [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/) (2023-03-08)
-
-- [00 NUA](/Projects/NUA/00 NUA/) (2023-03-08)
 
 - [libreactor](/Projects/Cython+/libreactor/) (2023-03-08)
 
