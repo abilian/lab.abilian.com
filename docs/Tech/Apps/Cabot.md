@@ -1,3 +1,5 @@
+#public 
+
 Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 
 #devops 

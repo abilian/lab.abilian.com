@@ -1,8 +1,11 @@
+#public 
 
 ## Intro
+
 https://itnext.io/migrating-from-relational-databases-to-time-series-databases-9f059a3e34cb
 
 ## Interesting tech
+
 https://citrusvanilla.medium.com/introducing-tinyflux-the-tiny-time-series-database-for-python-based-iot-analytics-applications-c3ef3c3bedf
 "By combining the simplicity of TinyDB with the concepts of InfluxDB, TinyFlux represents the middle ground in time series data stores in which you can enjoy the streamlined API of a mature database interface without the need for provisioning and maintaining new instances to host your data."
 

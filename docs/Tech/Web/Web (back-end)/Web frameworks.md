@@ -13,7 +13,7 @@ https://breadcrumbscollector.tech/the-disenchantment-of-python-web-frameworks/ -
 
 ### Libaries to use
 - https://pypi.org/project/hupper/ "hupper is an integrated process monitor that will track changes to any imported Python files in sys.modules as well as custom paths. When files are changed the process is restarted."
-- [[Useful librairies]]
+- [[00 Useful librairies]]
 
 ### Inspiration
 #### Minimal frameworks

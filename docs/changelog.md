@@ -2,6 +2,16 @@
 
 ## Recent changes (last 7 days)
 
+- [Zig](/Tech/Programming Languages/Zig/) (2023-05-11)
+
+- [Rust](/Tech/Programming Languages/Rust/) (2023-05-11)
+
+- [Datalog](/Tech/Programming Languages/Datalog/) (2023-05-11)
+
+- [Nua - SlapOS integration](/Projects/NUA/Nua - SlapOS integration/) (2023-05-11)
+
+- [Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/) (2023-05-10)
+
 - [Kanban System](/Tech/Software Engineering/Kanban System/) (2023-05-07)
 
 - [Effective software development](/Tech/Software Engineering/Effective software development/) (2023-05-07)
@@ -100,11 +110,11 @@
 
 - [Docker](/Tech/Containers/Docker/) (2023-05-04)
 
-- [Load testing](/Tech/Web/Load testing/) (2023-05-03)
-
 
 
 ## Changed last 30 to 7 days
+
+- [Load testing](/Tech/Web/Load testing/) (2023-05-03)
 
 - [Python](/Tech/Python/Python/) (2023-04-29)
 
@@ -213,8 +223,6 @@
 - [Web and text mining](/Tech/Python/Web and text mining/) (2023-03-08)
 
 - [Various interesting tech (2015)](/Tech/Python/Various interesting tech (2015)/) (2023-03-08)
-
-- [Useful librairies](/Tech/Python/Useful librairies/) (2023-03-08)
 
 - [Typechecking](/Tech/Python/Typechecking/) (2023-03-08)
 

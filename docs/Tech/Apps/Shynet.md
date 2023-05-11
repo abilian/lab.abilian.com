@@ -1,3 +1,5 @@
+#public 
+
 Shynet is a modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 
 Techno used: Django on the backend. Nothing fancy on the front-end.
@@ -5,6 +7,7 @@ Techno used: Django on the backend. Nothing fancy on the front-end.
 Nicely done installation guide: https://github.com/milesmcc/shynet/blob/master/GUIDE.md
 
 ## Pros and cons
+
 ### Pros
 - Simple to install and operate.
 
@@ -12,6 +15,7 @@ Nicely done installation guide: https://github.com/milesmcc/shynet/blob/master/G
 - Not very accurate in terms of filtering false sessions.
 
 ## Sysadmin notes
+
 ### To install
 ```
 cd /home/docker-apps

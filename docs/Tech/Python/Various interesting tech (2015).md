@@ -1,46 +1,58 @@
 # Cool tech stuff
+
 ## Flaks-based frameworks
+
 - http://flask-diamond.readthedocs.io/ (dead)
 - Eve
 
 ## Microservices
+
 - https://github.com/lsm/micromono - "Write microservices in monolithic style"
 - https://github.com/Eyepea/API-Hour -> replaced by https://github.com/Eyepea/pillars
 - https://github.com/kashifrazzaqui/vyked
 
 ## Flow and rule based programming
+
 https://github.com/nemonik/Intellect
 https://github.com/ioflo/ioflo
 
 ## Traits
+
 https://github.com/ipython/traitlets
 
 ## Actor / concurrency models in Python:
+
 http://quantmind.github.io/pulsar/overview.html
 
 ## Real-time web
+
 https://github.com/FZambia/centrifuge (ported to Go)
 https://github.com/kennethreitz/flask-sockets (dead)
 http://aboutecho.com/EchoPlatform/StreamServer (dead)
 
 ## Rated APIs:
+
 https://github.com/funkybob/django-rated/
 
 ## Activity Streams
+
 https://github.com/tschellenbach/Feedly
 http://aboutecho.com/EchoPlatform/StreamServer
 
 ## Forms
+
 http://schemaform.io/
 https://github.com/joshfire/jsonform
 
 ## Génération de schema
+
 Outils recommandés par Dimitri
 * Druid
 * SchemaSpy (plus simple)
 * pg autodoc (génère du Graphviz)
 
 ## State machines
+
 https://github.com/steelbreeze/state.js.git
 https://github.com/oxplot/fysom
 https://github.com/nsi-iff/fluidity
@@ -51,9 +63,11 @@ https://code.google.com/p/pyfsm/
 http://lamsonproject.org/docs/introduction_to_finite_state_machines.html
 
 ## Content editors
+
 http://jakiestfu.github.io/Medium.js/docs/
 
 ## Schema / validation
+
 More: https://awesome-python.com/#data-validation
 
 * voluptous
@@ -77,11 +91,14 @@ More recent:
 
 
 ## Conference management
+
 https://github.com/pythonindia/junction/ (django)
 
 ## Cool design
+
 http://byrushan.com/projects/ma/v1-1/index.html
 adminlte
 
 ## Settings
+
 https://github.com/henriquebastos/python-decouple/
