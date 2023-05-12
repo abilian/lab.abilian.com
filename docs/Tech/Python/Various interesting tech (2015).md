@@ -1,6 +1,4 @@
-# Cool tech stuff
-
-## Flaks-based frameworks
+## Flask-based frameworks
 
 - http://flask-diamond.readthedocs.io/ (dead)
 - Eve
