@@ -3,7 +3,6 @@
 
 - https://datalog.sourceforge.net/datalog.html
 
-
 ## In python
 
 - https://github.com/pcarbonn/pyDatalog ("This package is not maintained. Use at your own risk")
@@ -17,15 +16,15 @@
 
 - https://github.com/ramsdell/datalog
 
-### In Java
+## In Java
 
 - https://github.com/HarvardPL/AbcDatalog
 
-### In Clojure
+## In Clojure
 
 - https://tonsky.me/blog/datascript-2/
 
-### See also
+## See also
 
 - https://logica.dev/
 - Yedalog

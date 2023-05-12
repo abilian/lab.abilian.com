@@ -54,8 +54,30 @@ class ChangeLog:
     def print_changelog(self, entries):
         for date, src_path in entries:
             title = str(src_path).split("/")[-1][0:-3]
+            breadcrumbs = self.make_breadcrumbs(src_path)
             dest_path = "/" + str(src_path.relative_to("docs"))[0:-3] + "/"
-            self.output(f"- [{title}]({dest_path}) ({date.format('YYYY-MM-DD')})\n\n")
+            self.output(f"- **[{title}]({dest_path})** in <small>{breadcrumbs}</small> (*{date.format('YYYY-MM-DD')}*)\n\n")
 
     def output(self, text):
         self.output_file.write(text)
+
+    def make_breadcrumbs(self, src_path):
+        parts = src_path.relative_to("docs").parts
+        breadcrumbs = []
+
+        def make_path(parts):
+            path = Path("docs/" + "/".join(parts))
+            assert path.is_dir()
+            files = sorted(path.glob("*.md"))
+            if files:
+                file = files[0]
+
+                return "/" + str(file.relative_to("docs"))[0:-3]
+            else:
+                return make_path(parts[0:-1])
+
+        for i in range(len(parts)-1):
+            part = parts[i]
+            path = make_path(parts[0:i+1])
+            breadcrumbs.append(f"[{part}]({path}/)")
+        return " / ".join(breadcrumbs)
