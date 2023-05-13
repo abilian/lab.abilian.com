@@ -2,6 +2,16 @@
 
 ## Recent changes (last 7 days)
 
+- **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[The Software Business Model Framework (SBMF)](/Business/Business Models/The Software Business Model Framework (SBMF)/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[The Business Model Canvas](/Business/Business Models/The Business Model Canvas/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
+
 - **[00 Machine Learning](/Tech/Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-05-12*)
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
@@ -109,8 +119,6 @@
 - **[Robert I. Sutton](/Business/Authors/Robert I. Sutton/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[Peter Drucker](/Business/Authors/Peter Drucker/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-- **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[Andy Grove](/Business/Authors/Andy Grove/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 

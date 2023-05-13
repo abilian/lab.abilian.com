@@ -22,6 +22,11 @@ The nine building blocks of the Business Model Canvas are:
 
 Using the Business Model Canvas, organizations can easily brainstorm and visualize their business model, and then further iterate and evolve their ideas.
 
+## References
+
+- https://www.strategyzer.com/books/business-model-generation
+- https://bpifrance-creation.fr/moment-de-vie/business-model-canvas-outil-incontournable-createur (in French)
+
 ## See also
 
 - [[OSS Business Models]]

@@ -1,6 +1,10 @@
+Open Source Software (OSS) business models have been studied by many  academics and authors since the late 90s / early 00s, including  JP Smets & Benoît Faucon, Nicolas Jullien or Lerner & Tirole (TODO: add references).
+
+In this note, we present the OSS vendor business models through the prism of several more recent frameworks, like the BMC (2010), the SBMF (2013), the e3-value model (2003), as wel as several other models that each provide insight into this subject.
+
 ## Through the Business Model Canvas
 
-The [[Business Model Canvas]] can certainly be used to conceptualize an open source software (OSS) vendor's business model. Here is a generalized characterization:
+[[The Business Model Canvas]] can be used to conceptualize an open source software (OSS) vendor's business model. Here is a generalized characterization:
 
 1.  **Customer Segments**: The primary customer segments would be businesses, organizations, or individuals looking for open-source software solutions. They could be tech companies, government organizations, educational institutions, non-profits, startups, or individual developers and hobbyists.
     
@@ -22,7 +26,7 @@ The [[Business Model Canvas]] can certainly be used to conceptualize an open sou
 
 ## Through the SBMF
 
-Sure, let's consider how an open source software vendor might be characterized using [[The Software Business Model Framework (SBMF)]]:
+An Open source software vendor business model can also be characterized using [[The Software Business Model Framework (SBMF)]]:
 
 1. **Strategy**: 
     - *Value Proposition*: May include the freedom to use, study, change, and distribute the software to anyone and for any purpose.
@@ -72,7 +76,6 @@ Sure, let's consider how an open source software vendor might be characterized u
 5.  **Value Activities**: These are the activities performed by an actor to enable value exchanges. For the vendor, this might include developing the software, maintaining the project's infrastructure, providing support, and selling services or features.
     
 6.  **Value Ports**: These are the channels through which value objects are exchanged. For an open source software vendor, this could include the software repository for exchanging code, a bug tracking system for reporting and tracking issues, and a payment system for selling services or features.
-    
 
 The e3-value model helps to illustrate the reciprocal nature of the relationship between the open source vendor and its community, as well as the potential for the vendor to generate revenue through additional services or features. It also highlights the importance of the community as not just users, but also contributors to the open source project.
 
