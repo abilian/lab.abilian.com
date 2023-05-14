@@ -2,13 +2,15 @@
 
 ## Recent changes (last 7 days)
 
-- **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
-
-- **[The Software Business Model Framework (SBMF)](/Business/Business Models/The Software Business Model Framework (SBMF)/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
-
 - **[The Business Model Canvas](/Business/Business Models/The Business Model Canvas/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
 
 - **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[Economic studies on OSS](/Business/Business Models/Economic studies on OSS/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
+
+- **[The Software Business Model Framework (SBMF)](/Business/Business Models/The Software Business Model Framework (SBMF)/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
 
 - **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
 
@@ -82,17 +84,17 @@
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-11*)
 
-- **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/)</small> (*2023-05-10*)
+- **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-10*)
 
-- **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/)</small> (*2023-05-07*)
+- **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
 
-- **[Effective software development](/Tech/Software Engineering/Effective software development/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/)</small> (*2023-05-07*)
+- **[Effective software development](/Tech/Software Engineering/Effective software development/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
 
-- **[Refactoring for Software Design Smells - Managing Technical Debt (2014)](/Tech/Software Engineering/Books/Refactoring for Software Design Smells - Managing Technical Debt (2014)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
+- **[Refactoring for Software Design Smells - Managing Technical Debt (2014)](/Tech/Software Engineering/Books/Refactoring for Software Design Smells - Managing Technical Debt (2014)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
 
-- **[Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
+- **[Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
 
-- **[A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
+- **[A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
 
 - **[Incentives](/Business/Practices/Incentives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Incentives/)</small> (*2023-05-07*)
 
@@ -105,6 +107,10 @@
 - **[Donella Meadows](/Business/Authors/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[00 Authors](/Business/Authors/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
 
@@ -124,15 +130,11 @@
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-07*)
 
-- **[Design Patterns](/Tech/Software Engineering/Design Patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Design Patterns/)</small> (*2023-05-06*)
+- **[Design Patterns](/Tech/Software Engineering/Design Patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-06*)
 
 - **[Linus Torvalds](/Tech/FOSS/People/Linus Torvalds/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-05-06*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Innovation](/Tech/FOSS/Innovation/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2023-05-06*)
 

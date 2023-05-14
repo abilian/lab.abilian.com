@@ -24,3 +24,7 @@ Ensuring accountability is critical for a manager because it helps create a cult
 6. **Lead by example**: As a manager, it is essential to model accountability by taking responsibility for your actions, admitting mistakes, and learning from them.
 
     How-to: Be transparent about your own responsibilities and progress, and openly discuss any challenges you face. Show your commitment to learning and improvement by seeking feedback from your team and taking steps to address any areas for growth.
+
+## References
+
+- https://thesystemsthinker.com/moving-from-blame-to-accountability/
