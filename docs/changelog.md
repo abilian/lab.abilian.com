@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- **[Architectural Decision Records](/Tech/Software Engineering/Architectural Decision Records/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-14*)
+
+- **[Accountability](/Business/Management Competencies/Accountability/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-14*)
+
+- **[The RCOV Model](/Business/Business Models/The RCOV Model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-14*)
+
 - **[The Business Model Canvas](/Business/Business Models/The Business Model Canvas/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
 
 - **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Economic studies on OSS/)</small> (*2023-05-13*)
@@ -86,6 +92,10 @@
 
 - **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-10*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
 
 - **[Effective software development](/Tech/Software Engineering/Effective software development/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
@@ -107,10 +117,6 @@
 - **[Donella Meadows](/Business/Authors/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[00 Authors](/Business/Authors/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
 
@@ -171,8 +177,6 @@
 - **[Ambiguity](/Business/Management Competencies/Ambiguity/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-06*)
 
 - **[Action Orientation](/Business/Management Competencies/Action Orientation/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-06*)
-
-- **[Accountability](/Business/Management Competencies/Accountability/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-06*)
 
 - **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Typst/)</small> (*2023-05-06*)
 
