@@ -1,7 +1,7 @@
 
 ## Lerner and Tirole (2002)
 
-Josh Lerner and Jean Tirole are economists who have contributed significantly to the understanding of open source business models. In their seminal 2002 paper, "[Some Simple Economics of Open Source](10.3386/w7600)", they explore the unique aspects of open source software (OSS) and provide key insights into the motivations behind this model and its economic implications. Here are some of the main ideas from their work:
+Josh Lerner and Jean Tirole are economists who have contributed significantly to the understanding of open source business models. In their seminal 2002 paper, "[Some Simple Economics of Open Source](https://www.nber.org/papers/w7600)", they explore the unique aspects of open source software (OSS) and provide key insights into the motivations behind this model and its economic implications. Here are some of the main ideas from their work:
 
 1. **Private-Collective Innovation:** Lerner and Tirole propose that open source is an example of a "private-collective" innovation model, which is distinct from the traditional private investment or collective action models. In this model, developers bear the costs of developing the software but share the output freely. This is counter-intuitive to conventional economic theory, which suggests that individuals need exclusive rights to an innovation to recoup their investment. 
 

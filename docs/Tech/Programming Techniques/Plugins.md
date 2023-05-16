@@ -3,6 +3,7 @@
 - Pluggy
 	- Example use: https://docs.datasette.io/en/stable/plugins.html
 - iPopo: https://pypi.org/project/iPOPO/
+- https://beets.readthedocs.io/en/stable/dev/plugins.html
 
 ## Javascript
 

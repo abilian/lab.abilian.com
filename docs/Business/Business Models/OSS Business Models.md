@@ -4,7 +4,7 @@ In this note, we present the OSS vendor business models through the prism of sev
 
 ## Through the Business Model Canvas
 
-[[The Business Model Canvas]] can be used to conceptualize an open source software (OSS) vendor's business model. Here is a generalized characterization:
+[[Business/Business Models/Business Model Canvas]] can be used to conceptualize an open source software (OSS) vendor's business model. Here is a generalized characterization:
 
 1.  **Customer Segments**: The primary customer segments would be businesses, organizations, or individuals looking for open-source software solutions. They could be tech companies, government organizations, educational institutions, non-profits, startups, or individual developers and hobbyists.
     
