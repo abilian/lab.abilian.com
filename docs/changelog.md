@@ -2,15 +2,41 @@
 
 ## Recent changes (last 7 days)
 
+- **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
+
+- **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-05-16*)
+
+- **[Concurrent programming](/Tech/Python/Concurrent programming/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-16*)
+
+- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-16*)
+
+- **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-16*)
+
+- **[Nomad](/Tech/Containers/Nomad/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
+
+- **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
+
+- **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
+
+- **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
+
+- **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-05-16*)
+
+- **[Technology Readiness Level](/Business/R&D and Innovation/Technology Readiness Level/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-05-16*)
+
+- **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
+
+- **[Economic studies on OSS](/Business/Business Models/Economic studies on OSS/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
+
+- **[Business Model Canvas](/Business/Business Models/Business Model Canvas/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
+
+- **[Alexander Osterwalder](/Business/Authors/Alexander Osterwalder/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-16*)
+
 - **[Architectural Decision Records](/Tech/Software Engineering/Architectural Decision Records/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-14*)
 
 - **[Accountability](/Business/Management Competencies/Accountability/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-14*)
 
 - **[The RCOV Model](/Business/Business Models/The RCOV Model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-14*)
-
-- **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
-
-- **[Economic studies on OSS](/Business/Business Models/Economic studies on OSS/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
 
 - **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
 
@@ -25,8 +51,6 @@
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
 - **[Quick learn languages](/Tech/Programming Techniques/Quick learn languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
-
-- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
 - **[Distributed computing](/Tech/Programming Techniques/Distributed computing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
@@ -106,9 +130,9 @@
 
 - **[Incentives](/Business/Practices/Incentives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Incentives/)</small> (*2023-05-07*)
 
-- **[Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)</small> (*2023-05-07*)
+- **[Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-07*)
 
-- **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)</small> (*2023-05-07*)
+- **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-07*)
 
 - **[W. Edwards Deming](/Business/Authors/W. Edwards Deming/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
@@ -184,7 +208,7 @@
 
 - **[FASTEN](/Tech/Python/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-06*)
 
-- **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)</small> (*2023-05-06*)
+- **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-06*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-04*)
 
@@ -347,8 +371,6 @@
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
-
-- **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
 - **[Tuto Slapos](/Tech/Cloud/Tuto Slapos/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
