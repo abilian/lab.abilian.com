@@ -4,6 +4,14 @@
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
+- **[Gilb's "Twelve Tough Questions"](/Business/Project Management/Gilb's "Twelve Tough Questions"/)** in <small>[Business](/Business/00 Business/) / [Project Management](/Business/Project Management/Gilb's "Twelve Tough Questions"/)</small> (*2023-05-17*)
+
+- **[Mind Mapping](/Business/Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-17*)
+
+- **[Concept Maps](/Business/Knowledge Management/Concept Maps/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-17*)
+
+- **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-17*)
+
 - **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-05-16*)
 
 - **[Concurrent programming](/Tech/Python/Concurrent programming/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-16*)
@@ -23,8 +31,6 @@
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-05-16*)
 
 - **[Technology Readiness Level](/Business/R&D and Innovation/Technology Readiness Level/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-05-16*)
-
-- **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
 
 - **[Economic studies on OSS](/Business/Business Models/Economic studies on OSS/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
 
@@ -70,6 +76,10 @@
 
 - **[Dramatiq](/Tech/Python/Useful Libraries/Dramatiq/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-12*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-05-11*)
 
 - **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
@@ -113,10 +123,6 @@
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-11*)
 
 - **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-10*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
 
@@ -230,8 +236,6 @@
 
 - **[Doit](/Tech/Python/Task runners/Doit/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/Doit/)</small> (*2023-04-26*)
 
-- **[Python CLI](/Tech/Python/CLI/Python CLI/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-04-26*)
-
 - **[Argparse](/Tech/Python/CLI/Argparse/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-04-26*)
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-24*)
@@ -339,14 +343,6 @@
 - **[BlackSheep](/Tech/Python/BlackSheep/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
 - **[Better Python](/Tech/Python/Better Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
-
-- **[Workday architecture](/Tech/Persistence/Workday architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Persistence](/Tech/Persistence/EdgeDB/)</small> (*2023-03-08*)
-
-- **[SQLAlchemy](/Tech/Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Persistence](/Tech/Persistence/EdgeDB/)</small> (*2023-03-08*)
-
-- **[Persistence](/Tech/Persistence/Persistence/)** in <small>[Tech](/Tech/00 Technology/) / [Persistence](/Tech/Persistence/EdgeDB/)</small> (*2023-03-08*)
-
-- **[EdgeDB](/Tech/Persistence/EdgeDB/)** in <small>[Tech](/Tech/00 Technology/) / [Persistence](/Tech/Persistence/EdgeDB/)</small> (*2023-03-08*)
 
 - **[UML](/Tech/Modeling/UML/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2023-03-08*)
 
