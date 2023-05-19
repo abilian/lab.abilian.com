@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-05-18*)
+
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
 - **[Gilb's "Twelve Tough Questions"](/Business/Project Management/Gilb's "Twelve Tough Questions"/)** in <small>[Business](/Business/00 Business/) / [Project Management](/Business/Project Management/Gilb's "Twelve Tough Questions"/)</small> (*2023-05-17*)
@@ -52,6 +54,10 @@
 
 - **[00 Machine Learning](/Tech/Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-05-12*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
 
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
@@ -75,10 +81,6 @@
 - **[Various interesting tech (2015)](/Tech/Python/Various interesting tech (2015)/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-12*)
 
 - **[Dramatiq](/Tech/Python/Useful Libraries/Dramatiq/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-12*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-05-11*)
 
@@ -245,8 +247,6 @@
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
 
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
-
-- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-04-22*)
 
 
 
