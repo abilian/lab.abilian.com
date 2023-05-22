@@ -40,15 +40,15 @@
 
 - **[Alexander Osterwalder](/Business/Authors/Alexander Osterwalder/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-16*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Architectural Decision Records](/Tech/Software Engineering/Architectural Decision Records/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-14*)
 
 - **[Accountability](/Business/Management Competencies/Accountability/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-14*)
 
 - **[The RCOV Model](/Business/Business Models/The RCOV Model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-14*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
 
@@ -96,8 +96,6 @@
 
 - **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-05-11*)
 
-- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-05-11*)
-
 - **[Prometheus](/Tech/Cloud/Prometheus/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-05-11*)
 
 - **[Observability](/Tech/Cloud/Observability/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-05-11*)
@@ -119,8 +117,6 @@
 - **[Cabot](/Tech/Apps/Cabot/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
 
 - **[00 Apps](/Tech/Apps/00 Apps/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
-
-- **[Nua - SlapOS integration](/Projects/NUA/Nua - SlapOS integration/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-11*)
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-11*)
 
@@ -242,15 +238,15 @@
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-24*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-04-22*)
 
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
 
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
@@ -367,8 +363,6 @@
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
-
-- **[Tuto Slapos](/Tech/Cloud/Tuto Slapos/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
 - **[Notes Alliance Cloud & Edge](/Tech/Cloud/Notes Alliance Cloud & Edge/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 

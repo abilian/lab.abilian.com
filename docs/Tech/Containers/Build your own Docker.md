@@ -6,3 +6,13 @@ From <https://github.com/codecrafters-io/build-your-own-x#build-your-own-docker>
 -   [**Python**: _A workshop on Linux containers: Rebuild Docker from Scratch_](https://github.com/Fewbytes/rubber-docker)
 -   [**Python**: _A proof-of-concept imitation of Docker, written in 100% Python_](https://github.com/tonybaloney/mocker)
 -   [**Shell**: _Docker implemented in around 100 lines of bash_](https://github.com/p8952/bocker)
+
+Also:
+
+## Chroot and container
+
+- "Containers are chroot with a Marketing Budget" https://earthly.dev/blog/chroot/
+- https://btholt.github.io/complete-intro-to-containers/chroot
+- https://home.robusta.dev/blog/containers-dont-use-chroot
+- https://kevinboone.me/containerfromscratch_chroot.html?i=1
+

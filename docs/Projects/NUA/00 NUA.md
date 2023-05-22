@@ -62,7 +62,6 @@
     - Use (or fork) existing dockerfiles when possible, but try to abstract it away → `nua-config.toml`
     - Docker is probably the right tool to build the images
 - Runtime: start with Docker, but should also support:
-    - SlapOS
     - QEMU or othe lightweight / micro-VMs
     - "Unix native isolation" (maybe using just `chroot`).
     - lxc ?
