@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-05-22*)
+
+- **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-22*)
+
+- **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
+
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-05-18*)
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
@@ -27,8 +33,6 @@
 - **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
 
 - **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
-
-- **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
 
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-05-16*)
 
@@ -117,8 +121,6 @@
 - **[Cabot](/Tech/Apps/Cabot/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
 
 - **[00 Apps](/Tech/Apps/00 Apps/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
-
-- **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-11*)
 
 - **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-10*)
 
@@ -303,8 +305,6 @@
 - **[Devops](/Tech/Tools/Devops/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-03-08*)
 
 - **[Wapiti](/Tech/Security/Wapiti/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-03-08*)
-
-- **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-03-08*)
 
 - **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-03-08*)
 
