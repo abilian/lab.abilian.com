@@ -1,17 +1,21 @@
 #hr #internship 
 
 ## Source code
+
 - Not available yet.
 
 ## Internship
+
 - <https://abilian.com/fr/a-propos/jobs/stage-compilation-python/>
 
 ## Références
+
 - [[Python & WASM]]
 - [[Compilation Python]]
 - [[Compilers]]
 
 ## Challenges / open questions
+
 - Identifying good use cases and trade-offs
 
 - Efficient and agile methods for AST transformation (tree rewriting techniques à la Stratego/XT)
