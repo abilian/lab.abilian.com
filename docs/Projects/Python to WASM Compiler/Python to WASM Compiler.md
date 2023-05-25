@@ -11,7 +11,7 @@
 ## Références
 
 - [[Python & WASM]]
-- [[Compilation Python]]
+- [[Compiling Python]]
 - [[Compilers]]
 
 ## Challenges / open questions

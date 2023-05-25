@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-24*)
+
+- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-24*)
+
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-24*)
+
 - **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-05-22*)
 
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-22*)
@@ -9,6 +15,10 @@
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
 
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-05-18*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
@@ -19,10 +29,6 @@
 - **[Concept Maps](/Business/Knowledge Management/Concept Maps/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-17*)
 
 - **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-17*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-05-16*)
 
@@ -69,8 +75,6 @@
 - **[Quick learn languages](/Tech/Programming Techniques/Quick learn languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
 - **[Distributed computing](/Tech/Programming Techniques/Distributed computing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
-
-- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
 - **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
@@ -216,8 +220,6 @@
 
 - **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-06*)
 
-- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-04*)
-
 - **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-05-03*)
 
 - **[Python](/Tech/Python/Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
@@ -334,8 +336,6 @@
 
 - **[Job queues](/Tech/Python/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
-- **[Compilation Python](/Tech/Python/Compilation Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
-
 - **[BlackSheep](/Tech/Python/BlackSheep/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
 - **[Better Python](/Tech/Python/Better Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
@@ -379,8 +379,6 @@
 - **[Clean architecture](/Tech/Architecture/Clean architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
 
 - **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-03-08*)
-
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-03-08*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
 
