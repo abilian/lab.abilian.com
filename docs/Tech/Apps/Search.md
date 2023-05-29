@@ -19,6 +19,8 @@ Interesting projects include:
 - Tantivy: https://github.com/tantivy-search/tantivy (Rust)
 - Bleve: https://blevesearch.com/ (Go, bof actually)
 
+[[Comparison of open source search engines]]
+
 ## Client side
 
 - https://github.com/lucaong/minisearch

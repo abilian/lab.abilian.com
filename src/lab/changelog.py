@@ -14,6 +14,7 @@ DENY_LIST = [
     "docs/index.md",
 ]
 
+
 class ChangeLog:
     def __init__(self, output_file):
         self.output_file = Path(output_file).open("w")
@@ -56,7 +57,9 @@ class ChangeLog:
             title = str(src_path).split("/")[-1][0:-3]
             breadcrumbs = self.make_breadcrumbs(src_path)
             dest_path = "/" + str(src_path.relative_to("docs"))[0:-3] + "/"
-            self.output(f"- **[{title}]({dest_path})** in <small>{breadcrumbs}</small> (*{date.format('YYYY-MM-DD')}*)\n\n")
+            self.output(
+                f"- **[{title}]({dest_path})** in <small>{breadcrumbs}</small> (*{date.format('YYYY-MM-DD')}*)\n\n"
+            )
 
     def output(self, text):
         self.output_file.write(text)
@@ -76,8 +79,8 @@ class ChangeLog:
             else:
                 return make_path(parts[0:-1])
 
-        for i in range(len(parts)-1):
+        for i in range(len(parts) - 1):
             part = parts[i]
-            path = make_path(parts[0:i+1])
+            path = make_path(parts[0 : i + 1])
             breadcrumbs.append(f"[{part}]({path}/)")
         return " / ".join(breadcrumbs)
