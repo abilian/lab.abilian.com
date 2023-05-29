@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[Search](/Tech/Apps/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-29*)
+
+- **[Comparison of open source search engines](/Tech/Apps/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-29*)
+
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-25*)
@@ -118,8 +122,6 @@
 
 - **[Shynet](/Tech/Apps/Shynet/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
 
-- **[Search](/Tech/Apps/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
-
 - **[OneGov](/Tech/Apps/OneGov/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
 
 - **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-05-11*)
@@ -226,15 +228,15 @@
 
 - **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-05-03*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Python](/Tech/Python/Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
 - **[Prefect](/Tech/Python/Prefect/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
 - **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
 
