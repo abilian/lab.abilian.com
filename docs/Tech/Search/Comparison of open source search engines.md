@@ -8,7 +8,7 @@ See also [[Search]].
 
     1. **Elasticsearch**: Elasticsearch is a highly scalable open-source search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is known for its speed, scale, and ability to index structured and unstructured data.
 
-4. **Sonic**: Sonic is an open-source search index server written in Rust. It is lightweight and schema-less. Sonic's inverted index, based on a Levenshtein automaton, makes it a minimalist and resource-efficient alternative to database tools.
+4. **Sonic**: Sonic is an open-source search index server written in **Rust**. It is lightweight and schema-less. Sonic's inverted index, based on a Levenshtein automaton, makes it a minimalist and resource-efficient alternative to database tools.
 
 5. **Typesense**: Typesense is an open-source, lightweight search engine optimized for speed, written in **C++**. It is designed to provide instant search experiences with a focus on simplicity and ease of installation.
 
@@ -20,4 +20,4 @@ See also [[Search]].
 
 10. **Whoosh**: Whoosh is (or was) a fast, featureful full-text indexing and searching library implemented in pure **Python**. Programmers can use it to easily add search functionality to their applications and websites. Every part of how Whoosh works can be extended or replaced to meet your needs exactly.
 
-Each of these projects offers a unique combination of features and capabilities. Some are standalone search engines, while others are libraries or tools that can be used to build custom search solutions.
+Note that these projects don't have the exact same scope. For instance, some are standalone search engines, while others are libraries or tools that can be used to build custom search solutions.

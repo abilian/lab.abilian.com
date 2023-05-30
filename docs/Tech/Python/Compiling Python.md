@@ -123,6 +123,11 @@ https://tomassetti.me/wasi-how-to-run-webassembly-code-outside-of-your-browser/
 - https://www.semanticscholar.org/paper/Comparing-Python%2C-Go%2C-and-C%2B%2B-on-the-N-Queens-Fua-Lis/27045c99c8702d73dc44128877ef002945ae8c72
 - https://www.semanticscholar.org/paper/Benchmarking-Python-Interpreters-%3A-Measuring-of-and-Roghult/7979ff96a2441260f87597057ed24642854439da
 
+### Interesting compiler in Python
+
+- https://github.com/evhub/coconut/blob/master/coconut/compiler/compiler.py
+
+
 ## See also
 
 [[Compilers]]
