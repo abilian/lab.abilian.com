@@ -35,6 +35,25 @@ https://pypi.org/project/ppci/
 > The PPCI (Pure Python Compiler Infrastructure) project is a compiler written entirely in the [Python](https://www.python.org/) programming language. It contains front-ends for various programming languages as well as machine code generation functionality. With this library you can generate (working!) machine code using Python (and thus very easy to explore, extend, etc.)!
 
 
+### Byterun and Tailbiter
+
+https://github.com/nedbat/byterun.git
+https://github.com/darius/tailbiter.git
+
+Byterun = Python VM in python (see also: https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
+Tailbiter = compiler from Python to bytecode, in python.
+
+https://github.com/rocky/x-python = fork (maintained) of byterun
+
+### Core Python
+
+https://github.com/windelbouwman/corepython = "A [Python](https://www.python.org/) to [WebAssembly](https://webassembly.org/) compiler written in [Rust](https://www.rust-lang.org/)."
+
+Features:
+-   Very minimal subset of the Python language. Only the core of it, nothing fancy.
+-   CorePython compiler itself is embeddable in browser (small WebAssembly download).
+
+
 ### Older projects
 
 https://mython.org/ 
