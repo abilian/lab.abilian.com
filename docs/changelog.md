@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-06-01*)
+
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
 
 - **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
@@ -13,8 +15,6 @@
 - **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
 - **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
-
-- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-30*)
 
 - **[Workday architecture](/Tech/Databases & Persistence/Workday architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
@@ -30,11 +30,11 @@
 
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
 
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-24*)
 
