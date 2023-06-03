@@ -246,11 +246,11 @@
 
 - **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-06*)
 
-- **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-05-03*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-05-03*)
 
 - **[Python](/Tech/Python/Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
