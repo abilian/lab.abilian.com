@@ -200,6 +200,10 @@
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-05-06*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Innovation](/Tech/FOSS/Innovation/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2023-05-06*)
 
 - **[Questions](/Tech/FOSS/Questions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2023-05-06*)
@@ -245,10 +249,6 @@
 - **[FASTEN](/Tech/Python/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-06*)
 
 - **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-06*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-05-03*)
 

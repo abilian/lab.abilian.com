@@ -1,4 +1,4 @@
-#python 
+#python #cli
 
 ## CLI frameworks
 
@@ -29,6 +29,14 @@ Click is internally based on `optparse` instead of `argparse`. This is an implem
 - Rich (lots of - maybe to many - features)
 - Colorama
 - https://pypi.org/project/wasabi/ "wasabi: A lightweight console printing and formatting toolkit"
+
+## CLI best practices
+
+- <https://clig.dev/>
+- <https://medium.com/jit-team/guidelines-for-creating-your-own-cli-tool-c95d4af62919>
+- https://zapier.com/engineering/how-to-cli/
+- https://hackmd.io/@arturtamborski/cli-best-practices
+- https://eng.localytics.com/exploring-cli-best-practices/
 
 
 ## Older notes
