@@ -41,6 +41,9 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
 
 - https://github.com/adamsol/Pyxell "Multi-paradigm programming language compiled to C++, written in Python." (3000 LOC of Python + 3000 LOC of C++)
     - See also: https://www.pyxell.org/docs/
+- https://github.com/xdslproject "A Python Compiler Design Toolkit"
+- https://github.com/ShivamSarodia/ShivyC "C compiler created in Python."
+
 
 ## Books
 
@@ -50,3 +53,11 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
 
 - https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/
 - https://tomassetti.me/
+
+## META II & OMeta
+
+- http://www.chilton-computing.org.uk/acl/literature/reports/p025.htm
+- https://www.bayfronttechnologies.com/mc_tutorial.html
+- https://en.wikipedia.org/wiki/META_II
+- https://en.wikipedia.org/wiki/OMeta
+- https://github.com/vkazanov/pymetaii (Python implementation)

@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-06-05*)
+
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-06-01*)
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
@@ -45,8 +47,6 @@
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-22*)
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
-
-- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-05-18*)
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
@@ -176,6 +176,10 @@
 
 - **[00 Authors](/Business/Authors/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
 
 - **[Values](/Business/Principles/Values/)** in <small>[Business](/Business/00 Business/) / [Principles](/Business/Principles/Outcome over output/)</small> (*2023-05-07*)
@@ -199,10 +203,6 @@
 - **[Linus Torvalds](/Tech/FOSS/People/Linus Torvalds/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-05-06*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Innovation](/Tech/FOSS/Innovation/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2023-05-06*)
 
@@ -277,6 +277,10 @@
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
 
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
+
+
+
+## Earlier changes
 
 - **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
