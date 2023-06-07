@@ -2,15 +2,21 @@
 
 ## Recent changes (last 7 days)
 
+- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
+
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-06-05*)
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-06-01*)
 
-- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
+- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
 
-- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
+- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
 
-- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-30*)
+
+
+## Changed last 30 to 7 days
+
+- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-30*)
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
@@ -30,15 +36,9 @@
 
 - **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
-
-
-## Changed last 30 to 7 days
-
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
 - **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
-
-- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-24*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-24*)
 
@@ -118,7 +118,7 @@
 
 - **[Dramatiq](/Tech/Python/Useful Libraries/Dramatiq/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-12*)
 
-- **[Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-05-11*)
+- **[Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-05-11*)
 
 - **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
 
@@ -154,6 +154,10 @@
 
 - **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-10*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
 
 - **[Effective software development](/Tech/Software Engineering/Effective software development/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
@@ -176,11 +180,7 @@
 
 - **[00 Authors](/Business/Authors/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
-
-
-## Changed last 90 to 30 days
-
-- **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
+- **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
 
 - **[Values](/Business/Principles/Values/)** in <small>[Business](/Business/00 Business/) / [Principles](/Business/Principles/Outcome over output/)</small> (*2023-05-07*)
 
@@ -250,7 +250,7 @@
 
 - **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-06*)
 
-- **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-05-03*)
+- **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-05-03*)
 
 - **[Python](/Tech/Python/Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
@@ -272,7 +272,7 @@
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-24*)
 
-- **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-04-22*)
+- **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-04-22*)
 
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-22*)
 
@@ -282,47 +282,47 @@
 
 ## Earlier changes
 
-- **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[QUIC et HTTP3](/Tech/Web/Web (back-end)/QUIC et HTTP3/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[QUIC et HTTP3](/Tech/Web/Web (back-end)/QUIC et HTTP3/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[Lastuser](/Tech/Web/Web (back-end)/Lastuser/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[Lastuser](/Tech/Web/Web (back-end)/Lastuser/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[HTTP testing](/Tech/Web/Web (back-end)/HTTP testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[HTTP testing](/Tech/Web/Web (back-end)/HTTP testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[GraphQL](/Tech/Web/Web (back-end)/GraphQL/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[GraphQL](/Tech/Web/Web (back-end)/GraphQL/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[Benchmarks HTTP](/Tech/Web/Web (back-end)/Benchmarks HTTP/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
+- **[Benchmarks HTTP](/Tech/Web/Web (back-end)/Benchmarks HTTP/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Typography](/Tech/Web/UX-UI/Typography/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Typography](/Tech/Web/UX-UI/Typography/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Tabs](/Tech/Web/UX-UI/Tabs/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Tabs](/Tech/Web/UX-UI/Tabs/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Svelte](/Tech/Web/UX-UI/Svelte/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Svelte](/Tech/Web/UX-UI/Svelte/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Semantic HTML](/Tech/Web/UX-UI/Semantic HTML/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Semantic HTML](/Tech/Web/UX-UI/Semantic HTML/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Primevue](/Tech/Web/UX-UI/Primevue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Primevue](/Tech/Web/UX-UI/Primevue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Livewire](/Tech/Web/UX-UI/Livewire/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Livewire](/Tech/Web/UX-UI/Livewire/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[AlpineJS](/Tech/Web/UX-UI/AlpineJS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
+- **[AlpineJS](/Tech/Web/UX-UI/AlpineJS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Serverless](/Tech/Web/Serverless/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-03-08*)
+- **[Serverless](/Tech/Web/Serverless/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-03-08*)
 
-- **[Server-Driven UI](/Tech/Web/Server-Driven UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Load testing/)</small> (*2023-03-08*)
+- **[Server-Driven UI](/Tech/Web/Server-Driven UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-03-08*)
 
 - **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-03-08*)
 

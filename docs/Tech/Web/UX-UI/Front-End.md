@@ -70,7 +70,8 @@ Forms -> several interesting projects.
 
 ### Server-side (Python)
 
-- IDOM: https://idom-docs.herokuapp.com/ "Create highly interactive web pages purely in Python" (Python + JS/React)
+- ReactPy: https://reactpy.dev/docs/index.html  "Create highly interactive web pages purely in Python" (Python + JS/React)
+    - Discussion: https://news.ycombinator.com/item?id=36193315
 - https://flexx.readthedocs.io/ (Pure Python!) "Flexx is a pure Python toolkit for creating graphical user interfaces (GUI’s), that uses web technology for its rendering. Apps are written purely in Python; The [PScript](https://pscript.readthedocs.io/) transpiler generates the necessary JavaScript on the fly."
 - Django-unicorn: https://www.django-unicorn.com/ " Quickly add in simple interactions to regular Django templates without learning a new templating language."
 - https://lona-web.org/ "Lona is a web application framework, designed to write responsive web apps in **full** Python."
