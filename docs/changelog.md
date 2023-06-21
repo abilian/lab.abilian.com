@@ -1,5 +1,19 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
+
+- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
+
+- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
+
+- **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-06-21*)
+
+- **[00MOC](/Projects/00MOC/)** in <small>[Projects](/Projects/00MOC/)</small> (*2023-06-21*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
@@ -21,12 +35,6 @@
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
 
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-06-05*)
-
-- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
-
-- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
-
-- **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
 - **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
@@ -318,8 +326,6 @@
 
 - **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
-- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
-
 - **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
 
 - **[AlpineJS](/Tech/Web/UX-UI/AlpineJS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-03-08*)
@@ -419,8 +425,6 @@
 - **[Benchmarks](/Projects/Cython+/Benchmarks/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
 
 - **[00 Cython+](/Projects/Cython+/00 Cython+/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
-
-- **[00MOC](/Projects/00MOC/)** in <small>[Projects](/Projects/00MOC/)</small> (*2023-03-08*)
 
 - **[Dockerfile Cheat Sheet](/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Cheat Sheets](/Cheat Sheets/Docker Cheat Sheet/)</small> (*2023-03-08*)
 
