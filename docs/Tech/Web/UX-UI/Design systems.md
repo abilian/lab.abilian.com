@@ -6,6 +6,15 @@
 - <https://github.com/klaufel/awesome-design-systems>
 - <https://designsystemsrepo.com/>
 
+
+## Based on tailwind
+
+- a17t
+- Daisyui
+- https://tailwind-elements.com/ (AGPL)
+- https://github.com/themesberg/flowbite (MIT)
+
+
 ## Tools
 
 - <https://storybook.js.org/> (supports most front-end frameworks)

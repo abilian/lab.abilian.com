@@ -1,6 +1,6 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
 
@@ -21,10 +21,6 @@
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
 
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-06-05*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-31*)
 
@@ -59,6 +55,10 @@
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-22*)
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
@@ -107,10 +107,6 @@
 - **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
 
 - **[00 Machine Learning](/Tech/Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-05-12*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
 

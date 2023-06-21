@@ -1,7 +1,7 @@
 #public
 
 ## Active projects
-- [[00 NUA]]
+- [[Projects/NUA/00 NUA]]
 - [[Python to WASM Compiler]]
 
 ## Older projects

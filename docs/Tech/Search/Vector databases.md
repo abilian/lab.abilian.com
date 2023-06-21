@@ -21,6 +21,8 @@ Let's consider a machine learning model that converts images into high-dimension
 
 ### Related projects
 
+
+
 1. **[FAISS](https://github.com/facebookresearch/faiss) (Facebook AI Similarity Search)**: Developed by Facebook, FAISS isn't a database per se but a library for efficient similarity search of high-dimensional vectors. It is often used in combination with a traditional database to manage the vector part of data.
 
 3. **[Annoy](https://github.com/spotify/annoy) (Approximate Nearest Neighbors Oh Yeah)**: Developed by Spotify, Annoy is a C++ library with Python bindings that supports efficient search of approximate nearest neighbors.
@@ -30,6 +32,8 @@ Let's consider a machine learning model that converts images into high-dimension
 5. **[NGT](https://github.com/yahoojapan/NGT) (Neighborhood Graph and Tree)**: Developed by Yahoo! Japan, NGT provides high-speed search algorithms for nearest neighbors.
 
 8. **[ScaNN](https://github.com/google-research/google-research/tree/master/scann) (Scalable Nearest Neighbors)**: A library for efficient vector similarity search, released by Google Research.
+
+9. [Vectra](https://github.com/Stevenic/vectra) and [Vectra-py](https://github.com/BMS-geodev/vectra-py): A local vector database with features similar to pinecone but built using local files.
 
 ## References
 
