@@ -50,3 +50,8 @@ services:
 ```
 
 In this case, the `nginx` service is exposing port `8000` within the Docker network (though the `nginx` image doesn't actually use this port), but this port is not accessible on the host. On the other hand, the service is also mapping port `8080` on the host to port `80` on the container, so you can access the `nginx` server at `http://localhost:8080` on the host machine.
+
+### Working with Docker Containers Made Easy with the dexec Bash Script
+
+> One of the powerful features [Docker](https://www.docker.com/) offers is the ability to interact with running containers. However, manually entering the necessary commands to access a container can be clunky. This motivated me to write this simple `dexec` script to make running commands through my Docker containers less clunky. I’ll show you what dexec is and how to use it!
+> https://spin.atomicobject.com/2023/06/26/dexec-docker/

@@ -9,6 +9,8 @@ From <https://github.com/codecrafters-io/build-your-own-x#build-your-own-docker>
 
 Also:
 
+- https://akashrajpurohit.com/blog/build-your-own-docker-with-linux-namespaces-cgroups-and-chroot-handson-guide/
+
 ## Chroot and container
 
 - "Containers are chroot with a Marketing Budget" https://earthly.dev/blog/chroot/
