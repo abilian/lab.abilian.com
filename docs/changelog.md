@@ -4,13 +4,13 @@
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-07-01*)
 
-- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
-
-- **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
+
+- **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
 
