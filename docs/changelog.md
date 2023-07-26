@@ -270,13 +270,13 @@
 
 - **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
-- **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
-
-- **[Automation](/Tech/Tools/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
-
 
 
 ## Earlier changes
+
+- **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
+
+- **[Automation](/Tech/Tools/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
 
 - **[Task Runners](/Tech/Python/Task runners/Task Runners/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/Doit/)</small> (*2023-04-26*)
 
