@@ -7,7 +7,8 @@ from pathlib import Path
 
 
 HOME = os.environ["HOME"]
-POETRY = f"{HOME}/.local/bin/poetry"
+# POETRY = f"{HOME}/.local/bin/poetry"
+POETRY = "/opt/homebrew/bin/poetry"
 
 
 def run(*args, check=True):

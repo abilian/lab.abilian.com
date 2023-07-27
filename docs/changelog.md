@@ -1,5 +1,13 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
+
+- **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-07-27*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-07-11*)
@@ -137,8 +145,6 @@
 - **[Dramatiq](/Tech/Python/Useful Libraries/Dramatiq/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-12*)
 
 - **[Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-05-11*)
-
-- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
 
 - **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
 
