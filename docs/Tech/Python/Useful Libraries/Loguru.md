@@ -1,3 +1,5 @@
+#python #logging
+
 The "loguru" library is an open-source Python library designed to simplify logging in applications. It was created by Sébastien Eustace and is available on PyPI for installation.
 
 The main goal of the "loguru" library is to provide an easy-to-use and flexible logging interface with a syntax that is both concise and expressive. It aims to improve upon the standard library's `logging` module by offering a more intuitive API and additional features.
