@@ -51,3 +51,6 @@ Let's consider a machine learning model that converts images into high-dimension
 > - [Chroma](https://github.com/chroma-core/chroma), an open-source embeddings store
 > - [Typesense](https://typesense.org/docs/0.24.0/api/vector-search.html), fast open source vector search
 > - [Zilliz](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/zilliz), data infrastructure, powered by Milvus
+
+
+#database #machine-learning 
