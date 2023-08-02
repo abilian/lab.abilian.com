@@ -11,6 +11,7 @@ Currently using Marshmallow.
 Not a fan of Pydantic.
 
 Potentially useful:
+
 - https://github.com/python-desert/desert (combines Attrs and Marshmallow)
 - https://pypi.org/project/dataclasses-json/
 - https://github.com/Tinche/cattrs
@@ -38,6 +39,7 @@ https://github.com/dabeaz/sly "Lex + YACC in Python" (When you already have a YA
 ## Dev tooling
 
 Were currently using:
+
 - Poetry
 - Black
 - Flake8 + additional plugins (Bandit...)
@@ -48,6 +50,7 @@ Were currently using:
 See [[Project templates]] for how to set up these tools properly.
 
 Some additional resources:
+
 - https://pypi.org/project/devtools/ "Python's missing debug print command and other development tools." (Detailed discussion [[Python debug tools]]).
 - https://pypi.org/project/stdeb/ "produces Debian source packages from Python packages"
 - https://pypi.org/project/hupper/ "hupper is an integrated process monitor that will track changes to any imported Python files in sys.modules as well as custom paths. When files are changed the process is restarted."
@@ -74,6 +77,7 @@ Other useful libraries include Click and Typer.
 ## Authentication
 
 2 librairies are maintained:
+
 - https://github.com/lepture/authlib
 - https://github.com/oauthlib/oauthlib
 
