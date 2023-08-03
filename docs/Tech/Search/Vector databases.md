@@ -36,21 +36,21 @@ Let's consider a machine learning model that converts images into high-dimension
 ## References
 
 - [Top 10 Best Vector Databases & Libraries](https://byby.dev/vector-databases)
+-  [Getting started with Vector DBs in Python](https://code.dblock.org/2023/06/16/getting-started-with-vector-dbs-in-python.html "Getting started with Vector DBs in Python")
 - [vector-database tag on GitHub](https://github.com/topics/vector-database)
 - [How can I retrieve K nearest embedding vectors quickly?](https://platform.openai.com/docs/guides/embeddings/how-can-i-retrieve-k-nearest-embedding-vectors-quickly)
 
-> For searching over many vectors quickly, we recommend using a vector database. You can find examples of working with vector databases and the OpenAI API [in our Cookbook](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases) on GitHub.
+>     For searching over many vectors quickly, we recommend using a vector database. You can find examples of working with vector databases and the OpenAI API [in our Cookbook](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases) on GitHub.
 
 > Vector database options include:
 
-> - [Pinecone](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/pinecone), a fully managed vector database
-> - [Weaviate](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/weaviate), an open-source vector search engine
-> - [Redis](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis) as a vector database
-> - [Qdrant](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/qdrant), a vector search engine
-> - [Milvus](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/Using_vector_databases_for_embeddings_search.ipynb), a vector database built for scalable similarity search
-> - [Chroma](https://github.com/chroma-core/chroma), an open-source embeddings store
-> - [Typesense](https://typesense.org/docs/0.24.0/api/vector-search.html), fast open source vector search
-> - [Zilliz](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/zilliz), data infrastructure, powered by Milvus
-
+>     - [Pinecone](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/pinecone), a fully managed vector database
+>     - [Weaviate](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/weaviate), an open-source vector search engine
+>     - [Redis](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis) as a vector database
+>     - [Qdrant](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/qdrant), a vector search engine
+>     - [Milvus](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/Using_vector_databases_for_embeddings_search.ipynb), a vector database built for scalable similarity search
+>     - [Chroma](https://github.com/chroma-core/chroma), an open-source embeddings store
+>     - [Typesense](https://typesense.org/docs/0.24.0/api/vector-search.html), fast open source vector search
+>     - [Zilliz](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/zilliz), data infrastructure, powered by Milvus
 
 #database #machine-learning 

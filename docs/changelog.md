@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
+
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-08-02*)
 
 - **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
@@ -10,13 +12,13 @@
 
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-01*)
 
-- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
-
-- **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-07-27*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
+
+- **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-07-27*)
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-07-11*)
 
@@ -157,8 +159,6 @@
 - **[Boltons](/Tech/Python/Useful Libraries/Boltons/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
 
 - **[Attrs](/Tech/Python/Useful Libraries/Attrs/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
-
-- **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
 
 - **[Prometheus](/Tech/Cloud/Prometheus/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-05-11*)
 
