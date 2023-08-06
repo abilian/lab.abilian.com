@@ -182,6 +182,10 @@
 
 - **[Planning and roadmapping](/Tech/Software Engineering/Planning and roadmapping/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-10*)
 
+
+
+## Earlier changes
+
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
 
 - **[Effective software development](/Tech/Software Engineering/Effective software development/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-07*)
@@ -203,10 +207,6 @@
 - **[Donella Meadows](/Business/Authors/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[00 Authors](/Business/Authors/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-
-
-## Earlier changes
 
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
 
