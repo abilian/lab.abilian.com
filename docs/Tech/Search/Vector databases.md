@@ -37,6 +37,7 @@ Let's consider a machine learning model that converts images into high-dimension
 
 - [Top 10 Best Vector Databases & Libraries](https://byby.dev/vector-databases)
 -  [Getting started with Vector DBs in Python](https://code.dblock.org/2023/06/16/getting-started-with-vector-dbs-in-python.html "Getting started with Vector DBs in Python")
+- [The Best Vector Databases for Storing Embeddings](https://safjan.com/the-best-vector-databases-for-storing-embeddings/#the-best-vector-databases-for-storing-embeddings)
 - [vector-database tag on GitHub](https://github.com/topics/vector-database)
 - [How can I retrieve K nearest embedding vectors quickly?](https://platform.openai.com/docs/guides/embeddings/how-can-i-retrieve-k-nearest-embedding-vectors-quickly)
 
