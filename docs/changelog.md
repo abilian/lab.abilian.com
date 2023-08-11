@@ -24,11 +24,11 @@
 
 - **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-07-27*)
 
-- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-07-11*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-07-11*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
 
@@ -126,6 +126,10 @@
 
 - **[The RCOV Model](/Business/Business Models/The RCOV Model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-14*)
 
+
+
+## Earlier changes
+
 - **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
 
 - **[The Software Business Model Framework (SBMF)](/Business/Business Models/The Software Business Model Framework (SBMF)/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
@@ -133,10 +137,6 @@
 - **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
 
 - **[00 Machine Learning](/Tech/Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-05-12*)
-
-
-
-## Earlier changes
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
 
