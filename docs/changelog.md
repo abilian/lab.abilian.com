@@ -1,14 +1,10 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
 
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-08-07*)
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-08-07*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-04*)
 
