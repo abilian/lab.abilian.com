@@ -92,6 +92,10 @@
 
 - **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-17*)
 
+
+
+## Earlier changes
+
 - **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-05-16*)
 
 - **[Concurrent programming](/Tech/Python/Concurrent programming/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-16*)
@@ -115,10 +119,6 @@
 - **[Business Model Canvas](/Business/Business Models/Business Model Canvas/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
 
 - **[Alexander Osterwalder](/Business/Authors/Alexander Osterwalder/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-16*)
-
-
-
-## Earlier changes
 
 - **[Architectural Decision Records](/Tech/Software Engineering/Architectural Decision Records/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-14*)
 
