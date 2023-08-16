@@ -82,6 +82,10 @@
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
 
+
+
+## Earlier changes
+
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
 - **[Gilb's "Twelve Tough Questions"](/Business/Project Management/Gilb's "Twelve Tough Questions"/)** in <small>[Business](/Business/00 Business/) / [Project Management](/Business/Project Management/Gilb's "Twelve Tough Questions"/)</small> (*2023-05-17*)
@@ -91,10 +95,6 @@
 - **[Concept Maps](/Business/Knowledge Management/Concept Maps/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-17*)
 
 - **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-17*)
-
-
-
-## Earlier changes
 
 - **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-05-16*)
 
