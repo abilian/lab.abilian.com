@@ -76,11 +76,11 @@
 
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
-
 
 
 ## Earlier changes
+
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
 
 - **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-05-22*)
 
