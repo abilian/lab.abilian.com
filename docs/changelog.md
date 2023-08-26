@@ -16,13 +16,13 @@
 
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-01*)
 
-- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
-
-- **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-07-27*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
+
+- **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-07-27*)
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-07-11*)
 
@@ -74,11 +74,11 @@
 
 - **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
-- **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
-
 
 
 ## Earlier changes
+
+- **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
 - **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
 
