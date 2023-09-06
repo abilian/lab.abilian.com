@@ -1,14 +1,10 @@
 # Changelog
 
-## Changed last 30 to 7 days
+## Changed last 90 to 30 days
 
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-08-07*)
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-08-07*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-04*)
 
@@ -40,6 +36,10 @@
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
 
+
+
+## Earlier changes
+
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-06-07*)
@@ -53,10 +53,6 @@
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-06-07*)
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-06-07*)
-
-
-
-## Earlier changes
 
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
 
