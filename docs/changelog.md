@@ -34,11 +34,11 @@
 
 - **[00MOC](/Projects/00MOC/)** in <small>[Projects](/Projects/00MOC/)</small> (*2023-06-21*)
 
-- **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
-
 
 
 ## Earlier changes
+
+- **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
 
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
 
