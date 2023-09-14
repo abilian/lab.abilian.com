@@ -9,12 +9,10 @@
 * https://pypi.org/project/shellby/
 - https://github.com/KonishchevDmitry/psh = Process management library
 - https://github.com/Ovsyanka83/pysh/ = A library of small functions that simplify scripting in python
-
+- https://hitchdev.com/commandlib/ = a library for calling external UNIX commands (e.g. in build scripts) in a clean, readable way.
 ## Docs / blogs posts
 
 - https://martinheinz.dev/blog/98 "The Right Way to Run Shell Commands From Python"
-
-
 
 ## Shell -> Python converter / compiler
 
