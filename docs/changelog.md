@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Access control in Python](/Tech/Python/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-19*)
+
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-14*)
 
 
