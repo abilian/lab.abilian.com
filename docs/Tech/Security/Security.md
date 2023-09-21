@@ -1,6 +1,6 @@
 ## Reference
-- [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
 
+- [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
 
 ## Web (http)
 
@@ -19,7 +19,6 @@
 -   [OWASP: HTTP SECURITY HEADERS (Protection For Browsers) (PDF)](https://owasp.org/www-chapter-ghana/assets/slides/HTTP_Header_Security.pdf)
 
 (Tested by [[Wapiti]]).
-
 
 ## More
 
