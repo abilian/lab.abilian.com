@@ -153,3 +153,8 @@ https://tomassetti.me/wasi-how-to-run-webassembly-code-outside-of-your-browser/
 ## See also
 
 [[Compilers]]
+
+
+## Testing
+
+- https://github.com/Zac-HD/hypothesmith "Hypothesis strategies for generating Python programs, something like CSmith"
