@@ -1,5 +1,13 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
+
+- **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-09-29*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-09-21*)
@@ -63,8 +71,6 @@
 - **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-07*)
 
 - **[Content Repositories](/Tech/Web/Content Repositories/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
-
-- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-06-07*)
 
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
 
