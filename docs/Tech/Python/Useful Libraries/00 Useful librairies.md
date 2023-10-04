@@ -25,6 +25,16 @@ Potentially useful:
 - https://www.dynaconf.com/ "Configuration Management for Python."
 - or: https://typed-settings.readthedocs.io/
 - Or: https://github.com/zifeo/dataconf
+- https://omegaconf.readthedocs.io/ (YAML based)
+- GIN: https://github.com/google/gin-config (a lightweight configuration framework for Python)
+- https://hydra.cc/
+- https://pypi.org/project/upsilonconf/
+- https://pypi.org/project/python-decouple/
+- https://pypi.org/project/ConfigFramework/
+
+Blog posts:
+
+- https://dxiaochuan.medium.com/summary-of-python-config-626f2d5f6041
 
 ## Distributed systems
 
