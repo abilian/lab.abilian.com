@@ -38,13 +38,15 @@ Blog posts:
 
 ## Distributed systems
 
-https://pypi.org/project/janus/ "Mixed sync-async queue, supposed to be used for communicating between classic synchronous (threaded) code and asynchronous (in terms of [asyncio](https://docs.python.org/3/library/asyncio.html)) one."
+- https://pypi.org/project/janus/ "Mixed sync-async queue, supposed to be used for communicating between classic synchronous (threaded) code and asynchronous (in terms of [asyncio](https://docs.python.org/3/library/asyncio.html)) one."
 
+## Parallelism
+
+- [aiochan](https://github.com/zh217/aiochan/): CSP-style concurrency for Python
 ## Parsing
 
-https://pypi.org/project/lark/ "Lark is a modern general-purpose parsing library for Python." (LALR(1), Earley parsing)
-
-https://github.com/dabeaz/sly "Lex + YACC in Python" (When you already have a YACC grammar for a language).
+- https://pypi.org/project/lark/ "Lark is a modern general-purpose parsing library for Python." (LALR(1), Earley parsing)
+- https://github.com/dabeaz/sly "Lex + YACC in Python" (When you already have a YACC grammar for a language).
 
 ## Dev tooling
 

@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-10-04*)
+
+- **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-10-04*)
+
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
 
 - **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-09-29*)
@@ -29,8 +33,6 @@
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-08-07*)
 
 - **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-04*)
-
-- **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
 
 - **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
 
@@ -153,8 +155,6 @@
 - **[Quick learn languages](/Tech/Programming Techniques/Quick learn languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
 - **[Distributed computing](/Tech/Programming Techniques/Distributed computing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
-
-- **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
 - **[BDD](/Tech/Programming Techniques/BDD/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
