@@ -6,11 +6,11 @@
 
 - **[Components and Services](/Tech/Python/Components and Services/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-05*)
 
-- **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-10-04*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-10-04*)
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
 
