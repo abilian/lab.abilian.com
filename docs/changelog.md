@@ -1,5 +1,11 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[MDM - Master Data Management](/Tech/Databases & Persistence/MDM - Master Data Management/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-10-13*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-10-05*)
