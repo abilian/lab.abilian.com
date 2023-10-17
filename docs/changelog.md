@@ -2,6 +2,16 @@
 
 ## Recent changes (last 7 days)
 
+- **[00 Wendelin (2014-2019)](/Projects/Wendelin/00 Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/) / [Wendelin](/Projects/Wendelin/00 Wendelin (2014-2019)/)</small> (*2023-10-17*)
+
+- **[00 Cython+ (2020-2022)](/Projects/Cython+/00 Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-10-17*)
+
+- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2023-10-17*)
+
+- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
+
+- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
+
 - **[MDM - Master Data Management](/Tech/Databases & Persistence/MDM - Master Data Management/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-10-13*)
 
 
@@ -60,11 +70,7 @@
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
 
-- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
-
 - **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
-
-- **[00MOC](/Projects/00MOC/)** in <small>[Projects](/Projects/00MOC/)</small> (*2023-06-21*)
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
 
@@ -73,8 +79,6 @@
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-06-07*)
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
-
-- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-07*)
 
 - **[Content Repositories](/Tech/Web/Content Repositories/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
 
@@ -100,9 +104,9 @@
 
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
 
-- **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00MOC/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
+- **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
@@ -426,21 +430,19 @@
 
 - **[Clean architecture](/Tech/Architecture/Clean architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
 
-- **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00MOC/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-03-08*)
+- **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-03-08*)
 
-- **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
+- **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 
-- **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
+- **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
 
-- **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
+- **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
 
-- **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
+- **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 
-- **[Monte](/Projects/Cython+/Monte/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
+- **[Monte](/Projects/Cython+/Monte/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 
-- **[Benchmarks](/Projects/Cython+/Benchmarks/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
-
-- **[00 Cython+](/Projects/Cython+/00 Cython+/)** in <small>[Projects](/Projects/00MOC/) / [Cython+](/Projects/Cython+/00 Cython+/)</small> (*2023-03-08*)
+- **[Benchmarks](/Projects/Cython+/Benchmarks/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 
 - **[Dockerfile Cheat Sheet](/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Cheat Sheets](/Cheat Sheets/Docker Cheat Sheet/)</small> (*2023-03-08*)
 

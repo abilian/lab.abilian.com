@@ -86,3 +86,21 @@
 - Everything is in Python
     - Daemon, cli, build scripts, web app, supporting scripts.
     - With some exceptions: config files (TOML), dockerfiles, some shell scripting
+
+## Narrative
+
+Nua isn't just another platform for deploying and managing web applications; it's an ambitious project that aims to be a one-stop solution for a variety of deployment scenarios. Built with resilience, repeatability, and security at its core, Nua aspires to be the foundation of your production, development, and pre-production needs.
+
+Imagine you're running a production environment. With Nua, you have options. If you're just starting out and operating on a single server, Nua's got your back. It gracefully handles everything in-house, on that one server. As you scale and externalize some of your services, perhaps databases for instance, Nua seamlessly adapts, managing the complexities for you. Down the road, when you're big enough to require multiple servers, Nua plans to integrate with container orchestration titans like Kubernetes, Swarm, Nomad, or SlapOS to make your life even easier.
+
+Developers are in for a treat, too. Nua aims to deliver a seamless Platform-as-a-Service experience, making the transition from development to production as smooth as possible. And if you're a SaaS vendor looking to deploy multiple demos, Nua makes it effortless to spin up as many as you need.
+
+Let's talk features. One of the most user-friendly aspects is the "one-click" install for pre-packaged applications. Just select the app you need from an app-store-like interface, click, and you're good to go. Prefer a custom app? No problem—Nua allows you to deploy your unique applications using CLI and CI tools.
+
+But what about disaster scenarios? Nua offers robust backup and disaster recovery options, so you can have peace of mind. The platform also gives you real-time monitoring capabilities and log management, helping you stay on top of things.
+
+Now, you may be wondering about security. Nua takes it seriously. SSL certificates are managed via Let’s Encrypt, ensuring encrypted connections. The platform keeps you in the loop with alerts for package upgrades and offers basic firewall and intrusion detection features. Access control is both granular and flexible, with support for Single Sign-On mechanisms like SAML and Shibboleth.
+
+For the tech-savvy, Nua’s architecture initially leverages Docker for both build and runtime but has plans to extend its support to other environments, like QEMU and Unix native isolation. Whether you're looking at a pleasant Web UI or need to dive deep with CLI, Nua provides both, backed by a variety of services like databases, email, and message queues. Nua is primarily coded in Python, making it a versatile choice for a broad range of developers.
+
+Nua brings all this together with a clear technical vision, adhering to the "12-factor apps" methodology and incorporating Promise Theory. This well-thought-out blend of features and technical depth makes Nua a compelling choice for anyone looking to deploy and manage web applications securely and efficiently.

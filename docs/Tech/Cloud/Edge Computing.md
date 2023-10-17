@@ -1,6 +1,6 @@
 Edge Computing extends the capabilities of cloud computing by bringing computation closer to the source of data. While cloud computing primarily involves a few large data centers (DC) with thousands of servers, edge computing distributes computing resources across thousands of smaller data centers closer to the devices generating data. Both edge and cloud computing offer automation, but they differ in scale and location.
 
-#### Types of Edge Computing:
+## Types of Edge Computing:
 
 1. **Edge Data Centre (DC):** These involve 16 to 32 servers in a rack and are located within 100 km from the user. This model closely mirrors the hardware used by major cloud service providers.
 
@@ -14,7 +14,7 @@ Each type has its latency constraints:
 - Campus Edge is geared for up to ten microseconds latency use-cases like industrial automation.
 - Edge IoT can handle extremely low latency use-cases, up to 10 nanoseconds, like radio units or autopilots.
 
-### Advantages of Edge Computing:
+### Advantages of Edge Computing
 
 #### 1. Resiliency:
 
@@ -37,7 +37,7 @@ The locality of edge computing can allow organizations to choose jurisdictions t
 
 While cloud computing offers economies of scale, it also faces diminishing returns beyond a certain size. Edge computing can be scaled down to avoid these inefficiencies.
 
-### Summary
+## Summary
 
 Both edge and cloud computing provide the automation and scalability that modern IT services require, but they serve different needs and scenarios. 
 
