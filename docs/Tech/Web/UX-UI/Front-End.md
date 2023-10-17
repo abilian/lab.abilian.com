@@ -38,17 +38,17 @@ Forms -> several interesting projects.
 	- Higher level: https://store.antdv.com/pro/preview/system/permission-list (not free!)
 
 #### Without design systems
+
 - Oruga: https://dev.to/astagi/oruga-the-new-kid-on-the-block-1n55
 
 #### Non-free
+
 - https://www.telerik.com/kendo-vue-ui/components/
 
 ### Alternatives to Vue
+
 - [[Svelte]]
-
-### Alternatives to the main frameworks
 - https://github.com/ryansolid/solid "A declarative, efficient, and flexible JavaScript library for building user interfaces."
-
 - Speed comparison: https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts-results/table.html
 
 ### For lightweight interactivity

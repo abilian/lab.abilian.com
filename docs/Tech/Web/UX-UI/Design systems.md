@@ -6,14 +6,12 @@
 - <https://github.com/klaufel/awesome-design-systems>
 - <https://designsystemsrepo.com/>
 
-
 ## Based on tailwind
 
 - a17t
 - Daisyui
 - https://tailwind-elements.com/ (AGPL)
 - https://github.com/themesberg/flowbite (MIT)
-
 
 ## Tools
 
@@ -28,9 +26,6 @@
 - <https://ui-framework.superdesk.org/>
 - <https://blog.jetbrains.com/blog/2018/09/25/ring-ui-1-0-is-released/>+ <https://jetbrains.github.io/ring-ui/master/i>
 - https://github.com/square/orbit
-
-## More
-
 
 ## Business UX
 
