@@ -2,7 +2,17 @@
 
 ## Recent changes (last 7 days)
 
+- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
+
+- **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
+
 - **[00 Wendelin (2014-2019)](/Projects/Wendelin/00 Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/) / [Wendelin](/Projects/Wendelin/00 Wendelin (2014-2019)/)</small> (*2023-10-17*)
+
+- **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-10-17*)
+
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-10-17*)
+
+- **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-10-17*)
 
 - **[00 Cython+ (2020-2022)](/Projects/Cython+/00 Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-10-17*)
 
@@ -25,8 +35,6 @@
 - **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-10-04*)
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
-
-- **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-09-29*)
 
 - **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-09-21*)
 
@@ -61,8 +69,6 @@
 
 
 ## Earlier changes
-
-- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-07-11*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
 
@@ -103,10 +109,6 @@
 - **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
-
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-05-25*)
-
-- **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-05-22*)
 
 - **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
 
@@ -429,8 +431,6 @@
 - **[Content Services](/Tech/Architecture/Content Services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
 
 - **[Clean architecture](/Tech/Architecture/Clean architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
-
-- **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-03-08*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 

@@ -38,6 +38,10 @@ See also:
 - https://github.com/sustrik/uxy "UXY: Adding structure to the UNIX tools"
 - https://hush-shell.github.io/foreword.html - "This is the official guide of [_Hush_](https://github.com/hush-shell/hush), a modern shell scripting language."
 
+## References
+
+- <https://martinheinz.dev/blog/98> "The Right Way to Run Shell Commands From Python"
+
 ## Misc ideas for a new API
 
 Goals:
