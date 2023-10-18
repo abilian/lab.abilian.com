@@ -2,11 +2,13 @@
 
 ## Recent changes (last 7 days)
 
+- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-17*)
+
+- **[00 Wendelin (2014-2019)](/Projects/Wendelin/00 Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/) / [Wendelin](/Projects/Wendelin/00 Wendelin (2014-2019)/)</small> (*2023-10-17*)
+
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
 
 - **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
-
-- **[00 Wendelin (2014-2019)](/Projects/Wendelin/00 Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/) / [Wendelin](/Projects/Wendelin/00 Wendelin (2014-2019)/)</small> (*2023-10-17*)
 
 - **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-10-17*)
 
@@ -47,8 +49,6 @@
 
 
 ## Changed last 90 to 30 days
-
-- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-14*)
 
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-08-07*)
 
