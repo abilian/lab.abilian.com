@@ -12,6 +12,7 @@ https://typst.app/
 
 - https://github.com/typst/templates
 - https://github.com/qjcg/awesome-typst#templates--libraries
+- github.com/Dherse/masterproef
 
 ## Missing features
 
