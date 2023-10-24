@@ -15,4 +15,4 @@
 7.  **End with a strong call to action**: Your copy should always include a clear and compelling call to action, telling the reader what they need to do next to take advantage of your offer.
     
 
-By following these rules, you can create copy that engages and persuades your audience, and drives them to take action.
+Following these rules can help you create copy that engages and persuades your audience, and drives them to take action.

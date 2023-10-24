@@ -2,6 +2,18 @@
 
 ## Recent changes (last 7 days)
 
+- **[Automation](/Tech/Tools/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-10-24*)
+
+- **[00 Task Runners](/Tech/Python/Task runners/00 Task Runners/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2023-10-24*)
+
+- **[Refactor Python](/Tech/Python/Refactor Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
+
+- **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
+
+- **[Prefect](/Tech/Python/Prefect/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
+
+- **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
+
 - **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Typst/)</small> (*2023-10-20*)
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-18*)
@@ -63,8 +75,6 @@
 - **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
 
 - **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-08-02*)
-
-- **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-01*)
 
 - **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
 
@@ -300,13 +310,9 @@
 
 - **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-05-03*)
 
-- **[Prefect](/Tech/Python/Prefect/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
-
 - **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
 - **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
-
-- **[Automation](/Tech/Tools/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
 
 - **[Invoke](/Tech/Python/Task runners/Invoke/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2023-04-26*)
 
@@ -369,8 +375,6 @@
 - **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
 - **[Typechecking](/Tech/Python/Typechecking/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
-
-- **[Refactor Python](/Tech/Python/Refactor Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
 - **[RPC in Python](/Tech/Python/RPC in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
