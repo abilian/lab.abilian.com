@@ -24,13 +24,13 @@
 
 - **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2023-10-17*)
 
-- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
-
-- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
+
+- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
 
 - **[MDM - Master Data Management](/Tech/Databases & Persistence/MDM - Master Data Management/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-10-13*)
 
@@ -300,8 +300,6 @@
 
 - **[Load testing](/Tech/Web/Load testing/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-05-03*)
 
-- **[Python](/Tech/Python/Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
-
 - **[Prefect](/Tech/Python/Prefect/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
 
 - **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-29*)
@@ -310,11 +308,9 @@
 
 - **[Automation](/Tech/Tools/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-04-26*)
 
-- **[Task Runners](/Tech/Python/Task runners/Task Runners/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/Doit/)</small> (*2023-04-26*)
+- **[Invoke](/Tech/Python/Task runners/Invoke/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2023-04-26*)
 
-- **[Invoke](/Tech/Python/Task runners/Invoke/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/Doit/)</small> (*2023-04-26*)
-
-- **[Doit](/Tech/Python/Task runners/Doit/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/Doit/)</small> (*2023-04-26*)
+- **[Doit](/Tech/Python/Task runners/Doit/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2023-04-26*)
 
 - **[Argparse](/Tech/Python/CLI/Argparse/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-04-26*)
 

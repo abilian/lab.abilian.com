@@ -1,4 +1,4 @@
-Prefect is a modern workflow management system designed to help you build, schedule, and monitor data workflows. It is often compared to [[Apache Airflow]], as both systems are built on [[Python]] and have similar goals in terms of orchestrating complex data pipelines. However, Prefect offers some unique features and improvements over Airflow that make it an attractive alternative.
+Prefect is a modern workflow management system designed to help you build, schedule, and monitor data workflows. It is often compared to [[Apache Airflow]], as both systems are built on [[00 Python]] and have similar goals in terms of orchestrating complex data pipelines. However, Prefect offers some unique features and improvements over Airflow that make it an attractive alternative.
 
 ## Key features
 
