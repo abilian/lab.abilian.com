@@ -10,6 +10,12 @@
 - https://github.com/KonishchevDmitry/psh = Process management library
 - https://github.com/Ovsyanka83/pysh/ = A library of small functions that simplify scripting in python
 - https://hitchdev.com/commandlib/ = a library for calling external UNIX commands (e.g. in build scripts) in a clean, readable way.
+
+## Python-based shells
+
+- https://github.com/geophile/marcel "[Marcel is a shell](https://www.youtube.com/watch?v=VF9-sEbqDvU). The main idea is to rely on piping as the primary means of composition, as with any Unix or Linux shell. However, instead of passing strings from one command to the next, marcel passes Python values: builtin types such as lists, tuples, strings, and numbers; but also objects representing files and processes."
+- https://xon.sh/ "Xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt. The language is a superset of Python 3.6+ with additional shell primitives that you are used to from Bash and IPython. It works on all major systems including Linux, OSX, and Windows. Xonsh is meant for the daily use of experts and novices."
+
 ## Docs / blogs posts
 
 - https://martinheinz.dev/blog/98 "The Right Way to Run Shell Commands From Python"
