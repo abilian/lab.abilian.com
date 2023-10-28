@@ -22,11 +22,11 @@
 
 - **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
 
-- **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Typst/)</small> (*2023-10-20*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Typst/)</small> (*2023-10-20*)
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-18*)
 
