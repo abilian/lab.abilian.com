@@ -6,6 +6,10 @@
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-10-26*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-10-24*)
 
 - **[Product-led growth](/Business/Marketing/Product-led growth/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-10-24*)
@@ -21,10 +25,6 @@
 - **[Prefect](/Tech/Python/Prefect/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
 
 - **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Typst/)</small> (*2023-10-20*)
 
@@ -78,13 +78,13 @@
 
 - **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-04*)
 
-- **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
-
-- **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-08-02*)
-
 
 
 ## Earlier changes
+
+- **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
+
+- **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-08-02*)
 
 - **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
 
