@@ -1,5 +1,11 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-26*)
@@ -72,11 +78,11 @@
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-08-07*)
 
-- **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-04*)
-
 
 
 ## Earlier changes
+
+- **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-08-04*)
 
 - **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-08-02*)
 
