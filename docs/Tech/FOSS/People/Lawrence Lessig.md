@@ -10,7 +10,7 @@ Lessig identifies three uses for creative works:
 
 The rise of the Internet has complicated the distinction between these uses, as nearly every act of accessing or sharing content online involves making a copy. Lessig argues that, for some reason, regulated uses should cover all unregulated and fair uses, which would expand the scope of permissible use and foster creativity.
 
-In his "refrain," Lessig emphasizes four key points:
+In this "[[Freed Culture (L. Lessig)|refrain]]" Lessig emphasises four key points:
 
 1.  Creativity and innovation always build on the past.
 2.  The past always tries to control that which builds on it.
@@ -22,4 +22,6 @@ Lessig also identifies several threats to free code and the open exchange of ide
 1.  **Software patents**: He is critical of software patents, arguing that they are often used to exclude future competitors and stifle innovation. By granting exclusive rights to specific software ideas or algorithms, patents can hinder the development of new technologies and limit the availability of innovative solutions.
 2.  **Copyright wars**: Lessig is concerned about the escalating conflicts over copyright enforcement, particularly the aggressive tactics employed by some copyright holders to protect their interests. He believes that these tactics can have a chilling effect on creativity and innovation by discouraging the use and sharing of copyrighted materials, even when such uses might be considered fair or unregulated.
 
-Overall, Larry Lessig advocates for a more balanced approach to intellectual property and copyright law that recognizes the importance of fostering creativity and innovation while still protecting the rights of creators. He emphasizes the need for a more open and free society that enables the future by limiting the control exerted by the past.
+## Summary 
+
+Larry Lessig advocates for a more balanced approach to intellectual property and copyright law that recognizes the importance of fostering creativity and innovation while still protecting the rights of creators. He emphasizes the need for a more open and free society that enables the future by limiting the control exerted by the past.
