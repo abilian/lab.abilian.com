@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[Lawrence Lessig](/Tech/FOSS/People/Lawrence Lessig/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-06*)
+
+- **[Freed Culture (L. Lessig)](/Tech/FOSS/People/Freed Culture (L. Lessig)/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-06*)
+
 - **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
 
 
@@ -279,8 +283,6 @@
 - **[Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
 - **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
-
-- **[Lawrence Lessig](/Tech/FOSS/People/Lawrence Lessig/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
 - **[Eric von Hippel](/Tech/FOSS/People/Eric von Hippel/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
