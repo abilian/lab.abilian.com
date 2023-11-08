@@ -28,7 +28,7 @@ Here's a list of common Dependency Injection (DI) patterns that promote loose co
 
 ## The patterns in details
 
-### 4.1 Composition Root
+### Composition Root
 
 **Composition Root** is a pattern where all the composition of your objects happens in a centralized place in the application, typically at the entry point. This is where you would create instances of your objects and wire them together (i.e., satisfy their dependencies).
 
@@ -48,7 +48,7 @@ Pure DI (also known as Poor Man's DI) involves manual construction and wiring of
 
 As more classes and dependencies are added to an application, the Composition Root can seem to "explode" with complexity. This is a natural consequence of explicitly stating dependencies, but it can be managed by grouping related dependencies into composable modules.
 
-### 4.2 Constructor Injection
+### Constructor Injection
 
 **Constructor Injection** is the most common DI pattern and involves providing the required dependencies through the class's constructor.
 
@@ -72,7 +72,7 @@ This would involve creating a `CurrencyConverter` class and passing it to the co
 
 Constructor Injection helps maintain a clear contract for class dependencies, promoting better maintainability and testability.
 
-### 4.3 Method Injection
+### Method Injection
 
 **Method Injection** is where dependencies are provided through a method.
 
@@ -92,7 +92,7 @@ This is often seen in libraries where the context can change frequently, and the
 
 Method injection would be appropriate if the `Product` entity requires currency conversion only for certain operations. The conversion rate or service could be injected into the method that needs to perform the conversion.
 
-### 4.4 Property Injection
+### Property Injection
 
 **Property Injection** is also referred to as Setter Injection.
 
@@ -112,7 +112,7 @@ Property Injection is often used in situations where a class requires certain se
 
 In a reusable library, you might not know all the dependencies upfront. Property injection allows consumers of the library to configure or extend functionality by setting properties, which can define or override the behavior of the library.
 
-### 4.5 Lazy Injection
+### Lazy Injection
 
 **Lazy Injection** refers to a pattern where the dependency is provided through a proxy or a factory that delays the creation of the actual dependency until it is really needed.
 
@@ -128,7 +128,7 @@ Lazy Injection is useful when the dependency is expensive to create or may not b
 
 This pattern is particularly advantageous in applications that need to start up quickly and delay the initialization of heavy resources until they are actually needed.
 
-### 4.6 Ambient Injection
+### Ambient Injection
 
 **Ambient Injection** involves using a static or global variable to hold a dependency that can be accessed from many different places in the application without being explicitly passed around.
 
@@ -144,7 +144,7 @@ This pattern is used sparingly, typically in legacy code migration or in framewo
 
 Frameworks or libraries that manage a context or provide services that are widely used across different parts of an application might use this pattern, such as logging contexts or transaction management.
 
-### 4.7 Interface Injection
+### Interface Injection
 
 **Interface Injection** is a less common form of DI where an interface is used to inject dependencies through a method defined in the interface.
 
@@ -160,7 +160,7 @@ This pattern can be used when you want to enforce that a dependency must be set 
 
 Interface Injection can be seen in plugin architectures where the host application needs to provide certain services to the plugin, and the plugin is expected to expose an interface to receive those services.
 
-### 4.8 Service Locator
+### Service Locator
 
 **Service Locator** is a pattern where a central registry is used to provide dependencies at runtime. Unlike other forms of DI, it requires the consuming class to request its dependencies from the locator rather than being provided them.
 
