@@ -10,7 +10,7 @@ Lessig identifies three uses for creative works:
 
 The rise of the Internet has complicated the distinction between these uses, as nearly every act of accessing or sharing content online involves making a copy. Lessig argues that, for some reason, regulated uses should cover all unregulated and fair uses, which would expand the scope of permissible use and foster creativity.
 
-In this "[[Freed Culture (L. Lessig)|refrain]]" Lessig emphasises four key points:
+In this "[[Free Culture (L. Lessig)|refrain]]" Lessig emphasises four key points:
 
 1.  Creativity and innovation always build on the past.
 2.  The past always tries to control that which builds on it.

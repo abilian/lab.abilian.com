@@ -3,6 +3,7 @@
 - See also this one by Aaron Swartz <http://www.aaronsw.com/weblog/000438>
 - Video: <https://www.youtube.com/watch?v=uH4RskpUFiA>
 
+
 "So I have been doing this for about two years--more than 100 of these gigs. This is about the last one. One more and it's over for me. So I figured I wanted to write a song to end it. But then I realized I don't sing and I can't write music. But I came up with the refrain, at least, right? This captures the point. If you understand this refrain, you're gonna' understand everything I want to say to you today. It has four parts:
 
 - Creativity and innovation always builds on the past.
@@ -10,9 +11,9 @@
 - Free societies enable the future by limiting this power of the past.
 - Ours is less and less a free society.
 
-In 1774, free culture was born. In a case called Donaldson v. Beckett in the House of Lords in England, free culture was made because copyright was stopped. In 1710, the statute had said that copyright should be for a limited term of just 14 years. But in the 1740s, when Scottish publishers started reprinting classics (you gotta' love the Scots), the London publishers said "Stop!" They said, "Copyright is forever!" Sonny Bono said "Copyright should be forever minus a day," but the London publishers said "Copyright is forever."
+In 1774, free culture was born. In a case called Donaldson v. Beckett in the House of Lords in England, free culture was made because copyright was stopped. In 1710, the statute of Anne had said that copyright should be for a limited term of just 14 years. But in the 1740s, when Scottish publishers started reprinting classics (you gotta' love the Scots), the London publishers said "Stop!" They said, "Copyright is forever!" Sonny Bono said "Copyright should be forever minus a day," but the London publishers said "Copyright is forever."
 
-These publishers, people whom Milton referred to as "old patentees and monopolizers in the trade of book selling, men who do not labor in an honest profession" (except Tim here), to [them] learning is indebted. These publishers demanded a common-law copyright that would be forever. In 1769, in a case called Miller v. Taylor, they won their claim, but just five years later, in Donaldson, Miller was reversed, and for the first time in history, the works of Shakespeare were freed, freed from the control of a monopoly of publishers. Freed culture was the result of that case.
+These publishers, people whom Milton referred to as "old patentees and monopolizers in the trade of book selling, men who do not labor in an honest profession" (except Tim here), to learning is indebted. These publishers demanded a common-law copyright that would be forever. In 1769, in a case called Miller v. Taylor, they won their claim, but just five years later, in Donaldson, Miller was reversed, and for the first time in history, the works of Shakespeare were freed, freed from the control of a monopoly of publishers. Freed culture was the result of that case.
 
 Remember the refrain. I would sing it, but you wouldn't want me to. OK. Well, by the end we'll see.
 

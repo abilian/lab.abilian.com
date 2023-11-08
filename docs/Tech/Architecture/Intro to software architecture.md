@@ -137,7 +137,7 @@ Understanding and prioritizing these quality attributes is critical because they
 
 ### Books
 
-- "Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices"
+- "Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices", aka [Cosmic Python](https://www.cosmicpython.com/)
 
 ## Tools
 

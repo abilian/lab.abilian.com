@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Intro to software architecture](/Tech/Architecture/Intro to software architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-11-07*)
+
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
 - **[Zig](/Tech/Programming Languages/Zig/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-11-07*)
@@ -9,8 +11,6 @@
 - **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
 - **[Lawrence Lessig](/Tech/FOSS/People/Lawrence Lessig/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-06*)
-
-- **[Freed Culture (L. Lessig)](/Tech/FOSS/People/Freed Culture (L. Lessig)/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-06*)
 
 - **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
 
