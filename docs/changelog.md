@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
+
 - **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-08*)
 
 - **[Examples of DI API in Python](/Tech/Architecture/Dependency Inversion/Examples of DI API in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
@@ -15,8 +17,6 @@
 - **[Free Culture (L. Lessig)](/Tech/FOSS/People/Free Culture (L. Lessig)/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-08*)
 
 - **[Intro to software architecture](/Tech/Architecture/Intro to software architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-11-08*)
-
-- **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
 - **[DI anti-patterns](/Tech/Architecture/Dependency Inversion/DI anti-patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
