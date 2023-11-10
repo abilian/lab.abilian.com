@@ -26,11 +26,11 @@
 
 - **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
-- **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
 
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-26*)
 
