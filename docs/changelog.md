@@ -20,15 +20,15 @@
 
 - **[DI anti-patterns](/Tech/Architecture/Dependency Inversion/DI anti-patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
 - **[Zig](/Tech/Programming Languages/Zig/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-11-07*)
 
 - **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
 
