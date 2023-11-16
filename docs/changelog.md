@@ -1,6 +1,6 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
 
 - **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
@@ -19,10 +19,6 @@
 - **[Intro to software architecture](/Tech/Architecture/Intro to software architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-11-08*)
 
 - **[DI anti-patterns](/Tech/Architecture/Dependency Inversion/DI anti-patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
