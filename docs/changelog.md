@@ -1,5 +1,19 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
+
+- **[00 The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
+
+- **[How to structure a sales team](/Business/Sales/How to structure a sales team/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2023-11-18*)
+
+- **[00 Sales](/Business/Sales/00 Sales/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2023-11-18*)
+
+- **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
@@ -273,8 +287,6 @@
 - **[Peter Drucker](/Business/Authors/Peter Drucker/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[Andy Grove](/Business/Authors/Andy Grove/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-- **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-07*)
 
 - **[Design Patterns](/Tech/Software Engineering/Design Patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-06*)
 
