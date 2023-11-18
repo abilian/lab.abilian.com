@@ -152,8 +152,6 @@
 
 - **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
 
-- **[Sales](/Business/Sales/)** in <small>[Business](/Business/00 Business/)</small> (*2023-05-17*)
-
 - **[Gilb's "Twelve Tough Questions"](/Business/Project Management/Gilb's "Twelve Tough Questions"/)** in <small>[Business](/Business/00 Business/) / [Project Management](/Business/Project Management/Gilb's "Twelve Tough Questions"/)</small> (*2023-05-17*)
 
 - **[Mind Mapping](/Business/Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-17*)

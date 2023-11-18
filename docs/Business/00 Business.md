@@ -4,7 +4,8 @@ In this section, you'll find short or long notes covering various aspects of bus
 
 Currently our focus is on:
 
+- [[00 The Abilian Way]]: a list of tips and principales that are crucial to the performance of our team.
 - [[Accountability|Management Competencies]]
-- [Knowledge Management](/Business/Knowledge%20Management/Is%20knowledge%20management%20dead%20%28or%20dying%29%3F/)
+- [[Is knowledge management dead (or dying)?|Knowledge Management]]
 - [[Product-led growth|Marketing]]
 - [[Values]] as a mean of value creation and talent acquisition
