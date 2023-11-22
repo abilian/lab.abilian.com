@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-21*)
+
 - **[The GIL](/Tech/Python/The GIL/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
 
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
