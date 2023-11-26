@@ -10,6 +10,10 @@
 
 - **[Python Notes](/Tech/Python/Python Notes/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
 
 - **[00 The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
@@ -19,10 +23,6 @@
 - **[00 Sales](/Business/Sales/00 Sales/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2023-11-18*)
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
@@ -50,13 +50,13 @@
 
 - **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
 
-- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-26*)
-
-- **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-10-26*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-26*)
+
+- **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2023-10-26*)
 
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-10-24*)
 
