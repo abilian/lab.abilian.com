@@ -4,15 +4,15 @@
 
 - **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-21*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[The GIL](/Tech/Python/The GIL/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
 
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
 
 - **[Python Notes](/Tech/Python/Python Notes/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
 
