@@ -2,10 +2,10 @@ Prefect is a modern workflow management system designed to help you build, sched
 
 ## Key features
 
-1. Hybrid execution model: Prefect combines the benefits of a centralized server for monitoring and management with decentralized execution. This means that your tasks run on separate infrastructure, which can help with scaling, security, and resource management.
-2. Dynamic pipelines: Prefect allows you to create dynamic pipelines that can change during runtime, making it easier to handle complex dependencies, conditional logic, and error handling.
-3. First-class support for failures: Prefect has built-in support for retries, timeouts, and error handling, which makes it easier to build resilient workflows.
-5. Modern UI: Prefect comes with a modern, intuitive web-based UI for monitoring and managing your workflows, as well as a GraphQL API for programmatic access.
+1. **Hybrid execution model**: Prefect combines the benefits of a centralized server for monitoring and management with decentralized execution. This means that your tasks run on separate infrastructure, which can help with scaling, security, and resource management.
+2. **Dynamic pipelines**: Prefect allows you to create dynamic pipelines that can change during runtime, making it easier to handle complex dependencies, conditional logic, and error handling.
+3. **First-class support for failures:** Prefect has built-in support for retries, timeouts, and error handling, which makes it easier to build resilient workflows.
+5. **Modern UI**: Prefect comes with a modern, intuitive web-based UI for monitoring and managing your workflows, as well as a GraphQL API for programmatic access.
 
 ## Installation
 
@@ -21,6 +21,7 @@ Note that at the time of writing, `pipx install prefect` won't work.
 Here's a simple example of using Prefect to create a workflow with two tasks:
 
 ```python
+# file: demo.py
 from prefect import task, flow
 
 
@@ -44,9 +45,15 @@ if __name__ == "__main__":
     print(main())
 ```
 
+Then, register the deployment:
+
+```shell
+python demo.py
+```
+
 To schedule and monitor your Prefect workflows, you can use Prefect's server and agent components. First, start the Prefect server with Docker by running:
 
-```
+```shell
 prefect server start
 ```
 
