@@ -1,19 +1,16 @@
 .PHONY: run build sync deploy clean
 
 run:
-	lab sync
-	lab changelog
-	mkdocs build
-	mkdocs serve
+	@make build
+	poetry run mkdocs serve
 
 build:
-	lab sync
-	lab changelog
-	mkdocs build
+	@make sync
+	poetry run mkdocs build
 
 sync:
-	lab sync
-	lab changelog
+	poetry run lab sync
+	poetry run lab changelog
 
 deploy: build
 	rsync -e ssh --delete-after -avz site/ web@lab.abilian.com:/srv/web/lab.abilian.com/
