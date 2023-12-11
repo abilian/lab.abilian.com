@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-12-11*)
+
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
 
 - **[Devops](/Tech/Tools/Devops/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)

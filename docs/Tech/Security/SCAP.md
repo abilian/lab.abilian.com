@@ -63,7 +63,7 @@ OpenSCAP is developed by Red Hat.
 
 https://ubuntu.com/security/oval
 
-One needs to install the 
+One needs to install the `python3-openscap` (or `python-openscap`, depending on the Ubuntu version) first.
 
 ### Resources
 
