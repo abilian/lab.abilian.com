@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-12-11*)
+
 - **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-12-11*)
 
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
@@ -151,8 +153,6 @@
 - **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
-
-- **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-06-07*)
 
