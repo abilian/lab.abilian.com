@@ -1,5 +1,13 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
+
+- **[Rethinking Lead Qualification - A Strategic Approach to CRM](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)** in <small>[Business](/Business/00 Business/) / [Customer Relationship Management](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)</small> (*2023-12-27*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
