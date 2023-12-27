@@ -1,6 +1,8 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
+
+- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
 
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-12-11*)
 
@@ -20,7 +22,7 @@
 
 
 
-## Changed last 30 to 7 days
+## Changed last 90 to 30 days
 
 - **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-21*)
 
@@ -39,10 +41,6 @@
 - **[00 Sales](/Business/Sales/00 Sales/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2023-11-18*)
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
@@ -118,6 +116,10 @@
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
 
+
+
+## Earlier changes
+
 - **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-09-21*)
 
 - **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-09-21*)
@@ -125,10 +127,6 @@
 - **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-09-21*)
 
 - **[Access control in Python](/Tech/Python/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-19*)
-
-
-
-## Earlier changes
 
 - **[Kanban System](/Tech/Software Engineering/Kanban System/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-08-07*)
 
