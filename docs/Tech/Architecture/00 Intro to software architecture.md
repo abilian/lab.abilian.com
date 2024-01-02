@@ -1,4 +1,4 @@
-### Defining Software Architecture
+## Defining Software Architecture
 
 Software architecture is often considered **the blueprint of the system**, but it's more than just a set of drawings. It is the structural framework that holds the concept of the intended system and facilitates the understanding and development of its functional and non-functional requirements. In Python, this means not only defining modules, classes, and functions but also deciding on higher-level structures like services, packages, and the interactions between them.
 
@@ -6,7 +6,7 @@ It determines the systems' scalability, reliability, and performance, laying out
 
 Furthermore, a well-defined architecture ensures that the system meets both current and future needs. With Python's philosophy of simplicity and readability, the architecture must also reflect these values, leading to a system that is easier to understand, maintain, and extend.
 
-### Software Architecture versus Design
+## Software Architecture versus Design
 
 The distinction between software architecture and design is somewhat analogous to the difference between urban planning and building design. While urban planning (architecture) outlines the general layout of the city, major roadways, and zoning regulations, building design (software design) focuses on the detailed structure and functionality of individual buildings within that city.
 

@@ -1,4 +1,4 @@
-The Lead Status taxonomy (aka pick-list values) is an essential, and often overlooked, component of a CRM system. This seemingly small component can have a profound impact on the overall effectiveness of lead management, influencing everything from daily activities to revenue forecasting. Here are some of the common issues, for which we will provide a strategic approach to redesigning this crucial element.
+The Lead Status taxonomy (as materialised by pick-list values) is an essential, and often overlooked, component of a CRM system. This seemingly small component can have a profound impact on the overall effectiveness of lead management, influencing everything from daily activities to revenue forecasting. Here are some of the common issues, for which we will provide a strategic approach to redesigning this crucial element.
 
 ## Issues
 

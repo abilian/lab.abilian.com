@@ -2,6 +2,14 @@
 
 ## Recent changes (last 7 days)
 
+- **[Python project checklist](/Tech/Python/Python project checklist/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-02*)
+
+- **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2024-01-02*)
+
+- **[DI anti-patterns](/Tech/Architecture/Dependency Inversion/DI anti-patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2024-01-02*)
+
+- **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2024-01-02*)
+
 - **[Rethinking Lead Qualification - A Strategic Approach to CRM](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)** in <small>[Business](/Business/00 Business/) / [Customer Relationship Management](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)</small> (*2024-01-02*)
 
 - **[Component vs. plugin architectures](/Tech/Python/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-12-27*)
@@ -42,8 +50,6 @@
 
 - **[Python Notes](/Tech/Python/Python Notes/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
 
-- **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
-
 - **[00 The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2023-11-18*)
 
 - **[How to structure a sales team](/Business/Sales/How to structure a sales team/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2023-11-18*)
@@ -52,23 +58,15 @@
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
 
-- **[DI patterns](/Tech/Architecture/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
-
 - **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-08*)
 
-- **[Examples of DI API in Python](/Tech/Architecture/Dependency Inversion/Examples of DI API in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
+- **[Examples of DI API in Python](/Tech/Architecture/Dependency Inversion/Examples of DI API in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
-- **[00 Dependency inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
-
-- **[Python project checklist](/Tech/Python/Python project checklist/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-08*)
+- **[00 Dependency inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
 - **[Lawrence Lessig](/Tech/FOSS/People/Lawrence Lessig/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-08*)
 
 - **[Free Culture (L. Lessig)](/Tech/FOSS/People/Free Culture (L. Lessig)/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-08*)
-
-- **[Intro to software architecture](/Tech/Architecture/Intro to software architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-11-08*)
-
-- **[DI anti-patterns](/Tech/Architecture/Dependency Inversion/DI anti-patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/) / [Dependency Inversion](/Tech/Architecture/Dependency Inversion/00 Dependency inversion/)</small> (*2023-11-08*)
 
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
@@ -92,7 +90,7 @@
 
 - **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
 
-- **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Typst/)</small> (*2023-10-20*)
+- **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Asciidoc/)</small> (*2023-10-20*)
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-18*)
 
@@ -188,7 +186,7 @@
 
 - **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
-- **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-05-27*)
+- **[ETL](/Tech/Architecture/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/)</small> (*2023-05-27*)
 
 - **[Gilb's "Twelve Tough Questions"](/Business/Project Management/Gilb's "Twelve Tough Questions"/)** in <small>[Business](/Business/00 Business/) / [Project Management](/Business/Project Management/Gilb's "Twelve Tough Questions"/)</small> (*2023-05-17*)
 
@@ -229,8 +227,6 @@
 - **[The Software Business Model Framework (SBMF)](/Business/Business Models/The Software Business Model Framework (SBMF)/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
 
 - **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
-
-- **[00 Machine Learning](/Tech/Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-05-12*)
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
 
@@ -444,14 +440,6 @@
 
 - **[C4 Model](/Tech/Modeling/C4 Model/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2023-03-08*)
 
-- **[NLP Notes](/Tech/Machine Learning/NLP Notes/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-03-08*)
-
-- **[Machine Learnning Algorithms](/Tech/Machine Learning/Machine Learnning Algorithms/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-03-08*)
-
-- **[Machine Learning Platforms](/Tech/Machine Learning/Machine Learning Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-03-08*)
-
-- **[Deep learning](/Tech/Machine Learning/Deep learning/)** in <small>[Tech](/Tech/00 Technology/) / [Machine Learning](/Tech/Machine Learning/00 Machine Learning/)</small> (*2023-03-08*)
-
 - **[Obsidian + Mkdocs](/Tech/Documentation/Obsidian + Mkdocs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2023-03-08*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2023-03-08*)
@@ -464,13 +452,13 @@
 
 - **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
-- **[YAML](/Tech/Architecture/YAML/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
+- **[YAML](/Tech/Architecture/YAML/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/)</small> (*2023-03-08*)
 
-- **[No-Code](/Tech/Architecture/No-Code/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
+- **[No-Code](/Tech/Architecture/No-Code/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/)</small> (*2023-03-08*)
 
-- **[Content Services](/Tech/Architecture/Content Services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
+- **[Content Services](/Tech/Architecture/Content Services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/)</small> (*2023-03-08*)
 
-- **[Clean architecture](/Tech/Architecture/Clean architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/Clean architecture/)</small> (*2023-03-08*)
+- **[Clean architecture](/Tech/Architecture/Clean architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture](/Tech/Architecture/00 Intro to software architecture/)</small> (*2023-03-08*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 
