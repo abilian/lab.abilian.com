@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Component vs. plugin architectures](/Tech/Python/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-12-27*)
+
 - **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
 
 - **[Rethinking Lead Qualification - A Strategic Approach to CRM](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)** in <small>[Business](/Business/00 Business/) / [Customer Relationship Management](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)</small> (*2023-12-27*)
@@ -122,11 +124,11 @@
 
 - **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-10-04*)
 
-- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
-
 
 
 ## Earlier changes
+
+- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
 
 - **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-09-21*)
 
