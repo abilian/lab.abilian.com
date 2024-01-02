@@ -1,3 +1,5 @@
+#checklist
+
 ## The following files / directories are present
 
 ### Mandatory

@@ -175,3 +175,7 @@ The Service Locator pattern is generally discouraged in modern DI practices due 
 #### Known Use of Service Locator
 
 It is often used in large applications with complex configurations, or in applications where dependencies are dynamic and determined at runtime.
+
+## References
+
+See also: [[DI anti-patterns]]

@@ -2,11 +2,11 @@
 
 ## Recent changes (last 7 days)
 
+- **[Rethinking Lead Qualification - A Strategic Approach to CRM](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)** in <small>[Business](/Business/00 Business/) / [Customer Relationship Management](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)</small> (*2024-01-02*)
+
 - **[Component vs. plugin architectures](/Tech/Python/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-12-27*)
 
 - **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
-
-- **[Rethinking Lead Qualification - A Strategic Approach to CRM](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)** in <small>[Business](/Business/00 Business/) / [Customer Relationship Management](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)</small> (*2023-12-27*)
 
 
 
@@ -461,8 +461,6 @@
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
-
-- **[Notes Alliance Cloud & Edge](/Tech/Cloud/Notes Alliance Cloud & Edge/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
 - **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
