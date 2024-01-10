@@ -9,29 +9,36 @@ Autres: https://github.com/aniftyco/awesome-tailwindcss#ui-libraries-components-
 A utiliser avec https://headlessui.dev/ ? (NB: pas de table)
 
 ## Références
+
 - https://nerdcave.com/tailwind-cheat-sheet
 
 ## Components libraries
-https://tailblocks.cc/ -> pour site web, pas pour appli.
-https://merakiui.com/ -> idem.
 
-https://www.vue-tailtailwind.com/ -> Vue 2 pour l'instant.
+- https://flowbite.com/
+- https://preline.co/
+- https://tailblocks.cc/ -> pour site web, pas pour appli.
+- https://merakiui.com/ -> idem.
+
+- https://www.vue-tailtailwind.com/ -> Vue 2 pour l'instant.
 
 ## Templates
+
 - https://github.com/themesberg/tailwind-dashboard-windster
 - https://www.tailwindawesome.com/resources/landwind/demo
 - https://www.tailwindawesome.com/resources/tailone/demo
 
-
 ## See also
-[[CSS]]
+
+- [[CSS]]
 
 ## To read
+
 - https://www.themes.dev/blog/responsive-navigation-menu-tailwind-css/
 - https://www.themes.dev/free-tailwind-css-components/
 
 ## Why use Tailwind
 ### Pros
+
 - https://dev.to/brendanrc2/why-we-use-tailwind-at-convertkit-1660
 - -> "why do we use Tailwind? **Because it simplifies just about everything when it comes to styling UI across our teams**. It eliminates decisions of where to put things or how to write them. It comes with great documentation. For teams, especially with varying backgrounds and UI skill levels, Tailwind is a massive productivity boost."
 - https://dev.to/neophen/tailwind-is-bad-because-i-don-t-like-it-24eh
@@ -47,9 +54,11 @@ https://www.polytomic.com/blog-posts/goodbye-css-modules-hello-tailwindcss
 It’s a choice that—in hindsight—I would make again.
 
 ### Cons
+
 - https://sancho.dev/blog/tailwind-and-design-systems/
 - https://dev.to/benface/tailwind-css-might-not-be-for-you-jk0
 
 ### Alternatives
+
 - https://system-ui.com/theme/
 - https://rebassjs.org/
