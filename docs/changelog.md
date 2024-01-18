@@ -1,12 +1,10 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
+
+- **[Tidy First (2023)](/Tech/Software Engineering/Books/Tidy First (2023)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2024-01-11*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-01-10*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-01-02*)
 
@@ -94,11 +92,11 @@
 
 - **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
 
-- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
 
 - **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-12-11*)
 
@@ -164,6 +162,10 @@
 
 - **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Asciidoc/)</small> (*2023-10-20*)
 
+
+
+## Earlier changes
+
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-18*)
 
 - **[00 Wendelin (2014-2019)](/Projects/Wendelin/00 Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/) / [Wendelin](/Projects/Wendelin/00 Wendelin (2014-2019)/)</small> (*2023-10-17*)
@@ -187,10 +189,6 @@
 - **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
 
 - **[MDM - Master Data Management](/Tech/Databases & Persistence/MDM - Master Data Management/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-10-13*)
-
-
-
-## Earlier changes
 
 - **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-10-05*)
 

@@ -1,7 +1,7 @@
 ## Existing Python libraries
 
 * [GitHub - tomerfiliba/plumbum: Plumbum: Shell Combinators](https://github.com/tomerfiliba/plumbum)
-* [1.12.13 — sh 1.12.13 documentation](http://amoffat.github.io/sh/)
+* https://github.com/amoffat/sh
 * [GitHub - aeroxis/sultan: Sultan: Command and Rule over your Shell](https://github.com/aeroxis/sultan)
 * [Seashore](https://github.com/elcaminoreal/seashore/) "Seashore -- A collection of shell abstractions" (not actively developped)
 * [Shelmet](https://github.com/dgilland/shelmet): promising but no background tasks [[Shelmet]]
