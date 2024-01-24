@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- **[Search UI](/Tech/Web/UX-UI/Search UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-01-24*)
+
+- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-01-24*)
+
+- **[Makefile tricks](/Tech/Misc/Makefile tricks/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-01-24*)
+
 - **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-01-18*)
 
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-18*)
@@ -231,8 +237,6 @@
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
-
-- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
 
