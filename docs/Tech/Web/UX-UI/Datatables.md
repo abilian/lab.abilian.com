@@ -3,6 +3,7 @@
 ## References / overview
 
 - Overview / comprehensive list: https://www.smashingmagazine.com/2022/09/useful-javascript-data-grid-libraries/
+- https://design.gs.com/components/data-grid The data grid is an interactive tabular interface and is one of the most important and complex patterns in the Goldman Sachs Design System. (No implementation)
 
 ## Pure JS
 
@@ -28,6 +29,7 @@
 - https://django-tables2.readthedocs.io
 
 ## \$\$
+
 - AG Grid - https://www.ag-grid.com/
 - Brytum - https://bryntum.com/products/grid/
 
