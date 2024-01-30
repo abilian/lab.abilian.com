@@ -11,6 +11,7 @@ Chameleon = faster ZPT by compiling to python bytecode.
 (All are supported by PyCharm OOTB, except Mako).
 
 ## Exotic Python
+
 - Pug / PyJade
 - Dust / Ashes (https://github.com/mahmoud/ashes)
 - Genshi (https://genshi.edgewall.org/)
@@ -25,6 +26,10 @@ More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
 
 - https://github.com/galvez/xmlwitch (dead)
 - https://www.yattag.org/
+- https://github.com/tlonny/pdoo
+- https://github.com/Knio/dominate
+- https://github.com/Parnassius/domify
+- https://github.com/bitplorer/uidom
 
 ### Using mutable objects
 
@@ -46,9 +51,20 @@ More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
 - https://pypi.org/project/PyHTML/
 - https://github.com/jviide/htm.py (see also: https://viewdom.readthedocs.io/)
 - https://github.com/pcarbonn/fast_html
+- https://github.com/MohammadrezaAmani/INUI
+- https://github.com/scrussell24/hype-html
+- https://github.com/Hrabal/TemPy
+- https://github.com/tvst/htbuilder
+- https://github.com/mosquito/tagz
+
+### Multi-paradigm
+
+- https://github.com/BrainStormYourWayIn/sierra
 
 ## More
-https://wiki.python.org/moin/Templating
+
+- https://wiki.python.org/moin/Templating
+- https://github.com/stars/legout/lists/py-html/
 
 ## Not Python
 
@@ -62,4 +78,5 @@ https://wiki.python.org/moin/Templating
 - Armin is working on a port of Jinja to Rust (-> compilation to WASM)
     - https://docs.rs/minijinja/latest/minijinja/
     - There is a Python package for it
-- Vue templates...
+- Vue templates
+- Nuejs templates: https://nuejs.org/docs/reference/template-syntax.html

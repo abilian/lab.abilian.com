@@ -1,8 +1,12 @@
-## Rules
+Web Application Firewalls (WAFs) have become an essential component of web security, acting as gatekeepers to protect web applications from a variety of cyber threats.
+
+## Rule Sets
+
+One of the main components of the open source WAF ecosystem is the OWASP® ModSecurity Core Rule Set (CRS), a set of generic attack detection rules designed for ModSecurity or compatible WAFs. This rule set is pivotal in defending web applications against a spectrum of attacks, including the notorious OWASP Top Ten, while striving to minimize false alerts.
 
 https://coreruleset.org/
 
-> The **OWASP® ModSecurity Core Rule Set (CRS)** is a set of generic attack detection rules for use with [ModSecurity](https://www.modsecurity.org/) or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts. The CRS provides protection against many common attack categories, including:
+> The **OWASP® ModSecurity Core Rule Set (CRS)** is a set of generic attack detection rules for use with [ModSecurity](https://www.modsecurity.org/) or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts. The CRS provides protection against many common attack categories.
 
 Sources: https://github.com/coreruleset/coreruleset
 
@@ -51,3 +55,4 @@ Discussion here: https://ziade.org/2014/10/24/web-application-firewall/
 ## Ressources
 
 - "2022 Cloud Web Application Firewall (WAF) CyberRisk Validation Comparative Report"
+- https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/ 
