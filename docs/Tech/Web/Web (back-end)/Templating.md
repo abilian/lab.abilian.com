@@ -1,6 +1,7 @@
 # Templating in Python
 
 ## Mainstream Python
+
 - Django templates
 - Jinja2
 - ZPT / Chameleon

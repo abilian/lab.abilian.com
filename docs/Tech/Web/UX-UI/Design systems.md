@@ -30,3 +30,14 @@
 ## Business UX
 
 - See [[UX-UI]].
+
+## How to build one
+
+### Technical considerations
+
+- https://www.terluinwebdesign.nl/en/css/how-to-create-a-css-design-system-from-scratch/
+
+### Organisational considerations
+
+- https://www.rst.software/blog/how-to-create-a-design-system-in-11-steps
+- https://www.divotion.com/blog/building-a-design-system-that-scales-with-your-organization

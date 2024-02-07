@@ -38,31 +38,37 @@ While each message queue implementation has its own specifics, many concepts are
 ### General-Purpose Message Queues and Enabling Technologies
 
 1. **RabbitMQ**
+   
    - **Language:** Erlang
    - **Python Integration:** Libraries like `pika` or `kombu`
    - **Features:** Supports multiple messaging protocols (AMQP, STOMP, MQTT), durable message delivery, complex routing capabilities, and plugin system for extensibility.
 
 2. **Apache Kafka**
+   
    - **Language:** Scala and Java
    - **Python Integration:** Clients such as `confluent-kafka-python` and `kafka-python`
    - **Features:** High throughput, built for distributed systems, offers persistent storage of messages, supports stream processing, and provides strong ordering guarantees.
 
 3. **Redis**
+   
    - **Language:** C
    - **Python Integration:** Clients like `redis-py`
    - **Features:** In-memory data structure store, used as a database, cache, and message broker. Supports various data structures, transactions, and has built-in replication.
 
 4. **Apache ActiveMQ**
+   
    - **Language:** Java
    - **Python Integration:** Libraries like `stomp.py`
    - **Features:** Supports multiple cross-language clients and protocols (AMQP, MQTT, OpenWire, Stomp), offers features like message groups, virtual destinations, and broker networks.
 
 5. **Zeromq**
+   
    - **Language:** C++ and C
    - **Python Integration:** `pyzmq`
    - **Features:** High-performance asynchronous messaging library, provides a message queue but with a sockets interface, supporting various patterns (pub-sub, push-pull, request-reply).
 
 6. **NSQ**
+   
    - **Language:** Go
    - **Python Integration:** Library `pynsq`
    - **Features:** Real-time distributed messaging platform, promotes distributed and decentralized topologies, no single point of failure, and built-in fault tolerance.
@@ -89,9 +95,9 @@ While each message queue implementation has its own specifics, many concepts are
 
 4. **Huey**
    
-    - **Language:** Python
-    - **Python Integration:** Natively integrates with Python
-    - **Features:** Supports multi-process, thread, or greenlet-based execution, periodic task execution, and simple API. Offers result storage, task prioritization, and supports Redis, SQLite, and in-memory storage.
+  - **Language:** Python
+  - **Python Integration:** Natively integrates with Python
+  - **Features:** Supports multi-process, thread, or greenlet-based execution, periodic task execution, and simple API. Offers result storage, task prioritization, and supports Redis, SQLite, and in-memory storage.
 
 ## Choosing the "best" system
 
