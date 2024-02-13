@@ -73,6 +73,10 @@ While each message queue implementation has its own specifics, many concepts are
    - **Python Integration:** Library `pynsq`
    - **Features:** Real-time distributed messaging platform, promotes distributed and decentralized topologies, no single point of failure, and built-in fault tolerance.
 
+7. **Others**
+    - https://github.com/tembo-io/pgmq "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres."
+    - https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/ "Postgres queue tech consists of two parts: announcing and listening for new jobs (pub/sub) and mutual exclusion (row locks)."
+
 ### Python-Centric Task Queues
 
 1. **Celery with RabbitMQ or Redis**

@@ -44,9 +44,9 @@ Discussion here: https://ziade.org/2014/10/24/web-application-firewall/
 (Saved at ~/ghq/github.com/mozilla/videur).
 
 ### See also
+
 - https://github.com/libinjection/libinjection ("SQL / SQLI tokenizer parser analyzer")
-
-
+- https://github.com/sysdig/wafer "Wafer is a simple but effective web application firewall (WAF) fuzzing tool. It is designed to be used as a standalone script, it uses various techniques build payloads which could potentially bypass a WAF."
 
 ## Not open source
 
