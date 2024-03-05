@@ -1,6 +1,58 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
+
+- **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-02-13*)
+
+- **[YAML](/Tech/Architecture & Design/YAML/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[State machines](/Tech/Architecture & Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[Services Classes](/Tech/Architecture & Design/Services Classes/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[No-Code](/Tech/Architecture & Design/No-Code/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[Message Queues](/Tech/Architecture & Design/Message Queues/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[ETL](/Tech/Architecture & Design/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[Examples of DI API in Python](/Tech/Architecture & Design/Dependency Inversion/Examples of DI API in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture & Design/Dependency Inversion/00 Dependency inversion/)</small> (*2024-02-13*)
+
+- **[DI patterns](/Tech/Architecture & Design/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture & Design/Dependency Inversion/00 Dependency inversion/)</small> (*2024-02-13*)
+
+- **[DI anti-patterns](/Tech/Architecture & Design/Dependency Inversion/DI anti-patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture & Design/Dependency Inversion/00 Dependency inversion/)</small> (*2024-02-13*)
+
+- **[00 Dependency inversion](/Tech/Architecture & Design/Dependency Inversion/00 Dependency inversion/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture & Design/Dependency Inversion/00 Dependency inversion/)</small> (*2024-02-13*)
+
+- **[Value objects](/Tech/Architecture & Design/DDD/Value objects/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-02-13*)
+
+- **[Repositories](/Tech/Architecture & Design/DDD/Repositories/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-02-13*)
+
+- **[Entities](/Tech/Architecture & Design/DDD/Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-02-13*)
+
+- **[Domain-Driven Design](/Tech/Architecture & Design/DDD/Domain-Driven Design/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-02-13*)
+
+- **[DDD vs. CRUD](/Tech/Architecture & Design/DDD/DDD vs. CRUD/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-02-13*)
+
+- **[Business logic](/Tech/Architecture & Design/DDD/Business logic/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-02-13*)
+
+- **[Content Services](/Tech/Architecture & Design/Content Services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[Clean architecture](/Tech/Architecture & Design/Clean architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[00 Intro to software architecture](/Tech/Architecture & Design/00 Intro to software architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
+
+- **[Sentence Transformers](/Tech/AI & Machine Learning/Sentence Transformers/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
+
+- **[Image Representation](/Tech/AI & Machine Learning/Image Representation/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
+
+- **["More like this"](/Tech/AI & Machine Learning/"More like this"/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
+
+- **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
+
+- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
+
+- **[NUA - Build](/Projects/NUA/NUA - Build/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-02-07*)
 
@@ -12,15 +64,11 @@
 
 - **[Nua - Supporting files](/Projects/NUA/Nua - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-07*)
 
-- **[NUA - Build](/Projects/NUA/NUA - Build/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-07*)
-
-- **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Incentives/)</small> (*2024-02-07*)
+- **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-02-07*)
 
 
 
-## Changed last 30 to 7 days
-
-- **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-01-30*)
+## Changed last 90 to 30 days
 
 - **[Cosmopolitan Python](/Tech/Python/Cosmopolitan Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-24*)
 
@@ -32,10 +80,6 @@
 
 - **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-18*)
 
-
-
-## Changed last 90 to 30 days
-
 - **[Tidy First (2023)](/Tech/Software Engineering/Books/Tidy First (2023)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2024-01-11*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-01-10*)
@@ -43,8 +87,6 @@
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-01-02*)
 
 - **[Promise Theory](/Tech/Theory/Promise Theory/)** in <small>[Tech](/Tech/00 Technology/) / [Theory](/Tech/Theory/Promise Theory/)</small> (*2024-01-02*)
-
-- **[Asciidoc](/Tech/Text composition/Asciidoc/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Asciidoc/)</small> (*2024-01-02*)
 
 - **[Python - Registry](/Tech/Python/Python - Registry/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-02*)
 
@@ -120,6 +162,10 @@
 
 - **[How to prevent the "SQLite database is locked" error](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/) / [sqlite](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)</small> (*2023-12-08*)
 
+
+
+## Earlier changes
+
 - **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-21*)
 
 - **[The GIL](/Tech/Python/The GIL/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-19*)
@@ -135,10 +181,6 @@
 - **[00 Sales](/Business/Sales/00 Sales/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2023-11-18*)
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
-
-
-
-## Earlier changes
 
 - **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-08*)
 
@@ -165,8 +207,6 @@
 - **[Refactor Python](/Tech/Python/Refactor Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
 
 - **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-24*)
-
-- **[Typst](/Tech/Text composition/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Text composition](/Tech/Text composition/Asciidoc/)</small> (*2023-10-20*)
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-18*)
 
@@ -346,7 +386,7 @@
 
 - **[A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
 
-- **[Incentives](/Business/Practices/Incentives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Incentives/)</small> (*2023-05-07*)
+- **[Incentives](/Business/Practices/Incentives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2023-05-07*)
 
 - **[Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-07*)
 
@@ -364,7 +404,7 @@
 
 - **[Outcome over output](/Business/Principles/Outcome over output/)** in <small>[Business](/Business/00 Business/) / [Principles](/Business/Principles/Outcome over output/)</small> (*2023-05-07*)
 
-- **[Retrospectives](/Business/Practices/Retrospectives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Incentives/)</small> (*2023-05-07*)
+- **[Retrospectives](/Business/Practices/Retrospectives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2023-05-07*)
 
 - **[Robert I. Sutton](/Business/Authors/Robert I. Sutton/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
