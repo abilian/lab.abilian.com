@@ -2,6 +2,20 @@
 
 ## Recent changes (last 7 days)
 
+- **[Wendelin (2014-2019)](/Projects/Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
+
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-08*)
+
+- **[New Python Web Frameworks](/Tech/Python/New Python Web Frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-08*)
+
+- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-03-08*)
+
+- **[Systemd](/Tech/Operating Systems/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Operating Systems](/Tech/Operating Systems/Systemd/)</small> (*2024-03-08*)
+
+- **[Modulith](/Tech/Architecture & Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-03-08*)
+
+- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
+
 - **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
 
 - **[EPUB](/Tech/Publishing tools/EPUB/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
@@ -84,8 +98,6 @@
 
 - **[Unit testing](/Tech/Programming Techniques/Unit testing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-02-07*)
 
-- **[Nua - Supporting files](/Projects/NUA/Nua - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-07*)
-
 - **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-02-07*)
 
 - **[Cosmopolitan Python](/Tech/Python/Cosmopolitan Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-24*)
@@ -109,8 +121,6 @@
 - **[Python - Registry](/Tech/Python/Python - Registry/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-02*)
 
 - **[Out of the tar pit (2006)](/Tech/Papers/Out of the tar pit (2006)/)** in <small>[Tech](/Tech/00 Technology/) / [Papers](/Tech/Papers/Out of the tar pit (2006)/)</small> (*2024-01-02*)
-
-- **[Systemd](/Tech/Operating Systems/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Operating Systems](/Tech/Operating Systems/Systemd/)</small> (*2024-01-02*)
 
 - **[XMPP](/Tech/Misc/XMPP/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-01-02*)
 
@@ -228,8 +238,6 @@
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-18*)
 
-- **[00 Wendelin (2014-2019)](/Projects/Wendelin/00 Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/) / [Wendelin](/Projects/Wendelin/00 Wendelin (2014-2019)/)</small> (*2023-10-17*)
-
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
 
 - **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
@@ -241,8 +249,6 @@
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-10-17*)
 
 - **[00 Cython+ (2020-2022)](/Projects/Cython+/00 Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-10-17*)
-
-- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2023-10-17*)
 
 - **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-10-17*)
 
@@ -292,8 +298,6 @@
 
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
 
-- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-06-05*)
-
 - **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
 - **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
@@ -309,6 +313,8 @@
 - **[EdgeDB](/Tech/Databases & Persistence/EdgeDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
 - **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
+
+- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-05-22*)
 
 - **[Gilb's "Twelve Tough Questions"](/Business/Project Management/Gilb's "Twelve Tough Questions"/)** in <small>[Business](/Business/00 Business/) / [Project Management](/Business/Project Management/Gilb's "Twelve Tough Questions"/)</small> (*2023-05-17*)
 
@@ -581,10 +587,6 @@
 - **[Monte](/Projects/Cython+/Monte/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
 
 - **[Benchmarks](/Projects/Cython+/Benchmarks/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/00 Cython+ (2020-2022)/)</small> (*2023-03-08*)
-
-- **[Dockerfile Cheat Sheet](/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Cheat Sheets](/Cheat Sheets/Docker Cheat Sheet/)</small> (*2023-03-08*)
-
-- **[Docker Cheat Sheet](/Cheat Sheets/Docker Cheat Sheet/)** in <small>[Cheat Sheets](/Cheat Sheets/Docker Cheat Sheet/)</small> (*2023-03-08*)
 
 
 

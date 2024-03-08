@@ -17,33 +17,6 @@ PUBLISH = CONFIG["publish"]
 IGNORED = CONFIG["ignored"]
 
 
-# PUBLISH = [
-#     "Business",
-#     #
-#     "Projects/Cython+",
-#     "Projects/Python to WASM Compiler",
-#     #
-#     "Tech/Apps",
-#     "Tech/Architecture",
-#     "Tech/Cloud",
-#     "Tech/Containers",
-#     "Tech/Documentation",
-#     "Tech/FOSS",
-#     "Tech/Machine Learning",
-#     "Tech/Modeling",
-#     "Tech/Persistence",
-#     "Tech/Programming Techniques",
-#     "Tech/Programming Languages",
-#     "Tech/Python",
-#     "Tech/Security",
-#     "Tech/Software Engineering",
-#     "Tech/Tools",
-#     "Tech/Web",
-#     #
-#     "Cheat Sheets",
-# ]
-
-
 @dataclass
 class Page:
     path: Path

@@ -1,5 +1,5 @@
 #[lab]
-src = "{HOME}/Documents/Vaults/Notes"
+src = "{HOME}/Documents/Vaults/Notes/Public"
 dst = "docs"
 
 ignored = [
