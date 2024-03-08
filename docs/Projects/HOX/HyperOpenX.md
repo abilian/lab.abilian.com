@@ -23,7 +23,7 @@ SlapOS makes a significant contribution to the overall objective of "HyperOpenX"
 
 It includes key components such as "hyper_edge" (a PaaS for automated exploitation of convergent services), "hyper_cdn" (an HTTP/3 based CDN with distributed PKI infrastructure), "hyper_db" (a clustered relational database as a service), "hyper_sec" (SecOps as a service), "hyper_space" (a data space for multi-cloud data exploitation), and more, with a series of contributing and validating partners for each component.
 
-The project plans a series of deliverables over 36 months, with key development phases ranging from an initial prototype (POC) to a minimal viable product (MVP), followed by a minimal learning product (MLP), and finally, a minimal marketable product (MMP). It also engages partners in specific validation pilots to test and refine these technologies in real contexts.
+The project plans a series of deliverables over 36 months, with key development phases ranging from an initial prototype (POC) to a minimal viable product (MVP), followed by a minimal lovable product (MLP), and finally, a minimal marketable product (MMP). It also engages partners in specific validation pilots to test and refine these technologies in real contexts.
 
 Each work package targets specific aspects of the project, such as project management, the development and validation of technological components, and dissemination efforts through funded open calls to encourage adoption and innovation in the broader digital ecosystem. The "HyperOpenX" project thus represents an ambitious initiative to advance the development of open and convergent cloud computing technologies in France, focusing on collaboration, innovation, and openness.
 

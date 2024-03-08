@@ -2,7 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-08*)
+- **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
+
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
 
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
 
@@ -14,6 +16,8 @@
 
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
 
+- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
+
 - **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-08*)
 
 - **[Dockerfile Cheat Sheet](/Tech/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Cheat Sheets](/Tech/Cheat Sheets/Docker Cheat Sheet/)</small> (*2024-03-08*)
@@ -23,8 +27,6 @@
 - **[Wendelin (2014-2019)](/Projects/Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
 
 - **[NUA - Build](/Projects/NUA/NUA - Build/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-08*)
-
-- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
 
 - **[OSS Business Models](/Business/Business Models/OSS Business Models/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2024-03-08*)
 
@@ -259,10 +261,6 @@
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
 
 - **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-10-17*)
-
-- **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-10-17*)
-
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2023-10-17*)
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2023-10-17*)
 
