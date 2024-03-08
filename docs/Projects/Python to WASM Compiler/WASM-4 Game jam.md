@@ -1,5 +1,4 @@
-#wasm
-
+#wasm #public 
 
 ## Game Jam 2
 

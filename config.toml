@@ -8,13 +8,14 @@ ignored = [
     ".DS_Store"
 ]
 
-publish = [
-    "Business",
-    #
-    "Projects/Cython+",
-    "Projects/Python to WASM Compiler",
-    #
-    "Tech",
-    #
-    "Cheat Sheets",
-]
+# Not used
+#publish = [
+#    "Business",
+#    #
+#    "Projects/Cython+",
+#    "Projects/Python to WASM Compiler",
+#    #
+#    "Tech",
+#    #
+#    "Cheat Sheets",
+#]

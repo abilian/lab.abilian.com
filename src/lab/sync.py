@@ -13,7 +13,8 @@ HOME = os.environ["HOME"]
 # SRC = f"{HOME}/Documents/Vaults/Notes"
 SRC = CONFIG["src"].format(HOME=HOME)
 DST = CONFIG["dst"]
-PUBLISH = CONFIG["publish"]
+
+# PUBLISH = CONFIG["publish"]
 IGNORED = CONFIG["ignored"]
 
 
@@ -35,14 +36,16 @@ class Page:
         if "#draft" in self.src_content:
             return False
 
-        if "#public" in self.src_content:
-            return True
+        return True
 
-        for publish in PUBLISH:
-            if str(self.rel_path).startswith(publish):
-                return True
-
-        return False
+        # if "#public" in self.src_content:
+        #     return True
+        #
+        # # for publish in PUBLISH:
+        # #     if str(self.rel_path).startswith(publish):
+        # #         return True
+        #
+        # return False
 
     @cached_property
     def rel_path(self):
