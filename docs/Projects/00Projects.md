@@ -3,6 +3,8 @@
 ## Active projects
 
 - [[Projects/NUA/00 NUA|NUA]] - a self-hosted cloud platform project (a _PaaS_ - _platform as a service_).
+- [[Hop3]] -
+- Abilian SBE - Social Business Engine
 - [[Python to WASM Compiler]]
 - Webbits
 - Pagic

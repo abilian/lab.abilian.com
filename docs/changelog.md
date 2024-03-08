@@ -1,5 +1,23 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
+
+- **[EPUB](/Tech/Publishing tools/EPUB/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
+
+- **[Asciidoc](/Tech/Publishing tools/Asciidoc/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
+
+- **[00 Publishing tools](/Tech/Publishing tools/00 Publishing tools/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
+
+- **[Install on ARM](/Tech/Nixos/Install on ARM/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-03-05*)
+
+- **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-05*)
+
+- **[Coaching](/Business/Practices/Coaching/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-03-05*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-02-13*)
@@ -54,6 +72,10 @@
 
 - **[NUA - Build](/Projects/NUA/NUA - Build/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-02-07*)
 
 - **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-02-07*)
@@ -65,10 +87,6 @@
 - **[Nua - Supporting files](/Projects/NUA/Nua - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-07*)
 
 - **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-02-07*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Cosmopolitan Python](/Tech/Python/Cosmopolitan Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-24*)
 
@@ -150,6 +168,10 @@
 
 - **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-12-11*)
 
+
+
+## Earlier changes
+
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
 
 - **[Devops](/Tech/Tools/Devops/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
@@ -161,10 +183,6 @@
 - **[LLM in Python](/Tech/Python/LLM in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-12-08*)
 
 - **[How to prevent the "SQLite database is locked" error](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/) / [sqlite](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)</small> (*2023-12-08*)
-
-
-
-## Earlier changes
 
 - **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-21*)
 

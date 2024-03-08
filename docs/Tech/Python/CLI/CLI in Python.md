@@ -1,5 +1,11 @@
 #python #cli
 
+
+## Terminal output
+
+https://bernsteinbear.com/blog/python-parallel-output/
+
+
 ## CLI frameworks
 
 ### From the standard library
