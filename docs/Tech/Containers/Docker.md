@@ -1,3 +1,43 @@
+Docker is an open-source platform that uses OS-level virtualization to deliver software in packages called containers. Containers are lightweight, making it easier to create, deploy, and run applications by using containers.
+
+### Why Docker?
+
+- **Solves local development issues:** Ensures consistency by packaging the application and its dependencies into a container.
+- **Simplifies deployment:** Containers run the same, regardless of where they are deployed.
+- **Scalability and efficiency:** Containers can be easily scaled and are more resource-efficient than traditional virtual machines.
+## Why NOT Docker?
+
+1. **Performance Overhead**: Containers can introduce slight overhead, impacting high-performance applications that demand maximum resource efficiency.
+2. **Security Concerns**: Sharing the host OS kernel poses security risks. If a container is compromised, it could potentially threaten the host system or other containers.
+3. **Complexity in Large Systems**: Managing a vast number of containers and microservices can become challenging, requiring advanced orchestration tools like Kubernetes, which add their own complexity.
+4. **Persistent Data Management**: Handling persistent data for stateless containers requires additional strategies, such as mounting volumes, which can complicate deployment and management.
+5. **Compatibility and Limitations**: Docker may face compatibility issues on non-Linux systems and might not suit applications with specific hardware access needs.
+6. **Learning Curve**: Docker and its ecosystem have a significant learning curve, requiring time and effort to master.
+7. **Operational Changes**: Integrating Docker into existing workflows and infrastructure demands operational adjustments and possible retraining of staff.
+8. **Network Complexity**: Setting up networking for containers, especially in complex architectures, can be daunting and requires a solid understanding of Docker's networking capabilities.
+
+Alternatives like direct virtual machine usage, other container technologies (e.g., Podman), or platform-specific deployment solutions might better suit certain projects, depending on specific needs and constraints.
+
+### Key Docker Concepts / Components
+
+- **Container:** An isolated environment for running an application, including all necessary code, runtime, system tools, libraries, and settings.
+- **Image:** A lightweight, standalone, executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, environment variables, and config files.
+- **Dockerfile:** A script containing a series of instructions on how to build a Docker image.
+- **Docker Compose:** A tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application's services, and then, with a single command, create and start all the services from your configuration.
+- **Docker Hub:** A cloud-based registry service for building and shipping containerized applications.
+
+### Understanding Containers and Virtual Machines (VMs)
+
+- **Containers vs. VMs:** Containers share the host system’s kernel, while VMs include a full copy of an operating system, a virtual copy of the hardware that the OS requires to run. This makes containers much more lightweight and faster than VMs.
+
+### Getting Started with Docker
+
+To begin using Docker, you create a Dockerfile to specify the environment of your application, build an image from this Dockerfile, and then run the image as a container. Containers can be easily distributed and run on any system that has Docker installed, facilitating easy deployment and scaling.
+
+### Docker and the Cloud
+
+Docker images can be stored in Docker Hub or any other container registry, making it easy to share and deploy them across various environments, including cloud platforms. Containers can be orchestrated using services like Kubernetes to manage and scale applications dynamically across clusters of hosts.
+
 ## Cheat sheet
 
 - Cleanup: `docker container prune` & `docker image prune`

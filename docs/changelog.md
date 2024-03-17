@@ -1,14 +1,16 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
+
+- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-08*)
+
+- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-03-08*)
 
 - **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
 
 - **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
 
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
-
-- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-03-08*)
 
 - **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-03-08*)
 
@@ -17,8 +19,6 @@
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
 
 - **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
-
-- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-08*)
 
 - **[Dockerfile Cheat Sheet](/Tech/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Cheat Sheets](/Tech/Cheat Sheets/Docker Cheat Sheet/)</small> (*2024-03-08*)
 
@@ -54,7 +54,7 @@
 
 
 
-## Changed last 30 to 7 days
+## Changed last 90 to 30 days
 
 - **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-02-13*)
 
@@ -105,10 +105,6 @@
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
 
 - **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-02-07*)
 
@@ -194,13 +190,13 @@
 
 - **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
 
-- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
-
-- **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-12-11*)
-
 
 
 ## Earlier changes
+
+- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
+
+- **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-12-11*)
 
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
 
