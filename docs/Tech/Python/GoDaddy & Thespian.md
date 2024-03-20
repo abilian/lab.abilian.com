@@ -103,6 +103,7 @@ Actor definitions can specify what capabilities that Actor requires to run succe
 
 **Example Actor specification of its required capabilities:**
 
+```python
 from thespian.actors import *
 from database import dbclass
 
@@ -117,6 +118,7 @@ class DBUpdateFromLDAP(Actor):
     def receiveMessage(self, message, sender):
         rows = self.db.query('select * from ...')
         ...
+```
 
 This capability-based automatic configuration mechanism also allows the overall application to adapt to individual faults. For example, if one system loses access to the database perhaps due to a mis-applied firewall rule on a network switch, the Actors on that system will exit and be re-created on any other system in the environment that still has access to the database. All other Actors continue to operate as normal without any awareness of the reconfiguration other than receiving a new Actor Address for the Actor requiring database access. In conjunction with the fault tolerant behavior provided by automatically restarting Actors, this makes the system extremely resilient and essentially self-healing.
 

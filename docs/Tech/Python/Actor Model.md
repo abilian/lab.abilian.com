@@ -48,6 +48,10 @@ See also:
 - https://github.com/SSripilaipong/lyrid
 - https://github.com/tamland/python-actors.git
 - https://pypi.org/project/pulsar/ (dead)
+- Thoonk (dead)
+- Mochi Actors (again)
+- Miniguild: https://github.com/sparkslabs/guild/tree/master/examples/blog/miniguild
+- https://syndicate-lang.org/
 
 ## In other languages
 
