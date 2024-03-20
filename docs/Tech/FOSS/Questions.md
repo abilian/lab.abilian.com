@@ -1,6 +1,6 @@
-In the field of open-source software development, several questions and areas of exploration arise, which touch upon various aspects of the open-source movement.
+Here are some common questions (FAQ) about open source development:
 
-Some of these questions are:
+## Generic Questions (and Answers)
 
 1.  **What is free software and open source?** Free software and open source are closely related concepts that focus on the freedom to use, study, share, and modify software. They involve licensing (e.g., GPL), principles (e.g., FSF), and definitions that encompass software, content, hardware, and services. The distinction between product and process is crucial, as it determines the nature of the project and how low-cost integration is supported.
     
@@ -18,7 +18,7 @@ Some of these questions are:
     
 8.  **When can we have CBPP?** CBPP occurs when there is an environment that supports collaboration, knowledge sharing, and low-cost integration. It is more likely to thrive when legal, social, and technological barriers are minimized, and there is a strong community-driven approach to problem-solving and innovation.
 
-More specifically, about the business side of open source software, the following questions are important: 
+## Business-related Questions
 
 1.  What are the various business models that can effectively generate revenue while promoting open-source principles?
     
@@ -43,6 +43,5 @@ More specifically, about the business side of open source software, the followin
 11.  How does the open-source business ecosystem contribute to the overall digital transformation and innovation of various industries?
     
 12.  What is the role of governments and policy-makers in promoting and supporting the open-source business ecosystem and value creation?
-    
 
-By examining these open questions, researchers and practitioners can gain a deeper understanding of the dynamics, challenges, and opportunities related to open-source software development.
+→ These questions (most of them, open-ended) are useful to craft strategies and policies at the company or legislative levels. We hope they can also be useful for researchers.
