@@ -47,6 +47,7 @@ Discussion here: https://ziade.org/2014/10/24/web-application-firewall/
 
 - https://github.com/libinjection/libinjection ("SQL / SQLI tokenizer parser analyzer")
 - https://github.com/sysdig/wafer "Wafer is a simple but effective web application firewall (WAF) fuzzing tool. It is designed to be used as a standalone script, it uses various techniques build payloads which could potentially bypass a WAF."
+- https://github.com/bunkerity/bunkerweb "BunkerWeb is a next-generation and open-source Web Application Firewall (WAF)." Based on Nginx + mod_security code base. Uses Lua for the rules and Python for the Web app.
 
 ## Not open source
 
