@@ -45,7 +45,7 @@ See also:
 
 - https://github.com/operand/agency A fast and minimal framework for building agent-integrated systems
 - https://github.com/asynkron/protoactor-python/
-- https://github.com/orsinium-labs/jockey
+- https://github.com/orsinium-labs/jockey Generic Python library for running asynchronous workers. Useful for building event handlers, web frameworks, and alike.
 - https://github.com/SSripilaipong/lyrid
 - https://github.com/tamland/python-actors.git
 - https://pypi.org/project/pulsar/ (dead)
@@ -54,6 +54,7 @@ See also:
 - Mochi Actors (again)
 - Miniguild: https://github.com/sparkslabs/guild/tree/master/examples/blog/miniguild
 - https://syndicate-lang.org/
+- https://github.com/orsinium-labs/walnats Nats-powered event-driven background jobs and microservices framework for Python.
 
 ## In other languages
 

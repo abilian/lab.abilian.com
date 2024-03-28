@@ -2,6 +2,22 @@
 
 ## Recent changes (last 7 days)
 
+- **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
+
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-28*)
+
+- **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-03-21*)
+
+- **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-03-21*)
+
+- **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-03-21*)
+
+- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-21*)
+
+
+
+## Changed last 30 to 7 days
+
 - **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-20*)
 
 - **[Questions](/Tech/FOSS/Questions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-03-20*)
@@ -9,8 +25,6 @@
 - **[Configuration languages](/Tech/Configuration languages/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-20*)
 
 - **[GoDaddy & Thespian](/Tech/Python/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-20*)
-
-- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-20*)
 
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-03-20*)
 
@@ -21,10 +35,6 @@
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-17*)
 
 - **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-17*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-08*)
 
@@ -77,8 +87,6 @@
 
 
 ## Changed last 90 to 30 days
-
-- **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-02-13*)
 
 - **[YAML](/Tech/Architecture & Design/YAML/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
 
@@ -208,13 +216,13 @@
 
 - **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2024-01-02*)
 
-- **[Component vs. plugin architectures](/Tech/Python/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-12-27*)
-
-- **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
-
 
 
 ## Earlier changes
+
+- **[Component vs. plugin architectures](/Tech/Python/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-12-27*)
+
+- **[QA](/Tech/Software Engineering/QA/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-12-27*)
 
 - **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
 

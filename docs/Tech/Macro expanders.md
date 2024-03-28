@@ -65,9 +65,9 @@ Here are some examples illustrating the use of a general-purpose macro processor
 4. **Mustache**:
    - **Description**: Mustache is a logic-less template syntax implemented in various programming languages. It aims to provide a simple and straightforward way to generate dynamic content without introducing complex programming constructs.
    - **Features**: Mustache templates are language-agnostic and support variable interpolation, sections, and partials, making them suitable for a wide range of applications.
-   - **Link**: [Mustache on GitHub](https://github.com/mustache/mustache)
+   - **Link**: http://mustache.github.io/ (→ specifications and implementations in many languages)
 
 5. **Handlebars.js**:
-   - **Description**: Handlebars.js is a popular JavaScript templating engine inspired by Mustache. It simplifies the process of generating HTML markup dynamically in web applications by providing a familiar syntax and powerful features.
+   - **Description**: Handlebars.js is a JavaScript templating engine inspired by Mustache. It simplifies the process of generating HTML markup dynamically in web applications by providing a familiar syntax and powerful features.
    - **Features**: Handlebars.js supports template inheritance, helpers, partials, and data binding, enabling developers to build dynamic and interactive user interfaces with ease.
    - **Link**: [Handlebars.js on GitHub](https://github.com/handlebars-lang/handlebars.js/)

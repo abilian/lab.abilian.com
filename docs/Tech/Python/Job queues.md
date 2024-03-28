@@ -15,3 +15,5 @@ We're currently using Celery, but it comes with complexity that we'd like to get
 - MRQ <https://github.com/pricingassistant/mrq> (unmaintained)
 	- https://blog.ippon.fr/2020/04/06/ne-laissez-plus-le-serpent-se-mordre-la-queue-en-choisissant-mrq/
 - Wakaq
+- https://github.com/joegasewicz/pytask-io Asynchronous Tasks Library using asyncio and Redis
+- 

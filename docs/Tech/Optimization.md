@@ -18,7 +18,8 @@ What else ?
 - [https://docs.scipy.org/doc/scipy/reference/optimize.html](https://docs.scipy.org/doc/scipy/reference/optimize.html) (Python)
 - [https://developers.google.com/optimization/](https://developers.google.com/optimization/) (C++, with a Python API)
 - http://www.pyomo.org/ (Python)
-
+- cvxpy
+- torch.optim
 ## Non Open Source Alternatives
 
 - AMPL

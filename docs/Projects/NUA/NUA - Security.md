@@ -16,7 +16,7 @@ https://github.com/docker/docker-bench-security
 
 (Also called DAST - dynamic application analysis)
 
-See [[WAF]]
+See [[Public/Tech/Security/WAF]]
 
 ## Others
 
