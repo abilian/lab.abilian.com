@@ -2,23 +2,33 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-29*)
+
+- **[Job queues](/Tech/Python/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-28*)
+
+- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-28*)
+
+- **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
+
+- **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
+
 - **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-28*)
+- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-28*)
+
+- **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-03-28*)
+
+- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-28*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-03-21*)
 
 - **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-03-21*)
 
 - **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2024-03-21*)
-
-- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-21*)
-
-
-
-## Changed last 30 to 7 days
-
-- **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-20*)
 
 - **[Questions](/Tech/FOSS/Questions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-03-20*)
 
@@ -33,8 +43,6 @@
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-03-17*)
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-17*)
-
-- **[00Projects](/Projects/00Projects/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-17*)
 
 - **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-08*)
 
@@ -79,8 +87,6 @@
 - **[00 Publishing tools](/Tech/Publishing tools/00 Publishing tools/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
 
 - **[Install on ARM](/Tech/Nixos/Install on ARM/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-03-05*)
-
-- **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-05*)
 
 - **[Coaching](/Business/Practices/Coaching/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-03-05*)
 
@@ -133,8 +139,6 @@
 - **["More like this"](/Tech/AI & Machine Learning/"More like this"/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
 
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
-
-- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-02-07*)
 
@@ -580,8 +584,6 @@
 
 - **[Marketting Python](/Tech/Python/Marketting Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
-- **[Job queues](/Tech/Python/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
-
 - **[BlackSheep](/Tech/Python/BlackSheep/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
 - **[Better Python](/Tech/Python/Better Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
@@ -605,8 +607,6 @@
 - **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2023-03-08*)
-
-- **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
 
 - **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
 
