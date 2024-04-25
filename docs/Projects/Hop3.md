@@ -1,4 +1,4 @@
-#public 
+# Hop3
 
 Hop3 is an open-source platform aimed at enhancing cloud computing with a focus on sovereignty, security, sustainability, and inclusivity.
 
@@ -6,7 +6,7 @@ It is designed to facilitate access to cloud technologies for a wide range of us
 
 → <https://github.com/abilian/hop3>
 
-# Tasks
+Here is the current roadmap.
 
 ## General
 

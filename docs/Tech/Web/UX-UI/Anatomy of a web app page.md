@@ -19,6 +19,6 @@ Designing the layout for a back-office web application, or an internal business 
 
 9. **Breadcrumbs**: Given the complexity and depth of many back-office applications, breadcrumbs are crucial for enhancing navigation. They help users understand their location within the app hierarchy and easily backtrack to higher levels.
 
-The design of these components must cater to the intensive, often data-driven tasks that characterize back-office operations. 
+TODO: diagram.
 
-Usability, clear navigation, and responsiveness are key to ensuring that such web applications are effective and efficient tools for the users who rely on them daily in a professional capacity.
+TODO: add references.

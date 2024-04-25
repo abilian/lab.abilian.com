@@ -1,5 +1,27 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-04-25*)
+
+- **[Navigation](/Tech/Web/UX-UI/Navigation/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
+
+- **[Anatomy of a web app page](/Tech/Web/UX-UI/Anatomy of a web app page/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
+
+- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-04-25*)
+
+- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-04-25*)
+
+- **[SQL Modeling](/Tech/Databases & Persistence/SQL Modeling/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-04-25*)
+
+- **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-04-25*)
+
+- **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-04-25*)
+
+- **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-04-25*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-29*)
@@ -52,8 +74,6 @@
 
 - **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
 
-- **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-03-08*)
-
 - **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-03-08*)
 
 - **[Cython+ (2020-2022)](/Projects/Cython+/Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-03-08*)
@@ -77,8 +97,6 @@
 - **[Systemd](/Tech/Operating Systems/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Operating Systems](/Tech/Operating Systems/Systemd/)</small> (*2024-03-08*)
 
 - **[Modulith](/Tech/Architecture & Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-03-08*)
-
-- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
 
 - **[EPUB](/Tech/Publishing tools/EPUB/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
 
@@ -406,8 +424,6 @@
 
 - **[Web frameworks](/Tech/Web/Web (back-end)/Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-05-11*)
 
-- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
-
 - **[Boltons](/Tech/Python/Useful Libraries/Boltons/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
 
 - **[Attrs](/Tech/Python/Useful Libraries/Attrs/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-05-11*)
@@ -526,8 +542,6 @@
 
 - **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
-- **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
-
 - **[QUIC et HTTP3](/Tech/Web/Web (back-end)/QUIC et HTTP3/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
 - **[Lastuser](/Tech/Web/Web (back-end)/Lastuser/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
@@ -603,10 +617,6 @@
 - **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2023-03-08*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2023-03-08*)
-
-- **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2023-03-08*)
-
-- **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2023-03-08*)
 
 - **[Monte](/Projects/Cython+/Monte/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2023-03-08*)
 

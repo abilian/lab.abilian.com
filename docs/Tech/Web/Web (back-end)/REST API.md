@@ -52,7 +52,7 @@ Here are the 4 main types of resources:
 
 Document resources are a foundational concept representing individual instances of a type of data or entity. These resources are typically accessed, manipulated, and represented as discrete, self-contained units that correspond to singular, specific items in the system. Document resources are one of the core elements that facilitate RESTful interactions, emphasizing the management of entities through their life cycles using standard HTTP methods.
 
-#### Characteristics of Document Resources
+#### Characteristics
 
 1. **Unique Identity**:
    - Each document resource is uniquely identifiable through a URI (Uniform Resource Identifier). This unique identifier allows clients to interact directly with a specific instance of a resource, ensuring that operations like GET, PUT, DELETE, and POST (if applicable) are performed on this exact entity.
@@ -97,7 +97,7 @@ Document resources are pivotal in RESTful design, representing the core entities
 
 Collection resources represent a group or list of items that are of the same type. These resources are essentially containers that manage and organize multiple instances of a particular resource, often corresponding to the "document resources" they contain. Collections are a fundamental aspect of RESTful design because they provide a systematic way to handle sets of similar entities.
 
-#### Characteristics of Collection Resources
+#### Characteristics
 
 1. **Grouping of Similar Entities**:
    - Collection resources group similar entities together under a common umbrella. Each item within the collection typically represents an individual document resource.
@@ -135,13 +135,11 @@ Collection resources represent a group or list of items that are of the same typ
 
 - **Security**: Access control mechanisms are essential to protect the data, especially when the collections contain sensitive information. Proper authentication and authorization should ensure that clients can only access data permitted by their access levels.
 
-Collection resources in REST API design play a crucial role in organizing and managing groups of similar entities, providing a structured approach to access and manipulate lists of data items. By using standard HTTP methods and implementing features like pagination and filtering, these resources offer a scalable and efficient way to handle data in a RESTful environment.
-
 ### Store resources in detail
 
 Store resources behave like a repository or container for other resources. This type of resource is particularly useful when the API consumers need to have control over the creation and management of the resources within the store, including setting or knowing the identifiers (URIs) of these resources.
 
-#### Characteristics of Store Resources
+#### Characteristics
 
 1. **Client-Assigned Identifiers**:
    - In most RESTful designs, the server typically assigns resource identifiers automatically (like auto-incrementing IDs or UUIDs). However, in a store resource scenario, clients can specify the identifier when they create a new resource. This is common in scenarios where the resource identifier needs to be predictable or meaningful, such as user-defined filenames in a storage API.
@@ -175,7 +173,7 @@ Store resources give clients a significant degree of control over the resources 
 
 Controller resources encapsulate operations or actions rather than data entities. These resources are particularly useful for exposing functionalities that don't naturally map to the standard Create, Read, Update, and Delete (CRUD) operations typically associated with resource-oriented APIs.
 
-#### Characteristics of Controller Resources
+#### Characteristics
 
 1. **Action-Oriented**:
    - Controller resources are typically designed to perform specific actions or operations. These resources often represent procedural concepts or functions rather than data.
@@ -214,7 +212,7 @@ Controller resources in REST API design are used to model actions that are more 
 
 ## REST and DDD
 
-In Domain-Driven Design (DDD), the focus is on modeling a software domain comprehensively and accurately, using a ubiquitous language shared by developers and domain experts. This model then informs the architecture of the system, aiming to reflect the real-world complexities and rules of the domain. When integrating RESTful API design with Domain-Driven Design, the different types of resources (Document, Collection, Store, and Controller) can be mapped onto elements of the domain model to create a powerful and coherent system.
+In Domain-Driven Design (DDD), the focus is on modeling a software domain comprehensively and accurately, using an ubiquitous language shared by developers and domain experts. This model then informs the architecture of the system, aiming to reflect the real-world complexities and rules of the domain. When integrating RESTful API design with Domain-Driven Design, the different types of resources (Document, Collection, Store, and Controller) can be mapped onto elements of the domain model to create a powerful and coherent system.
 
 ### Document Resources and DDD
 
