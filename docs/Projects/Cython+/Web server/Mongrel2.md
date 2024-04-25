@@ -3,6 +3,7 @@ Mongrel2 is an open-source "language agnostic" web server written by Zed Shaw, a
 The code was mostly writen in 2010.
 
 ## Features (according to the README)
+
 - Language Agnostic with a simple backend protocol supporting 17 languages and platforms all written by Mongrel2 fans.
 - Modern Browser Friendly designed to handle HTTP, Flash XMLSockets, or
   WebSockets, Long Polling on the same socket transparently.
@@ -25,5 +26,6 @@ The code was mostly writen in 2010.
 Market share: ~0 (according to <https://www.wappalyzer.com/technologies/web-servers> or <https://w3techs.com/technologies/overview/web_server>)
 
 ## Uses (notably)
+
 - Ragel <http://www.colm.net/open-source/ragel/> state machine for the HTTP protocol.
 - Dexy: documentation generator

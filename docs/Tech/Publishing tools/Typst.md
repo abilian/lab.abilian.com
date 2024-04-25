@@ -13,6 +13,12 @@ https://typst.app/
 - https://github.com/typst/templates
 - https://github.com/qjcg/awesome-typst#templates--libraries
 - github.com/Dherse/masterproef
+- https://github.com/fyuniv/typstModernCV
+- https://github.com/SkytAsul/INSA-Typst-Template
+
+## Tools
+
+- https://github.com/Enter-tainer/typstyle
 
 ## Missing features
 

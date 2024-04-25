@@ -19,7 +19,6 @@ FAILED tests/run/test_grammar.py::GrammarTests::test_funcdef - AssertionError...
 ```
 
 
-
 ### Proposals
 
 1. Update `tox.ini` to be on par with the current version of `.travis.yml`,  then simplify the Travis config to rely on Tox, using the `tox-travis` plugin, to remove duplication.
