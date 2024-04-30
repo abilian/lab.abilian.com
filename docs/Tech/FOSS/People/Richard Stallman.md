@@ -13,7 +13,7 @@ Stallman emphasizes that freedom is essential for fostering a vibrant and collab
 
 He also warns about the potential risk of losing our freedom in a world dominated by proprietary software. For Stallman, free software is not about getting something without paying (free beer), but rather about the freedom of speech and the ability to express oneself through code. He believes that these freedoms are crucial for removing obstacles to innovation and collaboration in the software world.
 
-Under Stallman's leadership, the Free Software Foundation has become a prominent organization that advocates for free software, digital rights, and the importance of preserving the four essential freedoms in the ever-evolving landscape of technology.
+Under Stallman's leadership, the Free Software Foundation has become a prominent organization that advocates for free software, digital rights, and the importance of preserving the four essential freedoms.
 
 ## Views on the Open Source Movement
 
