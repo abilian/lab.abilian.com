@@ -3,11 +3,13 @@
 ### SpaCy
 
 ### TextBlob
+
 https://github.com/sloria/textblob
 
 "Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more."
 
 ### Clips/Patterns
+
 https://github.com/clips/pattern
 
 "Pattern is a web mining module for Python. It has tools for:

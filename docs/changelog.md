@@ -2,6 +2,16 @@
 
 ## Recent changes (last 7 days)
 
+- **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-04-30*)
+
+- **[Eben Moeglen](/Tech/FOSS/People/Eben Moeglen/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-04-30*)
+
+- **[FOSS as a Software Development Model](/Tech/FOSS/FOSS as a Software Development Model/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-04-30*)
+
+- **[00 Technology](/Tech/00 Technology/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-04-30*)
+
+- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-04-30*)
+
 - **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-04-29*)
 
 - **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-04-25*)
@@ -69,8 +79,6 @@
 - **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-03-08*)
 
 - **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
-
-- **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-03-08*)
 
 - **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-03-08*)
 
@@ -280,7 +288,7 @@
 
 - **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
-- **[Zig](/Tech/Programming Languages/Zig/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-11-07*)
+- **[Zig](/Tech/Programming Languages/Zig/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2023-11-07*)
 
 - **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
@@ -402,7 +410,7 @@
 
 - **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
 
-- **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
+- **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2023-05-12*)
 
 - **[Quick learn languages](/Tech/Programming Techniques/Quick learn languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
@@ -412,7 +420,7 @@
 
 - **[Assertions](/Tech/Programming Techniques/Assertions/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
 
-- **[Rust](/Tech/Programming Languages/Rust/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/Datalog/)</small> (*2023-05-12*)
+- **[Rust](/Tech/Programming Languages/Rust/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2023-05-12*)
 
 - **[Various interesting tech (2015)](/Tech/Python/Various interesting tech (2015)/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-12*)
 
@@ -492,15 +500,9 @@
 
 - **[Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
-- **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
-
 - **[Eric von Hippel](/Tech/FOSS/People/Eric von Hippel/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
 
 - **[Eric Raymond](/Tech/FOSS/People/Eric Raymond/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
-
-- **[Eben Moeglen](/Tech/FOSS/People/Eben Moeglen/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-05-06*)
-
-- **[FOSS as a Software Development Model](/Tech/FOSS/FOSS as a Software Development Model/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2023-05-06*)
 
 - **[FOSS Definitions](/Tech/FOSS/FOSS Definitions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2023-05-06*)
 
@@ -513,8 +515,6 @@
 - **[Ambiguity](/Business/Management Competencies/Ambiguity/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-06*)
 
 - **[Action Orientation](/Business/Management Competencies/Action Orientation/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-06*)
-
-- **[00 Technology](/Tech/00 Technology/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2023-05-06*)
 
 - **[Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-06*)
 
