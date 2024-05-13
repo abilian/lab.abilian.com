@@ -114,3 +114,7 @@ By embedding these principles into our strategy, Abilian not only pledges to adv
 - Cyrille Bonamy, Cédric Boudinet, Laurent Bourgès, Karin Dassas, Laurent Lefèvre, Benjamin Ninassi, Francis Vivat, _Je code : les bonnes pratiques en éco-conception de service numérique à destination des développeurs de logiciels_ ("I code: good practices in digital service eco-design for software developers").  https://hal.archives-ouvertes.fr/hal-03009741
 - _The intro guide to digital eco-design_. Association Les Designers Ethiques. https://eco-conception.designersethiques.org/guide/en/
 *  _Nos outils_ ("Our tools"). Association Conception Numérique Responsable. https://collectif.greenit.fr/outils.html.
+
+More:
+
+- https://www.sciencedirect.com/science/article/pii/S0959652621014475 "# Designing sustainable services with the ECO-Service design method: Bridging user experience with environmental performance"

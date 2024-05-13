@@ -1,4 +1,4 @@
-"Furl" and "yarl" are both Python libraries that provide convenient and powerful APIs for working with URLs, but they have some differences in terms of features, design choices, and their respective goals:
+"[Furl](https://github.com/gruns/furl)" and "[yarl](https://pypi.org/project/yarl/)" are both Python libraries that provide convenient and powerful APIs for working with URLs, but they have some differences in terms of features, design choices, and their respective goals:
 
 1. **API Design:**
 
@@ -13,7 +13,7 @@
 3. **Immutability**:
    
     - The "furl" library provides mutable URL objects by default. It allows you to modify various components of a URL, such as scheme, host, path, and query parameters, in-place using its chainable API. This means that when you modify a URL object, the changes are applied directly to the object itself.
-    - On the other hand, the "yarl" library follows an immutable approach for URL manipulation. It treats URLs as immutable objects, meaning that any modification operations return a new URL object with the desired changes. This design ensures that the original URL object remains unchanged, preserving immutability.
+    - **On the other hand, the "yarl" library follows an immutable approach for URL manipulation.** It treats URLs as immutable objects, meaning that any modification operations return a new URL object with the desired changes. This design ensures that the original URL object remains unchanged, preserving immutability.
 
 5. **Unicode Handling:**
    
@@ -35,9 +35,10 @@
     - "Furl" has been around for a longer time and has gained popularity as a lightweight and easy-to-use URL manipulation library.
     - "Yarl" is a newer library and has gained popularity for its more comprehensive API and Unicode support.
 
-Both "furl" and "yarl" are actively maintained and provide valuable features for URL manipulation. The choice between them depends on your specific requirements, preferred API style, and the level of control and flexibility you need for working with URLs in your Python projects.
+→ 
 
 ## Other alternatives
 
 - The stdlib's [`urllib.urlparse`](https://docs.python.org/3/library/urllib.parse.html#module-urllib.parse) module
-- [[Boltons]]' [urlutils](https://boltons.readthedocs.io/en/latest/urlutils.html)
+- [[Boltons]]' [urlutils](https://boltons.readthedocs.io/en/latest/urlutils.html) (mutable)
+- [Hyperlink](https://github.com/python-hyper/hyperlink) (immutable, but less popular and inactive).

@@ -1,6 +1,14 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
+
+- **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-01*)
+
+- **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-05-01*)
+
+- **[CLIPS](/Tech/Programming Languages/CLIPS/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-05-01*)
+
+- **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-01*)
 
 - **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-04-30*)
 
@@ -46,8 +54,6 @@
 
 - **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
 
-- **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
-
 - **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-03-28*)
 
 - **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-03-28*)
@@ -65,8 +71,6 @@
 - **[Configuration languages](/Tech/Configuration languages/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-20*)
 
 - **[GoDaddy & Thespian](/Tech/Python/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-20*)
-
-- **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-03-20*)
 
 - **[Complexité de Python](/Tech/Python/Complexité de Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-17*)
 
@@ -113,6 +117,10 @@
 - **[Install on ARM](/Tech/Nixos/Install on ARM/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-03-05*)
 
 - **[Coaching](/Business/Practices/Coaching/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-03-05*)
+
+
+
+## Earlier changes
 
 - **[YAML](/Tech/Architecture & Design/YAML/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
 
@@ -169,10 +177,6 @@
 - **[Unit testing](/Tech/Programming Techniques/Unit testing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-02-07*)
 
 - **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-02-07*)
-
-
-
-## Earlier changes
 
 - **[Cosmopolitan Python](/Tech/Python/Cosmopolitan Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-24*)
 
@@ -575,8 +579,6 @@
 - **[Fish](/Tech/Tools/Fish/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-03-08*)
 
 - **[Wapiti](/Tech/Security/Wapiti/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/RBAC/)</small> (*2023-03-08*)
-
-- **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
 - **[Typechecking](/Tech/Python/Typechecking/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
