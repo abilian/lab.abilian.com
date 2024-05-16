@@ -35,7 +35,7 @@
     - "Furl" has been around for a longer time and has gained popularity as a lightweight and easy-to-use URL manipulation library.
     - "Yarl" is a newer library and has gained popularity for its more comprehensive API and Unicode support.
 
-→ 
+→ We choose to use Yarl when given the choice.
 
 ## Other alternatives
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[Flask](/Tech/Python/Web Frameworks/Flask/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/Flask/)</small> (*2024-05-13*)
+
+- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-05-13*)
+
+- **[Nix & NixOS](/Tech/Nixos/Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-05-13*)
+
+- **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-13*)
+
+- **[SQLAlchemy](/Tech/Databases & Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-05-13*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-01*)
@@ -7,8 +21,6 @@
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-05-01*)
 
 - **[CLIPS](/Tech/Programming Languages/CLIPS/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-05-01*)
-
-- **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-01*)
 
 - **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-04-30*)
 
@@ -29,8 +41,6 @@
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00Projects/)</small> (*2024-04-25*)
 
 - **[Navigation](/Tech/Web/UX-UI/Navigation/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
-
-- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-04-25*)
 
 - **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-04-25*)
 
@@ -365,8 +375,6 @@
 - **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
 - **[Workday architecture](/Tech/Databases & Persistence/Workday architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
-
-- **[SQLAlchemy](/Tech/Databases & Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
 - **[Postgres](/Tech/Databases & Persistence/Postgres/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
