@@ -2,15 +2,25 @@
 
 ## Recent changes (last 7 days)
 
-- **[Flask](/Tech/Python/Web Frameworks/Flask/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/Flask/)</small> (*2024-05-13*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-05-20*)
 
-- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-05-13*)
+- **[The Science of PKM](/Business/Knowledge Management/The Science of PKM/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-05-20*)
+
+- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-05-16*)
+
+- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-05-16*)
+
+- **[Python & Security](/Tech/Python/Python & Security/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-16*)
+
+- **[SQLAlchemy](/Tech/Databases & Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-05-16*)
+
+- **[State machines](/Tech/Architecture & Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-05-16*)
+
+- **[Flask](/Tech/Python/Web Frameworks/Flask/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/Flask/)</small> (*2024-05-13*)
 
 - **[Nix & NixOS](/Tech/Nixos/Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-05-13*)
 
 - **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-13*)
-
-- **[SQLAlchemy](/Tech/Databases & Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-05-13*)
 
 
 
@@ -133,8 +143,6 @@
 ## Earlier changes
 
 - **[YAML](/Tech/Architecture & Design/YAML/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
-
-- **[State machines](/Tech/Architecture & Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
 
 - **[Services Classes](/Tech/Architecture & Design/Services Classes/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
 
@@ -359,8 +367,6 @@
 - **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2023-07-27*)
 
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-06-27*)
-
-- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-06-21*)
 
 - **[Open edX](/Tech/Apps/Open edX/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2023-06-09*)
 
