@@ -2,7 +2,11 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-05-20*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-05-27*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[The Science of PKM](/Business/Knowledge Management/The Science of PKM/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-05-20*)
 
@@ -22,10 +26,6 @@
 
 - **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-13*)
 
-
-
-## Changed last 30 to 7 days
-
 - **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-01*)
 
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-05-01*)
@@ -44,6 +44,10 @@
 
 - **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-04-29*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-04-25*)
 
 - **[Anatomy of a web app page](/Tech/Web/UX-UI/Anatomy of a web app page/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
@@ -59,10 +63,6 @@
 - **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-04-25*)
 
 - **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-04-25*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-29*)
 

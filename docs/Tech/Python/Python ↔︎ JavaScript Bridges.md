@@ -1,4 +1,6 @@
 
+## Projects
+
 - https://github.com/Distributive-Network/PythonMonkey - A Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment.
     - → Not ready for prime time (Aug. 2023)
 
@@ -11,3 +13,23 @@
     - https://blog.logrocket.com/exploring-jspybridge-library-python-javascript/
 
 - https://github.com/PetterS/quickjs = Thin Python wrapper of [https://bellard.org/quickjs/](https://bellard.org/quickjs/)
+
+- https://pypi.org/project/javascript/ = Call and interop Node.js APIs with Python
+
+## Quickjs usage
+
+```python
+from quickjs import Function
+
+f = Function("f", """
+    function adder(a, b) {
+        return a + b;
+    }
+    
+    function f(a, b) {
+        return adder(a, b);
+    }
+    """)
+
+assert f(1, 2) == 3
+```
