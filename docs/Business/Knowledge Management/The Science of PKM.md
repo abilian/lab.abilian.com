@@ -101,24 +101,24 @@ In conclusion, the integration of embodied cognition, personal knowledge managem
 
 #### Hyperfocus and Flow
 
-1. **Csikszentmihalyi, M. (1990).** *Flow: The Psychology of Optimal Experience*. Harper & Row. This seminal book introduces the concept of flow, a state of heightened focus and immersion in activities, which closely relates to what is described as hyperfocus in contemporary discussions.
+1. Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper & Row. This seminal book introduces the concept of flow, a state of heightened focus and immersion in activities, which closely relates to what is described as hyperfocus in contemporary discussions.
    
-2. **Dietrich, A. (2004).** "Neurocognitive mechanisms underlying the experience of flow." *Consciousness and Cognition*, 13(4), 746-761. This article explores the cognitive and neurological underpinnings of flow experiences, linking them to specific brain activities.
+2. Dietrich, A. (2004). "Neurocognitive mechanisms underlying the experience of flow." *Consciousness and Cognition*, 13(4), 746-761. This article explores the cognitive and neurological underpinnings of flow experiences, linking them to specific brain activities.
 
 #### Scatterfocus and Mind-Wandering
 
-1. **Mason, M. F., Norton, M. I., Van Horn, J. D., Wegner, D. M., Grafton, S. T., & Macrae, C. N. (2007).** "Wandering minds: The default network and stimulus-independent thought." *Science*, 315(5810), 393-395. This study discusses the role of the default mode network in mind-wandering, providing a basis for understanding scatterfocus.
+1. Mason, M. F., Norton, M. I., Van Horn, J. D., Wegner, D. M., Grafton, S. T., & Macrae, C. N. (2007). "Wandering minds: The default network and stimulus-independent thought." *Science*, 315(5810), 393-395. This study discusses the role of the default mode network in mind-wandering, providing a basis for understanding scatterfocus.
 
-2. **Smallwood, J., & Schooler, J. W. (2015).** "The science of mind wandering: Empirically navigating the stream of consciousness." *Annual Review of Psychology*, 66, 487-518. This comprehensive review examines the cognitive and neural aspects of mind-wandering, offering insights into its functions and mechanisms.
+2. Smallwood, J., & Schooler, J. W. (2015). "The science of mind wandering: Empirically navigating the stream of consciousness." *Annual Review of Psychology*, 66, 487-518. This comprehensive review examines the cognitive and neural aspects of mind-wandering, offering insights into its functions and mechanisms.
 
 #### Improvisation
 
-1. **Limb, C. J., & Braun, A. R. (2008).** "Neural substrates of spontaneous musical performance: An FMRI study of jazz improvisation." *PLoS One*, 3(2), e1679. This research uses fMRI to investigate the brain activity of jazz musicians during improvisation, highlighting the brain regions involved in creative spontaneous activities.
+1. Limb, C. J., & Braun, A. R. (2008). "Neural substrates of spontaneous musical performance: An FMRI study of jazz improvisation." *PLoS One*, 3(2), e1679. This research uses fMRI to investigate the brain activity of jazz musicians during improvisation, highlighting the brain regions involved in creative spontaneous activities.
 
-2. **Pinho, A. L., de Manzano, Ö., Fransson, P., Eriksson, H., & Ullén, F. (2014).** "Connecting to create: Expertise in musical improvisation is associated with increased functional connectivity between premotor and prefrontal areas." *The Journal of Neuroscience*, 34(18), 6156-6163. This study looks at the functional connectivity in the brains of musicians during improvisation, providing insights into the neural mechanisms of creative processes.
+2. Pinho, A. L., de Manzano, Ö., Fransson, P., Eriksson, H., & Ullén, F. (2014). "Connecting to create: Expertise in musical improvisation is associated with increased functional connectivity between premotor and prefrontal areas." *The Journal of Neuroscience*, 34(18), 6156-6163. This study looks at the functional connectivity in the brains of musicians during improvisation, providing insights into the neural mechanisms of creative processes.
 
 #### Critical Thinking and Analytical Reasoning
 
-1. **Goel, V. (2007).** "Anatomy of deductive reasoning." *Trends in Cognitive Sciences*, 11(10), 435-441. This paper discusses the neural basis of logical reasoning, an aspect of critical thinking, and identifies key brain areas involved in these cognitive processes.
+1. Goel, V. (2007). "Anatomy of deductive reasoning." *Trends in Cognitive Sciences*, 11(10), 435-441. This paper discusses the neural basis of logical reasoning, an aspect of critical thinking, and identifies key brain areas involved in these cognitive processes.
 
-2. **Oaksford, M., & Chater, N. (2007).** *Bayesian Rationality: The Probabilistic Approach to Human Reasoning*. Oxford University Press. This book provides a framework for understanding how humans engage in critical thinking and analytical reasoning from a probabilistic perspective, supported by cognitive and neurological evidence.
+2. Oaksford, M., & Chater, N. (2007). *Bayesian Rationality: The Probabilistic Approach to Human Reasoning*. Oxford University Press. This book provides a framework for understanding how humans engage in critical thinking and analytical reasoning from a probabilistic perspective, supported by cognitive and neurological evidence.

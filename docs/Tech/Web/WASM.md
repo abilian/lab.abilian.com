@@ -10,3 +10,10 @@
 
 - https://github.com/vmware-labs/webassembly-language-runtimes
 - https://github.com/micropython/micropython/tree/master/ports/webassembly
+
+
+## Languages that compile to WASM
+
+- github.com/glebbash/LO
+- https://github.com/wa-lang/wa
+- ...
