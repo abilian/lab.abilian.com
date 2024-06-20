@@ -10,8 +10,6 @@
 - [[Python to WASM Compiler]]
 - Webbits
 - Pagic
-- [[Porter.io Reborn]]
-- [[02 Joinux]]
 
 ## Older projects
 
