@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
+
+- **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
+
 - **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-06-20*)
 
 - **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-06-20*)
@@ -13,8 +17,6 @@
 - **[Modulith](/Tech/Architecture & Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-06-20*)
 
 - **[Notes & References](/Tech/Architecture & Design/DDD/Notes & References/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Design/DDD/Business logic/)</small> (*2024-06-20*)
-
-- **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-06-20*)
 
@@ -73,8 +75,6 @@
 - **[REST API](/Tech/Web/Web (back-end)/REST API/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-04-25*)
 
 - **[Anatomy of a web app page](/Tech/Web/UX-UI/Anatomy of a web app page/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
-
-- **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-04-25*)
 
 - **[Navigation](/Tech/Web/UX-UI/Navigation/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
 
