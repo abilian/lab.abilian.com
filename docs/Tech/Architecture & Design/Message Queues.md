@@ -78,6 +78,8 @@ While each message queue implementation has its own specifics, many concepts are
     - https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/ "Postgres queue tech consists of two parts: announcing and listening for new jobs (pub/sub) and mutual exclusion (row locks)."
     - https://github.com/smrchy/rsmq (JS, dead)
     - https://github.com/poundifdef/SmoothMQ  "SmoothMQ is a drop-in replacement for SQS with a much smoother developer experience. It has a functional UI, observability, tracing, message scheduling, and rate-limiting. SmoothMQ lets you run a private SQS instance on any cloud." (Go + SQlite)
+    - https://github.com/hatchet-dev/hatchet = Hatchet replaces difficult to manage legacy queues or pub/sub systems so you can design durable workloads that recover from failure and solve for problems like **concurrency**, **fairness**, and **rate limiting**. Instead of managing your own task queue or pub/sub system, you can use Hatchet to distribute your functions between a set of workers with minimal configuration or infrastructure (Go).
+    - https://docs.bullmq.io/ = BullMQ is a [Node.js](https://nodejs.org) library that implements a fast and robust queue system built on top of [Redis](https://redis.io) that helps in resolving many modern age micro-services architectures.
 
 ### Python-Centric Task Queues
 
