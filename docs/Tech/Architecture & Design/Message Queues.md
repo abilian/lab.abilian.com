@@ -76,6 +76,8 @@ While each message queue implementation has its own specifics, many concepts are
 7. **Others**
     - https://github.com/tembo-io/pgmq "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres."
     - https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/ "Postgres queue tech consists of two parts: announcing and listening for new jobs (pub/sub) and mutual exclusion (row locks)."
+    - https://github.com/smrchy/rsmq (JS, dead)
+    - https://github.com/poundifdef/SmoothMQ  "SmoothMQ is a drop-in replacement for SQS with a much smoother developer experience. It has a functional UI, observability, tracing, message scheduling, and rate-limiting. SmoothMQ lets you run a private SQS instance on any cloud." (Go + SQlite)
 
 ### Python-Centric Task Queues
 
