@@ -86,6 +86,10 @@ While each message queue implementation has its own specifics, many concepts are
    - **Language:** Python
    - **Python Integration:** Natively integrates with Python
    - **Features:** Distributed task queue, supports scheduling, and integrates with a variety of message brokers (RabbitMQ, Redis). Offers result storage, task retries, and failure handling.
+   - Notes:
+       - https://docs.hatchet.run/blog/problems-with-celery
+       - https://denibertovic.com/posts/celery-best-practices/
+       - https://news.ycombinator.com/item?id=7909201
 
 2. **Dramatiq**
    
@@ -104,6 +108,10 @@ While each message queue implementation has its own specifics, many concepts are
   - **Language:** Python
   - **Python Integration:** Natively integrates with Python
   - **Features:** Supports multi-process, thread, or greenlet-based execution, periodic task execution, and simple API. Offers result storage, task prioritization, and supports Redis, SQLite, and in-memory storage.
+
+5. More
+    1. https://github.com/closeio/tasktiger (uses Redis)
+    2. WakaQ - cf. https://wakatime.com/blog/56-building-a-background-task-queue-in-python
 
 ## Choosing the "best" system
 
