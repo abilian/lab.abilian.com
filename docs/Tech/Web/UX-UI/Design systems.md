@@ -12,6 +12,7 @@
 - Daisyui
 - https://tailwind-elements.com/ (AGPL)
 - https://github.com/themesberg/flowbite (MIT)
+- https://winduum.dev/docs/
 
 ## Tools
 

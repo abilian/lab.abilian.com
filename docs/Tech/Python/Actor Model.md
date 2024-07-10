@@ -15,9 +15,16 @@ Source: <https://en.wikipedia.org/wiki/Actor_model>
 
 In Python, the actor model is not built into the core language, but it can be implemented through libraries that provide the necessary abstractions. Some of these libraries include:
 
-- **Pykka**: Pykka is a Python implementation of the actor model. The library provides simple and lightweight actor abstractions that allow you to build systems with concurrent processing without needing to deal with threads or locks directly. <https://github.com/jodal/pykka>
-- **Thespian**: Thespian is a more feature-rich actor library for Python that supports local and distributed actors. It offers a flexible framework for managing actor behavior and communication in a way that scales from a single system to distributed systems.
+- **[Pykka](https://github.com/jodal/pykka)**: Pykka is a Python implementation of the actor model, based on threads. The library provides simple and lightweight actor abstractions that allow you to build systems with concurrent processing without needing to deal with threads or locks directly.
+- **[Thespian](https://github.com/kquick/Thespian)**: Thespian is a more feature-rich actor library for Python that supports local and distributed actors. It offers a flexible framework for managing actor behavior and communication in a way that scales from a single system to distributed systems.
 - **Ray**: Though not limited to the actor model, Ray is a distributed execution framework that allows for easy scaling of Python applications. It includes support for actors, allowing developers to build systems that can easily scale across many nodes.
+
+
+### Size
+
+- Pykka: 1548 LOC
+- Thespian: 12000 LOC
+
 
 ### Kamaelia
 
@@ -39,7 +46,7 @@ https://www.bbc.com/rd/publications/whitepaper113
 See also:
 
 - Guild: https://pypi.org/project/guild/
-- Miniguild
+- Miniguild - https://github.com/sparkslabs/guild/tree/master/examples/blog/miniguild
 
 ### More
 
@@ -53,7 +60,7 @@ See also:
 - Parley (dead)
 - Mochi Actors (again)
 - Miniguild: https://github.com/sparkslabs/guild/tree/master/examples/blog/miniguild
-- https://syndicate-lang.org/
+- https://syndicate-lang.org/ a new model of concurrency, closely related to the actor, tuplespace, and publish/subscribe models.
 - https://github.com/orsinium-labs/walnats Nats-powered event-driven background jobs and microservices framework for Python.
 
 ## In other languages
