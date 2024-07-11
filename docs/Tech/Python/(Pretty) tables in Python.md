@@ -11,6 +11,7 @@ Additionally:
 - [**rich**] is another Python library that can be used to print pretty tables in Python, along with many other types of rich output, such as syntax highlighting, progress bars, and more. Its API is similar to PrettyTable.
 - [**Pandas**](https://pandas.pydata.org/) can be used to create and manipulate tables. It provides a lot of options for formatting and printing tables, including HTML and LaTeX output. But it is a large piece of software and shouldn't be imported just for its table-printing abilities.
 - [**Tablib**](https://pypi.org/project/tablib/) is a Python library for working with tabular data, such as spreadsheets or CSV files. It provides a flexible data container called `Dataset` that can be used to store and manipulate tabular data in memory, as well as a variety of tools for importing, exporting, and transforming data between different formats and sources.
+- https://pypi.org/project/terminaltables/ = Generate simple tables in terminals from a nested list of strings.
 
 
 ## Tabulate usage
