@@ -2,6 +2,20 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-07-22*)
+
+
+
+## Changed last 30 to 7 days
+
+- **[ISO 27001](/Tech/Security/ISO 27001/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2024-07-11*)
+
+- **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-11*)
+
+- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-07-11*)
+
+- **[Weekly Meetings](/Business/Meetings/Weekly Meetings/)** in <small>[Business](/Business/00 Business/) / [Meetings](/Business/Meetings/Weekly Meetings/)</small> (*2024-07-11*)
+
 - **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-07-10*)
 
 - **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-10*)
@@ -18,15 +32,15 @@
 
 - **[Activity Streams](/Tech/Architecture & Design/Activity Streams/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-10*)
 
-
-
-## Changed last 30 to 7 days
-
 - **[Message Queues](/Tech/Architecture & Design/Message Queues/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-03*)
 
 - **[LLM in Python](/Tech/Python/LLM in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-03*)
 
-- **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-07-03*)
+- **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-03*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
 
@@ -43,10 +57,6 @@
 - **[Modulith](/Tech/Architecture & Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-06-20*)
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-06-20*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-06-07*)
 
@@ -216,7 +226,7 @@
 
 - **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-02-07*)
 
-- **[Unit testing](/Tech/Programming Techniques/Unit testing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2024-02-07*)
+- **[Unit testing](/Tech/Programming Techniques/Unit testing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-02-07*)
 
 - **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-02-07*)
 
@@ -322,7 +332,7 @@
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
 
-- **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-08*)
+- **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-11-08*)
 
 - **[Lawrence Lessig](/Tech/FOSS/People/Lawrence Lessig/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2023-11-08*)
 
@@ -334,7 +344,7 @@
 
 - **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-11-07*)
 
-- **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-11-02*)
+- **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-11-02*)
 
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2023-10-24*)
 
@@ -358,7 +368,7 @@
 
 - **[Components and Services](/Tech/Python/Components and Services/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-10-05*)
 
-- **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-10-04*)
+- **[Code generation](/Tech/Programming Techniques/Code generation/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-10-04*)
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
 
@@ -388,7 +398,7 @@
 
 - **[Content Repositories](/Tech/Web/Content Repositories/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2023-06-07*)
 
-- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-06-06*)
+- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-06-06*)
 
 - **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
 
@@ -414,7 +424,7 @@
 
 - **[Concurrent programming](/Tech/Python/Concurrent programming/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-16*)
 
-- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-16*)
+- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-05-16*)
 
 - **[Nomad](/Tech/Containers/Nomad/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
 
@@ -444,13 +454,13 @@
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2023-05-12*)
 
-- **[Quick learn languages](/Tech/Programming Techniques/Quick learn languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
+- **[Quick learn languages](/Tech/Programming Techniques/Quick learn languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-05-12*)
 
-- **[Distributed computing](/Tech/Programming Techniques/Distributed computing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
+- **[Distributed computing](/Tech/Programming Techniques/Distributed computing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-05-12*)
 
-- **[BDD](/Tech/Programming Techniques/BDD/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
+- **[BDD](/Tech/Programming Techniques/BDD/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-05-12*)
 
-- **[Assertions](/Tech/Programming Techniques/Assertions/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Assertions/)</small> (*2023-05-12*)
+- **[Assertions](/Tech/Programming Techniques/Assertions/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-05-12*)
 
 - **[Rust](/Tech/Programming Languages/Rust/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2023-05-12*)
 
@@ -566,8 +576,6 @@
 
 - **[Argparse](/Tech/Python/CLI/Argparse/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2023-04-26*)
 
-- **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-04-24*)
-
 - **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
 
 - **[QUIC et HTTP3](/Tech/Web/Web (back-end)/QUIC et HTTP3/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2023-03-08*)
@@ -631,8 +639,6 @@
 - **[C4 Model](/Tech/Modeling/C4 Model/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2023-03-08*)
 
 - **[Obsidian + Mkdocs](/Tech/Documentation/Obsidian + Mkdocs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2023-03-08*)
-
-- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2023-03-08*)
 
 - **[Nix and containers](/Tech/Containers/Nix and containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
