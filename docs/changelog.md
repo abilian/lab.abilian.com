@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-31*)
+
 - **[Python & SSH](/Tech/Python/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-29*)
 
 - **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
