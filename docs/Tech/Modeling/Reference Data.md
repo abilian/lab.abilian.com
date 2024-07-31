@@ -249,6 +249,232 @@ CREATE TABLE CurrencyVersion (
 );
 ```
 
+## Worked-out Example
+
+We outline below the design for a universal reference data engine. This involves creating a system that is flexible, scalable, and can cater to various use cases with an object-oriented API and a relational backend. The design must support CRUD operations, hierarchical data, versioning, and extensibility.
+
+### 1. **Database Schema Design**
+
+#### 1.1. Core Tables
+
+1. **Reference Data Types Table:**
+   - This table defines different types of reference data (e.g., Country, Currency, Status).
+
+   ```sql
+   CREATE TABLE ReferenceDataType (
+       DataTypeID INT PRIMARY KEY,
+       DataTypeName VARCHAR(100) NOT NULL,
+       Description TEXT NULL
+   );
+   ```
+
+2. **Reference Data Table:**
+   - This table stores the actual reference data values.
+
+   ```sql
+   CREATE TABLE ReferenceData (
+       DataID INT PRIMARY KEY,
+       DataTypeID INT,
+       Code VARCHAR(100) NOT NULL,
+       Value VARCHAR(255) NOT NULL,
+       ParentDataID INT NULL,
+       EffectiveDate DATE NOT NULL,
+       ExpiryDate DATE NULL,
+       Metadata JSON NULL,
+       FOREIGN KEY (DataTypeID) REFERENCES ReferenceDataType(DataTypeID),
+       FOREIGN KEY (ParentDataID) REFERENCES ReferenceData(DataID)
+   );
+   ```
+
+3. **Reference Data Version Table:**
+   - This table tracks changes in reference data values.
+
+   ```sql
+   CREATE TABLE ReferenceDataVersion (
+       VersionID INT PRIMARY KEY,
+       DataID INT,
+       OldValue VARCHAR(255),
+       NewValue VARCHAR(255),
+       ChangeDate DATETIME,
+       ChangedBy VARCHAR(100),
+       FOREIGN KEY (DataID) REFERENCES ReferenceData(DataID)
+   );
+   ```
+
+### 2. **API Design**
+
+#### 2.1. Object-Oriented API
+
+Define classes and methods for interacting with the reference data. Use an ORM (Object-Relational Mapping) framework to bridge the object-oriented API with the relational database.
+
+```python
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, Date, JSON
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker, relationship
+
+Base = declarative_base()
+
+class ReferenceDataType(Base):
+    __tablename__ = 'ReferenceDataType'
+    DataTypeID = Column(Integer, primary_key=True)
+    DataTypeName = Column(String, nullable=False)
+    Description = Column(String)
+
+class ReferenceData(Base):
+    __tablename__ = 'ReferenceData'
+    DataID = Column(Integer, primary_key=True)
+    DataTypeID = Column(Integer, ForeignKey('ReferenceDataType.DataTypeID'))
+    Code = Column(String, nullable=False)
+    Value = Column(String, nullable=False)
+    ParentDataID = Column(Integer, ForeignKey('ReferenceData.DataID'))
+    EffectiveDate = Column(Date, nullable=False)
+    ExpiryDate = Column(Date)
+    Metadata = Column(JSON)
+
+    data_type = relationship("ReferenceDataType")
+    parent_data = relationship("ReferenceData", remote_side=[DataID])
+
+class ReferenceDataVersion(Base):
+    __tablename__ = 'ReferenceDataVersion'
+    VersionID = Column(Integer, primary_key=True)
+    DataID = Column(Integer, ForeignKey('ReferenceData.DataID'))
+    OldValue = Column(String)
+    NewValue = Column(String)
+    ChangeDate = Column(Date)
+    ChangedBy = Column(String)
+
+    reference_data = relationship("ReferenceData")
+
+# Database setup
+engine = create_engine('sqlite:///reference_data.db')
+Base.metadata.create_all(engine)
+Session = sessionmaker(bind=engine)
+session = Session()
+```
+
+#### 2.2. CRUD Operations
+
+Implement methods for CRUD operations.
+
+```python
+class ReferenceDataManager:
+    def __init__(self, session):
+        self.session = session
+
+    def create_data_type(self, name, description=None):
+        data_type = ReferenceDataType(DataTypeName=name, Description=description)
+        self.session.add(data_type)
+        self.session.commit()
+
+    def create_reference_data(self, data_type_id, code, value, effective_date, expiry_date=None, parent_data_id=None, metadata=None):
+        ref_data = ReferenceData(
+            DataTypeID=data_type_id, Code=code, Value=value, EffectiveDate=effective_date,
+            ExpiryDate=expiry_date, ParentDataID=parent_data_id, Metadata=metadata
+        )
+        self.session.add(ref_data)
+        self.session.commit()
+
+    def update_reference_data(self, data_id, new_value, changed_by):
+        ref_data = self.session.query(ReferenceData).get(data_id)
+        old_value = ref_data.Value
+        ref_data.Value = new_value
+        self.session.add(ref_data)
+        version = ReferenceDataVersion(
+            DataID=data_id, OldValue=old_value, NewValue=new_value,
+            ChangeDate=datetime.now(), ChangedBy=changed_by
+        )
+        self.session.add(version)
+        self.session.commit()
+
+    def delete_reference_data(self, data_id):
+        ref_data = self.session.query(ReferenceData).get(data_id)
+        self.session.delete(ref_data)
+        self.session.commit()
+
+    def get_reference_data(self, data_type_id, effective_date=None):
+        query = self.session.query(ReferenceData).filter_by(DataTypeID=data_type_id)
+        if effective_date:
+            query = query.filter(
+                ReferenceData.EffectiveDate <= effective_date,
+                (ReferenceData.ExpiryDate >= effective_date) | (ReferenceData.ExpiryDate.is_(None))
+            )
+        return query.all()
+```
+
+### 3. **Implementation for Use Cases**
+
+#### 3.1. Consistent Data Entry
+
+Provide a method to fetch data by type and date, ensuring that only valid entries are used for data entry.
+
+```python
+def fetch_valid_reference_data(manager, data_type_name, effective_date=None):
+    data_type = session.query(ReferenceDataType).filter_by(DataTypeName=data_type_name).one()
+    return manager.get_reference_data(data_type.DataTypeID, effective_date)
+```
+
+#### 3.2. Data Validation
+
+Implement validation logic using the fetched reference data.
+
+```python
+def validate_data_entry(manager, data_type_name, code, effective_date=None):
+    reference_data = fetch_valid_reference_data(manager, data_type_name, effective_date)
+    valid_codes = [data.Code for data in reference_data]
+    return code in valid_codes
+```
+
+#### 3.3. Reporting and Analytics
+
+Ensure that reference data used in reports is based on effective dates to maintain accuracy over time.
+
+```python
+def generate_report(manager, data_type_name, report_date):
+    reference_data = fetch_valid_reference_data(manager, data_type_name, report_date)
+    # Perform reporting using the valid reference data
+```
+
+#### 3.4. Data Integration
+
+Provide methods for fetching and synchronizing reference data across systems.
+
+```python
+def synchronize_reference_data(manager, external_data):
+    for data in external_data:
+        existing_data = session.query(ReferenceData).filter_by(Code=data['code']).first()
+        if existing_data:
+            manager.update_reference_data(existing_data.DataID, data['value'], 'system_sync')
+        else:
+            manager.create_reference_data(data['type_id'], data['code'], data['value'], data['effective_date'])
+```
+
+### 4. **Maintenance and Extensibility**
+
+#### 4.1. Adding New Reference Data Types
+
+Extend the system by adding new data types without altering the core architecture.
+
+```python
+manager.create_data_type('NewType', 'Description of the new type')
+```
+
+#### 4.2. Handling Hierarchical Data
+
+Ensure hierarchical relationships are managed correctly in the database and API.
+
+```python
+manager.create_reference_data(parent_data_id, code, value, effective_date)
+```
+
+#### 4.3. Versioning and Auditing
+
+Automatically track changes and maintain historical versions of reference data.
+
+### Conclusion
+
+This design provides a robust and flexible framework for managing reference data using a relational backend and an object-oriented API. It supports various use cases, ensuring data consistency, integrity, and ease of maintenance. This approach can be further extended and optimized based on specific requirements and system constraints.
+
+
 ## References
 
 See also: [[Taxonomies vs. Ontologies]]
