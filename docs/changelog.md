@@ -96,13 +96,13 @@
 
 - **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-13*)
 
-- **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-01*)
-
-- **[CLIPS](/Tech/Programming Languages/CLIPS/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-05-01*)
-
 
 
 ## Earlier changes
+
+- **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-01*)
+
+- **[CLIPS](/Tech/Programming Languages/CLIPS/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-05-01*)
 
 - **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-04-30*)
 
