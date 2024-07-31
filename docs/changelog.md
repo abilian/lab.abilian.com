@@ -2,9 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
-
 - **[Reference Data](/Tech/Modeling/Reference Data/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
+
+- **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
 - **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-31*)
 
