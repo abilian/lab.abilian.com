@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-08-02*)
-
 - **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
 - **[Reference Data](/Tech/Modeling/Reference Data/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
@@ -56,15 +54,15 @@
 
 - **[Activity Streams](/Tech/Architecture & Design/Activity Streams/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-10*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Message Queues](/Tech/Architecture & Design/Message Queues/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-03*)
 
 - **[LLM in Python](/Tech/Python/LLM in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-03*)
 
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-03*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
 
