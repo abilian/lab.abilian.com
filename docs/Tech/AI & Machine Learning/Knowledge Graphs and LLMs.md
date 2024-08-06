@@ -8,10 +8,7 @@ Let's review some litterature.
 - Enhancing Knowledge Graph Construction Using Large Language Models, arXiv:2305.04676v1 [cs.CL] 8 May 2023
 - LLMs for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities, arXiv:2305.13168v2 [cs.CL] 22 Feb 2024
 
-## Summary
-
-
-The synthesis of the insights from the provided articles reveals various aspects of leveraging Large Language Models (LLMs) in the construction and enhancement of Knowledge Graphs (KGs). Here is a comprehensive overview of the insights:
+## Summary of the Litterature
 
 ### The Role of LLMs in KG Construction
 
@@ -30,10 +27,10 @@ The synthesis of the insights from the provided articles reveals various aspects
 ### Challenges and Considerations
 
 1. **Consistency and Accuracy**:
-   The consistency of the generated KGs can vary, with issues such as missing labels for some KG individuals or repeated values for the same ontology class. This indicates the need for continuous refinement of prompts and the incorporation of in-context examples to improve the accuracy of LLM-generated content  .
+   The consistency of the generated KGs can vary, with issues such as missing labels for some KG individuals or repeated values for the same ontology class. This indicates the need for continuous refinement of prompts and the incorporation of in-context examples to improve the accuracy of LLM-generated content.
 
 2. **Prompt Engineering**:
-   Effective prompt engineering is crucial at every stage of the pipeline. Minor changes in the prompt can lead to significantly different outputs, necessitating iterative refinement and trial-and-error methods to achieve optimal results  .
+   Effective prompt engineering is crucial at every stage of the pipeline. Minor changes in the prompt can lead to significantly different outputs, necessitating iterative refinement and trial-and-error methods to achieve optimal results.
 
 3. **Human-in-the-Loop**:
    Despite the automation potential, a human-in-the-loop approach is recommended to validate and evaluate the LLM-generated content, ensuring accuracy and completeness in the constructed KGs.
@@ -41,15 +38,24 @@ The synthesis of the insights from the provided articles reveals various aspects
 4. **Limitations of Current LLMs**:
    Current LLMs still face challenges such as hallucination, lack of critical thinking, and prompt sensitivity. These limitations highlight the importance of integrating human expertise and developing more sophisticated models to improve the reliability of LLMs in KG construction.
 
+### Enhancing the Power of KGs through Ontologies
+
+Understanding the core strengths of Knowledge Graphs (KGs) is crucial for forward-thinking organizations. One of the keys to a knowledge graph’s power is its ontology. Ontologies act as the KG's schema, elucidating the KG's structure by defining the types of entities, their attributes, and relationships. Much like schemas in relational databases, ontologies in KGs offer an abstract representation of the concepts and their properties within the data. However, unlike SQL databases, KGs treat schema as data, and the way they model concepts is closer to Object-Oriented Programming than database schema design.
+
+Ontologies are composed of rules, axioms, and constraints governing entities, attributes, and relationships. They provide an abstract semantic model that enhances both human and machine understanding of the underlying data. This formal structure makes Retrieval-Augmented Generation (RAG) more precise by clarifying the logical data structure, extending a Language Model's (LLM) broad but shallow inference time reasoning with a narrow but deep symbolic inferencing engine.
+
+In the semantic web, we use RDFS to describe our ontologies, allowing the seamless connection between abstract concepts and real data, which is crucial for integrating LLMs and KGs into AI strategies.
+
 ### Future Directions
 
 1. **Enhanced Pipeline Development**:
-   There is potential for further enhancing the pipeline by using different hardware configurations, evaluating results with various open-source LLMs, and exploring methods for mapping the generated ontology with other machine learning/deep learning ontologies  .
+   There is potential for further enhancing the pipeline by using different hardware configurations, evaluating results with various open-source LLMs, and exploring methods for mapping the generated ontology with other machine learning/deep learning ontologies.
 
 2. **Combining KGs and LLMs**:
-   Future research could focus on the bidirectional empowerment of KGs and LLMs, where KGs provide structured knowledge to enhance LLMs, and LLMs facilitate more efficient KG construction and completion tasks   .
+   Future research could focus on the bidirectional empowerment of KGs and LLMs, where KGs provide structured knowledge to enhance LLMs, and LLMs facilitate more efficient KG construction and completion tasks.
 
-## Summary
+### Summary
 
-Leveraging LLMs for KG construction offers significant potential in reducing human effort and enhancing the efficiency of the process. However, ongoing challenges such as consistency, accuracy, and prompt sensitivity must be addressed through refined methodologies and human oversight. The integration of LLMs and KGs represents a promising area for future research and development.
+Leveraging LLMs for KG construction offers significant potential in reducing human effort and enhancing the efficiency of the process. However, ongoing challenges such as consistency, accuracy, and prompt sensitivity must be addressed through refined methodologies and human oversight. 
 
+The integration of LLMs and KGs, particularly through robust ontologies, represents a promising area for future research and development. Embracing KGs and their ontologies clarifies your data landscape and prepares your organization for a future where AI will keep your data and semantics connected. Integrating KGs and ontologies into your Gen AI strategy is a powerful and pragmatic way to stay ahead of the curve.

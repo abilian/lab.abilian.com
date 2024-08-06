@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-08-04*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-08-06*)
 
 - **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
@@ -12,6 +12,10 @@
 
 - **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-31*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Python & SSH](/Tech/Python/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-29*)
 
 - **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
@@ -19,10 +23,6 @@
 - **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
 
 - **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Syndicated Actors](/Tech/Programming Techniques/Syndicated Actors/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-22*)
 
