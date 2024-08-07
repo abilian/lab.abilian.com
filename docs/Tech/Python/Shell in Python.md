@@ -1,3 +1,6 @@
+
+![[Pasted image 20240807075117.png]]
+
 ## Existing Python libraries
 
 * [GitHub - tomerfiliba/plumbum: Plumbum: Shell Combinators](https://github.com/tomerfiliba/plumbum)
@@ -74,5 +77,5 @@ Strong typing: generate `.pyi` files for common commands ? By parsing man pages 
 
 Piping: `shell.ls().pipe.grep('*.py')` ? bof.
 
-`shell.pipe(shell.ls(), shell.grep('*.py')` ? (Needs to parse AST inside the pip argument).
+`shell.pipe(shell.ls(), shell.grep('*.py')` ? (Needs to parse AST inside the pipe argument).
 

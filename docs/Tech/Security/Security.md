@@ -1,3 +1,8 @@
+## Standards
+
+- [[ISO 27001]]
+- [[ISO 27001-2022]]
+
 ## Reference
 
 - [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)

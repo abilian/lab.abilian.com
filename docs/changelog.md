@@ -2,25 +2,25 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-08-06*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-08-07*)
+
+- **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-08-06*)
 
 - **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
 - **[Reference Data](/Tech/Modeling/Reference Data/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
-- **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
-
-- **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-31*)
-
 
 
 ## Changed last 30 to 7 days
 
+- **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
+
+- **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-31*)
+
 - **[Python & SSH](/Tech/Python/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-29*)
 
 - **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
-
-- **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
 
 - **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
 
@@ -32,7 +32,7 @@
 
 - **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-22*)
 
-- **[ISO 27001](/Tech/Security/ISO 27001/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2024-07-11*)
+- **[ISO 27001](/Tech/Security/ISO 27001/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-07-11*)
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-11*)
 
@@ -154,7 +154,7 @@
 
 - **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-03-21*)
 
-- **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2024-03-21*)
+- **[WAF](/Tech/Security/WAF/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-03-21*)
 
 - **[Questions](/Tech/FOSS/Questions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-03-20*)
 
@@ -328,7 +328,7 @@
 
 - **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-13*)
 
-- **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2023-12-11*)
+- **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-12-11*)
 
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
 
@@ -392,11 +392,11 @@
 
 - **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-29*)
 
-- **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2023-09-21*)
+- **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-09-21*)
 
-- **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2023-09-21*)
+- **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-09-21*)
 
-- **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2023-09-21*)
+- **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-09-21*)
 
 - **[Access control in Python](/Tech/Python/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-19*)
 
@@ -634,7 +634,7 @@
 
 - **[Fish](/Tech/Tools/Fish/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-03-08*)
 
-- **[Wapiti](/Tech/Security/Wapiti/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001/)</small> (*2023-03-08*)
+- **[Wapiti](/Tech/Security/Wapiti/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-03-08*)
 
 - **[Typechecking](/Tech/Python/Typechecking/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
