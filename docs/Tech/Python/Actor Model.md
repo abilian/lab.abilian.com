@@ -19,12 +19,10 @@ In Python, the actor model is not built into the core language, but it can be im
 - **[Thespian](https://github.com/kquick/Thespian)**: Thespian is a more feature-rich actor library for Python that supports local and distributed actors. It offers a flexible framework for managing actor behavior and communication in a way that scales from a single system to distributed systems.
 - **Ray**: Though not limited to the actor model, Ray is a distributed execution framework that allows for easy scaling of Python applications. It includes support for actors, allowing developers to build systems that can easily scale across many nodes.
 
-
 ### Size
 
 - Pykka: 1548 LOC
 - Thespian: 12000 LOC
-
 
 ### Kamaelia
 
@@ -67,6 +65,7 @@ See also:
 
 - Akka (Scala / Java)
 - Celluloid (Ruby)
+- Darlean (TypeScript)
 
 ## Choice criteria
 
@@ -87,4 +86,4 @@ When working with the actor model in Python (and choosing or developing an Actor
 
 - **43 years of actors: a taxonomy of actor models and their key properties** (2016)
     The Actor Model is a message passing concurrency model that was originally proposed by Hewitt et al. in 1973. It is now 43 years later and since then researchers have explored a plethora of variations on this model. This paper presents a history of the Actor Model throughout those years. The goal of this paper is not to provide an exhaustive overview of every actor system in existence but rather to give an overview of some of the exemplar languages and libraries that influenced the design and rationale of other actor sys- tems throughout those years. This paper therefore shows that most actor systems can be roughly classified into four families, namely: Classic Actors, Active Objects, Processes and Communicating Event-Loops.
-
+    http://soft.vub.ac.be/Publications/2016/vub-soft-tr-16-11.pdf

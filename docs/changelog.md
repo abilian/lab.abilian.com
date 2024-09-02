@@ -2,17 +2,33 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-08-07*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-02*)
 
-- **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-08-06*)
-
-- **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
-
-- **[Reference Data](/Tech/Modeling/Reference Data/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
+- **[OKRs](/Business/OKRs/)** in <small>[Business](/Business/00 Business/)</small> (*2024-09-02*)
 
 
 
 ## Changed last 30 to 7 days
+
+- **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-08-07*)
+
+- **[ISO 27001](/Tech/Security/ISO 27001/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-08-07*)
+
+- **[ISO 27001-2022](/Tech/Security/ISO 27001-2022/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-08-07*)
+
+- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-08-07*)
+
+- **[Python Interfaces & Friends](/Tech/Python/Python Interfaces & Friends/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-08-07*)
+
+- **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-08-06*)
+
+
+
+## Changed last 90 to 30 days
+
+- **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
+
+- **[Reference Data](/Tech/Modeling/Reference Data/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
 - **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
@@ -31,8 +47,6 @@
 - **[Actors](/Tech/Programming Techniques/Actors/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-22*)
 
 - **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-22*)
-
-- **[ISO 27001](/Tech/Security/ISO 27001/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-07-11*)
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-11*)
 
@@ -55,10 +69,6 @@
 - **[Blockchain](/Tech/Architecture & Design/Blockchain/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-10*)
 
 - **[Activity Streams](/Tech/Architecture & Design/Activity Streams/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-10*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Message Queues](/Tech/Architecture & Design/Message Queues/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-07-03*)
 
@@ -90,6 +100,10 @@
 
 - **[The Science of PKM](/Business/Knowledge Management/The Science of PKM/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-06-07*)
 
+
+
+## Earlier changes
+
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-27*)
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-05-16*)
@@ -105,10 +119,6 @@
 - **[Flask](/Tech/Python/Web Frameworks/Flask/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/Flask/)</small> (*2024-05-13*)
 
 - **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-05-13*)
-
-
-
-## Earlier changes
 
 - **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-05-01*)
 
@@ -262,8 +272,6 @@
 
 - **[Makefile tricks](/Tech/Misc/Makefile tricks/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-01-24*)
 
-- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-01-18*)
-
 - **[Tidy First (2023)](/Tech/Software Engineering/Books/Tidy First (2023)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2024-01-11*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-01-10*)
@@ -394,8 +402,6 @@
 
 - **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-09-21*)
 
-- **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-09-21*)
-
 - **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2023-09-21*)
 
 - **[Access control in Python](/Tech/Python/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-09-19*)
@@ -458,8 +464,6 @@
 
 - **[Business Model Canvas](/Business/Business Models/Business Model Canvas/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-16*)
 
-- **[Alexander Osterwalder](/Business/Authors/Alexander Osterwalder/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-16*)
-
 - **[Architectural Decision Records](/Tech/Software Engineering/Architectural Decision Records/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-14*)
 
 - **[Accountability](/Business/Management Competencies/Accountability/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2023-05-14*)
@@ -469,8 +473,6 @@
 - **[The e3-value model](/Business/Business Models/The e3-value model/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
 
 - **[The Software Business Model Framework (SBMF)](/Business/Business Models/The Software Business Model Framework (SBMF)/)** in <small>[Business](/Business/00 Business/) / [Business Models](/Business/Business Models/Business Model Canvas/)</small> (*2023-05-13*)
-
-- **[Geoffrey Moore](/Business/Authors/Geoffrey Moore/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-13*)
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2023-05-12*)
 
@@ -528,12 +530,6 @@
 
 - **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-07*)
 
-- **[W. Edwards Deming](/Business/Authors/W. Edwards Deming/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-- **[Donella Meadows](/Business/Authors/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-- **[00 Authors](/Business/Authors/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2023-05-07*)
 
 - **[Values](/Business/Principles/Values/)** in <small>[Business](/Business/00 Business/) / [Principles](/Business/Principles/Outcome over output/)</small> (*2023-05-07*)
@@ -541,12 +537,6 @@
 - **[Outcome over output](/Business/Principles/Outcome over output/)** in <small>[Business](/Business/00 Business/) / [Principles](/Business/Principles/Outcome over output/)</small> (*2023-05-07*)
 
 - **[Retrospectives](/Business/Practices/Retrospectives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2023-05-07*)
-
-- **[Robert I. Sutton](/Business/Authors/Robert I. Sutton/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-- **[Peter Drucker](/Business/Authors/Peter Drucker/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
-
-- **[Andy Grove](/Business/Authors/Andy Grove/)** in <small>[Business](/Business/00 Business/) / [Authors](/Business/Authors/00 Authors/)</small> (*2023-05-07*)
 
 - **[Design Patterns](/Tech/Software Engineering/Design Patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/)</small> (*2023-05-06*)
 

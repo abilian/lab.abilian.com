@@ -4,7 +4,7 @@
 
 - [[HyperOpenX]] - aims to create an open and convergent cloud offering by bringing together the leading French cloud computing technology creators.
 - [[00 NUA|NUA]] - a self-hosted cloud platform project (a _PaaS_ - _platform as a service_) using containers.
-- [[Hop3]]
+- [[Public/Projects/Hop3]]
 - [[Abilian SBE]] - Social Business Engine.
 - [[Python to WASM Compiler]]
 - Webbits
