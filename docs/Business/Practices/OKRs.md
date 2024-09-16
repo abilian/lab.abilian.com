@@ -4,7 +4,7 @@
 
 ### Understanding OKRs: What They Are Supposed to Do
 
-#### **Key Components of OKRs**
+#### Key Components of OKRs
 
 1. **Objective (O):**
    - **Definition:** An objective is a clear, concise goal that the organization, team, or individual aims to achieve. It is qualitative and should be inspirational, challenging, and time-bound.
@@ -20,7 +20,7 @@
      - **Outcome-Oriented:** They should reflect the results of actions, not the actions themselves.
      - **Specific and Time-Bound:** They have clear deadlines and measurable criteria.
 
-#### **Structure of OKRs**
+#### Structure of OKRs
 
 A typical OKR setup might look like this:
 
@@ -33,7 +33,7 @@ A typical OKR setup might look like this:
 
 While OKRs offer a structured way to set and track goals, they also come with significant challenges. The experience at Intel, a company that invented OKRs, demonstrates that the framework’s effectiveness is far from guaranteed.
 
-#### **The Downfall of OKRs at Intel**
+#### The Downfall of OKRs at Intel
 
 Intel’s recent struggles highlight some of the inherent risks in relying too heavily on OKRs:
 
@@ -75,3 +75,9 @@ Given the challenges encountered with OKRs and the lessons from Intel, here are 
 OKRs can provide structure and clarity, but they can also become a hindrance if they drive focus away from critical strategic shifts or are used too rigidly. The experience of Intel suggests that a more flexible, strategy-driven approach might be more effective in today’s rapidly evolving business environment.
 
 Ultimately, the effectiveness of any goal-setting system depends on how well it is integrated with a company’s strategy and its ability to adapt to changes in the market. Blindly adopting OKRs without considering these factors could lead to more harm than good.
+
+## See also
+
+[[OKR Workshop]]
+
+#okr

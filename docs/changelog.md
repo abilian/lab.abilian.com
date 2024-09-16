@@ -1,8 +1,8 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-05*)
+- **[UGC](/Business/Marketing/UGC/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-09-05*)
 
 - **[ISO 27001](/Tech/Security/ISO 27001/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-09-02*)
 
@@ -15,8 +15,6 @@
 - **[Darlean](/Tech/Misc/Darlean/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-02*)
 
 - **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-09-02*)
-
-- **[OKRs](/Business/OKRs/)** in <small>[Business](/Business/00 Business/)</small> (*2024-09-02*)
 
 - **[Copywriting](/Business/Marketing/Copywriting/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-09-02*)
 
@@ -40,7 +38,7 @@
 
 
 
-## Changed last 30 to 7 days
+## Changed last 90 to 30 days
 
 - **[Security](/Tech/Security/Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-08-07*)
 
@@ -50,11 +48,7 @@
 
 - **[Python Interfaces & Friends](/Tech/Python/Python Interfaces & Friends/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-08-07*)
 
-- **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-08-06*)
-
-
-
-## Changed last 90 to 30 days
+- **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-08-06*)
 
 - **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-07-31*)
 
@@ -66,9 +60,9 @@
 
 - **[Python & SSH](/Tech/Python/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-29*)
 
-- **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
+- **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-07-29*)
 
-- **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-29*)
+- **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-07-29*)
 
 - **[Syndicated Actors](/Tech/Programming Techniques/Syndicated Actors/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-22*)
 
@@ -76,7 +70,7 @@
 
 - **[Actors](/Tech/Programming Techniques/Actors/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-22*)
 
-- **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-07-22*)
+- **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-07-22*)
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-07-11*)
 
@@ -270,11 +264,9 @@
 
 - **[00 Intro to software architecture](/Tech/Architecture & Design/00 Intro to software architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-02-13*)
 
-- **[Sentence Transformers](/Tech/AI & Machine Learning/Sentence Transformers/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
+- **[Sentence Transformers](/Tech/AI & Machine Learning/Sentence Transformers/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-02-13*)
 
-- **[Image Representation](/Tech/AI & Machine Learning/Image Representation/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
-
-- **["More like this"](/Tech/AI & Machine Learning/"More like this"/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-02-13*)
+- **[Image Representation](/Tech/AI & Machine Learning/Image Representation/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-02-13*)
 
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-02-13*)
 
@@ -336,15 +328,15 @@
 
 - **[Stratego](/Tech/Compilation/Stratego/)** in <small>[Tech](/Tech/00 Technology/) / [Compilation](/Tech/Compilation/Stratego/)</small> (*2024-01-02*)
 
-- **[Topic modeling](/Tech/AI & Machine Learning/Topic modeling/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-01-02*)
+- **[Topic modeling](/Tech/AI & Machine Learning/Topic modeling/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-01-02*)
 
-- **[NLP Notes](/Tech/AI & Machine Learning/NLP Notes/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-01-02*)
+- **[NLP Notes](/Tech/AI & Machine Learning/NLP Notes/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-01-02*)
 
-- **[Machine Learnning Algorithms](/Tech/AI & Machine Learning/Machine Learnning Algorithms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-01-02*)
+- **[Machine Learnning Algorithms](/Tech/AI & Machine Learning/Machine Learnning Algorithms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-01-02*)
 
-- **[Machine Learning Platforms](/Tech/AI & Machine Learning/Machine Learning Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-01-02*)
+- **[Machine Learning Platforms](/Tech/AI & Machine Learning/Machine Learning Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-01-02*)
 
-- **[Deep learning](/Tech/AI & Machine Learning/Deep learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/"More like this"/)</small> (*2024-01-02*)
+- **[Deep learning](/Tech/AI & Machine Learning/Deep learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-01-02*)
 
 - **[Rethinking Lead Qualification - A Strategic Approach to CRM](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)** in <small>[Business](/Business/00 Business/) / [Customer Relationship Management](/Business/Customer Relationship Management/Rethinking Lead Qualification - A Strategic Approach to CRM/)</small> (*2024-01-02*)
 
