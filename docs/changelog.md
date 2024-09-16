@@ -1,5 +1,33 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-16*)
+
+- **[Primary keys - int ids or UUIDs?](/Tech/Databases & Persistence/Primary keys - int ids or UUIDs?/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-09-16*)
+
+- **[Multitenancy](/Tech/Databases & Persistence/Multitenancy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-09-16*)
+
+- **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-16*)
+
+- **[Prompt engineering](/Tech/AI & Machine Learning/Prompt engineering/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-16*)
+
+- **[More like this...](/Tech/AI & Machine Learning/More like this.../)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-16*)
+
+- **[Mirascope](/Tech/AI & Machine Learning/Mirascope/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-16*)
+
+- **[LLM, AI and RAG stuff](/Tech/AI & Machine Learning/LLM, AI and RAG stuff/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-16*)
+
+- **[LLM - Lessons learned](/Tech/AI & Machine Learning/LLM - Lessons learned/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-16*)
+
+- **[OKRs](/Business/Practices/OKRs/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-16*)
+
+- **[OKR Workshop](/Business/Practices/OKR Workshop/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-16*)
+
+- **[SaaS conversion strategy](/Business/Marketing/SaaS conversion strategy/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-09-16*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[UGC](/Business/Marketing/UGC/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-09-05*)
@@ -77,8 +105,6 @@
 - **[Weekly Meetings](/Business/Meetings/Weekly Meetings/)** in <small>[Business](/Business/00 Business/) / [Meetings](/Business/Meetings/Weekly Meetings/)</small> (*2024-07-11*)
 
 - **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-07-10*)
-
-- **[Nix & NixOS](/Tech/Nixos/Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-07-10*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-07-10*)
 
@@ -166,8 +192,6 @@
 
 - **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-04-25*)
 
-- **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-03-29*)
-
 - **[Job queues](/Tech/Python/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-28*)
 
 - **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
@@ -225,8 +249,6 @@
 - **[Asciidoc](/Tech/Publishing tools/Asciidoc/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
 
 - **[00 Publishing tools](/Tech/Publishing tools/00 Publishing tools/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-03-05*)
-
-- **[Install on ARM](/Tech/Nixos/Install on ARM/)** in <small>[Tech](/Tech/00 Technology/) / [Nixos](/Tech/Nixos/Install on ARM/)</small> (*2024-03-05*)
 
 - **[Coaching](/Business/Practices/Coaching/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-03-05*)
 
