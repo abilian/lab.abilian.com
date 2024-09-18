@@ -49,7 +49,8 @@ Here's an example structure of a `flake.nix` file:
 - **Inputs**: The `nixpkgs` input references the standard Nix package collection from GitHub.
 - **Outputs**: It defines a default package and a development shell, each using dependencies from `nixpkgs`.
 
-### How Nix Flakes are Used:
+### How Nix Flakes are Used
+
 - **Package Management**: Flakes make it easier to manage project dependencies by pinning specific versions and providing a consistent environment.
 - **Development Environments**: Developers can use flakes to define and share reproducible development environments, ensuring that everyone on a team uses the same tooling and dependencies.
 - **Continuous Integration/Deployment**: Flakes simplify CI/CD pipelines by providing a consistent, declarative way to define how applications are built and tested.
@@ -58,28 +59,31 @@ Here's an example structure of a `flake.nix` file:
 
 To use a Nix Flake, you'll need **Nix 2.4 or newer**, as flakes are a relatively new feature that requires enabling specific functionality in Nix. Below is a step-by-step guide on how to use a flake.
 
-### 1. **Enable Flakes in Nix**
+### 1. Enable Flakes in Nix
 
 Before using flakes, you need to enable them. To do this, add the following to your Nix configuration:
 
-- **For single commands**, you can enable flakes by passing the `--experimental-features` flag:
+**For single commands**, you can enable flakes by passing the `--experimental-features` flag:
   
-  ```bash
-  nix --experimental-features 'nix-command flakes' <command>
-  ```
+```bash
+nix --experimental-features 'nix-command flakes' <command>
+```
 
-- **To enable flakes globally** (recommended):
+**To enable flakes globally** (recommended):
   Edit or create the `~/.config/nix/nix.conf` file and add the following line:
 
-  ```bash
-  experimental-features = nix-command flakes
-  ```
+```bash
+mkdir -p ~/.config/nix/
+echo 'experimental-features = nix-command flakes' \
+    >> ~/.config/nix/nix.conf
+```
 
-### 2. **Basic Commands to Use a Flake**
+
+### 2. Basic Commands to Use a Flake
 
 Once flakes are enabled, here’s how you can use them in different contexts:
 
-#### 2.1. **Clone and Explore a Flake**
+#### 2.1. Clone and Explore a Flake
 To fetch and inspect a flake from a remote repository, you can use the following command:
 
 ```bash
@@ -94,7 +98,7 @@ nix flake info github:NixOS/nixpkgs
 
 This will show details about the flake, such as its inputs, outputs, and versions.
 
-#### 2.2. **Run a Flake Application**
+#### 2.2. Run a Flake Application
 
 If a flake provides applications, you can run them directly using the `nix run` command:
 
@@ -110,7 +114,7 @@ nix run github:NixOS/nixpkgs#hello
 
 This will download and execute the `hello` package from the specified flake.
 
-#### 2.3. **Enter a Development Environment (DevShell)**
+#### 2.3. Enter a Development Environment (DevShell)
 
 If a flake defines a **development shell**, you can enter it using the `nix develop` command:
 
@@ -126,7 +130,7 @@ nix develop github:NixOS/nixpkgs
 
 This is particularly useful for ensuring that all developers working on a project have the same development environment.
 
-#### 2.4. **Build a Flake**
+#### 2.4. Build a Flake
 
 If the flake provides build outputs (such as applications, packages, or containers), you can build them using the `nix build` command:
 
@@ -142,11 +146,11 @@ nix build github:NixOS/nixpkgs#hello
 
 This command fetches the source code and dependencies, builds the application, and stores the resulting output in the `./result` symlink, which you can run or inspect.
 
-### 3. **Create Your Own Flake**
+### 3. Create Your Own Flake
 
 You can also create your own flake. Here's how to get started:
 
-#### 3.1. **Create a `flake.nix` File**
+#### 3.1. Create a `flake.nix` File
 
 In your project’s directory, create a `flake.nix` file. Below is a simple example that provides a development shell and an application:
 
@@ -175,7 +179,7 @@ In your project’s directory, create a `flake.nix` file. Below is a simple exam
   - `packages.default`: Points to a package (in this case, the `hello` application).
   - `devShell`: Defines a development shell with `gcc` and `cmake` installed.
 
-#### 3.2. **Build Your Flake**
+#### 3.2. Build Your Flake
 
 You can build your flake with:
 
@@ -185,7 +189,7 @@ nix build
 
 This will build the `default` package specified in the `flake.nix` file.
 
-#### 3.3. **Enter the DevShell**
+#### 3.3. Enter the DevShell
 
 To enter the development shell defined in the flake:
 
@@ -195,7 +199,7 @@ nix develop
 
 This will provide you with a shell where `gcc` and `cmake` are pre-installed.
 
-### 4. **Pin Dependencies with `flake.lock`**
+### 4. Pin Dependencies with `flake.lock`
 
 When you use or create a flake, Nix will automatically generate a `flake.lock` file. This file locks the versions of all inputs (such as `nixpkgs`), ensuring that builds remain reproducible even if the upstream repositories change.
 
@@ -207,7 +211,7 @@ To update your dependencies, run:
 nix flake update
 ```
 
-### 5. **Use Local Flakes**
+### 5. Use Local Flakes
 
 If you're working on a local flake, you can reference it using a path:
 

@@ -2,7 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-16*)
+- **[Nix Flakes](/Tech/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-16*)
+
+- **[00 Nix & NixOS](/Tech/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-16*)
 
 - **[Primary keys - int ids or UUIDs?](/Tech/Databases & Persistence/Primary keys - int ids or UUIDs?/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-09-16*)
 
