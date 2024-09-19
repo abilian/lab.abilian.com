@@ -18,7 +18,7 @@ Here is a list of some of the most notable 20th-century business writers:
 
 5.  Robert Cialdini: A social psychologist, Cialdini is known for his groundbreaking book, "Influence: The Psychology of Persuasion" (1984), which has been widely adopted in business and marketing fields. The book explores the psychological principles that govern the act of persuading others.
     
-1.  Daniel Kahneman: A Nobel Prize-winning psychologist and economist, Kahneman's book "Thinking, Fast and Slow" (2011) delves into the dual-process theory of human cognition, exploring how biases and heuristics impact decision-making. Though not exclusively focused on business, the book's insights have significant implications for business leaders and managers.
+1.  Daniel Kahneman: A Nobel Prize-winning psychologist and economist, Kahneman's book "Thinking, Fast and Slow" (2011) looks into the dual-process theory of human cognition, exploring how biases and heuristics impact decision-making. Though not exclusively focused on business, the book's insights have significant implications for business leaders and managers.
     
 1.  Eric Ries: A software engineer and entrepreneur, Ries is known for his book "The Lean Startup" (2011), which introduced the concept of lean methodology for startups, emphasizing rapid prototyping, continuous testing, and iterative product development.
 

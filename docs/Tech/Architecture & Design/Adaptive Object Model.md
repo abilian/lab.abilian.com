@@ -10,7 +10,7 @@ The architecture primarily consists of the following components:
 
 - **Meta-Model**: This defines the types of building blocks available in the system.
 - **Model Interpreter**: This component interprets the meta-model and provides mechanisms to execute based on the model definitions.
-- **Tools for Configuration**: These tools allow domain experts to alter the meta-model without needing to delve into the program's codebase.
+- **Tools for Configuration**: These tools allow domain experts to alter the meta-model without needing to deep dive into the program's codebase.
 
 ### Dynamic Configuration and Domain Expert Involvement
 

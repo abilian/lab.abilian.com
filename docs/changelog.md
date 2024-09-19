@@ -2,7 +2,15 @@
 
 ## Recent changes (last 7 days)
 
-- **[Nix Flakes](/Tech/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-16*)
+- **[VPN](/Tech/VPN/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-18*)
+
+- **[Nix quotes](/Tech/Nix/Nix quotes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
+
+- **[Nix Install](/Tech/Nix/Nix Install/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
+
+- **[Nix Flakes](/Tech/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
+
+- **[Devbox](/Tech/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
 
 - **[00 Nix & NixOS](/Tech/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-16*)
 
@@ -124,6 +132,10 @@
 
 - **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-07-03*)
 
+
+
+## Earlier changes
+
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
 
 - **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-06-20*)
@@ -135,10 +147,6 @@
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-06-20*)
 
 - **[Modulith](/Tech/Architecture & Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-06-20*)
-
-
-
-## Earlier changes
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-06-07*)
 

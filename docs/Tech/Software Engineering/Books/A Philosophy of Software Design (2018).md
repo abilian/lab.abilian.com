@@ -1,6 +1,6 @@
 "A Philosophy of Software Design" by John Ousterhout (2018) is a book that offers insights and guidance on designing software systems with simplicity, robustness, and maintainability in mind. Ousterhout, a computer science professor and experienced software developer (creator, among other things, of the Tcl programming language), presents a set of design principles and best practices aimed at addressing the most common challenges faced by developers when designing and implementing software.
 
-The book begins by discussing the importance of good software design and the concept of "deep modules," which are modules that provide simple, high-level abstractions with well-defined interfaces. Ousterhout then delves into various design principles, including:
+The book begins by discussing the importance of good software design and the concept of "deep modules," which are modules that provide simple, high-level abstractions with well-defined interfaces. Ousterhout then discusses various design principles, including:
 
 1.  Choosing the right level of abstraction
 2.  Designing for change and flexibility

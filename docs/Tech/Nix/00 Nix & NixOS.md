@@ -19,7 +19,18 @@ https://www.youtube.com/watch?v=CwfKlX3rA6E "One day, as happens now and then wi
 
 ## Comments
 
-https://lwn.net/Articles/962788/ "# A look at Nix and Guix"
+https://lwn.net/Articles/962788/ "A look at Nix and Guix"
+
+## Tools
+
+- https://github.com/hercules-ci/arion "a tool for building and running applications that consist of multiple docker containers using NixOS modules. It has special support for docker images that are built with Nix, for a smooth development experience and improved performance."
+
+- https://github.com/tweag/genealogos "a Nix sbom generator"
+
+- https://github.com/nix-community/vulnix Vulnerability (CVE) scanner for Nix/NixOS.
+
+- https://github.com/nix-community/dream2nix Simplified nix packaging for various programming language ecosystems
+- Also: poetry2nix, gradle2nix, etc.
 
 ## References
   
@@ -27,7 +38,7 @@ https://lwn.net/Articles/962788/ "# A look at Nix and Guix"
   
 - [Awesome Nix](https://github.com/nix-community/awesome-nix)  
   
-### Nix  
+### Nix  tutorials / intros
   
 - [Learn Nix the Fun Way](https://fzakaria.com/2024/07/05/learn-nix-the-fun-way.html)  
 - [Nix Tutorials](https://nix.dev/tutorials/#tutorials)  
@@ -35,6 +46,8 @@ https://lwn.net/Articles/962788/ "# A look at Nix and Guix"
 - [Nix Manual (Stable)](https://nixos.org/manual/nix/stable/)  
 - [Nix Pills](https://nixos.org/guides/nix-pills/)  
 - https://serokell.io/blog/what-is-nix
+- [Nix by example](https://mimoo.github.io/nixbyexample/)
+- https://nixos.asia/en/blog/replacing-docker-compose
   
 ### Nixpkgs  
   
