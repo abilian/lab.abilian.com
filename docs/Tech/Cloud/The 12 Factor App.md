@@ -331,7 +331,7 @@ These open-source PaaS solutions showcase a wide range of technologies and appro
 
 ## *Beyond the Twelve-Factor App* (2016)
 
-Kevin Hoffman's book, *Beyond the Twelve-Factor App*, published in 2016, expanded upon Adam Wiggins’ original twelve factors by introducing additional insights and principles relevant to the contemporary development landscape, especially considering the advancements in cloud computing and microservices architectures.
+Kevin Hoffman's book, *[Beyond the Twelve-Factor App](https://raw.githubusercontent.com/ffisk/books/master/beyond-the-twelve-factor-app.pdf)*, published in 2016, expanded upon Adam Wiggins’ original twelve factors by introducing additional insights and principles relevant to the contemporary development landscape, especially considering the advancements in cloud computing and microservices architectures.
 
 Hoffman’s book acknowledges the significance of the original twelve factors but also recognizes areas where the landscape has evolved or where new emphases are needed to address modern development and operational challenges. Here are some key areas and insights Hoffman added to the discussion:
 
@@ -370,6 +370,11 @@ Since the publication of *Beyond the Twelve-Factor App* by Kevin Hoffman in 2016
 8. **Data Sovereignty and Privacy**: With the implementation of regulations like GDPR and CCPA, handling data in a way that respects user privacy and compliance has become a principle of its own. This involves designing systems that can accommodate these requirements without significant rework.
 
 These principles rare a response to new challenges and opportunities presented by advances in technology, regulatory changes, and societal expectations. They also underscore the need for agile, secure, and sustainable approaches to software development, ensuring that applications are not only functional and efficient but also resilient, compliant, and responsible in their use of resources and handling of data.
+
+See also:
+
+https://xenitab.github.io/blog/2022/02/23/12factor/#what-else-is-there
+
 
 ## Conclusion: Adapting Software Development Principles for Modern Challenges
 

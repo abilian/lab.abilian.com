@@ -1,5 +1,11 @@
 APIs expose business logic and data to external systems, so it's important to make the communication between systems secure and efficient, but also to improve user experience and system reliability. 
 
+## References
+
+- [Designing APIs for humans Series (at Stripe)]https://dev.to/paulasjes/series/19794
+
+## Details
+
 Here are some guidelines and best practices that we use at Abilian for designing robust APIs that are secure, efficient, and easy to use.
 
 ## 1. API Key Generation
