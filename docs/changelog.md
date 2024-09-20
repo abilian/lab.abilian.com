@@ -2,6 +2,24 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-20*)
+
+- **[A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2024-09-19*)
+
+- **[uv](/Tech/Python/uv/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-19*)
+
+- **[Anatomy of a NixOS Service Description](/Tech/Nix/Anatomy of a NixOS Service Description/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-19*)
+
+- **[Anatomy of a Nix Package](/Tech/Nix/Anatomy of a Nix Package/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-19*)
+
+- **[00 Nix & NixOS](/Tech/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-19*)
+
+- **[Nix and containers](/Tech/Containers/Nix and containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-19*)
+
+- **[Adaptive Object Model](/Tech/Architecture & Design/Adaptive Object Model/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-09-19*)
+
+- **[00 Authors](/Business/Authors & Leaders/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-19*)
+
 - **[VPN](/Tech/VPN/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-18*)
 
 - **[Nix quotes](/Tech/Nix/Nix quotes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
@@ -11,8 +29,6 @@
 - **[Nix Flakes](/Tech/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
 
 - **[Devbox](/Tech/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
-
-- **[00 Nix & NixOS](/Tech/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-16*)
 
 - **[Primary keys - int ids or UUIDs?](/Tech/Databases & Persistence/Primary keys - int ids or UUIDs?/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-09-16*)
 
@@ -71,8 +87,6 @@
 - **[Andy Grove](/Business/Authors & Leaders/Andy Grove/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-02*)
 
 - **[Alexander Osterwalder](/Business/Authors & Leaders/Alexander Osterwalder/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-02*)
-
-- **[00 Authors](/Business/Authors & Leaders/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-02*)
 
 
 
@@ -149,8 +163,6 @@
 - **[Modulith](/Tech/Architecture & Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-06-20*)
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-06-07*)
-
-- **[Adaptive Object Model](/Tech/Architecture & Design/Adaptive Object Model/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-06-07*)
 
 - **[API Design](/Tech/Architecture & Design/API Design/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Design](/Tech/Architecture & Design/00 Intro to software architecture/)</small> (*2024-06-07*)
 
@@ -568,8 +580,6 @@
 
 - **[Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
 
-- **[A Philosophy of Software Design (2018)](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2023-05-07*)
-
 - **[Incentives](/Business/Practices/Incentives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2023-05-07*)
 
 - **[Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2023-05-07*)
@@ -695,8 +705,6 @@
 - **[C4 Model](/Tech/Modeling/C4 Model/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2023-03-08*)
 
 - **[Obsidian + Mkdocs](/Tech/Documentation/Obsidian + Mkdocs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2023-03-08*)
-
-- **[Nix and containers](/Tech/Containers/Nix and containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-03-08*)
 
