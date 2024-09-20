@@ -30,8 +30,8 @@ Here are the steps (planning, configuration and integration) needed to implement
 ### 3. **Integrate Stripe's Front-End Components:**
 
 - Use Stripe's prebuilt UI components like **Stripe Checkout** or **Stripe Elements** to handle the front-end payment flow.
- - **Stripe Checkout**: A hosted payment page that you can redirect customers to.
- - **Stripe Elements**: Prebuilt UI components you can embed in your application.
+    - **Stripe Checkout**: A hosted payment page that you can redirect customers to.
+    - **Stripe Elements**: Prebuilt UI components you can embed in your application.
 - These tools will handle collecting the IBAN and mandate authorization seamlessly.
 
 ### 4. **Implement Server-Side Logic with Flask:**
@@ -124,26 +124,30 @@ def stripe_webhook():
 ### Caveats
 
 1. **Consider Creditor Identifier (Creditor ID):**
-   - By default, Stripe uses its own Creditor ID.
-   - If you're based in the EU, it's recommended to obtain and use your own Creditor ID for better customer recognition and reduced dispute rates.
-   - Configure your Creditor ID in the Payment Method Settings on the Stripe Dashboard.
+
+    - By default, Stripe uses its own Creditor ID.
+    - If you're based in the EU, it's recommended to obtain and use your own Creditor ID for better customer recognition and reduced dispute rates.
+    - Configure your Creditor ID in the Payment Method Settings on the Stripe Dashboard.
 
 2. **Handle Payment Failures and Disputes:**
-   - Implement logic to manage failed payments based on the failure codes provided by Stripe.
-   - Understand that SEPA Direct Debit disputes are final and cannot be appealed.
-   - Monitor for `charge.dispute.created` webhook events to handle disputes appropriately.
+
+    - Implement logic to manage failed payments based on the failure codes provided by Stripe.
+    - Understand that SEPA Direct Debit disputes are final and cannot be appealed.
+    - Monitor for `charge.dispute.created` webhook events to handle disputes appropriately.
 
 3. **Manage Refunds Carefully:**
-   - Refunds must be issued within 180 days of the original payment.
-   - Be cautious, as customers can still dispute a payment even after a refund.
-   - Communicate with your customers when issuing refunds to avoid confusion.
+
+    - Refunds must be issued within 180 days of the original payment.
+    - Be cautious, as customers can still dispute a payment even after a refund.
+    - Communicate with your customers when issuing refunds to avoid confusion.
 
 4. **Be Aware of Processing Times and Limits:**
+
     - SEPA Direct Debit payments can take up to 14 business days to be confirmed, though it usually takes 7-8 days.
     - There's a per-transaction limit of 10,000 EUR and a weekly limit for new users.
     - Payouts for SEPA transactions are subject to a 5-business-day timing until you reach a certain processing volume.
 
-#### **Key Considerations:**
+### **Key Considerations:**
 
 - **Compliance:** Ensure you're compliant with SEPA regulations, especially regarding mandate acceptance and customer notifications.
 - **Security:** Handle customer data securely and in accordance with GDPR and other data protection laws.

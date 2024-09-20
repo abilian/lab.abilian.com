@@ -6,7 +6,7 @@ Let's review these two concepts in more details.
 
 ## The Invention of PaaS
 
-The concept of [Platform as a Service](https://en.wikipedia.org/wiki/Platform_as_a_service) (PaaS) emerged as a natural evolution in the cloud computing landscape, bridging the gap between Software as a Service (SaaS) offerings and Infrastructure as a Service (IaaS) platforms. PaaS provides developers with a framework and environment to build, deploy, and manage applications without the complexity of managing the underlying infrastructure.
+The concept of [Platform as a Service](https://en.wikipedia.org/wiki/Platform_as_a_service) (PaaS) emerged as a natural evolution in cloud computing, bridging the gap between Software as a Service (SaaS) offerings and Infrastructure as a Service (IaaS) platforms. PaaS provides developers with a framework and environment to build, deploy, and manage applications without the complexity of managing the underlying infrastructure.
 
 ### The Inception of PaaS: Fotango's Zimki (2005)
 
@@ -18,7 +18,7 @@ While Zimki introduced the world to the potential of PaaS, it was Google App Eng
 
 ### Heroku (2007)
 
-Launched in 2007, Heroku has been pivotal in the evolution of Platform as a Service (PaaS), particularly in making cloud application development accessible to a global community of developers. Before platforms like Heroku, deploying and scaling web applications required significant operational expertise and resources. Heroku's abstraction of these complexities and its pay-as-you-go pricing model have enabled startups, independent developers, and small teams to engage in cloud computing, thus accelerating innovation and reducing the barriers to web application development. As one of the first cloud platforms to simplify application deployment and management, Heroku has made significant contributions to the PaaS landscape by enhancing the developer experience for those without extensive infrastructure knowledge.
+Launched in 2007, Heroku has been pivotal in the evolution of Platform as a Service (PaaS), particularly in making cloud application development accessible to a global community of developers. Before platforms like Heroku, deploying and scaling web applications required significant operational expertise and resources. Heroku's abstraction of these complexities and its pay-as-you-go pricing model have enabled startups, independent developers, and small teams to engage in cloud computing, thus accelerating innovation and reducing the barriers to web application development. As one of the first cloud platforms to simplify application deployment and management, Heroku has played a pivotal role in shaping early PaaS offerings by improving the developer experience for those without extensive infrastructure expertise.
 
 #### Heroku's Impact on PaaS
 
@@ -48,7 +48,7 @@ Since the mid-2000s, cloud computing has significantly changed how applications 
 
 The 12 Factor App methodology addresses both technical and operational challenges in application development, combating software erosion and enabling scalable, manageable services. It marks a departure from traditional, monolithic architectures towards distributed, cloud-native solutions, drawing from real-world practices for modern application development and promoting a culture of innovation.
 
-Understanding and applying The 12 Factor App principles is crucial for developers, operations teams, and business leaders as cloud computing dominates the tech landscape. This document will explore the methodology's history, its core principles, and provide real-world examples for modernizing applications.
+Understanding and applying The 12 Factor App principles is crucial for developers, operations teams, and business leaders as cloud computing keeps on expanding. This document will explore the methodology's history, its core principles, and provide real-world examples for modernizing applications.
 
 ## History and Evolution
 
@@ -331,9 +331,9 @@ These open-source PaaS solutions showcase a wide range of technologies and appro
 
 ## *Beyond the Twelve-Factor App* (2016)
 
-Kevin Hoffman's book, *[Beyond the Twelve-Factor App](https://raw.githubusercontent.com/ffisk/books/master/beyond-the-twelve-factor-app.pdf)*, published in 2016, expanded upon Adam Wiggins’ original twelve factors by introducing additional insights and principles relevant to the contemporary development landscape, especially considering the advancements in cloud computing and microservices architectures.
+Kevin Hoffman's book, *[Beyond the Twelve-Factor App](https://raw.githubusercontent.com/ffisk/books/master/beyond-the-twelve-factor-app.pdf)*, published in 2016, expanded upon Adam Wiggins’ original twelve factors by introducing additional insights and principles, especially considering the advancements in cloud computing and microservices architectures.
 
-Hoffman’s book acknowledges the significance of the original twelve factors but also recognizes areas where the landscape has evolved or where new emphases are needed to address modern development and operational challenges. Here are some key areas and insights Hoffman added to the discussion:
+Hoffman’s book acknowledges the significance of the original twelve factors but also recognizes areas where the technology and practices have evolved or where new emphases are needed to address modern development and operational challenges. Here are some key areas and insights Hoffman added to the discussion:
 
 1. **API-First**: Hoffman emphasizes designing with APIs in mind from the start, ensuring that applications are built for integration and interaction with other services. This approach facilitates modularity and service reuse.
 
@@ -348,6 +348,45 @@ Hoffman’s book acknowledges the significance of the original twelve factors bu
 6. **Idempotency**: Hoffman stresses the importance of idempotent operations, especially in distributed systems where operations may be retried or occur multiple times. Ensuring that repeating an operation does not change the outcome beyond the initial application is crucial for system consistency and reliability.
 
 7. **Dependency Management**: While the original twelve factors discuss declaring and isolating dependencies, Hoffman delves deeper into the strategies for managing dependencies effectively, especially in complex, distributed systems.
+
+## Seven Additional Factors for Production-Ready Applications
+
+In 2019, Shikha Srivastava, an IBM engineer, wrote a blog post "While the 12-factor application guidelines are spot-on, there are another 7 factors are equally essential for a production environment".
+
+Here are here additional 7 factors:
+
+### Factor XIII: Observable
+
+In a production environment, applications need to provide comprehensive visibility into their current health and operational metrics. Observability involves tracking application-specific metrics, such as transaction rates, error rates, and response times, in addition to basic system health checks. Monitoring tools such as Prometheus and Grafana are commonly used to collect and visualize these metrics. By exposing health metrics through endpoints and ensuring that failures are automatically detected and handled, teams can prevent potential issues before they affect the system’s overall functionality.
+
+### Factor XIV: Schedulable
+
+Production applications should clearly define their resource requirements to avoid contention or resource starvation. This factor involves setting limits on memory and CPU usage to ensure that each container or service receives the appropriate resources. Defining resource requests and limits allows for effective resource allocation, ensuring that the application can handle workloads without causing performance degradation. Properly managed resource allocation also prevents issues when multiple applications share the same environment, maintaining system stability and performance.
+
+### Factor XV: Upgradable
+
+Applications in production environments need to support seamless upgrades, whether for feature releases or critical security patches. The ability to perform rolling updates—where parts of the application are upgraded without downtime—is key to maintaining availability while ensuring the system remains up to date. By gradually replacing instances of the application during the upgrade process, it is possible to minimize disruption, ensuring that users experience a seamless transition to new versions.
+
+### Factor XVI: Least Privilege
+
+Security is a paramount concern in production environments. Applications should run with the minimum set of privileges required to perform their tasks, reducing the attack surface in the event of a breach. Containers should be configured to run with non-root privileges, and access to sensitive resources should be restricted. Implementing the principle of least privilege ensures that applications are protected against exploitation, especially in shared environments where multiple services coexist.
+
+### Factor XVII: Auditable
+
+Auditability is critical in environments where regulatory compliance or security is a concern. Production systems must keep detailed logs of all critical operations, including who performed actions, what actions were taken, and when they occurred. This allows for traceability, ensuring that any unauthorized or suspicious activity can be identified and investigated. Keeping audit trails is especially important in financial services, healthcare, or any sector that handles sensitive data, where legal and regulatory requirements demand transparency and accountability.
+
+### Factor XVIII: Securable
+
+Securing applications in production requires robust measures to protect both the application itself and its resources. This includes ensuring proper authentication and authorization mechanisms, managing digital certificates for secure communication, and protecting data both in transit and at rest. Network security and isolation are also important, as they prevent unauthorized access to the application’s internal components. In addition, automated vulnerability assessments can identify potential security issues in the application’s dependencies and infrastructure, ensuring that the system remains secure over time.
+
+### Factor XIX: Measurable
+
+For effective resource management and cost optimization, production systems need to be measurable. This involves tracking the compute resources consumed by each service or application, allowing for proper cost allocation and chargeback mechanisms. Metering tools can collect usage data at the container or namespace level, helping organizations ensure that their infrastructure is used efficiently and that individual teams are accountable for the resources they consume.
+
+### References
+
+- https://xenitab.github.io/blog/2022/02/23/12factor/#what-else-is-there
+- https://web.archive.org/web/20230512025231/https://www.ibm.com/cloud/blog/7-missing-factors-from-12-factor-applications
 
 ## Additional "Factors"
 
@@ -371,40 +410,38 @@ Since the publication of *Beyond the Twelve-Factor App* by Kevin Hoffman in 2016
 
 These principles rare a response to new challenges and opportunities presented by advances in technology, regulatory changes, and societal expectations. They also underscore the need for agile, secure, and sustainable approaches to software development, ensuring that applications are not only functional and efficient but also resilient, compliant, and responsible in their use of resources and handling of data.
 
-See also:
-
-https://xenitab.github.io/blog/2022/02/23/12factor/#what-else-is-there
-
 
 ## Conclusion: Adapting Software Development Principles for Modern Challenges
 
-The evolution from Adam Wiggins' 12 Factor App methodology to Kevin Hoffman's extensions, and the subsequent emergence of several new ideas and principles, reflects the ongoing adaptation in software development practices in response to technological advancements and changing requirements. It's also crucial to maintain a focus on simplicity - a core motivation for cloud adoption often overlooked by overzealous architects or developers focused on trendy technologies.
+The evolution from Adam Wiggins' 12 Factor App methodology to Kevin Hoffman's extensions, Shikha Srivastava's blog post, etc., and the subsequent emergence of several new ideas and principles, reflects the ongoing adaptation in software development practices in response to technological advancements and changing requirements. Cloud architects and developers should also maintain a focus on simplicity - a core motivation for cloud adoption often overlooked by overzealous architects or developers focused on trendy technologies.
 
-The original 12 factors established a framework for building software-as-a-service (SaaS) applications, emphasizing practices that enhance portability, resilience, and flexibility in cloud environments. Hoffman's "Beyond the Twelve-Factor App" addressed modern development nuances, highlighting API-first design, telemetry, and enhanced security protocols.
+The original 12 factors laid the foundation for building scalable and maintainable SaaS applications. In recent years, however, developments in cloud-native architectures, such as API-first designs, enhanced observability, and continuous integration and deployment (CI/CD), have further expanded the framework to address modern operational challenges. These new factors bring greater focus on security, sustainability, and operational efficiency, addressing the real-world demands of running production applications.
 
-Recent developments have expanded these principles to include:
+Key modern additions include:
 
-1. Security by design
-2. Observability
-3. Sustainability
-4. Containerization and orchestration
-5. Continuous Integration/Continuous Deployment (CI/CD)
+1. **Security by design**: Integrating security from the start to ensure robust protection throughout the application lifecycle.
+2. **Observability**: Enabling better insight into system health and performance, essential for managing complex distributed systems.
+3. **Sustainability**: Designing applications that are efficient in resource use, mindful of environmental and operational costs.
+4. **Containerization and orchestration**: Leveraging containers to enhance portability, scalability, and efficiency in deployments.
+5. **Continuous Integration/Continuous Deployment (CI/CD)**: Automating the development pipeline to improve development speed, testing, and reliability.
 
-However, it's critical to remember that the primary goal of cloud adoption and these methodologies is to simplify development and operations. This simplicity can be lost when "architecture astronauts" or "CV-driven developers" over-engineer solutions or adopt complex technologies without clear justification.
+However, while these advancements are essential for modern cloud-native development, the primary goal of cloud adoption and methodologies like the 12-Factor App should remain simplifying development and operations. Over-complication, driven by unnecessary adoption of complex tools or methods, risks diluting the benefits of cloud-native approaches. It's critical to strike a balance between leveraging advanced features and maintaining a manageable, efficient architecture.
 
-For developers, architects, and technology leaders, the key takeaways are:
+For developers, architects, and technology leaders, the following takeaways are vital:
 
-1. Continuously learn and adapt to new principles and technologies.
-2. Adopt a principles-driven approach to software development.
-3. Maintain a strong focus on simplicity in design and implementation.
-4. Critically evaluate new technologies and methodologies before adoption.
-5. Balance advanced features with maintainability and operational efficiency.
+1. **Stay informed and adaptable**: Continuously learn and embrace emerging technologies and practices that add value.
+2. **Principles-driven development**: Ensure that development remains rooted in foundational principles, adapting only where necessary.
+3. **Simplicity as a guiding value**: Avoid unnecessary complexity by focusing on clear, simple, and maintainable design.
+4. **Evaluate before adoption**: Critically assess the relevance and benefit of new technologies and methodologies before implementation.
+5. **Maintain operational efficiency**: Balance new features with the need to keep systems maintainable and cost-efficient.
 
-By applying these principles judiciously and always keeping simplicity in mind, development teams can:
+By applying these principles judiciously, and with a clear focus on simplicity and operational efficiency, development teams can:
 
-1. Create high-quality, maintainable software
-2. Improve system reliability and performance
-3. Enhance security and data protection
-4. Optimize resource utilization
-5. Accelerate development and deployment cycles
-6. Avoid unnecessary complexity that can lead to increased costs and reduced agility
+1. Build high-quality, maintainable software.
+2. Enhance system reliability and performance.
+3. Strengthen security and data protection.
+4. Optimize resource utilization and cost-effectiveness.
+5. Accelerate development and deployment cycles.
+6. Avoid the pitfalls of over-engineered solutions that add unnecessary complexity, increase costs, and reduce agility.
+
+Ultimately, the combination of foundational practices and modern enhancements ensures that development processes remain agile, secure, and efficient, while keeping operational complexity in check.
