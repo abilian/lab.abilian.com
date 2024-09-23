@@ -1,5 +1,3 @@
-#public 
-
 Some interesting search engines / technologies that are not Lucene or ElasticSearch.
 
 ## Most interesting engines
@@ -19,7 +17,7 @@ Interesting projects include:
 - Tantivy: https://github.com/tantivy-search/tantivy (Rust)
 - Bleve: https://blevesearch.com/ (Go, bof actually)
 
-[[Comparison of open source search engines]]
+→ [[Comparison of open source search engines]]
 
 ## Client side
 

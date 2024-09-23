@@ -18,6 +18,6 @@ See also [[Search]].
 
 9. **MeiliSearch**: MeiliSearch is a lightweight and powerful open-source search engine built with **Rust**. It aims to provide an easy and customizable search experience. MeiliSearch supports features like typo tolerance, filters, ranking rules, and a high write rate.
 
-10. **Whoosh**: Whoosh is (or was) a fast, featureful full-text indexing and searching library implemented in pure **Python**. Programmers can use it to easily add search functionality to their applications and websites. Every part of how Whoosh works can be extended or replaced to meet your needs exactly.
+10. **Whoosh**: Whoosh is (or was) a fast, featureful full-text indexing and searching library implemented in pure **Python**. Programmers can use it to easily add search functionality to their applications and websites. Every part of how Whoosh works can be extended or replaced to meet your needs exactly. See also [Whoosh-Reloaded](https://pypi.org/project/Whoosh-Reloaded/), a fork, that is not really active either, however.
 
 Note that these projects don't have the exact same scope. For instance, some are standalone search engines, while others are libraries or tools that can be used to build custom search solutions.
