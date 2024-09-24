@@ -2,6 +2,14 @@
 
 ## Recent changes (last 7 days)
 
+- **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-23*)
+
+- **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-23*)
+
+- **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-23*)
+
+- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-23*)
+
 - **[Stripe](/Tech/Payment/Stripe/)** in <small>[Tech](/Tech/00 Technology/) / [Payment](/Tech/Payment/Stripe/)</small> (*2024-09-20*)
 
 - **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-20*)
@@ -34,6 +42,10 @@
 
 - **[Devbox](/Tech/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-18*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Primary keys - int ids or UUIDs?](/Tech/Databases & Persistence/Primary keys - int ids or UUIDs?/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-09-16*)
 
 - **[Multitenancy](/Tech/Databases & Persistence/Multitenancy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-09-16*)
@@ -53,10 +65,6 @@
 - **[OKR Workshop](/Business/Practices/OKR Workshop/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-16*)
 
 - **[SaaS conversion strategy](/Business/Marketing/SaaS conversion strategy/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-09-16*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[UGC](/Business/Marketing/UGC/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2024-09-05*)
 
@@ -155,8 +163,6 @@
 - **[Hop3](/Projects/Hop3/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-06-20*)
 
 - **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-06-20*)
-
-- **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-06-20*)
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-06-20*)
 
@@ -484,10 +490,6 @@
 
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-06-06*)
 
-- **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
-
-- **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2023-05-30*)
-
 - **[Workday architecture](/Tech/Databases & Persistence/Workday architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
 
 - **[Postgres](/Tech/Databases & Persistence/Postgres/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2023-05-30*)
@@ -507,8 +509,6 @@
 - **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-05-16*)
 
 - **[Concurrent programming](/Tech/Python/Concurrent programming/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-16*)
-
-- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2023-05-16*)
 
 - **[Nomad](/Tech/Containers/Nomad/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2023-05-16*)
 
