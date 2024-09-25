@@ -3,14 +3,14 @@ Alexander Osterwalder is a Swiss business theorist, entrepreneur, and author who
 Osterwalder developed the Business Model Canvas in collaboration with Yves Pigneur, a Belgian computer scientist and professor of management information systems. The canvas is a visual chart that helps entrepreneurs and managers map out the nine key building blocks of a business model:
 
 1. Customer Segments
-2. Value Propositions
-3. Channels
-4. Customer Relationships
-5. Revenue Streams
-6. Key Resources
-7. Key Activities
-8. Key Partnerships
-9. Cost Structure
+1. Value Propositions
+1. Channels
+1. Customer Relationships
+1. Revenue Streams
+1. Key Resources
+1. Key Activities
+1. Key Partnerships
+1. Cost Structure
 
 These building blocks help users to systematically describe, analyze, and innovate their business models, allowing for a better understanding of how various elements are interrelated.
 

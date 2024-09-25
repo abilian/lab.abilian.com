@@ -7,15 +7,15 @@ Devbox is a tool designed to create isolated and reproducible development enviro
 
 1. **Isolated Development Environments**: Devbox creates environments that are isolated from the host machine's system, ensuring that dependencies, tools, and configurations specific to a project do not interfere with others. This is particularly useful when working on multiple projects with different toolchains or dependencies.
 
-2. **Reproducibility**: The environments created by Devbox are fully reproducible. Developers can define their environment configurations in a declarative manner, and other team members or CI systems can recreate the same setup with minimal effort, ensuring consistency across different setups and machines.
+1. **Reproducibility**: The environments created by Devbox are fully reproducible. Developers can define their environment configurations in a declarative manner, and other team members or CI systems can recreate the same setup with minimal effort, ensuring consistency across different setups and machines.
 
-3. **No Docker or Nix Language Required**: Unlike some other environment management solutions, Devbox does not rely on Docker or require developers to write Nix expressions. This lowers the barrier to entry, making it easier to adopt and use for developers who are not familiar with these technologies.
+1. **No Docker or Nix Language Required**: Unlike some other environment management solutions, Devbox does not rely on Docker or require developers to write Nix expressions. This lowers the barrier to entry, making it easier to adopt and use for developers who are not familiar with these technologies.
 
-4. **Cross-platform Compatibility**: Devbox works on multiple platforms, including Linux, macOS, and Windows (via WSL), allowing developers to use it on any machine. This portability ensures that development environments can be consistent regardless of the underlying operating system.
+1. **Cross-platform Compatibility**: Devbox works on multiple platforms, including Linux, macOS, and Windows (via WSL), allowing developers to use it on any machine. This portability ensures that development environments can be consistent regardless of the underlying operating system.
 
-5. **Simplified Toolchain Management**: With Devbox, developers can easily install, manage, and switch between different tools and dependencies without worrying about system conflicts or versioning issues. It integrates with package managers and development tools to make the setup process seamless.
+1. **Simplified Toolchain Management**: With Devbox, developers can easily install, manage, and switch between different tools and dependencies without worrying about system conflicts or versioning issues. It integrates with package managers and development tools to make the setup process seamless.
 
-6. **Minimal Overhead**: Devbox is designed to be lightweight, avoiding the overhead typically associated with containerized environments like Docker. This makes it faster to set up and run, especially for development purposes where quick iteration cycles are important.
+1. **Minimal Overhead**: Devbox is designed to be lightweight, avoiding the overhead typically associated with containerized environments like Docker. This makes it faster to set up and run, especially for development purposes where quick iteration cycles are important.
 
 ### Common Use Cases
 

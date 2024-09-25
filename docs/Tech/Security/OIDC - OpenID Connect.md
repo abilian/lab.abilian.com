@@ -1,4 +1,3 @@
-
 OpenID Connect (OIDC) is a widely adopted identity layer built on top of the OAuth 2.0 protocol. It enables clients (applications) to verify the identity of an end user based on authentication performed by an authorization server (identity provider, or IdP), and to obtain basic profile information about the user. OIDC is crucial for implementing Single Sign-On (SSO) and securely managing user authentication in a standardized manner across web applications and APIs.
 
 ## Key Concepts of OIDC
@@ -12,10 +11,10 @@ OpenID Connect (OIDC) is a widely adopted identity layer built on top of the OAu
 ## OIDC Workflow
 
 1. **Authentication Request**: The client redirects the user to the authorization server’s authentication page.
-2. **User Authentication**: The authorization server authenticates the user using mechanisms like username/password, multi-factor authentication (MFA), etc.
-3. **Token Issuance**: After successful authentication, the server issues an ID token (and optionally an access token) to the client.
-4. **Token Validation**: The client verifies the ID token by checking its signature, claims (audience, issuer, etc.), and expiration.
-5. **UserInfo Retrieval**: The client may call the UserInfo endpoint to obtain additional profile information about the authenticated user.
+1. **User Authentication**: The authorization server authenticates the user using mechanisms like username/password, multi-factor authentication (MFA), etc.
+1. **Token Issuance**: After successful authentication, the server issues an ID token (and optionally an access token) to the client.
+1. **Token Validation**: The client verifies the ID token by checking its signature, claims (audience, issuer, etc.), and expiration.
+1. **UserInfo Retrieval**: The client may call the UserInfo endpoint to obtain additional profile information about the authenticated user.
 
 ## Python Ecosystem for OIDC
 
@@ -25,6 +24,7 @@ Several Python libraries make it easier to integrate OIDC authentication in your
    Authlib is a powerful Python library for OAuth 2.0 and OpenID Connect. It provides an easy-to-use interface for handling OIDC authentication, including managing token exchange and user profile retrieval.
 
    Example using `Authlib`:
+
    ```python
    from authlib.integrations.requests_client import OAuth2Session
 
@@ -37,10 +37,11 @@ Several Python libraries make it easier to integrate OIDC authentication in your
    user_info = client.get(userinfo_endpoint).json()
    ```
 
-2. **Django Integration**:
+1. **Django Integration**:
    For Django applications, `mozilla-django-oidc` is a popular package that simplifies OIDC integration by providing authentication hooks and session management.
 
    Example Django configuration:
+
    ```python
    # In settings.py
    OIDC_RP_CLIENT_ID = 'your-client-id'
@@ -50,10 +51,11 @@ Several Python libraries make it easier to integrate OIDC authentication in your
    OIDC_OP_USER_ENDPOINT = 'https://your-idp/userinfo'
    ```
 
-3. **FastAPI Integration**:
+1. **FastAPI Integration**:
    FastAPI, known for its asynchronous capabilities, can also be integrated with OIDC using libraries like `fastapi-authlib` or `Authlib`. This provides a seamless way to authenticate users in modern API-driven applications.
 
    Example with FastAPI:
+
    ```python
    from fastapi import FastAPI, Depends
    from authlib.integrations.starlette_client import OAuth
@@ -73,11 +75,12 @@ Several Python libraries make it easier to integrate OIDC authentication in your
 ### Prerequisites
 
 1. Install Flask and Authlib:
+
    ```bash
    pip install Flask Authlib
    ```
 
-2. Use an OpenID Connect provider (e.g., Google, Keycloak, or Okta) for your client credentials and provider endpoints.
+1. Use an OpenID Connect provider (e.g., Google, Keycloak, or Okta) for your client credentials and provider endpoints.
 
 ### Flask OIDC Example
 
@@ -135,10 +138,10 @@ if __name__ == '__main__':
 ## Use Cases for OIDC in Python
 
 1. **Single Sign-On (SSO)**: OIDC is frequently used to implement SSO across different services and applications. Users can log in once via an identity provider and seamlessly access multiple applications without re-authenticating.
-   
-2. **API Security**: With OIDC, APIs can verify the identity of users using the ID token, ensuring that the users accessing an API are authenticated and authorized.
 
-3. **Multi-Tenant Applications**: OIDC allows applications to support multiple identity providers, making it easier to authenticate users from different organizations or systems.
+1. **API Security**: With OIDC, APIs can verify the identity of users using the ID token, ensuring that the users accessing an API are authenticated and authorized.
+
+1. **Multi-Tenant Applications**: OIDC allows applications to support multiple identity providers, making it easier to authenticate users from different organizations or systems.
 
 ## Best Practices and Considerations
 

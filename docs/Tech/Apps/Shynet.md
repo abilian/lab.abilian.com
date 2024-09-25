@@ -1,4 +1,4 @@
-#public 
+#public
 
 Shynet is a modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 
@@ -9,14 +9,17 @@ Nicely done installation guide: https://github.com/milesmcc/shynet/blob/master/G
 ## Pros and cons
 
 ### Pros
+
 - Simple to install and operate.
 
 ### Cons
+
 - Not very accurate in terms of filtering false sessions.
 
 ## Sysadmin notes
 
 ### To install
+
 ```
 cd /home/docker-apps
 git clone https://github.com/milesmcc/shynet/
@@ -25,6 +28,7 @@ docker-compose up -d
 ```
 
 ### To upgrade
+
 ```
 cd /home/docker-apps/shynet
 git pull

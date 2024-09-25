@@ -6,12 +6,14 @@ The concepts of `zope.interface`, Abstract Base Classes (ABCs), and Protocols in
 `zope.interface` is a package that provides an implementation of interfaces for Python. It originated from the Zope web application server and is now widely used in various Python projects.
 
 **Key Features:**
+
 1. **Explicit Interface Definition**: `zope.interface` allows for explicit interface definitions, separate from the classes that implement them.
-2. **Adaptation**: It supports the concept of adaptation, where an object can be adapted to provide a different interface.
-3. **Documentation and Introspection**: Provides tools for documenting and introspecting interfaces.
-4. **Validation**: Can validate whether an object implements an interface correctly.
+1. **Adaptation**: It supports the concept of adaptation, where an object can be adapted to provide a different interface.
+1. **Documentation and Introspection**: Provides tools for documenting and introspecting interfaces.
+1. **Validation**: Can validate whether an object implements an interface correctly.
 
 **Example:**
+
 ```python
 from zope.interface import Interface, implementer
 
@@ -35,6 +37,7 @@ print(dog.speak())  # Output: Woof!
 Adaptation in `zope.interface` allows for converting or adapting an object from one type to another to satisfy a required interface. This is especially useful in scenarios where you need an object to comply with an interface it doesn't originally implement.
 
 **Example of Adaptation:**
+
 ```python
 from zope.interface import Interface, implementer
 from zope.interface.adapter import AdapterRegistry
@@ -70,11 +73,13 @@ print(adapted_cat.speak())  # Output: Meow!
 ```
 
 **Advantages:**
+
 - Highly explicit and clear definition of interfaces.
 - Strong support for adaptation patterns.
 - Useful tools for validation and documentation.
 
 **Disadvantages:**
+
 - Additional dependency on the `zope.interface` package.
 - Somewhat verbose compared to built-in Python constructs.
 
@@ -84,11 +89,13 @@ print(adapted_cat.speak())  # Output: Meow!
 Abstract Base Classes (ABCs) are part of Python's `abc` module. They allow you to define abstract base classes that can enforce that derived classes implement particular methods.
 
 **Key Features:**
+
 1. **Abstract Methods**: Methods that must be implemented by any subclass.
-2. **Concrete Methods**: Can also include regular methods that provide default behavior.
-3. **Registration**: Classes can be registered as virtual subclasses without inheritance.
+1. **Concrete Methods**: Can also include regular methods that provide default behavior.
+1. **Registration**: Classes can be registered as virtual subclasses without inheritance.
 
 **Example:**
+
 ```python
 from abc import ABC, abstractmethod
 
@@ -112,6 +119,7 @@ print(dog.speak())  # Output: Woof!
 ABCs do not natively support adaptation as `zope.interface` does. However, you can manually implement an adaptation pattern if needed. This involves creating adapter classes and manually invoking them.
 
 **Example of Adaptation:**
+
 ```python
 from abc import ABC, abstractmethod
 
@@ -142,11 +150,13 @@ print(adapted_cat.speak())  # Output: Meow!
 ```
 
 **Advantages:**
+
 - Built into Python, no additional dependencies.
 - Enforces method implementation at the time of class definition.
 - Can mix abstract and concrete methods.
 
 **Disadvantages:**
+
 - Less flexibility compared to some other interface systems.
 - Doesn't support interface adaptation natively.
 
@@ -156,11 +166,13 @@ print(adapted_cat.speak())  # Output: Meow!
 Protocols, introduced in PEP 544 and available in the `typing` module from Python 3.8+, are a way to define interfaces using structural subtyping (duck typing).
 
 **Key Features:**
+
 1. **Structural Typing**: Classes are considered compliant if they implement the required methods, regardless of inheritance.
-2. **Typing Support**: Integrated with Python's type hinting system.
-3. **No Need for Inheritance**: Classes don’t need to explicitly inherit from the protocol.
+1. **Typing Support**: Integrated with Python's type hinting system.
+1. **No Need for Inheritance**: Classes don’t need to explicitly inherit from the protocol.
 
 **Example:**
+
 ```python
 from typing import Protocol
 
@@ -197,7 +209,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
            ...
    ```
 
-2. **Create an Adapter Registry**:
+1. **Create an Adapter Registry**:
    Implement an adapter registry to keep track of how different types should be adapted to the Protocol.
 
    ```python
@@ -218,7 +230,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
        raise TypeError(f'Cannot adapt {from_type} to {to_type}')
    ```
 
-3. **Define Adapters**:
+1. **Define Adapters**:
    Define functions that adapt instances of specific types to the Protocol.
 
    ```python
@@ -237,7 +249,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
    register_adapter(Dog, AnimalProtocol, dog_to_animal_protocol)
    ```
 
-4. **Use Adaptation**:
+1. **Use Adaptation**:
    Use the `adapt` function to dynamically adapt objects to the Protocol.
 
    ```python
@@ -258,7 +270,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
            ...
    ```
 
-2. **Create an Adapter Registry**:
+1. **Create an Adapter Registry**:
 
    ```python
    from typing import Type, TypeVar, Callable, Dict, Any
@@ -277,7 +289,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
        raise TypeError(f'Cannot adapt {from_type} to {to_type}')
    ```
 
-3. **Define Adapters**:
+1. **Define Adapters**:
 
    ```python
    class Dog:
@@ -293,7 +305,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
    register_adapter(Dog, AnimalProtocol, dog_to_animal_protocol)
    ```
 
-4. **Use Adaptation**:
+1. **Use Adaptation**:
 
    ```python
    dog = Dog()
@@ -309,7 +321,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
 
 ## Comparison
 
-The three approaches differ by: runtime validation, verbosity, flexibility, and integration with static type checking. 
+The three approaches differ by: runtime validation, verbosity, flexibility, and integration with static type checking.
 
 ### Use Case Suitability
 

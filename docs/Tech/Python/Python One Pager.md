@@ -89,6 +89,7 @@ Things to know about subclassing:
 (TBC)
 
 ## Other resources
+
 ### Similar docs
 
 - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839) (partly obsolete).

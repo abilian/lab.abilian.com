@@ -32,12 +32,12 @@ Stimulus and AlpineJS are both modern JavaScript frameworks designed to enrich w
 
 ## Using Stimulus with HTMX
 
-Combining Stimulus with HTMX can create powerful, interactive web applications that are both efficient and easy to maintain. Stimulus provides a structured way to write JavaScript that enhances HTML, while HTMX allows you to access AJAX, CSS Transitions, WebSockets, and more with HTML attributes. 
+Combining Stimulus with HTMX can create powerful, interactive web applications that are both efficient and easy to maintain. Stimulus provides a structured way to write JavaScript that enhances HTML, while HTMX allows you to access AJAX, CSS Transitions, WebSockets, and more with HTML attributes.
 
 ### Benefits of Using Them Together
 
 - **Enhanced Interactivity**: Combining Stimulus for structured JavaScript behaviors with HTMX's ability to update page content asynchronously can lead to highly interactive and responsive applications without the complexity of a single-page application framework.
-  
+
 - **Simplified Codebase**: HTMX handles the heavy lifting for dynamic content loading and partial page updates, while Stimulus organizes the JavaScript that interacts with those dynamic elements. This separation of concerns can make your codebase simpler and more maintainable.
 
 - **Progressive Enhancement**: Both tools embrace the philosophy of enhancing HTML rather than replacing it, making it easier to build applications that work well with or without JavaScript enabled, thus improving accessibility and SEO.
@@ -46,13 +46,13 @@ Combining Stimulus with HTMX can create powerful, interactive web applications t
 
 1. **Initialization**: Ensure both Stimulus and HTMX are loaded into your project. This can be done via CDN links, npm packages, or any other method you prefer.
 
-2. **Creating Stimulus Controllers**: Define Stimulus controllers to encapsulate the behavior of your interactive elements. For example, a controller could handle form submission events or manage the state of a dropdown menu.
+1. **Creating Stimulus Controllers**: Define Stimulus controllers to encapsulate the behavior of your interactive elements. For example, a controller could handle form submission events or manage the state of a dropdown menu.
 
-3. **Enhancing with HTMX**: Use HTMX attributes in your HTML to define how content should be loaded or updated. For instance, you could use `hx-get` to fetch content from the server when a button is clicked, without needing to write any JavaScript to make the AJAX call.
+1. **Enhancing with HTMX**: Use HTMX attributes in your HTML to define how content should be loaded or updated. For instance, you could use `hx-get` to fetch content from the server when a button is clicked, without needing to write any JavaScript to make the AJAX call.
 
-4. **Integrating HTMX with Stimulus**: In some cases, you might want to trigger HTMX actions from within Stimulus controllers. You can do this by manipulating the DOM elements that HTMX is attached to, using custom events, or by directly invoking HTMX functions if necessary.
+1. **Integrating HTMX with Stimulus**: In some cases, you might want to trigger HTMX actions from within Stimulus controllers. You can do this by manipulating the DOM elements that HTMX is attached to, using custom events, or by directly invoking HTMX functions if necessary.
 
-5. **Listening to HTMX Events**: HTMX emits various custom events (like `htmx:beforeRequest` and `htmx:afterSwap`) that you can listen to within Stimulus controllers. This allows you to add custom JavaScript behavior before or after HTMX updates part of your page.
+1. **Listening to HTMX Events**: HTMX emits various custom events (like `htmx:beforeRequest` and `htmx:afterSwap`) that you can listen to within Stimulus controllers. This allows you to add custom JavaScript behavior before or after HTMX updates part of your page.
 
 ### Example
 
@@ -83,5 +83,3 @@ export default class extends Controller {
 ```
 
 This example shows a button managed by a Stimulus controller that triggers an HTMX request to refresh content within a div. Stimulus is used to handle the button click event, and HTMX takes care of fetching and updating the content, demonstrating how both libraries can work together seamlessly.
-
-

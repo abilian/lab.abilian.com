@@ -1,10 +1,9 @@
-
 ## References
 
 - "Domain driven design in Python" (2019): https://bernardstanislas.github.io/domain-driven-design-in-python/
 - https://medium.com/@validate/domain-driven-design-examples-with-python-ce88740e3f26
 - https://dddinpython.com/
-    - https://dddinpython.com/index.php/2021/05/28/whats-wrong-with-your_favourite_framework-tutorials/
+  - https://dddinpython.com/index.php/2021/05/28/whats-wrong-with-your_favourite_framework-tutorials/
 - https://github.com/pgorecki/python-ddd
 - https://www.cosmicpython.com/book/chapter_01_domain_model.html
 - https://github.com/runemalm/ddd-for-python

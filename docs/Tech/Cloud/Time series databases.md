@@ -1,4 +1,4 @@
-#public 
+#public
 
 ## Intro
 
@@ -16,7 +16,6 @@ https://sqlite.org/rtree.html
 "LittleTable: A Time-Series Database and Its Uses" ([https://meraki.cisco.com/wp-content/uploads/2022/06/lt-paper.pdf](https://meraki.cisco.com/wp-content/uploads/2022/06/lt-paper.pdf)) (not free)
 
 Docker + Prometheus: https://docs.docker.com/config/daemon/prometheus/
-
 
 ## Measurements
 

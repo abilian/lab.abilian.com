@@ -1,4 +1,4 @@
-#cloud #docker #containers #paas 
+#cloud #docker #containers #paas
 
 - Doc here: https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/
 - Intro (slides): https://docs.google.com/presentation/d/13j_Im9ZLPpAKmQmMSkkeZS9e4Tebhjc_bz8yTF8dR_w/edit#slide=id.p1
@@ -22,6 +22,7 @@ type = "web"
 command = "bundle exec ruby app.rb"
 default = true
 ```
+
 - A SBOM (see: https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/adding-bill-of-materials/)
 
 Buildpacks are composable: https://buildpacks.io/docs/buildpack-author-guide/build-phases-overview/

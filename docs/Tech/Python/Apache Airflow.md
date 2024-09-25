@@ -1,22 +1,23 @@
-
 [Apache Airflow](https://airflow.apache.org/) is a popular and powerful open-source platform used to programmatically author, schedule, and monitor workflows. It is designed to handle complex data pipelines and dependencies between tasks. It is built on Python and allows you to define your workflows using Python code.
 
 ## Key features
 
 1. **Directed Acyclic Graph (DAG) based workflows**: Airflow represents workflows as DAGs, ensuring tasks run in a specific order without cycles.
-2. **Extensible**: Airflow provides a rich ecosystem of operators, hooks, and executors that can be extended to meet custom requirements.
-3. **Scalable**: Airflow can distribute tasks across multiple worker nodes, allowing it to handle large-scale workflows.
-4. **Web-based UI**: Airflow comes with a web-based UI for monitoring and managing workflows, providing detailed information about task status, logs, and more.
-5. **Integration**: Airflow can easily integrate with various databases, APIs, and other data sources.
+1. **Extensible**: Airflow provides a rich ecosystem of operators, hooks, and executors that can be extended to meet custom requirements.
+1. **Scalable**: Airflow can distribute tasks across multiple worker nodes, allowing it to handle large-scale workflows.
+1. **Web-based UI**: Airflow comes with a web-based UI for monitoring and managing workflows, providing detailed information about task status, logs, and more.
+1. **Integration**: Airflow can easily integrate with various databases, APIs, and other data sources.
 
 ## Installation
 
 To install Apache Airflow, use the following command (it is recommended to do this inside a virtual environment):
+
 ```
 pip install apache-airflow
 ```
 
 Or:
+
 ```
 pipx install apache-airflow
 ```
@@ -81,7 +82,6 @@ You should now be able to access the Airflow web UI at `http://localhost:8080` a
 ## More detailed tutorials
 
 - https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html
-
 
 ## Alternatives
 

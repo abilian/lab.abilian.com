@@ -1,4 +1,4 @@
-Modulith (or Modular Monolith) architecture is an architectural style that structures an application as a collection of modules. This concept is particularly relevant in the context of large and complex systems, where managing dependencies and ensuring maintainability can be challenging. 
+Modulith (or Modular Monolith) architecture is an architectural style that structures an application as a collection of modules. This concept is particularly relevant in the context of large and complex systems, where managing dependencies and ensuring maintainability can be challenging.
 
 A modulithic approach aims to balance the benefits of modularization—such as improved code organization, better separation of concerns, and enhanced scalability—while avoiding some of the operational complexities often associated with microservices architectures.
 
@@ -6,13 +6,13 @@ A modulithic approach aims to balance the benefits of modularization—such as i
 
 1. **Strong Module Boundaries:** Each module in a modulithic system is designed to encapsulate a specific business capability or domain concept. These modules communicate with each other through well-defined interfaces, minimizing tight coupling and enhancing the system's modularity.
 
-2. **Shared Runtime Environment:** Unlike microservices, where each service runs in its own environment, modules in a modulithic architecture share a single runtime environment. This can simplify deployment and operational concerns, as there is only one application to deploy and monitor.
+1. **Shared Runtime Environment:** Unlike microservices, where each service runs in its own environment, modules in a modulithic architecture share a single runtime environment. This can simplify deployment and operational concerns, as there is only one application to deploy and monitor.
 
-3. **Internal Dependency Management:** Modulith architecture emphasizes the importance of managing dependencies between modules effectively. This can involve techniques like inversion of control (IoC) and event-driven communication to keep modules decoupled.
+1. **Internal Dependency Management:** Modulith architecture emphasizes the importance of managing dependencies between modules effectively. This can involve techniques like inversion of control (IoC) and event-driven communication to keep modules decoupled.
 
-4. **Scalability within a Single Process:** While moduliths run as a single application, they can still scale by leveraging modern hardware and cloud infrastructure. This is achieved through horizontal scaling of the application instances and efficient use of resources within the shared runtime.
+1. **Scalability within a Single Process:** While moduliths run as a single application, they can still scale by leveraging modern hardware and cloud infrastructure. This is achieved through horizontal scaling of the application instances and efficient use of resources within the shared runtime.
 
-5. **Evolutionary Design:** Modulith architecture supports an evolutionary approach to software design, allowing teams to refactor and reorganize modules as the application and its requirements evolve over time.
+1. **Evolutionary Design:** Modulith architecture supports an evolutionary approach to software design, allowing teams to refactor and reorganize modules as the application and its requirements evolve over time.
 
 ## Modulith Architecture Advantages
 
@@ -33,38 +33,38 @@ Modulith architecture is a compelling choice for organizations looking to enjoy 
 
 Mitigating the risk of tight coupling in a modulith architecture involves adopting practices and principles that encourage modularity and independence between modules, even within a shared runtime environment. Here are several strategies to reduce tight coupling:
 
-### 1. Define Clear Module Boundaries
+### Define Clear Module Boundaries
 
 - **Encapsulate Domain Logic:** Ensure each module encapsulates a specific domain or business capability, adhering to the principles of Domain-Driven Design (DDD). This helps in maintaining a clear separation of concerns.
 - **Use Interfaces and Contracts:** Define clear interfaces and contracts for inter-module communication. This abstraction layer prevents direct dependencies on implementations, making the system more flexible and easier to refactor.
 
-### 2. Apply Inversion of Control (IoC)
+### Apply Inversion of Control (IoC)
 
 - **Dependency Injection:** Utilize IoC containers to manage dependencies between modules. This approach decouples the lifecycle and instantiation of objects, reducing direct dependencies between components.
 
-### 3. Leverage Event-Driven Communication
+### Leverage Event-Driven Communication
 
 - **Asynchronous Messaging:** Use events or messages for communication between modules. This pattern decouples modules by ensuring they interact through asynchronous messages rather than direct method calls, enhancing modularity and scalability.
 
-### 4. Implement Interface Segregation
+### Implement Interface Segregation
 
 - **Minimize Shared Interfaces:** Apply the Interface Segregation Principle (ISP) to ensure that modules expose only those APIs that are necessary for other modules. This minimizes unnecessary dependencies and facilitates module independence.
 
-### 5. Modularize Persistence Layer
+### Modularize Persistence Layer
 
 - **Separate Data Stores:** If feasible, allow modules to manage their own persistence mechanisms independently. This separation can reduce coupling related to the database schema or storage mechanisms.
 - **Repository Pattern:** Use the Repository pattern to abstract the data layer, providing a clean separation between the domain logic and data access logic.
 
-### 6. Continuous Refactoring
+### Continuous Refactoring
 
 - **Regularly Evaluate Couplings:** Continuously monitor and refactor couplings between modules. Automated code analysis tools can help identify unwanted dependencies or violations of modular boundaries.
 - **Evolutionary Architecture:** Adopt an evolutionary approach to architecture, allowing for the reevaluation and adjustment of module boundaries and responsibilities as the application evolves.
 
-### 7. Enforce Modularity at Build Time
+### Enforce Modularity at Build Time
 
 - **Modular Build Tools:** Use build tools and environments that enforce modularity checks, such as Maven or Gradle for Java, ensuring that module dependencies are explicit and managed.
 
-### 8. Create a Culture of Modularity
+### Create a Culture of Modularity
 
 - **Team Awareness:** Educate and cultivate awareness among the development team regarding the importance of modularity and the practices to maintain it. Code reviews and pair programming can help in spreading good practices and maintaining module boundaries.
 
@@ -82,6 +82,7 @@ The choice largely hinges on your comfort level with coupling and the specific d
 ## Moduliths and Web Apps: the HAM stack
 
 The HAM ("Hypermedia on a Modulith") Stack philosophy offers a refreshing and pragmatic approach to building web applications by emphasizing simplicity, scalability, and flexibility. By focusing on Hypermedia for the frontend and a Modulith architecture for the backend, it proposes a balanced framework that leverages the strengths of both concepts while mitigating common pitfalls associated with more complex or distributed systems.
+
 ### Hypermedia
 
 The choice of Hypermedia as the foundation for the frontend is grounded in the universal reach and compatibility of the web. The web, through Hypermedia, connects humanity in unprecedented ways, offering a platform that is inherently cross-platform and accessible. This layer prioritizes:

@@ -2,29 +2,29 @@ Here's a list of common Dependency Injection (DI) patterns that promote loose co
 
 1. **Constructor Injection**: This pattern involves providing the required dependencies through the class's constructor. It's the most common DI pattern and ensures that the object is always in a fully initialized state.
 
-2. **Property Injection**: Also known as Setter Injection, this pattern provides the dependency through a public property of the class. It's useful when the dependency is optional or when circular dependencies must be resolved.
+1. **Property Injection**: Also known as Setter Injection, this pattern provides the dependency through a public property of the class. It's useful when the dependency is optional or when circular dependencies must be resolved.
 
-3. **Method Injection**: Dependencies are provided through a method rather than a constructor or property. This is ideal for situations where the dependency is only needed for the duration of a method call.
+1. **Method Injection**: Dependencies are provided through a method rather than a constructor or property. This is ideal for situations where the dependency is only needed for the duration of a method call.
 
-4. **Interface Injection**: In this pattern, the dependent class implements an interface that includes a method for injecting the dependency. It’s less common but can be used to enforce the presence of a setter method for the dependency.
+1. **Interface Injection**: In this pattern, the dependent class implements an interface that includes a method for injecting the dependency. It’s less common but can be used to enforce the presence of a setter method for the dependency.
 
-5. **Service Locator**: Although considered an anti-pattern when overused, the Service Locator can be used as a DI pattern when properly managed, typically at the composition root. It involves a central registry that provides access to services and dependencies.
+1. **Service Locator**: Although considered an anti-pattern when overused, the Service Locator can be used as a DI pattern when properly managed, typically at the composition root. It involves a central registry that provides access to services and dependencies.
 
-6. **Ambient Context**: This pattern provides a way to access dependencies that are global or ambient to the application context. It is often implemented as a static context or through thread-local storage.
+1. **Ambient Context**: This pattern provides a way to access dependencies that are global or ambient to the application context. It is often implemented as a static context or through thread-local storage.
 
-7. **Factory Pattern**: Factories abstract the creation logic of objects and can be injected to provide the dependent objects with the ability to create instances of their dependencies.
+1. **Factory Pattern**: Factories abstract the creation logic of objects and can be injected to provide the dependent objects with the ability to create instances of their dependencies.
 
-8. **Abstract Factory**: An extension of the Factory pattern, this pattern uses a single interface to create families of related or dependent objects without specifying their concrete classes.
+1. **Abstract Factory**: An extension of the Factory pattern, this pattern uses a single interface to create families of related or dependent objects without specifying their concrete classes.
 
-9. **Lazy Injection**: Dependencies are provided as a proxy or a factory that delays the creation of the actual dependency until it's really needed. This can improve startup time and resource usage.
+1. **Lazy Injection**: Dependencies are provided as a proxy or a factory that delays the creation of the actual dependency until it's really needed. This can improve startup time and resource usage.
 
-10. **Provider or Resolver Pattern**: Similar to factories, a provider or resolver is responsible for abstracting the logic needed to retrieve dependencies.
+1. **Provider or Resolver Pattern**: Similar to factories, a provider or resolver is responsible for abstracting the logic needed to retrieve dependencies.
 
-11. **Composition Root**: A pattern where all the bindings and configurations of dependencies are centralized in a single location, typically at the entry point of the application.
+1. **Composition Root**: A pattern where all the bindings and configurations of dependencies are centralized in a single location, typically at the entry point of the application.
 
-12. **Registry Pattern**: Similar to the Service Locator but typically used within a DI container, a registry pattern maintains a registry of types and their corresponding constructors, which the DI container uses to instantiate objects.
+1. **Registry Pattern**: Similar to the Service Locator but typically used within a DI container, a registry pattern maintains a registry of types and their corresponding constructors, which the DI container uses to instantiate objects.
 
-13. **Decorator Pattern**: When using DI, decorators can be injected in place of an instance to add additional behavior while still adhering to the interface.
+1. **Decorator Pattern**: When using DI, decorators can be injected in place of an instance to add additional behavior while still adhering to the interface.
 
 ## The patterns in details
 

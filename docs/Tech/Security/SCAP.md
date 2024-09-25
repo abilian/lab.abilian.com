@@ -14,15 +14,15 @@ The Security Content Automation Protocol (SCAP) is a suite of standards for auto
    - **CVSS (Common Vulnerability Scoring System)**: A free and open industry standard for assessing the severity of computer system security vulnerabilities.
    - **CPE (Common Platform Enumeration)**: A standardized method of describing and identifying classes of applications, operating systems, and hardware devices.
 
-2. **Purpose**: SCAP is designed to enable automated vulnerability management, measurement, and policy compliance evaluation. It allows organizations to assess, maintain, and monitor the security of their systems more effectively.
+1. **Purpose**: SCAP is designed to enable automated vulnerability management, measurement, and policy compliance evaluation. It allows organizations to assess, maintain, and monitor the security of their systems more effectively.
 
-3. **Adoption**: SCAP is widely used in government and industry, particularly in environments where compliance with standards like FISMA (Federal Information Security Management Act) is required.
+1. **Adoption**: SCAP is widely used in government and industry, particularly in environments where compliance with standards like FISMA (Federal Information Security Management Act) is required.
 
-4. **Development and Maintenance**: The National Institute of Standards and Technology (NIST) in the United States plays a key role in developing and maintaining SCAP.
+1. **Development and Maintenance**: The National Institute of Standards and Technology (NIST) in the United States plays a key role in developing and maintaining SCAP.
 
-5. **Versioning**: SCAP evolves over time with new versions incorporating improvements and addressing emerging security needs. 
+1. **Versioning**: SCAP evolves over time with new versions incorporating improvements and addressing emerging security needs.
 
-6. **Integration**: SCAP can be integrated with various security tools and systems, allowing for a more streamlined and automated approach to security management.
+1. **Integration**: SCAP can be integrated with various security tools and systems, allowing for a more streamlined and automated approach to security management.
 
 ### References
 
@@ -35,25 +35,25 @@ https://en.wikipedia.org/wiki/Security_Content_Automation_Protocol
 
 1. **SCAP Implementation**: OpenSCAP is one of the most comprehensive implementations of SCAP, adhering to the standards set by the National Institute of Standards and Technology (NIST) in the United States. It supports various SCAP components like XCCDF, OVAL, CVE, CCE, CVSS, and CPE.
 
-2. **Components of OpenSCAP**:
+1. **Components of OpenSCAP**:
 
    - **OpenSCAP Library**: The core of OpenSCAP, providing functionality for SCAP-based security scans.
    - **SCAP Workbench**: A graphical user interface that simplifies the process of configuring and running security scans.
    - **oscap-anaconda-addon**: An add-on for the Anaconda installer, which allows users to apply security policies during system installation.
    - **OpenSCAP Daemon**: A service designed for periodic vulnerability scanning and compliance checking.
 
-4. **Functionality**:
+1. **Functionality**:
 
    - **Vulnerability Assessment**: Scans systems for known vulnerabilities using OVAL definitions and reports on detected issues.
    - **Configuration Compliance**: Checks systems against security baselines or policies, typically defined in XCCDF format, and reports on compliance.
    - **Automated Remediation**: Offers capabilities to automatically apply fixes for certain detected vulnerabilities or non-compliance issues.
    - **Reporting**: Generates detailed reports on scan results, including compliance status and detected vulnerabilities.
 
-5. **Integration and Extensibility**: OpenSCAP can integrate with other management tools and has been adopted in various security and management platforms. It can also be extended or customized to fit specific organizational needs.
+1. **Integration and Extensibility**: OpenSCAP can integrate with other management tools and has been adopted in various security and management platforms. It can also be extended or customized to fit specific organizational needs.
 
-6. **Community and Support**: Being open-source, it benefits from community support and contributions, ensuring continual improvement and updates in line with evolving security standards and threats.
+1. **Community and Support**: Being open-source, it benefits from community support and contributions, ensuring continual improvement and updates in line with evolving security standards and threats.
 
-7. **Usage Scenarios**: Commonly used in environments where adherence to standards like [FISMA](https://security.cms.gov/learn/federal-information-security-management-act-fisma) is required, OpenSCAP is suitable for government, defense, and any organization that needs to maintain high standards of security compliance.
+1. **Usage Scenarios**: Commonly used in environments where adherence to standards like [FISMA](https://security.cms.gov/learn/federal-information-security-management-act-fisma) is required, OpenSCAP is suitable for government, defense, and any organization that needs to maintain high standards of security compliance.
 
 OpenSCAP's effectiveness as a tool for compliance and vulnerability management lies in its comprehensive support for SCAP standards, its adaptability to various environments, and its open-source nature, which allows for continual improvement and customization.
 
@@ -73,4 +73,3 @@ https://www.open-scap.org/tools/
 ### Notes
 
 Obsoletes https://wiki.debian.org/DebianSecurity/debsecan (which doesn't work on Ubuntu anyway).
-

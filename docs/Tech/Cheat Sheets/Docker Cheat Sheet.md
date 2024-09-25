@@ -1,21 +1,20 @@
-
-1.  `docker run`: Runs a container from an image.
-2.  `docker start`: Starts a container that has been stopped.
-3.  `docker stop`: Stops a running container.
-4.  `docker restart`: Restarts a running container.
-5.  `docker rm`: Removes a container.
-6.  `docker rmi`: Removes an image.
-7.  `docker ps`: Lists all running containers.
-8.  `docker images`: Lists all images on the system.
-9.  `docker exec`: Runs a command in a running container.
-10.  `docker build`: Builds an image from a Dockerfile.
-11.  `docker pull`: Pulls an image from a registry
-12.  `docker push`: Pushes an image to a registry.
-13.  `docker login`: Logs in to a registry.
-14.  `docker logout`: Logs out of a registry.
-15.  `docker cp`: Copies files or directories between a container and the host machine.
-16.  `docker volume`: Manages volumes for containers.
-17.  `docker network`: Manages networks for containers.
+1. `docker run`: Runs a container from an image.
+1. `docker start`: Starts a container that has been stopped.
+1. `docker stop`: Stops a running container.
+1. `docker restart`: Restarts a running container.
+1. `docker rm`: Removes a container.
+1. `docker rmi`: Removes an image.
+1. `docker ps`: Lists all running containers.
+1. `docker images`: Lists all images on the system.
+1. `docker exec`: Runs a command in a running container.
+1. `docker build`: Builds an image from a Dockerfile.
+1. `docker pull`: Pulls an image from a registry
+1. `docker push`: Pushes an image to a registry.
+1. `docker login`: Logs in to a registry.
+1. `docker logout`: Logs out of a registry.
+1. `docker cp`: Copies files or directories between a container and the host machine.
+1. `docker volume`: Manages volumes for containers.
+1. `docker network`: Manages networks for containers.
 
 Example:
 

@@ -40,7 +40,7 @@ class UserRepository(Repository):
 
 In this example, we define an abstract base class `Repository` that outlines the methods we expect a repository to have. Then we create a `UserRepository` that implements these methods for `User` entities, storing them in a simple dictionary.
 
-Keep in mind that this is a very simplistic implementation, and a real-world repository would likely involve interacting with a database or another type of persistence layer. 
+Keep in mind that this is a very simplistic implementation, and a real-world repository would likely involve interacting with a database or another type of persistence layer.
 
 The Repository Pattern provides a clean separation of concerns in your application, isolating the domain logic from the details of the database access. This makes your code easier to maintain, test, and refactor. It also makes it easier to swap out the persistence layer if needed, since all the database-specific code is confined to the repositories.
 

@@ -1,4 +1,4 @@
-#public 
+#public
 
 ## Nua
 
@@ -7,7 +7,6 @@
 - build
 - install
 - cleanup
-
 
 Addons specifications:
 
@@ -49,34 +48,28 @@ Ref: https://janikvonrotz.ch/2019/03/20/the-final-rpm-packaging-guide/
 
 Each _job_ is a sequence of [phases](https://docs.travis-ci.com/user/for-beginners/#builds-jobs-stages-and-phases). The _main phases_ are:
 
-1.  `install` - install any dependencies required
-2.  `script` - run the build script
+1. `install` - install any dependencies required
+1. `script` - run the build script
 
 Travis CI can run custom commands in the phases:
 
-1.  `before_install` - before the install phase
-2.  `before_script` - before the script phase
-3.  `after_script` - after the script phase.
+1. `before_install` - before the install phase
+1. `before_script` - before the script phase
+1. `after_script` - after the script phase.
 
 The complete sequence of phases of a job is the lifecycle. The steps are:
 
-1.  OPTIONAL Install [`apt addons`](https://docs.travis-ci.com/user/installing-dependencies/#installing-packages-with-the-apt-addon)
-2.  OPTIONAL Install [`cache components`](https://docs.travis-ci.com/user/caching)
-3.  `before_install`
-4.  `install`
-5.  `before_script`
-6.  `script`
-
+1. OPTIONAL Install [`apt addons`](https://docs.travis-ci.com/user/installing-dependencies/#installing-packages-with-the-apt-addon)
+1. OPTIONAL Install [`cache components`](https://docs.travis-ci.com/user/caching)
+1. `before_install`
+1. `install`
+1. `before_script`
+1. `script`
 
 ## Gentoo
 
 The ebuild file format is in its basic form a subset of the format of a bash script.
 
-
-##  Homebrew
+## Homebrew
 
 https://docs.brew.sh/Formula-Cookbook
-
-
-
-

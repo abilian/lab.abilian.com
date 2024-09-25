@@ -1,9 +1,8 @@
-#public 
+#public
 
 ### Python integration
 
 https://github.com/prometheus/client_python
-
 
 ### Bridges → Graphite
 

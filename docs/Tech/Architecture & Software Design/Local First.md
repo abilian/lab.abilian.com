@@ -7,8 +7,8 @@ Before the advent of cloud computing, data management was straightforward: files
 The local-first movement aims to reclaim user control over data by emphasizing local processing and storage while retaining the advantages of the internet. The core principles of local-first software include:
 
 1. **Local Processing and Storage**: Data should be processed and stored locally to ensure accessibility even when offline.
-2. **Robust Synchronization**: Synchronization should be resilient to interruptions, ensuring data consistency across devices using Conflict-Free Replicated Data Types (CRDT).
-3. **Privacy and Security**: Data should be end-to-end encrypted (E2EE) to ensure privacy, even during transmission.
+1. **Robust Synchronization**: Synchronization should be resilient to interruptions, ensuring data consistency across devices using Conflict-Free Replicated Data Types (CRDT).
+1. **Privacy and Security**: Data should be end-to-end encrypted (E2EE) to ensure privacy, even during transmission.
 
 ### Resilient Sync: Bridging Local and Cloud Storage
 
@@ -33,7 +33,7 @@ A database implementation involves tables with fields for index, clientId, data,
 
 #### Filesystems
 
-In a filesystem implementation, data is stored in directories with metadata in an `index.json` file. Each client has directories for changes and assets, and files are distributed evenly to avoid directory overloading. 
+In a filesystem implementation, data is stored in directories with metadata in an `index.json` file. Each client has directories for changes and assets, and files are distributed evenly to avoid directory overloading.
 
 #### Online Services and Peer-To-Peer Sync
 

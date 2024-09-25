@@ -6,22 +6,22 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 
 1. **Trust No One, Verify Everything**: Every user, device, or application must be authenticated and authorized before being granted access to any resource. Trust is not assumed, even if the entity is already inside the network perimeter.
 
-2. **Least Privilege Access**: Access is limited to only what is necessary for users, devices, or applications to perform their functions. This minimizes the potential damage that can occur if a user or system is compromised.
+1. **Least Privilege Access**: Access is limited to only what is necessary for users, devices, or applications to perform their functions. This minimizes the potential damage that can occur if a user or system is compromised.
 
-3. **Continuous Monitoring and Validation**: Zero Trust requires continuous verification of identity, device integrity, and security posture. It doesn’t rely on one-time authentication but constantly monitors user behavior and environmental changes to reassess risks.
+1. **Continuous Monitoring and Validation**: Zero Trust requires continuous verification of identity, device integrity, and security posture. It doesn’t rely on one-time authentication but constantly monitors user behavior and environmental changes to reassess risks.
 
-4. **Segmentation and Micro-segmentation**: Networks are divided into smaller, isolated zones, and access between these segments is tightly controlled and monitored. Even within the network, systems or services don’t automatically trust one another.
+1. **Segmentation and Micro-segmentation**: Networks are divided into smaller, isolated zones, and access between these segments is tightly controlled and monitored. Even within the network, systems or services don’t automatically trust one another.
 
-5. **Multi-Factor Authentication (MFA)**: MFA is a critical component, requiring users to provide multiple forms of verification before granting access. This adds an additional layer of security compared to just passwords.
+1. **Multi-Factor Authentication (MFA)**: MFA is a critical component, requiring users to provide multiple forms of verification before granting access. This adds an additional layer of security compared to just passwords.
 
-6. **Strong Encryption**: Communications between systems and devices are encrypted to protect data both in transit and at rest, making it more difficult for attackers to intercept or manipulate data.
+1. **Strong Encryption**: Communications between systems and devices are encrypted to protect data both in transit and at rest, making it more difficult for attackers to intercept or manipulate data.
 
-7. **Device Security**: Zero Trust also involves ensuring the security of devices that access the network, typically by enforcing compliance with security standards before allowing connection.
+1. **Device Security**: Zero Trust also involves ensuring the security of devices that access the network, typically by enforcing compliance with security standards before allowing connection.
 
 ### Why Zero Trust?
 
 - **Shifts in Network Topology**: With the increase in remote work, cloud computing, and mobile devices, traditional perimeter-based security models are no longer effective. Data, users, and devices are often distributed across various locations and clouds, making the internal-external boundary of a network blurry.
-  
+
 - **Minimizing Attack Surfaces**: A Zero Trust approach minimizes the attack surface by reducing the number of possible entry points for attackers. Even if a system or user is compromised, strict segmentation and limited privileges reduce potential damage.
 
 - **Addressing Insider Threats**: Since Zero Trust does not automatically trust users inside the network, it helps mitigate risks associated with insider threats, which are often overlooked in traditional security models.
@@ -29,14 +29,14 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 ### Implementation Components:
 
 1. **Identity and Access Management (IAM)**: Systems for managing user identities, roles, and authentication processes, including MFA and single sign-on (SSO).
-   
-2. **Network Segmentation**: Using firewalls, software-defined networking (SDN), and virtual private networks (VPNs) to segment network traffic and enforce policies.
 
-3. **Endpoint Security**: Solutions to ensure that devices accessing the network are compliant with security policies, such as mobile device management (MDM) and endpoint detection and response (EDR).
+1. **Network Segmentation**: Using firewalls, software-defined networking (SDN), and virtual private networks (VPNs) to segment network traffic and enforce policies.
 
-4. **Security Information and Event Management (SIEM)**: Continuous monitoring of network traffic, user behavior, and security events to detect and respond to threats in real time.
+1. **Endpoint Security**: Solutions to ensure that devices accessing the network are compliant with security policies, such as mobile device management (MDM) and endpoint detection and response (EDR).
 
-5. **Data Access Control**: Implementing encryption and access controls around sensitive data to ensure that only authorized users and applications can access or modify it.
+1. **Security Information and Event Management (SIEM)**: Continuous monitoring of network traffic, user behavior, and security events to detect and respond to threats in real time.
+
+1. **Data Access Control**: Implementing encryption and access controls around sensitive data to ensure that only authorized users and applications can access or modify it.
 
 ## References
 

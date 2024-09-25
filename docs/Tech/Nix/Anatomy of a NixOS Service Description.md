@@ -30,16 +30,16 @@ This example configures the `nginx` service to serve files for the domain `examp
 
 ### Key Components of a NixOS Service
 
-1. **Service Definition**: 
+1. **Service Definition**:
    In NixOS, services are typically configured under the `services` attribute in the `configuration.nix` file. In this case, we enable the `nginx` service by setting `services.nginx.enable = true;`. This tells NixOS to start and manage the `nginx` service.
 
-2. **Service Configuration**:
+1. **Service Configuration**:
    Each service has its own set of options. For `nginx`, we configure virtual hosts using the `virtualHosts` attribute. The `root` attribute specifies the document root for the virtual host `example.com`, and `locations` allows you to configure specific URL path behavior. In this case, the root location (`/`) is configured to serve `index.html` files by default.
 
-3. **Networking and Dependencies**:
+1. **Networking and Dependencies**:
    Services often have networking requirements. For example, `nginx` needs to be accessible on HTTP (port 80) and HTTPS (port 443). To ensure this, we configure the firewall to allow these ports by setting `networking.firewall.allowedTCPPorts = [ 80 443 ];`. This allows the `nginx` service to function properly without manual firewall configuration.
 
-4. **Reproducibility**:
+1. **Reproducibility**:
    The entire configuration, including the service setup and network configuration, is declarative. This means the exact same system configuration can be reproduced on any other NixOS machine by copying the `configuration.nix` file and running `nixos-rebuild switch`.
 
 ### NixOS Service Modules
@@ -101,16 +101,16 @@ Here’s what this configuration does:
 1. **Service Definition**:
    We define a custom service under the `systemd.services` attribute, naming it `myCustomService`.
 
-2. **Service Configuration**:
+1. **Service Configuration**:
    The `ExecStart` option defines what command should be executed when the service starts. In this case, it runs a Bash script located at `/etc/my-custom-script.sh`. We make sure that `bash` is in the service's `path` so that it can run the script.
 
-3. **Service Metadata**:
+1. **Service Metadata**:
    We give the service a description (`"My Custom Service"`) and specify that it should be started as part of the `multi-user.target` (a typical system run level). The `after` directive ensures that the service starts only after the network is up, which may be required for network-dependent scripts.
 
-4. **Activation Script**:
+1. **Activation Script**:
    The `system.activationScripts` section allows us to define a script that is run every time `nixos-rebuild switch` is executed. This script creates the file `/etc/my-custom-script.sh` and makes it executable.
 
-5. **Dependencies**:
+1. **Dependencies**:
    We ensure that `bash` is available in the system’s `path` by including it in `environment.systemPackages`.
 
 ### Declarative and Reproducible Services

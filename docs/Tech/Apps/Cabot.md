@@ -1,13 +1,15 @@
-#public 
+#public
 
 Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 
-#devops 
+#devops
 
 ## Notes
+
 Main repo is unmaintained / still on Python2.7 & ancient Django version.
 
 Most recent forks (?):
+
 - https://github.com/dagelf/cabot
 - https://github.com/clouetb/cabot
 

@@ -4,14 +4,14 @@ In a Swarm, multiple Docker hosts form a self-organizing, self-healing cluster, 
 
 The main features of Docker Swarm include:
 
-1.  **Cluster Management:** Docker Swarm provides an integrated process for cluster management. The swarm manager nodes can manage the resources of worker nodes, which in turn run swarm services.
-    
-2.  **Scaling:** Docker Swarm allows services to be scaled up or down in response to a service's requirements, facilitating improved availability and reliability.
-    
-3.  **Load Balancing:** Swarm nodes can perform load balancing of services using ingress load balancing and DNS.
-    
-4.  **Service Discovery:** Swarm managers can automatically assign a DNS name to each service in the swarm, making it easier to perform inter-service networking.
-    
-5.  **Security:** Docker Swarm uses mutual Transport Layer Security (TLS) for authentication, authorization, and end-to-end encryption to ensure communication between the nodes in the swarm is secure.
-    
-6.  **Rolling Updates:** Docker Swarm allows incremental updates to be performed across the entire fleet of services, minimizing the risk and impact of application updates.
+1. **Cluster Management:** Docker Swarm provides an integrated process for cluster management. The swarm manager nodes can manage the resources of worker nodes, which in turn run swarm services.
+
+1. **Scaling:** Docker Swarm allows services to be scaled up or down in response to a service's requirements, facilitating improved availability and reliability.
+
+1. **Load Balancing:** Swarm nodes can perform load balancing of services using ingress load balancing and DNS.
+
+1. **Service Discovery:** Swarm managers can automatically assign a DNS name to each service in the swarm, making it easier to perform inter-service networking.
+
+1. **Security:** Docker Swarm uses mutual Transport Layer Security (TLS) for authentication, authorization, and end-to-end encryption to ensure communication between the nodes in the swarm is secure.
+
+1. **Rolling Updates:** Docker Swarm allows incremental updates to be performed across the entire fleet of services, minimizing the risk and impact of application updates.

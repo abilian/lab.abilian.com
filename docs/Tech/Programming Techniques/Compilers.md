@@ -1,8 +1,8 @@
 ## IR
 
 - MIR: <https://github.com/vnmakarov/mir>
-- LLVM: 
-    - <https://github.com/numba/llvmlite> Python wrapper used by Numba
+- LLVM:
+  - <https://github.com/numba/llvmlite> Python wrapper used by Numba
 - PPCI: <https://pypi.org/project/ppci/>
 - QBE: https://c9x.me/compile/
 
@@ -13,7 +13,6 @@ See: [[Code generation]]
 ## Type checking
 
 https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/
-
 
 ## Learn
 
@@ -40,10 +39,9 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
 ### More interesting projects
 
 - https://github.com/adamsol/Pyxell "Multi-paradigm programming language compiled to C++, written in Python." (3000 LOC of Python + 3000 LOC of C++)
-    - See also: https://www.pyxell.org/docs/
+  - See also: https://www.pyxell.org/docs/
 - https://github.com/xdslproject "A Python Compiler Design Toolkit"
 - https://github.com/ShivamSarodia/ShivyC "C compiler created in Python."
-
 
 ## Books
 

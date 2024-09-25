@@ -1,4 +1,3 @@
-
 ## Dependency injector
 
 ```python
@@ -276,4 +275,3 @@ my_instance = injector.inject(MyParentClass)
 assert isinstance(my_instance, MyParentClass)
 assert isinstance(my_instance.my_param, MyClass)
 ```
-

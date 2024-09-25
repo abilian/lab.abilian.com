@@ -1,13 +1,12 @@
-
 [`Doit`](https://pydoit.org/) is a task runner and build tool for Python that aims to help automate tasks and manage dependencies between tasks. It is quite versatile and can be used for various purposes, including managing build processes, running tests, deploying code, and more.
 
 Some advantages of using "doit" as a task runner are:
 
-1.  Flexibility: Doit allows you to define tasks in Python, which means you can use the full power of Python when creating your tasks and workflows.
-2.  Dependency management: Doit helps you manage dependencies between tasks, ensuring that tasks are executed in the correct order and only when necessary.
-3.  Incremental builds: Doit supports incremental builds, which means it can skip tasks that have already been completed, reducing the time it takes to run your build or test process.
-4.  Extensibility: Doit has a plugin system that allows you to extend its functionality and integrate with other tools and libraries.
-5.  Cross-platform: As a Python-based tool, Doit can run on any platform where Python is supported.
+1. Flexibility: Doit allows you to define tasks in Python, which means you can use the full power of Python when creating your tasks and workflows.
+1. Dependency management: Doit helps you manage dependencies between tasks, ensuring that tasks are executed in the correct order and only when necessary.
+1. Incremental builds: Doit supports incremental builds, which means it can skip tasks that have already been completed, reducing the time it takes to run your build or test process.
+1. Extensibility: Doit has a plugin system that allows you to extend its functionality and integrate with other tools and libraries.
+1. Cross-platform: As a Python-based tool, Doit can run on any platform where Python is supported.
 
 ## History
 

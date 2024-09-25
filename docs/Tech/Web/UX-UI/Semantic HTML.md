@@ -10,4 +10,3 @@
 ✘ <div>  ➜  <summary> ✓
 ✘ <div>  ➜  <footer> ✓
 ```
-

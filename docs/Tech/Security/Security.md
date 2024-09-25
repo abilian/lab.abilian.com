@@ -11,21 +11,20 @@
 
 ### CSP
 
--   [Mozilla: Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
--   [OWASP: Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
--   [OWASP: How to do Content Security Policy (PDF)](https://owasp.org/www-pdf-archive/2019-02-22_-_How_do_I_Content_Security_Policy_-_Print.pdf)
+- [Mozilla: Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+- [OWASP: Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
+- [OWASP: How to do Content Security Policy (PDF)](https://owasp.org/www-pdf-archive/2019-02-22_-_How_do_I_Content_Security_Policy_-_Print.pdf)
 
 (Tested by [[Wapiti]]).
 
 ### Secure headers
 
--   [Netsparker: HTTP Security Headers: An Easy Way to Harden Your Web Applications](https://www.netsparker.com/blog/web-security/http-security-headers/)
--   [KeyCDN: Hardening Your HTTP Security Headers](https://www.keycdn.com/blog/http-security-headers)
--   [OWASP: HTTP SECURITY HEADERS (Protection For Browsers) (PDF)](https://owasp.org/www-chapter-ghana/assets/slides/HTTP_Header_Security.pdf)
+- [Netsparker: HTTP Security Headers: An Easy Way to Harden Your Web Applications](https://www.netsparker.com/blog/web-security/http-security-headers/)
+- [KeyCDN: Hardening Your HTTP Security Headers](https://www.keycdn.com/blog/http-security-headers)
+- [OWASP: HTTP SECURITY HEADERS (Protection For Browsers) (PDF)](https://owasp.org/www-chapter-ghana/assets/slides/HTTP_Header_Security.pdf)
 
 (Tested by [[Wapiti]]).
 
 ## More
 
 - https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/
-

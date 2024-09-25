@@ -1,4 +1,3 @@
-
 Size of the reference manual
 
 ```

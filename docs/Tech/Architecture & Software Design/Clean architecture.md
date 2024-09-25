@@ -1,5 +1,7 @@
 ## DDD / Hexagonal
+
 ### In Python
+
 #### Books
 
 - [Cosmic Python](https://www.cosmicpython.com/)

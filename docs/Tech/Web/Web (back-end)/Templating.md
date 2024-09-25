@@ -20,7 +20,6 @@ Chameleon = faster ZPT by compiling to python bytecode.
 
 More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
 
-
 ## Internal Python DSLs
 
 ### Using context managers
@@ -47,7 +46,7 @@ More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
 ### Using functions
 
 - https://github.com/byteface/domonic
-    - https://github.com/byteface/htmlx (simpler fork)
+  - https://github.com/byteface/htmlx (simpler fork)
 - https://pypi.org/project/hyperpython/
 - https://pypi.org/project/PyHTML/
 - https://github.com/jviide/htm.py (see also: https://viewdom.readthedocs.io/)
@@ -72,12 +71,12 @@ More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
 ### ZPT-likes
 
 - Thymeleaf: Similar to ZPT. Java only. https://www.thymeleaf.org Very complete. Not sure how popular.
-- https://davidcana.github.io/ZPT-JS/ 
+- https://davidcana.github.io/ZPT-JS/
 
 ### Others
 
 - Armin is working on a port of Jinja to Rust (-> compilation to WASM)
-    - https://docs.rs/minijinja/latest/minijinja/
-    - There is a Python package for it
+  - https://docs.rs/minijinja/latest/minijinja/
+  - There is a Python package for it
 - Vue templates
 - Nuejs templates: https://nuejs.org/docs/reference/template-syntax.html

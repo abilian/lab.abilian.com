@@ -43,5 +43,4 @@ Zig's potential niche will likely be in projects where its unique blend of perfo
 
 - https://www.bortzmeyer.org/mes-debuts-en-zig.html (In French)
 
-
 #zig

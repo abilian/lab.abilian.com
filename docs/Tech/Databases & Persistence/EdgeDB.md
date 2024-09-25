@@ -2,7 +2,6 @@
 
 - <https://www.edgedb.com/>
 
-
 ## Examples
 
 - [Commonplace](https://github.com/ambv/commonplace.git) - A basic Python-based publishing platform based around the idea of commonplace books.

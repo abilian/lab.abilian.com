@@ -28,7 +28,7 @@
 
 - https://django-tables2.readthedocs.io
 
-## \$\$
+## $$
 
 - AG Grid - https://www.ag-grid.com/
 - Brytum - https://bryntum.com/products/grid/

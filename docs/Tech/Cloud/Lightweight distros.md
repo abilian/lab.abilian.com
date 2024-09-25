@@ -1,4 +1,4 @@
-#alpine #docker #distroless #public 
+#alpine #docker #distroless #public
 
 ## Projects
 
