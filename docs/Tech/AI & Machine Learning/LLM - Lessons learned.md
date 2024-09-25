@@ -1,21 +1,22 @@
+
 https://www.youtube.com/live/c0gcsprsFig
 https://applied-llms.org/
 
-______________________________________________________________________
+---
 
 This conversation appears to be a discussion among friends or colleagues about artificial intelligence (AI) and its applications, specifically in relation to foundation models. The participants seem to have a relaxed and playful tone, often joking and teasing each other.
 
 Here are some key points from the conversation:
 
 1. **Foundation Models**: One of the participants mentions training a foundation model from scratch using $50 million in DC money ( likely referring to deep learning computers). This is presented as a key step towards achieving success.
-1. **Iterating to Success**: The group discusses the importance of iterating on ideas, similar to Charles' "zero to one" approach. They compare this process to traditional experimentation with new products.
-1. **Offline Experimentation**: The conversation turns to offline experimentation, where evals (evaluation metrics) are used to quickly cycle through different versions of a product.
-1. **Zero-to-One Improvements**: Participants discuss focusing on small, incremental improvements that add value to the user experience.
-1. **Collaborative Effort**: The group expresses appreciation for their collaboration and the resulting media report, which has had a significant impact on the community.
+2. **Iterating to Success**: The group discusses the importance of iterating on ideas, similar to Charles' "zero to one" approach. They compare this process to traditional experimentation with new products.
+3. **Offline Experimentation**: The conversation turns to offline experimentation, where evals (evaluation metrics) are used to quickly cycle through different versions of a product.
+4. **Zero-to-One Improvements**: Participants discuss focusing on small, incremental improvements that add value to the user experience.
+5. **Collaborative Effort**: The group expresses appreciation for their collaboration and the resulting media report, which has had a significant impact on the community.
 
 Overall, this conversation seems to be a lighthearted discussion among friends or colleagues who are passionate about AI and innovation.
 
-______________________________________________________________________
+---
 
 All right. Hi, everyone. Hugo Bown Anderson here. I'm so excited. I could barely sleep last night. I'm here today with, currently with Eugene Yan, Shreya Shankar, and Hamel Hussein, who I'll introduce, of course. Their co-authors will join us very soon. But what I'd love to do is we're going to start in a minute or two. If you could introduce yourself in the chat, let us know where you're calling in from and what your interest in this type of stuff is as well. And also what you'd like to get out of the session. Do you, are you building LLM systems currently or working AI, data science, or all of these things? So let us know in the chat and we'll get started.
 

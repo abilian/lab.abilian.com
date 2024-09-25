@@ -16,6 +16,7 @@ https://pub.towardsai.net/how-to-quickly-build-a-semantic-search-system-with-txt
 https://medium.com/neuml/introducing-rag-with-txtai-f3456977cf91
 https://github.com/weaviate/Verba
 
+
 ## LLM engines
 
 https://textsynth.app.nexedi.net/index.html

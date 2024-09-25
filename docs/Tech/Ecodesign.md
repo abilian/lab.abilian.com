@@ -2,7 +2,7 @@
 
 The concept and practice of eco-design has recently emerged as a crucial bridge between sustainability and technological advancement. As professionals and enthusiasts in the IT sector, we're at a pivotal point where our decisions can significantly impact the environment. This realization has led to a collective effort to understand how IT can be part of the solution to our ecological challenges. In this blog post, we delve into the guiding principles of eco-design within IT, illustrating how sustainable practices can be integrated into our work and contribute positively to the planet.
 
-Eco-design in IT is usually first thought as reducing carbon footprints. But it also encompasses a holistic approach to minimize environmental impact across various indicators, including energy consumption, water use, and material depletion. By rethinking the way we develop, deploy, and dispose of technology, we can forge a path toward more sustainable digital solutions.
+Eco-design in IT is usually first thought as reducing carbon footprints. But it also encompasses a holistic approach to minimize environmental impact across various indicators, including energy consumption, water use, and material depletion. By rethinking the way we develop, deploy, and dispose of technology, we can forge a path toward more sustainable digital solutions. 
 
 Let's explore these guiding principles and see how they can reshape our approach to technology development and usage.
 
@@ -88,11 +88,11 @@ The journey towards sustainability is not a solitary one; it is a shared respons
 
 1. **Educate and Engage**: Continuously educate yourself and others about the importance of eco-design in IT. Share knowledge, resources, and best practices to foster an informed community that prioritizes sustainability.
 
-1. **Innovate Responsibly**: Challenge the status quo by seeking out and implementing sustainable technologies and methodologies. Innovate with an eye towards reducing environmental impact while meeting user needs.
+2. **Innovate Responsibly**: Challenge the status quo by seeking out and implementing sustainable technologies and methodologies. Innovate with an eye towards reducing environmental impact while meeting user needs.
 
-1. **Advocate for Change**: Use your voice and influence to advocate for policies and practices that support eco-design. Encourage organizations and governments to adopt sustainable approaches in technology development and procurement.
+3. **Advocate for Change**: Use your voice and influence to advocate for policies and practices that support eco-design. Encourage organizations and governments to adopt sustainable approaches in technology development and procurement.
 
-1. **Measure and Improve**: Commit to the ongoing process of measuring the environmental impact of your projects and striving for continuous improvement. Embrace tools and methodologies that enable precise assessment and informed decision-making.
+4. **Measure and Improve**: Commit to the ongoing process of measuring the environmental impact of your projects and striving for continuous improvement. Embrace tools and methodologies that enable precise assessment and informed decision-making.
 
 1. **Collaborate and Share**: Engage in collaborations that drive sustainable innovation. Share your successes and learnings with the broader community to multiply the impact of eco-design initiatives.
 
@@ -104,17 +104,16 @@ At Abilian, we've aligned our mission with the vision for a sustainable digital 
 
 1. **[Our Sustainability Charter](https://abilian.com/fr/a-propos/charte-developpement-durable/), Version 1.0**: This charter embodies our dedication to integrating sustainability into the core of our business practices. By prioritizing environmental conservation, social justice, and economic sustainability, we are committed to reducing our ecological footprint, fostering an ethical and inclusive workplace, and driving long-term economic viability. This charter not only outlines our goals but also sets a framework for regular updates, ensuring we remain responsive to technological advancements and evolving stakeholder expectations.
 
-1. **[The CNLL's Ethical Pledge](https://abilian.com/fr/a-propos/charte-ethique/), Article 8**: Embracing the principles set forth by the [United Nations Global Compact](https://unglobalcompact.org/), we've pledged to cultivate a responsible corporate environment. This pledge underscores our commitment to fundamental freedoms, human rights, and sustainable development principles, including environmental stewardship through eco-design. Our approach to product and service development is deeply rooted in energy efficiency, pollution control, and biodiversity preservation, reflecting our commitment to minimizing our environmental impact.
+2. **[The CNLL's Ethical Pledge](https://abilian.com/fr/a-propos/charte-ethique/), Article 8**: Embracing the principles set forth by the [United Nations Global Compact](https://unglobalcompact.org/), we've pledged to cultivate a responsible corporate environment. This pledge underscores our commitment to fundamental freedoms, human rights, and sustainable development principles, including environmental stewardship through eco-design. Our approach to product and service development is deeply rooted in energy efficiency, pollution control, and biodiversity preservation, reflecting our commitment to minimizing our environmental impact.
 
 By embedding these principles into our strategy, Abilian not only pledges to advance toward a sustainable digital future but also to lead by example in the technology sector. Our efforts are geared towards creating digital solutions that are not only innovative and effective but also ethically sound and environmentally friendly. We believe that by fostering collaboration, sharing our successes, and learning from our challenges, we can contribute significantly to the collective journey towards sustainability. In embracing this path, we invite our employees, partners, and stakeholders to join in this critical endeavor.
 
 ## References
 
-- Web site: https://ecoinfo.cnrs.fr/ "_**Réduire les impacts environnementaux et sociétaux négatifs des technologies du numérique.**_  _Cet espace est pour vous : enseignant, informaticien, décideur, acheteur, logisticien, en charge du développement durable, e\_\_t tout particulièrement si vous travaillez dans le secteur de l’enseignement supérieur et de la recherche ou vous êtes simplement curieux …_"
+- Web site: https://ecoinfo.cnrs.fr/ "_**Réduire les impacts environnementaux et sociétaux négatifs des technologies du numérique.**_  _Cet espace est pour vous : enseignant, informaticien, décideur, acheteur, logisticien, en charge du développement durable, e__t tout particulièrement si vous travaillez dans le secteur de l’enseignement supérieur et de la recherche ou vous êtes simplement curieux …_"
 - Cyrille Bonamy, Cédric Boudinet, Laurent Bourgès, Karin Dassas, Laurent Lefèvre, Benjamin Ninassi, Francis Vivat, _Je code : les bonnes pratiques en éco-conception de service numérique à destination des développeurs de logiciels_ ("I code: good practices in digital service eco-design for software developers").  https://hal.archives-ouvertes.fr/hal-03009741
 - _The intro guide to digital eco-design_. Association Les Designers Ethiques. https://eco-conception.designersethiques.org/guide/en/
-
-* _Nos outils_ ("Our tools"). Association Conception Numérique Responsable. https://collectif.greenit.fr/outils.html.
+*  _Nos outils_ ("Our tools"). Association Conception Numérique Responsable. https://collectif.greenit.fr/outils.html.
 
 More:
 

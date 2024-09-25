@@ -1,8 +1,8 @@
-APIs expose business logic and data to external systems, so it's important to make the communication between systems secure and efficient, but also to improve user experience and system reliability.
+APIs expose business logic and data to external systems, so it's important to make the communication between systems secure and efficient, but also to improve user experience and system reliability. 
 
 ## References
 
-- \[Designing APIs for humans Series (at Stripe)\]https://dev.to/paulasjes/series/19794
+- [Designing APIs for humans Series (at Stripe)]https://dev.to/paulasjes/series/19794
 
 ## Details
 
@@ -21,7 +21,7 @@ This differentiation ensures that clients have access only to the functionalitie
 
 ## Signature Generation
 
-To maintain the integrity and security of API requests, signatures are used. These signatures help verify that requests are coming from an authenticated source and have not been altered in transit.
+To maintain the integrity and security of API requests, signatures are used. These signatures help verify that requests are coming from an authenticated source and have not been altered in transit. 
 
 Here's the process of generating a signature:
 
@@ -59,7 +59,7 @@ Although this seems straightforward, it often leads to extensive debates. Try to
 
 #### Avoid Jargon
 
-Every industry has its own jargon. If you expect a significant part of your users to not be familiar with it, consider using more generic terms.
+Every industry has its own jargon. If you expect a significant part of your users to not be familiar with it, consider using more generic terms. 
 
 For example, instead of using specialized terms like 'Electronic Program Guide (EPG)', use something more universally understood, like 'TV schedule':
 

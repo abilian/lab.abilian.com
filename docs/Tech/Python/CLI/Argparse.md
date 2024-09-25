@@ -1,3 +1,4 @@
+
 #tutorial
 
 The `argparse` module in Python provides a convenient way to parse command-line arguments. It allows developers to define the arguments and options that their script should accept and will automatically generate a help message that can be displayed to users.
@@ -74,19 +75,18 @@ There are frameworks that provide higher-level abstractions on top of `argparse`
 Examples include:
 
 1. [**Cleez**](https://github.com/abilian/cleez): a Python CLI framework developped and used by Abilian. Cleez is a library that provides a high-level interface for building command-line interfaces in Python. It uses `argparse` as its underlying command-line parser and adds several features to make it easier to define and organize commands.
-1. [**Cleo**](https://github.com/python-poetry/cleo), the CLI framework used by the Poetry project. Cleo is a library that provides a high-level interface for building command-line interfaces in Python. It uses `argparse` as its underlying command-line parser and adds several features to make it easier to define and organize commands. \[NB: the documentation is not up to date.\]
-1. [**Fire**](https://github.com/google/python-fire/blob/master/docs/guide.md): a Python CLI framework that uses `argparse` to automatically generate CLI commands from Python code. It can be used to create CLI tools with minimal effort and is particularly well-suited for data exploration and manipulation tasks.
-1. [**cement**](https://builtoncement.com/): a Python CLI framework that uses `argparse` as its underlying command-line parser. It provides a more high-level interface than `argparse` and adds several features to make it easier to define CLI tools, such as command nesting and configuration handling.
-1. **cliff**: a Python CLI framework that is built on top of `argparse`. It provides a higher-level interface than `argparse` and adds several useful features, such as command discovery, subcommand grouping, and more.
+2. [**Cleo**](https://github.com/python-poetry/cleo), the CLI framework used by the Poetry project. Cleo is a library that provides a high-level interface for building command-line interfaces in Python. It uses `argparse` as its underlying command-line parser and adds several features to make it easier to define and organize commands. [NB: the documentation is not up to date.]
+3.  [**Fire**](https://github.com/google/python-fire/blob/master/docs/guide.md): a Python CLI framework that uses `argparse` to automatically generate CLI commands from Python code. It can be used to create CLI tools with minimal effort and is particularly well-suited for data exploration and manipulation tasks.
+5.  [**cement**](https://builtoncement.com/): a Python CLI framework that uses `argparse` as its underlying command-line parser. It provides a more high-level interface than `argparse` and adds several features to make it easier to define CLI tools, such as command nesting and configuration handling.
+6.  **cliff**: a Python CLI framework that is built on top of `argparse`. It provides a higher-level interface than `argparse` and adds several useful features, such as command discovery, subcommand grouping, and more.
 
 ## Cons of using `arparse`
 
-According to [Armin Ronacher](<>):
+According to [Armin Ronacher]():
 
-> `argparse` \[...\] has some behaviors that make handling arbitrary command line interfaces hard:
->
-> - `argparse` has built-in behavior to guess if something is an argument or an option. This becomes a problem when dealing with incomplete command lines; the behaviour becomes unpredictable without full knowledge of a command line. This goes against Click's ambitions of dispatching to subparsers.
-> - `argparse` does not support disabling interspersed arguments. Without this feature, it's not possible to safely implement Click's nested parsing.
+> `argparse` [...] has some behaviors that make handling arbitrary command line interfaces hard:
+> -   `argparse` has built-in behavior to guess if something is an argument or an option. This becomes a problem when dealing with incomplete command lines; the behaviour becomes unpredictable without full knowledge of a command line. This goes against Click's ambitions of dispatching to subparsers.
+> -  `argparse` does not support disabling interspersed arguments. Without this feature, it's not possible to safely implement Click's nested parsing.
 
 ## Conclusion
 

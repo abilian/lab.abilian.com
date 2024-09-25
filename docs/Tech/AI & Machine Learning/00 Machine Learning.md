@@ -6,7 +6,7 @@
 - [[Machine Learnning Algorithms]]
 - [[Machine Learning Platforms]]
 - [[Knowledge Graphs]]
-  - [[Knowledge Graphs and LLMs]]
+    - [[Knowledge Graphs and LLMs]]
 - [[NLP Notes]]
 - [[Sentence Transformers]]
 - [[Topic modeling]]

@@ -10,11 +10,11 @@ The whole document should be one or two pages long. Written as if it is a conver
 
 An ADR typically includes the following sections:
 
-1. **Title:** A brief, descriptive title for the decision.
-1. **Status:** The current status of the decision (e.g., proposed, accepted, rejected, deprecated, replaced).
-1. **Context:** A description of the situation and factors that led to the need for a decision.
-1. **Decision:** The decision that was made.
-1. **Consequences:** The expected outcomes, impacts, or changes that will result from the decision. This section should include both positive and negative consequences.
+1.  **Title:** A brief, descriptive title for the decision.
+2.  **Status:** The current status of the decision (e.g., proposed, accepted, rejected, deprecated, replaced).
+3.  **Context:** A description of the situation and factors that led to the need for a decision.
+4.  **Decision:** The decision that was made.
+5.  **Consequences:** The expected outcomes, impacts, or changes that will result from the decision. This section should include both positive and negative consequences.
 
 ADRs are particularly useful in projects that use agile methodologies, where decisions may need to be revisited as the project evolves. They also foster greater transparency and understanding within the team, making it easier to onboard new team members or transition responsibilities.
 
@@ -22,13 +22,14 @@ ADRs are particularly useful in projects that use agile methodologies, where dec
 
 **Pros**:
 
-- We have a clear log of the different decisions taken, which can help newcomers to understand past decisions.
-- It can help in the discussion of such changes.
-- Architecture decisions recorded in small modular readable documents.
+-   We have a clear log of the different decisions taken, which can help newcomers to understand past decisions.
+-   It can help in the discussion of such changes.
+-   Architecture decisions recorded in small modular readable documents.
 
 **Cons**:
 
-- More time is required for each change, as we need to document and discuss it.
+-   More time is required for each change, as we need to document and discuss it.
+
 
 ## Relationship with patterns
 
@@ -46,17 +47,17 @@ The term "architectural" in ADR is a reflection of the original intent and conte
 
 While there is overlap in the purposes of ADRs and RFCs, they serve different functions in the software development process:
 
-1. **ADRs (Architectural Decision Records):**
+1.  **ADRs (Architectural Decision Records):**
 
-   ADRs are documents that capture an important architectural decision made along with its context and consequences. **They are records of key decisions that help future team members understand the rationale behind decisions, and they promote transparency and knowledge sharing**.
+    ADRs are documents that capture an important architectural decision made along with its context and consequences. **They are records of key decisions that help future team members understand the rationale behind decisions, and they promote transparency and knowledge sharing**.
 
-   ADRs tend to be more localized to a specific project or product, and they typically address specific technical issues or decisions, like choosing a particular technology, framework, pattern, or method for implementing a feature. While they should be as long as needed, they should be generally quite short (1-2 pages).
+    ADRs tend to be more localized to a specific project or product, and they typically address specific technical issues or decisions, like choosing a particular technology, framework, pattern, or method for implementing a feature. While they should be as long as needed, they should be generally quite short (1-2 pages).
 
-1. **RFCs (Request for Comments):**
+2.  **RFCs (Request for Comments):**
 
-   RFCs are broader in scope and are often used to propose new features, methodologies, or changes in a system. They are used for obtaining feedback and building consensus in the early stages of proposing a change or a new feature. RFCs often go through a period of review and discussion before being accepted or rejected.
+    RFCs are broader in scope and are often used to propose new features, methodologies, or changes in a system. They are used for obtaining feedback and building consensus in the early stages of proposing a change or a new feature. RFCs often go through a period of review and discussion before being accepted or rejected.
 
-   RFCs, originally used in the development of the Internet, are often used by open-source communities to propose changes and get community feedback. **They tend to be more about proposing ideas and getting feedback, rather than documenting decisions that have already been made.**
+    RFCs, originally used in the development of the Internet, are often used by open-source communities to propose changes and get community feedback. **They tend to be more about proposing ideas and getting feedback, rather than documenting decisions that have already been made.**
 
 In this sense, Python's PEPs (Python Enhancement Proposals) a more akon to RFCs that to ADRs (though they serve as ADRs, *post-hoc*).
 

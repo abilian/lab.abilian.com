@@ -6,9 +6,9 @@ Here are a few characteristics of Value Objects:
 
 1. **Immutability:** Value Objects are usually designed to be immutable. Once a Value Object is created, it cannot be modified. If you want to change a Value Object, you create a new one.
 
-1. **Equality:** Value Objects are equal if all their fields are equal.
+2. **Equality:** Value Objects are equal if all their fields are equal.
 
-1. **Lack of identity:** Unlike entities, Value Objects don't have a unique identifier. A Value Object doesn't have an identity like an Entity does.
+3. **Lack of identity:** Unlike entities, Value Objects don't have a unique identifier. A Value Object doesn't have an identity like an Entity does.
 
 Let's look at a Python example of a Value Object:
 

@@ -2,7 +2,7 @@ Eben Moglen is an accomplished attorney, professor, and advocate for free and op
 
 "Moglen's Law: If you can do something with a computer that is valuable to many people, you can give it away for free, and people will figure out a way to pay you to do it for them."
 
-This law is based on the idea that in the digital age, the marginal cost of reproducing and distributing software is nearly zero.
+This law is based on the idea that in the digital age, the marginal cost of reproducing and distributing software is nearly zero. 
 
 Moglen's Law is often discussed in the context of free and open-source software (FOSS), where the source code is freely available, and users have the right to modify and distribute the software. The law suggests that even though the software is free, there are still opportunities for developers to generate revenue by providing related services, support, or custom development.
 

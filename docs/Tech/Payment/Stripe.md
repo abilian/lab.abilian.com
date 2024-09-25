@@ -10,8 +10,7 @@
 
 ## Usage scenario: SEPA Direct Debit payments in Flask
 
-References:
-
+References: 
 - https://docs.stripe.com/payments/sepa-debit
 
 Here are the steps (planning, configuration and integration) needed to implement SEPA Direct Debit payments in a Python/Flask web application using Stripe:
@@ -31,8 +30,8 @@ Here are the steps (planning, configuration and integration) needed to implement
 ### Integrate Stripe's Front-End Components:
 
 - Use Stripe's prebuilt UI components like **Stripe Checkout** or **Stripe Elements** to handle the front-end payment flow.
-  - **Stripe Checkout**: A hosted payment page that you can redirect customers to.
-  - **Stripe Elements**: Prebuilt UI components you can embed in your application.
+    - **Stripe Checkout**: A hosted payment page that you can redirect customers to.
+    - **Stripe Elements**: Prebuilt UI components you can embed in your application.
 - These tools will handle collecting the IBAN and mandate authorization seamlessly.
 
 ### Implement Server-Side Logic with Flask:
@@ -113,40 +112,40 @@ def stripe_webhook():
 
 - By default, Stripe sends debit notification emails to customers.
 - If you prefer to send custom emails:
-- Turn off Stripe emails in the Dashboard under Email settings.
-- Use the `payment_intent.processing` event to trigger your custom email.
-- Ensure your email includes all required information:
-  - Last 4 digits of the debtor’s bank account
-  - Mandate reference
-  - Amount to be debited
-  - Your SEPA Creditor Identifier
-  - Your contact information
+ - Turn off Stripe emails in the Dashboard under Email settings.
+ - Use the `payment_intent.processing` event to trigger your custom email.
+ - Ensure your email includes all required information:
+   - Last 4 digits of the debtor’s bank account
+   - Mandate reference
+   - Amount to be debited
+   - Your SEPA Creditor Identifier
+   - Your contact information
 
 ### Caveats
 
 1. **Consider Creditor Identifier (Creditor ID):**
 
-   - By default, Stripe uses its own Creditor ID.
-   - If you're based in the EU, it's recommended to obtain and use your own Creditor ID for better customer recognition and reduced dispute rates.
-   - Configure your Creditor ID in the Payment Method Settings on the Stripe Dashboard.
+    - By default, Stripe uses its own Creditor ID.
+    - If you're based in the EU, it's recommended to obtain and use your own Creditor ID for better customer recognition and reduced dispute rates.
+    - Configure your Creditor ID in the Payment Method Settings on the Stripe Dashboard.
 
-1. **Handle Payment Failures and Disputes:**
+2. **Handle Payment Failures and Disputes:**
 
-   - Implement logic to manage failed payments based on the failure codes provided by Stripe.
-   - Understand that SEPA Direct Debit disputes are final and cannot be appealed.
-   - Monitor for `charge.dispute.created` webhook events to handle disputes appropriately.
+    - Implement logic to manage failed payments based on the failure codes provided by Stripe.
+    - Understand that SEPA Direct Debit disputes are final and cannot be appealed.
+    - Monitor for `charge.dispute.created` webhook events to handle disputes appropriately.
 
-1. **Manage Refunds Carefully:**
+3. **Manage Refunds Carefully:**
 
-   - Refunds must be issued within 180 days of the original payment.
-   - Be cautious, as customers can still dispute a payment even after a refund.
-   - Communicate with your customers when issuing refunds to avoid confusion.
+    - Refunds must be issued within 180 days of the original payment.
+    - Be cautious, as customers can still dispute a payment even after a refund.
+    - Communicate with your customers when issuing refunds to avoid confusion.
 
-1. **Be Aware of Processing Times and Limits:**
+4. **Be Aware of Processing Times and Limits:**
 
-   - SEPA Direct Debit payments can take up to 14 business days to be confirmed, though it usually takes 7-8 days.
-   - There's a per-transaction limit of 10,000 EUR and a weekly limit for new users.
-   - Payouts for SEPA transactions are subject to a 5-business-day timing until you reach a certain processing volume.
+    - SEPA Direct Debit payments can take up to 14 business days to be confirmed, though it usually takes 7-8 days.
+    - There's a per-transaction limit of 10,000 EUR and a weekly limit for new users.
+    - Payouts for SEPA transactions are subject to a 5-business-day timing until you reach a certain processing volume.
 
 ### Key Considerations:
 
@@ -158,10 +157,10 @@ def stripe_webhook():
 ### Resources:
 
 - **Stripe SEPA Direct Debit Quickstart Guides:**
-  \- [Checkout Quickstart](https://stripe.com/docs/payments/checkout)
-  \- [Elements Quickstart](https://stripe.com/docs/payments/elements)
+      - [Checkout Quickstart](https://stripe.com/docs/payments/checkout)
+      - [Elements Quickstart](https://stripe.com/docs/payments/elements)
 - **Stripe API Reference:**
-  \- [PaymentIntents](https://stripe.com/docs/api/payment_intents)
-  \- [Webhooks](https://stripe.com/docs/webhooks)
+      - [PaymentIntents](https://stripe.com/docs/api/payment_intents)
+      - [Webhooks](https://stripe.com/docs/webhooks)
 - **Flask Integration Example:**
-  \- [Stripe's Flask Sample Application](https://github.com/stripe-samples/accept-a-payment/tree/master/custom-payment-flow/server/python)
+      - [Stripe's Flask Sample Application](https://github.com/stripe-samples/accept-a-payment/tree/master/custom-payment-flow/server/python)

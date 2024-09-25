@@ -1,4 +1,4 @@
-Welcome to the Technology section of our Knowledge Base, specifically tailored for the developers at Abilian, but also made available to all in the spirit of transparency and knowledge sharing that is one of our core values!
+Welcome to the Technology section of our Knowledge Base, specifically tailored for the developers at Abilian, but also made available to all in the spirit of transparency and knowledge sharing that is one of our core values! 
 
 This dedicated resource is designed to provide you with a comprehensive collection of information, insights, and best practices related to the cutting-edge technologies and methodologies that drive the software development industry. Whether you're a seasoned developer, a project manager, or simply curious about the fascinating world of software engineering, this section aims to be your one-stop shop for all things tech-related.
 

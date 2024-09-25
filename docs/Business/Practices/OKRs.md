@@ -7,15 +7,13 @@
 #### Key Components of OKRs
 
 1. **Objective (O):**
-
    - **Definition:** An objective is a clear, concise goal that the organization, team, or individual aims to achieve. It is qualitative and should be inspirational, challenging, and time-bound.
    - **Characteristics:**
      - **Qualitative:** Objectives are about the "what" – what you want to achieve, not how you will achieve it.
      - **Ambitious:** They should push the boundaries of what is possible but still be attainable.
      - **Clear and Memorable:** Simple and easy to communicate across the organization.
 
-1. **Key Results (KRs):**
-
+2. **Key Results (KRs):**
    - **Definition:** Key Results are specific, measurable outcomes that indicate progress toward the objective. They are quantitative and answer the question, "How will we know if we’ve accomplished the objective?"
    - **Characteristics:**
      - **Quantitative:** Key Results are metrics, numbers, or clear outcomes that can be objectively measured.
@@ -66,11 +64,11 @@ Given the challenges encountered with OKRs and the lessons from Intel, here are 
 
 1. **Strategic Alignment:** Ensure that any goals, whether through OKRs or another system, are closely tied to a well-considered strategy. Regular strategic reviews are essential to keeping goals relevant and aligned with market realities.
 
-1. **Flexibility:** Implement a system that allows for more frequent reassessment of goals. This flexibility can help prevent teams from becoming too focused on outdated objectives and enable them to pivot when necessary.
+2. **Flexibility:** Implement a system that allows for more frequent reassessment of goals. This flexibility can help prevent teams from becoming too focused on outdated objectives and enable them to pivot when necessary.
 
-1. **Outcome Over Output:** Focus on outcomes that truly drive the company forward, rather than just hitting arbitrary targets. Success should be measured by how well the company adapts and leads in its market.
+3. **Outcome Over Output:** Focus on outcomes that truly drive the company forward, rather than just hitting arbitrary targets. Success should be measured by how well the company adapts and leads in its market.
 
-1. **Decentralized Goal Setting:** Empower teams to set their own goals within a strategic framework. This approach can maintain alignment while allowing teams to stay nimble and responsive to changes in their specific areas.
+4. **Decentralized Goal Setting:** Empower teams to set their own goals within a strategic framework. This approach can maintain alignment while allowing teams to stay nimble and responsive to changes in their specific areas.
 
 ### Conclusion
 

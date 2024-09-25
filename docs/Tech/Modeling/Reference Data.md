@@ -1,4 +1,4 @@
-To effectively represent "reference" or "master" data (taxonomies, controlled vocabulary, data dictionaries, etc.) in a relational model, a well-structured approach is crucial. Reference data typically consists of predefined values used across the system, ensuring consistency, standardization, and efficient data management.
+To effectively represent "reference" or "master" data (taxonomies, controlled vocabulary, data dictionaries, etc.) in a relational model, a well-structured approach is crucial. Reference data typically consists of predefined values used across the system, ensuring consistency, standardization, and efficient data management. 
 
 ## Context
 
@@ -7,16 +7,16 @@ To effectively represent "reference" or "master" data (taxonomies, controlled vo
 Reference data can generally be categorized into two types:
 
 1. **Static Reference Data:** Rarely changes over time, such as country codes, currency codes, and status codes.
-1. **Dynamic Reference Data:** Changes more frequently, such as exchange rates, tax rates, and organizational hierarchies.
+2. **Dynamic Reference Data:** Changes more frequently, such as exchange rates, tax rates, and organizational hierarchies.
 
 ### Define the Requirements
 
 Before designing the relational model, define the requirements:
-
 - **Scope:** Determine the types of reference data to be managed.
 - **Usage:** Identify how and where the reference data will be used.
 - **Maintenance:** Establish the processes for updating and maintaining reference data.
 - **Constraints:** Identify any constraints, such as referential integrity and uniqueness.
+
 
 ## Design and Implementation
 
@@ -258,7 +258,6 @@ We outline below the design for a universal reference data engine. This involves
 #### Core Tables
 
 1. **Reference Data Types Table:**
-
    - This table defines different types of reference data (e.g., Country, Currency, Status).
 
    ```sql
@@ -269,8 +268,7 @@ We outline below the design for a universal reference data engine. This involves
    );
    ```
 
-1. **Reference Data Table:**
-
+2. **Reference Data Table:**
    - This table stores the actual reference data values.
 
    ```sql
@@ -288,8 +286,7 @@ We outline below the design for a universal reference data engine. This involves
    );
    ```
 
-1. **Reference Data Version Table:**
-
+3. **Reference Data Version Table:**
    - This table tracks changes in reference data values.
 
    ```sql
@@ -476,6 +473,7 @@ Automatically track changes and maintain historical versions of reference data.
 ### Conclusion
 
 This design provides a robust and flexible framework for managing reference data using a relational backend and an object-oriented API. It supports various use cases, ensuring data consistency, integrity, and ease of maintenance. This approach can be further extended and optimized based on specific requirements and system constraints.
+
 
 ## References
 

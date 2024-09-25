@@ -1,3 +1,4 @@
+
 ## Using `concurrent.futures`
 
 `concurrent.futures` is a high-level interface for asynchronously executing callables (i.e., functions, methods, or any object that can be called). It's part of the standard library and provides two main components: `ThreadPoolExecutor` and `ProcessPoolExecutor`.
@@ -58,44 +59,44 @@ Here's a brief description of how you might use an actor system in Python using 
 
 1. **Define Actor Classes**: In Pykka, an actor is an instance of any Python class that subclasses `pykka.ThreadingActor` or `pykka.FutureActor`. Here's an example:
 
-   ```python
-   import pykka
+    ```python
+    import pykka
 
-   class MyActor(pykka.ThreadingActor):
-       def __init__(self, my_value):
-           super().__init__()
-           self.my_value = my_value
+    class MyActor(pykka.ThreadingActor):
+        def __init__(self, my_value):
+            super().__init__()
+            self.my_value = my_value
 
-       def get_value(self):
-           return self.my_value
-   ```
+        def get_value(self):
+            return self.my_value
+    ```
 
-   In this example, `MyActor` is an actor class with a single method `get_value()`. It also has a constructor that accepts an argument `my_value`.
+    In this example, `MyActor` is an actor class with a single method `get_value()`. It also has a constructor that accepts an argument `my_value`.
 
-1. **Create Actors**: To create an actor, just instantiate your class. The actor will start running in its own thread or process immediately.
+2. **Create Actors**: To create an actor, just instantiate your class. The actor will start running in its own thread or process immediately.
 
-   ```python
-   actor_ref = MyActor.start(my_value=42)
-   ```
+    ```python
+    actor_ref = MyActor.start(my_value=42)
+    ```
 
-   In this example, `MyActor.start(my_value=42)` creates a new `MyActor` actor with `my_value` set to `42`. It returns an `ActorRef` that you can use to interact with the actor.
+    In this example, `MyActor.start(my_value=42)` creates a new `MyActor` actor with `my_value` set to `42`. It returns an `ActorRef` that you can use to interact with the actor.
 
-1. **Send Messages to Actors**: You can ask an actor to execute a method by sending it a message. In Pykka, you do this using the `tell()` method for sending a message without waiting for a reply, or the `ask()` method for sending a message and waiting for a reply.
+3. **Send Messages to Actors**: You can ask an actor to execute a method by sending it a message. In Pykka, you do this using the `tell()` method for sending a message without waiting for a reply, or the `ask()` method for sending a message and waiting for a reply.
 
-   ```python
-   future = actor_ref.ask({'method': 'get_value'})
-   print(future.result())  # prints '42'
-   ```
+    ```python
+    future = actor_ref.ask({'method': 'get_value'})
+    print(future.result())  # prints '42'
+    ```
 
-   In this example, `actor_ref.ask({'method': 'get_value'})` sends a message to the actor asking it to execute the `get_value()` method. This returns a `Future` that will be completed with the result of the method.
+    In this example, `actor_ref.ask({'method': 'get_value'})` sends a message to the actor asking it to execute the `get_value()` method. This returns a `Future` that will be completed with the result of the method.
 
-1. **Stop Actors**: When you're done with an actor, you should stop it to free up its resources.
+4. **Stop Actors**: When you're done with an actor, you should stop it to free up its resources.
 
-   ```python
-   actor_ref.stop()
-   ```
+    ```python
+    actor_ref.stop()
+    ```
 
-   In this example, `actor_ref.stop()` stops the actor.
+    In this example, `actor_ref.stop()` stops the actor.
 
 ### Using Thespian
 
@@ -103,47 +104,47 @@ The following example shows how you can create an actor system using Thespian:
 
 1. **Define Actor Classes**: In Thespian, an actor is an instance of any Python class that subclasses `thespian.actors.Actor`. Here's an example:
 
-   ```python
-   from thespian.actors import Actor
+    ```python
+    from thespian.actors import Actor
 
-   class MyActor(Actor):
-       def __init__(self, my_value):
-           self.my_value = my_value
+    class MyActor(Actor):
+        def __init__(self, my_value):
+            self.my_value = my_value
 
-       def receiveMessage(self, message, sender):
-           if message == 'get_value':
-               self.send(sender, self.my_value)
-   ```
+        def receiveMessage(self, message, sender):
+            if message == 'get_value':
+                self.send(sender, self.my_value)
+    ```
 
-   In this example, `MyActor` is an actor class with a single method `receiveMessage()`. This method is called whenever the actor receives a message. It also has a constructor that accepts an argument `my_value`.
+    In this example, `MyActor` is an actor class with a single method `receiveMessage()`. This method is called whenever the actor receives a message. It also has a constructor that accepts an argument `my_value`.
 
-1. **Create Actors**: To create an actor, you need to create an actor system first and then use it to create your actor.
+2. **Create Actors**: To create an actor, you need to create an actor system first and then use it to create your actor.
 
-   ```python
-   from thespian.actors import ActorSystem
+    ```python
+    from thespian.actors import ActorSystem
 
-   actor_system = ActorSystem()
-   actor_ref = actor_system.createActor(MyActor, globalName='MyActor', my_value=42)
-   ```
+    actor_system = ActorSystem()
+    actor_ref = actor_system.createActor(MyActor, globalName='MyActor', my_value=42)
+    ```
 
-   In this example, `ActorSystem()` creates a new actor system. `actor_system.createActor(MyActor, globalName='MyActor', my_value=42)` creates a new `MyActor` actor with `my_value` set to `42`. It returns an `ActorRef` that you can use to interact with the actor.
+    In this example, `ActorSystem()` creates a new actor system. `actor_system.createActor(MyActor, globalName='MyActor', my_value=42)` creates a new `MyActor` actor with `my_value` set to `42`. It returns an `ActorRef` that you can use to interact with the actor.
 
-1. **Send Messages to Actors**: You can ask an actor to execute a method by sending it a message. In Thespian, you do this using the `tell()` method.
+3. **Send Messages to Actors**: You can ask an actor to execute a method by sending it a message. In Thespian, you do this using the `tell()` method.
 
-   ```python
-   future = actor_system.ask(actor_ref, 'get_value')
-   print(future)  # prints '42'
-   ```
+    ```python
+    future = actor_system.ask(actor_ref, 'get_value')
+    print(future)  # prints '42'
+    ```
 
-   In this example, `actor_system.ask(actor_ref, 'get_value')` sends a message to the actor asking it to execute the `get_value()` method. It returns the result of the method directly.
+    In this example, `actor_system.ask(actor_ref, 'get_value')` sends a message to the actor asking it to execute the `get_value()` method. It returns the result of the method directly.
 
-1. **Stop Actors**: When you're done with an actor, you should stop it to free up its resources.
+4. **Stop Actors**: When you're done with an actor, you should stop it to free up its resources.
 
-   ```python
-   actor_system.tell(actor_ref, ActorExitRequest())
-   ```
+    ```python
+    actor_system.tell(actor_ref, ActorExitRequest())
+    ```
 
-   In this example, `actor_system.tell(actor_ref, ActorExitRequest())` sends a message to the actor telling it to stop.
+    In this example, `actor_system.tell(actor_ref, ActorExitRequest())` sends a message to the actor telling it to stop.
 
 Notes: Thespian actors can be distributed across multiple machines and support a variety of serialization methods for messages. Actor failure can be detected and managed, and actors can be dynamically added or removed from the system. The messages passed between actors can be any Python object.
 

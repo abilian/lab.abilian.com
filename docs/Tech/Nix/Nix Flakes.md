@@ -3,26 +3,24 @@ A **Nix Flake** is a feature in the **Nix** package manager that provides a stan
 ### Key Features of Nix Flakes:
 
 1. **Reproducibility**: Flakes ensure that the same environment or package can be recreated anywhere, providing consistency across different systems and users.
+   
+2. **Dependency Pinning**: Flakes allow you to lock dependencies to specific versions, ensuring that builds remain reproducible even if upstream packages change.
 
-1. **Dependency Pinning**: Flakes allow you to lock dependencies to specific versions, ensuring that builds remain reproducible even if upstream packages change.
+3. **Composability**: Flakes can reference other flakes, allowing for easier reuse of configuration or packages across different projects. This makes it simpler to manage dependencies and compose complex projects from smaller, reusable parts.
 
-1. **Composability**: Flakes can reference other flakes, allowing for easier reuse of configuration or packages across different projects. This makes it simpler to manage dependencies and compose complex projects from smaller, reusable parts.
+4. **Standard Structure**: A Nix Flake has a standardized structure, usually defined in a `flake.nix` file, which clearly outlines how the package or project is built, what dependencies are required, and what outputs are expected (e.g., applications, libraries, development shells, etc.).
 
-1. **Standard Structure**: A Nix Flake has a standardized structure, usually defined in a `flake.nix` file, which clearly outlines how the package or project is built, what dependencies are required, and what outputs are expected (e.g., applications, libraries, development shells, etc.).
-
-1. **Multiple Outputs**: Flakes support defining multiple outputs, such as:
-
+5. **Multiple Outputs**: Flakes support defining multiple outputs, such as:
    - **Packages**: Pre-built binaries or libraries.
    - **Development Shells**: Development environments that can be instantiated with `nix develop`.
    - **Apps**: Executable programs.
    - **Tests**: Automated tests for the flake.
-
-1. **Easy Sharing**: Flakes simplify sharing Nix configurations by using the `flake.nix` file as a single source of truth, which can be distributed or referenced easily via Git repositories or other remote locations.
+   
+6. **Easy Sharing**: Flakes simplify sharing Nix configurations by using the `flake.nix` file as a single source of truth, which can be distributed or referenced easily via Git repositories or other remote locations.
 
 ### Structure of a Nix Flake:
 
 A Nix Flake is defined in a `flake.nix` file, which typically includes information like:
-
 - **Inputs**: The dependencies of the flake (other flakes or packages).
 - **Outputs**: What the flake provides, such as packages, applications, or development environments.
 
@@ -66,13 +64,13 @@ To use a Nix Flake, you'll need **Nix 2.4 or newer**, as flakes are a relatively
 Before using flakes, you need to enable them. To do this, add the following to your Nix configuration:
 
 **For single commands**, you can enable flakes by passing the `--experimental-features` flag:
-
+  
 ```bash
 nix --experimental-features 'nix-command flakes' <command>
 ```
 
 **To enable flakes globally** (recommended):
-Edit or create the `~/.config/nix/nix.conf` file and add the following line:
+  Edit or create the `~/.config/nix/nix.conf` file and add the following line:
 
 ```bash
 mkdir -p ~/.config/nix/
@@ -80,12 +78,12 @@ echo 'experimental-features = nix-command flakes' \
     >> ~/.config/nix/nix.conf
 ```
 
+
 ### Basic Commands to Use a Flake
 
 Once flakes are enabled, here’s how you can use them in different contexts:
 
 #### Clone and Explore a Flake
-
 To fetch and inspect a flake from a remote repository, you can use the following command:
 
 ```bash

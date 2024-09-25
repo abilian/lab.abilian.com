@@ -4,18 +4,18 @@ The Lead Status taxonomy (as materialised by pick-list values) is an essential, 
 
 **1. The Problem with Descriptive Lead Status Values**
 
-- **Issue**: Lead Status pick-list values are typically descriptions of circumstances. However, these descriptions are subjective and open to interpretation, leading to inconsistency and confusion. For example, what does "Following Up" or "Disqualified" really mean? Is there a clear, shared understanding across the organization?
-- **Impact**: This ambiguity leads to varied interpretations among team members, resulting in inconsistent data entry and an unclear picture of the sales pipeline.
+   - **Issue**: Lead Status pick-list values are typically descriptions of circumstances. However, these descriptions are subjective and open to interpretation, leading to inconsistency and confusion. For example, what does "Following Up" or "Disqualified" really mean? Is there a clear, shared understanding across the organization?
+   - **Impact**: This ambiguity leads to varied interpretations among team members, resulting in inconsistent data entry and an unclear picture of the sales pipeline.
 
 **2. Inconsistency Across the Organization**
 
-- **Issue**: When Lead Status is used differently by various team members, it undermines the CRM's effectiveness. This inconsistency is often the biggest hurdle in CRM adoption and leads to misleading reports and dashboards.
-- **Impact**: The core of lead management is compromised, and the leadership's ability to make informed decisions is significantly hindered.
+   - **Issue**: When Lead Status is used differently by various team members, it undermines the CRM's effectiveness. This inconsistency is often the biggest hurdle in CRM adoption and leads to misleading reports and dashboards.
+   - **Impact**: The core of lead management is compromised, and the leadership's ability to make informed decisions is significantly hindered.
 
 **3. The Paradox of Choice in Lead Status Values**
 
-- **Issue**: An excessive number of Lead Status options can overwhelm users, leading to inconsistent selection and a desire for more granularity, ironically resulting in less effective lead management.
-- **Impact**: The lead management process becomes cumbersome and inaccurate, detracting from its intended purpose of providing clear insights into the sales pipeline.
+   - **Issue**: An excessive number of Lead Status options can overwhelm users, leading to inconsistent selection and a desire for more granularity, ironically resulting in less effective lead management.
+   - **Impact**: The lead management process becomes cumbersome and inaccurate, detracting from its intended purpose of providing clear insights into the sales pipeline.
 
 ## The Solution: A One-Way Ratchet Principle
 

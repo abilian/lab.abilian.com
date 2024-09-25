@@ -17,7 +17,7 @@ https://medium.com/@chongjingting/4-ways-to-solve-linear-programming-in-python-b
 
 What else ?
 
-## Open source
+## Open source 
 
 ### In python
 

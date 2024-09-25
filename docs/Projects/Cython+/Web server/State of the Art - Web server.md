@@ -2,22 +2,18 @@
 
 ## Notes on HTTP/2 and HTTP/3
 
-- [GitHub - nghttp2/nghttp2: nghttp2 - HTTP/2 C Library and tools](https://github.com/nghttp2/nghttp2)
-- [GitHub - aiortc/aioquic: QUIC and HTTP/3 implementation in Python](https://github.com/aiortc/aioquic)
-- [GitHub - h2o/h2o: H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server](https://github.com/h2o/h2o)
+* [GitHub - nghttp2/nghttp2: nghttp2 - HTTP/2 C Library and tools](https://github.com/nghttp2/nghttp2)
+* [GitHub - aiortc/aioquic: QUIC and HTTP/3 implementation in Python](https://github.com/aiortc/aioquic)
+* [GitHub - h2o/h2o: H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server](https://github.com/h2o/h2o)
 
 Pour les tests: https://en.wikipedia.org/wiki/HTTP/3#Libraries
 
 ## Serveurs Web
-
 ### WSGI
 
 - Bjoern (Python + C, simple)
-
 - [GitHub - mopemope/meinheld: Meinheld is a high performance asynchronous WSGI Web Server (based on picoev)](https://github.com/mopemope/meinheld) (plus complexe)
-
 - uWsgi
-
 - Gunicorn...
 
 - https://github.com/mahmoud/hematite (A full-featured and high-accuracy implementation of HTTP/1.1 in pure Python)
@@ -37,21 +33,20 @@ Pour les tests: https://en.wikipedia.org/wiki/HTTP/3#Libraries
 - https://blog.gevent.org/2011/04/28/libev-and-libevent/
 - https://github.com/kazuho/picoev
 - https://github.com/qweeze/nanoasgi "This is a toy ASGI web framework. It has zero dependencies and only 170 lines of code. I wrote it to play around with ASGI and to study how frameworks work under the hood."
-- https://github.com/nodejs/llhttp "Port of http_parser to llparse" See also: https://llhttp.org/ and
+- https://github.com/nodejs/llhttp "Port of http_parser to llparse" See also: https://llhttp.org/ and 
 
 And:
-
 - https://github.com/MagicStack/httptools: httptools is a Python binding for the nodejs HTTP parser.
 - https://github.com/MagicStack/uvloop: uvloop is a fast, drop-in replacement of the built-in asyncio event loop. uvloop is implemented in Cython and uses libuv under the hood.
 
 ### Others
 
-- Caddy (Go)
-- HA Proxy (C or C++)
-
-* LWAN: https://lwan.ws/
+* Caddy (Go)
+* HA Proxy (C or C++)
+- LWAN: https://lwan.ws/
 
 List here: https://en.wikipedia.org/wiki/HTTP/3#Server
+
 
 ## Application servers
 

@@ -3,7 +3,6 @@
 ### Convert asciidoc to markdown
 
 Use `downdoc`:
-
 ```
 npx downdoc -o - README.adoc
 ```

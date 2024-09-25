@@ -1,18 +1,18 @@
+
 ![[Pasted image 20240807075117.png]]
 
 ## Existing Python libraries
 
-- [GitHub - tomerfiliba/plumbum: Plumbum: Shell Combinators](https://github.com/tomerfiliba/plumbum)
-- https://github.com/amoffat/sh
-- [GitHub - aeroxis/sultan: Sultan: Command and Rule over your Shell](https://github.com/aeroxis/sultan)
-- [Seashore](https://github.com/elcaminoreal/seashore/) "Seashore -- A collection of shell abstractions" (not actively developped)
-- [Shelmet](https://github.com/dgilland/shelmet): promising but no background tasks [[Shelmet]]
-- https://domonic.readthedocs.io/packages/terminal.html
-- https://pypi.org/project/shellby/
-
-* https://github.com/KonishchevDmitry/psh = Process management library
-* https://github.com/Ovsyanka83/pysh/ = A library of small functions that simplify scripting in python
-* https://hitchdev.com/commandlib/ = a library for calling external UNIX commands (e.g. in build scripts) in a clean, readable way.
+* [GitHub - tomerfiliba/plumbum: Plumbum: Shell Combinators](https://github.com/tomerfiliba/plumbum)
+* https://github.com/amoffat/sh
+* [GitHub - aeroxis/sultan: Sultan: Command and Rule over your Shell](https://github.com/aeroxis/sultan)
+* [Seashore](https://github.com/elcaminoreal/seashore/) "Seashore -- A collection of shell abstractions" (not actively developped)
+* [Shelmet](https://github.com/dgilland/shelmet): promising but no background tasks [[Shelmet]]
+* https://domonic.readthedocs.io/packages/terminal.html
+* https://pypi.org/project/shellby/
+- https://github.com/KonishchevDmitry/psh = Process management library
+- https://github.com/Ovsyanka83/pysh/ = A library of small functions that simplify scripting in python
+- https://hitchdev.com/commandlib/ = a library for calling external UNIX commands (e.g. in build scripts) in a clean, readable way.
 
 ## Python-based shells
 

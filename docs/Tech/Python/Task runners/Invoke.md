@@ -1,12 +1,13 @@
+
 `Invoke` is a Python task runner that aims to provide a simple and intuitive way to define and execute tasks in your projects. It is particularly useful for automating repetitive tasks, such as building, testing, and deploying code. Invoke is inspired by Ruby's Rake and is part of the Fabric ecosystem, which is a collection of libraries for streamlining the use of SSH for application deployment or systems administration tasks.
 
 Some advantages of using Invoke as a task runner are:
 
-1. Simplicity: Invoke's syntax is easy to understand, and defining tasks is as simple as writing Python functions.
-1. Flexibility: Invoke allows you to leverage the full power of Python when creating your tasks and workflows.
-1. Namespacing: Invoke supports namespacing for tasks, which helps organize tasks into logical groups.
-1. Command-line interface: Invoke comes with a command-line tool that allows you to run tasks, list available tasks, and access task-related help.
-1. Cross-platform: Invoke is written in Python and can run on any platform where Python is supported.
+1.  Simplicity: Invoke's syntax is easy to understand, and defining tasks is as simple as writing Python functions.
+2.  Flexibility: Invoke allows you to leverage the full power of Python when creating your tasks and workflows.
+3.  Namespacing: Invoke supports namespacing for tasks, which helps organize tasks into logical groups.
+4.  Command-line interface: Invoke comes with a command-line tool that allows you to run tasks, list available tasks, and access task-related help.
+5.  Cross-platform: Invoke is written in Python and can run on any platform where Python is supported.
 
 ## History
 

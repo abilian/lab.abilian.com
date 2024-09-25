@@ -25,7 +25,7 @@ Here are the key concepts about concept maps:
 - Label the lines with linking words to form propositions
 - Add examples to the map to clarify meaning
 
-**7. Benefits:** Concept maps can help foster better understanding and retention of information. They can aid in the identification of gaps in understanding, and help individuals and groups visualize how different ideas or concepts connect.
+**7. Benefits:** Concept maps can help foster better understanding and retention of information. They can aid in the identification of gaps in understanding, and help individuals and groups visualize how different ideas or concepts connect. 
 
 **8. Limitations:** While concept maps can be a very useful tool for organizing and visualizing complex ideas, they also have limitations. They may oversimplify information, omit important details, or become overly complex and difficult to read if not well-constructed. Additionally, they require a good understanding of the subject matter in order to be created accurately.
 
@@ -40,10 +40,10 @@ Here are the key concepts about concept maps:
 ### Creating the Map
 
 **Step 1: Identify the Main Topic**
-The first step in creating a concept map is to identify the main topic or concept that you want to understand and represent. This is usually a broad topic that can be broken down into smaller, more specific concepts. Write the main topic in a box or circle at the top or center of the page.
+The first step in creating a concept map is to identify the main topic or concept that you want to understand and represent. This is usually a broad topic that can be broken down into smaller, more specific concepts. Write the main topic in a box or circle at the top or center of the page. 
 
 **Step 2: Identify Key Concepts**
-Next, identify the key concepts or ideas related to the main topic. These concepts should be related to the main topic but narrower in scope. It helps to brainstorm and list these concepts before beginning to map them.
+Next, identify the key concepts or ideas related to the main topic. These concepts should be related to the main topic but narrower in scope. It helps to brainstorm and list these concepts before beginning to map them. 
 
 **Step 3: Arrange the Concepts**
 Start arranging these key concepts on your map. This is usually done in a hierarchical format, with the most general concepts placed at the top (or in the center if your main topic is there), and the more specific ones arranged below. Each of these concepts should be enclosed in their own box or circle.
@@ -61,7 +61,7 @@ Cross-links are connections between different sections or domains of your concep
 If necessary, provide examples for your concepts. These can help clarify the meaning of a concept or how it relates to other concepts.
 
 **Step 8: Review and Revise**
-Once you have your map created, take some time to review and revise it. Check that all the concepts and relationships are accurate and clear, and make sure you haven't left out any important ideas.
+Once you have your map created, take some time to review and revise it. Check that all the concepts and relationships are accurate and clear, and make sure you haven't left out any important ideas. 
 
 ### Using the Concept Map
 

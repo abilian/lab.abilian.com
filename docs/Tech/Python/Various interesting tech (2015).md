@@ -45,10 +45,9 @@ https://github.com/joshfire/jsonform
 ## Génération de schema
 
 Outils recommandés par Dimitri
-
-- Druid
-- SchemaSpy (plus simple)
-- pg autodoc (génère du Graphviz)
+* Druid
+* SchemaSpy (plus simple)
+* pg autodoc (génère du Graphviz)
 
 ## State machines
 
@@ -69,25 +68,25 @@ http://jakiestfu.github.io/Medium.js/docs/
 
 More: https://awesome-python.com/#data-validation
 
-- voluptous
-- https://github.com/schematics/schematics
-- https://github.com/marrow/schema
-- https://github.com/toumorokoshi/transmute-core
-- http://cerberus.readthedocs.io/en/latest/
-- https://github.com/fuhrysteve/marshmallow-jsonschema
-- http://docs.python-cerberus.org/en/stable/
-- https://github.com/podio/valideer + https://github.com/podio/conssert
-- [GitHub - aromanovich/jsl: A Python DSL for describing JSON schemas](https://github.com/aromanovich/jsl)
-- [fastjsonschema documentation — fastjsonschema  documentation](http://opensource.seznam.cz/python-fastjsonschema/)
-- validx
-- [GitHub - keleshev/schema: Schema validation just got Pythonic](https://github.com/keleshev/schema)
-- [GitHub - schematics/schematics: Python Data Structures for Humans™.](https://github.com/schematics/schematics)
-- [GitHub - kvesteri/validators: Python Data Validation for Humans™.](https://github.com/kvesteri/validators)
+* voluptous
+* https://github.com/schematics/schematics
+* https://github.com/marrow/schema
+* https://github.com/toumorokoshi/transmute-core
+* http://cerberus.readthedocs.io/en/latest/
+* https://github.com/fuhrysteve/marshmallow-jsonschema
+* http://docs.python-cerberus.org/en/stable/
+* https://github.com/podio/valideer + https://github.com/podio/conssert
+* [GitHub - aromanovich/jsl: A Python DSL for describing JSON schemas](https://github.com/aromanovich/jsl)
+* [fastjsonschema documentation — fastjsonschema  documentation](http://opensource.seznam.cz/python-fastjsonschema/)
+* validx
+* [GitHub - keleshev/schema: Schema validation just got Pythonic](https://github.com/keleshev/schema)
+* [GitHub - schematics/schematics: Python Data Structures for Humans™.](https://github.com/schematics/schematics)
+* [GitHub - kvesteri/validators: Python Data Validation for Humans™.](https://github.com/kvesteri/validators)
 
 More recent:
-
 - https://github.com/bloomberg/attrs-strict
 - https://param.holoviz.org/index.html
+
 
 ## Conference management
 

@@ -15,8 +15,8 @@ SCIM uses RESTful APIs and JSON to represent user identities and allows applicat
 ### SCIM Workflow
 
 1. **Provisioning Request**: The identity provider sends a request to the service provider to create, update, or delete user accounts or groups.
-1. **User Synchronization**: The service provider processes the request and updates its internal system to reflect the changes (e.g., adding new users, updating attributes, or removing users).
-1. **Group Management**: SCIM also supports managing groups of users, enabling the assignment of users to roles or teams.
+2. **User Synchronization**: The service provider processes the request and updates its internal system to reflect the changes (e.g., adding new users, updating attributes, or removing users).
+3. **Group Management**: SCIM also supports managing groups of users, enabling the assignment of users to roles or teams.
 
 ### SCIM API Endpoints
 
@@ -41,12 +41,11 @@ Here’s an example of how to interact with a SCIM API using Python and the `req
 #### Prerequisites
 
 1. Install the `requests` library:
-
    ```bash
    pip install requests
    ```
 
-1. Use an SCIM-compliant identity provider or service provider (e.g., Okta, Azure AD, or a custom SCIM server).
+2. Use an SCIM-compliant identity provider or service provider (e.g., Okta, Azure AD, or a custom SCIM server).
 
 #### Example: SCIM Client in Python
 
@@ -199,9 +198,9 @@ if __name__ == '__main__':
 
 1. **User Provisioning in SaaS**: SCIM is widely used to automate user provisioning and management across SaaS platforms. For example, when a user is created in an organization's identity provider, SCIM can automatically provision that user across all associated applications (e.g., Google Workspace, Salesforce, etc.).
 
-1. **User Deprovisioning**: SCIM also handles deprovisioning (i.e., removing access or deleting users when they leave an organization), which is essential for maintaining security and access control.
+2. **User Deprovisioning**: SCIM also handles deprovisioning (i.e., removing access or deleting users when they leave an organization), which is essential for maintaining security and access control.
 
-1. **Role and Group Management**: SCIM can manage roles and groups of users, assigning different permissions or access levels based on group membership.
+3. **Role and Group Management**: SCIM can manage roles and groups of users, assigning different permissions or access levels based on group membership.
 
 ## Best Practices and Considerations
 
@@ -212,6 +211,6 @@ if __name__ == '__main__':
 
 ## References
 
-- **SCIM 2.0 Specification**: https://tools.ietf.org/html/rfc7644
-- **SCIM Overview**: https://scim.cloud/
+- **SCIM 2.0 Specification**: https://tools.ietf.org/html/rfc7644  
+- **SCIM Overview**: https://scim.cloud/  
 - Flask demo: https://github.com/oktadev/okta-scim-flask-example

@@ -4,9 +4,9 @@ Here are a few characteristics of Entities:
 
 1. **Identity:** Each instance of an Entity has a unique identity. This identity doesn’t change even when any or all of the attributes of the Entity change.
 
-1. **Mutability:** Unlike Value Objects, Entities are mutable. This means that the state of an Entity can change, but it's still the same Entity.
+2. **Mutability:** Unlike Value Objects, Entities are mutable. This means that the state of an Entity can change, but it's still the same Entity.
 
-1. **Encapsulation:** Entities encapsulate both state and behavior that depends on that state.
+3. **Encapsulation:** Entities encapsulate both state and behavior that depends on that state.
 
 In practice, you would likely add more complex behavior to the `User` class, and you would want to ensure that instances are retrieved and saved from a database or other persistence mechanism, typically through a Repository. It's also common to use a factory to ensure that Entities are created in a valid state and to abstract away any complexity in their creation.
 
@@ -22,11 +22,11 @@ There are several common ways to generate synthetic identifiers:
 
 1. **Sequences:** Many databases support sequences, which generate a unique number each time they're called. This can be used as the entity's identifier.
 
-1. **UUIDs:** A Universally Unique Identifier (UUID) is a 128-bit number that's generated in such a way as to be globally unique. UUIDs are a good choice if you need to generate identifiers in a distributed system or if you want to generate identifiers in the application layer rather than in the database.
+2. **UUIDs:** A Universally Unique Identifier (UUID) is a 128-bit number that's generated in such a way as to be globally unique. UUIDs are a good choice if you need to generate identifiers in a distributed system or if you want to generate identifiers in the application layer rather than in the database.
 
-1. **Database-generated identifiers:** Many databases can automatically generate a unique identifier for each row in a table. This is often done with an auto-incrementing integer column.
+3. **Database-generated identifiers:** Many databases can automatically generate a unique identifier for each row in a table. This is often done with an auto-incrementing integer column.
 
-1. **Combination of attributes:** In some cases, a unique identifier can be generated from a combination of different attributes of an entity. For example, in a system without synthetic identifiers, a User entity might use a combination of first name, last name, and date of birth as a unique identifier.
+4. **Combination of attributes:** In some cases, a unique identifier can be generated from a combination of different attributes of an entity. For example, in a system without synthetic identifiers, a User entity might use a combination of first name, last name, and date of birth as a unique identifier.
 
 Once an identifier is assigned to an entity, it should never be changed. The identifier ensures that we can track the entity as a continuous thread throughout the system, even if all of its other attributes change.
 

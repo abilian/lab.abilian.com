@@ -1,3 +1,4 @@
+
 https://www.reddit.com/r/NixOS/comments/i638r9/comment/g0tdf62/
 
 "Switching from Windows to Ubuntu in 2010 for my personal computer was my best choice about anything related to IT. Until I switched to Nixos. Now I consider switching to Nixos the best choice I have ever made, related to IT.

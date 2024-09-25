@@ -1,12 +1,11 @@
 ## Why ? (Some use cases)
 
 - Template engine that works both on server and browser
-
 - Apps that work "on the edge" (e.g. Cloudflare -> need to better understand the technology involved)
 
 - Discussion w/ Paul Everitt:
-
-> (From 2019): Russell’s talk has a very good analogy about “winged keel” in yacht racing, which he applies to WASM. On the other hand, it isn’t clear how it will manifest. Lukazs makes a strong case that we shouldn’t do the Python runtime in the browser, but should translate to as native WASM as we can on the server in a build step.\
+  
+> (From 2019): Russell’s talk has a very good analogy about “winged keel” in yacht racing, which he applies to WASM. On the other hand, it isn’t clear how it will manifest. Lukazs makes a strong case that we shouldn’t do the Python runtime in the browser, but should translate to as native WASM as we can on the server in a build step.  
 > Namely, we’ll never get 60 fps in the browser if there’s a Python runtime and compiler there, even in WASM.
 > Lukazs mentioned Cython but was more interested in mypyc as part of a toolchain that generated WASM. Any thoughts?
 
@@ -39,10 +38,10 @@
 ### Update 2023/04
 
 - **Micropython**/webassembly could be a solution but needs more documentation.
-  - cf. https://github.com/rafi16jan/micropython-wasm for some hints
-  - `firmware.wasm` is 1MB (430 MB gzipped)
-  - One needs something like https://github.com/rafi16jan/micropython-wasm/blob/master/js.py for JS\<>Python interop.
-  - No docs.
+    - cf. https://github.com/rafi16jan/micropython-wasm for some hints
+    - `firmware.wasm` is 1MB (430 MB gzipped)
+    - One needs something like https://github.com/rafi16jan/micropython-wasm/blob/master/js.py for JS<>Python interop.
+    - No docs.
 
 ## References
 
@@ -54,7 +53,7 @@
 ### Compiler technologies
 
 - https://github.com/WebAssembly/binaryen (Compiler infrastructure and toolchain library for WebAssembly - in C++)
-  - There is a Python binding: https://pypi.org/project/pybinaryen/
+    - There is a Python binding: https://pypi.org/project/pybinaryen/
 - [PPCI](https://github.com/windelbouwman/ppci) - has a WASM backend. Not active currently.
 - [MIR](https://github.com/vnmakarov/mir) (NB: no WASM support currently)
 - [QBE Intermediate Language](https://c9x.me/compile/doc/il.html) (No WASM backend).
@@ -70,7 +69,6 @@
 ## Dev log
 
 ### 2021/10/01: playing with PPCI again
-
 New repo with some experiments: <https://github.com/abilian/ppci-sandbox>
 
 ### 2020/12/21: Simple WASM experiment
@@ -84,7 +82,7 @@ A tiny subset of Python can be compiled to WASM using PPCI:
 
 => Result: quite fast (300ms vs. 180ms for the C version).
 
-TODO:
+TODO: 
 
 - Investigate other Py->WASM compilers (are there any ?)
 - Benchmark other WASM runtimes

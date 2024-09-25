@@ -35,7 +35,7 @@ Forms -> several interesting projects.
 #### Zoom sur Ant Design
 
 - Ant is now compatible with vue 3: https://2x.antdv.com/components/overview/
-  - Higher level: https://store.antdv.com/pro/preview/system/permission-list (not free!)
+	- Higher level: https://store.antdv.com/pro/preview/system/permission-list (not free!)
 
 #### Without design systems
 
@@ -54,14 +54,11 @@ Forms -> several interesting projects.
 ### For lightweight interactivity
 
 - https://htmx.org/ + hyperscript
-
 - AlpineJS
-
 - Petite Vue
-
 - Hyperapp
 
-- https://ractive.js.org/ "Ractive.js is a template-driven UI library that transforms your templates, styles and logic into blueprints for highly interactive apps." (\<- By Rich Harris, who's now working on Svelte - so OLD/unmaintained?)
+- https://ractive.js.org/ "Ractive.js is a template-driven UI library that transforms your templates, styles and logic into blueprints for highly interactive apps." (<- By Rich Harris, who's now working on Svelte - so OLD/unmaintained?)
 
 ### Server-side (not Python)
 
@@ -74,7 +71,7 @@ Forms -> several interesting projects.
 ### Server-side (Python)
 
 - ReactPy: https://reactpy.dev/docs/index.html  "Create highly interactive web pages purely in Python" (Python + JS/React)
-  - Discussion: https://news.ycombinator.com/item?id=36193315
+    - Discussion: https://news.ycombinator.com/item?id=36193315
 - https://flexx.readthedocs.io/ (Pure Python!) "Flexx is a pure Python toolkit for creating graphical user interfaces (GUI’s), that uses web technology for its rendering. Apps are written purely in Python; The [PScript](https://pscript.readthedocs.io/) transpiler generates the necessary JavaScript on the fly."
 - Django-unicorn: https://www.django-unicorn.com/ " Quickly add in simple interactions to regular Django templates without learning a new templating language."
 - https://lona-web.org/ "Lona is a web application framework, designed to write responsive web apps in **full** Python."

@@ -6,27 +6,27 @@ From the intro: "Messy code is a nuisance. "Tidying" code, to make it more reada
 
 1. **Guard Clause**: This is a very effective technique for reducing code complexity and improving readability. By handling edge cases or invalid conditions at the beginning of a function, the main logic remains less indented and clearer.
 
-1. **Normalize Symmetries**: Consistency in expressing similar logic is crucial for maintainability. It helps in understanding the codebase and reduces the cognitive load on developers.
+2. **Normalize Symmetries**: Consistency in expressing similar logic is crucial for maintainability. It helps in understanding the codebase and reduces the cognitive load on developers.
 
-1. **Explaining Variables/Constants**: This practice can significantly improve code readability. Naming a variable after the intention of the expression makes the code self-documenting, aiding in quicker comprehension.
+3. **Explaining Variables/Constants**: This practice can significantly improve code readability. Naming a variable after the intention of the expression makes the code self-documenting, aiding in quicker comprehension.
 
-1. **New Interface, Old Implementation**: This technique aligns with the principle of iterative development. It allows for gradually evolving a codebase without disrupting the existing functionality, making the transition smoother.
+4. **New Interface, Old Implementation**: This technique aligns with the principle of iterative development. It allows for gradually evolving a codebase without disrupting the existing functionality, making the transition smoother.
 
-1. **Chunk Statements**: Properly organizing code with blank lines or in logical blocks enhances readability. It's a simple yet effective way to make the code more approachable and understandable.
+5. **Chunk Statements**: Properly organizing code with blank lines or in logical blocks enhances readability. It's a simple yet effective way to make the code more approachable and understandable.
 
-1. **Extract Helper**: This technique is about breaking down complex logic into smaller, more manageable functions. It not only makes the code more readable but also encourages code reuse.
+6. **Extract Helper**: This technique is about breaking down complex logic into smaller, more manageable functions. It not only makes the code more readable but also encourages code reuse.
 
-1. **One Pile**: This approach can be useful in situations where separating code obscures its understanding. By bringing related parts together, it can provide a more holistic view, aiding in better comprehension and further refactoring.
+7. **One Pile**: This approach can be useful in situations where separating code obscures its understanding. By bringing related parts together, it can provide a more holistic view, aiding in better comprehension and further refactoring.
 
-1. **Explaining Comments/Delete Redundant Comments**: Comments should provide additional context that is not immediately apparent from the code. Redundant comments that just restate the code should be avoided as they add noise.
+8. **Explaining Comments/Delete Redundant Comments**: Comments should provide additional context that is not immediately apparent from the code. Redundant comments that just restate the code should be avoided as they add noise.
 
-1. **Delete Dead Code**: Keeping the codebase clean from unused code is crucial for maintainability. It reduces confusion and clutter.
+9. **Delete Dead Code**: Keeping the codebase clean from unused code is crucial for maintainability. It reduces confusion and clutter.
 
-1. **Reading Order and Cohesion Order**: Organizing code in a logical flow improves readability and maintainability. It's about making the codebase intuitive to navigate.
+10. **Reading Order and Cohesion Order**: Organizing code in a logical flow improves readability and maintainability. It's about making the codebase intuitive to navigate.
 
-1. **Move Declaration and Initialization Together**: Keeping declaration close to its usage reduces the mental mapping required and makes the code more understandable.
+11. **Move Declaration and Initialization Together**: Keeping declaration close to its usage reduces the mental mapping required and makes the code more understandable.
 
-1. **Explicit Parameters over Map/Dict**: Using explicit parameters for function arguments makes the interface of the function clearer and self-documenting.
+12. **Explicit Parameters over Map/Dict**: Using explicit parameters for function arguments makes the interface of the function clearer and self-documenting.
 
 In all these practices, the key is balance and context. What works best in one scenario might not be as effective in another. Kent Beck's advice to try changes and evaluate them is sound — often, the true impact of a change is best understood by seeing it in action and not just theoretically. This experimental approach, combined with good version control practices, allows for safe exploration and improvement of codebases.
 

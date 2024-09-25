@@ -15,6 +15,5 @@ https://github.com/beetbox/confuse "painless YAML config files for Python"
 https://hitchdev.com/strictyaml/why-not/environment-variables-as-config/ "Why avoid using environment variables as configuration? The use of "environment variables as configuration" is recommended by "[12 factor](https://12factor.net/config)". While this is a common practice and often leads to few or no problems, calling it a best practice is a bit much."
 
 Also:
-
 - https://hitchdev.com/strictyaml/why-not/toml/
 - https://hitchdev.com/strictyaml/why-not/json5/

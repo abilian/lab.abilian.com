@@ -6,8 +6,8 @@ RBAC is widely used in enterprise organizations, especially in large scale syste
 
 ## Standards
 
-- NIST: https://csrc.nist.gov/projects/role-based-access-control
-- ANSI INCITS 359
+-  NIST: https://csrc.nist.gov/projects/role-based-access-control
+-  ANSI INCITS 359
 
 ## Libraries
 
@@ -23,7 +23,7 @@ RBAC is widely used in enterprise organizations, especially in large scale syste
 
 ### PBAC = "Purpose-Based Access Control (PBAC)"
 
-A type of access control that limits access to resources based on the specific purpose for which the resource is being requested. This means that users are only granted access to resources if they have a legitimate need for them, and the access they are granted is limited to the specific tasks they need to perform. PBAC systems typically include a process for requesting and approving access, as well as a mechanism for revoking or modifying access as needed. This approach can help to improve security by reducing the risk of unauthorized access or misuse of resources. PBAC also helps to enforce compliance with regulations, such as data protection laws like GDPR, HIPAA and others. It also helps to meet the requirement of compliance standards such as SOC 2, PCI-DSS and others.
+A type of access control that limits access to resources based on the specific purpose for which the resource is being requested. This means that users are only granted access to resources if they have a legitimate need for them, and the access they are granted is limited to the specific tasks they need to perform. PBAC systems typically include a process for requesting and approving access, as well as a mechanism for revoking or modifying access as needed. This approach can help to improve security by reducing the risk of unauthorized access or misuse of resources. PBAC also helps to enforce compliance with regulations, such as data protection laws like GDPR, HIPAA and others. It also helps to meet the requirement of compliance standards such as SOC 2, PCI-DSS and others. 
 PBAC also increases the efficiency of the organization by making sure that the resources are used only for the intended purpose and not wasted on unnecessary access."
 
 ### [OrBAC](https://fr.wikipedia.org/wiki/Contr%C3%B4le_d%27acc%C3%A8s_bas%C3%A9_sur_l%27organisation) = Organization-Based Access Control

@@ -35,21 +35,21 @@ A plugin architecture is a specific type of component architecture focused on ex
 
 1. **Zope Component Architecture (ZCA)**: Perhaps the most classic example, ZCA is used in the Zope web application server and the Plone content management system. It allows developers to create reusable components with well-defined interfaces. Components can be dynamically assembled based on the application's current needs, promoting loose coupling and high flexibility.
 
-1. **Twisted**: Twisted is an event-driven networking engine. Its component architecture allows different protocols, transports, and other functionalities to be mixed and matched dynamically. Twisted components interact with each other through interfaces, allowing for a flexible and modular design that can be adapted for various network applications.
+2. **Twisted**: Twisted is an event-driven networking engine. Its component architecture allows different protocols, transports, and other functionalities to be mixed and matched dynamically. Twisted components interact with each other through interfaces, allowing for a flexible and modular design that can be adapted for various network applications.
 
 ### Plugin Architecture Examples in Python
 
 1. **Flask**: Flask, a lightweight web framework, uses plugins (called "extensions") to allow developers to add features like database integration, form validation, and more. These plugins are usually easy to integrate, requiring only a few lines of code to add complex functionalities. Flask doesn't have a built-in component system but the simplicity and consistency of its design make it easy for plugins to interact with the core application and with each other.
 
-1. **Pytest**: Pytest, a testing framework, offers a powerful plugin architecture. Developers can write plugins to add new features or to modify the behavior of existing ones. This can include new command-line options, hooks for managing test lifecycles, or integrations with other tools. Pytest itself is composed of a number of built-in plugins, and the API for writing third-party plugins is the same one used internally.
+2. **Pytest**: Pytest, a testing framework, offers a powerful plugin architecture. Developers can write plugins to add new features or to modify the behavior of existing ones. This can include new command-line options, hooks for managing test lifecycles, or integrations with other tools. Pytest itself is composed of a number of built-in plugins, and the API for writing third-party plugins is the same one used internally.
 
-1. **Trac**: As mentioned earlier, Trac's component architecture is also a plugin architecture. Almost every piece of functionality in Trac, from the version control backend to the user interface elements, is implemented as a plugin. This allows administrators to customize their Trac installation by choosing which plugins to include, and it allows developers to extend Trac in almost any direction without having to modify the core code.
+3. **Trac**: As mentioned earlier, Trac's component architecture is also a plugin architecture. Almost every piece of functionality in Trac, from the version control backend to the user interface elements, is implemented as a plugin. This allows administrators to customize their Trac installation by choosing which plugins to include, and it allows developers to extend Trac in almost any direction without having to modify the core code.
 
 ### Hybrid Examples: Combining Component and Plugin Architectures
 
 1. **Scrapy**: Scrapy, a web crawling and scraping framework, uses a component architecture for its built-in features like item pipelines, middlewares, and extensions. It also supports plugins for extending its capabilities. Developers can add custom components or replace existing ones, and they can use signals to hook into various parts of the scraping process.
 
-1. **Django**: While primarily known as a web framework, Django's apps system allows it to function as a platform with a plugin architecture. Each Django app is like a plugin, which can be dropped into a project to provide additional features. The apps can define models, views, URLs, and even configuration, making them quite powerful. Django's settings and its reusable apps pattern encourage a component-like approach to web development.
+2. **Django**: While primarily known as a web framework, Django's apps system allows it to function as a platform with a plugin architecture. Each Django app is like a plugin, which can be dropped into a project to provide additional features. The apps can define models, views, URLs, and even configuration, making them quite powerful. Django's settings and its reusable apps pattern encourage a component-like approach to web development.
 
 ## Conclusion
 

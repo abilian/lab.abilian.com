@@ -1,5 +1,4 @@
 ## From Schema.org
-
 - https://schema.org/Person
 - https://schema.org/CreativeWork
 - https://schema.org/Article

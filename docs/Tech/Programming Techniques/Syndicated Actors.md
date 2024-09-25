@@ -7,50 +7,42 @@ The Syndicated Actor model is designed to simplify the programming of systems th
 ### Key Concepts
 
 1. **Syndicated Actor Model**:
+    - **Integration of Models**: Combines aspects of Actors, Tuplespaces, and publish/subscribe models with Ambients-like system boundaries and Erlang-like techniques for handling partial failures.
+    - **Dataspaces**: Special actors that route and replicate published data based on actors' interests, providing a shared state mechanism among neighboring components.
 
-   - **Integration of Models**: Combines aspects of Actors, Tuplespaces, and publish/subscribe models with Ambients-like system boundaries and Erlang-like techniques for handling partial failures.
-   - **Dataspaces**: Special actors that route and replicate published data based on actors' interests, providing a shared state mechanism among neighboring components.
+2. **Conversational Concurrency**:
+    - **Beyond Message-Passing**: Focuses on conversational frames and states rather than simple message exchanges. This model aims to encapsulate the interactions and shared state within the context of ongoing conversations.
+    - **Shared State**: Emphasizes state synchronization over simple message passing, ensuring components have a shared understanding of the task at hand.
 
-1. **Conversational Concurrency**:
-
-   - **Beyond Message-Passing**: Focuses on conversational frames and states rather than simple message exchanges. This model aims to encapsulate the interactions and shared state within the context of ongoing conversations.
-   - **Shared State**: Emphasizes state synchronization over simple message passing, ensuring components have a shared understanding of the task at hand.
-
-1. **Syndicate Domain-Specific Language (DSL)**:
-
-   - **Language Constructs**: Introduces DSL constructs to directly express syndicated actor and conversational concepts, providing ergonomic ways to manage syndicated actors and their interactions.
-   - **Facets**: Represent conversational frames and their sub-conversations, managing state and assertions efficiently.
+3. **Syndicate Domain-Specific Language (DSL)**:
+    - **Language Constructs**: Introduces DSL constructs to directly express syndicated actor and conversational concepts, providing ergonomic ways to manage syndicated actors and their interactions.
+    - **Facets**: Represent conversational frames and their sub-conversations, managing state and assertions efficiently.
 
 ### Detailed Components
 
 1. **Syndicated Actor Model**:
+    - **Actors and Assertions**: Actors publish parts of their internal state as assertions to peers in a reactive manner. These assertions are propagated and managed by dataspaces.
+    - **Dataspaces**: Act as intermediaries that relay messages and replicate states, supporting mechanisms like Erlang-style links, publish/subscribe, and directory services.
+    - **Securing Interaction**: Uses object capabilities generalized for state replication and observation, with long-lived capabilities based on Macaroons for secure delegation and authority attenuation.
 
-   - **Actors and Assertions**: Actors publish parts of their internal state as assertions to peers in a reactive manner. These assertions are propagated and managed by dataspaces.
-   - **Dataspaces**: Act as intermediaries that relay messages and replicate states, supporting mechanisms like Erlang-style links, publish/subscribe, and directory services.
-   - **Securing Interaction**: Uses object capabilities generalized for state replication and observation, with long-lived capabilities based on Macaroons for secure delegation and authority attenuation.
+2. **Conversational Concurrency**:
+    - **Framing Conversations**: Tasks are framed within conversational contexts, where components share relevant domain and epistemic knowledge, along with the interests of participants.
+    - **Recursive Structure**: Conversations can be nested within sub-conversations, each contributing to the overarching task.
+    - **Management of State**: Each facet publishes and subscribes to assertions, maintaining a consistent conversational state even during partial failures.
 
-1. **Conversational Concurrency**:
-
-   - **Framing Conversations**: Tasks are framed within conversational contexts, where components share relevant domain and epistemic knowledge, along with the interests of participants.
-   - **Recursive Structure**: Conversations can be nested within sub-conversations, each contributing to the overarching task.
-   - **Management of State**: Each facet publishes and subscribes to assertions, maintaining a consistent conversational state even during partial failures.
-
-1. **Syndicate DSL**:
-
-   - **Facets and Conversations**: Each actor has facets that correspond to conversations, managing state and interactions hierarchically.
-   - **Assertions and Subscriptions**: Facets assert their state and subscribe to relevant state changes from peers, ensuring dynamic and reactive communication.
+3. **Syndicate DSL**:
+    - **Facets and Conversations**: Each actor has facets that correspond to conversations, managing state and interactions hierarchically.
+    - **Assertions and Subscriptions**: Facets assert their state and subscribe to relevant state changes from peers, ensuring dynamic and reactive communication.
 
 ### Interaction Protocols and Data Language
 
 1. **Interaction Protocols**:
+    - **Beyond Procedure Calls**: Investigates alternative interaction patterns deserving first-class treatment in programming languages.
+    - **Integrated Networking**: Treats all forms of IPC as networking, providing a unified approach to remote interactions.
 
-   - **Beyond Procedure Calls**: Investigates alternative interaction patterns deserving first-class treatment in programming languages.
-   - **Integrated Networking**: Treats all forms of IPC as networking, providing a unified approach to remote interactions.
-
-1. **Preserves Data Language**:
-
-   - **Common Vocabulary**: Ensures robust communication across different programming languages and network links.
-   - **Schemas and Syntaxes**: Supports records with user-defined labels, embedded references, and atomic/compound data types, with multiple syntaxes for different purposes (e.g., human-readable, binary).
+2. **Preserves Data Language**:
+    - **Common Vocabulary**: Ensures robust communication across different programming languages and network links.
+    - **Schemas and Syntaxes**: Supports records with user-defined labels, embedded references, and atomic/compound data types, with multiple syntaxes for different purposes (e.g., human-readable, binary).
 
 ## Observations
 

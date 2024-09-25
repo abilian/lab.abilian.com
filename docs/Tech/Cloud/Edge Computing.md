@@ -4,9 +4,9 @@ Edge Computing extends the capabilities of cloud computing by bringing computati
 
 1. **Edge Data Centre (DC):** These involve 16 to 32 servers in a rack and are located within 100 km from the user. This model closely mirrors the hardware used by major cloud service providers.
 
-1. **Campus Edge:** Consists of small servers situated within an office, factory, or campus. These are low-power, small-sized, and designed to be less than 1 km from the user.
+2. **Campus Edge:** Consists of small servers situated within an office, factory, or campus. These are low-power, small-sized, and designed to be less than 1 km from the user.
 
-1. **Edge IoT:** These are embedded systems directly integrated into IoT devices, drones, machine tools, or 5G base stations, running within 1 meter of the user.
+3. **Edge IoT:** These are embedded systems directly integrated into IoT devices, drones, machine tools, or 5G base stations, running within 1 meter of the user.
 
 Each type has its latency constraints:
 
@@ -39,6 +39,6 @@ While cloud computing offers economies of scale, it also faces diminishing retur
 
 ## Summary
 
-Both edge and cloud computing provide the automation and scalability that modern IT services require, but they serve different needs and scenarios.
+Both edge and cloud computing provide the automation and scalability that modern IT services require, but they serve different needs and scenarios. 
 
 Edge computing offers specific advantages in terms of resiliency, latency, global availability, legal compliance, and economic efficiency, making it an essential component of modern IT architectures.

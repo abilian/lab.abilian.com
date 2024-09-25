@@ -1,3 +1,4 @@
+
 ## Libraries
 
 - [[Loguru]]
@@ -7,6 +8,7 @@
 https://betterstack.com/community/guides/logging/best-python-logging-libraries/
 https://ntietz.com/blog/the-only-two-log-levels-you-need-are-info-and-error/
 
+
 ## Recommendations (from blog posts above)
 
 Most applications, particularly web applications, only need two log levels: **INFO** and **ERROR**. The traditional approach to logging with multiple levels (such as DEBUG, WARNING, TRACE) is often not practical or necessary. The focus should be on whether a log entry should alert someone (ERROR) or provide context and information (INFO). Additional details, like WARNING or TRACE, often either overlap with INFO for context or escalate to ERROR if they require immediate attention.
@@ -14,20 +16,16 @@ Most applications, particularly web applications, only need two log levels: **IN
 #### Actionable Advice with Python and Loguru
 
 1. **Simplify Your Logging Strategy**
-
    - Reduce complexity in your logging by limiting to INFO and ERROR.
    - Use INFO for detailed application behavior and ERROR for situations that require immediate attention.
 
-1. **Leverage Structured Logging**
-
+2. **Leverage Structured Logging**
    - Use structured logging to enhance the usability and filterability of logs, making them more readable and machine-processable (e.g., JSON format).
 
-1. **Include Contextual Information**
-
+3. **Include Contextual Information**
    - Always log with contextual information such as request IDs, timestamps, related IDs, flags, and source modules/functions to make debugging easier.
 
-1. **Avoid Temporary Logging**
-
+4. **Avoid Temporary Logging**
    - Do not add and then remove logs just to solve a specific issue; incorporate logs that provide ongoing insights and are useful for debugging related future issues.
 
 #### Python Example Using Loguru

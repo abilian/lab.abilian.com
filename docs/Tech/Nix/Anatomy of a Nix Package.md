@@ -40,36 +40,36 @@ stdenv.mkDerivation rec {
 
 Let's break this down:
 
-1. **Inputs**:
+1. **Inputs**: 
    The first line `{ stdenv, fetchurl }:` defines the inputs that the package requires. These are passed as arguments to the Nix expression. `stdenv` is the standard environment that provides the base for building packages, and `fetchurl` is a function to download sources from a URL.
 
-1. **Package Metadata**:
+2. **Package Metadata**:
    Inside the `mkDerivation` block, the package is defined. The `pname` attribute is the name of the package, and `version` specifies its version. This information is crucial for uniquely identifying the package in the Nix store.
 
-1. **Source Fetching**:
+3. **Source Fetching**:
    The `src` attribute defines how to fetch the source code of the package. Here, `fetchurl` downloads the source from a URL, and the integrity of the download is verified using the `sha256` hash.
 
-1. **Build Inputs**:
+4. **Build Inputs**:
    The `buildInputs` attribute defines the dependencies needed to build the package. In this case, there are no additional build dependencies.
 
-1. **Meta Information**:
+5. **Meta Information**:
    The `meta` block contains additional metadata like a description and the package's license.
 
 ### Key Components of a Nix Package
 
-- **Stdenv (Standard Environment)**:\
+- **Stdenv (Standard Environment)**:  
   The `stdenv` component provides the default environment that most packages rely on. It includes essential build tools and sets up the environment required to compile and build software. The `stdenv.mkDerivation` function is the entry point for creating a package derivation.
 
-- **Fetchers**:\
+- **Fetchers**:  
   Functions like `fetchurl`, `fetchgit`, and others are used to download source code from various locations. Nix ensures that sources are immutable by checking the integrity of the downloads using hashes (like `sha256`).
 
-- **Derivation**:\
+- **Derivation**:  
   In Nix, a derivation is a low-level representation of a package. It describes how to build the package and what its inputs and outputs are. The `stdenv.mkDerivation` function is a higher-level wrapper around derivations that simplifies their creation.
 
-- **Store Paths and Purity**:\
+- **Store Paths and Purity**:  
   Nix ensures purity by isolating each package in its own store path under `/nix/store`. The full store path for a package includes a hash derived from its inputs, ensuring that different versions or builds of the same software don’t collide. For example, `/nix/store/abc123-mytool-1.0.0/` is the store path for the `mytool` package. Any change in the inputs (e.g., a different dependency version) will produce a different store path.
 
-- **Fixed-Output Derivations**:\
+- **Fixed-Output Derivations**:  
   For packages that fetch remote sources, Nix uses "fixed-output derivations" to ensure reproducibility. A fixed-output derivation checks the hash of the downloaded source code, preventing issues where the content of a remote file might change over time.
 
 ## Building and Installing Nix Packages

@@ -3,9 +3,9 @@
 The actor model is a conceptual model to deal with concurrent computation. It defines some general rules for how the system's components should behave and interact with each other. In the actor model, everything is an actor. An actor is a computational entity that, in response to a message it receives, can concurrently:
 
 1. Make local decisions.
-1. Create more actors.
-1. Send more messages.
-1. Determine how to respond to the next message received.
+2. Create more actors.
+3. Send more messages.
+4. Determine how to respond to the next message received.
 
 Actors can modify their own private state, but they cannot directly affect the state of other actors, making this model a powerful tool for designing and implementing systems that operate concurrently or in a distributed manner.
 
@@ -85,5 +85,5 @@ When working with the actor model in Python (and choosing or developing an Actor
 ## References
 
 - **43 years of actors: a taxonomy of actor models and their key properties** (2016)
-  The Actor Model is a message passing concurrency model that was originally proposed by Hewitt et al. in 1973. It is now 43 years later and since then researchers have explored a plethora of variations on this model. This paper presents a history of the Actor Model throughout those years. The goal of this paper is not to provide an exhaustive overview of every actor system in existence but rather to give an overview of some of the exemplar languages and libraries that influenced the design and rationale of other actor sys- tems throughout those years. This paper therefore shows that most actor systems can be roughly classified into four families, namely: Classic Actors, Active Objects, Processes and Communicating Event-Loops.
-  http://soft.vub.ac.be/Publications/2016/vub-soft-tr-16-11.pdf
+    The Actor Model is a message passing concurrency model that was originally proposed by Hewitt et al. in 1973. It is now 43 years later and since then researchers have explored a plethora of variations on this model. This paper presents a history of the Actor Model throughout those years. The goal of this paper is not to provide an exhaustive overview of every actor system in existence but rather to give an overview of some of the exemplar languages and libraries that influenced the design and rationale of other actor sys- tems throughout those years. This paper therefore shows that most actor systems can be roughly classified into four families, namely: Classic Actors, Active Objects, Processes and Communicating Event-Loops.
+    http://soft.vub.ac.be/Publications/2016/vub-soft-tr-16-11.pdf

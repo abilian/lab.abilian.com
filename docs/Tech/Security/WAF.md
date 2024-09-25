@@ -18,6 +18,7 @@ https://github.com/corazawaf/coraza.git "OWASP Coraza WAF is a golang modsecurit
 
 > Coraza is an open source, enterprise-grade, high performance Web Application Firewall (WAF) ready to protect your beloved applications. It is written in Go, supports ModSecurity SecLang rulesets and is 100% compatible with the OWASP Core Rule Set v4.
 
+
 https://securitypilgrim.com/top-30-free-open-source-tools/#Web_Application_Firewalls_WAF ➜ lists 3 solutions below
 
 ### ModSecurity (5.4k★)
@@ -25,7 +26,6 @@ https://securitypilgrim.com/top-30-free-open-source-tools/#Web_Application_Firew
 https://github.com/SpiderLabs/ModSecurity "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx that is developed by Trustwave's SpiderLabs. It has a robust event-based programming language which provides protection from a range of attacks against web applications and allows for HTTP traffic monitoring, logging and real-time analys…"
 
 https://owasp.org/blog/2024/01/09/ModSecurity.html
-
 > After serving as its steward for over a decade, [Trustwave](https://www.trustwave.com) has agreed to transfer the reins of the renowned open-source web application firewall (WAF) engine, ModSecurity, to the [Open Worldwide Application Security Project (OWASP)](https://owasp.org). This landmark move promises to inject fresh energy and perspectives into the project, ensuring its continued evolution as a vital line of defense for countless websites worldwide.
 
 ### Shadow Daemon (250★)
@@ -56,4 +56,4 @@ Discussion here: https://ziade.org/2014/10/24/web-application-firewall/
 ## Ressources
 
 - "2022 Cloud Web Application Firewall (WAF) CyberRisk Validation Comparative Report"
-- https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/
+- https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/ 

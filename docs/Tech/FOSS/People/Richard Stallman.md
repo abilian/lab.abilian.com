@@ -2,10 +2,10 @@ Richard Stallman, often referred to as RMS, is an influential figure in the worl
 
 The Free Software Definition embodies Stallman's philosophy on software freedom. It outlines the four essential freedoms that he believes are crucial for creating a thriving software community:
 
-1. Freedom 0: The freedom to run the software as you wish, for any purpose.
-1. Freedom 1: The freedom to help yourself by studying and changing the source code, thus enabling the user to understand and modify the software.
-1. Freedom 2: The freedom to help your neighbor by copying and distributing the software, ensuring that it remains accessible to all.
-1. Freedom 3: The freedom to help your community by creating and distributing modified versions of the software, which allows for innovation and adaptation.
+1.  Freedom 0: The freedom to run the software as you wish, for any purpose.
+2.  Freedom 1: The freedom to help yourself by studying and changing the source code, thus enabling the user to understand and modify the software.
+3.  Freedom 2: The freedom to help your neighbor by copying and distributing the software, ensuring that it remains accessible to all.
+4.  Freedom 3: The freedom to help your community by creating and distributing modified versions of the software, which allows for innovation and adaptation.
 
 (Freedom 0 is actually called like this because it was initially thought as unnecessary, but was eventually added)
 
@@ -29,10 +29,11 @@ In summary, Richard Stallman appreciates the open source movement's contribution
 
 Some of the controversies surrounding Stallman include:
 
-1. **Personal conduct and communication style**: Stallman is known for his strong opinions and uncompromising stance on various topics, which has led to disagreements and clashes within the free software community. Critics argue that his communication style can be abrasive and off-putting, potentially alienating potential allies and hindering the growth of the movement.
+1.  **Personal conduct and communication style**: Stallman is known for his strong opinions and uncompromising stance on various topics, which has led to disagreements and clashes within the free software community. Critics argue that his communication style can be abrasive and off-putting, potentially alienating potential allies and hindering the growth of the movement.
+    
+2.  **Comments on Marvin Minsky and Jeffrey Epstein**: In 2019, Stallman faced significant backlash for his comments on a mailing list discussion related to Marvin Minsky, a pioneer in artificial intelligence, and his alleged involvement with Jeffrey Epstein's sex trafficking victims. Stallman questioned the use of the term "sexual assault" in the context of Minsky's actions, which many found inappropriate and insensitive. As a result of the controversy, Stallman resigned from his positions at MIT and the Free Software Foundation.
+    
+3.  **Views on pedophilia and child pornography**: Stallman has made controversial statements on the topic of pedophilia and child pornography in the past, arguing for the decriminalization of possession of child pornography and suggesting that some forms of pedophilia might not cause harm. These statements have been widely criticized, with many people finding them disturbing and morally repugnant.
 
-1. **Comments on Marvin Minsky and Jeffrey Epstein**: In 2019, Stallman faced significant backlash for his comments on a mailing list discussion related to Marvin Minsky, a pioneer in artificial intelligence, and his alleged involvement with Jeffrey Epstein's sex trafficking victims. Stallman questioned the use of the term "sexual assault" in the context of Minsky's actions, which many found inappropriate and insensitive. As a result of the controversy, Stallman resigned from his positions at MIT and the Free Software Foundation.
-
-1. **Views on pedophilia and child pornography**: Stallman has made controversial statements on the topic of pedophilia and child pornography in the past, arguing for the decriminalization of possession of child pornography and suggesting that some forms of pedophilia might not cause harm. These statements have been widely criticized, with many people finding them disturbing and morally repugnant.
 
 Despite these controversies, Stallman has undeniably had a significant impact on the free software movement and has contributed to raising awareness about software freedom and digital rights.

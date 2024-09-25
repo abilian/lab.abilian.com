@@ -1,7 +1,6 @@
 Stefane Fermigier, 16 jul. 2020.
 
 ## Tests
-
 Cf. [HackerGuide · cython/cython Wiki · GitHub](https://github.com/cython/cython/wiki/HackerGuide#tests).
 
 Tests are run using the `runtests.py` script. A test run takes between 15 and 20 minutes on a decent machine.
@@ -19,17 +18,17 @@ FAILED tests/run/test_grammar.py::GrammarTests::test_funcdef - AssertionError...
 ============ 4 failed, 159 passed, 12 skipped, 42 warnings in 4.42s ============
 ```
 
+
 ### Proposals
 
 1. Update `tox.ini` to be on par with the current version of `.travis.yml`,  then simplify the Travis config to rely on Tox, using the `tox-travis` plugin, to remove duplication.
-1. Split the test suite.
+2. Split the test suite.
 
-______________________________________________________________________
+---
 
 ## Code style and linters
+The Cython code doesn’t adhere to PEP8. 
 
-The Cython code doesn’t adhere to PEP8.
 
 ### Proposals
-
 1. Run `black` on the code base.

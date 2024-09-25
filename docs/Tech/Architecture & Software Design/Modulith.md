@@ -1,4 +1,4 @@
-Modulith (or Modular Monolith) architecture is an architectural style that structures an application as a collection of modules. This concept is particularly relevant in the context of large and complex systems, where managing dependencies and ensuring maintainability can be challenging.
+Modulith (or Modular Monolith) architecture is an architectural style that structures an application as a collection of modules. This concept is particularly relevant in the context of large and complex systems, where managing dependencies and ensuring maintainability can be challenging. 
 
 A modulithic approach aims to balance the benefits of modularization—such as improved code organization, better separation of concerns, and enhanced scalability—while avoiding some of the operational complexities often associated with microservices architectures.
 
@@ -6,13 +6,13 @@ A modulithic approach aims to balance the benefits of modularization—such as i
 
 1. **Strong Module Boundaries:** Each module in a modulithic system is designed to encapsulate a specific business capability or domain concept. These modules communicate with each other through well-defined interfaces, minimizing tight coupling and enhancing the system's modularity.
 
-1. **Shared Runtime Environment:** Unlike microservices, where each service runs in its own environment, modules in a modulithic architecture share a single runtime environment. This can simplify deployment and operational concerns, as there is only one application to deploy and monitor.
+2. **Shared Runtime Environment:** Unlike microservices, where each service runs in its own environment, modules in a modulithic architecture share a single runtime environment. This can simplify deployment and operational concerns, as there is only one application to deploy and monitor.
 
-1. **Internal Dependency Management:** Modulith architecture emphasizes the importance of managing dependencies between modules effectively. This can involve techniques like inversion of control (IoC) and event-driven communication to keep modules decoupled.
+3. **Internal Dependency Management:** Modulith architecture emphasizes the importance of managing dependencies between modules effectively. This can involve techniques like inversion of control (IoC) and event-driven communication to keep modules decoupled.
 
-1. **Scalability within a Single Process:** While moduliths run as a single application, they can still scale by leveraging modern hardware and cloud infrastructure. This is achieved through horizontal scaling of the application instances and efficient use of resources within the shared runtime.
+4. **Scalability within a Single Process:** While moduliths run as a single application, they can still scale by leveraging modern hardware and cloud infrastructure. This is achieved through horizontal scaling of the application instances and efficient use of resources within the shared runtime.
 
-1. **Evolutionary Design:** Modulith architecture supports an evolutionary approach to software design, allowing teams to refactor and reorganize modules as the application and its requirements evolve over time.
+5. **Evolutionary Design:** Modulith architecture supports an evolutionary approach to software design, allowing teams to refactor and reorganize modules as the application and its requirements evolve over time.
 
 ## Modulith Architecture Advantages
 
@@ -82,7 +82,6 @@ The choice largely hinges on your comfort level with coupling and the specific d
 ## Moduliths and Web Apps: the HAM stack
 
 The HAM ("Hypermedia on a Modulith") Stack philosophy offers a refreshing and pragmatic approach to building web applications by emphasizing simplicity, scalability, and flexibility. By focusing on Hypermedia for the frontend and a Modulith architecture for the backend, it proposes a balanced framework that leverages the strengths of both concepts while mitigating common pitfalls associated with more complex or distributed systems.
-
 ### Hypermedia
 
 The choice of Hypermedia as the foundation for the frontend is grounded in the universal reach and compatibility of the web. The web, through Hypermedia, connects humanity in unprecedented ways, offering a platform that is inherently cross-platform and accessible. This layer prioritizes:

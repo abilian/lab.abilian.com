@@ -3,14 +3,13 @@ Prefect is a modern workflow management system designed to help you build, sched
 ## Key features
 
 1. **Hybrid execution model**: Prefect combines the benefits of a centralized server for monitoring and management with decentralized execution. This means that your tasks run on separate infrastructure, which can help with scaling, security, and resource management.
-1. **Dynamic pipelines**: Prefect allows you to create dynamic pipelines that can change during runtime, making it easier to handle complex dependencies, conditional logic, and error handling.
-1. **First-class support for failures:** Prefect has built-in support for retries, timeouts, and error handling, which makes it easier to build resilient workflows.
-1. **Modern UI**: Prefect comes with a modern, intuitive web-based UI for monitoring and managing your workflows, as well as a GraphQL API for programmatic access.
+2. **Dynamic pipelines**: Prefect allows you to create dynamic pipelines that can change during runtime, making it easier to handle complex dependencies, conditional logic, and error handling.
+3. **First-class support for failures:** Prefect has built-in support for retries, timeouts, and error handling, which makes it easier to build resilient workflows.
+5. **Modern UI**: Prefect comes with a modern, intuitive web-based UI for monitoring and managing your workflows, as well as a GraphQL API for programmatic access.
 
 ## Installation
 
 To install Prefect, use the following command:
-
 ```
 pip install prefect
 ```

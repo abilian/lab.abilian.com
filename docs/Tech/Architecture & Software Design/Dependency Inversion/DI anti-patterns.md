@@ -1,3 +1,4 @@
+
 "An anti-pattern is a commonly occurring solution to a problem, which generates decidedly negative consequences, although other documented solutions that prove to be more effective are available."
 
 ## Control Freak
@@ -19,9 +20,9 @@ The service locator pattern can be an anti-pattern in DI when it's used as a mec
 This anti-pattern can lead to several issues:
 
 - **Tight Coupling**: Classes become tightly coupled to the specific DI container, making it harder to change or replace the container later on.
-
+  
 - **Hidden Dependencies**: By fetching dependencies from the container directly, the class hides its dependencies, making them implicit rather than explicit. This can make the code more difficult to understand and maintain.
-
+  
 - **Difficulties in Testing**: It becomes harder to test classes that use the service locator pattern since you have to mock the service locator and its behavior, rather than simply injecting mock dependencies.
 
 The recommended approach is to use constructor injection, property injection, or method injection to pass dependencies to a class. This way, the class doesn't need to know about the existence of a container, leading to more maintainable and testable code.
@@ -64,19 +65,19 @@ There are scenarios where depending directly on concrete implementations can be 
 
 1. **Simple Applications**: In a small or simple application where the overhead of creating abstractions might not be justified, directly using concrete classes can be more straightforward and less over-engineered.
 
-1. **Prototyping**: When rapidly prototyping an application, it might be more efficient to use concrete implementations to get immediate feedback without the upfront cost of designing abstractions.
+2. **Prototyping**: When rapidly prototyping an application, it might be more efficient to use concrete implementations to get immediate feedback without the upfront cost of designing abstractions.
 
-1. **No Anticipated Changes**: If a particular implementation is stable and there are no foreseeable reasons why it would need to be swapped out or its behavior changed, then the additional abstraction layer could be unnecessary.
+3. **No Anticipated Changes**: If a particular implementation is stable and there are no foreseeable reasons why it would need to be swapped out or its behavior changed, then the additional abstraction layer could be unnecessary.
 
-1. **Performance Concerns**: In performance-critical paths of an application, the slight overhead of calling through an abstraction can sometimes be a valid concern, and direct implementation can be warranted.
+4. **Performance Concerns**: In performance-critical paths of an application, the slight overhead of calling through an abstraction can sometimes be a valid concern, and direct implementation can be warranted.
 
-1. **Framework or Language Limitations**: Some programming languages or frameworks make it cumbersome to use abstractions for certain types of dependencies, such as UI components in certain desktop or mobile frameworks.
+5. **Framework or Language Limitations**: Some programming languages or frameworks make it cumbersome to use abstractions for certain types of dependencies, such as UI components in certain desktop or mobile frameworks.
 
-1. **Specific Functionality**: When a dependency provides a specific functionality that is unlikely to have different implementations, using a concrete class may make sense.
+6. **Specific Functionality**: When a dependency provides a specific functionality that is unlikely to have different implementations, using a concrete class may make sense.
 
-1. **Domain-Driven Design (DDD)**: In DDD, the focus is on the domain model, which can sometimes lead to using concrete entities and value objects directly because they represent domain concepts rather than interchangeable components.
+7. **Domain-Driven Design (DDD)**: In DDD, the focus is on the domain model, which can sometimes lead to using concrete entities and value objects directly because they represent domain concepts rather than interchangeable components.
 
-1. **Final Classes**: Some classes are designed to be final or non-inheritable. In such cases, if the design is solid and the use case is clear, it may be acceptable to depend on the concrete class.
+8. **Final Classes**: Some classes are designed to be final or non-inheritable. In such cases, if the design is solid and the use case is clear, it may be acceptable to depend on the concrete class.
 
 It's essential to consider the trade-offs when choosing between abstractions and concrete implementations. While abstractions can provide flexibility and maintainability, they also introduce complexity and indirection. The key is to apply the principle judiciously, abstracting only when it provides tangible benefits and aligns with the application's goals and constraints.
 
@@ -106,9 +107,10 @@ Reliance on extensive use of annotations or attributes to drive DI behavior can 
 
 ## Summary
 
-In all cases, the underlying issue is a deviation from the core principles of DI, which are to manage dependencies in a way that promotes loose coupling, maintainability, and testability. These anti-patterns usually emerge from a lack of understanding of these principles or from attempts to take shortcuts in design and implementation.
+In all cases, the underlying issue is a deviation from the core principles of DI, which are to manage dependencies in a way that promotes loose coupling, maintainability, and testability. These anti-patterns usually emerge from a lack of understanding of these principles or from attempts to take shortcuts in design and implementation. 
 
 A common theme is taking control away from the DI container. **The recommended approach is to rely on the DI container to manage object creation and dependency resolution, keeping classes focused on their primary responsibilities and making them agnostic of the larger application's configuration and lifecycle management.**
+
 
 ## References
 

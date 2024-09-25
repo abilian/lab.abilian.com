@@ -1,7 +1,6 @@
 ## JavaScript / Front-End
 
-XState:
-
+XState: 
 - https://www.youtube.com/watch?v=VU1NKX6Qkxc
 
 ## Python / Django

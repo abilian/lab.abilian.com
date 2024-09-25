@@ -1,3 +1,4 @@
+
 ## Intro
 
 https://medium.com/identity-beyond-borders/a-beginners-guide-to-xacml-6dc75b547d55
@@ -11,11 +12,10 @@ https://en.wikipedia.org/wiki/Abbreviated_Language_for_Authorization
 
 ## Research
 
-https://www.researchgate.net/publication/339352934_PEP4Django\_-\_A_Policy_Enforcement_Point_for_Python_Web_Applications
+https://www.researchgate.net/publication/339352934_PEP4Django_-_A_Policy_Enforcement_Point_for_Python_Web_Applications
 https://www.researchgate.net/publication/315638965_A_Systematic_Approach_to_Implementing_ABAC
 
 ## Projects
-
 ### Vakt
 
 https://github.com/kolotaev/vakt

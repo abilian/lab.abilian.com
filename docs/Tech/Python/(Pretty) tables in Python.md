@@ -1,8 +1,10 @@
+
 Here are three packages that can create and format text (aka "ASCII") tables in Python:
 
 1. [**tabulate**](https://pypi.org/project/tabulate/): tabulate is a library for formatting and printing tables in Python. It can create tables from a variety of data sources, including lists, tuples, and dictionaries.
-1. [**PrettyTable**](https://pypi.org/project/prettytable/): a simple library to create ASCII tables in Python. It can create tables from a variety of data sources, including lists, dictionaries, and CSV files.
-1. [**Texttable**](https://pypi.org/project/texttable/): a library for creating ASCII tables in Python. It supports a wide range of formatting options, including alignment, padding, and border styles.
+2. [**PrettyTable**](https://pypi.org/project/prettytable/): a simple library to create ASCII tables in Python. It can create tables from a variety of data sources, including lists, dictionaries, and CSV files.
+3. [**Texttable**](https://pypi.org/project/texttable/): a library for creating ASCII tables in Python. It supports a wide range of formatting options, including alignment, padding, and border styles.
+
 
 Additionally:
 
@@ -10,6 +12,7 @@ Additionally:
 - [**Pandas**](https://pandas.pydata.org/) can be used to create and manipulate tables. It provides a lot of options for formatting and printing tables, including HTML and LaTeX output. But it is a large piece of software and shouldn't be imported just for its table-printing abilities.
 - [**Tablib**](https://pypi.org/project/tablib/) is a Python library for working with tabular data, such as spreadsheets or CSV files. It provides a flexible data container called `Dataset` that can be used to store and manipulate tabular data in memory, as well as a variety of tools for importing, exporting, and transforming data between different formats and sources.
 - https://pypi.org/project/terminaltables/ = Generate simple tables in terminals from a nested list of strings.
+
 
 ## Tabulate usage
 
@@ -50,6 +53,7 @@ Bob      45  Male
 ```
 
 You can also customize the formatting of the table by setting various parameters of the `tabulate()` function, such as the alignment of columns, the table border style, and the table format (e.g., "plain", "simple", "grid", "pipe", "orgtbl", "jira", "presto", "fancy_grid", "github", "mediawiki", "moinmoin", "latex", "latex_booktabs", "tsv", etc.). For more information, you can refer to the official documentation of the library.
+
 
 ## PrettyTable usage
 
@@ -96,6 +100,7 @@ This will output the following table:
 ```
 
 You can customize the formatting of the table by setting various properties of the `PrettyTable` object, such as the alignment of columns, the border style, and the header style. For more information, you can refer to the official documentation of the library.
+
 
 ## Texttable usage
 

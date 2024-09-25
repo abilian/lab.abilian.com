@@ -1,4 +1,4 @@
-#web
+#web 
 
 Doc: https://www.neoteroi.dev/blacksheep/
 
@@ -9,10 +9,8 @@ Inspired by .NET.Core
 Uses a DI framework call rodi.
 
 Pros:
-
 - Seems fast and API seems clean.
 
 Cons:
-
 - No ORM integration
 - No cookiecutter template

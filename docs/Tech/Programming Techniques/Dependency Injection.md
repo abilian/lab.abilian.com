@@ -5,7 +5,6 @@ Dependency Injection (DI) is a fundamental concept in modern software design, pr
 - https://github.com/sfermigier/awesome-dependency-injection-in-python
 
 Sample APIs: [[Examples of DI API in Python]]
-
 ## In Java
 
 - https://rskupnik.github.io/dependency-injection-in-pet-project-dagger2

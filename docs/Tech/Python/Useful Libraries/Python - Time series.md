@@ -1,4 +1,4 @@
-#public
+#public 
 
 Time series analysis is a critical method used in many industries such as finance, economics, ecology, and physical sciences. Time series data are essentially a sequence of data points indexed (or listed, or graphed) in time order. Analysis of time series is essential to understand the underlying sequence pattern, predict future trends, and make informed decisions.
 
@@ -10,15 +10,15 @@ Python offers multiple libraries for efficient time series analysis, including:
 
 1. **[Pandas](https://pandas.pydata.org/)**: A foundational Python library for data analysis and manipulation. It provides data structures and functions needed to manipulate structured data, including functionality for manipulating numerical tables and time series data.
 
-1. **[Numpy](https://numpy.org/)**: A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+2. **[Numpy](https://numpy.org/)**: A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
-1. **[Matplotlib](https://matplotlib.org/)**: A plotting library used for 2D graphics in Python. It can be used to create scatter plots, bar plots, histograms, and much more.
+3. **[Matplotlib](https://matplotlib.org/)**: A plotting library used for 2D graphics in Python. It can be used to create scatter plots, bar plots, histograms, and much more.
 
-1. **[Statsmodels](https://www.statsmodels.org/stable/index.html)**: A library built specifically for statistics. It is built on top of NumPy, SciPy, and matplotlib and provides the functionality to explore data, estimate statistical models, and perform statistical tests.
+4. **[Statsmodels](https://www.statsmodels.org/stable/index.html)**: A library built specifically for statistics. It is built on top of NumPy, SciPy, and matplotlib and provides the functionality to explore data, estimate statistical models, and perform statistical tests.
 
-1. **[SciKit-Learn](https://scikit-learn.org/stable/)**: One of the most widely used machine learning libraries in Python, it provides simple and efficient tools for data analysis and modeling.
+5. **[SciKit-Learn](https://scikit-learn.org/stable/)**: One of the most widely used machine learning libraries in Python, it provides simple and efficient tools for data analysis and modeling.
 
-1. **[Prophet](https://facebook.github.io/prophet/)**: A powerful library for time series forecasting developed by Facebook. It is designed to handle the common features of business time series, such as seasonality and holidays.
+6. **[Prophet](https://facebook.github.io/prophet/)**: A powerful library for time series forecasting developed by Facebook. It is designed to handle the common features of business time series, such as seasonality and holidays.
 
 ## Example
 
@@ -149,9 +149,10 @@ model.fit(X, y, epochs=200, verbose=0)
 
 This code is very similar to the LSTM example. We just replace the LSTM layer with a GRU layer.
 
+
 ## References
 
 - [[Time series databases]]
 - https://www.timescale.com/blog/how-to-work-with-time-series-in-python/
 
-#time-series #python #machine-learning
+#time-series #python #machine-learning 

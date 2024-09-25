@@ -120,4 +120,4 @@ Inamori’s success and influence were so significant that, even in retirement, 
 
 The Inamori Method represents a profound shift in how companies can be managed—emphasizing ethical leadership, employee empowerment, and shared values as the cornerstones of long-term success.
 
-Despite being developed over 60 years ago, the Inamori Method remains highly relevant for contemporary businesses seeking to transition from traditional hierarchical management to distributed governance models based on subsidiarity rather than mere subordination.
+Despite being developed over 60 years ago, the Inamori Method remains highly relevant for contemporary businesses seeking to transition from traditional hierarchical management to distributed governance models based on subsidiarity rather than mere subordination. 

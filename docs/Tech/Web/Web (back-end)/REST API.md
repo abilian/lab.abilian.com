@@ -1,15 +1,14 @@
 ## REST-based protocols
 
-- HAL (http://tools.ietf.org/html/draft-kelly-json-hal-07)
-  - https://halogen.readthedocs.io/en/latest/
-- JSON API (http://jsonapi.org/)
-- Restful Objects (http://www.restfulobjects.org/)
-- “collection.document+json”  (http://cdoc.io/)
-- “collection+json” (http://amundsen.com/media-types/collection/)
-- OData ( [www.odata.org](http://www.odata.org) ), soutenu par Microsoft et SAP…
-
-* http://www.hydra-cg.com/spec/latest/core/#hydra-at-a-glance
-* https://github.com/JornWildt/Mason
+* HAL (http://tools.ietf.org/html/draft-kelly-json-hal-07)
+	* https://halogen.readthedocs.io/en/latest/
+* JSON API (http://jsonapi.org/)
+* Restful Objects (http://www.restfulobjects.org/)
+* “collection.document+json”  (http://cdoc.io/)
+* “collection+json” (http://amundsen.com/media-types/collection/)
+* OData ( [www.odata.org](http://www.odata.org) ), soutenu par Microsoft et SAP…
+- http://www.hydra-cg.com/spec/latest/core/#hydra-at-a-glance
+- https://github.com/JornWildt/Mason
 
 ## Alternatives (not REST)
 
@@ -22,12 +21,12 @@ https://www.fabernovel.com/en/article/tech-en/which-technologies-should-you-use-
 
 From: https://www.nginx.com/blog/building-your-api-for-longevity-best-practices/
 
-- The first is [HAL](https://en.wikipedia.org/wiki/Hypertext_Application_Language), which is a very popular specification. \[The IETF draft is [JSON Hypertext Application Language](https://tools.ietf.org/html/draft-kelly-json-hal-08).\]
-- The second one is [JSON‑LD](https://www.w3.org/TR/json-ld/), which is a W3C standard but was really designed for linking definitions between databases. I’d actually avoid using that one.
-- [JSON API](https://jsonapi.org/) is a very popular hypermedia format which I highly recommend.
-- [Collection+JSON](http://amundsen.com/media-types/collection/) was one of the original ones created by Mike Amundsen. It’s a great specification, but I would still lean towards HAL or JSON API.
-- Siren is actually really interesting in that it went a different direction. Siren has foreign properties, class properties, and entity properties, and it’s action‑driven.
-- Then there’s [CPHL](https://github.com/mikestowe/CPHL). I put the asterisk on because I made it. It’s also action‑driven.
+-   The first is [HAL](https://en.wikipedia.org/wiki/Hypertext_Application_Language), which is a very popular specification. \[The IETF draft is [JSON Hypertext Application Language](https://tools.ietf.org/html/draft-kelly-json-hal-08).\]
+-   The second one is [JSON‑LD](https://www.w3.org/TR/json-ld/), which is a W3C standard but was really designed for linking definitions between databases. I’d actually avoid using that one.
+-   [JSON API](https://jsonapi.org/) is a very popular hypermedia format which I highly recommend.
+-   [Collection+JSON](http://amundsen.com/media-types/collection/) was one of the original ones created by Mike Amundsen. It’s a great specification, but I would still lean towards HAL or JSON API.
+-   Siren is actually really interesting in that it went a different direction. Siren has foreign properties, class properties, and entity properties, and it’s action‑driven.
+-   Then there’s [CPHL](https://github.com/mikestowe/CPHL). I put the asterisk on because I made it. It’s also action‑driven.
 
 ## Best practices
 
@@ -41,11 +40,11 @@ Here are the 4 main types of resources:
 
 1. **Document Resources**: These are single instances of a resource, typically represented as a single entity or object. For example, a specific user or a particular blog post can be a document resource. Each document resource can be accessed by a unique URI.
 
-1. **Collection Resources**: These resources represent a list or collection of child resources that are of the same type. For instance, you might have a collection resource for "users" or "blog posts". A collection resource is also accessed via its own URI, and from there, individual items in the collection can be accessed, manipulated, or added.
+2. **Collection Resources**: These resources represent a list or collection of child resources that are of the same type. For instance, you might have a collection resource for "users" or "blog posts". A collection resource is also accessed via its own URI, and from there, individual items in the collection can be accessed, manipulated, or added.
 
-1. **Store Resources**: Similar to collection resources, store resources are containers of other resources and allow the client to both add and remove items. However, the key difference is that in a store, the client may have more control over the identity (URI) of the stored resources. For example, a photo storage service where the client can determine the file names and paths.
+3. **Store Resources**: Similar to collection resources, store resources are containers of other resources and allow the client to both add and remove items. However, the key difference is that in a store, the client may have more control over the identity (URI) of the stored resources. For example, a photo storage service where the client can determine the file names and paths.
 
-1. **Controller Resources**: These are executable or actionable resources that perform tasks or functions when invoked. They don't necessarily correspond directly to a data entity but rather represent operations that can be performed. Examples include a resource to resend an email verification or process a payment. These resources are often mapped to functions and procedures on the server-side.
+4. **Controller Resources**: These are executable or actionable resources that perform tasks or functions when invoked. They don't necessarily correspond directly to a data entity but rather represent operations that can be performed. Examples include a resource to resend an email verification or process a payment. These resources are often mapped to functions and procedures on the server-side.
 
 **Hierarchical Resources**: Sometimes, resources are structured in a hierarchical manner where a resource is a parent to one or more child resources. This hierarchical relationship is reflected in the URI structure. For example, accessing a specific blog post (`/blogs/123/posts/456`) where `blogs` is a collection resource, `123` is a specific blog, and `posts/456` represents a specific post within that blog.
 
@@ -56,20 +55,16 @@ Document resources are a foundational concept representing individual instances 
 #### Characteristics
 
 1. **Unique Identity**:
-
    - Each document resource is uniquely identifiable through a URI (Uniform Resource Identifier). This unique identifier allows clients to interact directly with a specific instance of a resource, ensuring that operations like GET, PUT, DELETE, and POST (if applicable) are performed on this exact entity.
 
-1. **Self-contained**:
-
+2. **Self-contained**:
    - A document resource is self-contained, meaning it includes all the data needed to represent the resource in its entirety. This does not preclude linking to other resources but indicates that the resource can be understood and manipulated as a standalone unit.
 
-1. **State Representation**:
-
+3. **State Representation**:
    - Document resources are representations of the state of an entity at a particular point in time. When a client fetches a document resource, they receive a snapshot of that resource's state, encapsulated in formats such as JSON or XML.
 
-1. **Lifecycle Operations**:
-
-   - Typical operations on document resources align with the standard HTTP methods:
+4. **Lifecycle Operations**:
+   - Typical operations on document resources align with the standard HTTP methods: 
      - **GET** to retrieve the resource.
      - **PUT** or **PATCH** to update the resource (PUT for replacing the resource entirely, PATCH for partial updates).
      - **DELETE** to remove the resource.
@@ -78,15 +73,12 @@ Document resources are a foundational concept representing individual instances 
 #### Example Use Cases
 
 1. **User Profiles**:
-
    - A typical example of a document resource in a social media API would be a user profile accessible through a URI like `/users/{userId}`. Clients can retrieve a user's profile, update it, or delete it, each operation corresponding to a specific HTTP method.
 
-1. **Product Details**:
-
+2. **Product Details**:
    - In an e-commerce API, each product might be represented as a document resource with a URI like `/products/{productId}`. This allows for detailed management of individual product entries.
 
-1. **Configuration Settings**:
-
+3. **Configuration Settings**:
    - Individual configuration settings or system preferences can also be treated as document resources, where each setting is accessible and modifiable via its own unique URI.
 
 #### Design Considerations
@@ -108,36 +100,29 @@ Collection resources represent a group or list of items that are of the same typ
 #### Characteristics
 
 1. **Grouping of Similar Entities**:
-
    - Collection resources group similar entities together under a common umbrella. Each item within the collection typically represents an individual document resource.
 
-1. **Uniform Interface**:
-
+2. **Uniform Interface**:
    - Like all REST resources, collection resources are manipulated through standard HTTP methods. For example:
      - **GET** to retrieve the entire collection or a subset of items within it.
      - **POST** to add a new item to the collection.
      - **PUT** or **DELETE** might not typically apply to the entire collection in standard practices but could be used in specific contexts (like replacing or deleting multiple resources at once if the API design allows it).
 
-1. **Identifiable by URIs**:
-
+3. **Identifiable by URIs**:
    - Each collection has a unique URI which clients use to interact with it. Items within the collection can also be accessed by appending the item identifier to the collection’s URI (e.g., `/items/{itemId}`).
 
-1. **Scalable Interaction**:
-
+4. **Scalable Interaction**:
    - APIs should provide mechanisms to efficiently interact with large collections, such as pagination, filtering, and sorting. This allows clients to request subsets of data, manage data retrieval effectively, and interact with large data sets without performance degradation.
 
 #### Example Use Cases
 
 1. **Users List**:
-
    - An API managing user data might have a collection resource accessible via `/users` that lists all users. A `GET` request to this endpoint would retrieve the list of users, while a `POST` request with a user object would add a new user to the system.
 
-1. **Product Catalog**:
-
+2. **Product Catalog**:
    - For an e-commerce platform, `/products` might represent the collection of all products available for sale. Clients can retrieve all products or post a new product to this collection.
 
-1. **Blog Posts**:
-
+3. **Blog Posts**:
    - A blogging platform could use `/posts` as a collection resource to manage blog posts. The collection supports operations such as retrieving all posts and adding new posts.
 
 #### Design Considerations
@@ -157,29 +142,23 @@ Store resources behave like a repository or container for other resources. This 
 #### Characteristics
 
 1. **Client-Assigned Identifiers**:
-
    - In most RESTful designs, the server typically assigns resource identifiers automatically (like auto-incrementing IDs or UUIDs). However, in a store resource scenario, clients can specify the identifier when they create a new resource. This is common in scenarios where the resource identifier needs to be predictable or meaningful, such as user-defined filenames in a storage API.
 
-1. **Resource Management**:
-
+2. **Resource Management**:
    - Clients have the capability to add, remove, and update resources within the store. This is similar to a collection, but with the added capability that clients often manage the existence of these resources directly.
 
-1. **Independent Lifecycle**:
-
+3. **Independent Lifecycle**:
    - Each resource within a store can have its own lifecycle, independent of others in the same store. For example, in a file storage API, each file can be created, modified, and deleted independently.
 
 #### Example Use Cases
 
 1. **File Storage Services**:
-
    - An API that allows users to upload, retrieve, and manage files. Users can specify file names (identifiers) when uploading files, and these names are used to access the files later. The API endpoint might look like `PUT /files/{filename}` for uploading or updating a file and `GET /files/{filename}` to retrieve it.
 
-1. **Customizable Data Stores**:
-
+2. **Customizable Data Stores**:
    - APIs that allow users to define their data structures or schemas, such as a database service where users can create tables with specific names and access them directly via the API. The API might allow users to perform operations like `POST /databases/{dbname}/tables/{tablename}` to create a new table.
 
-1. **Configuration Settings**:
-
+3. **Configuration Settings**:
    - An API where clients can store and retrieve configuration settings by key. Each setting can be accessed through a unique key provided by the client, such as `GET /settings/{key}` to fetch a setting and `PUT /settings/{key}` to update or create a setting.
 
 #### Design Considerations
@@ -197,39 +176,32 @@ Controller resources encapsulate operations or actions rather than data entities
 #### Characteristics
 
 1. **Action-Oriented**:
-
    - Controller resources are typically designed to perform specific actions or operations. These resources often represent procedural concepts or functions rather than data.
 
-1. **State Changes**:
-
+2. **State Changes**:
    - Invoking a controller resource usually results in a change of state or side effects in the system, such as processing a payment, changing configuration settings, or triggering a complex workflow.
 
-1. **Non-Idempotent Operations**:
-
+3. **Non-Idempotent Operations**:
    - While not exclusively so, many controller resources implement non-idempotent operations, meaning that the same operation can have different effects when executed multiple times. For example, a "restart" operation on a service may be non-idempotent.
 
-1. **URL Design**:
-
+4. **URL Design**:
    - Controller resources are often expressed as verbs or verb phrases in the API URL to clearly indicate the action being performed, e.g., `/restartServer` or `/processPayment`.
 
 #### Example Use Cases
 
 1. **Payment Processing**:
-
    - An API endpoint that triggers a payment transaction might be designed as a controller resource. For example, `POST /processPayment` could accept payment details and carry out the transaction.
 
-1. **Job or Task Management**:
-
+2. **Job or Task Management**:
    - For systems that manage long-running jobs or tasks, a controller resource might be used to start or stop these tasks. For instance, `POST /jobs/{jobId}/start` and `POST /jobs/{jobId}/stop` could control the execution of jobs.
 
-1. **Complex State Changes**:
-
+3. **Complex State Changes**:
    - In scenarios where an entity needs to undergo a complex state transition that cannot be simply described by updating fields, a controller resource might be used. For example, `POST /orders/{orderId}/cancel` could handle the specific logic required to cancel an order.
 
 ### Design Considerations
 
 - **Clear Intent**: It should be clear what action a controller resource performs, and the API should document potential side effects or state changes resulting from the action.
-
+  
 - **Security and Permissions**: Since controller resources can trigger significant changes in the system, securing these endpoints is crucial. Proper authentication and authorization mechanisms must be in place to ensure that only entitled users can execute these operations.
 
 - **Idempotency and Safety**: While many controller actions are non-idempotent, designing some controller endpoints to be idempotent when possible can improve the reliability and predictability of the API. For example, designing an activation endpoint that can be safely called multiple times without adverse effects.
