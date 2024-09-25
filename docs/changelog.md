@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-25*)
-
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-25*)
 
 - **[Xpresso](/Tech/Web/Web (back-end)/Xpresso/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-09-25*)
@@ -28,8 +26,6 @@
 
 - **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
 
-- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
-
 - **[Typography](/Tech/Web/UX-UI/Typography/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
@@ -41,8 +37,6 @@
 - **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
 
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
-
-- **[Semantic HTML](/Tech/Web/UX-UI/Semantic HTML/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
 
 - **[Search UI](/Tech/Web/UX-UI/Search UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
 
@@ -76,13 +70,9 @@
 
 - **[VPN](/Tech/VPN/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-25*)
 
-- **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
-
 - **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
 
 - **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
-
-- **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
 
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
 
@@ -134,8 +124,6 @@
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-25*)
 
-- **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-25*)
-
 - **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-25*)
 
 - **[uv](/Tech/Python/uv/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
@@ -174,8 +162,6 @@
 
 - **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
-- **[Refactor Python](/Tech/Python/Refactor Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
-
 - **[RPC in Python](/Tech/Python/RPC in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
@@ -183,8 +169,6 @@
 - **[Python project checklist](/Tech/Python/Python project checklist/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
 - **[Python packaging](/Tech/Python/Python packaging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
-
-- **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
 - **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
@@ -248,8 +232,6 @@
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
-- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-09-25*)
-
 - **[EPUB](/Tech/Publishing tools/EPUB/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-09-25*)
 
 - **[Asciidoc](/Tech/Publishing tools/Asciidoc/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-09-25*)
@@ -274,8 +256,6 @@
 
 - **[BDD](/Tech/Programming Techniques/BDD/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
 
-- **[Assertions](/Tech/Programming Techniques/Assertions/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
-
 - **[Actors](/Tech/Programming Techniques/Actors/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
 
 - **[Zig](/Tech/Programming Languages/Zig/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-09-25*)
@@ -292,22 +272,6 @@
 
 - **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-25*)
 
-- **[Systemd](/Tech/Operating Systems/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Operating Systems](/Tech/Operating Systems/Systemd/)</small> (*2024-09-25*)
-
-- **[Nix quotes](/Tech/Nix/Nix quotes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[Nix Install](/Tech/Nix/Nix Install/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[Nix Flakes](/Tech/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[Devbox](/Tech/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[Anatomy of a NixOS Service Description](/Tech/Nix/Anatomy of a NixOS Service Description/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[Anatomy of a Nix Package](/Tech/Nix/Anatomy of a Nix Package/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[00 Nix & NixOS](/Tech/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Nix](/Tech/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
 - **[UML](/Tech/Modeling/UML/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-09-25*)
 
 - **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-09-25*)
@@ -322,10 +286,6 @@
 
 - **[XMPP](/Tech/Misc/XMPP/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
 
-- **[Wikis & Knowledge bases](/Tech/Misc/Wikis & Knowledge bases/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
-- **[Video chat & conferencing](/Tech/Misc/Video chat & conferencing/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
 - **[Terminal colors](/Tech/Misc/Terminal colors/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
 
 - **[Software Heritage for Software Supply Chain](/Tech/Misc/Software Heritage for Software Supply Chain/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
@@ -334,17 +294,7 @@
 
 - **[Project management](/Tech/Misc/Project management/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
 
-- **[Palantir](/Tech/Misc/Palantir/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
-- **[Morbig](/Tech/Misc/Morbig/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
-- **[Mini and micro kanren](/Tech/Misc/Mini and micro kanren/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
 - **[Makefile tricks](/Tech/Misc/Makefile tricks/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
-- **[Digital gardening](/Tech/Misc/Digital gardening/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
-
-- **[Databases](/Tech/Misc/Databases/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
 
 - **[Darlean](/Tech/Misc/Darlean/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
 
@@ -356,11 +306,7 @@
 
 - **[Principles and Values](/Tech/FOSS/Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-09-25*)
 
-- **[Yoshai Benkler](/Tech/FOSS/People/Yoshai Benkler/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
-
 - **[Stefane Fermigier](/Tech/FOSS/People/Stefane Fermigier/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
-
-- **[Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
 
 - **[Richard Stallman](/Tech/FOSS/People/Richard Stallman/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
 
@@ -370,8 +316,6 @@
 
 - **[Free Culture (L. Lessig)](/Tech/FOSS/People/Free Culture (L. Lessig)/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
 
-- **[Eric von Hippel](/Tech/FOSS/People/Eric von Hippel/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
-
 - **[Eric Raymond](/Tech/FOSS/People/Eric Raymond/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
 
 - **[Eben Moeglen](/Tech/FOSS/People/Eben Moeglen/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
@@ -379,8 +323,6 @@
 - **[Innovation](/Tech/FOSS/Innovation/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-09-25*)
 
 - **[FOSS as a Software Development Model](/Tech/FOSS/FOSS as a Software Development Model/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-09-25*)
-
-- **[FOSS Definitions](/Tech/FOSS/FOSS Definitions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-09-25*)
 
 - **[Digital Commons](/Tech/FOSS/Digital Commons/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-09-25*)
 
@@ -408,17 +350,11 @@
 
 - **[Nomad](/Tech/Containers/Nomad/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
 
-- **[Nix and containers](/Tech/Containers/Nix and containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
-
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
-
-- **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
 
 - **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
-
-- **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
 
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
 
@@ -468,8 +404,6 @@
 
 - **[Local First](/Tech/Architecture & Software Design/Local First/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
 
-- **[ETL](/Tech/Architecture & Software Design/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
-
 - **[Examples of DI API in Python](/Tech/Architecture & Software Design/Dependency Inversion/Examples of DI API in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture & Software Design/Dependency Inversion/00 Dependency inversion/)</small> (*2024-09-25*)
 
 - **[DI patterns](/Tech/Architecture & Software Design/Dependency Inversion/DI patterns/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Dependency Inversion](/Tech/Architecture & Software Design/Dependency Inversion/00 Dependency inversion/)</small> (*2024-09-25*)
@@ -488,8 +422,6 @@
 
 - **[Domain-Driven Design](/Tech/Architecture & Software Design/DDD/Domain-Driven Design/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
 
-- **[DDD vs. CRUD](/Tech/Architecture & Software Design/DDD/DDD vs. CRUD/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
-
 - **[Business logic](/Tech/Architecture & Software Design/DDD/Business logic/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
 
 - **[Content Services](/Tech/Architecture & Software Design/Content Services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
@@ -499,8 +431,6 @@
 - **[Blockchain](/Tech/Architecture & Software Design/Blockchain/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
 
 - **[Adaptive Object Model](/Tech/Architecture & Software Design/Adaptive Object Model/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
-
-- **[Activity Streams](/Tech/Architecture & Software Design/Activity Streams/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
 
 - **[API Design](/Tech/Architecture & Software Design/API Design/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
 
@@ -520,8 +450,6 @@
 
 - **[00 Apps](/Tech/Apps/00 Apps/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-09-25*)
 
-- **[Sentence Transformers](/Tech/AI & Machine Learning/Sentence Transformers/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
-
 - **[Prompt engineering](/Tech/AI & Machine Learning/Prompt engineering/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
 - **[NLP Notes](/Tech/AI & Machine Learning/NLP Notes/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
@@ -529,8 +457,6 @@
 - **[More like this...](/Tech/AI & Machine Learning/More like this.../)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
 - **[Mirascope](/Tech/AI & Machine Learning/Mirascope/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
-
-- **[Machine Learnning Algorithms](/Tech/AI & Machine Learning/Machine Learnning Algorithms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
 - **[Machine Learning Platforms](/Tech/AI & Machine Learning/Machine Learning Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
@@ -541,8 +467,6 @@
 - **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
 - **[Knowledge Graphs and LLMs](/Tech/AI & Machine Learning/Knowledge Graphs and LLMs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
-
-- **[Deep learning](/Tech/AI & Machine Learning/Deep learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
 - **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
@@ -566,23 +490,17 @@
 
 - **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-09-25*)
 
-- **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-09-25*)
-
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-09-25*)
 
 - **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-09-25*)
 
 - **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-09-25*)
 
-- **[Monte](/Projects/Cython+/Monte/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-09-25*)
-
 - **[Benchmarks](/Projects/Cython+/Benchmarks/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-09-25*)
 
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-09-25*)
 
 - **[Giving feedback](/Business/The Abilian Way/Giving feedback/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2024-09-25*)
-
-- **[00 The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2024-09-25*)
 
 - **[How to structure a sales team](/Business/Sales/How to structure a sales team/)** in <small>[Business](/Business/00 Business/) / [Sales](/Business/Sales/00 Sales/)</small> (*2024-09-25*)
 
@@ -599,8 +517,6 @@
 - **[Outcome over output](/Business/Principles/Outcome over output/)** in <small>[Business](/Business/00 Business/) / [Principles](/Business/Principles/Outcome over output/)</small> (*2024-09-25*)
 
 - **[Retrospectives](/Business/Practices/Retrospectives/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-25*)
-
-- **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-25*)
 
 - **[OKRs](/Business/Practices/OKRs/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-25*)
 
@@ -633,8 +549,6 @@
 - **[Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
 - **[Mind Mapping](/Business/Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
-
-- **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
 - **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
@@ -669,6 +583,74 @@
 - **[Alexander Osterwalder](/Business/Authors & Leaders/Alexander Osterwalder/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-25*)
 
 - **[00 Authors](/Business/Authors & Leaders/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-25*)
+
+- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+
+- **[Semantic HTML](/Tech/Web/UX-UI/Semantic HTML/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+
+- **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+
+- **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+
+- **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-25*)
+
+- **[Refactor Python](/Tech/Python/Refactor Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
+
+- **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
+
+- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-09-25*)
+
+- **[Assertions](/Tech/Programming Techniques/Assertions/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
+
+- **[Wikis & Knowledge bases](/Tech/Misc/Wikis & Knowledge bases/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Video chat & conferencing](/Tech/Misc/Video chat & conferencing/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Palantir](/Tech/Misc/Palantir/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Morbig](/Tech/Misc/Morbig/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Mini and micro kanren](/Tech/Misc/Mini and micro kanren/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Digital gardening](/Tech/Misc/Digital gardening/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Databases](/Tech/Misc/Databases/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-09-25*)
+
+- **[Yoshai Benkler](/Tech/FOSS/People/Yoshai Benkler/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
+
+- **[Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
+
+- **[Eric von Hippel](/Tech/FOSS/People/Eric von Hippel/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-09-25*)
+
+- **[FOSS Definitions](/Tech/FOSS/FOSS Definitions/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-09-25*)
+
+- **[Nix and containers](/Tech/Containers/Nix and containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
+
+- **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
+
+- **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-09-25*)
+
+- **[ETL](/Tech/Architecture & Software Design/ETL/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
+
+- **[DDD vs. CRUD](/Tech/Architecture & Software Design/DDD/DDD vs. CRUD/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
+
+- **[Activity Streams](/Tech/Architecture & Software Design/Activity Streams/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-09-25*)
+
+- **[Sentence Transformers](/Tech/AI & Machine Learning/Sentence Transformers/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
+
+- **[Machine Learnning Algorithms](/Tech/AI & Machine Learning/Machine Learnning Algorithms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
+
+- **[Deep learning](/Tech/AI & Machine Learning/Deep learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
+
+- **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-09-25*)
+
+- **[Monte](/Projects/Cython+/Monte/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-09-25*)
+
+- **[00 The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)** in <small>[Business](/Business/00 Business/) / [The Abilian Way](/Business/The Abilian Way/00 The Abilian Way/)</small> (*2024-09-25*)
+
+- **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-25*)
+
+- **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
 - **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-23*)
 

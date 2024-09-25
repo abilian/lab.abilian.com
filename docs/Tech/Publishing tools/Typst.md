@@ -16,6 +16,10 @@ https://typst.app/
 - https://github.com/fyuniv/typstModernCV
 - https://github.com/SkytAsul/INSA-Typst-Template
 
+## Nice documents
+
+- https://github.com/drupol/master-thesis/
+
 ## Tools
 
 - https://github.com/Enter-tainer/typstyle

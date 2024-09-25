@@ -83,4 +83,3 @@ export default class extends Controller {
 ```
 
 This example shows a button managed by a Stimulus controller that triggers an HTMX request to refresh content within a div. Stimulus is used to handle the button click event, and HTMX takes care of fetching and updating the content, demonstrating how both libraries can work together seamlessly.
-
