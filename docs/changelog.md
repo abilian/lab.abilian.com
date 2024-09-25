@@ -2,6 +2,16 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-09-25*)
+
+- **[Zero Trust Architecture](/Tech/Security/Zero Trust Architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-09-24*)
+
+- **[SCIM - Cross-domain Identity Management](/Tech/Security/SCIM - Cross-domain Identity Management/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-09-24*)
+
+- **[OIDC - OpenID Connect](/Tech/Security/OIDC - OpenID Connect/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-09-24*)
+
+- **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-24*)
+
 - **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-23*)
 
 - **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-23*)
@@ -221,8 +231,6 @@
 - **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/Benchmarks/)</small> (*2024-04-25*)
 
 - **[Job queues](/Tech/Python/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-03-28*)
-
-- **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
 
 - **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-03-28*)
 
