@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-02*)
+- **[flake8-ecocode](/Projects/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-02*)
 
 - **[Web Eco Design](/Tech/Web/Web Eco Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-30*)
 
@@ -25,6 +25,10 @@
 - **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-09-26*)
 
 - **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-09-26*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
 
@@ -696,19 +700,15 @@
 
 - **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
-
-
-## Changed last 30 to 7 days
-
 - **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-23*)
-
-- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-02*)
-
-- **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-02*)
 
 
 
 ## Changed last 90 to 30 days
+
+- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-02*)
+
+- **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-02*)
 
 - **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-07-22*)
 
