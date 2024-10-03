@@ -2,7 +2,11 @@
 
 ## Recent changes (last 7 days)
 
+- **[NixOS for miminal images](/Tech/Linux/Packaging/Nix/NixOS for miminal images/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-02*)
+
 - **[flake8-ecocode](/Projects/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-02*)
+
+- **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-02*)
 
 - **[Web Eco Design](/Tech/Web/Web Eco Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-30*)
 
@@ -23,8 +27,6 @@
 - **[Roadmap](/Projects/Hop3/Roadmap/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-09-26*)
 
 - **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-09-26*)
-
-- **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-09-26*)
 
 
 
