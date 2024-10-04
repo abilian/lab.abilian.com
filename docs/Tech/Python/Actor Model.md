@@ -65,7 +65,8 @@ See also:
 
 - Akka (Scala / Java)
 - Celluloid (Ruby)
-- Darlean (TypeScript)
+- Darlean (TypeScript): https://darlean.io/
+- Kameo (Rust): https://docs.page/tqwewe/kameo
 
 ## Choice criteria
 
