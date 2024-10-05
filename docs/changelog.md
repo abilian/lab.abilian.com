@@ -2,6 +2,12 @@
 
 ## Recent changes (last 7 days)
 
+- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-04*)
+
+- **[Tips on writing well](/Tech/Documentation/Tips on writing well/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-10-04*)
+
+- **[Wendelin (2014-2019)](/Projects/Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-04*)
+
 - **[poetry2uv](/Projects/Tools/poetry2uv/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-04*)
 
 - **[flake8-ecocode](/Projects/Tools/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-04*)
@@ -290,8 +296,6 @@
 
 - **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
-- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
-
 - **[Access control in Python](/Tech/Python/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
 
 - **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-09-25*)
@@ -531,8 +535,6 @@
 - **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-09-25*)
 
 - **[00 Technology](/Tech/00 Technology/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-25*)
-
-- **[Wendelin (2014-2019)](/Projects/Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-09-25*)
 
 - **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00 Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-09-25*)
 
