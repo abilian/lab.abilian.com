@@ -1,5 +1,4 @@
-# A plan for Benchmarking Cython+
-#todo #cython-plus
+#cython-plus
 
 ## Goals
 As part of the Cython+ project, this subproject will have to help evaluate the benefits of Cython+ against the *statu quo* (CPython and Stefan Behnel's Cython) and alternative approaches (various Python JIT accelerators, including Numba, and).
