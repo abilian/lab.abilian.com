@@ -231,6 +231,10 @@ This lets you test local flakes and ensure they are working as expected before s
 | `nix build <flake>#<package>`    | Build a specific package from the flake.                     |
 | `nix flake update`               | Update the lock file to use the latest versions of inputs.    |
 
-### Conclusion
+## Summary
 
 Nix Flakes introduce a more structured and user-friendly approach to managing Nix projects by providing reproducibility, dependency pinning, and ease of sharing. They help simplify complex workflows, making it easier to manage environments, packages, and deployments across different systems while ensuring consistency and reliability. Using a Nix Flake allows you to manage dependencies, build environments, and share configurations in a declarative and reproducible way. Whether you're running pre-built applications or setting up a consistent development environment, flakes help streamline and standardize your workflow, ensuring consistency across different systems.
+
+## References
+
+- https://www.youtube.com/watch?v=JCeYq72Sko0 "Ultimate Nix Flakes Guide"
