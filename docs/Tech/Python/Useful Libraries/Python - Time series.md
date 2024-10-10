@@ -1,5 +1,3 @@
-#public 
-
 Time series analysis is a critical method used in many industries such as finance, economics, ecology, and physical sciences. Time series data are essentially a sequence of data points indexed (or listed, or graphed) in time order. Analysis of time series is essential to understand the underlying sequence pattern, predict future trends, and make informed decisions.
 
 Python, with its robust libraries and packages, has become a favorite tool for time series analysis due to its simplicity, flexibility, and wide variety of statistical and machine learning tools. In this blog post, we will explore some fundamental concepts of time series analysis and how to implement them in Python.

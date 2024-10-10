@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-10*)
+
+- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-09*)
+
 - **[Cython+ (2020-2022)](/Projects/Cython+/Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-08*)
 
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-08*)
@@ -20,15 +24,15 @@
 
 - **[flake8-ecocode](/Projects/Tools/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-04*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-03*)
 
 - **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-03*)
 
 - **[NixOS for miminal images](/Tech/Linux/Packaging/Nix/NixOS for miminal images/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-02*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Web Eco Design](/Tech/Web/Web Eco Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-30*)
 
@@ -59,8 +63,6 @@
 - **[Nix quotes](/Tech/Linux/Packaging/Nix/Nix quotes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
 
 - **[Nix Install](/Tech/Linux/Packaging/Nix/Nix Install/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
-
-- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
 
 - **[Devbox](/Tech/Linux/Packaging/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-09-25*)
 
