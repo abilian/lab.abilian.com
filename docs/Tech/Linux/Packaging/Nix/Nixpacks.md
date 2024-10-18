@@ -34,25 +34,25 @@ To use Nixpacks, you typically follow a simple workflow:
 
 Nixpacks is architected with several core components, each serving a specific purpose to achieve its goal of building reproducible, optimized Docker images. Here's an overview of its architecture:
 
-### 1. **Input Detection Layer**:
+### Input Detection Layer:
    The first component in the architecture of Nixpacks is the input detection layer. This is responsible for analyzing the source repository to detect the type of project being built, such as Python, Node.js, Ruby, etc. The detection process typically looks for key files like `package.json`, `requirements.txt`, or specific source files that correspond to particular languages or frameworks.
-   
+
    - **Language Detection**: Uses file system patterns or predefined heuristics to determine the language(s) and frameworks being used.
    - **Project Configuration**: Detects project configuration files like Dockerfiles, environment variables, or custom build scripts.
 
    This layer abstracts the complexity of defining explicit build instructions by automatically detecting the required tools and dependencies.
 
-### 2. **Nix Integration**:
+### Nix Integration:
    The core of Nixpacks' architecture is its integration with the **Nix package manager**. Nix is used to handle the dependency management, ensuring that each build is reproducible and deterministic.
-   
+
    - **Nix Expressions**: For each supported language or framework, Nixpacks contains a set of predefined Nix expressions (essentially scripts that define how packages and dependencies are installed). These expressions specify how to set up the environment, fetch dependencies, and manage system libraries.
    - **Isolated Environments**: Nix creates isolated environments for each build, avoiding pollution from the host system. This isolation ensures that builds are consistent, regardless of the environment they are run in.
 
    The Nix component guarantees that all dependencies are installed correctly and in a version-controlled manner, providing repeatable builds across environments.
 
-### 3. **Builder Layer**:
+### Builder Layer:
    The builder layer is responsible for orchestrating the entire build process. After detecting the project type and setting up the environment using Nix, it moves on to the actual building of the application.
-   
+
    - **Build Stages**: This layer is composed of several stages:
      1. **Prepare**: Fetch and configure all the dependencies needed to build the project.
      2. **Build**: Compile or process the source code into a production-ready format (e.g., running `npm install` for Node.js or `pip install` for Python).
@@ -61,41 +61,40 @@ Nixpacks is architected with several core components, each serving a specific pu
 
    The builder interacts with Nix during the dependency resolution process and handles any custom build steps that the user specifies through configuration files or hooks.
 
-### 4. **Hooks and Extensibility**:
+### Hooks and Extensibility:
    One of the key features of Nixpacks is its extensibility through **hooks** and **custom scripts**. This layer allows developers to inject custom commands at different points in the build lifecycle (e.g., before dependencies are installed, after the build is completed, etc.).
-   
+
    - **Pre- and Post-Build Hooks**: Users can define custom pre- or post-build scripts to run before or after certain stages in the build process. These can be used for actions like running database migrations, setting up environment variables, or adding custom optimizations.
    - **Extensibility**: Nixpacks supports adding additional steps, such as installing system-wide dependencies that may not be covered by default Nix expressions. This can be done via user-specified Nix derivations or build hooks.
 
-### 5. **Image Optimization and Output Layer**:
+### Image Optimization and Output Layer:
    The final stage of the architecture focuses on optimizing the Docker image that will be produced. This layer ensures that the resulting image is lean and optimized for production use.
 
    - **Multi-Stage Builds**: To reduce the final image size, Nixpacks employs multi-stage Docker builds. In the first stage, all dependencies and build tools are installed, while in the second stage, only the necessary files and runtime dependencies are included in the final image.
    - **Minimizing Layers**: Each Docker instruction creates a new layer. The builder layer ensures that unnecessary intermediate layers (e.g., temporary files, unused caches) are not included in the final image to keep it lean and efficient.
    - **Security and Compliance**: By building dependencies from source and maintaining tight control over what goes into the final image, Nixpacks provides a level of transparency and security, ensuring that there are no unnecessary or insecure components in production images.
 
-### 6. **Configuration and Overrides**:
+### Configuration and Overrides:
    Nixpacks provides a **configuration file** that allows users to override the default build process. This configuration file (`nixpacks.json` or similar) can define specific versions of dependencies, build arguments, or additional packages to install.
 
    - **Declarative Config**: The configuration is declarative, in line with Nix’s philosophy. Users can specify what they need without worrying about the procedural details of how the image gets built.
    - **Custom Nix Expressions**: For more complex use cases, users can also write custom Nix expressions to define how their environment and dependencies are handled. This provides a lot of flexibility for projects with unconventional requirements.
 
-### 7. **Docker Integration**:
+### Docker Integration:
    At the heart of the Nixpacks workflow is its ability to integrate seamlessly with Docker. After the project has been built, the final result is packaged into a Docker image, ready for deployment.
-   
+
    - **Dockerfile Generation**: Nixpacks can either generate Dockerfiles or bypass the need for them by automatically creating Docker images based on the build steps.
    - **Image Registry Compatibility**: The produced images can be pushed to popular container registries (e.g., Docker Hub, GitLab, AWS ECR) for deployment on platforms like Kubernetes, AWS, or any container-based infrastructure.
 
 ### High-Level Architecture Overview:
 
-1. **Input (Source Code)** →  
-   **Language Detection (Input Detection Layer)** →  
-   **Environment Setup (Nix Integration)** →  
-   **Build (Builder Layer)** →  
-   **Custom Hooks (Hooks and Extensibility)** →  
-   **Optimized Image Creation (Image Optimization Layer)** →  
+1. **Input (Source Code)** →
+   **Language Detection (Input Detection Layer)** →
+   **Environment Setup (Nix Integration)** →
+   **Build (Builder Layer)** →
+   **Custom Hooks (Hooks and Extensibility)** →
+   **Optimized Image Creation (Image Optimization Layer)** →
    **Docker Image Output**.
 
 ### Conclusion:
 Nixpacks' architecture is built around the principle of deterministic and reproducible builds, using Nix as its foundation. The layered structure, from input detection to optimized Docker image generation, ensures that the process is automated, flexible, and secure. By integrating Nix's package management capabilities, it offers a robust solution for producing lean, production-ready Docker images with minimal manual configuration. The extensibility through hooks and custom scripts ensures that it can be tailored to suit a wide range of development workflows and use cases.
-

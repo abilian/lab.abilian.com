@@ -53,7 +53,6 @@ Your README is the *public face* of your software. Poor documentation reflects p
 
 The README should never be an afterthought; it should be an integral part of the development process. By writing the README first, you force yourself to clarify the scope and purpose of the software before committing any code. This makes the development process smoother, ensures better software design, and ultimately creates a better user experience.
 
-Documentation, when written well, turns code into something usable, understandable, and maintainable over time. Take the advice of the Perl community: your code should never be the only documentation, and developers should be able to use your software without diving into the internals. Let the README be the guiding beacon for all who interact with your software—creators, contributors, and users alike. 
+Documentation, when written well, turns code into something usable, understandable, and maintainable over time. Take the advice of the Perl community: your code should never be the only documentation, and developers should be able to use your software without diving into the internals. Let the README be the guiding beacon for all who interact with your software—creators, contributors, and users alike.
 
 By adopting README-Driven Development, you will not only build better software, but you’ll also foster a healthier, more collaborative open-source ecosystem.
-
