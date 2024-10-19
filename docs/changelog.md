@@ -2,7 +2,21 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-18*)
+- **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-18*)
+
+- **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)
+
+- **[NixOS for miminal images](/Tech/Linux/Packaging/Nix/NixOS for miminal images/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)
+
+- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)
+
+- **[READMEs](/Tech/Documentation/READMEs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-10-18*)
+
+- **[Loosely-coupled services](/Tech/Architecture & Software Design/Loosely-coupled services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-10-18*)
+
+- **[flake8-ecocode](/Projects/Tools/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-18*)
+
+- **[Linking Your Thinking](/Business/Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-10-18*)
 
 
 
@@ -16,13 +30,7 @@
 
 - **[Cython+ (2020-2022)](/Projects/Cython+/Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-10*)
 
-- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-09*)
-
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-08*)
-
-- **[Loosely-coupled services](/Tech/Architecture & Software Design/Loosely-coupled services/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-10-06*)
-
-- **[Linking Your Thinking](/Business/Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-10-06*)
 
 - **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-04*)
 
@@ -32,13 +40,7 @@
 
 - **[poetry2uv](/Projects/Tools/poetry2uv/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-04*)
 
-- **[flake8-ecocode](/Projects/Tools/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-04*)
-
-- **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-03*)
-
 - **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-03*)
-
-- **[NixOS for miminal images](/Tech/Linux/Packaging/Nix/NixOS for miminal images/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-02*)
 
 - **[Web Eco Design](/Tech/Web/Web Eco Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-30*)
 
@@ -49,8 +51,6 @@
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-09-30*)
 
 - **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-30*)
-
-- **[READMEs](/Tech/Documentation/READMEs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-26*)
 
 - **[ISO 16016](/Tech/Documentation/ISO 16016/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-26*)
 
