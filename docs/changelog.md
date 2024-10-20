@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-20*)
+
 - **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-18*)
 
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)
