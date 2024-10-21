@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-20*)
-
 - **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-18*)
 
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)
@@ -726,11 +724,11 @@
 
 - **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-02*)
 
-- **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-07-22*)
-
 
 
 ## Earlier changes
+
+- **[Hierarchical Navigable Small World](/Tech/AI & Machine Learning/Hierarchical Navigable Small World/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-07-22*)
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-06-20*)
 
