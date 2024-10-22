@@ -1,12 +1,18 @@
+#devops
+
 ## Deploy / automation tools
 
 ### Actively developed
 
-- PyInfra
+- [[Pyinfra]]
 - Bundlewrap
 - Ansible
 - Salt
 - Chef
+
+### More
+
+- <https://github.com/mrled/progfiguration>
 
 ### Dead
 
@@ -14,3 +20,4 @@
 - <http://platter.pocoo.org/dev/> (Dead)
 - <http://pythonhosted.org/fapistrano/> (Dead)
 - https://github.com/opsmop/opsmop
+- Kokki

@@ -58,7 +58,7 @@
 
 - **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-09-26*)
 
-- **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Stimulus](/Tech/Web/UX-UI/Stimulus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
 - **[Systemd](/Tech/Linux/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-09-25*)
 
@@ -108,39 +108,39 @@
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-25*)
 
-- **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Typography](/Tech/Web/UX-UI/Typography/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Typography](/Tech/Web/UX-UI/Typography/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Tabs](/Tech/Web/UX-UI/Tabs/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Tabs](/Tech/Web/UX-UI/Tabs/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Svelte](/Tech/Web/UX-UI/Svelte/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Svelte](/Tech/Web/UX-UI/Svelte/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Search UI](/Tech/Web/UX-UI/Search UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Search UI](/Tech/Web/UX-UI/Search UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Primevue](/Tech/Web/UX-UI/Primevue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Primevue](/Tech/Web/UX-UI/Primevue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Livewire](/Tech/Web/UX-UI/Livewire/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Livewire](/Tech/Web/UX-UI/Livewire/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Anatomy of a web app page](/Tech/Web/UX-UI/Anatomy of a web app page/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Anatomy of a web app page](/Tech/Web/UX-UI/Anatomy of a web app page/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[AlpineJS](/Tech/Web/UX-UI/AlpineJS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[AlpineJS](/Tech/Web/UX-UI/AlpineJS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
 - **[Serverless](/Tech/Web/Serverless/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-25*)
 
@@ -152,13 +152,11 @@
 
 - **[VPN](/Tech/VPN/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-09-25*)
 
-- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+- **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-25*)
 
-- **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+- **[The Brain](/Tech/Tools/The Brain/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-25*)
 
-- **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
-
-- **[Devops](/Tech/Tools/Devops/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+- **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-25*)
 
 - **[Promise Theory](/Tech/Theory/Promise Theory/)** in <small>[Tech](/Tech/00 Technology/) / [Theory](/Tech/Theory/Promise Theory/)</small> (*2024-09-25*)
 
@@ -648,13 +646,13 @@
 
 - **[00 Authors](/Business/Authors & Leaders/00 Authors/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2024-09-25*)
 
-- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[Semantic HTML](/Tech/Web/UX-UI/Semantic HTML/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-09-25*)
+- **[Semantic HTML](/Tech/Web/UX-UI/Semantic HTML/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-09-25*)
 
-- **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+- **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-25*)
 
-- **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-25*)
+- **[Monorepos](/Tech/Tools/Monorepos/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-25*)
 
 - **[Search](/Tech/Search/Search/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-09-25*)
 
@@ -714,7 +712,7 @@
 
 - **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
-- **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2024-09-23*)
+- **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-23*)
 
 
 
@@ -732,7 +730,7 @@
 
 - **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-06-20*)
 
-- **[Navigation](/Tech/Web/UX-UI/Navigation/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/AlpineJS/)</small> (*2024-04-25*)
+- **[Navigation](/Tech/Web/UX-UI/Navigation/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-04-25*)
 
 - **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-04-25*)
 
@@ -742,11 +740,7 @@
 
 - **[Image Representation](/Tech/AI & Machine Learning/Image Representation/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-02-13*)
 
-- **[KISS Linux](/Tech/Misc/KISS Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-01-02*)
-
 - **[Topic modeling](/Tech/AI & Machine Learning/Topic modeling/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-01-02*)
-
-- **[Automation](/Tech/Tools/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-12-08*)
 
 - **[00 Business](/Business/00 Business/)** in <small>[Business](/Business/00 Business/)</small> (*2023-11-18*)
 
@@ -762,7 +756,7 @@
 
 - **[Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-05-06*)
 
-- **[Fish](/Tech/Tools/Fish/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Automation/)</small> (*2023-03-08*)
+- **[Fish](/Tech/Tools/Fish/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2023-03-08*)
 
 - **[Better Python](/Tech/Python/Better Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2023-03-08*)
 
