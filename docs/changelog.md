@@ -2,6 +2,20 @@
 
 ## Recent changes (last 7 days)
 
+- **[Accessility](/Tech/Web/UX-UI/Accessility/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-10-22*)
+
+- **[KISS Linux](/Tech/Linux/Distributions/KISS Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-10-22*)
+
+- **[Hombrew on Linux](/Tech/Linux/Distributions/Hombrew on Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-10-22*)
+
+- **[Pyinfra](/Tech/Devops & Cloud/Pyinfra/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
+
+- **[Devops](/Tech/Devops & Cloud/Devops/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
+
+- **[CFengine](/Tech/Devops & Cloud/CFengine/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
+
+- **[Automation](/Tech/Devops & Cloud/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
+
 - **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-18*)
 
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)

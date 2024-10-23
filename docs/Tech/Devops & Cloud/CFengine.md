@@ -72,54 +72,23 @@ We will covered the installation of Cfengine, writing simple policies, and manag
 
 ### Installing Cfengine
 
-#### a. On the Policy Hub (Server)
-The policy hub is the central server that holds the system policies and distributes them to all managed nodes (clients).
+See: https://cfengine.com/downloads/quick-install/
 
-1. **Download and install the Cfengine policy hub package**:
-   - Use the official Cfengine repository:
-     ```bash
-     sudo apt-get install wget gnupg -y
-     wget https://cfengine-package-repos.s3.amazonaws.com/pub/gpg.key -O /tmp/cfengine.gpg.key
-     sudo apt-key add /tmp/cfengine.gpg.key
-     echo "deb https://cfengine-package-repos.s3.amazonaws.com/pub/apt/packages stable main" | sudo tee /etc/apt/sources.list.d/cfengine-community.list
-     sudo apt-get update
-     sudo apt-get install cfengine-community
-     ```
+You have to install the agent on all the machines.
 
-2. **Start Cfengine**:
-   ```bash
-   sudo systemctl start cfengine3
-   ```
+You have to edit the ACL in `/var/cfengine/masterfiles/def.json` on the hub.
 
-3. **Verify Cfengine installation**:
-   - Check if the Cfengine services are running:
-     ```bash
-     sudo systemctl status cfengine3
-     ```
-
-4. **Configure the Policy Hub**:
-   - Initialize the policy hub:
-     ```bash
-     sudo cf-agent --bootstrap <Policy-Hub-IP-Address>
-     ```
-
-#### b. On the Client Node (Agent)
-The client nodes will receive the configuration policies from the policy hub.
-
-1. **Install Cfengine on the client**:
-   - Follow the same steps as for the policy hub (without the hub-specific configurations).
-
-2. **Bootstrap the client to the policy hub**:
-   - Bootstrap the client by connecting it to the policy hub:
-     ```bash
-     sudo cf-agent --bootstrap <Policy-Hub-IP-Address>
-     ```
-
-3. **Verify the connection**:
-   - On the policy hub, check the status of connected clients:
-     ```bash
-     sudo cf-key --show-hosts
-     ```
+```json
+{
+    "variables": {
+        "default:def.acl": [
+            "hub.example.com",
+            "host1.example.com",
+            "host2.example.com"
+        ]
+    }
+}
+```
 
 ### Understanding the Cfengine Architecture
 
