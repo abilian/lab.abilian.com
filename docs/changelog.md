@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-24*)
+
+- **[CFengine](/Tech/Devops & Cloud/CFengine/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-23*)
+
 - **[Accessility](/Tech/Web/UX-UI/Accessility/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-10-22*)
 
 - **[KISS Linux](/Tech/Linux/Distributions/KISS Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-10-22*)
@@ -11,8 +15,6 @@
 - **[Pyinfra](/Tech/Devops & Cloud/Pyinfra/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
 
 - **[Devops](/Tech/Devops & Cloud/Devops/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
-
-- **[CFengine](/Tech/Devops & Cloud/CFengine/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
 
 - **[Automation](/Tech/Devops & Cloud/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
 
@@ -726,11 +728,11 @@
 
 - **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
 
-- **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-23*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-23*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-02*)
 
