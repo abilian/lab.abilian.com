@@ -1,6 +1,13 @@
 
 ## References
 
+### DDD in general
+
+- [Domain Driven Design in 10 minutes - Part one](https://www.thoughtworks.com/insights/blog/evolutionary-architecture/domain-driven-design-in-10-minutes-part-one)
+- [Domain Driven Design in 10 minutes - Part two](https://www.thoughtworks.com/insights/blog/evolutionary-architecture/domain-driven-design-part-two)
+
+### DDD & Python
+
 - "Domain driven design in Python" (2019): https://bernardstanislas.github.io/domain-driven-design-in-python/
 - https://medium.com/@validate/domain-driven-design-examples-with-python-ce88740e3f26
 - https://dddinpython.com/
