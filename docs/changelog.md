@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-25*)
+- **[Notes & References](/Tech/Architecture & Software Design/DDD/Notes & References/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-10-25*)
 
 - **[One-to-One relationships](/Tech/Databases & Persistence/One-to-One relationships/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-10-24*)
 
@@ -20,6 +20,10 @@
 
 - **[Automation](/Tech/Devops & Cloud/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-10-22*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-18*)
 
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-10-18*)
@@ -35,10 +39,6 @@
 - **[flake8-ecocode](/Projects/Tools/flake8-ecocode/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-18*)
 
 - **[Linking Your Thinking](/Business/Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-10-18*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-10-10*)
 
@@ -69,6 +69,10 @@
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-09-30*)
 
 - **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-30*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[ISO 16016](/Tech/Documentation/ISO 16016/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-26*)
 
@@ -506,8 +510,6 @@
 
 - **[Repositories](/Tech/Architecture & Software Design/DDD/Repositories/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
 
-- **[Notes & References](/Tech/Architecture & Software Design/DDD/Notes & References/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
-
 - **[Entities](/Tech/Architecture & Software Design/DDD/Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
 
 - **[Domain-Driven Design](/Tech/Architecture & Software Design/DDD/Domain-Driven Design/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-09-25*)
@@ -729,10 +731,6 @@
 - **[Planning](/Business/Practices/Planning/)** in <small>[Business](/Business/00 Business/) / [Practices](/Business/Practices/Coaching/)</small> (*2024-09-25*)
 
 - **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-09-25*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Git](/Tech/Tools/Git/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-09-23*)
 
