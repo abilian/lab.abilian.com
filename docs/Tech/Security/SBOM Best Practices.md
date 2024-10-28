@@ -38,7 +38,7 @@ The primary goal is to create a playbook based on the Strike Team’s experience
 2. **Engage Open Source Projects:**
    - Identify open source projects willing to participate. The goal is for these projects to review and approve pull requests (PRs), rather than implement tools or code.
    - Some level of project support will be necessary for Strike Team members to understand the development environment and workflow.
-   
+
 3. **Document Expectations:**
    - The target projects should generate SBOMs, sign them, and provide attestation using tools such as Rekor and in-toto.
    - Clear expectations and success criteria should be defined, such as whether the project’s SBOMs adhere to naming conventions and are properly signed and attested.

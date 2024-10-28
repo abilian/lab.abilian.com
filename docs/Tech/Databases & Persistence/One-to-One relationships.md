@@ -56,19 +56,19 @@ In this case, the `EmployeeDetails` table holds a foreign key (`employee_id`) th
 
 When deciding where to place the foreign key in a one-to-one relationship, consider the following factors:
 
-1. **Business Logic**: 
+1. **Business Logic**:
    - If one table logically depends on the other, place the foreign key in the dependent table. For example, if `Passport` depends on `Person`, the foreign key should be in the `Passport` table.
-   
-2. **Optionality**: 
+
+2. **Optionality**:
    - In some cases, one of the entities may be optional. For example, not every `Person` has a `Passport`. In this case, it makes sense to put the foreign key in the `Passport` table because the existence of a `Passport` depends on the existence of a `Person`.
 
-3. **Uniqueness**: 
+3. **Uniqueness**:
    - Ensure the foreign key column is unique, as the relationship implies that no two rows in one table can point to the same row in the other table. This can be enforced with a `UNIQUE` constraint or unique index on the foreign key column.
 
-4. **Nullability**: 
+4. **Nullability**:
    - If the relationship allows for an entity to exist without a corresponding entry in the related table, the foreign key should be nullable. For example, a `Person` may exist without a `Passport`, meaning the `person_id` in the `Passport` table could be nullable.
 
-5. **Performance and Querying**: 
+5. **Performance and Querying**:
    - Placing the foreign key in the appropriate table can make queries more intuitive and performant. For example, if you're frequently querying information about passports for a given person, it may make sense to have the foreign key on the `Passport` table, making the join operations more efficient.
 
 ## Conclusion
