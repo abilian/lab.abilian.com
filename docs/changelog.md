@@ -2,7 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-30*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-31*)
+
+- **[Python subprocess library](/Tech/Python/Useful Libraries/Python subprocess library/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-10-30*)
 
 - **[Web Design](/Tech/Web/UX-UI/Web Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-10-28*)
 
@@ -68,6 +70,10 @@
 
 - **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-03*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Web Eco Design](/Tech/Web/Web Eco Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-09-30*)
 
 - **[Varlink](/Tech/IPC/Varlink/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-09-30*)
@@ -77,10 +83,6 @@
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-09-30*)
 
 - **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-30*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[ISO 16016](/Tech/Documentation/ISO 16016/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-26*)
 
