@@ -2,9 +2,13 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-03*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-04*)
 
 - **[Python subprocess library](/Tech/Python/Useful Libraries/Python subprocess library/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-10-30*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[Web Design](/Tech/Web/UX-UI/Web Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-10-28*)
 
@@ -13,10 +17,6 @@
 - **[SBOM Best Practices](/Tech/Security/SBOM Best Practices/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/ISO 27001-2022/)</small> (*2024-10-28*)
 
 - **[One-to-One relationships](/Tech/Databases & Persistence/One-to-One relationships/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-10-28*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Notes & References](/Tech/Architecture & Software Design/DDD/Notes & References/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [DDD](/Tech/Architecture & Software Design/DDD/Business logic/)</small> (*2024-10-25*)
 
@@ -60,6 +60,10 @@
 
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-08*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-10-04*)
 
 - **[Tips on writing well](/Tech/Documentation/Tips on writing well/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-10-04*)
@@ -67,10 +71,6 @@
 - **[Wendelin (2014-2019)](/Projects/Wendelin (2014-2019)/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-04*)
 
 - **[poetry2uv](/Projects/Tools/poetry2uv/)** in <small>[Projects](/Projects/00 Projects/) / [Tools](/Projects/Tools/flake8-ecocode/)</small> (*2024-10-04*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[00 Projects](/Projects/00 Projects/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-10-03*)
 
