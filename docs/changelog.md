@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-04*)
-
 - **[Python subprocess library](/Tech/Python/Useful Libraries/Python subprocess library/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-10-30*)
 
 
@@ -82,7 +80,7 @@
 
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-09-30*)
 
-- **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-30*)
+- **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-30*)
 
 - **[ISO 16016](/Tech/Documentation/ISO 16016/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-09-26*)
 
@@ -466,23 +464,23 @@
 
 - **[Stratego](/Tech/Compilation/Stratego/)** in <small>[Tech](/Tech/00 Technology/) / [Compilation](/Tech/Compilation/Stratego/)</small> (*2024-09-25*)
 
-- **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[Prometheus](/Tech/Cloud/Prometheus/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Prometheus](/Tech/Cloud/Prometheus/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[Observability](/Tech/Cloud/Observability/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Observability](/Tech/Cloud/Observability/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[Lightweight distros](/Tech/Cloud/Lightweight distros/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Lightweight distros](/Tech/Cloud/Lightweight distros/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Edge Computing](/Tech/Cloud/Edge Computing/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
-- **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/Buildpacks/)</small> (*2024-09-25*)
+- **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-09-25*)
 
 - **[Dockerfile Cheat Sheet](/Tech/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Cheat Sheets](/Tech/Cheat Sheets/Docker Cheat Sheet/)</small> (*2024-09-25*)
 
