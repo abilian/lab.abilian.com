@@ -6,3 +6,12 @@ https://github.com/facebook/pyre-check
 https://pyre-check.org/docs/pysa-basics/ "Pyre has applications beyond type checking python code: it can also run static analysis, more specifically called **Taint Analysis**, to identify potential security issues. The Python Static Analyzer feature of Pyre is usually abbreviated to Pysa (pronounced like the Leaning Tower of Pisa)."
 
 "The Pythonista’s Guide to the OWASP Top 10" https://devm.io/python/python-owasp-app-security
+
+## Supply chain
+
+- https://pypi.org/project/skjold/
+- pip-audit
+- safety
+
+
+#security

@@ -43,8 +43,8 @@ https://www.bbc.com/rd/publications/whitepaper113
 
 See also:
 
-- Guild: https://pypi.org/project/guild/
-- Miniguild - https://github.com/sparkslabs/guild/tree/master/examples/blog/miniguild
+- **Guild**: https://pypi.org/project/guild/
+- **Miniguild** - https://github.com/sparkslabs/guild/tree/master/examples/blog/miniguild
 
 ### More
 
