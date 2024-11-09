@@ -124,3 +124,19 @@ The history of France’s ambition for a sovereign operating system reveals the 
 This initiative could draw from **existing Linux-based technologies**, leveraging open-source flexibility to create a secure, privacy-focused ecosystem that can evolve with changing security and interoperability requirements. A collaborative European approach would ensure pooled resources, greater innovation, and alignment with shared regulatory standards such as GDPR. By working within the open-source community, the EU could customize an OS that meets national security needs, promotes digital sovereignty, and ensures public trust through full code transparency.
 
 Such a strategy is not only feasible but also advantageous for EU Member States. Through **constructive engagement** and **coordinated investment**, a European sovereign OS could enhance digital independence and resilience across the continent. This initiative would establish a practical, secure, and open system that strengthens Europe’s role in the digital world, setting a model of autonomy, transparency, and innovation for both citizens and government alike.
+
+## Additional resources
+
+Several initiatives have pursued objectives similar to the proposed "EU Linux," focusing on developing open-source operating systems tailored for governmental use to enhance digital sovereignty and reduce reliance on foreign technologies. Notable examples include:
+
+1. **[LiMux](https://en.wikipedia.org/wiki/LiMux) (Germany)**: Initiated by the city of Munich, LiMux aimed to migrate public administration systems from Windows to a Linux-based OS to increase control over IT infrastructure and reduce costs. Despite initial success, the project faced intense political lobbying by Microsoft leading to a partial reversion to Windows. 
+
+2. **[Astra Linux](https://en.wikipedia.org/wiki/Astra_Linux) (Russia)**: Developed to meet the security requirements of Russian state institutions, Astra Linux is certified for handling classified information and emphasizes strong cybersecurity and compliance. It has been actively deployed across various government agencies in Russia. 
+
+3. **[Ubuntu Kylin](https://en.wikipedia.org/wiki/Ubuntu_Kylin) (China)**: A collaboration between Canonical and the Chinese government, Ubuntu Kylin is an official Chinese version of Ubuntu designed to cater to Chinese users and governmental requirements, aiming to reduce dependency on foreign operating systems. 
+
+4. **[BOSS Linux](https://en.wikipedia.org/wiki/Bharat_Operating_System_Solutions) (India)**: Bharat Operating System Solutions (BOSS) Linux is developed by India's National Resource Centre for Free/Open Source Software for public and educational use, emphasizing data sovereignty and multilingual support. It has been deployed in several Indian government departments and educational institutions.
+
+5. **[Guadalinex](https://en.wikipedia.org/wiki/Guadalinex) (Spain)**: Developed by the regional government of Andalusia, Guadalinex was a Linux distribution intended for use in public schools and government offices to reduce costs and promote open-source software. It has been used extensively in educational institutions in Andalusia.
+
+6. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard. 
