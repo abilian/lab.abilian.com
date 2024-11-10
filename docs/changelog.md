@@ -2,9 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-09*)
-
-- **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-08*)
+- **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-09*)
 
 - **[Python & Security](/Tech/Python/Python & Security/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-06*)
 
@@ -58,6 +56,10 @@
 
 - **[Linking Your Thinking](/Business/Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-10-18*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-10-10*)
 
 - **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-10-10*)
@@ -65,10 +67,6 @@
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-10-10*)
 
 - **[Cython+ (2020-2022)](/Projects/Cython+/Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-10*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-10-08*)
 
