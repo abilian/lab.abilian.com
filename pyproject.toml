@@ -1,38 +1,37 @@
-[tool.poetry]
+[project]
 name = "lab.abilian.com"
 version = "0.1.0"
+requires-python = ">=3.10"
 description = ""
-authors = ["Stefane Fermigier <sf@abilian.com>"]
+authors = [
+    { name = "Stefane Fermigier", email = "sf@abilian.com" },
+]
+readme = "README.md"
 
-packages = [
-    { include = "lab", from = "src" },
+dependencies = [
+    "mkdocs ~= 1.4.2",
+    "mkdocs-material ~= 9.1.7",
+    "mkdocs-material-extensions ~= 1.1.1",
+    "mkdocs-roamlinks-plugin ~= 0.2.0",
+    "mkdocs-newsletter ~= 1.0.1",
+    "arrow ~= 1.2.3",
+    "snoop ~= 0.6",
+    "pytrends ~= 4.9.2",
+    "nltk ~= 3.8.1",
+    "attrs ~= 24.0",
+    "devtools ~= 0.12",
 ]
 
-[tool.poetry.dependencies]
-python = "^3.10"
+[dependency-groups]
+dev = [
+    "ruff>=0.7.3",
+]
 
-mkdocs = "^1.4.2"
-mkdocs-material = "^9.1.7"
-mkdocs-material-extensions = "^1.1.1"
-mkdocs-roamlinks-plugin = "^0.2.0"
-mkdocs-newsletter = "^1.0.1"
+[tool.uv]
+package = true
 
-arrow = "^1.2.3"
-snoop = "^0.6"
-pytrends = "^4.9.2"
-nltk = "^3.8.1"
-attrs = "^24"
-devtools = "^0.12"
-
-[tool.poetry.group.dev.dependencies]
-ruff = "*"
-
-[tool.poetry.scripts]
+[project.scripts]
 lab = "lab.cli:main"
 
-[tool.poetry.plugins."mkdocs.plugins"]
+[project.entry-points."mkdocs.plugins"]
 lab = "lab.plugin:MyPlugin"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
