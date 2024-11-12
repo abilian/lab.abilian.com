@@ -2,6 +2,14 @@
 
 ## Recent changes (last 7 days)
 
+- **[CISA recommendations](/Tech/Security/CISA recommendations/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-12*)
+
+- **[Constraint Programming](/Tech/Programming Techniques/Constraint Programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-12*)
+
+- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-12*)
+
+- **[File Management](/Business/Knowledge Management/File Management/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-12*)
+
 - **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-09*)
 
 - **[Python & Security](/Tech/Python/Python & Security/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-06*)
@@ -359,8 +367,6 @@
 - **[Distributed computing](/Tech/Programming Techniques/Distributed computing/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
 
 - **[Dependency Injection](/Tech/Programming Techniques/Dependency Injection/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
-
-- **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
 
 - **[BDD](/Tech/Programming Techniques/BDD/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-09-25*)
 

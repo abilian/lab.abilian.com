@@ -48,7 +48,6 @@ class KeywordsGenerator:
         return clean
 
     def _clean_tokens(self, tokens: list[str]) -> list[str]:
-
         def is_clean(w: str) -> bool:
             return not self.is_stopword(w) and 2 < len(w) < 20 and w.isalpha()
 

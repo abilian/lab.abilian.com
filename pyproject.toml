@@ -10,31 +10,28 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
+
 mkdocs = "^1.4.2"
 mkdocs-material = "^9.1.7"
 mkdocs-material-extensions = "^1.1.1"
 mkdocs-roamlinks-plugin = "^0.2.0"
-arrow = "^1.2.3"
 mkdocs-newsletter = "^1.0.1"
-snoop = "^0.4.3"
+
+arrow = "^1.2.3"
+snoop = "^0.6"
 pytrends = "^4.9.2"
 nltk = "^3.8.1"
-attrs = "^23.1.0"
-devtools = "^0.11.0"
+attrs = "^24"
+devtools = "^0.12"
 
 [tool.poetry.group.dev.dependencies]
-# abilian-devtools = "^0.4.18"
-# devtools = "^0.10.0"
-# snoop = "^0.4.3"
-black = "^23.3.0"
-
+ruff = "*"
 
 [tool.poetry.scripts]
 lab = "lab.cli:main"
 
 [tool.poetry.plugins."mkdocs.plugins"]
 lab = "lab.plugin:MyPlugin"
-
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
