@@ -43,7 +43,12 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
     - See also: https://www.pyxell.org/docs/
 - https://github.com/xdslproject "A Python Compiler Design Toolkit"
 - https://github.com/ShivamSarodia/ShivyC "C compiler created in Python."
+- https://github.com/sdiehl/numpile - A tiny 1000 line LLVM-based numeric specializer for scientific Python code.
 
+### Libjit
+
+- https://www.stephendiehl.com/posts/libjit/
+- https://github.com/gergo-/pylibjit / https://publik.tuwien.ac.at/files/PubDat_228436.pdf
 
 ## Books
 
