@@ -98,3 +98,7 @@ Nixpacks is architected with several core components, each serving a specific pu
 
 ### Conclusion:
 Nixpacks' architecture is built around the principle of deterministic and reproducible builds, using Nix as its foundation. The layered structure, from input detection to optimized Docker image generation, ensures that the process is automated, flexible, and secure. By integrating Nix's package management capabilities, it offers a robust solution for producing lean, production-ready Docker images with minimal manual configuration. The extensibility through hooks and custom scripts ensures that it can be tailored to suit a wide range of development workflows and use cases.
+
+<!-- Keywords -->
+#nixpacks #dockerfiles #docker #dockerfile #kubernetes
+<!-- /Keywords -->

@@ -45,3 +45,7 @@ Overall, while the e3-value model may not be as widely known or used as some oth
 ## See also
 
 - [[OSS Business Models]]
+
+<!-- Keywords -->
+#value #stakeholder #stakeholders
+<!-- /Keywords -->

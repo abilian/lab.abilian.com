@@ -9,4 +9,8 @@
 - Designing Informative Rating Systems: Evidence from an Online Labor Market (Gag and Johari)
 - Reputation Inflation (Filippas et al.)
 - Reciprocity and Unveiling in Two-Sided Reputation Systems: Evidence from an Experiment on Airbnb, (Fradkin et al)
-- Do Incentives to Review Help the Market? Evidence from a Field Experiment on Airbnb, (Fradkin and Holtz) 
+- Do Incentives to Review Help the Market? Evidence from a Field Experiment on Airbnb, (Fradkin and Holtz)
+
+<!-- Keywords -->
+#reputation #incentives #reciprocity
+<!-- /Keywords -->

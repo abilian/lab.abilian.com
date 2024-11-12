@@ -7,3 +7,7 @@ The Debian group, responsible for the Debian GNU/Linux distribution, has develop
 The Open Source Initiative (OSI) was established to promote the concept of open source as a more business-friendly alternative to free software. While it shares some common principles with the FSF, its focus is on the practical benefits of open collaboration and shared development, rather than on the ethical and philosophical aspects of software freedom. The OSI's Open Source Definition outlines the criteria that a software license must meet to be considered open source.
 
 In the FOSS movement, the question of whether a license conforms to the established freedoms is essential. A license that meets the criteria set by the FSF, Debian, and OSI ensures that the software can be freely used, modified, and shared, aligning with the fundamental principles of the movement. By adhering to these guidelines, developers and users can create and contribute to a vibrant ecosystem of free and open source software that fosters innovation, collaboration, and the ethical use of technology.
+
+<!-- Keywords -->
+#foss
+<!-- /Keywords -->

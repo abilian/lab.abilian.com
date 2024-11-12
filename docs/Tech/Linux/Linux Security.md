@@ -10,3 +10,7 @@ https://unix.foo/posts/insecurity-of-debian/
 - **Configuration**: SELinux policies are more complex and cover system-wide rules, while AppArmor is easier to configure, relying on profiles that restrict program behavior.
 
 - **Adoption**: SELinux is more commonly used in Red Hat and CentOS, whereas AppArmor is popular in Debian and Ubuntu.
+
+<!-- Keywords -->
+#selinux
+<!-- /Keywords -->

@@ -120,3 +120,7 @@
 ### Comparison and Discussion
 
 **Pluggy** stands out as an ideal candidate due to its simplicity, flexibility, and the proven success in projects like **pytest**. **Stevedore** and **Yapsy** are also good choices, especially if integrating plugins via Python packaging and entry points is a priority. If a more component-based architecture is needed, **Trac Component Architecture (TCA)** could provide a robust solution for modular applications. For more lightweight use cases, **PyPlugin** or **Setuptools Entry Points** may suffice.
+
+<!-- Keywords -->
+#pluggy #plugins #plugin #pluggable #datasette
+<!-- /Keywords -->

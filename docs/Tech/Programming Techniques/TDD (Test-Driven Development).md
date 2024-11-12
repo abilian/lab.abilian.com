@@ -44,3 +44,7 @@ If TDD isn't suitable but the desired outcomes are still valued, alternative app
 ## Summary 
 
 TDD is a powerful practice under the right conditions, but it's not a silver bullet. It's essential to evaluate the nature of the project, the team's skills, and the system's architecture before committing to a TDD workflow or seeking alternatives that align better with the project's needs and desired outcomes.
+
+<!-- Keywords -->
+#tdd #testability #testing
+<!-- /Keywords -->

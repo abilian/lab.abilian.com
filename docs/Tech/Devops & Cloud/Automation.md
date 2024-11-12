@@ -13,3 +13,7 @@ The one we're using the most.
 ## Pants
 
 See also [[Monorepos]]
+
+<!-- Keywords -->
+#pyinvoke #invoke
+<!-- /Keywords -->

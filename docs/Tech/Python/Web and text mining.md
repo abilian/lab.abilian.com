@@ -17,3 +17,7 @@ https://github.com/clips/pattern
 -   Natural Language Processing: part-of-speech taggers, n-gram search, sentiment analysis, WordNet
 -   Machine Learning: vector space model, clustering, classification (KNN, SVM, Perceptron)
 -   Network Analysis: graph centrality and visualization."
+
+<!-- Keywords -->
+#wordnet
+<!-- /Keywords -->

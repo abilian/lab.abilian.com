@@ -162,3 +162,7 @@ Now, the custom service can be enabled by simply adding the following to `config
 NixOS services offer a declarative, modular, and reproducible approach to service management. By defining services in a high-level configuration file, NixOS ensures that your services are consistent across environments, easy to manage, and easy to reproduce.
 
 Understanding the anatomy of a Nix service description is key to leveraging NixOS for more complex infrastructure and service management tasks. Whether you are configuring existing services like `nginx` or creating custom services tailored to your needs, NixOS’s service management model provides a clean, efficient way to achieve system consistency and reliability.
+
+<!-- Keywords -->
+#nixos #nix #nixpkgs #serviceconfig
+<!-- /Keywords -->

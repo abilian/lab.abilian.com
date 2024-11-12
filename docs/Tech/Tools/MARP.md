@@ -22,3 +22,7 @@ Marp provides a combination of simplicity, content-focused approach, customizabi
 - https://github.com/hahnec/marp-recipes/blob/master/marp_recipes.md?plain=1
 - https://blog.zwindler.fr/2021/09/13/marp-presentations-rapides-et-jolies-avec-markdown/
 - https://yoanbernabeu.github.io/MARP-Template-Library/docs/category/themes
+
+<!-- Keywords -->
+#powerpoint #presentations #presentation #markdown #marp
+<!-- /Keywords -->

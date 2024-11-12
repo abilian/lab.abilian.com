@@ -113,3 +113,7 @@ Even when different versions of dependencies are involved, Nix's isolation guara
 A Nix package is more than just a software package; it's a precise, declarative description of how that software is built, along with its dependencies and environment. By using Nix, developers gain a level of control and reproducibility that is hard to achieve with traditional package managers. Whether you're building simple tools or complex software stacks, Nix provides a powerful, deterministic approach to managing software in diverse environments.
 
 In summary, understanding the anatomy of a Nix package gives you the ability to create robust, reproducible, and isolated software builds, which can lead to more consistent and reliable systems across development, CI, and production environments.
+
+<!-- Keywords -->
+#nix
+<!-- /Keywords -->

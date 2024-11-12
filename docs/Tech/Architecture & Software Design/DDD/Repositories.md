@@ -47,3 +47,7 @@ The Repository Pattern provides a clean separation of concerns in your applicati
 ## References
 
 - https://lyz-code.github.io/blue-book/architecture/repository_pattern/
+
+<!-- Keywords -->
+#repository_pattern #repository #userrepository #repositories
+<!-- /Keywords -->

@@ -118,3 +118,7 @@ class RhsContext:
 if __name__ == "__main__":  
     main()
 ```
+
+<!-- Keywords -->
+#python #py_rete #rule_set_class
+<!-- /Keywords -->

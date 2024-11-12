@@ -14,3 +14,7 @@ for developing server-driven mobile apps."
 - https://www.thoughtworks.com/radar/techniques/server-driven-ui
 - https://tech.deliveryhero.com/primer-on-delivery-heros-server-driven-ui-platform/
 - https://doordash.engineering/2021/08/24/improving-development-velocity-with-generic-server-driven-ui-components/
+
+<!-- Keywords -->
+#ui
+<!-- /Keywords -->

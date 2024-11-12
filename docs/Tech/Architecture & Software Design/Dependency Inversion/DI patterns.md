@@ -179,3 +179,7 @@ It is often used in large applications with complex configurations, or in applic
 ## References
 
 See also: [[DI anti-patterns]]
+
+<!-- Keywords -->
+#injectdependency #dependency #dependencies
+<!-- /Keywords -->

@@ -31,7 +31,7 @@ The financial benefits of adopting Linux across EU administrations are compellin
 
 #### References
 
-- [https://openforumeurope.org/publications/study-about-the-impact-of-open-source-software-and-hardware-on-technological-independence-competitiveness-and-innovation-in-the-eu-economy/](https://openforumeurope.org/publications/study-about-the-impact-of-open-source-software-and-hardware-on-technological-independence-competitiveness-and-innovation-in-the-eu-economy/) 
+- [https://openforumeurope.org/publications/study-about-the-impact-of-open-source-software-and-hardware-on-technological-independence-competitiveness-and-innovation-in-the-eu-economy/](https://openforumeurope.org/publications/study-about-the-impact-of-open-source-software-and-hardware-on-technological-independence-competitiveness-and-innovation-in-the-eu-economy/)
 - [https://www.hbs.edu/faculty/Pages/item.aspx?num=65230](https://www.hbs.edu/faculty/Pages/item.aspx?num=65230)
 
 ### Security and Compliance
@@ -41,7 +41,7 @@ One of the most critical aspects of public sector digital infrastructure is secu
 #### References
 
 - [https://www.schneier.com/essays/archives/2003/09/cyberinsecurity_the.html](https://www.schneier.com/essays/archives/2003/09/cyberinsecurity_the.html)
-- [https://dl.acm.org/doi/10.1145/1188913.1188921](https://dl.acm.org/doi/10.1145/1188913.1188921) 
+- [https://dl.acm.org/doi/10.1145/1188913.1188921](https://dl.acm.org/doi/10.1145/1188913.1188921)
 
 ### Interoperability and Flexibility
 
@@ -78,7 +78,7 @@ In recent years, the urgency for digital sovereignty in France has intensified, 
 In 2016, [French MP Delphine Batho championed the idea of a sovereign OS](https://www.lepoint.fr/high-tech-internet/un-os-souverain-est-il-possible-15-02-2016-2017965_47.php), emphasizing the importance of building on a solid, open-source Linux foundation rather than creating an entirely new system. Batho envisioned a sovereign, democratic OS that would form the basis for a "mutualized, collaborative digital ecosystem," accessible and trusted by both citizens and businesses. She argued that France should prioritize:
 
 1. **Protection of Individual Freedoms**: A sovereign OS could safeguard personal liberties from foreign-controlled tech infrastructures that are often opaque about data usage.
-   
+
 2. **National Security**: Batho highlighted the importance of a self-reliant digital infrastructure, which would limit France’s dependency on foreign software systems.
 
 3. **Economic Autonomy**: She expressed concern over the dominance of global tech monopolies, warning that without a sovereign digital infrastructure, France and Europe would remain vulnerable to the economic siphoning caused by big data giants operating under foreign laws.
@@ -112,7 +112,7 @@ Despite past criticisms, a sovereign OS remains a viable path for France to enha
 In 2023, the call for a sovereign French OS resurfaced amid heightened concerns over data confidentiality and digital autonomy. **Senators Pierre Ouzoulias and Marie-Noëlle Lienemann** [proposed a rigorous action plan](https://www.numerama.com/politique/1437188-le-systeme-dexploitation-francais-ressurgit-au-senat.html), calling on the government to develop and deploy a national operating system for public administrations, from computers to smartphones, within a year of the legislation’s adoption. The proposal emphasized:
 
 - **Comprehensive Scope**: The OS would extend across all public administration devices, ensuring sovereignty over data managed by government employees. With American OS options—Windows, macOS, and Chrome OS—dominating the computer sector (93% market share) and Android and iOS controlling nearly 99% of the smartphone market, the French government expressed growing unease over its digital dependency on foreign entities.
-  
+
 - **Enhanced Sovereignty and Security**: The senators highlighted that current OS alternatives fail to address the level of confidentiality required for public work. The widespread adoption of an independent OS would mitigate risks associated with third-party data collection and surveillance.
 
 This new proposal reflects the mounting recognition of an OS as more than a utility—it is the central orchestrator of digital activities, responsible for managing resources, enabling interaction, and coordinating system functions. The reliance on foreign-developed OSs for core operations of public administration reflects, as the senators articulated, “**a loss of digital sovereignty in favor of the United States**.”
@@ -129,14 +129,18 @@ Such a strategy is not only feasible but also advantageous for EU Member States.
 
 Several initiatives have pursued objectives similar to the proposed "EU Linux," focusing on developing open-source operating systems tailored for governmental use to enhance digital sovereignty and reduce reliance on foreign technologies. Notable examples include:
 
-1. **[LiMux](https://en.wikipedia.org/wiki/LiMux) (Germany)**: Initiated by the city of Munich, LiMux aimed to migrate public administration systems from Windows to a Linux-based OS to increase control over IT infrastructure and reduce costs. Despite initial success, the project faced intense political lobbying by Microsoft leading to a partial reversion to Windows. 
+1. **[LiMux](https://en.wikipedia.org/wiki/LiMux) (Germany)**: Initiated by the city of Munich, LiMux aimed to migrate public administration systems from Windows to a Linux-based OS to increase control over IT infrastructure and reduce costs. Despite initial success, the project faced intense political lobbying by Microsoft leading to a partial reversion to Windows.
 
-2. **[Astra Linux](https://en.wikipedia.org/wiki/Astra_Linux) (Russia)**: Developed to meet the security requirements of Russian state institutions, Astra Linux is certified for handling classified information and emphasizes strong cybersecurity and compliance. It has been actively deployed across various government agencies in Russia. 
+2. **[Astra Linux](https://en.wikipedia.org/wiki/Astra_Linux) (Russia)**: Developed to meet the security requirements of Russian state institutions, Astra Linux is certified for handling classified information and emphasizes strong cybersecurity and compliance. It has been actively deployed across various government agencies in Russia.
 
-3. **[Ubuntu Kylin](https://en.wikipedia.org/wiki/Ubuntu_Kylin) (China)**: A collaboration between Canonical and the Chinese government, Ubuntu Kylin is an official Chinese version of Ubuntu designed to cater to Chinese users and governmental requirements, aiming to reduce dependency on foreign operating systems. 
+3. **[Ubuntu Kylin](https://en.wikipedia.org/wiki/Ubuntu_Kylin) (China)**: A collaboration between Canonical and the Chinese government, Ubuntu Kylin is an official Chinese version of Ubuntu designed to cater to Chinese users and governmental requirements, aiming to reduce dependency on foreign operating systems.
 
 4. **[BOSS Linux](https://en.wikipedia.org/wiki/Bharat_Operating_System_Solutions) (India)**: Bharat Operating System Solutions (BOSS) Linux is developed by India's National Resource Centre for Free/Open Source Software for public and educational use, emphasizing data sovereignty and multilingual support. It has been deployed in several Indian government departments and educational institutions.
 
 5. **[Guadalinex](https://en.wikipedia.org/wiki/Guadalinex) (Spain)**: Developed by the regional government of Andalusia, Guadalinex was a Linux distribution intended for use in public schools and government offices to reduce costs and promote open-source software. It has been used extensively in educational institutions in Andalusia.
 
-6. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard. 
+6. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard.
+
+<!-- Keywords -->
+#linux #virtualization
+<!-- /Keywords -->

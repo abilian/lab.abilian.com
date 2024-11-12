@@ -6,3 +6,7 @@ Examples include:
 - **Pandoc** is a document converter that supports conversion between numerous markup languages, making it versatile for preparing documents in different formats.
 - **[[EPUB]]** is a standard for digital books, focusing on the format and distribution of ebooks.
 - **[[Asciidoc]]** is a human-readable document format, similar to Markdown but with more features, designed for writing articles, books, manuals, and technical documentation.
+
+<!-- Keywords -->
+#typesetting #formats #markdown #pandoc #publishing
+<!-- /Keywords -->

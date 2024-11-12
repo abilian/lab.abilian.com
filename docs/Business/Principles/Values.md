@@ -57,3 +57,7 @@ Many skilled professionals prioritize working for organizations that align with 
 1. **Periodically review your company's values** to ensure they remain relevant and reflective of your organization's goals and priorities. This can involve soliciting feedback from employees, conducting surveys, or engaging in strategic planning sessions to evaluate and refine your values.
 
 By leveraging your company's values, you can attract and retain top talent who are not only skilled but also passionate about the organization's mission and purpose. This can lead to higher job satisfaction, increased employee engagement, and improved overall performance.
+
+<!-- Keywords -->
+#values
+<!-- /Keywords -->

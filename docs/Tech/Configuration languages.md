@@ -17,3 +17,7 @@ https://hitchdev.com/strictyaml/why-not/environment-variables-as-config/ "Why av
 Also:
 - https://hitchdev.com/strictyaml/why-not/toml/
 - https://hitchdev.com/strictyaml/why-not/json5/
+
+<!-- Keywords -->
+#jsonnet
+<!-- /Keywords -->

@@ -11,3 +11,7 @@
 
 - https://charlesreid1.github.io/python-patterns-the-registry.html "This post is a summary of a useful Python programming pattern called the Registry pattern. The Registry pattern is a way of keeping track of all subclasses of a given class."
 - https://github.com/faif/python-patterns/blob/master/patterns/behavioral/registry.py
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

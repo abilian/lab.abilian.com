@@ -6,3 +6,7 @@
 See also:
 
 - [[Dependency Injection]]
+
+<!-- Keywords -->
+#di
+<!-- /Keywords -->

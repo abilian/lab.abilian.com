@@ -123,3 +123,7 @@ The Kanban method can indeed transform how a team manages its workflow. However,
 ## Conclusion
 
 The Kanban method, though simple in its presentation, is a powerful tool in the project manager's arsenal. By understanding its principles and tweaking the system to fit the organization's unique needs, teams can achieve improved communication, productivity, and efficiency.
+
+<!-- Keywords -->
+#kanban #workflow
+<!-- /Keywords -->

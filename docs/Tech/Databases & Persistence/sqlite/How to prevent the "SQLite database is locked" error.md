@@ -27,3 +27,7 @@ Each of these strategies has its own trade-offs and should be considered in the 
 More tips:
 
 - <https://www.beekeeperstudio.io/blog/how-to-solve-sqlite-database-is-locked-error>
+
+<!-- Keywords -->
+#sqlite
+<!-- /Keywords -->

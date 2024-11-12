@@ -14,3 +14,7 @@
 
 - [Polylith - Polylith](https://polylith.gitbook.io/polylith/) (Monorepo architecture, initially for Clojure but actually language-agnostic, mostly.)
 - [DavidVujic/python-polylith: Tooling support for the Polylith Architecture in Python.](https://github.com/DavidVujic/python-polylith#sparkles-python-tools-for-the-polylith-architecture-sparkles)
+
+<!-- Keywords -->
+#monorepo #monorepos
+<!-- /Keywords -->

@@ -33,3 +33,7 @@ docker rm shynet_main
 docker pull milesmcc/shynet:latest
 docker-compose up -d
 ```
+
+<!-- Keywords -->
+#shynet #shynet_main
+<!-- /Keywords -->

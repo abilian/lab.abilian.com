@@ -40,3 +40,7 @@ You can back into how many sales reps you’ll need in SaaS.
    - More specialized sales processes require additional roles like Sales Development Reps (SDRs), Business Development Reps (BDRs), and Sales Engineers (SEs).
    - While higher quotas should ideally cover these specializations, in practice, additional headcount may be needed.
    - This could add approximately 20% more to your staffing model.
+
+<!-- Keywords -->
+#saas
+<!-- /Keywords -->

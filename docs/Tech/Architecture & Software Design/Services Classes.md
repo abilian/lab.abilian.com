@@ -37,3 +37,7 @@ Here are some of the key points to remembers:
 8. **Alternative Strategies**
    - Finite state machines (FSM) as a pattern for implementing business flows
    - BPM / BPMN
+
+<!-- Keywords -->
+#services
+<!-- /Keywords -->

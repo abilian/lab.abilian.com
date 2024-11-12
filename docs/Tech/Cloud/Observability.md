@@ -10,3 +10,7 @@
 - Statsd
 - Prometheus / Grafana
 - https://github.com/census-instrumentation/opencensus-python/
+
+<!-- Keywords -->
+#census
+<!-- /Keywords -->

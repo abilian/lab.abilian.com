@@ -59,3 +59,7 @@ class CustomerStatusService:
 5. **Domain Events:** When an `Invoice` is paid, an `InvoicePaid` domain event could be triggered, which might kick off other business processes - for example, it could reduce the quantity of the purchased products in stock, or it could update the customer's total purchases for the status upgrade rule mentioned above.
 
 Remember, these are just examples. The actual design and organization of the business logic would depend on the specific requirements and constraints of your domain.
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

@@ -9,3 +9,7 @@ Free and open source software (FOSS), digital commons, and digital public goods 
 The relationship between FOSS, digital commons, and digital public goods can be seen in the shared principles of openness, collaboration, and community-driven development. FOSS is a critical component of the digital commons, as it provides the underlying software infrastructure and tools that enable the creation, sharing, and utilization of digital resources. In turn, the digital commons contributes to the creation of digital public goods by providing a platform for developing and disseminating resources that address global challenges and promote sustainable development.
 
 Overall, the interconnected nature of FOSS, digital commons, and digital public goods fosters a collaborative ecosystem in which individuals, communities, and organizations can work together to create, share, and benefit from digital resources, ultimately driving innovation and promoting the public good.
+
+<!-- Keywords -->
+#foss
+<!-- /Keywords -->

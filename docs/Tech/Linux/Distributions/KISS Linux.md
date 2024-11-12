@@ -21,3 +21,7 @@ Packages ar described by a small set of files.
 The creator burned out then came back.
 
 Update 2024: Dead now ("This organization was marked as archived by an administrator on Apr 26, 2024. It is no longer maintained.")
+
+<!-- Keywords -->
+#packages #kisslinux
+<!-- /Keywords -->

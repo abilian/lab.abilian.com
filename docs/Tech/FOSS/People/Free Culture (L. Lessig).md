@@ -87,4 +87,8 @@ Now, I've spent two years talking to you. To us. About this. And we've not done 
 
 But if you don't do something now, this freedom that you built, that you spend your life coding, this freedom will be taken away. Either by those who see you as a threat, who then invoke the system of law we call patents, or by those who take advantage of the extraordinary expansion of control that the law of copyright now gives them over innovation. Either of these two changes through law will produce a world where your freedom has been taken away. And, If You Can't Fight For Your Freedom . . . You Don't Deserve It.
 
-But you've done nothing." 
+But you've done nothing."
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

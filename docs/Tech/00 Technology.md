@@ -9,3 +9,7 @@ To facilitate seamless navigation and help you find the information you need qui
 We hope that the Technology section serves as an invaluable resource to enhance your knowledge, foster innovation, and drive success in your software development projects.
 
 #public
+
+<!-- Keywords -->
+#devops #frameworks
+<!-- /Keywords -->

@@ -29,3 +29,7 @@ Market share: ~0 (according to <https://www.wappalyzer.com/technologies/web-serv
 
 - Ragel <http://www.colm.net/open-source/ragel/> state machine for the HTTP protocol.
 - Dexy: documentation generator
+
+<!-- Keywords -->
+#mongrel2 #mongrel #websockets
+<!-- /Keywords -->

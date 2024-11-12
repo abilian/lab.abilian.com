@@ -11,3 +11,7 @@
 
 - [Why I Will Never Use Alpine Linux Ever Again](https://martinheinz.dev/blog/92)
 - [The best Docker base image for your Python application (Sep 2022)](https://pythonspeed.com/articles/base-image-python-docker-images/)
+
+<!-- Keywords -->
+#docker #alpine
+<!-- /Keywords -->

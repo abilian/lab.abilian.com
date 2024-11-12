@@ -5,3 +5,7 @@ Meadows was a pioneer in using systems thinking to understand and address comple
 One of her most well-known works, "Thinking in Systems: A Primer" (2008), published posthumously, serves as an introduction to systems thinking and has been widely read by people in various fields, including business and management.
 
 While Donella Meadows may not be primarily known as a business thinker, her work on systems thinking and sustainability has had a lasting impact on the way businesses approach complex problems and consider their role in fostering a more sustainable world.
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

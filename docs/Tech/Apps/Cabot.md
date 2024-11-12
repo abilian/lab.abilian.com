@@ -16,3 +16,7 @@ But both are not in good shape (better that the orig, though).
 And also: https://github.com/cabotapp (same)
 
 Todo: run it in ~ghq/github.com/cabotapp/docker-cabot
+
+<!-- Keywords -->
+#monitoring #docker
+<!-- /Keywords -->

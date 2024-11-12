@@ -25,3 +25,7 @@ The EPUB format is designed to be both open and flexible, supporting a wide rang
 ## More info
 
 - https://en.wikipedia.org/wiki/EPUB
+
+<!-- Keywords -->
+#epub #ebook
+<!-- /Keywords -->

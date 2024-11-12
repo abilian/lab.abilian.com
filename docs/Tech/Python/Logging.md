@@ -68,3 +68,7 @@ class MockRequest:
 request = MockRequest(id="123", user_id="abc", data="some_data")
 handle_request(request)
 ```
+
+<!-- Keywords -->
+#log #logging #logs #logger
+<!-- /Keywords -->

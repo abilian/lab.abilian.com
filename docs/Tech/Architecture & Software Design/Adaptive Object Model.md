@@ -48,3 +48,7 @@ Despite its numerous benefits, the adoption of AOM comes with its challenges. Th
 - A Model to Enable the Reuse of Metadata-Based Frameworks in Adaptive Object Model Architectures (2021) https://ieeexplore.ieee.org/document/9449868
 
 More: https://adaptiveobjectmodel.com/writings/
+
+<!-- Keywords -->
+#adaptiveobjectmodel #2832521_architecture_and_design_of_adaptive_object #architectures #model_framework_an_overview #241686037_design_for_an_adaptive_object
+<!-- /Keywords -->

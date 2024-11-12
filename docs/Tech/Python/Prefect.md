@@ -70,3 +70,7 @@ In summary, Prefect is a modern, flexible, and powerful alternative to Apache Ai
 ## Alternatives
 
 - [[Apache Airflow]]
+
+<!-- Keywords -->
+#workflows #workflow
+<!-- /Keywords -->

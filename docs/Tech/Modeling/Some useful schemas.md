@@ -8,3 +8,7 @@
 - https://schema.org/Organization
 - https://schema.org/Event
 - https://schema.org/JobPosting
+
+<!-- Keywords -->
+#schema
+<!-- /Keywords -->

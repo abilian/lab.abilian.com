@@ -19,3 +19,7 @@ https://breadcrumbscollector.tech/the-disenchantment-of-python-web-frameworks/ -
 #### Minimal frameworks
 - https://github.com/polydojo/vilo/blob/master/vilo.py
 - Bottle
+
+<!-- Keywords -->
+#frameworks #java
+<!-- /Keywords -->

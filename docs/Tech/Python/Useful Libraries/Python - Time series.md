@@ -153,4 +153,8 @@ This code is very similar to the LSTM example. We just replace the LSTM layer wi
 - [[Time series databases]]
 - https://www.timescale.com/blog/how-to-work-with-time-series-in-python/
 
-#time-series #python #machine-learning 
+#time-series #python #machine-learning
+
+<!-- Keywords -->
+#matplotlib #forecasting #scipy #numpy
+<!-- /Keywords -->

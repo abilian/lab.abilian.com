@@ -117,3 +117,7 @@ RPyC supports multiple types of connections based on how remote procedure calls 
 - **Security**: RPyC can potentially expose security vulnerabilities, especially with classic connections, which allow arbitrary remote code execution. Additional measures (e.g., SSL/TLS, authentication) are required to secure remote access.
 - **Performance**: RPyC is designed for flexibility and ease of use, but it may not offer the highest performance in scenarios requiring extreme optimization, especially compared to binary serialization-based systems like gRPC.
 - **Scalability**: While RPyC can work in distributed systems, its scalability might be limited for large-scale systems where more specialized frameworks like gRPC, Thrift, or message queues (e.g., RabbitMQ) might be a better fit.
+
+<!-- Keywords -->
+#rpyc #rpc #pythonic
+<!-- /Keywords -->

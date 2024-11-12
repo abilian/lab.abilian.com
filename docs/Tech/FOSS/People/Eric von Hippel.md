@@ -9,3 +9,7 @@ In terms of policy adaptation to user innovation, von Hippel suggests that intel
 Von Hippel's work differs from Yochai Benkler's in that it does not specifically focus on commons-based peer production (CBPP). Instead, his main idea is that companies should recognize and harness the value of users who are interested in their projects by integrating them into the innovation process.
 
 Overall, Eric von Hippel's research on lead users and user-driven innovation has provided valuable insights into the ways companies can benefit from involving users in product development and improvement. By embracing the potential of user innovation, companies can unlock new opportunities for growth and success in their industries.
+
+<!-- Keywords -->
+#innovation #innovate #innovated
+<!-- /Keywords -->

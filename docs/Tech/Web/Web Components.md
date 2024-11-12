@@ -124,3 +124,7 @@ export default define({
 - https://begin.com/blog/posts/2023-12-13-web-component-therapy
 - https://blog.carlana.net/post/2023/web-component-alternative-futures/
 - https://github.com/matschik/component-party.dev
+
+<!-- Keywords -->
+#webcomponents #html
+<!-- /Keywords -->

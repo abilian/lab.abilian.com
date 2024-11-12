@@ -68,3 +68,7 @@ Some of the main refactoring techniques described in the book include:
 - [Refactoring](https://martinfowler.com/books/refactoring.html) by Martin Fowler
 - [Object-Oriented Reengineering Patterns (2003)](https://scg.unibe.ch/assets/download/oorp/) by Demeyer, Ducasse & Nierstrasz.
 - [A survey on software smells](https://zenodo.org/record/1997449) by  Sharma & Spinellis.
+
+<!-- Keywords -->
+#refactoring #maintainability #reengineering
+<!-- /Keywords -->

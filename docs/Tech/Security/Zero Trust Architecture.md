@@ -43,3 +43,7 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 - ANSSI: https://cyber.gouv.fr/publications/le-modele-zero-trust
 - NIST: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf
 - Wikipedia: https://en.wikipedia.org/wiki/Zero_trust_security_model
+
+<!-- Keywords -->
+#zero_trust_security_model #security #cybersecurity #authentication
+<!-- /Keywords -->

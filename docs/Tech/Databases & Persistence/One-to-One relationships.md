@@ -76,3 +76,7 @@ When deciding where to place the foreign key in a one-to-one relationship, consi
 In a one-to-one relationship, placing the foreign key in the correct table depends on understanding the nature of the relationship between the entities. If one entity logically extends the other or depends on it, the foreign key should be placed in the dependent table. If the relationship is truly symmetric, either table can hold the foreign key, provided that a `UNIQUE` constraint is applied to enforce the one-to-one rule.
 
 By properly analyzing the relationship and ensuring the integrity constraints are enforced, you can design efficient and logically sound relational database schemas that align with the business rules of your application.
+
+<!-- Keywords -->
+#relational
+<!-- /Keywords -->

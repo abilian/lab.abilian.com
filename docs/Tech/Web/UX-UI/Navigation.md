@@ -31,3 +31,7 @@ Suitable for highly complex applications with extensive functionalities that req
 - **Visibility**: Ensure that current location indicators (like highlighted or differently colored menu items) are clear, helping users understand where they are at any point.
 - **Accessibility**: Navigation should be accessible, with keyboard shortcuts, screen reader support, and clear labels, especially important in enterprise environments.
 - **Responsive Design**: Navigation should adapt to different screen sizes and devices, possibly shifting from a horizontal to a vertical layout or hiding less frequently used items in a collapsible menu on smaller screens.
+
+<!-- Keywords -->
+#menus #navigation
+<!-- /Keywords -->

@@ -30,3 +30,7 @@ The questions are:
 ## Reference
 
 http://concepts.gilb.com/dl24
+
+<!-- Keywords -->
+#management #business #stakeholders
+<!-- /Keywords -->

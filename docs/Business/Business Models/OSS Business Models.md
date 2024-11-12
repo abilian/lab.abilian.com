@@ -115,3 +115,7 @@ Several other frameworks can provide insights into the business models of open s
     1. *Customer Intimac*y: the company could leverage its community to provide highly tailored and adaptable solutions to individual customer needs, while also fostering strong, long-term relationships with their users. 
     2. *Operational Excellence*: the vendor could focus on efficiently managing community contributions and maintaining a streamlined process for software development, testing, and deployment to deliver high-quality software at a competitive price. 
     3. *Product Leadership*: an open source vendor could continuously innovate by incorporating cutting-edge technologies into their products, driven by the contributions from a diverse community of contributors, thereby pushing the performance boundaries of their offerings.
+
+<!-- Keywords -->
+#repositories #repository
+<!-- /Keywords -->

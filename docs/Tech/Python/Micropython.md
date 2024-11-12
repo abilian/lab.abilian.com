@@ -17,3 +17,7 @@ Here are some background information:
 8. **WebAssembly and Web Development**: [MicroPython can run in a web browser using WebAssembly](https://github.com/micropython/micropython/tree/master/ports/webassembly), offering a smaller and faster alternative for web applications compared to Pyodide, as demonstrated in PyScript's technical preview by Anaconda.
 
 ⇒ MicroPython is an accessible choice for programming microcontrollers, competing with platforms like Arduino (which requires C++ knowledge) and complementing other Python-based platforms like CircuitPython and Snek. Its suitability extends beyond microcontrollers to other constrained environments, including web applications via WebAssembly.
+
+<!-- Keywords -->
+#micropython #cpython #microcontrollers #microcontroller #python
+<!-- /Keywords -->

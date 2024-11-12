@@ -6,3 +6,7 @@
 -   [typeguard](https://github.com/agronholm/typeguard). -> No need for code modification, but buggy ("typeguard cannot check these packages because they are already imported")
 
 => And the winner is: **Typeguard**.
+
+<!-- Keywords -->
+#pytypes #typeguard
+<!-- /Keywords -->

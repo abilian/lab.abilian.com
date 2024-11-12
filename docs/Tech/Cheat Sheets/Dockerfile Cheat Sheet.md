@@ -31,3 +31,7 @@ Note: Always try to use specific version of base images and package to avoid any
 ## Other cheat sheets and official doc
 - https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index
 - https://docs.docker.com/engine/reference/builder/
+
+<!-- Keywords -->
+#dockerfile #docker
+<!-- /Keywords -->

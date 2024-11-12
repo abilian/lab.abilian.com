@@ -6,3 +6,7 @@ Alternatives:
 - Python
 - JSON w/ comments & commas
 - Nix (!)
+
+<!-- Keywords -->
+#yaml
+<!-- /Keywords -->

@@ -74,3 +74,7 @@ Our commitment to a culture of continuous learning and improvement through retro
 - [What is a Sprint Retrospective? (Scrum)](https://www.scrum.org/resources/what-is-a-sprint-retrospective)
 - [Sprint Retrospective](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-retrospective)
 - [22 Retrospective Ideas for Ambitious Teams](https://www.parabol.co/resources/sprint-retrospective-ideas/)
+
+<!-- Keywords -->
+#retrospectives #retrospective
+<!-- /Keywords -->

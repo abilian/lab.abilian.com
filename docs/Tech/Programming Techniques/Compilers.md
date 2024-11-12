@@ -1,7 +1,7 @@
 ## IR
 
 - MIR: <https://github.com/vnmakarov/mir>
-- LLVM: 
+- LLVM:
     - <https://github.com/numba/llvmlite> Python wrapper used by Numba
 - PPCI: <https://pypi.org/project/ppci/>
 - QBE: https://c9x.me/compile/
@@ -66,3 +66,7 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
 - https://en.wikipedia.org/wiki/META_II
 - https://en.wikipedia.org/wiki/OMeta
 - https://github.com/vkazanov/pymetaii (Python implementation)
+
+<!-- Keywords -->
+#compilers #compiler #compilerbook #programming #python
+<!-- /Keywords -->

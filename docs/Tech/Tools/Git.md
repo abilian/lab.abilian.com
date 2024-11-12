@@ -16,3 +16,7 @@ git gc --prune=now
 ### How to merge commits
 
 Use `git rebase -i <after-this-commit>` and replace "pick" on the second and subsequent commits with "squash" or "fixup", as described in [the manual](https://git-scm.com/docs/git-rebase#_interactive_mode).
+
+<!-- Keywords -->
+#git
+<!-- /Keywords -->

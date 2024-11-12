@@ -172,3 +172,7 @@ The choice of system should align with the specific needs of the application, su
 - https://sharmarajdaksh.github.io/blog/the-what-why-and-how-of-message-queues
 - https://en.wikipedia.org/wiki/Message_queue
 - https://stackshare.io/message-queue
+
+<!-- Keywords -->
+#message_queue #microservices #queueing #queues #middleware
+<!-- /Keywords -->

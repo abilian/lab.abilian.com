@@ -151,3 +151,7 @@ In a distributed Varlink-based microservice architecture, a typical setup might 
    - Logs are aggregated via ELK stack (Elasticsearch, Logstash, Kibana).
    - Distributed tracing via Jaeger.
    - Metrics exposed via Prometheus.
+
+<!-- Keywords -->
+#varlink #microservices #microservice #systemd
+<!-- /Keywords -->

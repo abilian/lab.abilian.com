@@ -3,3 +3,7 @@ The one we're currently using:
 
 Other interesting ones:
 - https://github.com/rochacbruno/python-project-template
+
+<!-- Keywords -->
+#cookiecutter
+<!-- /Keywords -->

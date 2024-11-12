@@ -79,3 +79,7 @@ https://lwn.net/Articles/962788/ "A look at Nix and Guix"
 - [NixOS Blog](https://nixos.org/blog.html)  
 - https://www.tweag.io/blog/tags/nix/
 - https://serokell.io/blog/nix
+
+<!-- Keywords -->
+#nixos #nixpgs #nix #nixpkgs #nixbyexample
+<!-- /Keywords -->

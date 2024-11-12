@@ -22,3 +22,7 @@
 ## Frameworks
 
 - https://lato.readthedocs.io/ Lato is a microframework for building modular applications in Python. It helps you to build applications that are easy to maintain and extend. It is based on such concepts as modularity, dependency injection, and loose coupling.
+
+<!-- Keywords -->
+#chapter_01_domain_model
+<!-- /Keywords -->

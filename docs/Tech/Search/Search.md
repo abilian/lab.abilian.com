@@ -33,3 +33,7 @@ Interesting projects include:
 
 - Designing the search experience (2013)
 - Faceted seacrh (2009)
+
+<!-- Keywords -->
+#lucene #elasticsearch #minisearch
+<!-- /Keywords -->

@@ -8,3 +8,7 @@ Ad also:
 - q: https://pypi.org/project/q/
 - https://github.com/gruns/icecream
 - rich
+
+<!-- Keywords -->
+#debug #pysnoop
+<!-- /Keywords -->

@@ -26,3 +26,7 @@ DDD is not about specific technologies or programming languages; rather, it's a 
 
 - The Blue Book
 - https://lyz-code.github.io/blue-book/architecture/domain_driven_design/ (not from the same "Blue Book")
+
+<!-- Keywords -->
+#domain_driven_design #ddd
+<!-- /Keywords -->

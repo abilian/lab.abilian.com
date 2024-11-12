@@ -30,3 +30,7 @@ A manager should be action-oriented because it helps drive progress, achieve goa
 7. Celebrate achievements: Recognize and reward the accomplishments of your team, both individually and collectively. Celebrating success helps maintain motivation and reinforces the importance of being action-oriented.
 
 By being action-oriented, a manager can drive progress, achieve goals, and create a results-driven culture within their team. This approach leads to improved efficiency, trust, and overall performance.
+
+<!-- Keywords -->
+#action
+<!-- /Keywords -->

@@ -94,3 +94,7 @@ Some of the most influential works on this field include:
     3.  Encapsulating complexity
     4.  Reducing cognitive load for developers
     5.  Creating effective comments and documentation
+
+<!-- Keywords -->
+#maintainability #refactoring #heuristics #refactor
+<!-- /Keywords -->

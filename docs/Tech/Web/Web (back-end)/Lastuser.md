@@ -12,3 +12,7 @@ OAuth settings:
 Lu dans un blog post: " I _love_ Firebase Authentication, it's such an easy way to add auth to side projects." -> TODO: investiguer.
 
 Cf. aussi Auth0, etc.
+
+<!-- Keywords -->
+#firebase #oauth
+<!-- /Keywords -->

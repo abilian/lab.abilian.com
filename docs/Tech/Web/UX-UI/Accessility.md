@@ -22,3 +22,7 @@ The article "How Our CSS Framework Helps Enforce Accessibility" by Ian McBurnie 
 9. **Key Takeaway**: CSS, HTML, and ARIA roles should be used together to ensure accessibility. When designing, developers should think about leveraging ARIA and HTML attributes instead of relying solely on custom classes (e.g., `.active`, `.hidden`, `.on`) for accessibility. The ultimate goal is to create controls that are both visually and functionally accessible.
 
 10. **Future of the CSS Framework**: The author hints at an upcoming open-source release of the CSS framework that enforces these accessibility practices.
+
+<!-- Keywords -->
+#accessibility #css #html
+<!-- /Keywords -->

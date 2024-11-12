@@ -10,3 +10,7 @@ Export env var to all child processes (do not use quotes ("src") as they will be
 ```
 export PYTHONPATH = src
 ```
+
+<!-- Keywords -->
+#pythonpath
+<!-- /Keywords -->

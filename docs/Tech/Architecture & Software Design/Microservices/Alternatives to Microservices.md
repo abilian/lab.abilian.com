@@ -109,3 +109,7 @@ Each approach provides a distinct set of trade-offs, and choosing one depends on
 7. **Component-Based**: Focuses on internal modularity, ensuring that the codebase is manageable and flexible without needing distributed services.
 
 The key to selecting the right architecture is understanding the business, technical, and organisational requirements and balancing complexity, cost, and scalability.
+
+<!-- Keywords -->
+#microservices #monolithic
+<!-- /Keywords -->

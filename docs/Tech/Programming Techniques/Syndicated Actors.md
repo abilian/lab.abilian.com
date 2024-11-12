@@ -88,3 +88,7 @@ In Briot's taxonomy, the Syndicated Actors model represents an advanced paradigm
 ## References
 
 - https://syndicate-lang.org/about/
+
+<!-- Keywords -->
+#communicating
+<!-- /Keywords -->

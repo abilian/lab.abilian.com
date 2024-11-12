@@ -241,3 +241,7 @@ In Domain-Driven Design (DDD), the focus is on modeling a software domain compre
 ### Integrating REST and DDD
 
 Integrating these REST resource types into a DDD architecture involves careful alignment to ensure that the RESTful interface accurately represents and interacts with the underlying domain model. This integration should respect the boundaries set by aggregates in DDD, use repositories to manage collections of entities, treat entities as document resources with unique identities, and handle complex domain operations through controller resources. This approach not only maintains the purity and integrity of the domain model but also leverages the scalability and flexibility of RESTful services to expose the domain to a wide range of clients.
+
+<!-- Keywords -->
+#restfulobjects #apis #restful #json #hypermedia
+<!-- /Keywords -->

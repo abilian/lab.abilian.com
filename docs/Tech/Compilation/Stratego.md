@@ -13,3 +13,7 @@ Projets Python similaires:
 - ...
 
 Cf. aussi [[Compiling Python]]
+
+<!-- Keywords -->
+#stratego #strategoxt
+<!-- /Keywords -->

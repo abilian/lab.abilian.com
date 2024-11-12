@@ -17,3 +17,7 @@ OneGov is a Web portal for local administrations in Switzerland.
 
 - React
 - Pas d'infra moderne de gestion de paquets, de build.
+
+<!-- Keywords -->
+#onegov
+<!-- /Keywords -->

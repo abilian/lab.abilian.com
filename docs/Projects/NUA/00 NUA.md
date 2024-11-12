@@ -104,3 +104,7 @@ Now, you may be wondering about security. Nua takes it seriously. SSL certificat
 For the tech-savvy, Nua’s architecture initially leverages Docker for both build and runtime but has plans to extend its support to other environments, like QEMU and Unix native isolation. Whether you're looking at a pleasant Web UI or need to dive deep with CLI, Nua provides both, backed by a variety of services like databases, email, and message queues. Nua is primarily coded in Python, making it a versatile choice for a broad range of developers.
 
 Nua brings all this together with a clear technical vision, adhering to the "12-factor apps" methodology and incorporating Promise Theory. This well-thought-out blend of features and technical depth makes Nua a compelling choice for anyone looking to deploy and manage web applications securely and efficiently.
+
+<!-- Keywords -->
+#kubernetes #saas #paas
+<!-- /Keywords -->

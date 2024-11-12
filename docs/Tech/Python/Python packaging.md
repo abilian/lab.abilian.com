@@ -21,3 +21,7 @@
 -   Python version manager
 -   dependencies manager
 -   project environment manager"
+
+<!-- Keywords -->
+#py2deb #docker
+<!-- /Keywords -->

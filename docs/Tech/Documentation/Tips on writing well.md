@@ -25,3 +25,7 @@ https://zodvik.com/posts/on-writing-well/
   - **Non-obsolete writing**:
     - Use absolute time references, avoid temporal terms like "new."
     - Include context about the document’s author and approval timeline.
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

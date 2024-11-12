@@ -81,3 +81,7 @@ More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
     - There is a Python package for it
 - Vue templates
 - Nuejs templates: https://nuejs.org/docs/reference/template-syntax.html
+
+<!-- Keywords -->
+#pycharm #templates #django
+<!-- /Keywords -->

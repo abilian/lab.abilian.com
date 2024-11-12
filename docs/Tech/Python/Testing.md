@@ -16,3 +16,7 @@ At [[00 Abilian]], we strongly prefer using `Pytest` and `tox` for our tests.
 
 - [Long tutorial by Ned Batchelder](https://nedbatchelder.com/text/test3.html) (2020). Uses `pytest`.
 - [My Python testing style guide by Thea](https://blog.thea.codes/my-python-testing-style-guide/)
+
+<!-- Keywords -->
+#pytest
+<!-- /Keywords -->

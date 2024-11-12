@@ -71,3 +71,7 @@ Here are some examples illustrating the use of a general-purpose macro processor
    - **Description**: Handlebars.js is a JavaScript templating engine inspired by Mustache. It simplifies the process of generating HTML markup dynamically in web applications by providing a familiar syntax and powerful features.
    - **Features**: Handlebars.js supports template inheritance, helpers, partials, and data binding, enabling developers to build dynamic and interactive user interfaces with ease.
    - **Link**: [Handlebars.js on GitHub](https://github.com/handlebars-lang/handlebars.js/)
+
+<!-- Keywords -->
+#macros #purpose_macro_processor #preprocessor #macro #compilers
+<!-- /Keywords -->

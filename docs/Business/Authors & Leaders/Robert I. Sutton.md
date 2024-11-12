@@ -12,3 +12,7 @@ Some of his notable books include:
     
 
 Sutton's work is highly regarded in the business community, and his books provide valuable insights into effective leadership, organizational behavior, and workplace culture.
+
+<!-- Keywords -->
+#sutton #leadership
+<!-- /Keywords -->

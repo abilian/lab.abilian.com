@@ -88,3 +88,7 @@ When working with the actor model in Python (and choosing or developing an Actor
 - **43 years of actors: a taxonomy of actor models and their key properties** (2016)
     The Actor Model is a message passing concurrency model that was originally proposed by Hewitt et al. in 1973. It is now 43 years later and since then researchers have explored a plethora of variations on this model. This paper presents a history of the Actor Model throughout those years. The goal of this paper is not to provide an exhaustive overview of every actor system in existence but rather to give an overview of some of the exemplar languages and libraries that influenced the design and rationale of other actor sys- tems throughout those years. This paper therefore shows that most actor systems can be roughly classified into four families, namely: Classic Actors, Active Objects, Processes and Communicating Event-Loops.
     http://soft.vub.ac.be/Publications/2016/vub-soft-tr-16-11.pdf
+
+<!-- Keywords -->
+#actor_model #concurrency
+<!-- /Keywords -->

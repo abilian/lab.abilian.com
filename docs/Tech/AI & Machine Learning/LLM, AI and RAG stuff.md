@@ -50,3 +50,7 @@ https://www.scaleway.com/en/blog/your-rag-powered-ai-app-in-50-lines-of-code/
 
 https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math
 https://thellm.substack.com/p/llama-3-implemented-in-pure-numpy
+
+<!-- Keywords -->
+#llamaindex #large_language_model
+<!-- /Keywords -->

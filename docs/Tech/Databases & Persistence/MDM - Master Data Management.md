@@ -54,3 +54,7 @@ Open-source solutions for MDM enable organizations to implement these processes 
 
 - Pimcore: Open Source Data & Experience Management Platform (PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce) → https://github.com/pimcore/pimcore
 - Talend Open Studio for MDM → https://github.com/Talend/tmdm-server-se
+
+<!-- Keywords -->
+#mdm #management #data #managing #analytics
+<!-- /Keywords -->

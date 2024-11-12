@@ -51,3 +51,7 @@ docker push myregistry/myimage
 Note: (Almost) Always use `--rm` option while running the container to remove the container automatically when it exits.
 
 #docker
+
+<!-- Keywords -->
+#docker #dockerfile
+<!-- /Keywords -->

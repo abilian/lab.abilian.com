@@ -15,3 +15,7 @@
 
 *Python format-dependent semantics sucks.*
 -> Pas compris.
+
+<!-- Keywords -->
+#python #mypyc #cython
+<!-- /Keywords -->

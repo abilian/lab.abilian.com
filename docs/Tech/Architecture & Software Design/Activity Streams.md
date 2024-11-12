@@ -7,3 +7,7 @@ https://activitystrea.ms/
 ## Implems
 
 https://github.com/justquick/django-activity-stream
+
+<!-- Keywords -->
+#activities #activity #activitystrea #django
+<!-- /Keywords -->

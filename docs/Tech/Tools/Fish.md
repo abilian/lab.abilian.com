@@ -5,3 +5,7 @@ Compared to [xonch](https://xon.sh/), it's much faster, and reasonably supported
 Tips:
 
 - Use the virtualfish plugin by doing `pipx install virtualfish` then `vf addplugins auto_activation`.
+
+<!-- Keywords -->
+#virtualenv #zsh
+<!-- /Keywords -->

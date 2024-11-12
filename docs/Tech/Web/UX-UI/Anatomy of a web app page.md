@@ -22,3 +22,7 @@ Designing the layout for a back-office web application, or an internal business 
 TODO: diagram.
 
 TODO: add references.
+
+<!-- Keywords -->
+#layout
+<!-- /Keywords -->

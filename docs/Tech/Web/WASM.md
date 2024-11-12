@@ -17,3 +17,7 @@
 - github.com/glebbash/LO
 - https://github.com/wa-lang/wa
 - ...
+
+<!-- Keywords -->
+#webassembly #micropython
+<!-- /Keywords -->

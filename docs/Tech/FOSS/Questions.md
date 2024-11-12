@@ -45,3 +45,7 @@ Here are some common questions (FAQ) about open source development:
 12.  What is the role of governments and policy-makers in promoting and supporting the open-source business ecosystem and value creation?
 
 → These questions (most of them, open-ended) are useful to craft strategies and policies at the company or legislative levels. We hope they can also be useful for researchers.
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

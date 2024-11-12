@@ -42,3 +42,7 @@ While cloud computing offers economies of scale, it also faces diminishing retur
 Both edge and cloud computing provide the automation and scalability that modern IT services require, but they serve different needs and scenarios. 
 
 Edge computing offers specific advantages in terms of resiliency, latency, global availability, legal compliance, and economic efficiency, making it an essential component of modern IT architectures.
+
+<!-- Keywords -->
+#iot
+<!-- /Keywords -->

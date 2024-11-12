@@ -95,3 +95,7 @@ In this tutorial, we covered the basics of using the `argparse` module in Python
 One of the great things about `argparse` is that it automatically generates a help message based on the arguments that are defined. This means that users of your script will be able to easily understand what each argument does and how to use them.
 
 In addition to what we covered in this tutorial, `argparse` also provides a variety of other features, such as sub-commands, custom argument types, and more. If you're interested in learning more about these features, I recommend checking out the official documentation: [https://docs.python.org/3/library/argparse.html](https://docs.python.org/3/library/argparse.html).
+
+<!-- Keywords -->
+#argparse #parse_args #argumentparser #accumulator #add_argument
+<!-- /Keywords -->

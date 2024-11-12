@@ -42,3 +42,7 @@ The "loguru" library aims to provide a more user-friendly and expressive logging
 6.  Contextual Logging: "loguru" allows you to attach contextual information, such as tags or custom attributes, to loggers. This feature enables better filtering and identification of logs related to specific contexts or components in your application.
     
 7.  Improved Configuration: "loguru" provides various configuration options, including log level control, log format customization, feature enabling/disabling, and redirecting log output to different destinations. This flexibility allows you to adapt logging to your specific requirements easily.
+
+<!-- Keywords -->
+#logging #log #logs #loggers
+<!-- /Keywords -->

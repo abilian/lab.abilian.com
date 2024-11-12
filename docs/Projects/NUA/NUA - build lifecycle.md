@@ -75,3 +75,7 @@ The ebuild file format is in its basic form a subset of the format of a bash scr
 ##  Homebrew
 
 https://docs.brew.sh/Formula-Cookbook
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

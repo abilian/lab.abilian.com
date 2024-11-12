@@ -33,3 +33,7 @@ Here are a few specific examples of how incentives can lead to unintended conseq
 7.  UK's Renewable Heat Incentive (RHI) scheme: The UK government introduced the RHI scheme in 2011 to encourage the use of renewable heating systems. However, the program had a design flaw in Northern Ireland, where the subsidies were higher than the cost of the fuel, leading to excessive use of heating systems and overspending on the program. This became known as the "cash for ash" scandal, and it resulted in a significant waste of public funds and a political crisis in Northern Ireland.
  
 1.  French solar power incentives: In the late 2000s, France introduced generous feed-in tariffs to encourage the adoption of solar power. The tariffs were so attractive that they led to a surge in solar installations, causing an unexpected strain on the national grid and a rapid increase in the cost of the program. The government was forced to scale back the incentives, leading to job losses in the solar industry and a decline in new solar installations.
+
+<!-- Keywords -->
+#incentives #incentive #motivate #perverse_incentive #motivation
+<!-- /Keywords -->

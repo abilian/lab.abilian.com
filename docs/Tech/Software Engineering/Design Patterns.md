@@ -50,3 +50,7 @@ To avoid these issues, it's essential to use design patterns judiciously and con
 4.  **Know the trade-offs**: Be aware of the potential trade-offs and limitations of each design pattern, and ensure that the benefits outweigh the drawbacks in your specific case.
     
 5.  **Continuously evaluate**: Regularly assess your codebase and refactor as needed to ensure that design patterns are used effectively and appropriately.
+
+<!-- Keywords -->
+#design_patterns
+<!-- /Keywords -->

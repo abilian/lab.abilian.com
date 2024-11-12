@@ -35,3 +35,7 @@ By effectively managing ambiguity, a manager can adapt to change, make informed 
 - [Bad Entrepreneurial Cliches: Strong Opinions Loosely Held](https://feld.com/archives/2019/05/bad-entrepreneurial-cliches-strong-opinions-loosely-held/)
 - [Strong Opinions Loosely Held Might be the Worst Idea in Tech](https://medium.com/swlh/strong-opinions-loosely-held-might-be-the-worst-idea-in-tech-c3e65cb512f1)
 - What's true for management is wrong for programming, cf. "In the face of ambiguity, refuse the temptation to guess" in [the Zen of Python](https://inventwithpython.com/blog/2018/08/17/the-zen-of-python-explained/).
+
+<!-- Keywords -->
+#ambiguity #uncertainties #uncertainty #managing #management
+<!-- /Keywords -->

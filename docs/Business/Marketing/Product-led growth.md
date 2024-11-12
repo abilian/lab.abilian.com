@@ -253,3 +253,7 @@ This is one area where HashiCorp differs from the conventional. They know that d
 This growth model has been proven time and again across different SaaS verticals, but the explosive growth occurring in the cloud space gives this strategy an outsized impact, particularly for companies with the capability to expand across the four key user segments of cloud: developers, operators, security, and networkers.
 
 Case in point: HashiCorp’s multi-product long-term growth engine.
+
+<!-- Keywords -->
+#marketing #productled
+<!-- /Keywords -->

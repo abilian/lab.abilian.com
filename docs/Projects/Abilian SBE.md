@@ -31,3 +31,7 @@ Abilian Social Business Engine (SBE) is an open-source enterprise social network
 - **Security**: Built with a strong security architecture to safeguard company data and confidential information. It also includes sophisticated access rights management features to control sensitive data access.
 
 Abilian SBE represents a holistic approach to enterprise social networking by not only providing the necessary tools for effective communication and collaboration but also by emphasizing security, customization, and knowledge management, thereby addressing the multifaceted needs of modern businesses.
+
+<!-- Keywords -->
+#social #business #management #businesses
+<!-- /Keywords -->

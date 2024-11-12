@@ -56,4 +56,8 @@ Discussion here: https://ziade.org/2014/10/24/web-application-firewall/
 ## Ressources
 
 - "2022 Cloud Web Application Firewall (WAF) CyberRisk Validation Comparative Report"
-- https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/ 
+- https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/
+
+<!-- Keywords -->
+#web_application_firewalls_waf #firewalls #modsecurity #firewall #owasp
+<!-- /Keywords -->

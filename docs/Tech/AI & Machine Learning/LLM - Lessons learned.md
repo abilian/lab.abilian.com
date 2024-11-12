@@ -325,3 +325,7 @@ So already if you're giving someone, so Brian is probably like, very rare in ter
 Well, I actually find that super interesting. And I want to thank everyone who came on the panel today. Thank you guys for your time. Amazingly, I do want to say the first question felt like the, like introducing the project or the paper, but the second half felt like a very productive workshop. So I hope to steal a page from your book in the future. I'm going to finally wrap it up.
 
 I want to thank everyone for tuning in and engaging with us. It's been a wonderful time. Thank you all.
+
+<!-- Keywords -->
+#conversation #collaboration #ai #discussion
+<!-- /Keywords -->

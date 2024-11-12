@@ -45,3 +45,7 @@ As a rule of thumb, behavior that relates to the concept being modeled should be
 It's also worth noting that, due to their immutability, methods on a Value Object that would "modify" it in some way should instead return a new Value Object with the modified state. For example, a `DateRange.extend` method might return a new `DateRange` that extends the original by a given amount.
 
 Finally, it's generally a good idea to keep your Value Objects relatively small and simple. If you find that a Value Object is growing very large or complex, it might be a sign that you need to refactor it into multiple smaller Value Objects or even consider whether it should be an Entity instead.
+
+<!-- Keywords -->
+#values #dataclasses #dataclass
+<!-- /Keywords -->

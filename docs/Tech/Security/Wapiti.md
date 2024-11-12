@@ -5,3 +5,7 @@ It performs "black-box" scans (it does not study the source code) of the web app
 
 ## Installation
 Very easy: `pipx install wapiti3`
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

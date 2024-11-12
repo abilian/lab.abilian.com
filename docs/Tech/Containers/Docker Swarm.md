@@ -15,3 +15,7 @@ The main features of Docker Swarm include:
 5.  **Security:** Docker Swarm uses mutual Transport Layer Security (TLS) for authentication, authorization, and end-to-end encryption to ensure communication between the nodes in the swarm is secure.
     
 6.  **Rolling Updates:** Docker Swarm allows incremental updates to be performed across the entire fleet of services, minimizing the risk and impact of application updates.
+
+<!-- Keywords -->
+#docker #swarm
+<!-- /Keywords -->

@@ -20,3 +20,7 @@ Here's a general overview and key characteristics of the system:
 Website: <http://www.slapos.org/>
 Repo: <https://github.com/SlapOS/slapos>
 Abilian's fork: <https://github.com/abilian/slapos_abilian_edge> (as part of the [[HyperOpenX]] project)
+
+<!-- Keywords -->
+#slapos #decentralized
+<!-- /Keywords -->

@@ -5,3 +5,7 @@ https://packaging.python.org/en/latest/specifications/pyproject-toml/#pyproject-
 https://peps.python.org/pep-0621/
 https://peps.python.org/pep-0508/
 https://peps.python.org/pep-0440/
+
+<!-- Keywords -->
+#pyproject
+<!-- /Keywords -->

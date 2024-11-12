@@ -334,3 +334,7 @@ The three approaches differ by: runtime validation, verbosity, flexibility, and 
 - **Zope Interface**: Highly adaptable due to explicit interfaces and adaptation patterns.
 - **Abstract Base Classes (ABCs)**: Less adaptable as it relies on inheritance.
 - **Protocols**: Very adaptable due to structural typing.
+
+<!-- Keywords -->
+#interfaces #interface #subclasses #abstractmethod
+<!-- /Keywords -->

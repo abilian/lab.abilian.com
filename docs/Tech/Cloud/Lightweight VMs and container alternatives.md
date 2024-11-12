@@ -29,3 +29,7 @@ https://hocus.dev/blog/qemu-vs-firecracker/
 - Nixos
 - https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html
 - LXC
+
+<!-- Keywords -->
+#qemu #docker #hypervisor #virtualisation #microvm
+<!-- /Keywords -->

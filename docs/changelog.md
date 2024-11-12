@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-12*)
+
 - **[CISA recommendations](/Tech/Security/CISA recommendations/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-12*)
 
 - **[Constraint Programming](/Tech/Programming Techniques/Constraint Programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-12*)

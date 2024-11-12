@@ -44,3 +44,7 @@ class User:
 ```
 
 In this example, the `User` entity's `id` is set when it's created and cannot be changed afterwards. It's exposed through a read-only property, ensuring that it remains stable and unchangeable.
+
+<!-- Keywords -->
+#entities #entity
+<!-- /Keywords -->

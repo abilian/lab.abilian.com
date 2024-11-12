@@ -35,3 +35,7 @@ Designing organizational processes that prioritize outcomes over outputs can hel
 10. **Foster a culture of learning and continuous improvement**: Encourage teams to learn from successes and failures, share knowledge, and refine their approach to stay focused on delivering impactful outcomes.
 
 By implementing these organizational processes, you can create an environment that prioritizes outcomes over outputs and helps to ensure that your organization consistently delivers value and impact.
+
+<!-- Keywords -->
+#outcomes
+<!-- /Keywords -->

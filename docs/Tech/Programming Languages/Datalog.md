@@ -28,3 +28,7 @@
 
 - https://logica.dev/
 - Yedalog
+
+<!-- Keywords -->
+#datalog #bigquery #standardsql #datalite
+<!-- /Keywords -->

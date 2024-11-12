@@ -52,3 +52,7 @@ count_words.send("http://example.com")
 ```
 
 Dramatiq is well-documented, and you can find installation instructions, usage examples, and detailed information on its features and configuration options on the official documentation website at [https://dramatiq.io/](https://dramatiq.io/).
+
+<!-- Keywords -->
+#rabbitmq #dramatiq #middleware
+<!-- /Keywords -->

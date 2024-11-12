@@ -17,3 +17,7 @@ Also:
 - https://btholt.github.io/complete-intro-to-containers/chroot
 - https://home.robusta.dev/blog/containers-dont-use-chroot
 - https://kevinboone.me/containerfromscratch_chroot.html?i=1
+
+<!-- Keywords -->
+#docker #_docker #containerfromscratch_chroot #containers
+<!-- /Keywords -->

@@ -18,3 +18,7 @@ This has been is a subject of debate among developers and database designers, wi
 - **Consistency**: Above all, consistency within a project or across an organization's projects is crucial. Whether you choose singular or plural names, applying the decision uniformly helps maintain clarity and reduces confusion for anyone working with the database.
 - **Framework and ORM Compatibility**: Some frameworks and Object-Relational Mapping (ORM) tools (e.g. Rails) have conventions or default behaviors that favor either singular or plural table names. It's important to consider these technical constraints or preferences, as they can simplify development and reduce the need for configuration.
 - **Domain Language Alignment**: In some cases, the choice might be influenced by the domain language or terminology used within the application's problem space. Aligning table names with the way entities are referred to in the domain can improve the understandability of the database schema for domain experts.
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

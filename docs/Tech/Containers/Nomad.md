@@ -40,3 +40,7 @@ Here are some of Nomad's key features:
 3.  **Workload Support:** While Kubernetes is primarily focused on container orchestration (although with recent updates it can handle more workload types), Nomad is designed to be workload-agnostic. It can handle not only Docker containers but also non-containerized applications, batch jobs, Windows applications, and more.
     
 4.  **Scalability:** Both Kubernetes and Nomad are designed to scale and can handle large clusters of nodes. However, Nomad is often highlighted for its ability to handle larger scale workloads with less operational overhead due to its simpler architecture.
+
+<!-- Keywords -->
+#kubernetes #microservices #docker
+<!-- /Keywords -->

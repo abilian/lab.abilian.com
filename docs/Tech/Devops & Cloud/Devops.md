@@ -21,3 +21,7 @@
 - <http://pythonhosted.org/fapistrano/> (Dead)
 - https://github.com/opsmop/opsmop
 - Kokki
+
+<!-- Keywords -->
+#docker #ansible #devops #deploy
+<!-- /Keywords -->

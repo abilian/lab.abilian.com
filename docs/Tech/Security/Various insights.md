@@ -31,3 +31,7 @@
     
     - Discoverability is a crucial factor in assessing the real-world impact of a vulnerability.
     - Security flaws in foundational libraries can have wide-reaching consequences.
+
+<!-- Keywords -->
+#vulnerabilities #audits
+<!-- /Keywords -->

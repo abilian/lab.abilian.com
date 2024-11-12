@@ -26,3 +26,7 @@ Here's a list of our favorite libraries and frameworks:
 - [Awesome Functional Python](https://github.com/sfermigier/awesome-functional-python)
 - [Awesome Python Web Frameworks](https://github.com/sfermigier/awesome-python-web-frameworks)
 - [Awesome Dependency Injection in Python](https://github.com/sfermigier/awesome-dependency-injection-in-python)
+
+<!-- Keywords -->
+#python #abilian #frameworks
+<!-- /Keywords -->

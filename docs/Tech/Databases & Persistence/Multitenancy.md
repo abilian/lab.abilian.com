@@ -40,3 +40,7 @@ When designing a multi-tenant system, several factors should influence your deci
 - **Data volume and performance:** Applications with high data volume or resource-intensive queries may require database isolation to prevent performance issues due to noisy neighbors.
 - **Security and privacy:** Applications handling sensitive data may prioritize database-per-tenant setups to ensure stricter isolation.
 - **Operational overhead:** The shared database model can simplify deployment and schema updates, but it may require additional safeguards like automated query filters or rate-limiting mechanisms.
+
+<!-- Keywords -->
+#tenants #tenant_id #tenant
+<!-- /Keywords -->

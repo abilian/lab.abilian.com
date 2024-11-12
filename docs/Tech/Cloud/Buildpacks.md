@@ -25,3 +25,7 @@ default = true
 - A SBOM (see: https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/adding-bill-of-materials/)
 
 Buildpacks are composable: https://buildpacks.io/docs/buildpack-author-guide/build-phases-overview/
+
+<!-- Keywords -->
+#buildpack #buildpacks #buildback
+<!-- /Keywords -->

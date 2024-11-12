@@ -19,3 +19,7 @@
 - https://github.com/klen/py-frameworks-bench
 - Techempower
 - https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/
+
+<!-- Keywords -->
+#benchmarks
+<!-- /Keywords -->

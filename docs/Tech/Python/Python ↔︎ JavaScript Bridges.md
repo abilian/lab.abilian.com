@@ -33,3 +33,7 @@ f = Function("f", """
 
 assert f(1, 2) == 3
 ```
+
+<!-- Keywords -->
+#quickjs #pythonmonkey
+<!-- /Keywords -->

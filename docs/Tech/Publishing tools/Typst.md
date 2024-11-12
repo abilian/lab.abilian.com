@@ -29,3 +29,7 @@ https://typst.app/
 ### Footnotes
 
 - Current hacks: https://github.com/tbug/notes.typ or https://github.com/saadulkh/typst-notes  (not sure if it's good)
+
+<!-- Keywords -->
+#typstyle #typesetting #templates #markup #typstmoderncv
+<!-- /Keywords -->

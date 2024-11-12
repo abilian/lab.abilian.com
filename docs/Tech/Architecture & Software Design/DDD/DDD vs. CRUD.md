@@ -31,3 +31,7 @@ Disadvantages of DDD:
 - Overhead: DDD can be overkill for simple applications with straightforward business logic.
 
 In practice, many applications use a combination of DDD and CRUD. For example, an application might use DDD for complex business operations, while still using CRUD for simple operations like user management. The key is to choose the right tool for the job, based on the complexity of the business logic and the needs of the application.
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

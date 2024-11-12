@@ -214,3 +214,7 @@ if __name__ == '__main__':
 - **SCIM 2.0 Specification**: https://tools.ietf.org/html/rfc7644  
 - **SCIM Overview**: https://scim.cloud/  
 - Flask demo: https://github.com/oktadev/okta-scim-flask-example
+
+<!-- Keywords -->
+#authentication #oauth
+<!-- /Keywords -->

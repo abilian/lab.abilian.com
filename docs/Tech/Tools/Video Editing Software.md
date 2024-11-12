@@ -7,3 +7,7 @@
 ## Not open source
 
 - CapCut
+
+<!-- Keywords -->
+#openshot #capcut #shotcut
+<!-- /Keywords -->

@@ -5,3 +5,7 @@
 - <https://medium.com/workday-engineering/exploring-workdays-architecture-73c5dbbffc35> (2018)
 - <https://blog.workday.com/en-us/2018/workday-cto-why-technology-architecture-matters-to-customers.html> (2018)
 - <https://www.barrons.com/articles/workday-cto-sweet-corrects-larry-ellison-talks-new-software-frontiers-1502896014> (2015)
+
+<!-- Keywords -->
+#workdays #workday
+<!-- /Keywords -->

@@ -60,3 +60,7 @@ Le projet est financé par:
 
 - le gouvernment français dans le cadre de [France 2030](https://www.economie.gouv.fr/france-2030).
 - l'Union Européenne - [Next Generation EU](https://next-generation-eu.europa.eu/index_en) dans le cadre du plan [France Relance](https://www.gouvernement.fr/les-priorites/france-relance).
+
+<!-- Keywords -->
+#hyperopenx #slapos #hyper_cdn
+<!-- /Keywords -->

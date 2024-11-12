@@ -73,3 +73,7 @@ https://www.open-scap.org/tools/
 ### Notes
 
 Obsoletes https://wiki.debian.org/DebianSecurity/debsecan (which doesn't work on Ubuntu anyway).
+
+<!-- Keywords -->
+#security_content_automation_protocol #scap #security
+<!-- /Keywords -->

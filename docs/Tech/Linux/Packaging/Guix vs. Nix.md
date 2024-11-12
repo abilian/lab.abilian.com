@@ -39,3 +39,7 @@ Here are more details:
 ### Extensibility and Customization
 - **Nix**: Nix offers a wide range of options for customizing package builds, system configurations, and environments. However, these customizations are often done through the Nix language itself, which may be less powerful than a full programming language.
 - **Guix**: With Guix being based on Guile Scheme, users can customize the package manager and system configuration to a greater extent using the powerful features of Scheme. Guix is designed to be a highly extensible system where users can define their own system services, packages, and more, using the full power of a Lisp dialect.
+
+<!-- Keywords -->
+#nixpkgs #nix #nixos
+<!-- /Keywords -->

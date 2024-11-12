@@ -14,3 +14,7 @@ https://arxiv.org/abs/2005.11644
 - https://www.researchgate.net/publication/341640178_miniKanren_as_a_Tool_for_Symbolic_Computation_in_Python
 - https://en.wikipedia.org/wiki/MiniKanren
 - https://github.com/logpy/logpy
+
+<!-- Keywords -->
+#341640178_minikanren_as_a_tool_for_symbolic_computation_in_python #minikanren #logpy #pymc
+<!-- /Keywords -->

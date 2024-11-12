@@ -8,3 +8,7 @@
     - https://trac.edgewall.org/wiki/TracDev/ComponentArchitecture
 - ZCA (Zope Component Architecture)
 - Grok
+
+<!-- Keywords -->
+#componentarchitecture
+<!-- /Keywords -->

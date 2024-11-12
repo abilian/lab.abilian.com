@@ -20,3 +20,7 @@
 
 - [[NUA - Supporting files]]
 - [[NUA - build lifecycle]]
+
+<!-- Keywords -->
+#buildpacks
+<!-- /Keywords -->

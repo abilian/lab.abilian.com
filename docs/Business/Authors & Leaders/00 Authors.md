@@ -38,3 +38,7 @@ Here is a list of some notable business writers and thought leaders in the 21st 
 3. Nassim Nicholas Taleb: Taleb is a former trader and risk analyst who has written several influential books, including "The Black Swan: The Impact of the Highly Improbable" (2007) and "Antifragile: Things That Gain from Disorder" (2012), which explore the nature of uncertainty, risk, and decision-making.
 
 4. Daniel H. Pink: Pink's work explores the intersection of business, psychology, and human behavior. Some of his popular books include "Drive: The Surprising Truth About What Motivates Us" (2009) and "To Sell Is Human: The Surprising Truth About Moving Others" (2012).
+
+<!-- Keywords -->
+
+<!-- /Keywords -->

@@ -25,3 +25,7 @@ This makes CLIPS an excellent choice for projects that aim to integrate sophisti
 - Main site: https://www.clipsrules.net/
 - Learn CLIPS: https://ryjo.codes/tour-of-clips.html
 - https://clipspy.readthedocs.io/ (Python Integration)
+
+<!-- Keywords -->
+#ai
+<!-- /Keywords -->

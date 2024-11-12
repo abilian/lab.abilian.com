@@ -42,3 +42,7 @@ cp "$DIR"/scrapscript.com .
 
 - https://justine.lol/ape.html
 - https://cosmo.zip/
+
+<!-- Keywords -->
+#scrapscript
+<!-- /Keywords -->

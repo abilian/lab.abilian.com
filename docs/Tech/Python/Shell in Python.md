@@ -78,3 +78,7 @@ Strong typing: generate `.pyi` files for common commands ? By parsing man pages 
 Piping: `shell.ls().pipe.grep('*.py')` ? bof.
 
 `shell.pipe(shell.ls(), shell.grep('*.py')` ? (Needs to parse AST inside the pipe argument).
+
+<!-- Keywords -->
+#bash2py #ipython #shell #commandlib #bash
+<!-- /Keywords -->

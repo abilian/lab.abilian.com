@@ -53,3 +53,7 @@ while True:
     ]
     print(f"(Assistant): {response.content}")
 ```
+
+<!-- Keywords -->
+#openaicall #openai_api_key #chatcompletionmessageparam
+<!-- /Keywords -->

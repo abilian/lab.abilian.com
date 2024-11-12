@@ -30,3 +30,7 @@ Using the Business Model Canvas, organizations can easily brainstorm and visuali
 ## See also
 
 - [[OSS Business Models]]
+
+<!-- Keywords -->
+#business
+<!-- /Keywords -->

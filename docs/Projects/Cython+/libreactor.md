@@ -9,3 +9,7 @@ Libreactor is:
 - Itself is 2 KLOC C.
 
 Benchmark: https://github.com/TechEmpower/FrameworkBenchmarks/tree/master/frameworks/C/libreactor
+
+<!-- Keywords -->
+#libreactor
+<!-- /Keywords -->

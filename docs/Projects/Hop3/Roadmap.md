@@ -53,3 +53,7 @@ Here is the current roadmap.
 ## Hosting
 
 - [ ] Architecture for a hosting service based on Hop
+
+<!-- Keywords -->
+#roadmap #hop #hop3
+<!-- /Keywords -->

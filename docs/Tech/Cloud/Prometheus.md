@@ -28,3 +28,7 @@ Prometheus client libraries presume a threaded model, where metrics are shared a
 ### TODO
 
 Regarder OpenTelemetry: https://opentelemetry.io/docs/instrumentation/python/
+
+<!-- Keywords -->
+#prometheus_client #opentelemetry
+<!-- /Keywords -->

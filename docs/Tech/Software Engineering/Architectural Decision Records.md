@@ -75,3 +75,7 @@ In summary, while both ADRs and RFCs are ways of documenting and communicating a
 - https://github.com/thomvaill/log4brains/tree/master/docs/adr
 - https://github.com/nats-io/nats-architecture-and-design
 - https://github.com/arachne-framework/architecture
+
+<!-- Keywords -->
+#architectural #adrs #adr
+<!-- /Keywords -->

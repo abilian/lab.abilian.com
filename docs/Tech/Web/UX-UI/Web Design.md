@@ -79,3 +79,7 @@ Design doesn’t have to be complex. A few thoughtful choices can help your site
 - [[Common Web Design Mistakes]]
 
 #web #design
+
+<!-- Keywords -->
+#css #readability
+<!-- /Keywords -->

@@ -106,3 +106,7 @@ inv greet
 ```
 
 These are the basic steps to use Invoke as a task runner. You can find more advanced features and examples in the [official documentation](http://www.pyinvoke.org/).
+
+<!-- Keywords -->
+#invoke
+<!-- /Keywords -->

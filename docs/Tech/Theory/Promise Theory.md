@@ -19,3 +19,7 @@ Promise Theory offers a decentralized and bottom-up way of understanding systems
 
 - http://markburgess.org/promises.html (Including the book "Promise Theory. Principles and Applications")
 - More book by Mark Burgess: https://www.goodreads.com/author/list/804441.Mark_Burgess
+
+<!-- Keywords -->
+#promises #promise
+<!-- /Keywords -->

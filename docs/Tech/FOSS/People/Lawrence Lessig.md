@@ -25,3 +25,7 @@ Lessig also identifies several threats to free code and the open exchange of ide
 ## Summary 
 
 Larry Lessig advocates for a more balanced approach to intellectual property and copyright law that recognizes the importance of fostering creativity and innovation while still protecting the rights of creators. He emphasizes the need for a more open and free society that enables the future by limiting the control exerted by the past.
+
+<!-- Keywords -->
+#copyright
+<!-- /Keywords -->

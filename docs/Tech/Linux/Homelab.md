@@ -78,3 +78,7 @@ A **homelab** is a personal, small-scale data center or network environment set 
 
 https://www.youtube.com/watch?v=W_l82GF00UY
 https://www.youtube.com/watch?v=2yplBzPCghA
+
+<!-- Keywords -->
+#homelab #homelabs #containerization
+<!-- /Keywords -->

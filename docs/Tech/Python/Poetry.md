@@ -21,3 +21,7 @@ Potentially useful plugins:
 
 ### Misc
 - https://pypi.org/project/poetry-docker-plugin/ "A [Poetry](https://python-poetry.org) plugin for configuring and building docker images directly from python projects."
+
+<!-- Keywords -->
+#plugins
+<!-- /Keywords -->

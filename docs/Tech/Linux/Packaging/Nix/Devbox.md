@@ -28,3 +28,7 @@ Devbox is a tool designed to create isolated and reproducible development enviro
 - **Developer Productivity**: By simplifying environment setup and avoiding issues caused by different system configurations, Devbox improves productivity and reduces time spent on debugging environment-related issues.
 - **Flexibility**: Devbox allows developers to use their preferred tools and languages without forcing them into a specific ecosystem like Docker or Nix.
 - **Scalability**: It is scalable for both small and large teams, as environments can be easily shared and versioned.
+
+<!-- Keywords -->
+#devbox #docker #toolchain #toolchains
+<!-- /Keywords -->

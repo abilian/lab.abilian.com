@@ -117,3 +117,7 @@ By adhering to the HAM Stack's principles, developers can create systems that no
 - <https://erikdreyer.medium.com/modular-architecture-for-monoliths-156368d9653c>
 - <https://dzone.com/articles/architecture-style-modulith-vs-microservices>
 - <https://hamy.xyz/labs/2024-02_hamstack>
+
+<!-- Keywords -->
+#modularization #modularity #microservices #architectures #modularize
+<!-- /Keywords -->

@@ -14,3 +14,7 @@ Key features of DuckDB often highlighted include:
 -   **Storage:** SQLite is a disk-based database, which means it stores its data on disk, making it a great choice for persistent storage. DuckDB, on the other hand, is an in-memory database but can also handle data stored on disk. However, its primary strength lies in processing data held in memory.
 -   **Query Execution:** DuckDB uses vectorized query execution and a columnar data layout, which is optimized for complex analytical queries operating on large amounts of data. SQLite doesn't feature this and instead is optimized for transactional workloads.
 -   **Concurrency & Access:** SQLite uses file-level locking for transactions, which can limit concurrency in multi-user scenarios. DuckDB, primarily aimed at analytical tasks, is not generally expected to deal with high levels of concurrent write access.
+
+<!-- Keywords -->
+#duckdb #sqlite #databases #database #sql
+<!-- /Keywords -->

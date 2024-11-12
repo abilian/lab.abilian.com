@@ -50,3 +50,7 @@ Opportunities:
 3. Ushering in a new era of web development with increased flexibility and power.
 
 The Python to WASM compiler project presents both technical challenges and the potential for a paradigm shift in web development. Its success could lead to a more integrated and powerful web experience. The project is actively seeking contributions, with internship positions available for those interested in being part of this groundbreaking work.
+
+<!-- Keywords -->
+#compilers #compiler
+<!-- /Keywords -->

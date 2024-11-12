@@ -9,3 +9,7 @@ Currently our focus is on:
 - [[Is knowledge management dead (or dying)?|Knowledge Management]]
 - [[Product-led growth|Marketing]]
 - [[Values]] as a mean of value creation and talent acquisition
+
+<!-- Keywords -->
+#management #business #marketing #entrepreneur
+<!-- /Keywords -->

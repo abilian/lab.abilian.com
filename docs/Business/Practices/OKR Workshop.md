@@ -121,3 +121,7 @@ By the end of this workshop, attendees will:
 4. Gain practical experience in the iterative refinement of OKRs based on feedback.
 
 #okr
+
+<!-- Keywords -->
+#objectives #organization
+<!-- /Keywords -->

@@ -18,3 +18,7 @@ The "attrs" library is well-documented, and you can find more information, usage
 ## References / discussions
 
 - [The One Python Library Everyone Needs](https://blog.glyph.im/2016/08/attrs.html "Permalink to The One Python Library Everyone Needs")
+
+<!-- Keywords -->
+#python #attributes #attribute
+<!-- /Keywords -->
