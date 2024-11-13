@@ -1,4 +1,4 @@
-The "SQLite database is locked" error typically occurs when multiple threads or processes try to access the same SQLite database simultaneously. SQLite, being a lightweight database management system, is not designed for high levels of concurrency. 
+The "SQLite database is locked" error typically occurs when multiple threads or processes try to access the same SQLite database simultaneously. SQLite, being a lightweight database management system, is not designed for high levels of concurrency.
 
 To prevent this error, consider the following strategies:
 

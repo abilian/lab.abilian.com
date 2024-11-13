@@ -27,7 +27,7 @@ FAILED tests/run/test_grammar.py::GrammarTests::test_funcdef - AssertionError...
 ---
 
 ## Code style and linters
-The Cython code doesn’t adhere to PEP8. 
+The Cython code doesn’t adhere to PEP8.
 
 
 ### Proposals

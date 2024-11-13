@@ -33,7 +33,7 @@ A database implementation involves tables with fields for index, clientId, data,
 
 #### Filesystems
 
-In a filesystem implementation, data is stored in directories with metadata in an `index.json` file. Each client has directories for changes and assets, and files are distributed evenly to avoid directory overloading. 
+In a filesystem implementation, data is stored in directories with metadata in an `index.json` file. Each client has directories for changes and assets, and files are distributed evenly to avoid directory overloading.
 
 #### Online Services and Peer-To-Peer Sync
 

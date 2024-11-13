@@ -1,4 +1,4 @@
-The Kanban system, originally developed for manufacturing by Taiichi Ohno at Toyota, is a visual workflow management method that focuses on continuous improvement and lean principles. In software development, Kanban is used to manage work in progress (WIP), improve the flow of tasks, and enhance team collaboration and communication. 
+The Kanban system, originally developed for manufacturing by Taiichi Ohno at Toyota, is a visual workflow management method that focuses on continuous improvement and lean principles. In software development, Kanban is used to manage work in progress (WIP), improve the flow of tasks, and enhance team collaboration and communication.
 
 ## Kanban Fundamentals
 

@@ -8,13 +8,13 @@ Here are a few open-source projects that have made significant improvements over
 3. **VLC**: VideoLAN Client is an open-source multimedia player and framework developed by the VideoLAN project. It was initially released in 2001 and has since the most popular and widely used media players globally. VLC is known for its ability to play virtually any media format, both audio and video, without requiring additional codecs or plugins. This versatility makes VLC an essential tool for users who need a reliable and flexible media player.
 
 4.  **Matrix Protocol**: Matrix is an open standard and decentralized communication protocol for real-time communication, designed to provide secure and private communication over the internet. Matrix improves upon traditional messaging protocols by enabling interoperability between different messaging services and enhancing security through end-to-end encryption.
-    
+
 3.  **Tor**: The Tor project is a free and open-source software for enabling anonymous communication over the internet. Tor improves upon existing privacy technologies by providing a robust and decentralized network that protects users from traffic analysis and surveillance.
-    
+
 5.  **WireGuard**: WireGuard is an open-source VPN protocol designed to be faster, simpler, and more secure than existing VPN solutions like OpenVPN and IPsec. WireGuard's innovative design includes better performance, easier configuration, and enhanced security features.
-    
+
 6.  **OBS Studio**: Open Broadcaster Software (OBS) Studio is a free and open-source software for video recording and live streaming. OBS Studio offers a wide range of features and customization options that rival and surpass many proprietary alternatives, enabling users to create high-quality video content.
-    
+
 7.  **Let's Encrypt**: Let's Encrypt is a free, automated, and open certificate authority that provides SSL/TLS certificates for website encryption. By automating the process and offering certificates for free, Let's Encrypt has made it significantly easier for website owners to secure their sites, resulting in a more secure web overall.
 
 1.  **Proton**: Developed by Valve and based on Wine, Proton is a compatibility layer that enables Windows-only video games to run on Linux. This project has significantly improved the gaming experience on Linux, closing the gap between Linux and Windows in terms of game compatibility.

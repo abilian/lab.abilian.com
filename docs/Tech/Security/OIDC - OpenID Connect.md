@@ -135,7 +135,7 @@ if __name__ == '__main__':
 ## Use Cases for OIDC in Python
 
 1. **Single Sign-On (SSO)**: OIDC is frequently used to implement SSO across different services and applications. Users can log in once via an identity provider and seamlessly access multiple applications without re-authenticating.
-   
+
 2. **API Security**: With OIDC, APIs can verify the identity of users using the ID token, ensuring that the users accessing an API are authenticated and authorized.
 
 3. **Multi-Tenant Applications**: OIDC allows applications to support multiple identity providers, making it easier to authenticate users from different organizations or systems.

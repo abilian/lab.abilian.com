@@ -1,4 +1,4 @@
-Modulith (or Modular Monolith) architecture is an architectural style that structures an application as a collection of modules. This concept is particularly relevant in the context of large and complex systems, where managing dependencies and ensuring maintainability can be challenging. 
+Modulith (or Modular Monolith) architecture is an architectural style that structures an application as a collection of modules. This concept is particularly relevant in the context of large and complex systems, where managing dependencies and ensuring maintainability can be challenging.
 
 A modulithic approach aims to balance the benefits of modularization—such as improved code organization, better separation of concerns, and enhanced scalability—while avoiding some of the operational complexities often associated with microservices architectures.
 

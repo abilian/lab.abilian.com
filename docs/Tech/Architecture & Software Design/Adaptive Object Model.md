@@ -1,4 +1,4 @@
-The Adaptive Object-Model (AOM) architectural style allows to create highly flexible and dynamically configurable systems that provide a robust solution for developing systems that need to adapt in real-time to changing demands. 
+The Adaptive Object-Model (AOM) architectural style allows to create highly flexible and dynamically configurable systems that provide a robust solution for developing systems that need to adapt in real-time to changing demands.
 
 ## Understanding Adaptive Object-Model Architecture
 

@@ -1,4 +1,4 @@
-Marp is an open-source presentation framework that allows you to create beautiful, customizable slide decks using the simplicity and flexibility of Markdown. 
+Marp is an open-source presentation framework that allows you to create beautiful, customizable slide decks using the simplicity and flexibility of Markdown.
 
 Marp provides a combination of simplicity, content-focused approach, customizability, integration with Visual Studio Code, and export options that make it a compelling choice for public speakers looking to create professional and visually appealing presentations with ease.
 

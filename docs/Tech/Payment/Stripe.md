@@ -10,7 +10,7 @@
 
 ## Usage scenario: SEPA Direct Debit payments in Flask
 
-References: 
+References:
 - https://docs.stripe.com/payments/sepa-debit
 
 Here are the steps (planning, configuration and integration) needed to implement SEPA Direct Debit payments in a Python/Flask web application using Stripe:
@@ -85,7 +85,7 @@ def stripe_webhook():
      payload = request.data
      sig_header = request.headers.get('Stripe-Signature')
      event = None
-    
+
      try:
          event = stripe.Webhook.construct_event(
              payload, sig_header, 'your_webhook_secret'
@@ -96,7 +96,7 @@ def stripe_webhook():
      except stripe.error.SignatureVerificationError:
          # Invalid signature
          return '', 400
-    
+
      # Handle the event
      if event['type'] == 'payment_intent.succeeded':
          payment_intent = event['data']['object']

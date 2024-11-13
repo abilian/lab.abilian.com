@@ -1,4 +1,4 @@
-Remoting (distributed objects and RPC) frameworks in Python are essential for enabling inter-process communication, particularly in distributed systems and applications requiring remote method invocation (RMI). 
+Remoting (distributed objects and RPC) frameworks in Python are essential for enabling inter-process communication, particularly in distributed systems and applications requiring remote method invocation (RMI).
 
 In this note, we will compare several popular remoting frameworks, focusing on their features, ease of use, performance, and suitability for various use cases.
 

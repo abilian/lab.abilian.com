@@ -4,8 +4,8 @@
 - Apps that work "on the edge" (e.g. Cloudflare -> need to better understand the technology involved)
 
 - Discussion w/ Paul Everitt:
-  
-> (From 2019): Russell’s talk has a very good analogy about “winged keel” in yacht racing, which he applies to WASM. On the other hand, it isn’t clear how it will manifest. Lukazs makes a strong case that we shouldn’t do the Python runtime in the browser, but should translate to as native WASM as we can on the server in a build step.  
+
+> (From 2019): Russell’s talk has a very good analogy about “winged keel” in yacht racing, which he applies to WASM. On the other hand, it isn’t clear how it will manifest. Lukazs makes a strong case that we shouldn’t do the Python runtime in the browser, but should translate to as native WASM as we can on the server in a build step.
 > Namely, we’ll never get 60 fps in the browser if there’s a Python runtime and compiler there, even in WASM.
 > Lukazs mentioned Cython but was more interested in mypyc as part of a toolchain that generated WASM. Any thoughts?
 
@@ -82,7 +82,7 @@ A tiny subset of Python can be compiled to WASM using PPCI:
 
 => Result: quite fast (300ms vs. 180ms for the C version).
 
-TODO: 
+TODO:
 
 - Investigate other Py->WASM compilers (are there any ?)
 - Benchmark other WASM runtimes

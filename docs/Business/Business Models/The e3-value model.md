@@ -3,21 +3,21 @@ The e3-value model, developed by Gordijn and Akkermans in 2003, is a methodology
 Here are some key concepts of the e3-value model:
 
 1.  **Value Object**: This represents goods, services, or money that are of economic value to at least one of the actors.
-    
+
 2.  **Actor**: An actor is an economically independent entity that perceives value from its involvement in the business model.
-    
+
 3.  **Value Port**: A value port is used by an actor to provide or request value objects to or from other actors.
-    
+
 4.  **Value Transfer**: This represents the exchange of value objects between two actors.
-    
+
 5.  **Value Interface**: This encapsulates the value ports of an actor and shows how an actor wants to interact (in terms of value exchange) with its environment.
-    
+
 6.  **Value Exchange**: This represents the potential exchange of value objects between actors.
-    
+
 7.  **Value Activity**: Value activities are the operations performed by an actor to yield value for other actors.
-    
+
 8.  **Market Segment**: A market segment is a group of actors who assign economic value to things similarly.
-    
+
 9.  **Stakeholder**: Stakeholders have an interest in the business model but do not necessarily participate in value exchanges.
 
 One of the strengths of the e3-value model is its emphasis on the analysis of the economic sustainability of a business model. By analyzing the exchange of value between different actors, it allows for the identification of potential imbalances that could compromise the long-term viability of the business model.

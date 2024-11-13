@@ -11,27 +11,27 @@
     - "Yarl" also offers URL parsing and construction features, but with additional flexibility and fine-grained control. It provides separate objects for different URL components, allowing for more granular manipulation.
 
 3. **Immutability**:
-   
+
     - The "furl" library provides mutable URL objects by default. It allows you to modify various components of a URL, such as scheme, host, path, and query parameters, in-place using its chainable API. This means that when you modify a URL object, the changes are applied directly to the object itself.
     - **On the other hand, the "yarl" library follows an immutable approach for URL manipulation.** It treats URLs as immutable objects, meaning that any modification operations return a new URL object with the desired changes. This design ensures that the original URL object remains unchanged, preserving immutability.
 
 5. **Unicode Handling:**
-   
+
     - "Furl" has limited support for Unicode handling in URLs. It assumes that the URLs are already properly encoded and doesn't perform any encoding or decoding internally.
     - "Yarl" provides robust Unicode handling for URLs. It automatically encodes and decodes URL components as needed, ensuring correct and consistent handling of Unicode characters.
 
 6. **Query Parameter Handling:**
-   
+
     - "Furl" offers convenient methods for working with query parameters, such as adding, updating, or removing individual parameters. It also supports parsing and formatting query strings.
     - "Yarl" provides advanced query parameter handling with rich support for multi-valued parameters, nested parameters, and complex data structures. It offers methods for adding, updating, removing, and iterating over query parameters.
 
 7. **Dependencies:**
-   
+
     - "Furl" has minimal external dependencies, making it lightweight and easy to integrate into projects with limited dependencies.
     - "Yarl" has dependencies on more extensive libraries, such as "multidict" and "idna", which provide additional functionality and support for complex URL manipulation scenarios.
 
 8. **Maturity and Popularity:**
-   
+
     - "Furl" has been around for a longer time and has gained popularity as a lightweight and easy-to-use URL manipulation library.
     - "Yarl" is a newer library and has gained popularity for its more comprehensive API and Unicode support.
 

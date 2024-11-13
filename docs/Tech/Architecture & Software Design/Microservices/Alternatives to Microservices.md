@@ -1,5 +1,5 @@
 
-When considering alternatives to microservices, several architectural patterns and approaches can be applied based on the needs of a system, organization, and team dynamics. Each alternative has its strengths and weaknesses, depending on the scalability, complexity, and organisational and operational demands of the system being built. 
+When considering alternatives to microservices, several architectural patterns and approaches can be applied based on the needs of a system, organization, and team dynamics. Each alternative has its strengths and weaknesses, depending on the scalability, complexity, and organisational and operational demands of the system being built.
 
 Here are the primary alternatives, with real-world examples illustrating their usage.
 
@@ -17,7 +17,7 @@ Here are the primary alternatives, with real-world examples illustrating their u
      - **Use Case**: Basecamp, a project management tool, initially built its platform using a monolithic Ruby on Rails application. This setup enabled rapid development, simpler deployments, and a cohesive structure for a small team.
      - **Why It Works**: For a small team managing a stable product, a monolith allowed Basecamp to focus on building features rather than managing complex service interactions. The simplicity of the monolith suited their team size and user base.
 
-### Modular Monolith ([[Modulith]]) 
+### Modular Monolith ([[Modulith]])
    - **Overview**: A modular monolith is a monolithic architecture where the internal components are designed to be modular, typically using clear boundaries between business domains (e.g., through well-defined APIs or libraries).
    - **Strengths**:
      - Clean code structure: Modular boundaries within the monolith help in managing complexity and organizing teams.

@@ -63,7 +63,7 @@ See also: [[Dockerfile Cheat Sheet]]
 - https://gitlab.com/stavros/harbormaster : Harbormaster is a small utility that lets you easily deploy multiple Docker-Compose applications on a single host. It does this by taking a list of git repository URLs that contain Docker Compose files and running the Compose apps they contain. It will also handle updating/restarting the apps when the repositories change.
 - https://github.com/goldmann/docker-squash.git : Docker image squashing tool
 
-#docker 
+#docker
 
 
 ## TIL

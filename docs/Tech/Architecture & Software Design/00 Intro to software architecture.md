@@ -129,7 +129,7 @@ Deployability denotes how easily a system can be transferred from a development 
 
 ### Balancing the architectural design process
 
-Each of these attributes must be carefully considered during the architectural design process. They often interact and may even conflict with one another; for example, improving security may impact performance, or enhancing scalability may reduce availability if not done correctly. Balancing these attributes according to the specific needs and constraints of a project is a key skill for software architects. 
+Each of these attributes must be carefully considered during the architectural design process. They often interact and may even conflict with one another; for example, improving security may impact performance, or enhancing scalability may reduce availability if not done correctly. Balancing these attributes according to the specific needs and constraints of a project is a key skill for software architects.
 
 Understanding and prioritizing these quality attributes is critical because they have a profound impact on the system's architecture, maintenance, and overall success. They should be clearly defined early in the design process and consistently referred to during development, deployment, and maintenance phases.
 

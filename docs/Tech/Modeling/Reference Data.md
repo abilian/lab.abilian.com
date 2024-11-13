@@ -1,4 +1,4 @@
-To effectively represent "reference" or "master" data (taxonomies, controlled vocabulary, data dictionaries, etc.) in a relational model, a well-structured approach is crucial. Reference data typically consists of predefined values used across the system, ensuring consistency, standardization, and efficient data management. 
+To effectively represent "reference" or "master" data (taxonomies, controlled vocabulary, data dictionaries, etc.) in a relational model, a well-structured approach is crucial. Reference data typically consists of predefined values used across the system, ensuring consistency, standardization, and efficient data management.
 
 ## Context
 

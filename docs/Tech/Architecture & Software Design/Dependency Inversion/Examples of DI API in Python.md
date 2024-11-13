@@ -72,7 +72,7 @@ def foo(bar):
     cache.save('bar', bar)
 
 
-# `inject.params` injects dependencies as keyword arguments or positional argument. 
+# `inject.params` injects dependencies as keyword arguments or positional argument.
 # Also you can use @inject.autoparams in Python 3.5, see the example above.
 @inject.params(cache=Cache, user=CurrentUser)
 def baz(foo, cache=None, user=None):
@@ -98,13 +98,13 @@ def bar(foo, cache=None):
 # `inject.attr` creates properties (descriptors) which request dependencies on access.
 class User(object):
     cache = inject.attr(Cache)
-            
+
     def __init__(self, id):
         self.id = id
 
     def save(self):
         self.cache.save('users', self)
-    
+
     @classmethod
     def load(cls, id):
         return cls.cache.load('users', id)

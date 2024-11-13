@@ -33,7 +33,7 @@ Pour les tests: https://en.wikipedia.org/wiki/HTTP/3#Libraries
 - https://blog.gevent.org/2011/04/28/libev-and-libevent/
 - https://github.com/kazuho/picoev
 - https://github.com/qweeze/nanoasgi "This is a toy ASGI web framework. It has zero dependencies and only 170 lines of code. I wrote it to play around with ASGI and to study how frameworks work under the hood."
-- https://github.com/nodejs/llhttp "Port of http_parser to llparse" See also: https://llhttp.org/ and 
+- https://github.com/nodejs/llhttp "Port of http_parser to llparse" See also: https://llhttp.org/ and
 
 And:
 - https://github.com/MagicStack/httptools: httptools is a Python binding for the nodejs HTTP parser.

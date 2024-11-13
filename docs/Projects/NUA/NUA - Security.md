@@ -1,4 +1,4 @@
-#public 
+#public
 
 ## Minimum Viable Secure Product - Checklist
 

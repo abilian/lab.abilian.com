@@ -20,7 +20,7 @@ Test-Driven Development (TDD) is a software development approach where tests are
 ## When TDD Might Not Work
 
 - **Exploratory Domains:** In areas where the solution or output is not known in advance, such as data science or exploratory research, TDD might be less effective.
-  
+
 - **Complex Integration:** In systems where outcomes are heavily dependent on complex integrations that cannot be easily replicated or isolated in tests.
 
 - **Performance-Critical Systems:** For systems where performance is a critical aspect, TDD might introduce challenges, as the overhead of tests and mocks can obscure performance bottlenecks.
@@ -41,7 +41,7 @@ If TDD isn't suitable but the desired outcomes are still valued, alternative app
 
 - **Code Reviews and Pair Programming:** To ensure responsibility and communication of thought processes, rigorous code reviews and pair programming practices can be beneficial.
 
-## Summary 
+## Summary
 
 TDD is a powerful practice under the right conditions, but it's not a silver bullet. It's essential to evaluate the nature of the project, the team's skills, and the system's architecture before committing to a TDD workflow or seeking alternatives that align better with the project's needs and desired outcomes.
 

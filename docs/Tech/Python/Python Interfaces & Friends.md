@@ -309,7 +309,7 @@ While Protocols don't natively support adaptation, one can still implement an ad
 
 ## Comparison
 
-The three approaches differ by: runtime validation, verbosity, flexibility, and integration with static type checking. 
+The three approaches differ by: runtime validation, verbosity, flexibility, and integration with static type checking.
 
 ### Use Case Suitability
 

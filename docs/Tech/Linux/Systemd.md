@@ -194,7 +194,7 @@ One of the main criticisms of systemd is its monolithic design. Unlike the tradi
 - Network management (`networkd`)
 - Time synchronization (`timesyncd`)
 - Device management (`udevd` integration)
-- Service management 
+- Service management
 - and more
 
 Critics argue that this violates the modular approach traditionally favored in Unix-like systems, where small, single-purpose tools work together. They fear that systemd's complexity and integration could lead to a single point of failure and make the system harder to debug and maintain.

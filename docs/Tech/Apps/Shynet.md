@@ -1,4 +1,4 @@
-#public 
+#public
 
 Shynet is a modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 

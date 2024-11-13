@@ -1,11 +1,11 @@
-#public 
+#public
 
 Abilian Social Business Engine (SBE) is an open-source enterprise social networking software designed to facilitate advanced communication, collaboration, knowledge management, and productivity within businesses. It leverages social networking advantages to enhance internal communication, share knowledge, foster company culture, and improve overall employee productivity, while also aiming to reduce email overload.
 
 **Key Uses:**
 
 1. **Internal Communication**: Abilian SBE serves as a platform enabling seamless interaction among employees across different teams, departments, or branches, fostering a more interconnected workforce.
-   
+
 2. **Collaboration**: It simplifies project collaboration by allowing team members to share ideas, feedback, and documents, thereby enhancing project efficiency and reducing completion time.
 
 3. **Knowledge Sharing**: The platform facilitates the sharing of expertise, skills, and best practices among employees, enhancing the company's collective intelligence and speeding up the onboarding process for new hires.

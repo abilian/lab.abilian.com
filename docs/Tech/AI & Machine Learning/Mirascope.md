@@ -2,7 +2,7 @@
 ## Connect it to ollama
 
 ```python
-# set your OPENAI_API_KEY in your .env 
+# set your OPENAI_API_KEY in your .env
 from openai.types.chat import ChatCompletionMessageParam
 from mirascope.openai import OpenAICall
 
@@ -26,7 +26,7 @@ while True:
     print(f"(Assistant): {response.content}")
 
 
-# connecting ollama/llama3 
+# connecting ollama/llama3
 from openai.types.chat import ChatCompletionMessageParam
 from mirascope.openai import OpenAICall, OpenAICallParams
 

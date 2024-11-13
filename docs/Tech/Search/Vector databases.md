@@ -1,6 +1,6 @@
 A vector database is a database designed to handle high-dimensional vectors efficiently. These databases are used for storing embeddings or representations of data points in a high-dimensional space.
 
-Vector databases excel in performing operations that standard databases struggle with, such as nearest neighbour search in high-dimensional spaces. This operation is fundamental in many machine learning applications, including recommendation systems, image recognition, natural language processing, and more. 
+Vector databases excel in performing operations that standard databases struggle with, such as nearest neighbour search in high-dimensional spaces. This operation is fundamental in many machine learning applications, including recommendation systems, image recognition, natural language processing, and more.
 
 ## Example
 

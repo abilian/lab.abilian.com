@@ -1,5 +1,5 @@
 
-## Databases 
+## Databases
 
 - EdgeQL (Python)
 

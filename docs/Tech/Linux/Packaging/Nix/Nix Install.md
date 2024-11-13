@@ -10,10 +10,10 @@ There is a `nix-bin` package.
 
 https://launchpad.net/ubuntu/noble/+package/nix-bin
 
-" NOTE: This package only provides the nix binaries. One still needs  
- to setup directories, environments variables and configuration files  
- to use nix as described in the nix manual.  
- The package nix-setup-systemd provides such a setup using systemd  
+" NOTE: This package only provides the nix binaries. One still needs
+ to setup directories, environments variables and configuration files
+ to use nix as described in the nix manual.
+ The package nix-setup-systemd provides such a setup using systemd
  mechanisms, also see /usr/share/doc/nix-bin/README.Debian."
 
 https://news.ycombinator.com/item?id=32602772

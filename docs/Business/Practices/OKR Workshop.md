@@ -9,7 +9,7 @@
   - Develop an understanding of the nuances behind writing effective OKRs.
   - Understand how OKRs work within an organizational and Agile context.
   - Gain practical experience in writing OKRs that drive meaningful progress over a three-month period.
-  
+
 ### Section 1: Understanding Objectives (20 minutes)
 
 - **The Nature of Objectives**
@@ -66,10 +66,10 @@
 - **Refining OKRs with Feedback**
   - Why OKRs should not be written in isolation. Input from different stakeholders is critical.
   - OKRs should evolve based on feedback from peers, leaders, and team members.
-  
+
 - **Exercise: Peer Review of OKRs**
   - Participants exchange OKRs with a peer. Provide constructive feedback on alignment, clarity, and measurability.
-  
+
 - **Iterative Process**
   - Review → Revise → Refine. Emphasize the iterative nature of developing and finalizing OKRs.
 
@@ -78,7 +78,7 @@
 - **Tracking Progress on OKRs**
   - Use tools like Jira, Google Sheets, or OKR-specific software to track key results.
   - **Frequency of Review:** OKRs should be reviewed regularly (weekly or bi-weekly) to assess progress and make adjustments.
-  
+
 - **OKRs as an Agile API**
   - How OKRs fit within Agile workflows.
   - Encourage bottom-up OKRs that reflect team-level innovation and problem-solving, as opposed to only top-down objectives.

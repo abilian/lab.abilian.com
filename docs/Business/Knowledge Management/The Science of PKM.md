@@ -32,29 +32,29 @@ The human brain is a dynamic and complex organ, capable of adjusting its functio
 
 The concepts of different brain modes are scientifically grounded to the extent that they can be linked to specific patterns of neural activity observed in empirical research. For instance, studies using brain imaging technologies like fMRI and EEG have identified distinct patterns of brain activity associated with focused versus diffuse thinking, creative improvisation, and critical analysis.
 
-However, the terminology used to describe these states—such as "scatterfocus"—often originates from popular psychology and may lack standardized definitions in scientific literature. This can lead to ambiguity and variability in how these terms are understood and applied across different studies and disciplines. This interdisciplinary borrowing can enrich scientific understanding but requires careful definition and rigorous empirical testing to ensure that these concepts are grounded in observable, measurable brain activity and cognitive function. 
+However, the terminology used to describe these states—such as "scatterfocus"—often originates from popular psychology and may lack standardized definitions in scientific literature. This can lead to ambiguity and variability in how these terms are understood and applied across different studies and disciplines. This interdisciplinary borrowing can enrich scientific understanding but requires careful definition and rigorous empirical testing to ensure that these concepts are grounded in observable, measurable brain activity and cognitive function.
 
 ## Scientifically Supported Strategies for Enhancing Cognition
 
 Cognitive enhancement involves adopting strategies that improve mental processes such as memory, attention, and problem-solving. Based on research from cognitive science and neuroscience, several approaches have been identified that can help optimize these cognitive functions. Implementing these strategies can lead to more effective thinking, better problem resolution, and increased creativity. Here are key strategies grounded in scientific research:
 
 1. **Utilizing External Cognitive Tools**:
-   
+
    - **Digital and Physical Tools**: Integrating tools such as digital note-taking applications, concept maps, and advanced organizers can significantly boost cognitive efficiency. These tools act as extensions of our cognitive system, allowing us to store, retrieve, and manipulate information more effectively. Research indicates that such tools can reduce cognitive load, free up mental resources for complex thinking, and improve organizational skills, which are crucial for learning and knowledge work.
    - **Technological Integration**: Wearable tech and augmented reality are frontier areas in cognitive enhancement, offering real-time data integration and sensory augmentation that can transform how we interact with information and our environment.
 
 2. **Physical Engagement and Embodiment**:
-   
+
    - **Embodied Learning**: Engaging the body through gestures or physical activity can enhance memory and understanding. For example, studies show that students who use hand gestures during lessons often understand complex concepts more deeply and retain the information longer.
    - **Environmental Interactions**: Manipulating physical objects during learning processes (e.g., using building blocks or interactive simulations) can foster a deeper understanding of abstract concepts through tactile and spatial interactions, enhancing cognitive processing.
 
 3. **Optimizing Environments for Cognitive Work**:
-   
+
    - **Structured Environments**: Designing workspaces that minimize distractions and provide relevant cognitive cues can significantly enhance focus and productivity. The layout, noise level, and even the color scheme of a workspace can influence cognitive functions such as memory retention and creative problem-solving.
    - **Nature and Cognitive Function**: Exposure to natural settings or even viewing scenes of nature can improve attention, reduce stress, and enhance creative performance. Studies have demonstrated that walks in nature or rooms with views of green spaces can increase directed attention abilities and support recovery from mental fatigue.
 
 4. **Cognitive Training and Mental Exercise**:
-   
+
    - **Targeted Cognitive Exercises**: Engaging in specific cognitive training exercises, such as memory games, puzzle solving, or learning new skills, can strengthen neural connections and improve mental agility. Consistent mental exercise has been shown to enhance aspects of cognitive function and even delay cognitive decline in older adults.
    - **Mindfulness and Meditation**: Practices such as mindfulness meditation have been shown to improve concentration, executive function, and emotional regulation. Regular meditation can alter brain structure in ways that promote higher cognitive flexibility and improved focus.
 
@@ -102,7 +102,7 @@ In conclusion, the integration of embodied cognition, personal knowledge managem
 #### Hyperfocus and Flow
 
 1. Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper & Row. This seminal book introduces the concept of flow, a state of heightened focus and immersion in activities, which closely relates to what is described as hyperfocus in contemporary discussions.
-   
+
 2. Dietrich, A. (2004). "Neurocognitive mechanisms underlying the experience of flow." *Consciousness and Cognition*, 13(4), 746-761. This article explores the cognitive and neurological underpinnings of flow experiences, linking them to specific brain activities.
 
 #### Scatterfocus and Mind-Wandering

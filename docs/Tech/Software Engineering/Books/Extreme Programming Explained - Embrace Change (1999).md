@@ -24,13 +24,13 @@ Over the years, Agile methodologies, including XP, have become more mainstream, 
 Here are some changes and adaptations in XP best practices since the book was written:
 
 1.  **Continuous Integration and Continuous Deployment (CI/CD)**: The practice of continuous integration has evolved into a more comprehensive CI/CD approach, where teams not only integrate their code changes regularly but also automate the deployment process to deliver software faster and more reliably.
-    
+
 2.  **Behavior-Driven Development (BDD)**: Some teams have embraced Behavior-Driven Development (BDD), which focuses on specifying the behavior of the software from the user's perspective using natural language. BDD is often seen as an extension of TDD.
-    
-3.  **Pair Programming**: Pair programming has always been a controversial topic. Scientific research conducted over the last 20 years suggest that pair programming can lead to better code quality and fewer defects, but its impact on development efficiency is less clear and may vary depending on factors such as the team's experience, the complexity of the task, and the specific project context. Today, many agile teams use pair programming selectively, depending on the complexity of the task and the team's preferences. 
-    
+
+3.  **Pair Programming**: Pair programming has always been a controversial topic. Scientific research conducted over the last 20 years suggest that pair programming can lead to better code quality and fewer defects, but its impact on development efficiency is less clear and may vary depending on factors such as the team's experience, the complexity of the task, and the specific project context. Today, many agile teams use pair programming selectively, depending on the complexity of the task and the team's preferences.
+
 4.  **Scaling Agile and XP**: As organizations have adopted Agile methodologies at a larger scale, there has been more focus on scaling XP practices to suit the needs of larger teams and more complex projects. Frameworks like the Scaled Agile Framework (SAFe) and Large-Scale Scrum (LeSS) incorporate some XP practices to help teams scale Agile effectively.
-    
+
 
 In summary, while some of the specific best practices of XP have evolved since the publication of Kent Beck's book, the core principles and values of XP remain relevant and widely practiced. Teams continue to adapt and refine XP practices to suit their unique contexts and requirements, often combining them with other Agile methodologies to create a customized approach to software development.
 

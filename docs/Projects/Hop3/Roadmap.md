@@ -48,7 +48,7 @@ Here is the current roadmap.
 - [ ] Refactor code using classes
 - [ ] Review / improve CLI DX
 - [ ] Manage external services (databases, etc.)
-- [ ] Support for Heroku, Render, Compose, Fly... config files, 
+- [ ] Support for Heroku, Render, Compose, Fly... config files,
 
 ## Hosting
 

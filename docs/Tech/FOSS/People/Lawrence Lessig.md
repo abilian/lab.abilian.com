@@ -22,7 +22,7 @@ Lessig also identifies several threats to free code and the open exchange of ide
 1.  **Software patents**: He is critical of software patents, arguing that they are often used to exclude future competitors and stifle innovation. By granting exclusive rights to specific software ideas or algorithms, patents can hinder the development of new technologies and limit the availability of innovative solutions.
 2.  **Copyright wars**: Lessig is concerned about the escalating conflicts over copyright enforcement, particularly the aggressive tactics employed by some copyright holders to protect their interests. He believes that these tactics can have a chilling effect on creativity and innovation by discouraging the use and sharing of copyrighted materials, even when such uses might be considered fair or unregulated.
 
-## Summary 
+## Summary
 
 Larry Lessig advocates for a more balanced approach to intellectual property and copyright law that recognizes the importance of fostering creativity and innovation while still protecting the rights of creators. He emphasizes the need for a more open and free society that enables the future by limiting the control exerted by the past.
 

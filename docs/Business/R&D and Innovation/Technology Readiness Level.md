@@ -1,5 +1,5 @@
 
-Technology Readiness Level (TRL) is a method for estimating the maturity level of a particular technology. It was originally developed by NASA in the 1970s to assess the maturity of space technologies and has since been adapted for use in various industries, including software development. 
+Technology Readiness Level (TRL) is a method for estimating the maturity level of a particular technology. It was originally developed by NASA in the 1970s to assess the maturity of space technologies and has since been adapted for use in various industries, including software development.
 
 In the context of software, TRL provides a systematic metric to assess the maturity of software technologies throughout the development process, from the concept phase through development and eventual deployment. It can help manage expectations and risks, plan the software development process, and communicate the status of the software technology to stakeholders.
 

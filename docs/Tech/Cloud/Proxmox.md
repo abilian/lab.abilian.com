@@ -6,7 +6,7 @@ Proxmox is an open-source virtualization platform that provides a comprehensive 
    Proxmox Virtual Environment (VE) is the core product of Proxmox. It is an open-source server virtualization platform that combines two major technologies:
    - **KVM (Kernel-based Virtual Machine)**: A full virtualization solution for running virtual machines (VMs) with full hardware emulation.
    - **LXC (Linux Containers)**: A lightweight virtualization method for running multiple isolated Linux systems on a single host.
-   
+
    The integration of KVM and LXC allows users to manage both virtual machines and containers from a unified interface, enabling flexibility based on use cases.
 
 ### Web-Based Management Interface
@@ -19,7 +19,7 @@ Proxmox is an open-source virtualization platform that provides a comprehensive 
 
 ### Software-Defined Storage
    Proxmox offers flexible storage options and supports a variety of storage types, including local storage (e.g., ZFS), networked storage (e.g., NFS, iSCSI, Ceph, GlusterFS), and distributed storage for scalability and redundancy.
-   
+
    - **Proxmox integrates tightly with Ceph**, an open-source distributed storage system, to provide reliable and scalable storage that can be used across multiple nodes in a cluster. This allows administrators to create high-availability storage clusters.
 
 ### Backup and Restore

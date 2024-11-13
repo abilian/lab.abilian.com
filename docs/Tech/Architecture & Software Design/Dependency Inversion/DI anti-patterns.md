@@ -20,9 +20,9 @@ The service locator pattern can be an anti-pattern in DI when it's used as a mec
 This anti-pattern can lead to several issues:
 
 - **Tight Coupling**: Classes become tightly coupled to the specific DI container, making it harder to change or replace the container later on.
-  
+
 - **Hidden Dependencies**: By fetching dependencies from the container directly, the class hides its dependencies, making them implicit rather than explicit. This can make the code more difficult to understand and maintain.
-  
+
 - **Difficulties in Testing**: It becomes harder to test classes that use the service locator pattern since you have to mock the service locator and its behavior, rather than simply injecting mock dependencies.
 
 The recommended approach is to use constructor injection, property injection, or method injection to pass dependencies to a class. This way, the class doesn't need to know about the existence of a container, leading to more maintainable and testable code.
@@ -107,7 +107,7 @@ Reliance on extensive use of annotations or attributes to drive DI behavior can 
 
 ## Summary
 
-In all cases, the underlying issue is a deviation from the core principles of DI, which are to manage dependencies in a way that promotes loose coupling, maintainability, and testability. These anti-patterns usually emerge from a lack of understanding of these principles or from attempts to take shortcuts in design and implementation. 
+In all cases, the underlying issue is a deviation from the core principles of DI, which are to manage dependencies in a way that promotes loose coupling, maintainability, and testability. These anti-patterns usually emerge from a lack of understanding of these principles or from attempts to take shortcuts in design and implementation.
 
 A common theme is taking control away from the DI container. **The recommended approach is to rely on the DI container to manage object creation and dependency resolution, keeping classes focused on their primary responsibilities and making them agnostic of the larger application's configuration and lifecycle management.**
 

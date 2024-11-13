@@ -1,4 +1,4 @@
-[[00 Nix & NixOS|Nix]] and [[Guix]] are both functional package managers and system configuration tools, but there are several key functional differences between them beyond their choice of implementation languages (Nix is written in Nix, while Guix is written in Guile/Scheme). 
+[[00 Nix & NixOS|Nix]] and [[Guix]] are both functional package managers and system configuration tools, but there are several key functional differences between them beyond their choice of implementation languages (Nix is written in Nix, while Guix is written in Guile/Scheme).
 
 Their differences arise primarily from their philosophical commitments (e.g., Nix being more pragmatic vs. Guix's strict adherence to free software), implementation languages (Nix vs. Guile Scheme), governance (Nix being corporate-backed, Guix being a GNU project), and package availability. Additionally, Guix offers a stricter security and reproducibility model, making it more attractive for users with strong preferences for freedom, security, and privacy, while Nix provides greater flexibility and a larger ecosystem.
 

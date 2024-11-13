@@ -70,7 +70,7 @@
     - Daemon (aka "Orchestrator")
     - Docker (when using Docker)
     - Backing services:
-        - Databases / storage: 
+        - Databases / storage:
             - MySQL
             - Postgres
             - Mongo

@@ -32,12 +32,12 @@ Stimulus and AlpineJS are both modern JavaScript frameworks designed to enrich w
 
 ## Using Stimulus with HTMX
 
-Combining Stimulus with HTMX can create powerful, interactive web applications that are both efficient and easy to maintain. Stimulus provides a structured way to write JavaScript that enhances HTML, while HTMX allows you to access AJAX, CSS Transitions, WebSockets, and more with HTML attributes. 
+Combining Stimulus with HTMX can create powerful, interactive web applications that are both efficient and easy to maintain. Stimulus provides a structured way to write JavaScript that enhances HTML, while HTMX allows you to access AJAX, CSS Transitions, WebSockets, and more with HTML attributes.
 
 ### Benefits of Using Them Together
 
 - **Enhanced Interactivity**: Combining Stimulus for structured JavaScript behaviors with HTMX's ability to update page content asynchronously can lead to highly interactive and responsive applications without the complexity of a single-page application framework.
-  
+
 - **Simplified Codebase**: HTMX handles the heavy lifting for dynamic content loading and partial page updates, while Stimulus organizes the JavaScript that interacts with those dynamic elements. This separation of concerns can make your codebase simpler and more maintainable.
 
 - **Progressive Enhancement**: Both tools embrace the philosophy of enhancing HTML rather than replacing it, making it easier to build applications that work well with or without JavaScript enabled, thus improving accessibility and SEO.

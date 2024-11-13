@@ -13,7 +13,7 @@ JavaScript                     385           1718           1165          20468
 JSX                            129           1455            851          20063
 CSS                              1             40              1            179
  ```
- 
+
 ### Element Plus (Vue 3)
 
 ```

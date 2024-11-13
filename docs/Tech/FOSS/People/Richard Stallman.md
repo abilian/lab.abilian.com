@@ -30,9 +30,9 @@ In summary, Richard Stallman appreciates the open source movement's contribution
 Some of the controversies surrounding Stallman include:
 
 1.  **Personal conduct and communication style**: Stallman is known for his strong opinions and uncompromising stance on various topics, which has led to disagreements and clashes within the free software community. Critics argue that his communication style can be abrasive and off-putting, potentially alienating potential allies and hindering the growth of the movement.
-    
+
 2.  **Comments on Marvin Minsky and Jeffrey Epstein**: In 2019, Stallman faced significant backlash for his comments on a mailing list discussion related to Marvin Minsky, a pioneer in artificial intelligence, and his alleged involvement with Jeffrey Epstein's sex trafficking victims. Stallman questioned the use of the term "sexual assault" in the context of Minsky's actions, which many found inappropriate and insensitive. As a result of the controversy, Stallman resigned from his positions at MIT and the Free Software Foundation.
-    
+
 3.  **Views on pedophilia and child pornography**: Stallman has made controversial statements on the topic of pedophilia and child pornography in the past, arguing for the decriminalization of possession of child pornography and suggesting that some forms of pedophilia might not cause harm. These statements have been widely criticized, with many people finding them disturbing and morally repugnant.
 
 

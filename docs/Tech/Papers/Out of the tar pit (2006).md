@@ -15,16 +15,16 @@ The authors claim that FRP can lead to simpler, more reliable, and easier-to-und
 "Out of the Tar Pit" discusses several causes of software complexity:
 
 1.  **State**: The paper highlights the impact of state on testing and informal reasoning. When the system has many possible states, testing becomes challenging, as it is difficult to ensure that the system behaves consistently across different runs. Informal reasoning also suffers due to the exponential growth in the number of states, making it harder to mentally simulate the system's behavior.
-    
+
 2.  **Contamination**: When a procedure depends on another stateful procedure, it becomes "contaminated," further increasing the overall complexity of the system.
-    
+
 3.  **Control**: The authors argue that control, or the order in which things happen, should not be a concern for developers. When control is implicitly part of a programming language, it forces developers to over-specify the problem. Concurrency, a control-related issue, also complicates testing and informal reasoning, as it introduces additional scenarios to consider.
-    
+
 4.  **Code Volume**: The paper identifies code volume as a secondary source of complexity, as it often arises from managing state or specifying control. Complexity increases non-linearly with code size, making it essential to minimize the amount of code.
-    
-5.  **Other Causes**: The authors mention additional causes of complexity, such as duplicated code, dead code, unnecessary or missed abstraction, poor modularity, and poor documentation. These issues stem from three main principles: 
-	a. Complexity breeds complexity: Complexity arises when developers cannot clearly understand a system, often due to time pressures. 
-	b. Simplicity is hard: Achieving simplicity requires recognizing, pursuing, and valuing it. 
+
+5.  **Other Causes**: The authors mention additional causes of complexity, such as duplicated code, dead code, unnecessary or missed abstraction, poor modularity, and poor documentation. These issues stem from three main principles:
+	a. Complexity breeds complexity: Complexity arises when developers cannot clearly understand a system, often due to time pressures.
+	b. Simplicity is hard: Achieving simplicity requires recognizing, pursuing, and valuing it.
 	c. Power corrupts: Powerful languages that permit state, even if discouraged, may lead to mistakes or abuses. The more powerful a language, the harder it is to understand systems built with it.
 
 In summary, "Out of the Tar Pit" identifies state, contamination, control, code volume, and other factors as causes of software complexity. The paper emphasizes the need to manage and limit these factors to create simpler, more reliable software systems.
@@ -34,20 +34,20 @@ In summary, "Out of the Tar Pit" identifies state, contamination, control, code 
 The paper discusses classical approaches to managing complexity in software systems and their shortcomings, which necessitate an alternative approach.
 
 1.  **Object-Orientation**:
-    
+
     -   Encapsulation does not effectively enforce integrity constraints, especially when multiple objects are involved.
     -   Object identity complicates reasoning about systems.
     -   Object-oriented programming (OOP) relies on state, leading to state-derived and control-derived complexity.
 
 2.  Functional Programming:
-    
+
     -   Stateless and referential transparency improves testing and informal reasoning.
     -   Abstract control functionals reduce control complexity.
     -   Avoiding mutable state simplifies systems but also limits modularity.
     -   The main weakness of functional programming is handling systems that require state maintenance.
 
 3.  Logic Programming:
-    
+
     -   Logic programming avoids mutable state, benefiting from the same advantages as functional programming.
     -   The depth-first, textual order of processing introduces control complexity and challenges in informal reasoning.
     -   Despite its limitations, logic programming provides an escape from control-induced complexity.
@@ -59,7 +59,7 @@ In summary, classical approaches like object-oriented, functional, and logic pro
 In his seminal paper "No Silver Bullet," Fred Brooks distinguishes between two types of complexity in software systems: accidental complexity and essential complexity. "Out of the Tar Pit" further explores these concepts and their implications on software development.
 
 1.  **Essential Complexity**: Essential complexity refers to the inherent complexity that stems from the problem domain itself. It represents the minimum level of complexity that a software system must possess to address the requirements of the problem it aims to solve. Essential complexity cannot be eliminated, as it is a fundamental aspect of the problem domain. Developers must understand and manage essential complexity to build effective and reliable software systems.
-    
+
 2.  **Accidental Complexity**: Accidental complexity, on the other hand, arises from the development process, tools, and technologies used to build the software. It is not inherent to the problem domain and can be attributed to limitations, inefficiencies, or errors in the design, implementation, and management of the software system. Accidental complexity can be reduced or eliminated by improving development methodologies, languages, tools, and practices.
 
 "Out of the Tar Pit" argues that conventional approaches to software development, such as object-oriented, functional, and logic programming, have failed to adequately address the complexity problem, often introducing accidental complexity. The paper proposes Functional Relational Programming (FRP) as an alternative approach to tackle complexity by focusing on reducing accidental complexity and managing essential complexity more effectively. By minimizing state, control, and code volume, FRP aims to simplify software systems and make them easier to reason about, test, and maintain.
@@ -135,7 +135,7 @@ To execute the FRP system specification, infrastructure is required for essentia
 Benefits of the Functional Relational Programming (FRP) approach include the following:
 
 1.  Benefits for state:
-    
+
     -   Avoids unnecessary accidental state and prevents entering a "bad state."
     -   Essential state is seen as constant from the logic's perspective.
     -   The functional component is referentially transparent, having no access to any state.
@@ -143,28 +143,28 @@ Benefits of the Functional Relational Programming (FRP) approach include the fol
     -   Integrity constraints ensure consistency of state in a declarative manner.
 
 2.  Benefits of control:
-    
+
     -   Control is entirely avoided, with logic consisting of a set of equations without any intrinsic ordering or control flow.
     -   An FRP-supporting infrastructure may leverage implicit parallelism to improve performance.
     -   Distributed implementations become easier to create.
 
 3.  Benefits of code volume:
-    
+
     -   Unnecessary accidental complexity is avoided, leading to less code.
     -   Separation reduces the harm caused by large volumes of code.
 
 4.  Benefits of data abstraction:
-    
+
     -   Unnecessary data abstraction is avoided, preventing issues like subjective reuse and data hiding.
     -   The relational model's strength lies in minimal commitment to subjective groupings.
 
 5.  Other benefits:
-    
+
     -   Potential performance improvements.
     -   Development teams can be organized around different components.
 
 6.  Types:
-    
+
     -   FRP allows the definition of new user types for essential state and essential logic components.
     -   It does not permit the creation of new product types to avoid unnecessary data abstraction.
 
@@ -173,15 +173,15 @@ Benefits of the Functional Relational Programming (FRP) approach include the fol
 While "Out of the Tar Pit" does not directly lead to the creation of specific programming languages, frameworks, or tools, its ideas and principles have had a significant impact on the software development community. The paper has inspired many discussions and research efforts on complexity and software engineering, which have indirectly influenced various programming languages, frameworks, and tools aimed at simplifying software development and reducing complexity. Some of these include:
 
 6.  Datomic: A distributed, transactional, and immutable database system designed by Rich Hickey, the creator of Clojure. Datomic applies the principles of immutability and the relational model to manage complexity in database systems.
-    
+
 5.  DataScript: A lightweight, in-memory database and Datalog query engine for Clojure and ClojureScript, DataScript is influenced by the ideas of unifying state management using a relational data model, as proposed in "Out of the Tar Pit."
 
 1.  Eve: Eve was an experimental programming language and environment that aimed to simplify software development by embracing FRP principles. It provided a unified relational data model and a rule-based programming paradigm to express computation. Unfortunately, development on Eve has been discontinued, but its design was heavily influenced by "Out of the Tar Pit."
-    
+
 2.  Relational Lenses: A research project that explores bidirectional programming in the context of relational databases. It incorporates functional and relational concepts to simplify the process of writing database transformations and synchronizations.
-    
+
 3.  Project:M36: A relational algebra database management system inspired by the ideas in "Out of the Tar Pit." It aims to provide a purely functional and algebraically-oriented approach to database management, with a focus on reducing complexity and increasing reliability.
-    
+
 4.  Logic programming languages: Languages like Prolog, Mercury, and miniKanren, which are based on formal logic and relational algebra, share some similarities with the FRP principles described in "Out of the Tar Pit." They emphasize declarative programming, where the focus is on specifying the relationships between data elements rather than the control flow.
 
 While the adoption of FRP as proposed in "Out of the Tar Pit" has been limited, the paper has influenced the broader software development community and encouraged researchers and practitioners to explore new ways to manage complexity in software systems.

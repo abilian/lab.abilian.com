@@ -2,7 +2,7 @@
 
 The concept and practice of eco-design has recently emerged as a crucial bridge between sustainability and technological advancement. As professionals and enthusiasts in the IT sector, we're at a pivotal point where our decisions can significantly impact the environment. This realization has led to a collective effort to understand how IT can be part of the solution to our ecological challenges. In this blog post, we delve into the guiding principles of eco-design within IT, illustrating how sustainable practices can be integrated into our work and contribute positively to the planet.
 
-Eco-design in IT is usually first thought as reducing carbon footprints. But it also encompasses a holistic approach to minimize environmental impact across various indicators, including energy consumption, water use, and material depletion. By rethinking the way we develop, deploy, and dispose of technology, we can forge a path toward more sustainable digital solutions. 
+Eco-design in IT is usually first thought as reducing carbon footprints. But it also encompasses a holistic approach to minimize environmental impact across various indicators, including energy consumption, water use, and material depletion. By rethinking the way we develop, deploy, and dispose of technology, we can forge a path toward more sustainable digital solutions.
 
 Let's explore these guiding principles and see how they can reshape our approach to technology development and usage.
 

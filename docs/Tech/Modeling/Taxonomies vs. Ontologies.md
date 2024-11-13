@@ -104,7 +104,7 @@ Implementing an ontology in a data model requires a more flexible and complex st
 
 **RDF-Based Ontology Model**
 
-RDF uses triples (subject, predicate, object) to represent data. 
+RDF uses triples (subject, predicate, object) to represent data.
 
 **Table Structure for RDF**
 

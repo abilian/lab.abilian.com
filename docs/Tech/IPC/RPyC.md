@@ -31,7 +31,7 @@ RPyC (Remote Python Call) is a Python library designed for transparent, distribu
 RPyC operates using a client-server model:
 
 - **Server**: The server hosts Python objects, modules, and functions that are accessible remotely. It listens for incoming connections and processes remote calls from clients.
-  
+
 - **Client**: The client connects to the server and invokes methods or accesses objects that reside on the server as if they were local. RPyC takes care of serializing the data, sending it over the network, and deserializing the result.
 
 An RPyC connection is established through a `Service` object, which defines what remote functionalities are available to the client. Once the connection is established, the client can access the server’s objects and functions.
@@ -45,7 +45,7 @@ import rpyc
 class MyService(rpyc.Service):
     def on_connect(self, conn):
         pass
-    
+
     def on_disconnect(self, conn):
         pass
 

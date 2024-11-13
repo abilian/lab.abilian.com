@@ -19,17 +19,17 @@ Remember, these heuristics are guidelines to help you develop effective software
 
 ## Testing
 
-1. **Prioritize testing**: Implement automated testing, including unit tests, integration tests, and end-to-end tests, to ensure code reliability and reduce bugs. 
+1. **Prioritize testing**: Implement automated testing, including unit tests, integration tests, and end-to-end tests, to ensure code reliability and reduce bugs.
     - Making code testable usually improves its design, so this point could also have gone into the previous section. See [https://martinfowler.com/bliki/BeckDesignRules.html](https://martinfowler.com/bliki/BeckDesignRules.html) or [The Four Elements of Simple Design](https://blog.jbrains.ca/permalink/the-four-elements-of-simple-design).
     - Aim for a high test coverage, including unit, integration, and end-to-end tests.
-    - Use all the tools that are relevant for you technical and problem domain: doctests, BDD (Cucumber), 
+    - Use all the tools that are relevant for you technical and problem domain: doctests, BDD (Cucumber),
     - When programming in Python, prefere
 
 7.  **Continuous integration and delivery (CI/CD)**: Regularly integrate code changes and automate the build, test, and deployment processes to catch issues early and improve software quality.
 
 ## Practices
 
-1.  **Code reviews**: Conduct regular code reviews to improve code quality, share knowledge, and catch bugs early.    
+1.  **Code reviews**: Conduct regular code reviews to improve code quality, share knowledge, and catch bugs early.
 10.  **Document your code**: Write clear and concise documentation, including comments, to help others understand your code and its purpose.
 5.  **Use version control**: Employ a version control system (e.g., Git) to track changes, collaborate with teammates, and maintain a history of your project.
 6. **Learn from failure**: Embrace a culture of continuous learning, and analyze failures to improve both the codebase and the development process.
@@ -41,31 +41,31 @@ Remember, these heuristics are guidelines to help you develop effective software
 Secure software development is essential to protect sensitive data, maintain user trust, and prevent security breaches. Here are some important heuristics for secure software development:
 
 1.  **Adopt a security mindset**: Consider security as an integral part of the development process, and prioritize it from the beginning of a project.
-    
+
 2.  **Follow the principle of least privilege**: Limit the access and permissions of users, applications, and systems to the minimum necessary to perform their tasks.
-    
+
 3.  **Validate and sanitize input**: Assume all user input is malicious, and validate, sanitize, and encode it to prevent injection attacks and other security vulnerabilities.
-    
+
 4.  **Secure data storage and transmission**: Use strong encryption to protect sensitive data, both when stored and transmitted between systems.
-    
+
 5.  **Implement proper authentication and authorization**: Use strong authentication mechanisms, such as multi-factor authentication, and implement granular access control to ensure that only authorized users can access sensitive resources.
-    
+
 6.  **Use secure coding practices**: Follow best practices for secure coding, such as using parameterized queries to prevent SQL injection and avoiding the use of unsafe functions or APIs.
-    
+
 7.  **Regularly update dependencies**: Keep software dependencies up-to-date to minimize the risk of known security vulnerabilities.
-    
+
 8.  **Conduct security audits and testing**: Perform regular security testing, including penetration testing, vulnerability scanning, and code reviews, to identify and remediate potential security issues.
-    
+
 9.  **Apply secure development methodologies**: Follow secure development methodologies, such as the OWASP Secure Software Development Lifecycle (SSDLC) or Microsoft's Security Development Lifecycle (SDL), to ensure that security is considered at every stage of development.
-    
+
 10.  **Implement proper error handling and logging**: Use secure error handling techniques to prevent information leaks and ensure that sensitive information is not exposed through error messages. Implement robust logging to facilitate monitoring and incident response.
-    
+
 12.  **Use security tools**: Employ tools like static application security testing (SAST), dynamic application security testing (DAST), and software composition analysis (SCA) to help identify potential security issues.
-    
+
 13.  **Educate and train developers**: Provide security training and awareness programs for developers to ensure that they understand the importance of secure development practices and are equipped to apply them.
-    
+
 14.  **Plan for incident response**: Develop an incident response plan to effectively manage security breaches and minimize their impact.
-    
+
 15.  **Encourage a security-conscious culture**: Foster a culture of security awareness within the organization, and encourage developers to consider security in every aspect of their work.
 
 ### References

@@ -25,7 +25,7 @@ f = Function("f", """
     function adder(a, b) {
         return a + b;
     }
-    
+
     function f(a, b) {
         return adder(a, b);
     }

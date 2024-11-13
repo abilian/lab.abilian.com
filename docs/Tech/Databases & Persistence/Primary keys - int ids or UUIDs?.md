@@ -88,11 +88,11 @@ Other relational databases, such as MySQL, Oracle, and SQL Server, also support 
 
 ## Usage in Python
 
-There are several Python libraries that support generating and handling different types of unique identifiers, including auto-incrementing IDs, UUIDs, ULIDs, and Snowflake IDs. 
+There are several Python libraries that support generating and handling different types of unique identifiers, including auto-incrementing IDs, UUIDs, ULIDs, and Snowflake IDs.
 
 ### UUIDs
 
-Python's standard library provides built-in support for generating UUIDs, which can cover UUIDv1, UUIDv3, UUIDv4, and UUIDv5. 
+Python's standard library provides built-in support for generating UUIDs, which can cover UUIDv1, UUIDv3, UUIDv4, and UUIDv5.
 
 #### Library: `uuid`
 The `uuid` module is part of Python's standard library and provides various methods for generating UUIDs.

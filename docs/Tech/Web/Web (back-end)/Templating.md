@@ -72,7 +72,7 @@ More + benchmarks: https://github.com/marrow/cinje/wiki/Benchmarks
 ### ZPT-likes
 
 - Thymeleaf: Similar to ZPT. Java only. https://www.thymeleaf.org Very complete. Not sure how popular.
-- https://davidcana.github.io/ZPT-JS/ 
+- https://davidcana.github.io/ZPT-JS/
 
 ### Others
 

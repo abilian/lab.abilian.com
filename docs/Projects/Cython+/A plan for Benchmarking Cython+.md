@@ -16,7 +16,7 @@ More specifically, we will have to evaluate Cython+ along two axes:
 The "performance" part is mostly numerical. The "DX" part has some numerical, but most of it is qualitative.
 
 ## Current state
-I have created a project for running and reporting benchmarks of Cython+ against both regular implementations of Python and Cython (including some exotic variants), and other languages: 
+I have created a project for running and reporting benchmarks of Cython+ against both regular implementations of Python and Cython (including some exotic variants), and other languages:
 
 - GitHub project: <https://github.com/abilian/python-benchmarks>
 - Results: <https://lab.abilian.com/>
@@ -108,7 +108,7 @@ See: https://github.com/klen/py-frameworks-bench
 ### Specifically on benchmarks
 > *Google originally optimized the V8 JIT using the Richards benchmark, because its a good test of polymorphism and how classes are often used.*
    -- Source: <https://medium.com/analytics-vidhya/77x-faster-than-rustpython-f8331c46aea1>
-  
+
 - The [Debian Computer Language Benchmarks Game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/)
 - PyBenchmarks: <https://github.com/Dundee/pybenchmarks> / <https://pybenchmarks.org/>
 - <https://github.com/smarr/are-we-fast-yet> - Are We Fast Yet? Comparing Language Implementations with Objects, Closures, and Arrays (Pas de Python)
@@ -122,7 +122,7 @@ See: https://github.com/klen/py-frameworks-bench
 - <https://benjamin.computer/posts/2020-12-12-rust-python.html>
 
 ### Papers on benchmarks and performance
-- [On Evaluating the Renaissance Benchmarking Suite: Variety, Performance, and Complexity](https://arxiv.org/pdf/1903.10267.pdf) (pour la JVM). 
+- [On Evaluating the Renaissance Benchmarking Suite: Variety, Performance, and Complexity](https://arxiv.org/pdf/1903.10267.pdf) (pour la JVM).
 - https://www.cs.ucsb.edu/sites/default/files/docs/reports/2010-14.pdf "Understanding the Potential of Interpreter-based Optimizations for Python" (2010)
 - https://www.researchgate.net/publication/264647016_Are_We_There_Yet_Simple_Language_Implementation_Techniques_for_the_21st_Century
 - https://www.researchgate.net/publication/310464226_Cross-Language_Compiler_Benchmarking_Are_We_Fast_Yet

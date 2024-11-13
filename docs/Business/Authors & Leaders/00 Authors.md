@@ -3,9 +3,9 @@
 Here is a list of some of the most notable 20th-century business writers:
 
 1. [[Peter Drucker]] (1909-2005): Often referred to as the "father of modern management," Drucker's work laid the foundation for contemporary management theory. His books, such as "The Practice of Management" (1954) and "The Effective Executive" (1967), have had a lasting impact on the field.
-    
+
 2. [[W. Edwards Deming]] (1900-1993): Deming was an American statistician, engineer, and management consultant who played a key role in the development of modern quality management practices. His book "Out of the Crisis" (1982) promoted the adoption of statistical process control and continuous improvement methodologies.
-    
+
 1. [[Geoffrey Moore]]: Moore is best known for his book "Crossing the Chasm" (1991), which explores the challenges faced by technology companies in moving from early adopters to mainstream customers and offers strategies for successfully navigating this transition.
 
 1. [[Andy Grove|Andrew S. Grove]], the former CEO and Chairman of Intel Corporation, was an influential Hungarian-born American businessman, engineer, and author who played a pivotal role in the growth and success of Intel. He wrote several books on management and business strategy, including "High Output Management" (1983), which covers the principles and practices of effective management, and "Only the Paranoid Survive" (1996), which explores the concept of "strategic inflection points" and offers guidance on how to identify, adapt to, and thrive in the face of disruptive forces.
@@ -17,9 +17,9 @@ Here is a list of some of the most notable 20th-century business writers:
 4. Henry Mintzberg: Mintzberg is a renowned management thinker who has written extensively about the nature of managerial work, strategy formation, and organizational structure. His notable works include "The Nature of Managerial Work" (1973) and "Mintzberg on Management: Inside Our Strange World of Organizations" (1989).
 
 5.  Robert Cialdini: A social psychologist, Cialdini is known for his groundbreaking book, "Influence: The Psychology of Persuasion" (1984), which has been widely adopted in business and marketing fields. The book explores the psychological principles that govern the act of persuading others.
-    
+
 1.  Daniel Kahneman: A Nobel Prize-winning psychologist and economist, Kahneman's book "Thinking, Fast and Slow" (2011) looks into the dual-process theory of human cognition, exploring how biases and heuristics impact decision-making. Though not exclusively focused on business, the book's insights have significant implications for business leaders and managers.
-    
+
 1.  Eric Ries: A software engineer and entrepreneur, Ries is known for his book "The Lean Startup" (2011), which introduced the concept of lean methodology for startups, emphasizing rapid prototyping, continuous testing, and iterative product development.
 
 1. John Gall (1925-2014), an American author and pediatrician, is the writer behind the book "Systemantics: How Systems Work and Especially How They Fail" (1975), which was later revised and expanded as "The Systems Bible: The Beginner's Guide to Systems Large and Small" (2002). Gall's work is a humorous and insightful exploration of the behavior and pitfalls of complex systems, using real-life examples and anecdotes.

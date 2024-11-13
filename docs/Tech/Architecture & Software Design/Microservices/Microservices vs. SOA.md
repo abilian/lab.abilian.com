@@ -1,4 +1,4 @@
-The key difference between **Microservices Architecture** and **Service-Oriented Architecture (SOA)** lies in the granularity of services, the way services communicate, their design principles, and operational complexity. While both architectures share the goal of breaking applications into modular services that can function independently, their approach, tooling, and philosophy differ significantly. 
+The key difference between **Microservices Architecture** and **Service-Oriented Architecture (SOA)** lies in the granularity of services, the way services communicate, their design principles, and operational complexity. While both architectures share the goal of breaking applications into modular services that can function independently, their approach, tooling, and philosophy differ significantly.
 
 ### Granularity
    - **Microservices**: Microservices are highly granular, focusing on breaking down functionality into very small, independent services. Each microservice is designed to perform a specific, narrowly defined task (e.g., a service that handles user authentication, another for order processing).

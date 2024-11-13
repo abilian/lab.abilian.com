@@ -6,10 +6,10 @@ In a shared database model, all tenants use the same database instance and schem
 
 **Pros:**
 - **Simplicity:** Managing a single database instance means fewer moving parts. When changes are made to the schema or application code, they can be deployed and updated across all tenants simultaneously.
-  
+
 **Cons:**
 - **Data leakage risk:** If proper precautions are not taken, there’s a possibility of one tenant accidentally accessing another tenant’s data. One way to mitigate this risk is to use a query filter mechanism (e.g., in an ORM like Entity Framework) to automatically append tenant-specific filtering to every query.
-  
+
 - **Noisy neighbors:** Multiple tenants sharing the same database can lead to performance degradation. If one tenant has high resource usage, it may negatively impact others. Rate limiting or assigning different database users for each tenant can help alleviate this issue.
 
 ### Database-Per-Tenant Model
@@ -18,7 +18,7 @@ In the database-per-tenant model, each tenant has its own isolated database. The
 
 **Pros:**
 - **Isolation:** Each tenant’s data and performance are completely isolated from others. Noisy neighbors and data leakage risks are significantly minimized.
-  
+
 **Cons:**
 - **Infrastructure complexity:** Managing a separate database for each tenant can lead to increased complexity, especially in cases of schema changes. Every schema change must be applied to each tenant’s database, which can become cumbersome as the number of tenants grows. Automation tools can help manage schema updates across databases.
 

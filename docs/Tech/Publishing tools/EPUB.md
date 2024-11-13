@@ -1,6 +1,6 @@
-EPUB is an e-book file format that uses the ".epub" file extension. The term is short for electronic publication and is sometimes stylized as ePub. EPUB is supported by many e-readers, and compatible software is available for most smartphones, tablets, and computers. EPUB is a technical standard published by the International Digital Publishing Forum (IDPF). It became an official standard of the IDPF in September 2007, superseding the older Open eBook (OEB) standard. 
+EPUB is an e-book file format that uses the ".epub" file extension. The term is short for electronic publication and is sometimes stylized as ePub. EPUB is supported by many e-readers, and compatible software is available for most smartphones, tablets, and computers. EPUB is a technical standard published by the International Digital Publishing Forum (IDPF). It became an official standard of the IDPF in September 2007, superseding the older Open eBook (OEB) standard.
 
-EPUB allows for reflowable content, meaning the text can adjust to fit different screen sizes and resolutions. The structure of an EPUB file is essentially that of a zipped folder containing a set of web standards-based files. These files include HTML or XHTML for content, CSS for styling, and SVG for vector images, among others. 
+EPUB allows for reflowable content, meaning the text can adjust to fit different screen sizes and resolutions. The structure of an EPUB file is essentially that of a zipped folder containing a set of web standards-based files. These files include HTML or XHTML for content, CSS for styling, and SVG for vector images, among others.
 
 Here's a breakdown of the core components of an EPUB file:
 

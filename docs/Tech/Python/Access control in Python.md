@@ -70,19 +70,19 @@ https://github.com/kazuare/alfa-dsl-playground (Kotlin internal DSL)
 In Python:
 
 ```python
-policyset = PolicySet("Root", FirstApplicable, [  
-    PolicySet("NestedPolicy", FirstApplicable, [  
-        Policy("NotApplicablePolicy", DenyUnlessPermit, [  
-            Target(user.function == "support"),  
-            Rule(Deny)  
-        ]),  
-        Policy("ActualPolicy", DenyUnlessPermit, [  
-            Target(user.active == False),  
-            Rule(Permit, [  
-                Target(user.login == "user@mail.com",  
-            ])  
-        ])  
-    ])  
+policyset = PolicySet("Root", FirstApplicable, [
+    PolicySet("NestedPolicy", FirstApplicable, [
+        Policy("NotApplicablePolicy", DenyUnlessPermit, [
+            Target(user.function == "support"),
+            Rule(Deny)
+        ]),
+        Policy("ActualPolicy", DenyUnlessPermit, [
+            Target(user.active == False),
+            Rule(Permit, [
+                Target(user.login == "user@mail.com",
+            ])
+        ])
+    ])
 ])
 ```
 

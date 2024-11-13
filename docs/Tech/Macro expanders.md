@@ -4,7 +4,7 @@ https://pyexpander.sourceforge.io/index.html
 
 A general-purpose macro processor, also known as a general-purpose preprocessor, serves as a versatile tool for text manipulation and transformation, independent of any specific programming language or software application. Unlike macro processors tightly integrated with a particular language or software, these tools offer a broader scope of functionality and applicability.
 
-At its core, a macro processor operates by taking input text, often referred to as a stream, and systematically replacing specified patterns with predefined substitutions as it processes the text. These substitutions can range from simple textual replacements to more complex transformations involving decision-making logic. 
+At its core, a macro processor operates by taking input text, often referred to as a stream, and systematically replacing specified patterns with predefined substitutions as it processes the text. These substitutions can range from simple textual replacements to more complex transformations involving decision-making logic.
 
 One of the primary functions of a macro processor is language expansion. This involves defining new language constructs or functionalities that can be expressed using existing components of a given language. By enabling developers to extend the language in this way, macro processors facilitate the creation of domain-specific languages or the enhancement of existing ones, making them more expressive and tailored to specific tasks or domains.
 

@@ -4,7 +4,7 @@ Quality management is crucial in software development, yet it's often overlooked
 
 **What is a Bug?**
 
-A bug is a ticket detailing a specific issue in the software. It includes the problem's description, reproduction steps, and impact but not the solution. 
+A bug is a ticket detailing a specific issue in the software. It includes the problem's description, reproduction steps, and impact but not the solution.
 
 **Why Defect Tracking Matters**
 
@@ -14,7 +14,7 @@ Surprisingly, many development teams neglect defect tracking, citing various exc
 
 **The Art of Bug Triage**
 
-Bug triage involves assigning, prioritizing, cleaning up, categorizing, and deduplicating bugs. Establishing a standard for classifying the severity of bugs (high/medium/low) streamlines this process. 
+Bug triage involves assigning, prioritizing, cleaning up, categorizing, and deduplicating bugs. Establishing a standard for classifying the severity of bugs (high/medium/low) streamlines this process.
 
 **The Importance of Triage**
 

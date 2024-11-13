@@ -1,4 +1,4 @@
-Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps. Developed by the World Wide Web Consortium (W3C), Web Components represent a set of web platform APIs that enable developers to build encapsulated and reusable custom elements. 
+Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps. Developed by the World Wide Web Consortium (W3C), Web Components represent a set of web platform APIs that enable developers to build encapsulated and reusable custom elements.
 
 ## Underlying technologies
 
@@ -89,7 +89,7 @@ export class SimpleGreeting extends LitElement {
 
   @property()
   name = 'Somebody';
-  
+
   render() {
     return html`<p>Hello, ${this.name}!</p>`;
   }
@@ -103,7 +103,7 @@ https://github.com/lit/lit/
 
 ```javascript
 import { html, define } from "hybrids";
-  
+
 function increaseCount(host) {
   host.count += 1;
 }

@@ -1,4 +1,4 @@
-**Copywriting** is the art of using words to persuade people to take a particular action, such as buying a product, signing up for a service, or making a donation. 
+**Copywriting** is the art of using words to persuade people to take a particular action, such as buying a product, signing up for a service, or making a donation.
 
 ## References
 
@@ -27,7 +27,7 @@ Based on an analysis of the hero sections of leading SaaS brands, several key pa
 ### User-Centric Copy vs. "We" & "Us" Language
 
 - **User-Centric Language**: The copy is predominantly user-centric with minimal use of "we" and "us."
-- **Examples of User-Centric Phrases**: 
+- **Examples of User-Centric Phrases**:
   - "Your company's knowledge bank"
   - "Streamline your document workflow"
   - "Never forget who you met"

@@ -30,7 +30,7 @@ This example configures the `nginx` service to serve files for the domain `examp
 
 ### Key Components of a NixOS Service
 
-1. **Service Definition**: 
+1. **Service Definition**:
    In NixOS, services are typically configured under the `services` attribute in the `configuration.nix` file. In this case, we enable the `nginx` service by setting `services.nginx.enable = true;`. This tells NixOS to start and manage the `nginx` service.
 
 2. **Service Configuration**:

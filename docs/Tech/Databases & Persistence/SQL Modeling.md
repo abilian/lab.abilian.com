@@ -1,5 +1,5 @@
 
-## Singular and plural SQL table names 
+## Singular and plural SQL table names
 
 This has been is a subject of debate among developers and database designers, with valid arguments on both sides. The decision often comes down to personal preference, team conventions, or the specific requirements of a project. However, understanding the reasoning behind each approach can help make an informed decision that best suits your development practices and database design principles.
 

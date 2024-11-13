@@ -21,7 +21,7 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 ### Why Zero Trust?
 
 - **Shifts in Network Topology**: With the increase in remote work, cloud computing, and mobile devices, traditional perimeter-based security models are no longer effective. Data, users, and devices are often distributed across various locations and clouds, making the internal-external boundary of a network blurry.
-  
+
 - **Minimizing Attack Surfaces**: A Zero Trust approach minimizes the attack surface by reducing the number of possible entry points for attackers. Even if a system or user is compromised, strict segmentation and limited privileges reduce potential damage.
 
 - **Addressing Insider Threats**: Since Zero Trust does not automatically trust users inside the network, it helps mitigate risks associated with insider threats, which are often overlooked in traditional security models.
@@ -29,7 +29,7 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 ### Implementation Components:
 
 1. **Identity and Access Management (IAM)**: Systems for managing user identities, roles, and authentication processes, including MFA and single sign-on (SSO).
-   
+
 2. **Network Segmentation**: Using firewalls, software-defined networking (SDN), and virtual private networks (VPNs) to segment network traffic and enforce policies.
 
 3. **Endpoint Security**: Solutions to ensure that devices accessing the network are compliant with security policies, such as mobile device management (MDM) and endpoint detection and response (EDR).

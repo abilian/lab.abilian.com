@@ -21,7 +21,7 @@
 - Efficient and agile methods for AST transformation (tree rewriting techniques à la Stratego/XT)
 
 - Should we generate WASM directly, or use a IR (à la LVM) ?
-    - Benefits of using an IR: 
+    - Benefits of using an IR:
 
 - WASM runtime
     - A lot of things (strings, lists, dicts, even floats?) need to be reimplemented on top of the very primitive types supported by WASM

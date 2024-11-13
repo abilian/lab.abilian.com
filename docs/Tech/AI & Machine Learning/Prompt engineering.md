@@ -77,7 +77,7 @@ A good rule of thumb is to start with 1-3 examples and experiment to find the ba
 Effective demonstrations are key to good results in few-shot prompting. Here are some tips to consider when preparing examples:
 
 1. **Diverse Examples:** Ensure that your demonstrations cover a variety of cases within the task domain. For instance, when performing text classification, show both positive and negative examples.
-   
+
 2. **Clear Structure:** Maintain a consistent structure across examples. Each demonstration should follow a predictable pattern (e.g., input → output), so the model understands how to generalize the task.
 
 3. **Context Relevance:** Choose examples that closely match the type of inputs the model will handle in the task. Avoid using examples that are too dissimilar, as this may confuse the model.

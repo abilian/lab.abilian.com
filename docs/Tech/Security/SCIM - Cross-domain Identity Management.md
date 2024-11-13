@@ -211,8 +211,8 @@ if __name__ == '__main__':
 
 ## References
 
-- **SCIM 2.0 Specification**: https://tools.ietf.org/html/rfc7644  
-- **SCIM Overview**: https://scim.cloud/  
+- **SCIM 2.0 Specification**: https://tools.ietf.org/html/rfc7644
+- **SCIM Overview**: https://scim.cloud/
 - Flask demo: https://github.com/oktadev/okta-scim-flask-example
 
 <!-- Keywords -->

@@ -20,7 +20,7 @@ The Security Content Automation Protocol (SCAP) is a suite of standards for auto
 
 4. **Development and Maintenance**: The National Institute of Standards and Technology (NIST) in the United States plays a key role in developing and maintaining SCAP.
 
-5. **Versioning**: SCAP evolves over time with new versions incorporating improvements and addressing emerging security needs. 
+5. **Versioning**: SCAP evolves over time with new versions incorporating improvements and addressing emerging security needs.
 
 6. **Integration**: SCAP can be integrated with various security tools and systems, allowing for a more streamlined and automated approach to security management.
 

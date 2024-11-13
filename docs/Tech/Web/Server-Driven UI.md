@@ -3,7 +3,7 @@
 ## Projects (for Mobile Apps)
 - https://jasonette.com/ (dead)
 - https://jasonelle.com/ (only iOS)
-- https://hyperview.org/ "Hyperview is a new hypermedia format and React Native client  
+- https://hyperview.org/ "Hyperview is a new hypermedia format and React Native client
 for developing server-driven mobile apps."
 
 ## Discussion

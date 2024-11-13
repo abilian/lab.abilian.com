@@ -64,7 +64,7 @@ Document resources are a foundational concept representing individual instances 
    - Document resources are representations of the state of an entity at a particular point in time. When a client fetches a document resource, they receive a snapshot of that resource's state, encapsulated in formats such as JSON or XML.
 
 4. **Lifecycle Operations**:
-   - Typical operations on document resources align with the standard HTTP methods: 
+   - Typical operations on document resources align with the standard HTTP methods:
      - **GET** to retrieve the resource.
      - **PUT** or **PATCH** to update the resource (PUT for replacing the resource entirely, PATCH for partial updates).
      - **DELETE** to remove the resource.
@@ -201,7 +201,7 @@ Controller resources encapsulate operations or actions rather than data entities
 ### Design Considerations
 
 - **Clear Intent**: It should be clear what action a controller resource performs, and the API should document potential side effects or state changes resulting from the action.
-  
+
 - **Security and Permissions**: Since controller resources can trigger significant changes in the system, securing these endpoints is crucial. Proper authentication and authorization mechanisms must be in place to ensure that only entitled users can execute these operations.
 
 - **Idempotency and Safety**: While many controller actions are non-idempotent, designing some controller endpoints to be idempotent when possible can improve the reliability and predictability of the API. For example, designing an activation endpoint that can be safely called multiple times without adverse effects.

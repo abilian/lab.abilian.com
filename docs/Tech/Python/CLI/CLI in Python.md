@@ -10,8 +10,10 @@ https://bernsteinbear.com/blog/python-parallel-output/
 
 ### From the standard library
 
-1.  **argparse**: argparse is a built-in Python module that provides a way to parse command-line arguments. It's easy to use and provides a lot of flexibility, making it a popular choice for writing command-line interfaces in Python. 
+1.  **argparse**: argparse is a built-in Python module that provides a way to parse command-line arguments. It's easy to use and provides a lot of flexibility, making it a popular choice for writing command-line interfaces in Python.
     - → More info + tutorial: [[Argparse]]
+
+\+ Others, not recommended (IMHO).
 
 ### Frameworks based on argparse
 
@@ -29,6 +31,11 @@ Click is internally based on `optparse` instead of `argparse`. This is an implem
 ### Others
 
 1. **docopt**: docopt is another Python package that provides a way to define a CLI by describing it in a docstring. It automatically generates the parser and makes it easy to define complex command-line interfaces.
+
+
+## Other frameworks
+
+- Tyro: https://brentyi.github.io/tyro/ Uses type annotations in functions or dataclasses.
 
 ## Console utilities
 

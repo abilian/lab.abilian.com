@@ -17,9 +17,9 @@ Let's discuss these key differences.
 
 ### Encapsulating Operations
 
-- **Relational Entity:** 
+- **Relational Entity:**
   - Relational entities are primarily data-centric, defined within a relational database context. They do not inherently encapsulate business operations, acting mainly as containers for data. Although relational databases can implement features like triggers and stored procedures to add operational logic, these are not traditionally part of the relational model and often lead to debates about maintainability and coupling.
-  
+
 - **Domain-Driven Design Entity:**
   - DDD entities encapsulate both data and behavior, embodying the business rules and operations within the domain model. This encapsulation is fundamental for maintaining consistency and integrity, ensuring that entities can enforce business rules directly within the model.
 
@@ -27,7 +27,7 @@ Let's discuss these key differences.
 
 - **Relational Entity:**
   - Aggregation in relational databases is not a native concept. Relationships are managed through foreign keys, which establish data references but do not inherently define aggregations. Cascading actions (like cascading deletes) can mimic some aggregation behaviors, but these are operational details rather than true conceptual aggregations understood by the database.
-  
+
 - **Domain-Driven Design Entity:**
   - Aggregation is a core concept in DDD, where entities are grouped into aggregates. An aggregate is a collection of related entities treated as a single unit for data changes, with an aggregate root controlling all access to ensure consistency and integrity. This structure manages complexity and delineates clear boundaries and responsibilities within the domain model.
 

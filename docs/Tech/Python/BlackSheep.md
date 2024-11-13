@@ -1,4 +1,4 @@
-#web 
+#web
 
 Doc: https://www.neoteroi.dev/blacksheep/
 

@@ -23,7 +23,9 @@ Here’s why endorsing this petition is essential:
 
 ### Feasibility and Readiness
 
-Linux is not a fledgling idea—it is a mature, highly adaptable operating system used in countless environments worldwide, from data centers to personal devices. Unlike proprietary solutions, Linux's **modular architecture** and **open-source nature** allow it to be tailored to meet specific regulatory and operational requirements across EU member states. The open-source ecosystem around Linux enables rapid bug fixing and feature improvements, ensuring a robust and continuously enhanced platform. With a vast choice of Linux distributions, each tailored to different use cases, the EU has an opportunity to select or customize an iteration that perfectly aligns with the distinct needs of public administration.
+Linux is a mature, versatile operating system deployed globally, powering everything from data centers to personal devices. Its modular architecture and open-source foundation offer unique flexibility, allowing it to be precisely adapted to the regulatory and operational demands of various EU member states. The collaborative open-source ecosystem surrounding Linux accelerates bug resolution and feature development, ensuring a resilient and consistently evolving platform. With an extensive range of Linux distributions, each optimized for specific applications, the EU can leverage this diversity to adopt or tailor a version that meets the specialized requirements of public administration.
+
+Modern Linux distributions and third-party tools make it easy to create tailored, derived versions to meet specific needs. Distributions like Debian and Ubuntu offer tools (e.g., *Debian Live*, *Ubuntu Customization Kit*) for custom builds with preselected packages and configurations, while Arch Linux and Gentoo provide deep control for granular customizations. Advanced tools like the *Yocto Project* and *Linux From Scratch* enable the creation of highly specialized, minimal builds ideal for strict regulatory or performance requirements. This flexibility allows public administrations to develop streamlined, secure systems that meet exact compliance standards without unnecessary features.
 
 ### Economic Impact
 
@@ -127,11 +129,13 @@ Such a strategy is not only feasible but also advantageous for EU Member States.
 
 ## Additional resources
 
+### Comparable initiatives
+
 Several initiatives have pursued objectives similar to the proposed "EU Linux," focusing on developing open-source operating systems tailored for governmental use to enhance digital sovereignty and reduce reliance on foreign technologies. Notable examples include:
 
-1. **[LiMux](https://en.wikipedia.org/wiki/LiMux) (Germany)**: Initiated by the city of Munich, LiMux aimed to migrate public administration systems from Windows to a Linux-based OS to increase control over IT infrastructure and reduce costs. Despite initial success, the project faced intense political lobbying by Microsoft leading to a partial reversion to Windows.
+1. **[LiMux](https://en.wikipedia.org/wiki/LiMux) (Germany)**: Initiated by the city of Munich, LiMux aimed to migrate public administration systems from Windows to a Linux-based OS to increase control over IT infrastructure and reduce costs. Despite initial success, the project faced intense political lobbying by Microsoft leading to a partial reversion to Windows. See also: [The rise and fall of Limux](https://lwn.net/Articles/737818/), LWN, 2017.
 
-2. **[Astra Linux](https://en.wikipedia.org/wiki/Astra_Linux) (Russia)**: Developed to meet the security requirements of Russian state institutions, Astra Linux is certified for handling classified information and emphasizes strong cybersecurity and compliance. It has been actively deployed across various government agencies in Russia.
+2. **[Astra Linux](https://en.wikipedia.org/wiki/Astra_Linux) (Russia)**: Developed to meet the security requirements of Russian state institutions, Astra Linux is certified for handling classified information and emphasizes strong cybersecurity and compliance. It has been actively deployed across various government agencies in Russia. For more details on the Russian strategy, see Marie-Gabrielle Bertran, [La place des logiciels libres et _open source_ dans les nouvelles politiques du numérique en Russie](https://shs.cairn.info/revue-herodote-2020-2-page-235?lang=fr), Herodote, 2020.
 
 3. **[Ubuntu Kylin](https://en.wikipedia.org/wiki/Ubuntu_Kylin) (China)**: A collaboration between Canonical and the Chinese government, Ubuntu Kylin is an official Chinese version of Ubuntu designed to cater to Chinese users and governmental requirements, aiming to reduce dependency on foreign operating systems.
 
@@ -139,7 +143,7 @@ Several initiatives have pursued objectives similar to the proposed "EU Linux," 
 
 5. **[Guadalinex](https://en.wikipedia.org/wiki/Guadalinex) (Spain)**: Developed by the regional government of Andalusia, Guadalinex was a Linux distribution intended for use in public schools and government offices to reduce costs and promote open-source software. It has been used extensively in educational institutions in Andalusia.
 
-6. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard.
+6. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard. More details in this [presentation by Colonel Xavier Guimard: *Logiciels libres : Retour d'expérience sur une migration à grande échelle dans la gendarmerie nationale française*](https://libricks.fr/support/experience_gendarmerie-xavier_guimard-20140917.pdf)  (2014) et this [interview of Lieutenant-Colonel Stéphane Dumond by l'APRIL](https://april.org/libre-a-vous-radio-cause-commune-transcription-de-l-emission-du-3-septembre-2019) (2019).
 
 <!-- Keywords -->
 #linux #virtualization #gdpr

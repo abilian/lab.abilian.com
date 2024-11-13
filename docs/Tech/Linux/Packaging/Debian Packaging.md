@@ -37,7 +37,7 @@ Debian packaging is the process of preparing and distributing software in the De
    - **Versioning**: Follow Debian’s strict versioning guidelines to avoid conflicts.
    - **Changelogs**: Keep detailed logs of updates and changes.
    - **Sign your packages**: Use GPG to sign your package for authenticity.
-   
+
 Once packaged, the `.deb` file can be distributed via repositories, enabling users to install the software through Debian's package management system, ensuring updates and security patches are streamlined.
 
 <!-- Keywords -->
