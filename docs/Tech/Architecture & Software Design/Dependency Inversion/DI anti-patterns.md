@@ -117,5 +117,5 @@ A common theme is taking control away from the DI container. **The recommended a
 See also: [[DI patterns]]
 
 <!-- Keywords -->
-#patterns #constructors
+#patterns #constructors #dependency #pattern
 <!-- /Keywords -->

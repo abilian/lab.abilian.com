@@ -5,5 +5,5 @@
 - [[Nix and containers]]
 
 <!-- Keywords -->
-#kubernetes #docker #containers
+#kubernetes #docker #containers #nix
 <!-- /Keywords -->

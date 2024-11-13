@@ -126,5 +126,5 @@ export default define({
 - https://github.com/matschik/component-party.dev
 
 <!-- Keywords -->
-#webcomponents #html
+#html #components #component #templates
 <!-- /Keywords -->

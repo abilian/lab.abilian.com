@@ -45,5 +45,5 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 - Wikipedia: https://en.wikipedia.org/wiki/Zero_trust_security_model
 
 <!-- Keywords -->
-#zero_trust_security_model #security #cybersecurity #authentication
+#security #cybersecurity #authentication #firewalls #trust
 <!-- /Keywords -->

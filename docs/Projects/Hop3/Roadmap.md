@@ -55,5 +55,5 @@ Here is the current roadmap.
 - [ ] Architecture for a hosting service based on Hop
 
 <!-- Keywords -->
-#roadmap #hop #hop3
+#roadmap #hop3 #heroku
 <!-- /Keywords -->

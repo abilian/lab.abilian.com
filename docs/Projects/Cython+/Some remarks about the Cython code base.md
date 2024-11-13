@@ -34,5 +34,5 @@ The Cython code doesn’t adhere to PEP8.
 1. Run `black` on the code base.
 
 <!-- Keywords -->
-#test_asyncgen #asyncgenasynciotest #cython #test_async_gen_await_same_anext_coro_twice #runtests
+#cython
 <!-- /Keywords -->

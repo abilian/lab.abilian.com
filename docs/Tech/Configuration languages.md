@@ -19,5 +19,5 @@ Also:
 - https://hitchdev.com/strictyaml/why-not/json5/
 
 <!-- Keywords -->
-#jsonnet
+#yaml #json #python
 <!-- /Keywords -->

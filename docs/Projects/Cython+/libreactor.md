@@ -11,5 +11,5 @@ Libreactor is:
 Benchmark: https://github.com/TechEmpower/FrameworkBenchmarks/tree/master/frameworks/C/libreactor
 
 <!-- Keywords -->
-#libreactor
+#benchmarks #performance #parser #abstractions
 <!-- /Keywords -->

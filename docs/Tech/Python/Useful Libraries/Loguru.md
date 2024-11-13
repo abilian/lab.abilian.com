@@ -44,5 +44,5 @@ The "loguru" library aims to provide a more user-friendly and expressive logging
 7.  Improved Configuration: "loguru" provides various configuration options, including log level control, log format customization, feature enabling/disabling, and redirecting log output to different destinations. This flexibility allows you to adapt logging to your specific requirements easily.
 
 <!-- Keywords -->
-#logging #log #logs #loggers
+#logging #log #logs #loguru
 <!-- /Keywords -->

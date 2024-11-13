@@ -59,5 +59,5 @@ Many skilled professionals prioritize working for organizations that align with 
 By leveraging your company's values, you can attract and retain top talent who are not only skilled but also passionate about the organization's mission and purpose. This can lead to higher job satisfaction, increased employee engagement, and improved overall performance.
 
 <!-- Keywords -->
-#values
+#values #value #leadership #companies
 <!-- /Keywords -->

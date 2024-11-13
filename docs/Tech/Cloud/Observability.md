@@ -12,5 +12,5 @@
 - https://github.com/census-instrumentation/opencensus-python/
 
 <!-- Keywords -->
-#census
+#projects #project
 <!-- /Keywords -->

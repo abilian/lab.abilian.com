@@ -42,5 +42,5 @@ You can back into how many sales reps you’ll need in SaaS.
    - This could add approximately 20% more to your staffing model.
 
 <!-- Keywords -->
-#saas
+#saas #sales
 <!-- /Keywords -->

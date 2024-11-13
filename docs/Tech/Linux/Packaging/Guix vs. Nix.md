@@ -41,5 +41,5 @@ Here are more details:
 - **Guix**: With Guix being based on Guile Scheme, users can customize the package manager and system configuration to a greater extent using the powerful features of Scheme. Guix is designed to be a highly extensible system where users can define their own system services, packages, and more, using the full power of a Lisp dialect.
 
 <!-- Keywords -->
-#nixpkgs #nix #nixos
+#nixpkgs #nix #nixos #guix
 <!-- /Keywords -->

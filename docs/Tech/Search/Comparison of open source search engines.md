@@ -23,5 +23,5 @@ See also [[Search]].
 Note that these projects don't have the exact same scope. For instance, some are standalone search engines, while others are libraries or tools that can be used to build custom search solutions.
 
 <!-- Keywords -->
-#lucene #solr #elasticsearch #nosql #google
+#lucene #elasticsearch #google
 <!-- /Keywords -->

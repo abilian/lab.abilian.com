@@ -21,7 +21,3 @@ The post critically examines the spread and use of blockchain technology, highli
 
 5. **Call to Action**:
    - The post urges efforts to counter the blockchain hype, highlighting its harmful impact on technology, computer science, and society. It advocates for public awareness and criticism of the blockchain industry’s motives and the technology’s inefficacy.
-
-<!-- Keywords -->
-#blockchain #blockchains #cryptocurrencies #bitcoin #crypto
-<!-- /Keywords -->

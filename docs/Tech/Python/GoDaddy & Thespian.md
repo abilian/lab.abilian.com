@@ -153,7 +153,3 @@ In addition, Thespian will soon be adding functionality similar to the “Goons�
 The Actor Model is a powerful yet simple tool for the modern software developer. The Actor Model provides a higher level of abstraction than alternative approaches which enables more focus on the application logic and doesn’t lock in a specific concurrency or transport mechanism enabling future operational flexibility. GoDaddy’s Thespian was developed to support our Hosting Provisioning System which requires an Actor Model that is scalable, fault tolerant, concurrent, modular, and extensible.
 
 GoDaddy is excited to share this technology by open sourcing the [Thespian Library](https://web.archive.org/web/20160304014153/http://github.com/godaddy/Thespian) to Python developers. Please feel free to submit contributions, comments, feature requests, or join us in person…[we’re hiring](https://web.archive.org/web/20160304014153/http://www.godaddy.com/careers)!
-
-<!-- Keywords -->
-#actor_model #actorsystem
-<!-- /Keywords -->

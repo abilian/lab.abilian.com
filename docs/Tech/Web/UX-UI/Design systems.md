@@ -44,5 +44,5 @@
 - https://www.divotion.com/blog/building-a-design-system-that-scales-with-your-organization
 
 <!-- Keywords -->
-#frameworks #ui
+#ui #frameworks #design
 <!-- /Keywords -->

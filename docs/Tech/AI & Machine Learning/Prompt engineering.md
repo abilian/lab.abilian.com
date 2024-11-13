@@ -136,7 +136,6 @@ Providing examples from various animal types will help the model generalize bett
 - https://www.promptingguide.ai/
 - https://llmnanban.akmmusai.pro/Book/LLM-Prompt-Engineering-Simplified-Book/
 
-
 <!-- Keywords -->
-#promptingguide
+#sentences
 <!-- /Keywords -->

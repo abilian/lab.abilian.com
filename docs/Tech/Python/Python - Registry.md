@@ -13,5 +13,5 @@
 - https://github.com/faif/python-patterns/blob/master/patterns/behavioral/registry.py
 
 <!-- Keywords -->
-
+#subclasses #python #frameworks #programming
 <!-- /Keywords -->

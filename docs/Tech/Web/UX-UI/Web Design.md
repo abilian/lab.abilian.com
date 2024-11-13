@@ -81,5 +81,5 @@ Design doesn’t have to be complex. A few thoughtful choices can help your site
 #web #design
 
 <!-- Keywords -->
-#css #readability
+#css #readability #layout #design
 <!-- /Keywords -->

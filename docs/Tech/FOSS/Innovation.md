@@ -20,5 +20,5 @@ Here are a few open-source projects that have made significant improvements over
 1.  **Proton**: Developed by Valve and based on Wine, Proton is a compatibility layer that enables Windows-only video games to run on Linux. This project has significantly improved the gaming experience on Linux, closing the gap between Linux and Windows in terms of game compatibility.
 
 <!-- Keywords -->
-#innovations
+#innovation
 <!-- /Keywords -->

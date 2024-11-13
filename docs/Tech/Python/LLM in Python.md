@@ -10,7 +10,3 @@
 - https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents
 - https://www.reddit.com/r/LocalLLaMA/comments/1d4p1t6/is_langchain_usable/ "I don’t know you, but when I build an LLM app for a client LangChain is always more of a hassle to get started than just writing the ‘supporting’ code myself."
 -
-
-<!-- Keywords -->
-#langchain #llama #llms #is_langchain_usable
-<!-- /Keywords -->

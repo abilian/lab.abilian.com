@@ -5,5 +5,5 @@
 - gprc
 
 <!-- Keywords -->
-#rpc #tinyrpc #zerorpc #gprc
+#rpc #json
 <!-- /Keywords -->

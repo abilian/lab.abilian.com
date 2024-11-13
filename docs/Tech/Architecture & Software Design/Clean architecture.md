@@ -18,5 +18,5 @@
 - https://github.com/lucidarch/lucid (Laravel)
 
 <!-- Keywords -->
-#eventsourcinginpython #eventsourcing
+#python
 <!-- /Keywords -->

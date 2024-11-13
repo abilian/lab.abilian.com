@@ -37,5 +37,5 @@ Designing organizational processes that prioritize outcomes over outputs can hel
 By implementing these organizational processes, you can create an environment that prioritizes outcomes over outputs and helps to ensure that your organization consistently delivers value and impact.
 
 <!-- Keywords -->
-#outcomes
+#productivity
 <!-- /Keywords -->

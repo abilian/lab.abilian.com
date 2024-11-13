@@ -33,5 +33,5 @@ Suitable for highly complex applications with extensive functionalities that req
 - **Responsive Design**: Navigation should adapt to different screen sizes and devices, possibly shifting from a horizontal to a vertical layout or hiding less frequently used items in a collapsible menu on smaller screens.
 
 <!-- Keywords -->
-#menus #navigation
+#navigation
 <!-- /Keywords -->

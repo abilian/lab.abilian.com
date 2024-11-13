@@ -13,5 +13,5 @@ OR-Tools is fast and portable software for combinatorial optimization.
 https://developers.google.com/optimization/
 
 <!-- Keywords -->
-#optimization #optimisation
+#optimization #tools
 <!-- /Keywords -->

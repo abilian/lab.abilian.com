@@ -11,5 +11,5 @@
 - https://learnxinyminutes.com/
 
 <!-- Keywords -->
-#learnxinyminutes
+#rust #zig
 <!-- /Keywords -->

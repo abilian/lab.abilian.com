@@ -122,7 +122,3 @@ In conclusion, the integration of embodied cognition, personal knowledge managem
 1. Goel, V. (2007). "Anatomy of deductive reasoning." *Trends in Cognitive Sciences*, 11(10), 435-441. This paper discusses the neural basis of logical reasoning, an aspect of critical thinking, and identifies key brain areas involved in these cognitive processes.
 
 2. Oaksford, M., & Chater, N. (2007). *Bayesian Rationality: The Probabilistic Approach to Human Reasoning*. Oxford University Press. This book provides a framework for understanding how humans engage in critical thinking and analytical reasoning from a probabilistic perspective, supported by cognitive and neurological evidence.
-
-<!-- Keywords -->
-#cognition #cognitive #brain #neurocognitive #brains
-<!-- /Keywords -->

@@ -80,5 +80,5 @@ Piping: `shell.ls().pipe.grep('*.py')` ? bof.
 `shell.pipe(shell.ls(), shell.grep('*.py')` ? (Needs to parse AST inside the pipe argument).
 
 <!-- Keywords -->
-#bash2py #ipython #shell #commandlib #bash
+#python #bash #shell #posix
 <!-- /Keywords -->

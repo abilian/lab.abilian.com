@@ -142,5 +142,5 @@ if __name__ == "__main__":
 This example provides a basic illustration of how to implement a microservices architecture with a bus system in Python. You can extend this model to add more services, commands, and events as needed.
 
 <!-- Keywords -->
-#microservices #architectures #synchronous
+#microservices #architectures #concurrency
 <!-- /Keywords -->

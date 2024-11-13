@@ -41,5 +41,5 @@ Debian packaging is the process of preparing and distributing software in the De
 Once packaged, the `.deb` file can be distributed via repositories, enabling users to install the software through Debian's package management system, ensuring updates and security patches are streamlined.
 
 <!-- Keywords -->
-#packaging #versioning
+#package #packages
 <!-- /Keywords -->

@@ -11,5 +11,5 @@ https://github.com/deburau/galene-docker
 https://github.com/garage44/pyrite
 
 <!-- Keywords -->
-#videoconferencing
+#docker
 <!-- /Keywords -->

@@ -164,7 +164,3 @@ def stripe_webhook():
       - [Webhooks](https://stripe.com/docs/webhooks)
 - **Flask Integration Example:**
       - [Stripe's Flask Sample Application](https://github.com/stripe-samples/accept-a-payment/tree/master/custom-payment-flow/server/python)
-
-<!-- Keywords -->
-#stripe_webhook #sepa_debit #stripe #create_payment
-<!-- /Keywords -->

@@ -49,5 +49,5 @@ These questions are focused on identifying actionable steps towards achieving th
 Together, these questions form the SOON funnel, a powerful tool for coaches to guide conversations towards productive outcomes, empowering the coachee to take ownership of their development and success.
 
 <!-- Keywords -->
-#coaching #coaches #management
+#coaching #management #achieving
 <!-- /Keywords -->

@@ -149,5 +149,5 @@ Ensure that object IDs are not easily guessable to avoid leaking sensitive infor
 If you found this useful, explore the "[APIs You Won’t Hate](https://apisyouwonthate.com/)" community for additional insights on API design.
 
 <!-- Keywords -->
-#apis #api
+#apis #api #authentication
 <!-- /Keywords -->

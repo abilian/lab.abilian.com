@@ -11,5 +11,5 @@ Roberto Di Cosmo is an Italian computer scientist, software researcher, and free
 In summary, Roberto Di Cosmo is a highly respected figure in both the academic and free software communities. Through his research, advocacy, and the creation of the Software Heritage project, he has played a significant role in advancing the cause of free and open-source software and ensuring the preservation of software source code for future generations.
 
 <!-- Keywords -->
-#linux
+#linux #foss #developers #software
 <!-- /Keywords -->

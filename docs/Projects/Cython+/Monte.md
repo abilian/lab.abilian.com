@@ -4,5 +4,5 @@ Source: https://github.com/monte-language
 Blurb: http://www.monte-language.org/
 
 <!-- Keywords -->
-#monte
+#programming
 <!-- /Keywords -->

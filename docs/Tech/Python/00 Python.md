@@ -28,5 +28,5 @@ Here's a list of our favorite libraries and frameworks:
 - [Awesome Dependency Injection in Python](https://github.com/sfermigier/awesome-dependency-injection-in-python)
 
 <!-- Keywords -->
-#python #abilian #frameworks
+#python #scikit #programming #frameworks
 <!-- /Keywords -->

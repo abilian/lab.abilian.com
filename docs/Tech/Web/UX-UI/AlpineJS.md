@@ -8,5 +8,5 @@ https://alpinejs.dev/
 - https://github.com/markmead/alpinejs-component
 
 <!-- Keywords -->
-#alpinejs #alpine
+#alpine #components #tailwind
 <!-- /Keywords -->

@@ -13,5 +13,5 @@ Diagrams.net -> OK but not very elegant.
 Gliffy -> $
 
 <!-- Keywords -->
-#c4model
+#diagrams
 <!-- /Keywords -->

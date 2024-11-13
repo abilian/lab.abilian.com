@@ -39,5 +39,5 @@ With a clear and unambiguous set of Lead Status values, you can begin to refine 
 Remember that refining your CRM's lead qualification process is not just about improving a system; it's about enhancing the way your organization understands and interacts with potential customers, paving the way for sustained growth and success.
 
 <!-- Keywords -->
-#crm
+#management #sales
 <!-- /Keywords -->

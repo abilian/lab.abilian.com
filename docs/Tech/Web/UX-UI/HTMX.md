@@ -145,5 +145,5 @@ By embracing HTMX, developers can create rich web experiences that are both powe
 3. **Innovative Extensions**: Discussions also touch on extensions like Hyperscript, which offers an alternative to JavaScript for handling client-side logic in HTMX applications, though it is noted as speculative and not essential for HTMX use.
 
 <!-- Keywords -->
-#hypermedia #hypertext #html5 #html #webmasters
+#hypermedia #html
 <!-- /Keywords -->

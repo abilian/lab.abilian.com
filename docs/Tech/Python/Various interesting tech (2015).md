@@ -102,5 +102,5 @@ adminlte
 https://github.com/henriquebastos/python-decouple/
 
 <!-- Keywords -->
-#frameworks #apis #flask
+#frameworks #schemas #apis #pythonic
 <!-- /Keywords -->

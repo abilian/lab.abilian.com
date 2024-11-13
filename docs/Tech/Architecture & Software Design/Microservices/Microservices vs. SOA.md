@@ -69,5 +69,5 @@ The key difference between **Microservices Architecture** and **Service-Oriented
 | **Culture**               | Agile, DevOps, small teams, continuous delivery    | Centralized governance, more hierarchical organizations  |
 
 <!-- Keywords -->
-#microservices #microservice
+#microservices #microservice #architectures
 <!-- /Keywords -->

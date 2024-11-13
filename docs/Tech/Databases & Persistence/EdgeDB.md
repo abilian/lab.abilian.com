@@ -21,5 +21,5 @@
 - https://github.com/kurtrottmann/simple-stack-fastapi-edgedb
 
 <!-- Keywords -->
-#edgedb #edgewise
+#relational
 <!-- /Keywords -->

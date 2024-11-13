@@ -31,5 +31,5 @@ https://hocus.dev/blog/qemu-vs-firecracker/
 - LXC
 
 <!-- Keywords -->
-#qemu #docker #hypervisor #virtualisation #microvm
+#qemu #vms
 <!-- /Keywords -->

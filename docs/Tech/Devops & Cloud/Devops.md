@@ -23,5 +23,5 @@
 - Kokki
 
 <!-- Keywords -->
-#docker #ansible #devops #deploy
+#docker #ansible #devops
 <!-- /Keywords -->

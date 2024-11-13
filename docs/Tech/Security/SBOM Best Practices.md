@@ -75,5 +75,5 @@ The primary goal is to create a playbook based on the Strike Team’s experience
    - Establish clear channels of communication between end-users, developers, and third-party vendors regarding SBOM expectations across the supply chain.
 
 <!-- Keywords -->
-#sbom #sboms #openssf
+#developers #dependencies
 <!-- /Keywords -->

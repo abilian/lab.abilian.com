@@ -6,5 +6,5 @@ Paper: https://hal.archives-ouvertes.fr/hal-01890044
 There is a C example un the sources, so it's probably easy to write a Python interface using either cffi or Cython.
 
 <!-- Keywords -->
-#parser #posix
+#parser #posix #python #shell
 <!-- /Keywords -->

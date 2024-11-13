@@ -24,5 +24,5 @@ The article "How Our CSS Framework Helps Enforce Accessibility" by Ian McBurnie 
 10. **Future of the CSS Framework**: The author hints at an upcoming open-source release of the CSS framework that enforces these accessibility practices.
 
 <!-- Keywords -->
-#accessibility #css #html
+#css #html #markup
 <!-- /Keywords -->

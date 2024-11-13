@@ -31,5 +31,5 @@ https://en.wikipedia.org/wiki/Technology_readiness_level
 https://acqnotes.com/acqnote/tasks/technology-readiness-level
 
 <!-- Keywords -->
-#technology_readiness_level
+#technologies #development
 <!-- /Keywords -->

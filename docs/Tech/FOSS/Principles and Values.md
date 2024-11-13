@@ -45,5 +45,5 @@ There are additional values and principles that are relevant to FOSS development
 While the relative importance of these values and principles may differ between FOSS projects and communities, they often contribute to a culture that fosters innovation, collaboration, and the development of high-quality software.
 
 <!-- Keywords -->
-#foss #maintainability
+#foss #maintainability #developers #frameworks #decentralization
 <!-- /Keywords -->

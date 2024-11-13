@@ -9,5 +9,5 @@ https://activitystrea.ms/
 https://github.com/justquick/django-activity-stream
 
 <!-- Keywords -->
-#activities #activity #activitystrea #django
+#json
 <!-- /Keywords -->

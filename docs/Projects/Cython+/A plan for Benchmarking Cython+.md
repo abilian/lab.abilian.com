@@ -153,5 +153,5 @@ Si cela t'intéresse, j'aimerais bien avoir une évaluation de haproxy vs. lwan 
 - https://salsa.debian.org/benchmarksgame-team/benchmarksgame
 
 <!-- Keywords -->
-#cython #language_compiler_benchmarking_are_we_fast_yet #micropython #cpython #benchmarks
+#cython #cpython #micropython #benchmarks
 <!-- /Keywords -->

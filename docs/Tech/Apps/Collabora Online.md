@@ -5,5 +5,5 @@
 - Installation: https://linuxfr.org/news/tutoriel-installer-collabora-online-chez-soi-en-casual-rhel-centos-7
 
 <!-- Keywords -->
-#centos #installation #rhel #installer
+#notes
 <!-- /Keywords -->

@@ -142,5 +142,5 @@ Several initiatives have pursued objectives similar to the proposed "EU Linux," 
 6. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard.
 
 <!-- Keywords -->
-#linux #virtualization
+#linux #virtualization #gdpr
 <!-- /Keywords -->

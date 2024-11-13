@@ -58,5 +58,5 @@ Component and plugin architectures are not mutually exclusive but rather complem
 In Python, several component and plugin architectures have been implemented in Python in a wide range of tools and frameworks. These architectures enhance the adaptability, modularity, and longevity of software, allowing developers to build systems that can grow and evolve over time. Whether through a comprehensive component framework like Zope, a flexible plugin system like Pytest, or a hybrid approach like Django, Python demonstrates a strong capacity for building software that is both powerful and maintainable.
 
 <!-- Keywords -->
-#frameworks #architectures #extensibility #modularity #components
+#frameworks #architectures #modularity #components
 <!-- /Keywords -->

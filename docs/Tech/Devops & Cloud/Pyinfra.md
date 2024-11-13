@@ -88,5 +88,5 @@ It is particularly useful for Python developers familiar with the language who w
 Pyinfra provides a powerful, Python-based alternative to traditional configuration management tools like Ansible. It is ideal for developers and engineers looking for a more flexible, performance-oriented solution to automate deployments and infrastructure tasks. By combining the strengths of Python with idempotent infrastructure management, Pyinfra delivers a robust tool for modern infrastructure automation.
 
 <!-- Keywords -->
-#ansible #pyinfra #deployments #devops #deploying
+#ansible #deployments #devops #deploying
 <!-- /Keywords -->

@@ -336,5 +336,5 @@ The three approaches differ by: runtime validation, verbosity, flexibility, and 
 - **Protocols**: Very adaptable due to structural typing.
 
 <!-- Keywords -->
-#interfaces #interface #subclasses #abstractmethod
+#interfaces #interface #subclasses
 <!-- /Keywords -->

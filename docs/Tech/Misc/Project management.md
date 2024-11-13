@@ -2,5 +2,5 @@
 From: https://carlfish.medium.com/de-cluttered-software-development-fc28477b649e
 
 <!-- Keywords -->
-#development #developers
+#developers
 <!-- /Keywords -->

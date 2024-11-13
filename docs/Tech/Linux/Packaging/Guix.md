@@ -112,5 +112,5 @@ By mastering the creation and use of `guix.scm` files, you'll be well-equipped t
 - https://guix.gnu.org/manual/en/html_node/Defining-Packages.html
 
 <!-- Keywords -->
-#guix #guixsd
+#guix #package
 <!-- /Keywords -->

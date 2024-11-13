@@ -81,5 +81,5 @@ Deming's System of Profound Knowledge (SoPK) is a management philosophy that pro
 The System of Profound Knowledge provides a holistic framework for effective management, emphasizing the interconnectedness of various aspects of organizational performance. By understanding and applying the principles of SoPK, managers can work towards creating a culture of continuous improvement and achieving long-term success in their organizations.
 
 <!-- Keywords -->
-#tqm #productivity #management #managing
+#productivity #management #managing
 <!-- /Keywords -->

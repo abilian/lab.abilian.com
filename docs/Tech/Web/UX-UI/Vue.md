@@ -35,5 +35,5 @@ Comparisons:
 - https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/
 
 <!-- Keywords -->
-#vue3 #vue #laraforms #laraform
+#vue3 #vue #forms
 <!-- /Keywords -->

@@ -42,5 +42,5 @@ Here are some of Nomad's key features:
 4.  **Scalability:** Both Kubernetes and Nomad are designed to scale and can handle large clusters of nodes. However, Nomad is often highlighted for its ability to handle larger scale workloads with less operational overhead due to its simpler architecture.
 
 <!-- Keywords -->
-#kubernetes #microservices #docker
+#kubernetes #microservices #docker #deployments
 <!-- /Keywords -->

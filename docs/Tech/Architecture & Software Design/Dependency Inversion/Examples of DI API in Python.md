@@ -278,5 +278,5 @@ assert isinstance(my_instance.my_param, MyClass)
 ```
 
 <!-- Keywords -->
-#dependency_injector #injector
+#inject
 <!-- /Keywords -->

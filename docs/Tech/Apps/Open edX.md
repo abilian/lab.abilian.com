@@ -5,5 +5,5 @@
 - Discussion: https://discuss.openedx.org/c/development/11
 
 <!-- Keywords -->
-#openedx
+#architecture
 <!-- /Keywords -->

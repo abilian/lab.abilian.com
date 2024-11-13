@@ -27,5 +27,5 @@ The Nix package for Debian has some other deviations in the way it's plugged int
 → It seems to be frowned upon by Nix developers: https://discourse.nixos.org/t/question-about-nix-bin-package-in-ubuntu/41806
 
 <!-- Keywords -->
-#nixos_on_arm #nix_path #nix #nixos #nix_profiles_path
+#nix
 <!-- /Keywords -->

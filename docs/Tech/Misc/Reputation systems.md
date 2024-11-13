@@ -12,5 +12,5 @@
 - Do Incentives to Review Help the Market? Evidence from a Field Experiment on Airbnb, (Fradkin and Holtz)
 
 <!-- Keywords -->
-#reputation #incentives #reciprocity
+#incentives #trust
 <!-- /Keywords -->

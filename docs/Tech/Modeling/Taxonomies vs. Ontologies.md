@@ -182,5 +182,5 @@ Other models like OWL (Web Ontology Language) offer additional expressiveness fo
 Each option has trade-offs, and the best choice depends on the specific requirements, complexity, scale, and existing technical environment.
 
 <!-- Keywords -->
-#ontology #ontologies #taxonomies #taxonomy #categorizations
+#ontology #ontologies
 <!-- /Keywords -->

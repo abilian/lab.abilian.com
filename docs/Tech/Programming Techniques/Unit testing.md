@@ -7,5 +7,5 @@
 - [[Assertions]]
 
 <!-- Keywords -->
-#assertions
+#assertions #tdd #test
 <!-- /Keywords -->

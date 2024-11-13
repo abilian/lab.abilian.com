@@ -30,5 +30,5 @@ Ensuring accountability is critical for a manager because it helps create a cult
 - https://thesystemsthinker.com/moving-from-blame-to-accountability/
 
 <!-- Keywords -->
-#accountability
+#management #manager
 <!-- /Keywords -->

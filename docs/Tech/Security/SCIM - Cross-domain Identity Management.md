@@ -216,5 +216,5 @@ if __name__ == '__main__':
 - Flask demo: https://github.com/oktadev/okta-scim-flask-example
 
 <!-- Keywords -->
-#authentication #oauth
+#authentication #oauth #saas #authorization #apis
 <!-- /Keywords -->

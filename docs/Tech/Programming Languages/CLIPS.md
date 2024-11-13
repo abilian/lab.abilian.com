@@ -27,5 +27,5 @@ This makes CLIPS an excellent choice for projects that aim to integrate sophisti
 - https://clipspy.readthedocs.io/ (Python Integration)
 
 <!-- Keywords -->
-#ai
+#ai #programming #programs #databases
 <!-- /Keywords -->

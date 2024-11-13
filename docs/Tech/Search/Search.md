@@ -35,5 +35,5 @@ Interesting projects include:
 - Faceted seacrh (2009)
 
 <!-- Keywords -->
-#lucene #elasticsearch #minisearch
+#lucene #elasticsearch
 <!-- /Keywords -->

@@ -12,5 +12,5 @@ https://unix.foo/posts/insecurity-of-debian/
 - **Adoption**: SELinux is more commonly used in Red Hat and CentOS, whereas AppArmor is popular in Debian and Ubuntu.
 
 <!-- Keywords -->
-#selinux
+#security
 <!-- /Keywords -->

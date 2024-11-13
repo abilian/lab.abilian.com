@@ -123,5 +123,5 @@ By the end of this workshop, attendees will:
 #okr
 
 <!-- Keywords -->
-#objectives #organization
+#objectives #organization #organizational #stakeholders
 <!-- /Keywords -->

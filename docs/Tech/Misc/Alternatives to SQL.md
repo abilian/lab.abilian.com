@@ -23,5 +23,5 @@
 https://www.youtube.com/watch?v=x1fCJ7sUXCM
 
 <!-- Keywords -->
-#edgeql #prql #sql #sqlalchemy #preql
+#sql
 <!-- /Keywords -->

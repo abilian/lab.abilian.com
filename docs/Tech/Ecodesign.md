@@ -120,5 +120,5 @@ More:
 - https://www.sciencedirect.com/science/article/pii/S0959652621014475 "# Designing sustainable services with the ECO-Service design method: Bridging user experience with environmental performance"
 
 <!-- Keywords -->
-#sustainability #environmentally #environmental #sustainable #ecological
+#sustainability #environmentally #environmental #sustainable
 <!-- /Keywords -->

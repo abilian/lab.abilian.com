@@ -6,7 +6,3 @@ From "The AWS Well-Architected Coloring Book"
 4. The **performance efficiency** pillar focuses on structured and streamlined allocation of IT and computing resources. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business needs evolve.
 5. The **cost optimization** pillar focuses on avoiding unnecessary costs. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
 6. The **sustainability** pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
-
-<!-- Keywords -->
-#aws
-<!-- /Keywords -->

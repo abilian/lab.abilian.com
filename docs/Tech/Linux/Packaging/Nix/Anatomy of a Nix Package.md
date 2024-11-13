@@ -115,5 +115,5 @@ A Nix package is more than just a software package; it's a precise, declarative 
 In summary, understanding the anatomy of a Nix package gives you the ability to create robust, reproducible, and isolated software builds, which can lead to more consistent and reliable systems across development, CI, and production environments.
 
 <!-- Keywords -->
-#nix
+#nix #configurations
 <!-- /Keywords -->

@@ -255,5 +255,5 @@ This growth model has been proven time and again across different SaaS verticals
 Case in point: HashiCorp’s multi-product long-term growth engine.
 
 <!-- Keywords -->
-#marketing #productled
+#marketing #marketers #growth
 <!-- /Keywords -->

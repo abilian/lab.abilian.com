@@ -73,5 +73,5 @@ Here are some examples illustrating the use of a general-purpose macro processor
    - **Link**: [Handlebars.js on GitHub](https://github.com/handlebars-lang/handlebars.js/)
 
 <!-- Keywords -->
-#macros #purpose_macro_processor #preprocessor #macro #compilers
+#compilers #programming
 <!-- /Keywords -->

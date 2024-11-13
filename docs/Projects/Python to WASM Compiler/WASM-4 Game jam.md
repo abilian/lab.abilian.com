@@ -11,5 +11,5 @@ Open source contestants:
 - https://github.com/apg/skydiver/tree/main/src (C, very basic)
 
 <!-- Keywords -->
-#jam2
+#zig
 <!-- /Keywords -->

@@ -76,5 +76,5 @@ Our commitment to a culture of continuous learning and improvement through retro
 - [22 Retrospective Ideas for Ambitious Teams](https://www.parabol.co/resources/sprint-retrospective-ideas/)
 
 <!-- Keywords -->
-#retrospectives #retrospective
+#scrum
 <!-- /Keywords -->

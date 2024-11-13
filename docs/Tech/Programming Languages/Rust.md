@@ -8,5 +8,5 @@
 #rust
 
 <!-- Keywords -->
-#rust #cons
+#rust
 <!-- /Keywords -->

@@ -156,5 +156,5 @@ This code is very similar to the LSTM example. We just replace the LSTM layer wi
 #time-series #python #machine-learning
 
 <!-- Keywords -->
-#matplotlib #forecasting #scipy #numpy
+#scipy
 <!-- /Keywords -->

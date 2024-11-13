@@ -19,5 +19,5 @@ We're currently using Celery, but it comes with complexity that we'd like to get
 -
 
 <!-- Keywords -->
-#asyncio #async #pytask #queue
+#asyncio #redis #async
 <!-- /Keywords -->

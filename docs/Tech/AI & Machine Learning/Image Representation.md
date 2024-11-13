@@ -29,5 +29,5 @@ CLIP's versatility and robustness have opened new avenues for AI applications, i
 While CLIP and similar multi-modal neural networks offer significant advancements, they also present new ethical challenges and considerations. The potential for biased representations, privacy concerns, and the misuse of generative capabilities for harmful purposes are critical issues that need to be addressed. Ensuring that these models are developed and used in an ethical, fair, and responsible manner is paramount to leveraging their benefits while minimizing potential harm.
 
 <!-- Keywords -->
-#openai #embeddings
+#openai #embeddings #nlp #text
 <!-- /Keywords -->

@@ -119,5 +119,5 @@ By adhering to the HAM Stack's principles, developers can create systems that no
 - <https://hamy.xyz/labs/2024-02_hamstack>
 
 <!-- Keywords -->
-#modularization #modularity #microservices #architectures #modularize
+#modularization #modularity #microservices #architectures
 <!-- /Keywords -->

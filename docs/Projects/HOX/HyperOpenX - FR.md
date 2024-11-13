@@ -62,5 +62,5 @@ Le projet est financé par:
 - l'Union Européenne - [Next Generation EU](https://next-generation-eu.europa.eu/index_en) dans le cadre du plan [France Relance](https://www.gouvernement.fr/les-priorites/france-relance).
 
 <!-- Keywords -->
-#hyperopenx #slapos #hyper_cdn
+#slapos #hyper_cdn #hyper_managed
 <!-- /Keywords -->

@@ -33,5 +33,5 @@
     - Security flaws in foundational libraries can have wide-reaching consequences.
 
 <!-- Keywords -->
-#vulnerabilities #audits
+#vulnerabilities #security
 <!-- /Keywords -->

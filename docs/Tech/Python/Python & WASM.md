@@ -101,5 +101,5 @@ TODO:
 - https://blog.scottlogic.com/2022/06/20/state-of-wasm-2022.html
 
 <!-- Keywords -->
-#python_to_wasm
+#frameworks #micropython #pythonic
 <!-- /Keywords -->

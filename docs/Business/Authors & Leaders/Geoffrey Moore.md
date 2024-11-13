@@ -29,5 +29,5 @@ For instance, in the context of an open-source software vendor, the TALC model c
 The TALC model offers a framework for understanding market acceptance of a technology or product over time, and can serve as a strategic tool for software companies in planning their growth and development.
 
 <!-- Keywords -->
-
+#marketing #technologies #innovation #technology
 <!-- /Keywords -->

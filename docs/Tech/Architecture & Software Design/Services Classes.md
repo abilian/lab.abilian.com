@@ -39,5 +39,5 @@ Here are some of the key points to remembers:
    - BPM / BPMN
 
 <!-- Keywords -->
-#services
+#services #refactoring #maintainability
 <!-- /Keywords -->

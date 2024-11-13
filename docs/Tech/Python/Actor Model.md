@@ -90,5 +90,5 @@ When working with the actor model in Python (and choosing or developing an Actor
     http://soft.vub.ac.be/Publications/2016/vub-soft-tr-16-11.pdf
 
 <!-- Keywords -->
-#actor_model #concurrency
+#concurrency #processes
 <!-- /Keywords -->

@@ -39,5 +39,5 @@ Some of the controversies surrounding Stallman include:
 Despite these controversies, Stallman has undeniably had a significant impact on the free software movement and has contributed to raising awareness about software freedom and digital rights.
 
 <!-- Keywords -->
-#stallman #freedoms #gpl
+#freedoms #gpl #freedom
 <!-- /Keywords -->

@@ -12,5 +12,5 @@ Free template: https://github.com/primefaces/sigma-vue
 - Not super good looking, just acceptable
 
 <!-- Keywords -->
-#primefaces #vue #primevue
+#html #components
 <!-- /Keywords -->

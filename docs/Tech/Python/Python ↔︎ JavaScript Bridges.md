@@ -35,5 +35,5 @@ assert f(1, 2) == 3
 ```
 
 <!-- Keywords -->
-#quickjs #pythonmonkey
+#python #js #javascript
 <!-- /Keywords -->

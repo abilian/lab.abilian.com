@@ -248,5 +248,5 @@ sed:              4 (0.00%)
 ###
 
 <!-- Keywords -->
-#cfengine #devops #cfengine3 #manage_config
+#devops
 <!-- /Keywords -->

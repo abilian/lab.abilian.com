@@ -6,5 +6,5 @@
 - https://openfaas.gumroad.com/l/serverless-for-everyone-else (Book)
 
 <!-- Keywords -->
-#kubernetes #openfaas #containernetworking #containerd #faasd
+#kubernetes
 <!-- /Keywords -->

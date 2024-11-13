@@ -9,5 +9,5 @@ Interesting reads:
 #database
 
 <!-- Keywords -->
-#database #databaes #olap #sql
+#database #duckdb #sql
 <!-- /Keywords -->

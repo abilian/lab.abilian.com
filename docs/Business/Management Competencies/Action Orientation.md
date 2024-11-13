@@ -32,5 +32,5 @@ A manager should be action-oriented because it helps drive progress, achieve goa
 By being action-oriented, a manager can drive progress, achieve goals, and create a results-driven culture within their team. This approach leads to improved efficiency, trust, and overall performance.
 
 <!-- Keywords -->
-#action
+#manager #managers
 <!-- /Keywords -->

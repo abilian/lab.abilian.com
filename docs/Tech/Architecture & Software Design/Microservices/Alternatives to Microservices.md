@@ -111,5 +111,5 @@ Each approach provides a distinct set of trade-offs, and choosing one depends on
 The key to selecting the right architecture is understanding the business, technical, and organisational requirements and balancing complexity, cost, and scalability.
 
 <!-- Keywords -->
-#microservices #monolithic
+#microservices #architectures #scalability #micro
 <!-- /Keywords -->

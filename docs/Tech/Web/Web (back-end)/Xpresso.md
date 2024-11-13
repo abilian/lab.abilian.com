@@ -7,5 +7,5 @@ https://xpresso-api.dev/0.42.3/#inspiration-and-relationship-to-other-frameworks
 #web #python
 
 <!-- Keywords -->
-#fastapi
+#async #di #framework #python
 <!-- /Keywords -->

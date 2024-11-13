@@ -42,7 +42,3 @@
 - The stdlib's [`urllib.urlparse`](https://docs.python.org/3/library/urllib.parse.html#module-urllib.parse) module
 - [[Boltons]]' [urlutils](https://boltons.readthedocs.io/en/latest/urlutils.html) (mutable)
 - [Hyperlink](https://github.com/python-hyper/hyperlink) (immutable, but less popular and inactive).
-
-<!-- Keywords -->
-#urlparse
-<!-- /Keywords -->

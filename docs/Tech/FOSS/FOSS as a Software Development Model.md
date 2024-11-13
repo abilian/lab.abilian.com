@@ -29,5 +29,5 @@ The open source model addresses the challenges of communication, complexity, and
 By emphasizing collaboration, flexibility, and transparency to address the challenges inherent in traditional software development models, open source software production is able to leverage the collective knowledge and skills of a diverse community, to innovate more effectively and to adapt to the needs of their users.
 
 <!-- Keywords -->
-
+#frameworks #development #software #developers #scrum
 <!-- /Keywords -->

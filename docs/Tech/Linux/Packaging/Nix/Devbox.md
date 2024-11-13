@@ -30,5 +30,5 @@ Devbox is a tool designed to create isolated and reproducible development enviro
 - **Scalability**: It is scalable for both small and large teams, as environments can be easily shared and versioned.
 
 <!-- Keywords -->
-#devbox #docker #toolchain #toolchains
+#toolchain #docker
 <!-- /Keywords -->

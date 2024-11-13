@@ -58,5 +58,5 @@ Documentation, when written well, turns code into something usable, understandab
 By adopting README-Driven Development, you will not only build better software, but you’ll also foster a healthier, more collaborative open-source ecosystem.
 
 <!-- Keywords -->
-#readme #documentation
+#readme #documentation #roadmap #development #developers
 <!-- /Keywords -->

@@ -56,5 +56,5 @@ Overall, the relationship with the open-source community is often central to the
 - [[OSS Business Models]]
 
 <!-- Keywords -->
-
+#businesses #business #revenue #software
 <!-- /Keywords -->

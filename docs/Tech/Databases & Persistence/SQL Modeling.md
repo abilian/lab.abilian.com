@@ -20,5 +20,5 @@ This has been is a subject of debate among developers and database designers, wi
 - **Domain Language Alignment**: In some cases, the choice might be influenced by the domain language or terminology used within the application's problem space. Aligning table names with the way entities are referred to in the domain can improve the understandability of the database schema for domain experts.
 
 <!-- Keywords -->
-
+#tables #table #sql
 <!-- /Keywords -->

@@ -44,5 +44,5 @@ cp "$DIR"/scrapscript.com .
 - https://cosmo.zip/
 
 <!-- Keywords -->
-#scrapscript
+#python
 <!-- /Keywords -->

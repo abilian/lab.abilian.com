@@ -117,5 +117,5 @@ Several other frameworks can provide insights into the business models of open s
     3. *Product Leadership*: an open source vendor could continuously innovate by incorporating cutting-edge technologies into their products, driven by the contributions from a diverse community of contributors, thereby pushing the performance boundaries of their offerings.
 
 <!-- Keywords -->
-#repositories #repository
+#repositories #repository #revenue #github
 <!-- /Keywords -->

@@ -33,5 +33,5 @@ As a strong proponent of European digital sovereignty, Fermigier regularly engag
 He believes that there is no practical difference between "free software" and "open source software," and that the Free Software Movement and the Open Source Movement are two sides of the same coin. He advocates for these movements to join forces instead of being in conflict.
 
 <!-- Keywords -->
-#founder #fermigier
+#patents #innovation #entrepreneur
 <!-- /Keywords -->

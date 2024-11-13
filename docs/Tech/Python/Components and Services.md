@@ -10,5 +10,5 @@
 - Grok
 
 <!-- Keywords -->
-#componentarchitecture
+#component
 <!-- /Keywords -->

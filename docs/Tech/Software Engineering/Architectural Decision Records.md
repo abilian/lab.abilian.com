@@ -77,5 +77,5 @@ In summary, while both ADRs and RFCs are ways of documenting and communicating a
 - https://github.com/arachne-framework/architecture
 
 <!-- Keywords -->
-#architectural #adrs #adr
+#architecture
 <!-- /Keywords -->

@@ -11,5 +11,5 @@ See: https://github.com/jokull/python-ts-graphql-demo for a nice example
 	- https://logaretm.com/blog/2020-01-11-announcing-villus/
 
 <!-- Keywords -->
-#graphql
+#graphql #vue #vuejs
 <!-- /Keywords -->

@@ -8,5 +8,5 @@ See also:
 - [[Dependency Injection]]
 
 <!-- Keywords -->
-#di
+#di #dependency #patterns #api #python
 <!-- /Keywords -->

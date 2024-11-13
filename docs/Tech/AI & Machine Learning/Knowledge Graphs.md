@@ -55,5 +55,5 @@ Future directions for knowledge graphs in AI include:
 Knowledge graphs are a powerful tool in the AI landscape, enabling more sophisticated data integration, representation, and utilization. Their ability to provide structured and interconnected data is essential for advancing AI applications in various domains. Despite the challenges, ongoing research and development in this field hold promise for even more impactful uses of knowledge graphs in the future.
 
 <!-- Keywords -->
-#ontology
+#ontology #knowledge #databases #schema #nlp
 <!-- /Keywords -->

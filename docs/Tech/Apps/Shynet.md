@@ -35,5 +35,5 @@ docker-compose up -d
 ```
 
 <!-- Keywords -->
-#shynet #shynet_main
+#analytics
 <!-- /Keywords -->

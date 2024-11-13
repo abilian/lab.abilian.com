@@ -153,5 +153,5 @@ Notes: Thespian actors can be distributed across multiple machines and support a
 The actor model, as a concurrent computational model, has its strengths and weaknesses. It works best for systems with many independent entities that need to maintain their own state and behavior while occasionally interacting with each other. However, it is probably not be the best choice for problems that require a lot of data sharing or tight coupling between entities.
 
 <!-- Keywords -->
-#multithreading #multiprocessing #threadpoolexecutor #threading #processpoolexecutor
+#multithreading
 <!-- /Keywords -->

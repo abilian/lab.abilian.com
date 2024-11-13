@@ -37,5 +37,5 @@ Overall, while many appreciate NixOS for its innovation and flexibility, its com
 - https://github.com/cleverca22/not-os = An operating system generator, based on NixOS, that, given a config, outputs a small (47 MB), read-only squashfs for a runit-based operating system, with support for iPXE and signed boot
 
 <!-- Keywords -->
-#nixos_server_issues #nixos #nixpkgs #nix
+#nixos #nix #nixpkgs #linux
 <!-- /Keywords -->

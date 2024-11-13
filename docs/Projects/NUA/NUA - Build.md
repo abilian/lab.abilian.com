@@ -22,5 +22,5 @@
 - [[NUA - build lifecycle]]
 
 <!-- Keywords -->
-#buildpacks
+#buildpacks #build #nix
 <!-- /Keywords -->

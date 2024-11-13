@@ -15,5 +15,5 @@ The one we're using the most.
 See also [[Monorepos]]
 
 <!-- Keywords -->
-#pyinvoke #invoke
+#invoke
 <!-- /Keywords -->

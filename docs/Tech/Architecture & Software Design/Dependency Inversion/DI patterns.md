@@ -181,5 +181,5 @@ It is often used in large applications with complex configurations, or in applic
 See also: [[DI anti-patterns]]
 
 <!-- Keywords -->
-#injectdependency #dependency #dependencies
+#dependency #dependencies #constructors
 <!-- /Keywords -->

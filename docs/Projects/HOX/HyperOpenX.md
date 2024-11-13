@@ -85,5 +85,5 @@ The project is funded by:
 - the European Union - [Next Generation EU](https://next-generation-eu.europa.eu/index_en) within the framework of the [France Relance](https://www.gouvernement.fr/les-priorites/france-relance) plan.
 
 <!-- Keywords -->
-#virtualized
+#virtualized #paas #hyper_cdn #hyper_managed
 <!-- /Keywords -->

@@ -29,5 +29,5 @@ More tips:
 - <https://www.beekeeperstudio.io/blog/how-to-solve-sqlite-database-is-locked-error>
 
 <!-- Keywords -->
-#sqlite
+#sqlite #database
 <!-- /Keywords -->

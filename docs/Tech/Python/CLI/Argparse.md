@@ -97,5 +97,5 @@ One of the great things about `argparse` is that it automatically generates a he
 In addition to what we covered in this tutorial, `argparse` also provides a variety of other features, such as sub-commands, custom argument types, and more. If you're interested in learning more about these features, I recommend checking out the official documentation: [https://docs.python.org/3/library/argparse.html](https://docs.python.org/3/library/argparse.html).
 
 <!-- Keywords -->
-#argparse #parse_args #argumentparser #accumulator #add_argument
+#argparse
 <!-- /Keywords -->

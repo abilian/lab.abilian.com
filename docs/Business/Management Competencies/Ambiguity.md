@@ -37,5 +37,5 @@ By effectively managing ambiguity, a manager can adapt to change, make informed 
 - What's true for management is wrong for programming, cf. "In the face of ambiguity, refuse the temptation to guess" in [the Zen of Python](https://inventwithpython.com/blog/2018/08/17/the-zen-of-python-explained/).
 
 <!-- Keywords -->
-#ambiguity #uncertainties #uncertainty #managing #management
+#managing #management
 <!-- /Keywords -->

@@ -248,5 +248,5 @@ docker network create mynetwork
 ```
 
 <!-- Keywords -->
-#docker #dockerlint #kubernetes #dockerfiles #dockerfile
+#docker #kubernetes #dockerfiles #dockerfile
 <!-- /Keywords -->

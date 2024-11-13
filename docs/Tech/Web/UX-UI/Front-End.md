@@ -95,5 +95,5 @@ Review: https://testdriven.io/blog/html-over-websockets/
 https://fable.io/blog/2020/2020-12-17-It-was-observables-all-this-time.html
 
 <!-- Keywords -->
-#vue2 #vue3 #vue #vuejs #vuecomponent
+#vue #vue3 #vuejs #frameworks
 <!-- /Keywords -->

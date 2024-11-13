@@ -15,7 +15,3 @@ Si tu cherches des idées de règles d’eco-codage Python, nos hackathons ont p
 TODO:
 
 Look at: github.com/datatheorem/flake8-alfred/
-
-<!-- Keywords -->
-#ecocode
-<!-- /Keywords -->

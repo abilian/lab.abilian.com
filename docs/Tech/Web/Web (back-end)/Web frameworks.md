@@ -21,5 +21,5 @@ https://breadcrumbscollector.tech/the-disenchantment-of-python-web-frameworks/ -
 - Bottle
 
 <!-- Keywords -->
-#frameworks #java
+#java #frameworks #kubernetes #python
 <!-- /Keywords -->

@@ -24,5 +24,5 @@ Marp provides a combination of simplicity, content-focused approach, customizabi
 - https://yoanbernabeu.github.io/MARP-Template-Library/docs/category/themes
 
 <!-- Keywords -->
-#powerpoint #presentations #presentation #markdown #marp
+#markdown #formats
 <!-- /Keywords -->

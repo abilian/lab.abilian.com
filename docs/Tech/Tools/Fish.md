@@ -7,5 +7,5 @@ Tips:
 - Use the virtualfish plugin by doing `pipx install virtualfish` then `vf addplugins auto_activation`.
 
 <!-- Keywords -->
-#virtualenv #zsh
+#shell #bash
 <!-- /Keywords -->

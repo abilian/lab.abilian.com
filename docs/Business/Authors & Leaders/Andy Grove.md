@@ -9,5 +9,5 @@ Grove was an influential figure in the technology and business world. In additio
 Andrew Grove's writings provide valuable insights into effective management, leadership, and business strategy, particularly in the technology industry. His contributions have left a lasting impact on the way organizations navigate change and pursue growth in an increasingly competitive landscape.
 
 <!-- Keywords -->
-#ceo #management #leadership
+#management #leadership #intel
 <!-- /Keywords -->

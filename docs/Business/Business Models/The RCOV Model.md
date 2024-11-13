@@ -18,5 +18,5 @@ The RCOV model has been influential in the field of business model research, esp
 The model's influence is evident in the number of subsequent works that have cited it and used it as a basis for further research. The RCOV model has been applied in various industries and contexts, highlighting its flexibility and applicability. It has also influenced the development of other business model frameworks and has been used in combination with other models for comprehensive business analysis.
 
 <!-- Keywords -->
-
+#business #innovation #marketing
 <!-- /Keywords -->

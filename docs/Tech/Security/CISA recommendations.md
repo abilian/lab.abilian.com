@@ -22,5 +22,5 @@ The pledge is structured with seven goals. Each goal has the core criteria which
 This guide builds on [The Case for Memory Safe Roadmaps](https://www.cisa.gov/resources-tools/resources/case-memory-safe-roadmaps "The Case for Memory Safe Roadmaps") by providing a starting point for software manufacturers to create memory safe roadmaps, including plans to address memory safety in external dependencies which commonly include OSS. Exploring Memory Safety in Critical Open Source Projects also aligns with the 2023 National Cybersecurity Strategy and corresponding implementation plan, which discusses investing in memory safety and collaborating with the open source community—including the establishment of the interagency Open Source Software Security Initiative (OS3I) and investment in memory-safe programming languages.
 
 <!-- Keywords -->
-#securebydesign #security
+#cybersecurity #security #saas
 <!-- /Keywords -->

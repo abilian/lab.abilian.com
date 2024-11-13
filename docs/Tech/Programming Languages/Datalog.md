@@ -30,5 +30,5 @@
 - Yedalog
 
 <!-- Keywords -->
-#datalog #bigquery #standardsql #datalite
+#clojure #java
 <!-- /Keywords -->

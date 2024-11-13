@@ -8,5 +8,5 @@ Links:
 - [Buzhug](http://buzhug.sourceforge.net/) + forks (dead)
 
 <!-- Keywords -->
-#tinydb #terminusdb #database #teminusdb #storage
+#tinydb #database #storage
 <!-- /Keywords -->

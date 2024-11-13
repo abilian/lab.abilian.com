@@ -35,5 +35,5 @@ Here are a few specific examples of how incentives can lead to unintended conseq
 1.  French solar power incentives: In the late 2000s, France introduced generous feed-in tariffs to encourage the adoption of solar power. The tariffs were so attractive that they led to a surge in solar installations, causing an unexpected strain on the national grid and a rapid increase in the cost of the program. The government was forced to scale back the incentives, leading to job losses in the solar industry and a decline in new solar installations.
 
 <!-- Keywords -->
-#incentives #incentive #motivate #perverse_incentive #motivation
+#incentives
 <!-- /Keywords -->

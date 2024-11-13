@@ -89,5 +89,5 @@ Using DI aligns with SOLID principles, particularly the Dependency Inversion Pri
 Centralizing configuration through a DI container or a configuration management pattern simplifies management and reduces redundancy, making it beneficial for objects needing consistent configuration.
 
 <!-- Keywords -->
-#instantiation #dependency
+#dependency #dependencies #inject
 <!-- /Keywords -->

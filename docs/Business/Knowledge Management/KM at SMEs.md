@@ -7,5 +7,5 @@ SMEs may also need to be more strategic in their approach to KM, focusing on the
 Overall, the specific approach to KM in SMEs will depend on a range of factors, including the size and culture of the organization, its resources and priorities, and the nature of its knowledge assets. However, with the right strategies and tools in place, SMEs can effectively manage their knowledge and leverage it to drive innovation, growth, and competitiveness.
 
 <!-- Keywords -->
-#smes
+#management #organizations
 <!-- /Keywords -->

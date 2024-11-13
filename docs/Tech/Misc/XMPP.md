@@ -7,5 +7,5 @@ https://github.com/thisismedium/python-xmpp-server
 #python
 
 <!-- Keywords -->
-#xmppd #xmpp #xmpppy
+#python
 <!-- /Keywords -->

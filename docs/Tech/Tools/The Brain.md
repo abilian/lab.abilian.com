@@ -10,5 +10,5 @@ Chaque idée est une note, avec possibilité d'attachements
 Cher (180$)
 
 <!-- Keywords -->
-#mindmapping #navigation
+#navigation
 <!-- /Keywords -->

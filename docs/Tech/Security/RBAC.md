@@ -41,5 +41,5 @@ The main aim of OrBAC is to enable a security policy to be defined independently
 The OrBAC access control model is not restricted to permissions. It also includes the possibility of specifying prohibitions and obligations.
 
 <!-- Keywords -->
-#based_access_control #roles #authorization #authorisation #rbac
+#authorization
 <!-- /Keywords -->

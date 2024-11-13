@@ -198,5 +198,5 @@ Additionally, there are higher-level alternatives to Varlink, RPyC, gRPC, and ot
    - **Ideal Use Case**: Microservices that need reliable, scalable, and decoupled messaging, especially for asynchronous workflows (e.g., task queues, event processing).
 
 <!-- Keywords -->
-#microservices #microservice #protocols #middleware
+#microservices #microservice #protocols #middleware #rpc
 <!-- /Keywords -->

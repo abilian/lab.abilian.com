@@ -14,5 +14,5 @@ https://domainstorytelling.org/
 https://leanpub.com/domainstorytelling/read_sample
 
 <!-- Keywords -->
-#uml
+#diagrams
 <!-- /Keywords -->

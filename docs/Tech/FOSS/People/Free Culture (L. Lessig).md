@@ -90,5 +90,5 @@ But if you don't do something now, this freedom that you built, that you spend y
 But you've done nothing."
 
 <!-- Keywords -->
-
+#copyright #freedom
 <!-- /Keywords -->

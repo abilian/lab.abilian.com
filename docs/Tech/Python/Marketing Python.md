@@ -63,5 +63,5 @@ Today, Python is not just a language for hobbyists or prototyping—it is a batt
 In the words of Paul Graham, who coined the "Python Paradox," languages created by those who care about programming ultimately win. Python’s success in enterprise application development is proof of this: a language built for simplicity and expressiveness has become the backbone of some of the world’s most complex and demanding systems.
 
 <!-- Keywords -->
-#python #apis
+#python #apis #scipy #django
 <!-- /Keywords -->

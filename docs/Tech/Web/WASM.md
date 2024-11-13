@@ -11,6 +11,20 @@
 - https://github.com/vmware-labs/webassembly-language-runtimes
 - https://github.com/micropython/micropython/tree/master/ports/webassembly
 
+## WAT
+
+https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format
+
+## WASI
+
+https://blog.dkwr.de/development/wasi-load-fd-write/
+
+## Component model / WIT
+
+https://component-model.bytecodealliance.org/design/why-component-model.html
+https://component-model.bytecodealliance.org/design/wit.html
+https://blog.dkwr.de/development/wasm-component-model/
+https://blog.dkwr.de/development/wasm-component-model-example/
 
 ## Languages that compile to WASM
 
@@ -19,5 +33,5 @@
 - ...
 
 <!-- Keywords -->
-#webassembly #micropython
+#webassembly #python
 <!-- /Keywords -->

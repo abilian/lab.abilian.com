@@ -64,5 +64,5 @@ Several areas can be refined to enhance this model:
 - https://jazz.tools/  "Jazz is an open-source toolkit that replaces APIs, databases and message queues with a single new abstraction: “Collaborative Values” — distributed state with secure permissions built-in. Features that used to take months to build now work out-of-the-box."
 
 <!-- Keywords -->
-#synchronization #filesystem #filesystems #sync
+#storage
 <!-- /Keywords -->

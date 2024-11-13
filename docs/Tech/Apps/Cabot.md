@@ -18,5 +18,5 @@ And also: https://github.com/cabotapp (same)
 Todo: run it in ~ghq/github.com/cabotapp/docker-cabot
 
 <!-- Keywords -->
-#monitoring #docker
+#docker #github #django
 <!-- /Keywords -->

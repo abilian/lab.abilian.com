@@ -13,5 +13,5 @@ Throughout the book, Ousterhout emphasizes the importance of simplicity and clar
 "A Philosophy of Software Design" is an important resource for software developers, architects, and technical leads who want to improve their understanding of effective software design principles and practices. The book offers practical advice and guidance for creating software systems that are easier to maintain, understand, and evolve, ultimately leading to more successful and sustainable software projects.
 
 <!-- Keywords -->
-#maintainability #design #designing #abstractions
+#maintainability #design #abstractions #implementing
 <!-- /Keywords -->

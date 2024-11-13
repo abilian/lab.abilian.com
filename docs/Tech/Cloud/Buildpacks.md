@@ -27,5 +27,5 @@ default = true
 Buildpacks are composable: https://buildpacks.io/docs/buildpack-author-guide/build-phases-overview/
 
 <!-- Keywords -->
-#buildpack #buildpacks #buildback
+#docker #buildpacks #build
 <!-- /Keywords -->

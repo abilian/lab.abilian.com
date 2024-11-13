@@ -62,5 +62,5 @@ List here: https://en.wikipedia.org/wiki/HTTP/3#Server
 - https://eli.thegreenplace.net/2021/go-https-servers-with-tls/
 
 <!-- Keywords -->
-#httptools #http #nghttp2 #nginx #http_parser
+#http #websockets
 <!-- /Keywords -->

@@ -123,5 +123,5 @@ The Inamori Method represents a profound shift in how companies can be managedâ€
 Despite being developed over 60 years ago, the Inamori Method remains highly relevant for contemporary businesses seeking to transition from traditional hierarchical management to distributed governance models based on subsidiarity rather than mere subordination.
 
 <!-- Keywords -->
-#inamori #leadership #management
+#leadership #management #initiative #managing
 <!-- /Keywords -->

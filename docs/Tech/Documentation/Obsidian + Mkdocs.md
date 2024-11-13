@@ -11,5 +11,5 @@
 - https://www.privacyguides.org/
 
 <!-- Keywords -->
-#mkdocs
+#markdown #plugins
 <!-- /Keywords -->

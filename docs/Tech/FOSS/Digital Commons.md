@@ -11,5 +11,5 @@ The relationship between FOSS, digital commons, and digital public goods can be 
 Overall, the interconnected nature of FOSS, digital commons, and digital public goods fosters a collaborative ecosystem in which individuals, communities, and organizations can work together to create, share, and benefit from digital resources, ultimately driving innovation and promoting the public good.
 
 <!-- Keywords -->
-#foss
+#foss #software #collaboration
 <!-- /Keywords -->

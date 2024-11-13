@@ -57,5 +57,5 @@ Let's consider a machine learning model that converts images into high-dimension
 #database #machine-learning
 
 <!-- Keywords -->
-#using_vector_databases_for_embeddings_search #vector_databases #databases #vectors #vector
+#databases #database #embeddings
 <!-- /Keywords -->

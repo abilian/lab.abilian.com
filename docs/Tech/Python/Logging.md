@@ -70,5 +70,5 @@ handle_request(request)
 ```
 
 <!-- Keywords -->
-#log #logging #logs #logger
+#log #logging #logs #loguru
 <!-- /Keywords -->

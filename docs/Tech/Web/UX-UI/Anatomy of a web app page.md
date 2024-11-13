@@ -24,5 +24,5 @@ TODO: diagram.
 TODO: add references.
 
 <!-- Keywords -->
-#layout
+#layout #workspace
 <!-- /Keywords -->

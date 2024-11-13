@@ -11,5 +11,5 @@ First, design the information architecture (IA) of your site so you can make sma
 - https://www.justinmind.com/blog/8-tips-to-get-tabs-right-in-web-design/
 
 <!-- Keywords -->
-#tabs #breadcrumbs
+#navigation
 <!-- /Keywords -->

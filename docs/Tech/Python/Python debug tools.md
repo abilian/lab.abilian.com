@@ -10,5 +10,5 @@ Ad also:
 - rich
 
 <!-- Keywords -->
-#debug #pysnoop
+#python
 <!-- /Keywords -->

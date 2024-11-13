@@ -164,5 +164,5 @@ NixOS services offer a declarative, modular, and reproducible approach to servic
 Understanding the anatomy of a Nix service description is key to leveraging NixOS for more complex infrastructure and service management tasks. Whether you are configuring existing services like `nginx` or creating custom services tailored to your needs, NixOS’s service management model provides a clean, efficient way to achieve system consistency and reliability.
 
 <!-- Keywords -->
-#nixos #nix #nixpkgs #serviceconfig
+#nixos #nix #nixpkgs #systemd
 <!-- /Keywords -->

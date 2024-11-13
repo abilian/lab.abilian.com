@@ -11,5 +11,5 @@ Von Hippel's work differs from Yochai Benkler's in that it does not specifically
 Overall, Eric von Hippel's research on lead users and user-driven innovation has provided valuable insights into the ways companies can benefit from involving users in product development and improvement. By embracing the potential of user innovation, companies can unlock new opportunities for growth and success in their industries.
 
 <!-- Keywords -->
-#innovation #innovate #innovated
+#innovation #companies
 <!-- /Keywords -->

@@ -83,5 +83,5 @@ Ultimately, the effectiveness of any goal-setting system depends on how well it 
 #okr
 
 <!-- Keywords -->
-#objectives #organizational #organization
+#objectives #organizational #organization #organizations #achieving
 <!-- /Keywords -->

@@ -4,5 +4,5 @@
     - https://github.com/wire-elements/modal "Livewire component that provides you with a modal that supports multiple child modals while maintaining state."
 
 <!-- Keywords -->
-#modals #modal #laravel
+#laravel #component #components
 <!-- /Keywords -->

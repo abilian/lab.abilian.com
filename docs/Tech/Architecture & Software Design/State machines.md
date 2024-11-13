@@ -9,5 +9,5 @@ XState:
 - https://github.com/pfouque/django-fsm-2
 
 <!-- Keywords -->
-#django
+#django #javascript
 <!-- /Keywords -->

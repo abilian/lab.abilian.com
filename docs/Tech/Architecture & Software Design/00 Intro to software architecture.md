@@ -144,5 +144,5 @@ Understanding and prioritizing these quality attributes is critical because they
 - [pytest-archon](https://github.com/jwbargsten/pytest-archon): a little tool that helps you structure (large) Python projects. This tool allows you to define architectural boundaries in your code, also known as _forbidden dependencies_.
 
 <!-- Keywords -->
-#architectures #django
+#architectures #django #frameworks #pythonic #microservices
 <!-- /Keywords -->

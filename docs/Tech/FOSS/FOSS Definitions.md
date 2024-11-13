@@ -9,5 +9,5 @@ The Open Source Initiative (OSI) was established to promote the concept of open 
 In the FOSS movement, the question of whether a license conforms to the established freedoms is essential. A license that meets the criteria set by the FSF, Debian, and OSI ensures that the software can be freely used, modified, and shared, aligning with the fundamental principles of the movement. By adhering to these guidelines, developers and users can create and contribute to a vibrant ecosystem of free and open source software that fosters innovation, collaboration, and the ethical use of technology.
 
 <!-- Keywords -->
-#foss
+#foss #linux #software #freedoms
 <!-- /Keywords -->

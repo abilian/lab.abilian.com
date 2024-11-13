@@ -110,5 +110,5 @@ Sass                            43            217             59           4002
 ```
 
 <!-- Keywords -->
-#vue #vuejs
+#vue #vuejs #component
 <!-- /Keywords -->

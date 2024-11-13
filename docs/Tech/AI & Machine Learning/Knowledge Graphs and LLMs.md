@@ -61,5 +61,5 @@ Leveraging LLMs for KG construction offers significant potential in reducing hum
 The integration of LLMs and KGs, particularly through robust ontologies, represents a promising area for future research and development. Embracing KGs and their ontologies clarifies your data landscape and prepares your organization for a future where AI will keep your data and semantics connected. Integrating KGs and ontologies into your Gen AI strategy is a powerful and pragmatic way to stay ahead of the curve.
 
 <!-- Keywords -->
-#ontologies
+#ontologies #ontology
 <!-- /Keywords -->

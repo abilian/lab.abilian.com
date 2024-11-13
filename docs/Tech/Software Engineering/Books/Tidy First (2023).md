@@ -36,5 +36,5 @@ In all these practices, the key is balance and context. What works best in one s
 - A review of the book: https://henrikwarne.com/2024/01/10/tidy-first/
 
 <!-- Keywords -->
-#tidyings #tidying #refactoring #tidy
+#refactoring #organizing #maintainability
 <!-- /Keywords -->

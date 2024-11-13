@@ -81,5 +81,5 @@ https://lwn.net/Articles/962788/ "A look at Nix and Guix"
 - https://serokell.io/blog/nix
 
 <!-- Keywords -->
-#nixos #nixpgs #nix #nixpkgs #nixbyexample
+#nixos #nix #nixpkgs #docker
 <!-- /Keywords -->

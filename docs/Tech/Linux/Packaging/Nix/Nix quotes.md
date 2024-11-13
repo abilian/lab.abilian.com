@@ -8,5 +8,5 @@ But it's a **steep learning curve**, you have to dive in this new philosophy. Yo
 The most striking would be: I have my configuration in one git repository. I can go back to a previous configuration. It unloads the mind from a burden of tons of details: you know everything is in this/these text files so as that makes your system work. I can even replicate my configuration on other computers, so I just simply do not care if ever one computer goes out of order. In less than two hours I have the same configuration that I can run on a another desktop/laptop."
 
 <!-- Keywords -->
-#nixos
+#nixos #repository
 <!-- /Keywords -->

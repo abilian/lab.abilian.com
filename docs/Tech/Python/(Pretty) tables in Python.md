@@ -151,5 +151,5 @@ This will output the following table:
 You can customize the formatting of the table by setting various properties of the `Texttable` object, such as the alignment of columns, the border style, and the header style. For more information, you can refer to the official documentation of the library.
 
 <!-- Keywords -->
-#texttable
+#table #tables #tabular
 <!-- /Keywords -->

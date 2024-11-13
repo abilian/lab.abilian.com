@@ -102,5 +102,5 @@ These tools facilitate the kind of interconnected note-taking that LYT advocates
 ![[Screenshot 2022-05-16 at 20.58.42.png]]
 
 <!-- Keywords -->
-#organizing
+#organizing #knowledge #concepts
 <!-- /Keywords -->

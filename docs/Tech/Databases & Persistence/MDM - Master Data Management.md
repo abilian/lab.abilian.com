@@ -56,5 +56,5 @@ Open-source solutions for MDM enable organizations to implement these processes 
 - Talend Open Studio for MDM → https://github.com/Talend/tmdm-server-se
 
 <!-- Keywords -->
-#mdm #management #data #managing #analytics
+#management #data #managing #analytics
 <!-- /Keywords -->

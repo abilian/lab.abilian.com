@@ -153,5 +153,5 @@ In a distributed Varlink-based microservice architecture, a typical setup might 
    - Metrics exposed via Prometheus.
 
 <!-- Keywords -->
-#varlink #microservices #microservice #systemd
+#microservices #microservice #systemd #middleware
 <!-- /Keywords -->

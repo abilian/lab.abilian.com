@@ -40,5 +40,5 @@ What else ?
 - Gurobi
 
 <!-- Keywords -->
-#optimization #optimize #scipy
+#optimization #python
 <!-- /Keywords -->

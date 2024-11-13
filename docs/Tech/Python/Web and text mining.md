@@ -19,5 +19,5 @@ https://github.com/clips/pattern
 -   Network Analysis: graph centrality and visualization."
 
 <!-- Keywords -->
-#wordnet
+#python #google #pythonic #web
 <!-- /Keywords -->

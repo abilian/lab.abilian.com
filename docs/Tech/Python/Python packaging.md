@@ -23,5 +23,5 @@
 -   project environment manager"
 
 <!-- Keywords -->
-#py2deb #docker
+#docker #devops
 <!-- /Keywords -->

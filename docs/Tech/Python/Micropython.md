@@ -19,5 +19,5 @@ Here are some background information:
 ⇒ MicroPython is an accessible choice for programming microcontrollers, competing with platforms like Arduino (which requires C++ knowledge) and complementing other Python-based platforms like CircuitPython and Snek. Its suitability extends beyond microcontrollers to other constrained environments, including web applications via WebAssembly.
 
 <!-- Keywords -->
-#micropython #cpython #microcontrollers #microcontroller #python
+#micropython #cpython #python
 <!-- /Keywords -->

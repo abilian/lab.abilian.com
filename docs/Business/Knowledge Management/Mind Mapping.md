@@ -22,5 +22,5 @@ https://github.com/hizzgdev/jsmind
 - [[Concept Maps]] → https://cmap.ihmc.us/
 
 <!-- Keywords -->
-#mindmap #freemind #mindnode
+#maps #js
 <!-- /Keywords -->

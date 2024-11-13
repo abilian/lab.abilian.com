@@ -38,5 +38,5 @@
 https://elastic.github.io/eui/#/tabular-content/data-grid
 
 <!-- Keywords -->
-#datagrids #datatables #grid #tabular #tables
+#tabular #data #js
 <!-- /Keywords -->

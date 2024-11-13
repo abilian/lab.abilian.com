@@ -148,5 +148,5 @@ if __name__ == '__main__':
 - **PKCE for Public Clients**: Use Proof Key for Code Exchange (PKCE) in public clients (such as mobile apps) to enhance security during the token exchange process.
 
 <!-- Keywords -->
-#openid #oidc_op_authorization_endpoint #oidc_op_token_endpoint #oidc_client_secret #oauth
+#openid #oauth
 <!-- /Keywords -->

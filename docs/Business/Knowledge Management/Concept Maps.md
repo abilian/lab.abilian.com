@@ -84,5 +84,5 @@ Main site:  https://cmap.ihmc.us/
 [[Mind Mapping]]
 
 <!-- Keywords -->
-#concepts #maps #concept #map #visualizing
+#concepts #maps
 <!-- /Keywords -->

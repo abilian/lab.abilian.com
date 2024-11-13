@@ -8,5 +8,5 @@ Examples include:
 - **[[Asciidoc]]** is a human-readable document format, similar to Markdown but with more features, designed for writing articles, books, manuals, and technical documentation.
 
 <!-- Keywords -->
-#typesetting #formats #markdown #pandoc #publishing
+#typesetting #formats #markdown #pandoc
 <!-- /Keywords -->

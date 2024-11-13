@@ -4,5 +4,5 @@
 - https://www-apr.lip6.fr/~chaillou/Public/programmation/2020-2021/jc.html présentation de Galene
 
 <!-- Keywords -->
-#webrtc #firebase
+#firebase
 <!-- /Keywords -->

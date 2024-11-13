@@ -1,5 +1,1 @@
 - [[FASTEN]]
-
-<!-- Keywords -->
-#fasten
-<!-- /Keywords -->

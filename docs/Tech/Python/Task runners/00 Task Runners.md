@@ -3,5 +3,5 @@
 - [[Invoke]]
 
 <!-- Keywords -->
-#invoke
+#invoke #doit
 <!-- /Keywords -->

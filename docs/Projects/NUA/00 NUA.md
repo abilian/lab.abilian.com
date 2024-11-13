@@ -106,5 +106,5 @@ For the tech-savvy, Nua’s architecture initially leverages Docker for both bui
 Nua brings all this together with a clear technical vision, adhering to the "12-factor apps" methodology and incorporating Promise Theory. This well-thought-out blend of features and technical depth makes Nua a compelling choice for anyone looking to deploy and manage web applications securely and efficiently.
 
 <!-- Keywords -->
-#kubernetes #saas #paas
+#kubernetes #docker #saas #paas #dockerfiles
 <!-- /Keywords -->

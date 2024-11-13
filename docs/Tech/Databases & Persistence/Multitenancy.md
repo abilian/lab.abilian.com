@@ -42,5 +42,5 @@ When designing a multi-tenant system, several factors should influence your deci
 - **Operational overhead:** The shared database model can simplify deployment and schema updates, but it may require additional safeguards like automated query filters or rate-limiting mechanisms.
 
 <!-- Keywords -->
-#tenants #tenant_id #tenant
+#databases #database
 <!-- /Keywords -->

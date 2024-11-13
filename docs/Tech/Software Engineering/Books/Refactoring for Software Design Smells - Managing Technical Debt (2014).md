@@ -70,5 +70,5 @@ Some of the main refactoring techniques described in the book include:
 - [A survey on software smells](https://zenodo.org/record/1997449) by  Sharma & Spinellis.
 
 <!-- Keywords -->
-#refactoring #maintainability #reengineering
+#refactoring #maintainability #modularization
 <!-- /Keywords -->

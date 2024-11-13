@@ -119,5 +119,5 @@ RPyC supports multiple types of connections based on how remote procedure calls 
 - **Scalability**: While RPyC can work in distributed systems, its scalability might be limited for large-scale systems where more specialized frameworks like gRPC, Thrift, or message queues (e.g., RabbitMQ) might be a better fit.
 
 <!-- Keywords -->
-#rpyc #rpc #pythonic
+#rpyc #rpc #pythonic #python
 <!-- /Keywords -->

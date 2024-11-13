@@ -12,5 +12,5 @@ https://component.gallery/components/ "**_The Component Gallery_ is a collection
 https://medium.com/@NateBaldwin/creating-a-flexible-design-token-taxonomy-for-intuits-design-system-81c8ff55c59b
 
 <!-- Keywords -->
-#ui #interface #components #component
+#component #components #interface #design
 <!-- /Keywords -->

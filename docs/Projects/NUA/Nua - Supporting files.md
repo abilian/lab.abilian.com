@@ -8,7 +8,3 @@
 
 - https://docs.digitalocean.com/products/app-platform/reference/buildpacks/aptfile/
 - In real life: https://github.com/jointakahe/takahe/blob/main/Aptfile
-
-<!-- Keywords -->
-#aptfile #procfile #buildpacks
-<!-- /Keywords -->

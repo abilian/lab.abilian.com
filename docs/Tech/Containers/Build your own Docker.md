@@ -19,5 +19,5 @@ Also:
 - https://kevinboone.me/containerfromscratch_chroot.html?i=1
 
 <!-- Keywords -->
-#docker #_docker #containerfromscratch_chroot #containers
+#docker #containers #container
 <!-- /Keywords -->

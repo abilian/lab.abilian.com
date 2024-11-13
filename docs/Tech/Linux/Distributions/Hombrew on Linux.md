@@ -12,5 +12,5 @@ Then check:
 https://docs.brew.sh/Homebrew-on-Linux
 
 <!-- Keywords -->
-#homebrew
+#bash
 <!-- /Keywords -->

@@ -21,5 +21,5 @@ Following the success of "Business Model Generation," Osterwalder and Pigneur co
 Osterwalder's work on the [[Business Model Canvas]], Value Proposition Canvas, and related tools has had a significant impact on the fields of entrepreneurship, innovation, and strategy, inspiring countless businesses to reimagine and refine their business models for greater success.
 
 <!-- Keywords -->
-#entrepreneurs #entrepreneurship #business #businesses #entrepreneur
+#business #businesses #entrepreneur
 <!-- /Keywords -->

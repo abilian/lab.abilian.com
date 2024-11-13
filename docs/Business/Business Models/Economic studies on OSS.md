@@ -36,5 +36,5 @@ The ideas of Lerner and Tirole have been influential in shaping the understandin
 5.  **Gamalielsson and Lundell (2014):** In "Sustainability of Open Source software communities beyond a fork: How and why has the LibreOffice project evolved?", the authors examine the sustainability of open source communities and their impact on open source businesses.
 
 <!-- Keywords -->
-
+#developers #incentives #stakeholders
 <!-- /Keywords -->

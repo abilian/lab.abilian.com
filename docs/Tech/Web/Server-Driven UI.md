@@ -16,5 +16,5 @@ for developing server-driven mobile apps."
 - https://doordash.engineering/2021/08/24/improving-development-velocity-with-generic-server-driven-ui-components/
 
 <!-- Keywords -->
-#ui
+#hypermedia #react #ui
 <!-- /Keywords -->

@@ -31,5 +31,5 @@ https://typst.app/
 - Current hacks: https://github.com/tbug/notes.typ or https://github.com/saadulkh/typst-notes  (not sure if it's good)
 
 <!-- Keywords -->
-#typstyle #typesetting #templates #markup #typstmoderncv
+#markup #typesetting #pandoc #templates
 <!-- /Keywords -->

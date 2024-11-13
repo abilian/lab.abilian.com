@@ -78,5 +78,5 @@ In a one-to-one relationship, placing the foreign key in the correct table depen
 By properly analyzing the relationship and ensuring the integrity constraints are enforced, you can design efficient and logically sound relational database schemas that align with the business rules of your application.
 
 <!-- Keywords -->
-#relational
+#relational #database #sql
 <!-- /Keywords -->

@@ -77,5 +77,5 @@ Remember, there is no single perfect file management system, but two principles 
 - **Be consistent**: Choose a system that works for you and stick with it.
 
 <!-- Keywords -->
-#folders #folder #subfolders #files #workspace
+#workspace
 <!-- /Keywords -->

@@ -32,5 +32,5 @@ Using the Business Model Canvas, organizations can easily brainstorm and visuali
 - [[OSS Business Models]]
 
 <!-- Keywords -->
-#business
+#business #management #revenue #organizations
 <!-- /Keywords -->

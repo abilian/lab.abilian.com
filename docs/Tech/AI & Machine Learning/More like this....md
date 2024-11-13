@@ -55,5 +55,5 @@ similar_documents = [documents[i] for i in indices[0]]
 For alternatives to `faiss`, see [[Vector databases]].
 
 <!-- Keywords -->
-#sentence_transformers #embeddings #embedding #query_embedding
+#embeddings #embedding
 <!-- /Keywords -->

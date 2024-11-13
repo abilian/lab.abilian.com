@@ -32,5 +32,5 @@ The questions are:
 http://concepts.gilb.com/dl24
 
 <!-- Keywords -->
-#management #business #stakeholders
+#management #business #stakeholders #objectives
 <!-- /Keywords -->

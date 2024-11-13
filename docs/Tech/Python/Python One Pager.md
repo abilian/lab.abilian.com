@@ -112,5 +112,5 @@ Things to know about subclassing:
 #python #one-pager
 
 <!-- Keywords -->
-#github #pytest
+#github #pytest #git #devtools #python
 <!-- /Keywords -->

@@ -37,5 +37,5 @@ Note: this can be tested using [[Abilian DevTools]] (command `adt cruft`).
 - [ ] `runtime.txt`
 
 <!-- Keywords -->
-#git
+#git #heroku #devtools
 <!-- /Keywords -->

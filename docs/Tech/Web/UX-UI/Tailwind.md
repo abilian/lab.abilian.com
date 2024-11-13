@@ -64,5 +64,5 @@ It’s a choice that—in hindsight—I would make again.
 - https://rebassjs.org/
 
 <!-- Keywords -->
-#tailwindui #tailtailwind #tailwind #tailwindcss #tailwindawesome
+#tailwind #css
 <!-- /Keywords -->

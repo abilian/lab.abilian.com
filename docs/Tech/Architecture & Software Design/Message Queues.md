@@ -174,5 +174,5 @@ The choice of system should align with the specific needs of the application, su
 - https://stackshare.io/message-queue
 
 <!-- Keywords -->
-#message_queue #microservices #queueing #queues #middleware
+#microservices #middleware
 <!-- /Keywords -->

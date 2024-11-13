@@ -13,5 +13,5 @@ People participate in CBPP for various reasons, including extrinsic rewards such
 Benkler suggests that CBPP is not a completely new production model, as similar structures have existed historically (e.g., folk myths). However, the global networked nature of modern CBPP is unprecedented. A successful outcome of CBPP would be an ecology that fosters collaboration and symbiosis between various parties, such as Trolltech and SUN Microsystems, leading to shorter production cycles, valuable feedback from peers, and the emergence of "prosumers" who are both producers and consumers of products.
 
 <!-- Keywords -->
-#decentralization #decentralized #collaboration #cooperation #peers
+#decentralization #decentralized #collaboration
 <!-- /Keywords -->

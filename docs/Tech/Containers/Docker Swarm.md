@@ -17,5 +17,5 @@ The main features of Docker Swarm include:
 6.  **Rolling Updates:** Docker Swarm allows incremental updates to be performed across the entire fleet of services, minimizing the risk and impact of application updates.
 
 <!-- Keywords -->
-#docker #swarm
+#docker
 <!-- /Keywords -->

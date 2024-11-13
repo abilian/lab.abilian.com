@@ -41,5 +41,5 @@ Overall, Linus Torvalds' philosophy of software development emphasizes collabora
 [https://www.helsinki.fi/en/news/mathematics-and-science/how-did-30-year-old-linux-conquer-world](https://www.helsinki.fi/en/news/mathematics-and-science/how-did-30-year-old-linux-conquer-world) (U. of Helsinki)
 
 <!-- Keywords -->
-#torvalds #linus
+#linux
 <!-- /Keywords -->
