@@ -231,6 +231,44 @@ This lets you test local flakes and ensure they are working as expected before s
 | `nix build <flake>#<package>`    | Build a specific package from the flake.                     |
 | `nix flake update`               | Update the lock file to use the latest versions of inputs.    |
 
+### In a directory with a `flake.nix` file
+
+ - **Run the Project**:
+   ```bash
+   nix run .#<target>
+   ```
+   - Replace `<target>` with the name of the application or package as defined in the `flake.nix`. The `.` represents the current directory, which assumes you’re in the project directory. Alternatively, you can use the repository URL.
+
+ - **Open a Development Shell**:
+   ```bash
+   nix develop
+   ```
+   - This will open a shell with all dependencies specified in `flake.nix`, allowing you to work in a reproducible development environment.
+
+ - **Build the Project**:
+   ```bash
+   nix build .#<target>
+   ```
+   - This command builds the specified target in the flake file, such as a package or app, and outputs it in a standardized path (usually in `./result`).
+
+ - **Update Dependencies**:
+   ```bash
+   nix flake update
+   ```
+   - This updates the flake’s dependencies, ensuring that all referenced packages and inputs are up-to-date. Nix will lock these dependencies in a `flake.lock` file, making builds more reproducible.
+
+ - **Run Tests**:
+   ```bash
+   nix flake check
+   ```
+   - Executes tests defined in `flake.nix`, providing an easy way to validate the project.
+
+#### Examples of Common Workflows
+
+- If the repository has a `flake.nix` file that defines a development environment, run `nix develop` to set up a shell with the necessary tools for coding or compiling the project.
+- If there’s an application or script to run, use `nix run` with the appropriate target, which eliminates the need to install dependencies globally.
+- For CI/CD, you can use `nix flake check` as part of a continuous integration pipeline to ensure the flake is building and functioning as expected.
+
 ## Summary
 
 Nix Flakes introduce a more structured and user-friendly approach to managing Nix projects by providing reproducibility, dependency pinning, and ease of sharing. They help simplify complex workflows, making it easier to manage environments, packages, and deployments across different systems while ensuring consistency and reliability. Using a Nix Flake allows you to manage dependencies, build environments, and share configurations in a declarative and reproducible way. Whether you're running pre-built applications or setting up a consistent development environment, flakes help streamline and standardize your workflow, ensuring consistency across different systems.
