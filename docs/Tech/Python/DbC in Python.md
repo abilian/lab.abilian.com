@@ -35,8 +35,8 @@ While assertions are helpful, they can be turned off in production if Python run
 
 ### Type Hints and Annotations:
 
-- Python's type hints, introduced in PEP 484, enhance DbC by enabling parameter and return type constraints, though they are not enforced at runtime. Type hints make contracts clearer to the developer and tools like `mypy` can statically verify type correctness.
-   
+- Python's type hints, introduced in PEP 484, enhance DbC by enabling parameter and return type constraints, though they are not enforced at runtime (unless you are using something like [typeguard](https://github.com/agronholm/typeguard) or [beartype](https://github.com/beartype/beartype) - which are cool BTW). Type hints make contracts clearer to the developer and tools like `mypy` and `pyright` can statically verify type correctness.
+
 ```python
 def add(x: int, y: int) -> int:
    return x + y
@@ -71,6 +71,12 @@ class Account:
    def __post_init__(self):
        assert self.balance >= 0, "Initial balance cannot be negative"
    ```
+
+## Relationship with type hints
+
+Contracts and type hints serve complementary roles in enforcing code correctness: type hints specify data types and enable static checking through tools like `mypy`, while contracts add behavioral constraints, usually runtime-enforced.
+
+While type hints improve code clarity and prevent certain type errors before execution, they cannot, in practice, enforce value-specific conditions (e.g., requiring positive integers). Contracts fill this gap by providing preconditions, postconditions, and invariants to ensure logical consistency beyond what types alone can validate.
 
 ## Advantages and Limitations of DbC in Python
 
@@ -110,3 +116,12 @@ class BankAccount:
 In this code:
 - Preconditions ensure a positive `amount` and sufficient balance for withdrawal.
 - A postcondition ensures the balance remains non-negative after the operation.
+
+## References
+
+- [deal](https://github.com/life4/deal),
+- [icontract](https://pypi.org/project/icontract/),
+- [PyContracts](https://pypi.org/project/PyContracts/),
+- [dpcontracts](https://pypi.org/project/dpcontracts/)
+- Language support for design by contracts was proposed in [PEP-316](https://peps.python.org/pep-0316/) in 2003, but is deferred.
+- [Design by Contract in Python: Present and Future](https://indico.cern.ch/event/44/contributions/1942565/attachments/940379/1333607/presentation.pdf) - This presentation from 2006 concludes "(We) need a tool to control contract checking at package, module, class, and method level without editing affected module"

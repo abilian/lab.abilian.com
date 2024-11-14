@@ -16,9 +16,10 @@ dependencies = [
     "mkdocs-newsletter ~= 1.0.1",
     "arrow ~= 1.2.3",
     "snoop ~= 0.6",
-    "nltk ~= 3.8.1",
     "attrs~=24.0",
     "devtools~=0.12",
+    # NLP
+    "nltk ~= 3.8.1",
     "keybert>=0.8.5",
     "sentence-transformers>=3.3.0",
 ]

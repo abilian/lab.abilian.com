@@ -351,7 +351,7 @@ Hoffman’s book acknowledges the significance of the original twelve factors bu
 
 ## Seven Additional Factors for Production-Ready Applications
 
-In 2019, Shikha Srivastava, an IBM engineer, wrote a blog post "While the 12-factor application guidelines are spot-on, there are another 7 factors are equally essential for a production environment".
+In 2019, Shikha Srivastava, an IBM engineer, wrote in a [blog post](https://www.ibm.com/blog/7-missing-factors-from-12-factor-applications/) "While the 12-factor application guidelines are spot-on, there are another 7 factors are equally essential for a production environment".
 
 Here are here additional 7 factors:
 
