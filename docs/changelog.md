@@ -4,6 +4,10 @@
 
 - **[DbC in Python](/Tech/Python/DbC in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-14*)
 
+- **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-14*)
+
+- **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-14*)
+
 - **[Menus](/Tech/Web/UX-UI/Menus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-14*)
 
 - **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-14*)
@@ -162,8 +166,6 @@
 
 - **[Systemd](/Tech/Linux/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-13*)
 
-- **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-13*)
-
 - **[Nix Install](/Tech/Linux/Packaging/Nix/Nix Install/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
 - **[Anatomy of a NixOS Service Description](/Tech/Linux/Packaging/Nix/Anatomy of a NixOS Service Description/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
@@ -221,8 +223,6 @@
 - **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
 - **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
-
-- **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
 - **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 

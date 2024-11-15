@@ -57,7 +57,7 @@ def sqrt(x: float) -> float:
 
 These libraries throw custom exceptions if conditions are violated, making it easier to track and handle contract violations in a structured way.
 
-### `__post_init__` in Data Classes:
+### `post_init` in Data Classes:
 
 - Python’s data classes provide a `__post_init__` method, which can be used to enforce invariants and preconditions immediately after object initialization.
 

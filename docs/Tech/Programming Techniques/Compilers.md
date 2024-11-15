@@ -3,7 +3,8 @@
 - MIR: <https://github.com/vnmakarov/mir>
 - LLVM:
     - <https://github.com/numba/llvmlite> Python wrapper used by Numba
-- PPCI: <https://pypi.org/project/ppci/>
+    - See numpile (below)
+- PPCI: <https://pypi.org/project/ppci/> (Dead)
 - QBE: https://c9x.me/compile/
 
 ## Code generation
@@ -20,6 +21,7 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
 ### Basic
 
 - https://chocopy.org/ : ChocoPy is a programming language designed for classroom use in undergraduate compilers courses. ChocoPy is a restricted subset of Python 3, which can easily be compiled to a target such as RISC-V. Tooling is in Java.
+- https://github.com/windelbouwman/sauce-os
 
 ### Advanced
 

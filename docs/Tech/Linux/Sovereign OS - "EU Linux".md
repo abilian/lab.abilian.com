@@ -46,7 +46,7 @@ One of the most critical aspects of public sector digital infrastructure is secu
 
 ### Interoperability and Flexibility
 
-Linux excels in supporting **open standards**, which is essential for public administration systems that must interact with a wide variety of technologies and services. Its support for virtualization and diverse network services enables seamless integration into existing IT landscapes, making it easier for different government agencies to communicate and share resources securely. This interoperability fosters a cohesive digital ecosystem within the EU, enhancing the efficiency and effectiveness of cross-border collaborations.
+Linux and open source software excel in supporting **open standards**, which is essential for public administration systems that must interact with a wide variety of technologies and services. Its support for virtualization and diverse network services enables seamless integration into existing IT landscapes, making it easier for different government agencies to communicate and share resources securely. This interoperability fosters a cohesive digital ecosystem within the EU, enhancing the efficiency and effectiveness of cross-border collaborations.
 
 #### References
 
@@ -141,6 +141,22 @@ Several initiatives have pursued objectives similar to the proposed "EU Linux," 
 5. **[Guadalinex](https://en.wikipedia.org/wiki/Guadalinex) (Spain)**: Developed by the regional government of Andalusia, Guadalinex was a Linux distribution intended for use in public schools and government offices to reduce costs and promote open-source software. It has been used extensively in educational institutions in Andalusia.
 
 1. **[GendBuntu](https://en.wikipedia.org/wiki/GendBuntu) (France)**: GendBuntu is a version of Ubuntu adapted for use by France's National Gendarmerie. The Gendarmerie has pioneered the use of open-source software on servers and personal computers since 2005 when it adopted the OpenOffice.org office suite, making the OpenDocument .odf format its nationwide standard. More details in this [presentation by Colonel Xavier Guimard: *Logiciels libres : Retour d'expérience sur une migration à grande échelle dans la gendarmerie nationale française*](https://libricks.fr/support/experience_gendarmerie-xavier_guimard-20140917.pdf)  (2014) et this [interview of Lieutenant-Colonel Stéphane Dumond by l'APRIL](https://april.org/libre-a-vous-radio-cause-commune-transcription-de-l-emission-du-3-septembre-2019) (2019).
+
+## Annex: Additional References
+
+- Germany’s **Sovereign Tech Agency** (formerly Sovereign Tech Fund) already funds critical components of the Linux desktop, such as [GNOME](https://www.sovereigntechfund.de/tech/gnome).
+- France is pursuing a similar dynamic, with initiatives led by **DINUM**, as seen in [their efforts to enhance digital sovereignty](https://www.numerique.gouv.fr/actualites/souverainete-numerique/) and the [France-Germany joint declaration](https://www.numerique.gouv.fr/espace-presse/la-france-et-lallemagne-renforcent-ensemble-la-souverainete-numerique-de-ladministration-publique-en-signant-une-declaration-dintention-commune/).
+- For countries with strained relations with the USA, this orientation is even stronger, particularly concerning **operating systems for workstations** (e.g., China's efforts with [Linux Deepin](https://www.theregister.com/2024/08/23/deepin_23/)). Similar tensions could rise in Europe in the future, depending on geopolitical developments.
+- Functionally and ergonomically, **Linux desktops are on par with Windows** and have often led innovation (e.g., virtual desktops introduced in GNOME in 1999, only added to Windows with version 10).
+- Linux adoption is **growing steadily** worldwide, albeit slowly. For certain profiles, such as developers and data scientists, adoption is already **significant** ([JetBrains survey](https://www.jetbrains.com/lp/devecosystem-2023/development/#os_devenv), [Stack Overflow survey](https://survey.stackoverflow.co/2024/technology/#1-operating-system)).
+- **Low adoption of Linux** is not due to technical shortcomings but to:
+  - **General consumers**: The illegal bundling of hardware and software (e.g., preinstalled Windows on most PCs). The **Digital Markets Act (DMA)** may change this dynamic.
+  - **Large organizations**: Software lock-in caused by applications developed exclusively for Windows. However, the rise of **web-based applications** has significantly reduced this issue.
+  - **Hardware**: There is a shift toward better Linux compatibility, even from historically resistant manufacturers like Nvidia.
+- The hardware requirements of **Windows 11**, such as mandatory **TPM 2.0**, will lead to artificial obsolescence. In contrast, Linux supports TPM 2.0 but leaves its use as an option for the user.
+- **Linux distribution upgrades** are less effort-intensive than those of Windows, thanks to Linux's rolling update systems. This has been validated in large-scale deployments like the French Gendarmerie. While Microsoft is moving toward a similar model, it has not yet reached this level of efficiency ([source](https://www.theverge.com/2015/5/7/8568473/windows-10-last-version-of-windows)).
+- **Adopting a Linux distribution does not lock organizations to a specific vendor**, as many cross-distribution tools exist. Migrating between Linux distributions is technically simpler than transitioning from Windows to any other system.
+- Public and private organizations are increasingly **embracing these opportunities**, building on lessons from past failures and successes ([German state adopting Linux](https://arstechnica.com/information-technology/2024/04/german-state-gov-ditching-windows-for-linux-30k-workers-migrating/), [37signals moving developers to Linux](https://world.hey.com/dhh/linux-as-the-new-developer-default-at-37signals-ef0823b7)).
 
 ## Annex: Sketch of a Plan
 
