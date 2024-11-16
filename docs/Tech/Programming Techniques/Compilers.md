@@ -4,8 +4,10 @@
 - LLVM:
     - <https://github.com/numba/llvmlite> Python wrapper used by Numba
     - See numpile (below)
+    - [Mapping High Level Constructs to LLVM IR](https://mapping-high-level-constructs-to-llvm-ir.readthedocs.io/en/latest/index.html)
 - PPCI: <https://pypi.org/project/ppci/> (Dead)
 - QBE: https://c9x.me/compile/
+    - Translates programs written in QBE IR language to ASM (ia64, arm64 or rv64)
 
 ## Code generation
 
