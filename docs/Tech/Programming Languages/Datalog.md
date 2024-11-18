@@ -26,6 +26,8 @@
 
 ## See also
 
+- https://souffle-lang.github.io/
+    - Rapid-prototyping for _your analysis problems_ with logic; enabling deep design-space explorations; designed for large-scale static analysis; e.g., points-to analysis for Java, taint-analysis, security checks.
 - https://logica.dev/
 - Yedalog
 

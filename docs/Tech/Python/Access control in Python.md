@@ -15,6 +15,10 @@ https://en.wikipedia.org/wiki/Abbreviated_Language_for_Authorization
 https://www.researchgate.net/publication/339352934_PEP4Django_-_A_Policy_Enforcement_Point_for_Python_Web_Applications
 https://www.researchgate.net/publication/315638965_A_Systematic_Approach_to_Implementing_ABAC
 
+## See also
+
+[[Zanzibar]]
+
 ## Projects
 ### Vakt
 

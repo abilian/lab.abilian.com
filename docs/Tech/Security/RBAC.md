@@ -18,6 +18,8 @@ RBAC is widely used in enterprise organizations, especially in large scale syste
 
 - https://en.wikipedia.org/wiki/Role-based_access_control
 - https://blog.symops.com/2022/09/07/evolution-access-control-python/
+- [[Zanzibar]]
+- [[Access control in Python]]
 
 ## See also
 
