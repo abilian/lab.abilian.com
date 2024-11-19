@@ -23,30 +23,30 @@ As I can only imagine that such work has been produced during (and after?) the p
 Regards,
 
 
-il y a je pense un élément du   
-projet Fasten qui concerne Python qui peut être réutilisé de manière   
-autonome : c'est le générateur de graphe d'appel statique qui est   
-disponible dans le dossier "cg-producer" et qui se trouve ici :   
-[https://github.com/fasten-project/pypi-tools](https://github.com/fasten-project/pypi-tools) (mais j'ai l'impression   
-que le développement est plutôt actif sur   
-[https://github.com/vitsalis/PyCG](https://github.com/vitsalis/PyCG), à vérifier).  
+il y a je pense un élément du 
+projet Fasten qui concerne Python qui peut être réutilisé de manière 
+autonome : c'est le générateur de graphe d'appel statique qui est 
+disponible dans le dossier "cg-producer" et qui se trouve ici : 
+[https://github.com/fasten-project/pypi-tools](https://github.com/fasten-project/pypi-tools) (mais j'ai l'impression 
+que le développement est plutôt actif sur 
+[https://github.com/vitsalis/PyCG](https://github.com/vitsalis/PyCG), à vérifier).
 
 (Les deux projets m'ont l'air d'être structurés très différemment, j'ai du mal à faire le lien.)
-  
-Ce composant est seulement une brique de Fasten qui dans l'idée :  
-- scan tout le contenu de PyPI,  
-- génère des graphs d'appel pour tout ce qu'il trouve,  
-- fait le lien entre les différents graphs d'appels générés,  
-- associe des métadonnées (CVE, license, qualité,…) aux nœuds (qui   
-représente des fonctions) de ces graphs  
-- permet d'exploiter les infos collectées pour déterminer s’il existe   
-un chemin entre le code d'un projet quelconque (ou le code d'une lib   
-publiée sur PyPI) et une fonction identifiée comme vulnérable (et   
-également d'autre scénarios liés aux licences, qualité,…)  
-  
-Le déploiement de l'ensemble n'est pas trivial (cf   
-[https://github.com/fasten-project/fasten/wiki/Deployment](https://github.com/fasten-project/fasten/wiki/Deployment)) et comme l'a   
-indiqué Catherine sur Python ça n'a pas vraiment atteint l'objectif   
+
+Ce composant est seulement une brique de Fasten qui dans l'idée :
+- scan tout le contenu de PyPI,
+- génère des graphs d'appel pour tout ce qu'il trouve,
+- fait le lien entre les différents graphs d'appels générés,
+- associe des métadonnées (CVE, license, qualité,…) aux nœuds (qui 
+représente des fonctions) de ces graphs
+- permet d'exploiter les infos collectées pour déterminer s’il existe 
+un chemin entre le code d'un projet quelconque (ou le code d'une lib 
+publiée sur PyPI) et une fonction identifiée comme vulnérable (et 
+également d'autre scénarios liés aux licences, qualité,…)
+
+Le déploiement de l'ensemble n'est pas trivial (cf 
+[https://github.com/fasten-project/fasten/wiki/Deployment](https://github.com/fasten-project/fasten/wiki/Deployment)) et comme l'a 
+indiqué Catherine sur Python ça n'a pas vraiment atteint l'objectif 
 initialement fixé.
 
 
