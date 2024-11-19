@@ -2,25 +2,35 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-18*)
+- **[Zero Trust Architecture](/Tech/Security/Zero Trust Architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
-- **[Parsing](/Tech/Python/Useful Libraries/Parsing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-16*)
+- **[Zanzibar](/Tech/Security/Zanzibar/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
-- **[Access control in Python](/Tech/Python/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-16*)
+- **[Trust, Transparency, Resilience and Innovation in the Context of Cloud Security](/Tech/Security/Trust, Transparency, Resilience and Innovation in the Context of Cloud Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
+
+- **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
+
+- **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-18*)
+
+- **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-18*)
+
+- **[RAG](/Tech/AI & Machine Learning/RAG/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-18*)
+
+- **[LLM, AI and RAG stuff](/Tech/AI & Machine Learning/LLM, AI and RAG stuff/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-18*)
+
+- **[Public Benefit Companies](/Business/Legal/Public Benefit Companies/)** in <small>[Business](/Business/00 Business/) / [Legal](/Business/Legal/Public Benefit Companies/)</small> (*2024-11-18*)
+
+- **[Parsing](/Tech/Python/Useful Libraries/Parsing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-16*)
 
 - **[Compilers](/Tech/Programming Techniques/Compilers/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-16*)
 
-- **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-16*)
-
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-16*)
 
-- **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/Flask/)</small> (*2024-11-15*)
+- **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-15*)
 
-- **[Joblib caching](/Tech/Python/Useful Libraries/Joblib caching/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-15*)
+- **[Joblib caching](/Tech/Python/Useful Libraries/Joblib caching/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-15*)
 
-- **[Hypertag](/Tech/Python/Useful Libraries/Hypertag/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-15*)
-
-- **[DbC in Python](/Tech/Python/DbC in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-15*)
+- **[Hypertag](/Tech/Python/Useful Libraries/Hypertag/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-15*)
 
 - **[Rust](/Tech/Programming Languages/Rust/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-15*)
 
@@ -28,7 +38,7 @@
 
 - **[Menus](/Tech/Web/UX-UI/Menus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-14*)
 
-- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-14*)
+- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-14*)
 
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-13*)
 
@@ -72,8 +82,6 @@
 
 - **[Extreme Programming Explained - Embrace Change (1999)](/Tech/Software Engineering/Books/Extreme Programming Explained - Embrace Change (1999)/)** in <small>[Tech](/Tech/00 Technology/) / [Software Engineering](/Tech/Software Engineering/Architectural Decision Records/) / [Books](/Tech/Software Engineering/Books/A Philosophy of Software Design (2018)/)</small> (*2024-11-13*)
 
-- **[Zero Trust Architecture](/Tech/Security/Zero Trust Architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-13*)
-
 - **[Wapiti](/Tech/Security/Wapiti/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-13*)
 
 - **[Various insights](/Tech/Security/Various insights/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-13*)
@@ -82,61 +90,25 @@
 
 - **[SCAP](/Tech/Security/SCAP/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-13*)
 
-- **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-13*)
-
 - **[OIDC - OpenID Connect](/Tech/Security/OIDC - OpenID Connect/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-13*)
 
 - **[Vector databases](/Tech/Search/Vector databases/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-11-13*)
 
-- **[uv](/Tech/Python/uv/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[Flask](/Tech/Python/Web Frameworks/Flask/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-13*)
 
-- **[Flask](/Tech/Python/Web Frameworks/Flask/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/Flask/)</small> (*2024-11-13*)
+- **[Python subprocess library](/Tech/Python/Useful Libraries/Python subprocess library/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Python subprocess library](/Tech/Python/Useful Libraries/Python subprocess library/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Loguru](/Tech/Python/Useful Libraries/Loguru/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Furl and Yarl](/Tech/Python/Useful Libraries/Furl and Yarl/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Dramatiq](/Tech/Python/Useful Libraries/Dramatiq/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Dramatiq](/Tech/Python/Useful Libraries/Dramatiq/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Python Notes](/Tech/Python/Python Notes/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[Typechecking](/Tech/Python/Typechecking/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[Project templates](/Tech/Python/Project templates/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[The GIL](/Tech/Python/The GIL/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Remoting frameworks in Python](/Tech/Python/Remoting frameworks in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Refactor Python](/Tech/Python/Refactor Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python ↔︎ JavaScript Bridges](/Tech/Python/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python Notes](/Tech/Python/Python Notes/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python Interfaces & Friends](/Tech/Python/Python Interfaces & Friends/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python & WASM](/Tech/Python/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python & SSH](/Tech/Python/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Project templates](/Tech/Python/Project templates/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[New Python Web Frameworks](/Tech/Python/New Python Web Frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[LLM in Python](/Tech/Python/LLM in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Idées - Python Quality Stuff](/Tech/Python/Idées - Python Quality Stuff/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[GoDaddy & Thespian](/Tech/Python/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[FASTEN](/Tech/Python/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Complexité de Python](/Tech/Python/Complexité de Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Compiling Python](/Tech/Python/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-13*)
-
-- **[BlackSheep](/Tech/Python/BlackSheep/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-13*)
 
 - **[EPUB](/Tech/Publishing tools/EPUB/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-11-13*)
 
@@ -178,21 +150,21 @@
 
 - **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-11-13*)
 
-- **[Systemd](/Tech/Linux/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-13*)
+- **[Systemd](/Tech/Linux/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-13*)
 
-- **[Nix Install](/Tech/Linux/Packaging/Nix/Nix Install/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[Nix Install](/Tech/Linux/Packaging/Nix/Nix Install/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Anatomy of a NixOS Service Description](/Tech/Linux/Packaging/Nix/Anatomy of a NixOS Service Description/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[Anatomy of a NixOS Service Description](/Tech/Linux/Packaging/Nix/Anatomy of a NixOS Service Description/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Anatomy of a Nix Package](/Tech/Linux/Packaging/Nix/Anatomy of a Nix Package/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[Anatomy of a Nix Package](/Tech/Linux/Packaging/Nix/Anatomy of a Nix Package/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
+- **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
 
-- **[Debian Packaging](/Tech/Linux/Packaging/Debian Packaging/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
+- **[Debian Packaging](/Tech/Linux/Packaging/Debian Packaging/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
 
-- **[Linux Security](/Tech/Linux/Linux Security/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-13*)
+- **[Linux Security](/Tech/Linux/Linux Security/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-13*)
 
 - **[RPyC](/Tech/IPC/RPyC/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-11-13*)
 
@@ -486,67 +458,27 @@
 
 - **[Comparison of open source search engines](/Tech/Search/Comparison of open source search engines/)** in <small>[Tech](/Tech/00 Technology/) / [Search](/Tech/Search/Comparison of open source search engines/)</small> (*2024-11-13*)
 
-- **[Web and text mining](/Tech/Python/Web and text mining/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Various interesting tech (2015)](/Tech/Python/Various interesting tech (2015)/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[Boltons](/Tech/Python/Useful Libraries/Boltons/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Python - Time series](/Tech/Python/Useful Libraries/Python - Time series/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Attrs](/Tech/Python/Useful Libraries/Attrs/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Boltons](/Tech/Python/Useful Libraries/Boltons/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-13*)
 
-- **[Attrs](/Tech/Python/Useful Libraries/Attrs/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Python project checklist](/Tech/Python/Python project checklist/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[00 Useful librairies](/Tech/Python/Useful Libraries/00 Useful librairies/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/00 Useful librairies/)</small> (*2024-11-13*)
+- **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[Testing](/Tech/Python/Testing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[Invoke](/Tech/Python/Task runners/Invoke/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2024-11-13*)
+- **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[Doit](/Tech/Python/Task runners/Doit/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2024-11-13*)
+- **[Cosmopolitan Python](/Tech/Python/Cosmopolitan Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[00 Task Runners](/Tech/Python/Task runners/00 Task Runners/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [Task runners](/Tech/Python/Task runners/00 Task Runners/)</small> (*2024-11-13*)
+- **[Argparse](/Tech/Python/CLI/Argparse/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-13*)
 
-- **[Shell in Python](/Tech/Python/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[RPC in Python](/Tech/Python/RPC in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python project checklist](/Tech/Python/Python project checklist/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python packaging](/Tech/Python/Python packaging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python debug tools](/Tech/Python/Python debug tools/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python One Pager](/Tech/Python/Python One Pager/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python - Registry](/Tech/Python/Python - Registry/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Python & Security](/Tech/Python/Python & Security/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Poetry](/Tech/Python/Poetry/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Micropython](/Tech/Python/Micropython/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Marketing Python](/Tech/Python/Marketing Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Logging](/Tech/Python/Logging/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Job queues](/Tech/Python/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Cosmopolitan Python](/Tech/Python/Cosmopolitan Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Concurrent programming](/Tech/Python/Concurrent programming/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Components and Services](/Tech/Python/Components and Services/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Component vs. plugin architectures](/Tech/Python/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[Argparse](/Tech/Python/CLI/Argparse/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-13*)
-
-- **[Actor Model](/Tech/Python/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
-
-- **[(Pretty) tables in Python](/Tech/Python/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-13*)
+- **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
 - **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-11-13*)
 
@@ -574,8 +506,6 @@
 
 - **[Zig](/Tech/Programming Languages/Zig/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-13*)
 
-- **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-13*)
-
 - **[CLIPS](/Tech/Programming Languages/CLIPS/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-13*)
 
 - **[UML](/Tech/Modeling/UML/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-11-13*)
@@ -596,21 +526,21 @@
 
 - **[Databases](/Tech/Misc/Databases/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-11-13*)
 
-- **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[NixOS for miminal images](/Tech/Linux/Packaging/Nix/NixOS for miminal images/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[NixOS for miminal images](/Tech/Linux/Packaging/Nix/NixOS for miminal images/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Nix quotes](/Tech/Linux/Packaging/Nix/Nix quotes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[Nix quotes](/Tech/Linux/Packaging/Nix/Nix quotes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Devbox](/Tech/Linux/Packaging/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
+- **[Devbox](/Tech/Linux/Packaging/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Guix](/Tech/Linux/Packaging/Guix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
+- **[Guix](/Tech/Linux/Packaging/Guix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
 
-- **[Homelab](/Tech/Linux/Homelab/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/)</small> (*2024-11-13*)
+- **[Homelab](/Tech/Linux/Homelab/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-13*)
 
-- **[KISS Linux](/Tech/Linux/Distributions/KISS Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-11-13*)
+- **[KISS Linux](/Tech/Linux/Distributions/KISS Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-11-13*)
 
-- **[Hombrew on Linux](/Tech/Linux/Distributions/Hombrew on Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/Homelab/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-11-13*)
+- **[Hombrew on Linux](/Tech/Linux/Distributions/Hombrew on Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-11-13*)
 
 - **[Varlink](/Tech/IPC/Varlink/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-11-13*)
 
@@ -704,8 +634,6 @@
 
 - **[Machine Learning Platforms](/Tech/AI & Machine Learning/Machine Learning Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
-- **[LLM, AI and RAG stuff](/Tech/AI & Machine Learning/LLM, AI and RAG stuff/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
-
 - **[LLM - Lessons learned](/Tech/AI & Machine Learning/LLM - Lessons learned/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
 - **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
@@ -782,11 +710,7 @@
 
 - **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Fish/)</small> (*2024-11-12*)
 
-- **[Prefect](/Tech/Python/Prefect/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-12*)
-
-- **[Better Python](/Tech/Python/Better Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-12*)
-
-- **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/(Pretty) tables in Python/)</small> (*2024-11-12*)
+- **[Apache Airflow](/Tech/Python/Apache Airflow/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-12*)
 
 - **[Some useful schemas](/Tech/Modeling/Some useful schemas/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-11-12*)
 

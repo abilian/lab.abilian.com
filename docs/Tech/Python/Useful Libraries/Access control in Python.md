@@ -97,7 +97,6 @@ policyset = PolicySet("Root", FirstApplicable, [
 
 Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access control, but they serve different purposes, follow distinct paradigms, and are optimized for different use cases. Below is a detailed comparison:
 
----
 
 ### Core Philosophy
 
@@ -108,7 +107,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Flexibility**       | Simpler structure with limited rule complexity.                                              | Highly customizable and supports complex, dynamic policies.                              |
 | **Design Philosophy** | Designed for scenarios requiring hierarchical privilege relationships (e.g., guardianship). | General-purpose tool for building dynamic access control systems.                        |
 
----
 
 ### Architecture and Workflow
 
@@ -119,7 +117,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Target Resources**     | Focused on managing privileges for a specific set of use cases.                                  | Supports general-purpose resource, subject, action, and context matching.                |
 | **Execution**            | Rules are evaluated dynamically using principal objects.                                         | Inquiry-based evaluation against a set of policies stored in a backend.                  |
 
----
 
 ### Policy Representation
 
@@ -130,7 +127,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Customization**        | Limited to predefined roles and conditions.                                                     | Extensible: supports user-defined rules and dynamic attributes.                          |
 | **Effect**               | Implicitly grants or denies privileges based on conditions.                                      | Explicitly specifies `ALLOW_ACCESS` or `DENY_ACCESS` as policy outcomes.                 |
 
----
 
 ### Use Cases
 
@@ -140,7 +136,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Example Scenarios**    | - Assigning permissions to guardians based on familial relationships.<br>- Conditional access requiring multiple approvals. | - Controlling API access in microservices.<br>- Implementing dynamic rules for SaaS platforms.<br>- Securing cloud resources (IAM-like). |
 | **Domain Focus**         | Narrow focus on privilege management in specific domains.                                       | General-purpose; applicable to any domain needing dynamic access control.                |
 
----
 
 ### Rules and Attributes
 
@@ -150,7 +145,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Contextual Rules**     | Limited to predefined conditions (e.g., role counts or combinations).                           | Fully supports context (e.g., IP restrictions, referrer URLs).                           |
 | **Custom Rules**         | Not supported; relies on predefined patterns.                                                   | Allows custom rule definitions and extensions.                                           |
 
----
 
 ### Storage and Integration
 
@@ -160,7 +154,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Integration**          | Tight coupling with SGL API; limited external compatibility.                                    | Integrates with existing systems via inquiry objects; flexible API.                      |
 | **Caching**              | Not supported.                                                                                  | Supports caching at multiple layers (policies, decisions, storage).                      |
 
----
 
 ### Performance and Scalability
 
@@ -169,7 +162,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Performance**          | Optimized for small-scale, single-purpose use cases.                                            | Designed for scalability; performance varies by storage and policy complexity.           |
 | **Scalability**          | Limited; rules and evaluations are relatively static.                                           | Scalable with support for large policy sets, caching, and optimized storage.             |
 
----
 
 ### Strengths and Limitations
 
@@ -178,7 +170,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Strengths**            | - Simplicity.<br>- Easy to use and configure.<br>- Focused on domain-specific scenarios.         | - Flexibility.<br>- Extensible and customizable.<br>- Broad use-case applicability.       |
 | **Limitations**          | - Limited to predefined privilege-based rules.<br>- Not suitable for large-scale or dynamic systems. | - More complex setup.<br>- May require significant effort for highly specific use cases. |
 
----
 
 ### Choosing Between SGL and Vakt
 
@@ -190,7 +181,6 @@ Both **SGL (Simple Grant Language)** and **Vakt** are tools for managing access 
 | **Customization**                    | When predefined rules cover all requirements.            | When custom attributes and extensibility are needed. |
 | **Integration with Existing Systems**| Limited; best for standalone privilege management.       | High; can integrate into existing ABAC workflows.    |
 
----
 
 ### Conclusion
 

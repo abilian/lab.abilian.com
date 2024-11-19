@@ -2,7 +2,7 @@ Component and plugin architectures are closely related concepts in software desi
 
 ## Component Architectures
 
-A component architecture is a design paradigm where the software is built from separate, interchangeable, and self-contained pieces called "components". These components are modular units with well-defined [[Draft - Interfaces & Match statement|interfaces]] that specify the services they provide and the requirements they need from other components. The Zope Component Architecture (ZCA) is an example where components and their interactions are defined through interfaces.
+A component architecture is a design paradigm where the software is built from separate, interchangeable, and self-contained pieces called "components". These components are modular units with well-defined [[Interfaces & Match statement|interfaces]] that specify the services they provide and the requirements they need from other components. The Zope Component Architecture (ZCA) is an example where components and their interactions are defined through interfaces.
 
 #### Characteristics of Component Architectures
 

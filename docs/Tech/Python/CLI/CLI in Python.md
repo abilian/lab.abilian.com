@@ -61,7 +61,6 @@ Existing frameworks:
 - Typer (= click extension, driven by type annotations)
 - Cleo: https://github.com/sdispater/cleo
 
----
 
 More
 
