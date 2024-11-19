@@ -94,7 +94,24 @@ Starlette supports WebSockets and Server-Sent Events (SSE) out of the box, enabl
 
 Starlette is a modern, efficient choice for Python developers building asynchronous web applications and APIs. Its lightweight, modular design provides a strong foundation for scalable applications while remaining simple enough for rapid prototyping and experimentation. Whether you're building a real-time application, a microservice, or a server-side rendered web app, Starlette offers the performance and flexibility to meet your needs.
 
+## References / links
+
+### Frameworks based on Starlette
+
+- https://github.com/adriangb/xpresso = Xpresso is an ASGI web framework built on top of [Starlette](https://github.com/encode/starlette), [Pydantic](https://github.com/samuelcolvin/pydantic/) and [di](https://github.com/adriangb/di), with heavy inspiration from [FastAPI](https://github.com/adriangb/xpresso). (NB: Dead project)
+- https://github.com/posit-dev/py-shiny = Shiny for Python is the best way to build fast, beautiful web applications in Python. Built on Starlette.
+
+### Extensions
+
+- https://github.com/florimondmanca/asgi-htmx/ - HTMX integration for ASGI applications (not specific to Starlette nbut useful)
+
+### Templates / starter apps
+
+- https://github.com/encode/starlette-example (old)
+
 ## Structuring Starlette Projects
+
+(Adpated from: https://florimond.dev/en/posts/2020/06/structuring-starlette-projects)
 
 Starlette’s lightweight, modular design is ideal for building fast, asynchronous web applications. However, its flexibility often leaves developers uncertain about the best way to structure projects. This guide outlines a practical, scalable approach to organizing Starlette applications while addressing common challenges like circular dependencies and ensuring maintainability.
 
