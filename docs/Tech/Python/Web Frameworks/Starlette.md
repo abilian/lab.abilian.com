@@ -104,14 +104,16 @@ Starlette is a modern, efficient choice for Python developers building asynchron
 ### Extensions
 
 - https://github.com/florimondmanca/asgi-htmx/ - HTMX integration for ASGI applications (not specific to Starlette nbut useful)
+- https://github.com/MrPigss/DecoRouter = Flask-like router (via decorators)
 
 ### Templates / starter apps
 
 - https://github.com/encode/starlette-example (old)
 
+
 ## Structuring Starlette Projects
 
-(Adpated from: https://florimond.dev/en/posts/2020/06/structuring-starlette-projects)
+(Adapted from: https://florimond.dev/en/posts/2020/06/structuring-starlette-projects, which was down at the time).
 
 Starlette’s lightweight, modular design is ideal for building fast, asynchronous web applications. However, its flexibility often leaves developers uncertain about the best way to structure projects. This guide outlines a practical, scalable approach to organizing Starlette applications while addressing common challenges like circular dependencies and ensuring maintainability.
 
