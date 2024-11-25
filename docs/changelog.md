@@ -2,7 +2,43 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-25*)
+- **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-25*)
+
+- **[Web Design](/Tech/Web/UX-UI/Web Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
+
+- **[Menus](/Tech/Web/UX-UI/Menus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
+
+- **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
+
+- **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
+
+- **[Common Web Design Mistakes](/Tech/Web/UX-UI/Common Web Design Mistakes/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
+
+- **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2024-11-25*)
+
+- **[Zero Trust Architecture](/Tech/Security/Zero Trust Architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-25*)
+
+- **[Trust, Transparency, Resilience and Innovation in the Context of Cloud Security](/Tech/Security/Trust, Transparency, Resilience and Innovation in the Context of Cloud Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-25*)
+
+- **[Optimization](/Tech/Programming Techniques/Optimization/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-25*)
+
+- **[Macro expanders](/Tech/Programming Techniques/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-25*)
+
+- **[Configuration languages](/Tech/Programming Techniques/Configuration languages/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-25*)
+
+- **[Guix](/Tech/Linux/Packaging/Guix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-25*)
+
+- **[Power consumption (Linux servers)](/Tech/Green IT/Power consumption (Linux servers)/)** in <small>[Tech](/Tech/00 Technology/) / [Green IT](/Tech/Green IT/Ecodesign/)</small> (*2024-11-25*)
+
+- **[Ecodesign](/Tech/Green IT/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/) / [Green IT](/Tech/Green IT/Ecodesign/)</small> (*2024-11-25*)
+
+- **[Stefane Fermigier](/Tech/FOSS/People/Stefane Fermigier/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-25*)
+
+- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-25*)
+
+- **[VPN](/Tech/Apps/VPN/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-25*)
+
+- **[LLM - Lessons learned](/Tech/AI & Machine Learning/LLM - Lessons learned/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-25*)
 
 - **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-25*)
 
@@ -100,11 +136,7 @@
 
 - **[DGFIP Report - Desktop Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-19*)
 
-- **[Zero Trust Architecture](/Tech/Security/Zero Trust Architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
-
 - **[Zanzibar](/Tech/Security/Zanzibar/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
-
-- **[Trust, Transparency, Resilience and Innovation in the Context of Cloud Security](/Tech/Security/Trust, Transparency, Resilience and Innovation in the Context of Cloud Security/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
 - **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
@@ -136,11 +168,7 @@
 
 - **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-14*)
 
-- **[Menus](/Tech/Web/UX-UI/Menus/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-14*)
-
 - **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-14*)
-
-- **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-13*)
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-11-13*)
 
@@ -155,8 +183,6 @@
 - **[Single Page Applications (SPA)](/Tech/Web/UX-UI/Single Page Applications (SPA)/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
 - **[Search UI](/Tech/Web/UX-UI/Search UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
-
-- **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
 - **[Design systems](/Tech/Web/UX-UI/Design systems/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
@@ -293,8 +319,6 @@
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
-
-- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
 - **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
@@ -478,8 +502,6 @@
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-13*)
 
-- **[Web Design](/Tech/Web/UX-UI/Web Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
-
 - **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
 - **[UX-UI](/Tech/Web/UX-UI/UX-UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
@@ -494,13 +516,9 @@
 
 - **[Livewire](/Tech/Web/UX-UI/Livewire/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
-- **[HTMX](/Tech/Web/UX-UI/HTMX/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
-
 - **[Front-End](/Tech/Web/UX-UI/Front-End/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
 - **[Datatables](/Tech/Web/UX-UI/Datatables/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
-
-- **[Common Web Design Mistakes](/Tech/Web/UX-UI/Common Web Design Mistakes/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
 - **[CSS](/Tech/Web/UX-UI/CSS/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
@@ -624,8 +642,6 @@
 
 - **[Devbox](/Tech/Linux/Packaging/Nix/Devbox/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Guix](/Tech/Linux/Packaging/Guix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
-
 - **[Homelab](/Tech/Linux/Homelab/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-13*)
 
 - **[KISS Linux](/Tech/Linux/Distributions/KISS Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-11-13*)
@@ -639,8 +655,6 @@
 - **[Principles and Values](/Tech/FOSS/Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-11-13*)
 
 - **[Yoshai Benkler](/Tech/FOSS/People/Yoshai Benkler/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-13*)
-
-- **[Stefane Fermigier](/Tech/FOSS/People/Stefane Fermigier/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-13*)
 
 - **[Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-13*)
 
@@ -721,8 +735,6 @@
 - **[Machine Learnning Algorithms](/Tech/AI & Machine Learning/Machine Learnning Algorithms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
 - **[Machine Learning Platforms](/Tech/AI & Machine Learning/Machine Learning Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
-
-- **[LLM - Lessons learned](/Tech/AI & Machine Learning/LLM - Lessons learned/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
 - **[Knowledge Graphs](/Tech/AI & Machine Learning/Knowledge Graphs/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
