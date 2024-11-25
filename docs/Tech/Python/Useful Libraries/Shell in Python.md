@@ -30,7 +30,7 @@
 See also:
 
 - https://github.com/vorpaljs/bash-parser "Parses bash into an AST" (JavaScript)
-- https://niols.fr/materials/papers/sle18.pdf "Morbig: A Static Parser for POSIX Shell" research paper
+- "Morbig: A Static Parser for POSIX Shell" research paper - Look for it in https://niols.fr/publications.html
 - https://www.oilshell.org/blog/2019/02/07.html "How to Parse Shell Like a Programming Language" blog post
 - https://www.oilshell.org/blog/2021/01/comments-parsing.html
 - http://shell.cs.pomona.edu/ "Smoosh - The Symbolic, Mechanized, Observable, Operational Shell"

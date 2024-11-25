@@ -44,7 +44,6 @@ https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checki
 ### More interesting projects
 
 - https://github.com/adamsol/Pyxell "Multi-paradigm programming language compiled to C++, written in Python." (3000 LOC of Python + 3000 LOC of C++)
-    - See also: https://www.pyxell.org/docs/
 - https://github.com/xdslproject "A Python Compiler Design Toolkit"
 - https://github.com/ShivamSarodia/ShivyC "C compiler created in Python."
 - https://github.com/sdiehl/numpile - A tiny 1000 line LLVM-based numeric specializer for scientific Python code.

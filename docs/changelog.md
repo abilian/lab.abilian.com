@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[Testing and Benchmarking Distributed Systems](/Tech/Devops & Cloud/Testing and Benchmarking Distributed Systems/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-11-25*)
+
 - **[Web Components](/Tech/Web/Web Components/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-25*)
 
 - **[Web Design](/Tech/Web/UX-UI/Web Design/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
