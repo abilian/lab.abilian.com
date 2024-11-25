@@ -116,7 +116,6 @@ RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
 
----
 
 #### Docker Image
 
@@ -132,7 +131,6 @@ CMD ["python", "app.py"]
 docker build -t myapp:1.0 .
 ```
 
----
 
 #### Docker Container
 
@@ -148,7 +146,6 @@ docker build -t myapp:1.0 .
 docker run -d -p 8080:80 myapp:1.0
 ```
 
----
 
 #### Docker Registry
 
@@ -165,7 +162,6 @@ docker push myapp:1.0
 docker pull myapp:1.0
 ```
 
----
 
 #### Docker Volumes
 
@@ -181,7 +177,6 @@ docker pull myapp:1.0
 docker run -d -v myvolume:/data myapp:1.0
 ```
 
----
 
 #### Docker Compose
 
@@ -211,7 +206,6 @@ volumes:
   dbdata:
 ```
 
----
 
 #### Docker Networks
 
@@ -228,7 +222,6 @@ docker network create mynetwork
 docker run -d --network=mynetwork myapp:1.0
 ```
 
----
 
 #### Docker CLI
 

@@ -52,7 +52,6 @@ Lit (formerly LitElement and lit-html), developed by the Polymer team at Google,
 
 Stencil, developed by the Ionic team, is more feature-rich and includes a number of built-in tools like a JSX renderer, automatic generation of components for various frameworks (React, Vue, Angular), and automatic generation of Progressive Web Apps. It's often seen as a toolchain or a compiler rather than just a library. Stencil could be a good choice if you need to create components that are compatible with multiple frameworks, or if you're building a large-scale application.
 
----
 
 ## Examples
 

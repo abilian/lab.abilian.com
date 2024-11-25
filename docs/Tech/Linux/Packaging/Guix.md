@@ -18,7 +18,6 @@ Whether you're a seasoned developer looking to streamline your build processes o
 - https://guix.gnu.org/manual/devel/en/html_node/Shepherd-Services.html
 
 
----
 
 (TODO: move an independent card).
 

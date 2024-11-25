@@ -2,13 +2,19 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-25*)
+
+- **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-25*)
+
+- **[Documenting a Python API](/Tech/Python/Tooling/Documenting a Python API/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-25*)
+
+- **[Documentation](/Tech/Python/Tooling/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-25*)
+
 - **[FASTEN](/Tech/Python/Tooling/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-19*)
 
 - **[Software Forges](/Tech/Apps/Software Forges/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-19*)
 
 - **[Benchmarking CLI](/Tech/Tools/Benchmarking CLI/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2024-11-19*)
-
-- **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-19*)
 
 - **[New Python Web Frameworks](/Tech/Python/Web Frameworks/New Python Web Frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-19*)
 
@@ -158,8 +164,6 @@
 
 - **[Content Repositories](/Tech/Web/Content Repositories/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-13*)
 
-- **[VPN](/Tech/VPN/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-11-13*)
-
 - **[Video Editing Software](/Tech/Tools/Video Editing Software/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2024-11-13*)
 
 - **[MARP](/Tech/Tools/MARP/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2024-11-13*)
@@ -216,8 +220,6 @@
 
 - **[Out of the tar pit (2006)](/Tech/Papers/Out of the tar pit (2006)/)** in <small>[Tech](/Tech/00 Technology/) / [Papers](/Tech/Papers/Out of the tar pit (2006)/)</small> (*2024-11-13*)
 
-- **[Optimization](/Tech/Optimization/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-11-13*)
-
 - **[Taxonomies vs. Ontologies](/Tech/Modeling/Taxonomies vs. Ontologies/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-11-13*)
 
 - **[Relational vs. DDD Entities](/Tech/Modeling/Relational vs. DDD Entities/)** in <small>[Tech](/Tech/00 Technology/) / [Modeling](/Tech/Modeling/C4 Model/)</small> (*2024-11-13*)
@@ -239,8 +241,6 @@
 - **[Darlean](/Tech/Misc/Darlean/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-11-13*)
 
 - **[Alternatives to SQL](/Tech/Misc/Alternatives to SQL/)** in <small>[Tech](/Tech/00 Technology/) / [Misc](/Tech/Misc/Alternatives to SQL/)</small> (*2024-11-13*)
-
-- **[Macro expanders](/Tech/Macro expanders/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-11-13*)
 
 - **[Systemd](/Tech/Linux/Systemd/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-13*)
 
@@ -275,8 +275,6 @@
 - **[Innovation](/Tech/FOSS/Innovation/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-11-13*)
 
 - **[Digital Commons](/Tech/FOSS/Digital Commons/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-11-13*)
-
-- **[Ecodesign](/Tech/Ecodesign/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-11-13*)
 
 - **[How to prevent the "SQLite database is locked" error](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/) / [sqlite](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)</small> (*2024-11-13*)
 
@@ -687,8 +685,6 @@
 - **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
 - **[Build your own Docker](/Tech/Containers/Build your own Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
-
-- **[Configuration languages](/Tech/Configuration languages/)** in <small>[Tech](/Tech/00 Technology/)</small> (*2024-11-13*)
 
 - **[Stratego](/Tech/Compilation/Stratego/)** in <small>[Tech](/Tech/00 Technology/) / [Compilation](/Tech/Compilation/Stratego/)</small> (*2024-11-13*)
 

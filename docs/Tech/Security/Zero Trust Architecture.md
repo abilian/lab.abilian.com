@@ -38,7 +38,7 @@ While the _Zero Trust_ model is in line with the ‘ _defence in depth_ ’ appr
 
 The described security model adopts a holistic and pragmatic approach to cybersecurity, prioritizing resilience, transparency, and adaptability over rigid compliance frameworks. The model emphasizes four primary security goals and provides both technical and social solutions to address modern cybersecurity challenges.
 
-### **Key Principles and Goals**
+### Key Principles and Goals
 
 1. **Trust Nothing:**
    - Assumes inherent vulnerabilities in staff, hardware, software, and networks due to systemic backdoors, supply-chain attacks, and external threats.
@@ -54,7 +54,7 @@ The described security model adopts a holistic and pragmatic approach to cyberse
    - Cybersecurity measures are proportional to the risks involved, balancing effort and potential impact.
    - Focus on addressing root causes of vulnerabilities rather than temporary fixes.
 
-### **Technical Solutions**
+### Technical Solutions
 
 1. **Data Protection:**
    - Multi-redundant data storage across independent data centers with diverse providers and jurisdictions.
@@ -81,7 +81,7 @@ The described security model adopts a holistic and pragmatic approach to cyberse
    - Transition to global crowd-based intrusion detection tools like CrowdSec.
    - Elimination of SSH root access.
 
-### **Social and Process-Oriented Solutions**
+### Social and Process-Oriented Solutions
 
 1. **Staff Education and Responsibility:**
    - Continuous cybersecurity training for staff to foster awareness and accountability.
@@ -94,7 +94,7 @@ The described security model adopts a holistic and pragmatic approach to cyberse
    - Encouragement of independent penetration testing by clients.
    - Implementation of transparent risk analysis processes tailored to customer needs.
 
-### **Strengths of the Model**
+### Strengths of the Model
 
 1. **Pragmatic Realism:**
    - Acknowledges the inevitability of vulnerabilities and focuses on mitigating impact rather than achieving unattainable perfection.
@@ -108,7 +108,7 @@ The described security model adopts a holistic and pragmatic approach to cyberse
 4. **Customizability:**
    - Adaptable policies and processes allow flexibility across varying operational and regulatory contexts.
 
-### **Challenges and Opportunities**
+### Challenges and Opportunities
 
 1. **Challenges:**
    - Limited reliance on established compliance frameworks (e.g., ISO 27001) may reduce external validation.

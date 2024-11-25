@@ -28,7 +28,6 @@ Fermigier has also been involved in the creation of several open source projects
 
 As a strong proponent of European digital sovereignty, Fermigier regularly engages with French and European politicians and high-level civil servants to advocate for greater support for the free/open source business ecosystem. His contributions to the open source community and his efforts to bridge the gap between the Free Software and Open Source movements have made him an influential figure in the world of technology and open source software.
 
----
 
 He believes that there is no practical difference between "free software" and "open source software," and that the Free Software Movement and the Open Source Movement are two sides of the same coin. He advocates for these movements to join forces instead of being in conflict.
 

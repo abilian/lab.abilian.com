@@ -2,7 +2,6 @@
 https://www.youtube.com/live/c0gcsprsFig
 https://applied-llms.org/
 
----
 
 This conversation appears to be a discussion among friends or colleagues about artificial intelligence (AI) and its applications, specifically in relation to foundation models. The participants seem to have a relaxed and playful tone, often joking and teasing each other.
 
@@ -16,7 +15,6 @@ Here are some key points from the conversation:
 
 Overall, this conversation seems to be a lighthearted discussion among friends or colleagues who are passionate about AI and innovation.
 
----
 
 All right. Hi, everyone. Hugo Bown Anderson here. I'm so excited. I could barely sleep last night. I'm here today with, currently with Eugene Yan, Shreya Shankar, and Hamel Hussein, who I'll introduce, of course. Their co-authors will join us very soon. But what I'd love to do is we're going to start in a minute or two. If you could introduce yourself in the chat, let us know where you're calling in from and what your interest in this type of stuff is as well. And also what you'd like to get out of the session. Do you, are you building LLM systems currently or working AI, data science, or all of these things? So let us know in the chat and we'll get started.
 
