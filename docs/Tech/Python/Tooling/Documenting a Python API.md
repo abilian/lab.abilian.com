@@ -2,6 +2,7 @@ Python docstrings are an integral part of writing clear and maintainable code. T
 
 Choosing the right docstring format is crucial for readability and compatibility with documentation generation tools. Common formats include **PEP 257**, **Google Style**, **NumPy Style**, and **reStructuredText (reST)**. These formats differ in structure, readability, and support for automated documentation tools.
 
+## Standards and conventions for docstrings
 
 ### PEP 257 (Standard Python Style)
 
@@ -123,53 +124,69 @@ def subtract(a, b):
 ```
 
 
-### Tools for Docstring-Based Documentation
+## Tools for Docstring-Based Documentation
 
 To maximize the value of docstrings, you can use tools to automatically generate rich documentation for your project:
 
-#### Sphinx
+### MkDocs
+
+- A lightweight static site generator that uses Markdown for documentation.
+- Extensions like `mkdocstrings` can render Python docstrings as Markdown.
+- Great for developers looking for quick, visually appealing documentation with minimal setup.
+
+### MkDocs-Material
+
+- A popular theme for MkDocs with enhanced design and interactivity.
+- Features like dark mode, versioning, and navigation make it ideal for modern documentation.
+
+### pdoc
+
+- A straightforward tool for generating Python API documentation directly from code.
+- Uses Markdown for output, making it compatible with tools like MkDocs.
+- Use `pdoc`, not `pdoc3` or `pdocs`.
+
+### Sphinx
 
 - A powerful documentation generator.
 - Integrates with reST and supports Markdown via **MyST-Parser**.
 - Autodoc extensions extract docstrings directly into HTML or PDF outputs.
 - Ideal for large-scale projects requiring cross-references, indices, and multi-language support.
 
-#### MkDocs
-
-- A lightweight static site generator that uses Markdown for documentation.
-- Extensions like `mkdocstrings` can render Python docstrings as Markdown.
-- Great for developers looking for quick, visually appealing documentation with minimal setup.
-
-#### MkDocs-Material
-
-- A popular theme for MkDocs with enhanced design and interactivity.
-- Features like dark mode, versioning, and navigation make it ideal for modern documentation.
-
-#### Portray
+### Portray
 
 - Focused on simplicity and automation, Portray generates project documentation with minimal configuration.
 - Extracts docstrings to build intuitive and consistent documentation sites.
+- Abandonware.
 
-#### pdoc
-
-- A straightforward tool for generating Python API documentation directly from code.
-- Uses Markdown for output, making it compatible with tools like MkDocs.
-
-#### Epydoc
+### Epydoc
 
 - An older tool designed for documenting Python APIs, particularly with reST.
 - Provides output in HTML and PDF but is less commonly used in modern workflows.
 
+## Caveats about import side effects
 
-### Comparison of Docstring Formats
+When tools like **Sphinx**, **pdoc**, or others parse Python files to extract docstrings, they may import modules and execute code. This can result in unintended side effects, such as:
 
-|**Feature**|**PEP 257**|**Google Style**|**NumPy Style**|**reST Style**|
-|---|---|---|---|---|
-|**Readability**|Moderate|High|High|Moderate|
-|**Ease of Parsing**|Simple|Simple|Simple|Complex|
-|**Structured Sections**|Minimal|Yes|Yes|Yes|
-|**Tool Compatibility**|High|High|High|High (Sphinx)|
+1. **Database Connections or API Calls**: Modules that establish connections during import can inadvertently trigger live queries or transactions.
+2. **Resource Usage**: Code that initializes resources (e.g., creating files, spawning threads) on import may consume unnecessary memory or disk space.
+3. **Execution of Scripts**: If a file uses `if __name__ == "__main__":` and is improperly structured, parts of the script could execute unintentionally.
+4. **Errors or Crashes**: Errors in module-level code may prevent the tool from successfully parsing docstrings.
 
+### Mitigations
+
+1. **Guard Against Execution**: Always use `if __name__ == "__main__":` guards to prevent unintended execution of code during imports.
+2. **Minimal Module Initialization**: Avoid heavy computations or resource initialization in the global scope of a module.
+3. **Dedicated Configuration**: Some tools, like Sphinx, allow you to use a custom configuration file (e.g., `conf.py`) to fine-tune imports and avoid issues.
+4. **Testing Before Generation**: Ensure the codebase is clean and free of errors to prevent complications during parsing.
+
+## Summary: Comparison of Docstring Formats
+
+| **Feature**             | **PEP 257** | **Google Style** | **NumPy Style** | **reST Style** |
+| ----------------------- | ----------- | ---------------- | --------------- | -------------- |
+| **Readability**         | Moderate    | High             | High            | Moderate       |
+| **Ease of Parsing**     | Simple      | Simple           | Simple          | Complex        |
+| **Structured Sections** | Minimal     | Yes              | Yes             | Yes            |
+| **Tool Compatibility**  | High        | High             | High            | High (Sphinx)  |
 
 ### Choosing a Docstring Format
 
@@ -178,4 +195,3 @@ To maximize the value of docstrings, you can use tools to automatically generate
 - **NumPy Style**: Ideal for scientific, data analysis, and machine learning libraries.
 - **reST Style**: Suitable for projects requiring detailed Sphinx-based documentation.
 
-By combining well-written docstrings with tools like Sphinx or MkDocs, you can create professional, maintainable documentation for your Python projects.

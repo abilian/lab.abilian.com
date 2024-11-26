@@ -6,6 +6,7 @@
 	- Example use: https://docs.datasette.io/en/stable/plugins.html
 - iPopo: https://pypi.org/project/iPOPO/
 - https://beets.readthedocs.io/en/stable/dev/plugins.html
+- https://simonwillison.net/2024/Sep/25/djp-a-plugin-system-for-django/
 
 ### Javascript
 
@@ -17,7 +18,9 @@
 ### Pluggy
 
    - **Description**: **Pluggy** is a simple, flexible, and powerful plugin system originally developed for **pytest**. It allows applications to define extensibility points, known as hooks, and enables third-party plugins to add or extend functionality.
-   - **Use Case**: Ideal for applications requiring an extensible architecture where new functionality can be added dynamically via plugins. **Pluggy** is well-suited for building pluggable systems for search, storage, and other services, making it a strong candidate for Abilian SBE.
+   - **Use Case**: 
+       - Ideal for applications requiring an extensible architecture where new functionality can be added dynamically via plugins. **Pluggy** is well-suited for building pluggable systems for search, storage, and other services, making it a strong candidate for Abilian SBE. 
+       - Existing use cases: [Pytest](https://docs.pytest.org/en/latest/how-to/writing_plugins.html#writing-plugins), [Django Plugins](https://djp.readthedocs.io/en/latest/), [Datasette](https://docs.datasette.io/en/stable/plugins.html) and many more
    - **Pros**:
      - Lightweight and easy to integrate into existing systems.
      - Well-documented and widely used in major Python projects like **pytest**.
@@ -29,7 +32,9 @@
 ### Stevedore
 
    - **Description**: **Stevedore** is a Python library designed to manage dynamic loading of plugins or extensions using **setuptools entry points**. It allows you to load and manage plugins in a standardized way, based on entry points defined in `setup.py`.
-   - **Use Case**: Useful for applications that need dynamic plugin loading based on Python packaging mechanisms. It integrates well with projects that already use **setuptools** for package distribution.
+   - **Use Case**: 
+       - Useful for applications that need dynamic plugin loading based on Python packaging mechanisms. It integrates well with projects that already use **setuptools** for package distribution.
+       - Originally developed for OpenStack.
    - **Pros**:
      - Well-integrated with Python packaging tools.
      - Provides dynamic loading and entry-point management.

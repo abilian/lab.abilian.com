@@ -2,6 +2,19 @@ To document Python projects, we tend to prefer Markdown to reStructuredText (ReS
 
 ## Tools
 
+
+### MkDocs
+
+- A Markdown-focused static site generator designed for simplicity and ease of use.
+- Features include fast builds, live previews, and minimal setup.
+- Ideal for creating beautiful project documentation from Markdown files.
+
+### MkDocs-Material
+
+- A widely used theme/plugin for MkDocs that enhances the design and interactivity of the generated site.
+- Provides features like search, responsive design, and rich UI components.
+- Highly customizable with built-in support for dark mode, versioning, and navigation.
+
 ### Sphinx
 
 - A robust documentation generator traditionally associated with reST but also supports Markdown with plugins like **MyST-Parser**.
@@ -16,17 +29,10 @@ To document Python projects, we tend to prefer Markdown to reStructuredText (ReS
 - Auto-generates API documentation based on code and docstrings.
 - Suitable for developers seeking a lightweight, quick-to-deploy solution.
 
-### MkDocs
+> [WARNING]
+> As of November 2024, Portray should be considered abandonware.
+> An alternative would be to use `pdoc`, upon which `pdocs`, which was the main component of `portray`, was based. There is another fork, `pdoc3`, but it seems less actively maintained.
 
-- A Markdown-focused static site generator designed for simplicity and ease of use.
-- Features include fast builds, live previews, and minimal setup.
-- Ideal for creating beautiful project documentation from Markdown files.
-
-### MkDocs-Material
-
-- A widely used theme/plugin for MkDocs that enhances the design and interactivity of the generated site.
-- Provides features like search, responsive design, and rich UI components.
-- Highly customizable with built-in support for dark mode, versioning, and navigation.
 
 ## Documenting the Python API
 
