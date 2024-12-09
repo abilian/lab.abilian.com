@@ -8,6 +8,11 @@ https://typst.app/
 
 - pandoc can convert to .`typ`
 
+More details in:
+
+- https://imaginarytext.ca/posts/2024/pandoc-typst-tutorial/
+- https://imaginarytext.ca/posts/2024/more-typst/
+
 ## Templates
 
 - https://github.com/typst/templates

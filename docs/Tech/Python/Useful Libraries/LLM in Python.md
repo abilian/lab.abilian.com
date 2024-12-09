@@ -10,5 +10,5 @@
 - https://www.reddit.com/r/LocalLLaMA/comments/1d4p1t6/is_langchain_usable/ "I don’t know you, but when I build an LLM app for a client LangChain is always more of a hassle to get started than just writing the ‘supporting’ code myself."
 
 <!-- Keywords -->
-#ai #llm 
+#ai #llm
 <!-- /Keywords -->

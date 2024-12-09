@@ -129,6 +129,8 @@ https://codewords.recurse.com/issues/seven/dragon-taming-with-tailbiter-a-byteco
 https://arxiv.org/abs/2011.13127 "Copy-and-Patch Compilation: A fast compilation algorithm for high-level languages and bytecode"
 ➜ Maybe interesting (or not) for us. At least, contains references to recent papers.
 
+https://bernsteinbear.com/blog/typed-python/ This explores whether Python's type annotations, introduced with PEP 484, enable compiling Python to native code for speed. While types offer hints, they fall short of optimizing Python due to its dynamic and flexible nature. Key obstacles include Python's operator dispatch complexities, heap-allocated objects, and runtime behaviors like subclassing and mutable globals. While projects like Numba, Mypyc, and Static Python optimize specific scenarios, they often require trade-offs, such as reduced dynamism or adopting modified "dialects" of Python. Despite challenges, advancements like Static Python and type-driven optimizations show promise, especially for numeric and constrained use cases, signaling a hopeful future for performance-driven Python development.
+
 ### WASM
 
 https://github.com/appcypher/awesome-wasm-langs -> Lua, mruby, grain...
@@ -149,6 +151,7 @@ https://tomassetti.me/wasi-how-to-run-webassembly-code-outside-of-your-browser/
 ### More
 
 - https://github.com/riswords/quiche
+- https://programming-journal.org/2023/7/2/ = "# Gradual Soundness: Lessons from Static Python"
 
 ## See also
 

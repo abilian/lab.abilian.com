@@ -16,6 +16,7 @@ Retrieval-Augmented Generation (RAG) represents a major breakthrough in the fiel
 - https://www.stephendiehl.com/posts/graphrag1/
 - https://www.stephendiehl.com/posts/graphrag2/
 - https://www.stephendiehl.com/posts/rag/
+- https://github.com/athina-ai/rag-cookbooks - A comprehensive collection of advanced Retrieval-Augmented Generation (RAG) techniques.
 
 ## Detailed discussion
 

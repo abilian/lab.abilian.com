@@ -6,6 +6,9 @@
 - Martian
 - Venusian
 - https://github.com/faif/python-patterns/blob/master/patterns/behavioral/registry.py
+- https://lightning-flash.readthedocs.io/en/latest/general/registry.html?highlight=registry
+- https://github.com/medcognetics/callable-registry
+- https://class-registry.readthedocs.io/en/latest/index.html
 
 ### Blog posts
 

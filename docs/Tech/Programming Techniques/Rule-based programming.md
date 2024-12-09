@@ -9,6 +9,7 @@ All others are dead :()
 - https://github.com/cmaclell/py_rete (dead)
 - https://github.com/nilp0inter/experta (dead)
 - https://github.com/GNaive/naive-rete (dead)
+- https://github.com/jhgg/hyrule/ (dead prototype)
 
 ## Other technologies
 
