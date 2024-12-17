@@ -37,3 +37,15 @@ As we look to 2025, we remain focused on delivering solutions that are not only 
 At Abilian, we’re proud to play our part in building the future of cloud and edge computing. Stay tuned.
 
 _Follow our journey and learn more about our contributions to HyperOpen X on [abilian.com](#) or connect with us on LinkedIn._
+
+
+## Support
+
+The project is partially funded by:
+
+- the French government as part of [France 2030](https://www.economie.gouv.fr/france-2030).
+- the European Union - [Next Generation EU](https://next-generation-eu.europa.eu/index_en) within the framework of the [France Relance](https://www.gouvernement.fr/les-priorites/france-relance) plan.
+
+<!-- Keywords -->
+#virtualized #paas #hyper_cdn #hyper_managed
+<!-- /Keywords -->

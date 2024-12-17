@@ -79,7 +79,7 @@ Abilian's role exemplifies the collaborative effort within the "HyperOpenX" proj
 
 ## Support
 
-The project is funded by:
+The project is partially funded by:
 
 - the French government as part of [France 2030](https://www.economie.gouv.fr/france-2030).
 - the European Union - [Next Generation EU](https://next-generation-eu.europa.eu/index_en) within the framework of the [France Relance](https://www.gouvernement.fr/les-priorites/france-relance) plan.
