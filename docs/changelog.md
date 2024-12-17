@@ -1,24 +1,34 @@
 # Changelog
 
-## Recent changes (last 7 days)
-
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-12-09*)
-
-
-
 ## Changed last 30 to 7 days
 
-- **[LLM in Python](/Tech/Python/Useful Libraries/LLM in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-27*)
+- **[SBOM](/Tech/Security/SBOM/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-12-09*)
+
+- **[Python - Registry](/Tech/Python/Useful Libraries/Python - Registry/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-12-09*)
+
+- **[LLM in Python](/Tech/Python/Useful Libraries/LLM in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-12-09*)
+
+- **[Documenting a Python API](/Tech/Python/Tooling/Documenting a Python API/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-12-09*)
+
+- **[Compiling Python](/Tech/Python/Compilation/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Compilation](/Tech/Python/Compilation/Compiling Python/)</small> (*2024-12-09*)
+
+- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-12-09*)
+
+- **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-12-09*)
+
+- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-12-09*)
+
+- **[Windows → Linux Migration](/Tech/Linux/Windows → Linux Migration/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-12-09*)
+
+- **[Orchestration](/Tech/Containers/Orchestration/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-12-09*)
+
+- **[RAG](/Tech/AI & Machine Learning/RAG/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
+
+- **[LLM - Lessons learned (2024)](/Tech/AI & Machine Learning/LLM - Lessons learned (2024)/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-27*)
 
-- **[LLM - Lessons learned (2024)](/Tech/AI & Machine Learning/LLM - Lessons learned (2024)/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-27*)
-
-- **[Documenting a Python API](/Tech/Python/Tooling/Documenting a Python API/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-26*)
-
 - **[Documentation](/Tech/Python/Tooling/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-26*)
-
-- **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-26*)
 
 - **[Automation](/Tech/Devops & Cloud/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-11-26*)
 
@@ -88,8 +98,6 @@
 
 - **[Python ↔︎ JavaScript Bridges](/Tech/Python/Useful Libraries/Python ↔︎ JavaScript Bridges/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
-- **[Python - Registry](/Tech/Python/Useful Libraries/Python - Registry/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
-
 - **[Python & SSH](/Tech/Python/Useful Libraries/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
 - **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
@@ -146,8 +154,6 @@
 
 - **[Python & WASM](/Tech/Python/Compilation/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Compilation](/Tech/Python/Compilation/Compiling Python/)</small> (*2024-11-19*)
 
-- **[Compiling Python](/Tech/Python/Compilation/Compiling Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Compilation](/Tech/Python/Compilation/Compiling Python/)</small> (*2024-11-19*)
-
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-19*)
 
 - **[DGFIP Report - Desktop Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-19*)
@@ -160,11 +166,13 @@
 
 - **[Sovereign OS - "EU Linux"](/Tech/Linux/Sovereign OS - "EU Linux"/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-18*)
 
-- **[RAG](/Tech/AI & Machine Learning/RAG/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-18*)
-
 - **[LLM, AI and RAG stuff](/Tech/AI & Machine Learning/LLM, AI and RAG stuff/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-18*)
 
 - **[Public Benefit Companies](/Business/Legal/Public Benefit Companies/)** in <small>[Business](/Business/00 Business/) / [Legal](/Business/Legal/Public Benefit Companies/)</small> (*2024-11-18*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[Parsing](/Tech/Python/Useful Libraries/Parsing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-16*)
 
@@ -245,8 +253,6 @@
 - **[EPUB](/Tech/Publishing tools/EPUB/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-11-13*)
 
 - **[TDD (Test-Driven Development)](/Tech/Programming Techniques/TDD (Test-Driven Development)/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-13*)
-
-- **[Rule-based programming](/Tech/Programming Techniques/Rule-based programming/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-13*)
 
 - **[BDD](/Tech/Programming Techniques/BDD/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-11-13*)
 
@@ -430,7 +436,7 @@
 
 - **[Roadmap](/Projects/Hop3/Roadmap/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-11-13*)
 
-- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-11-13*)
+- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-11-13*)
 
 - **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-11-13*)
 
@@ -596,8 +602,6 @@
 
 - **[00 Python](/Tech/Python/00 Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/)</small> (*2024-11-13*)
 
-- **[Typst](/Tech/Publishing tools/Typst/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-11-13*)
-
 - **[Asciidoc](/Tech/Publishing tools/Asciidoc/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-11-13*)
 
 - **[00 Publishing tools](/Tech/Publishing tools/00 Publishing tools/)** in <small>[Tech](/Tech/00 Technology/) / [Publishing tools](/Tech/Publishing tools/00 Publishing tools/)</small> (*2024-11-13*)
@@ -754,7 +758,7 @@
 
 - **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-11-13*)
 
-- **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpenX - FR/)</small> (*2024-11-13*)
+- **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-11-13*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
 

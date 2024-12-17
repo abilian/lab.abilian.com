@@ -8,6 +8,10 @@ Welcome to the Abilian Innovation Lab!
 
 ### Ongoing
 
+[Hyper Open X](./Projects/HOX/HyperOpenX/) - Hyper Open X offers all the technological building blocks needed to build interoperable, sovereign and competitive edge or cloud solutions using only open source software.
+
+[Hop3](./Projects/Hop3/Hop3/) - Hop3 is an open-source orchestration platform designed to simplify the deployment and management of distributed applications across cloud and edge environments. With a focus on flexibility, security, resilience, and ease of use, Hop3 empowers developers and small organisations to take full control of their IT infrastructure and data, ensuring digital sovereignty and avoiding vendor lock-in.
+
 [Nua](./Projects/NUA/00 NUA/) - Nua streamlines the development, selection, installation and resilient operation of web applications in a self-hosted cloud environment.
 
 [Python to WASM Compiler](./Projects/Python to WASM Compiler/Python to WASM Compiler/).
@@ -15,6 +19,8 @@ Welcome to the Abilian Innovation Lab!
 ### Past
 
 [Cython+](./Projects/Cython+/00 Cython+/): The "Cython+" project aimed to transfer the extremely powerful multi-core concurrent programming model of the Go language to the Python language by relying on scientific and technological approaches stemming from three decades of French know-how in the field of concurrent object programming around Actalk.
+
+[Wendelin](./Projects/Wendelin (2014-2019)): The Wendelin project was a bold initiative to develop a superior open-source big data engine. It was designed as a hybrid solution that combined scikit-learn's machine learning capabilities with NEO's distributed storage framework, aiming to bridge powerful data analytics with scalable and efficient storage. By doing so, Wendelin offered out-of-core processing functionality for large datasets, leveraging Python’s rich ecosystem, particularly Numpy.
 
 
 ## Our technology knowledge base

@@ -14,6 +14,9 @@ A utiliser avec https://headlessui.dev/ ? (NB: pas de table)
 
 ## Components libraries
 
+- https://www.hyperui.dev/ UI components (w/ backed with AlpineJS) - Marketing and Application
+- https://www.penguinui.com = Tailwind + Alpine
+
 - https://flowbite.com/
 - https://preline.co/
 - https://tailblocks.cc/ -> pour site web, pas pour appli.
