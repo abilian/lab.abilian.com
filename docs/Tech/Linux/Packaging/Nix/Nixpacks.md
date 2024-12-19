@@ -1,5 +1,10 @@
 Nixpacks is an open-source project that provides a way to create optimized Docker images using Nix, a functional package manager, to define and manage dependencies. It focuses on simplifying the process of building and deploying applications, especially in containerized environments. By leveraging Nix, Nixpacks offers reproducible builds, meaning that the environment in which your application runs can be recreated exactly every time, reducing the chance of unexpected runtime errors due to dependency issues or mismatched configurations.
 
+## References
+
+https://nixpacks.com/docs/configuration/file
+Examples: https://github.com/litestar-org/litestar-fullstack/blob/main/nixpacks.toml
+
 ## Features and Use Cases
 
 ### Key Features of Nixpacks:
@@ -88,13 +93,13 @@ Nixpacks is architected with several core components, each serving a specific pu
 
 ### High-Level Architecture Overview:
 
-1. **Input (Source Code)** →
-   **Language Detection (Input Detection Layer)** →
-   **Environment Setup (Nix Integration)** →
-   **Build (Builder Layer)** →
-   **Custom Hooks (Hooks and Extensibility)** →
-   **Optimized Image Creation (Image Optimization Layer)** →
-   **Docker Image Output**.
+**Input (Source Code)** →
+**Language Detection (Input Detection Layer)** →
+**Environment Setup (Nix Integration)** →
+**Build (Builder Layer)** →
+**Custom Hooks (Hooks and Extensibility)** →
+**Optimized Image Creation (Image Optimization Layer)** →
+**Docker Image Output**.
 
 ### Conclusion:
 Nixpacks' architecture is built around the principle of deterministic and reproducible builds, using Nix as its foundation. The layered structure, from input detection to optimized Docker image generation, ensures that the process is automated, flexible, and secure. By integrating Nix's package management capabilities, it offers a robust solution for producing lean, production-ready Docker images with minimal manual configuration. The extensibility through hooks and custom scripts ensures that it can be tailored to suit a wide range of development workflows and use cases.

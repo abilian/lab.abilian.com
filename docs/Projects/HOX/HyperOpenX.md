@@ -6,7 +6,7 @@ The "HyperOpenX" project aims to create an open and convergent cloud offering by
 
 ## About SlapOS
 
-[[SlapOS]] is a decentralized, open-source cloud management system developed by Nexedi. It is designed to automate the deployment, management, and optimization of applications and services across a wide range of infrastructures, from dedicated hardware (bare metal) to virtualized environments and containers. SlapOS combines the capabilities of a container orchestrator, a configuration management system, and a distributed operating system to provide a comprehensive cloud computing platform.
+[[SlapOS - Key Facts]] is a decentralized, open-source cloud management system developed by Nexedi. It is designed to automate the deployment, management, and optimization of applications and services across a wide range of infrastructures, from dedicated hardware (bare metal) to virtualized environments and containers. SlapOS combines the capabilities of a container orchestrator, a configuration management system, and a distributed operating system to provide a comprehensive cloud computing platform.
 
 ### Role of SlapOS in "HyperOpenX"
 
@@ -85,5 +85,5 @@ The project is partially funded by:
 - the European Union - [Next Generation EU](https://next-generation-eu.europa.eu/index_en) within the framework of the [France Relance](https://www.gouvernement.fr/les-priorites/france-relance) plan.
 
 <!-- Keywords -->
-#virtualized #paas #hyper_cdn #hyper_managed
+#virtualized #paas #hyper_cdn #hyper_managed #slapos
 <!-- /Keywords -->

@@ -1,7 +1,13 @@
 
 SlapOS is an open-source decentralized cloud computing platform, designed to automate the deployment and management of applications in a distributed, grid computing environment.
 
-Here's a general overview and key characteristics of the system:
+## References
+
+Website: <http://www.slapos.org/>
+Repo: <https://github.com/SlapOS/slapos>
+Abilian's fork: <https://github.com/abilian/slapos_abilian_edge> (as part of the [[HyperOpenX]] project)
+
+## Key characteristics of the system
 
 1.  **Decentralized Cloud Operating System:** SlapOS is decentralized, meaning it avoids the pitfalls of single points of failure and can run on a wide variety of hardware setups. It can operate on anything from a network of low-power, personal devices to a large server farm. This makes it an incredibly flexible system suitable for a range of applications.
 
@@ -17,10 +23,8 @@ Here's a general overview and key characteristics of the system:
 
 7.  **Edge Computing:** With its distributed and decentralized nature, SlapOS is a suitable platform for edge computing. It can operate on the devices at the edge of the network, closer to where the data is generated, which can improve response times and save bandwidth.
 
-Website: <http://www.slapos.org/>
-Repo: <https://github.com/SlapOS/slapos>
-Abilian's fork: <https://github.com/abilian/slapos_abilian_edge> (as part of the [[HyperOpenX]] project)
+
 
 <!-- Keywords -->
-#slapos #decentralized
+#slapos #decentralized #cloud
 <!-- /Keywords -->

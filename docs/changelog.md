@@ -2,11 +2,13 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-12-17*)
+- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
-- **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-12-17*)
+- **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
 - **[HyperOpen X - A year in review (2024)](/Projects/HOX/HyperOpen X - A year in review (2024)/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
+
+- **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-12-17*)
 
 
 
@@ -94,6 +96,10 @@
 
 - **[Benchmarking CLI](/Tech/Tools/Benchmarking CLI/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2024-11-19*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[New Python Web Frameworks](/Tech/Python/Web Frameworks/New Python Web Frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-19*)
 
 - **[BlackSheep](/Tech/Python/Web Frameworks/BlackSheep/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-19*)
@@ -179,10 +185,6 @@
 - **[LLM, AI and RAG stuff](/Tech/AI & Machine Learning/LLM, AI and RAG stuff/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-18*)
 
 - **[Public Benefit Companies](/Business/Legal/Public Benefit Companies/)** in <small>[Business](/Business/00 Business/) / [Legal](/Business/Legal/Public Benefit Companies/)</small> (*2024-11-18*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Parsing](/Tech/Python/Useful Libraries/Parsing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-16*)
 
@@ -326,15 +328,15 @@
 
 - **[Digital Commons](/Tech/FOSS/Digital Commons/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-11-13*)
 
-- **[How to prevent the "SQLite database is locked" error](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/) / [sqlite](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)</small> (*2024-11-13*)
+- **[How to prevent the "SQLite database is locked" error](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/) / [sqlite](/Tech/Databases & Persistence/sqlite/How to prevent the "SQLite database is locked" error/)</small> (*2024-11-13*)
 
-- **[Workday architecture](/Tech/Databases & Persistence/Workday architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[Workday architecture](/Tech/Databases & Persistence/Workday architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[SQL Modeling](/Tech/Databases & Persistence/SQL Modeling/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[SQL Modeling](/Tech/Databases & Persistence/SQL Modeling/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[Primary keys - int ids or UUIDs?](/Tech/Databases & Persistence/Primary keys - int ids or UUIDs?/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[Primary keys - int ids or UUIDs?](/Tech/Databases & Persistence/Primary keys - int ids or UUIDs?/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[Multitenancy](/Tech/Databases & Persistence/Multitenancy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[Multitenancy](/Tech/Databases & Persistence/Multitenancy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
 - **[Nomad](/Tech/Containers/Nomad/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
@@ -345,8 +347,6 @@
 - **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
 - **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
-
-- **[SlapOS](/Tech/Cloud/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
 - **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
@@ -443,8 +443,6 @@
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
 - **[Roadmap](/Projects/Hop3/Roadmap/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-11-13*)
-
-- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-11-13*)
 
 - **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-11-13*)
 
@@ -700,17 +698,17 @@
 
 - **[CFengine](/Tech/Devops & Cloud/CFengine/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-11-13*)
 
-- **[SQLAlchemy](/Tech/Databases & Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[SQLAlchemy](/Tech/Databases & Persistence/SQLAlchemy/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[Postgres](/Tech/Databases & Persistence/Postgres/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[Postgres](/Tech/Databases & Persistence/Postgres/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[Persistence](/Tech/Databases & Persistence/Persistence/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[Persistence](/Tech/Databases & Persistence/Persistence/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[One-to-One relationships](/Tech/Databases & Persistence/One-to-One relationships/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[One-to-One relationships](/Tech/Databases & Persistence/One-to-One relationships/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[MDM - Master Data Management](/Tech/Databases & Persistence/MDM - Master Data Management/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[MDM - Master Data Management](/Tech/Databases & Persistence/MDM - Master Data Management/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
-- **[EdgeDB](/Tech/Databases & Persistence/EdgeDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-13*)
+- **[EdgeDB](/Tech/Databases & Persistence/EdgeDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-13*)
 
 - **[Containers](/Tech/Containers/Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-13*)
 
@@ -765,8 +763,6 @@
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
 - **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-11-13*)
-
-- **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-11-13*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
 
@@ -832,7 +828,7 @@
 
 - **[ISO 16016](/Tech/Documentation/ISO 16016/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-11-12*)
 
-- **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/DuckDB/)</small> (*2024-11-12*)
+- **[DuckDB](/Tech/Databases & Persistence/DuckDB/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-11-12*)
 
 - **[Dockerfile Cheat Sheet](/Tech/Cheat Sheets/Dockerfile Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Cheat Sheets](/Tech/Cheat Sheets/Docker Cheat Sheet/)</small> (*2024-11-12*)
 
