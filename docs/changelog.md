@@ -2,9 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-12-20*)
-
 - **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
+
+- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-20*)
 
 - **[Porting Software to SlapOS - Tutorial](/Tech/Cloud/SlapOS/Porting Software to SlapOS - Tutorial/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
 
@@ -15,8 +15,6 @@
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-12-19*)
 
 - **[Content Addressable Storage (CAS)](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-12-19*)
-
-- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-19*)
 
 - **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
@@ -456,7 +454,7 @@
 
 - **[00 NUA](/Projects/NUA/00 NUA/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
-- **[Roadmap](/Projects/Hop3/Roadmap/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-11-13*)
+- **[Roadmap](/Projects/Hop3/Roadmap/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-11-13*)
 
 - **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-11-13*)
 
@@ -774,7 +772,7 @@
 
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
-- **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3/)</small> (*2024-11-13*)
+- **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-11-13*)
 
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
 
