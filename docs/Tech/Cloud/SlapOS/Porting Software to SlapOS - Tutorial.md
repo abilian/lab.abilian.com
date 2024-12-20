@@ -80,7 +80,7 @@ SlapOS **Nodes** are physical or virtual machines that host the deployed softwar
 
 #### Partitions
 
-A **Computer Partition** is a lightweight container within a node. It is analogous to a virtual environment where one or more software instances are deployed. Each partition is self-contained and includes:
+In SlapOS, a **Computer Partition** is a lightweight container within a node. It is analogous to a virtual environment where one or more software instances are deployed. Each partition is self-contained and includes:
 
 - Isolated storage.
 - Configurations specific to the deployed software.
@@ -115,7 +115,7 @@ Software Instances are instantiated within computer partitions and tailored to s
 
 #### What are Promises?
 
-Promises are lightweight monitoring scripts in SlapOS that ensure the health and reliability of software instances. Each promise performs checks on specific aspects of an instance, such as:
+In SlapOS, **Promises** are lightweight monitoring scripts that ensure the health and reliability of software instances. Each promise performs checks on specific aspects of an instance, such as:
 
 - Ensuring a service is running.
 - Verifying that a port is accessible.

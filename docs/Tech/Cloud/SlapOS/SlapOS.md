@@ -19,6 +19,8 @@
     - **Extensions**: Mechanisms for modularizing configurations by referencing other profiles.
 
 
+More details in [[Differences Between Upstream Buildout and SlapOS's Variant]].
+
 ### Monitoring with Promises
 
 - **What are Promises?**
@@ -40,6 +42,8 @@
     - Flexible integration with recipes for custom checks.
 
 
+Note: "Promises" here are related to, but not the same as, promises in computer science: <https://en.wikipedia.org/wiki/Futures_and_promises> & <https://en.wikipedia.org/wiki/Promise_theory>.
+
 ### Developing Software Releases
 
 - **Structure**:
@@ -58,6 +62,8 @@
     - Store reusable components in a `component` directory.
     - Maintain clear versioning and dependencies for components.
 
+
+Full tutorial → [[Porting Software to SlapOS - Tutorial]].
 
 ### Extending Software Releases
 

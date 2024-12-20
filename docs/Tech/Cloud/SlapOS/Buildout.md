@@ -1,12 +1,8 @@
 **Buildout** is a Python-based automation tool for assembling and managing software environments. It simplifies processes such as software building, configuration file generation, and deployment automation. Buildout supports all stages of a software lifecycle, from development to production deployment.
 
-The core principles that guide Buildout's design are:
+For differences between SlapOS's buildout and upstream buildout, see [[Differences Between Upstream Buildout and SlapOS's Variant]].
 
-- **Repeatability**: Ensuring that identical configurations yield identical environments, regardless of their history.
-- **Componentization**: Enabling software to be self-contained by including tools and configurations required for its operation within the project itself.
-- **Automation**: Minimizing manual intervention by automating setup and deployment tasks.
-
-## Key Features of Buildout
+## Key Features
 
 1. **Repeatability**:
 
@@ -23,9 +19,9 @@ The core principles that guide Buildout's design are:
     - Automates the environment setup using a configuration file (`buildout.cfg`).
     - A single command can recreate the entire software environment, saving time and reducing error-prone manual configurations.
 
-### Getting Started with Buildout
+## Getting Started with Buildout
 
-### Installation:
+### Installation
 
 Buildout is typically installed within a virtual environment:
 
@@ -35,7 +31,7 @@ cd mybuildout
 bin/pip install zc.buildout
 ```
 
-### Minimal Configuration:
+### Minimal Configuration
 
 A basic `buildout.cfg` configuration file:
 
@@ -51,7 +47,7 @@ Running `buildout` with this configuration creates the following directories:
 - **eggs**: Stores installed Python packages.
 - **parts**: A default location for installed components.
 
-### Adding a Part:
+### Adding a Part
 
 Parts represent tasks or components in Buildout. For example, to install a web server:
 
@@ -167,7 +163,6 @@ Buildout is suitable for projects requiring:
 
 ## Alternatives
 
-
 ### Python-Specific Tools
 
 #### Pip and Virtualenv (or `venv`)
@@ -179,16 +174,17 @@ Buildout is suitable for projects requiring:
     - Lightweight and simple.
     - Widely used, with a large ecosystem.
     - Works seamlessly with `requirements.txt` for dependency pinning.
+
 - **Limitations**:
 
     - No built-in support for non-Python dependencies.
     - Limited automation capabilities compared to Buildout.
     - Dependency management can become cumbersome for large projects.
+
 - **Best Use Cases**:
 
     - Simple Python-only projects.
     - Projects where minimal tooling is preferred.
-
 
 #### Poetry
 
@@ -198,34 +194,17 @@ Buildout is suitable for projects requiring:
 
     - Handles dependencies, environments, and packaging in a unified way.
     - Built-in lockfile ensures reproducibility.
-    - Supports modern standards like `pyproject.toml`.
+    - Supports modern standards like `pyproject.toml` (but with non-standard semantics).
+
 - **Limitations**:
 
     - Python-specific, so it doesn’t manage non-Python dependencies.
     - Limited support for complex automation.
+
 - **Best Use Cases**:
 
     - Python-only projects, particularly for developers packaging libraries.
     - Projects requiring reproducible environments and dependency resolution.
-
-
-#### Pipenv
-
-**Description**: Pipenv integrates Pip and Virtualenv, providing an enhanced workflow for Python dependency management.
-
-- **Strengths**:
-
-    - Combines package management and environment isolation.
-    - Provides lockfiles (`Pipfile.lock`) for reproducibility.
-    - Simpler CLI compared to plain `pip`.
-- **Limitations**:
-
-    - Performance can be slower for large dependency trees.
-    - Limited in handling non-Python dependencies or complex automation.
-- **Best Use Cases**:
-
-    - Python projects requiring basic dependency and environment management.
-
 
 #### uv
 
@@ -237,10 +216,12 @@ Buildout is suitable for projects requiring:
     - Manages Python dependencies, environments, and tools in one place.
     - Supports universal lockfiles and ephemeral environments.
     - Drop-in replacement for common pip workflows with additional features.
+
 - **Limitations**:
 
     - Python-centric; doesn’t handle non-Python dependencies.
     - Relatively new, so the ecosystem is smaller than some alternatives.
+
 - **Best Use Cases**:
 
     - Projects needing high performance and a unified toolchain for Python dependency management.
@@ -256,10 +237,12 @@ Buildout is suitable for projects requiring:
     - Manages both Python and non-Python dependencies (e.g., C libraries).
     - Cross-platform, with robust support for scientific computing.
     - Provides isolated environments.
+
 - **Limitations**:
 
     - Larger footprint compared to Python-specific tools.
     - Dependency resolution can sometimes result in conflicts for complex setups.
+
 - **Best Use Cases**:
 
     - Python projects requiring non-Python dependencies (e.g., NumPy, TensorFlow).
@@ -275,10 +258,12 @@ Buildout is suitable for projects requiring:
     - Supports dependency management, testing, and builds for Python and other languages.
     - Incremental builds for performance optimization.
     - Ideal for large-scale, multi-language repositories.
+
 - **Limitations**:
 
     - Overkill for small projects or single-language repositories.
     - Steeper learning curve compared to simpler tools.
+
 - **Best Use Cases**:
 
     - Large Python projects with complex build workflows.
@@ -296,16 +281,16 @@ Buildout is suitable for projects requiring:
     - Isolates entire systems, not just environments.
     - Portable across platforms and systems.
     - Can encapsulate non-Python dependencies alongside Python environments.
+
 - **Limitations**:
 
     - Larger resource requirements.
     - Requires understanding of Dockerfiles and containerization principles.
+
 - **Best Use Cases**:
 
     - Deployment environments.
     - Projects requiring consistent environments across multiple systems.
-
-
 
 #### Nix
 
@@ -316,15 +301,15 @@ Buildout is suitable for projects requiring:
     - Declarative configuration for environments.
     - Cross-language support.
     - Strong community support and ecosystem.
+
 - **Limitations**:
 
     - Complex syntax and configuration.
     - Focused on system-wide and project-wide reproducibility rather than single projects.
+
 - **Best Use Cases**:
 
     - Projects requiring system-level reproducibility and cross-language support.
-
-
 
 #### GNU Guix
 
@@ -335,19 +320,16 @@ Buildout is suitable for projects requiring:
     - Strict reproducibility for environments and builds.
     - Cross-language and cross-platform support.
     - Transactional package management with rollbacks.
+
 - **Limitations**:
 
     - Complex configuration due to its Scheme-based approach.
     - Source-based builds can be time-consuming unless cached binaries are available.
+
 - **Best Use Cases**:
 
     - Multi-language projects requiring strict reproducibility.
     - Advanced users comfortable with functional package management.
-
-
-
-
-
 
 ### Comparison Table
 
