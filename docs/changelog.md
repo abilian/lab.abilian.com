@@ -2,9 +2,17 @@
 
 ## Recent changes (last 7 days)
 
-- **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-12-31*)
+
+
+
+## Changed last 30 to 7 days
+
+- **[Hop3 and the 6 Pillars of Cloud Computing](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-12-20*)
 
 - **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-20*)
+
+- **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
 
 - **[Porting Software to SlapOS - Tutorial](/Tech/Cloud/SlapOS/Porting Software to SlapOS - Tutorial/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
 
@@ -21,10 +29,6 @@
 - **[HyperOpen X - A year in review (2024)](/Projects/HOX/HyperOpen X - A year in review (2024)/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-12-17*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[SBOM](/Tech/Security/SBOM/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-12-09*)
 
@@ -49,6 +53,10 @@
 - **[RAG](/Tech/AI & Machine Learning/RAG/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
 
 - **[LLM - Lessons learned (2024)](/Tech/AI & Machine Learning/LLM - Lessons learned (2024)/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-27*)
 
@@ -101,10 +109,6 @@
 - **[VPN](/Tech/Apps/VPN/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-25*)
 
 - **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-25*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[FASTEN](/Tech/Python/Tooling/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-19*)
 
