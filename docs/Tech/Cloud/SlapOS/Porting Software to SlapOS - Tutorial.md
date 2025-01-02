@@ -1,4 +1,3 @@
-## Introduction
 
 Porting software to SlapOS involves adapting an application to run seamlessly within the SlapOS distributed cloud operating system. This tutorial provides a step-by-step guide to transforming your software into a reusable and scalable component of the SlapOS ecosystem. By the end of this tutorial, you will be equipped to package, deploy, and manage your application using SlapOS.
 
@@ -21,17 +20,14 @@ Porting your software to SlapOS provides several advantages:
 Before proceeding, ensure you have the following:
 
 1. **Basic Knowledge**:
-
     - Familiarity with Python and [[Buildout]].
     - Understanding of basic system administration and software packaging.
 
 1. **Development Environment**:
-
     - A local SlapOS node or access to a SlapOS Webrunner instance for development and testing.
     - Access to a terminal with administrative privileges.
 
 1. **Software Requirements**:
-
     - The software you wish to port, including all source code and dependencies.
     - An understanding of how the software is installed and configured.
 

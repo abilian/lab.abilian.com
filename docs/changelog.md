@@ -2,13 +2,19 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-12-31*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-02*)
+
+- **[Information Ecologies](/Tech/Tech & Society/Information Ecologies/)** in <small>[Tech](/Tech/00 Technology/) / [Tech & Society](/Tech/Tech & Society/Information Ecologies/)</small> (*2024-12-31*)
+
+- **[ISO-IEC 5230](/Tech/Security/ISO-IEC 5230/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-12-31*)
+
+- **[Hop3 and the 6 Pillars of Cloud Computing](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-12-31*)
+
+- **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
 
 
 
 ## Changed last 30 to 7 days
-
-- **[Hop3 and the 6 Pillars of Cloud Computing](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-12-20*)
 
 - **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-20*)
 
@@ -467,8 +473,6 @@
 - **[Cython+ (2020-2022)](/Projects/Cython+/Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
 
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
-
-- **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-11-13*)
 
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2024-11-13*)
 

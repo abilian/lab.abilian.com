@@ -144,7 +144,6 @@ Et [cette page](https://www.nexedi.com/NXD-Blog.Cython.Multithreaded.Coroutines)
 
 Si cela t'intéresse, j'aimerais bien avoir une évaluation de haproxy vs. lwan selon les mêmes principes.
 
----
 
 ## More recent links (2022/12)
 

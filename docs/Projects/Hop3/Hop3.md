@@ -5,6 +5,12 @@ It is designed to facilitate access to cloud technologies for a wide range of us
 
 → <https://github.com/abilian/hop3>
 
+## Related
+
+- [[Roadmap]] - See also the one on <https://github.com/abilian/hop3> (probably more up to date)
+- [[Hop3 and the 6 Pillars of Cloud Computing]]
+
+
 <!-- Keywords -->
 #hop3 #cloud #security
 <!-- /Keywords -->

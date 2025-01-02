@@ -17,32 +17,24 @@ The standard adopts a **non-prescriptive approach**, allowing organizations to i
 
 The main requirements of ISO/IEC 5230 are centered on ensuring a consistent and effective open source compliance program, including:
 
-1. **Policy and Scope:**
-    - Establishing an open source policy and defining its scope, such as product lines or organizational areas it applies to.
-2. **Training and Competence:**
-    - Ensuring staff involved in compliance processes have adequate legal and technical training.
+1. **Policy and Scope:** Establishing an open source policy and defining its scope, such as product lines or organizational areas it applies to.
+2. **Training and Competence:** Ensuring staff involved in compliance processes have adequate legal and technical training.
 3. **Compliance Management:**
-    - Implementing processes for identifying, tracking, and fulfilling licensing obligations, including generating a **Bill of Materials (BoM)** for OSS components.
+    - Implementing processes for identifying, tracking, and fulfilling licensing obligations, including generating a **[[SBOM]] (Software Bill of Materials)** for OSS components.
     - Archiving compliance artifacts and making them available as required.
-4. **Risk Awareness:**
-    - Raising awareness among program participants about potential risks associated with open source usage, such as license incompatibilities or copyleft requirements.
-5. **Community Engagement:**
-    - Guidelines for interacting with the open source community and contributing back to projects.
-6. **Resource Allocation:**
-    - Ensuring compliance offices have adequate resources to maintain and improve the program.
-7. **Flexibility:**    
-    - The standard does not prescribe specific tools or methodologies but mentions examples like **SPDX (ISO/IEC 5962)** for managing compliance artifacts.
+4. **Risk Awareness:** Raising awareness among program participants about potential risks associated with open source usage, such as license incompatibilities or copyleft requirements.
+5. **Community Engagement:** Guidelines for interacting with the open source community and contributing back to projects.
+6. **Resource Allocation:** Ensuring compliance offices have adequate resources to maintain and improve the program.
+7. **Flexibility:** The standard does not prescribe specific tools or methodologies but mentions examples like **SPDX (ISO/IEC 5962)** for managing compliance artifacts.
 
 ### Certification Process
 
 Organizations can demonstrate compliance with ISO/IEC 5230 in two main ways:
 
-1. **Self-Certification:**
-    - Through the [OpenChain Project’s web app](https://openchainproject.org/checklist-iso-5230-2020), enabling free and accessible self-assessment.
-2. **Third-Party Certification:**
-    - Conducted by accredited certification bodies following the ISO/IEC 17021 framework. The process involves:
-        - **Stage 1 Audit:** Preliminary review of documentation and processes to confirm readiness.
-        - **Stage 2 Audit:** Comprehensive evaluation of the compliance program's implementation and operation.
+1. **Self-Certification:** Through the [OpenChain Project’s web app](https://openchainproject.org/checklist-iso-5230-2020), enabling free and accessible self-assessment.
+2. **Third-Party Certification:** Conducted by accredited certification bodies following the ISO/IEC 17021 framework. The process involves:
+    - **Stage 1 Audit:** Preliminary review of documentation and processes to confirm readiness.
+    - **Stage 2 Audit:** Comprehensive evaluation of the compliance program's implementation and operation.
 
 Certified organizations are subject to periodic audits to ensure continued compliance. The frequency of these audits depends on the organization’s development and the maturity of its compliance program.
 
@@ -52,17 +44,11 @@ ISO/IEC 5230 has been widely adopted across industries, including automotive, el
 
 ### Benefits of ISO/IEC 5230
 
-1. **Improved Supply Chain Reliability:**
-    - Ensures a consistent approach to managing OSS components across software supply chains.
-2. **Risk Mitigation:**
-    - Reduces legal and operational risks by ensuring compliance with open source license obligations.
-3. **Enhanced Procurement Processes:**
-    - Simplifies negotiations and contract terms involving OSS components.
-4. **Scalability and Flexibility:**
-    - Applicable to organizations of all sizes and adaptable to various operational contexts.
-5. **Trust and Transparency:**
-    - Certification demonstrates a commitment to global best practices, building trust with partners and clients.
-
+1. **Improved Supply Chain Reliability:** Ensures a consistent approach to managing OSS components across software supply chains.
+2. **Risk Mitigation:** Reduces legal and operational risks by ensuring compliance with open source license obligations.
+3. **Enhanced Procurement Processes:** Simplifies negotiations and contract terms involving OSS components.
+4. **Scalability and Flexibility:** Applicable to organizations of all sizes and adaptable to various operational contexts.
+5. **Trust and Transparency:** Certification demonstrates a commitment to global best practices, building trust with partners and clients.
 
 ## References
 
