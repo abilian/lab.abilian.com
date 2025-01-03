@@ -2,29 +2,73 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-02*)
+- **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-01-09*)
 
-- **[Information Ecologies](/Tech/Tech & Society/Information Ecologies/)** in <small>[Tech](/Tech/00 Technology/) / [Tech & Society](/Tech/Tech & Society/Information Ecologies/)</small> (*2024-12-31*)
+- **[Linux Package Management Cheat Sheet](/Tech/Linux/Packaging/Linux Package Management Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-01-09*)
 
-- **[ISO-IEC 5230](/Tech/Security/ISO-IEC 5230/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-12-31*)
+- **[OSS Principles and Values](/Tech/FOSS/OSS Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-09*)
 
-- **[Hop3 and the 6 Pillars of Cloud Computing](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-12-31*)
+- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-09*)
 
-- **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
+- **[Gaia-X](/Tech/Cloud/Gaia-X/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-09*)
+
+- **[Quotes on Free & Open Source Software](/Tech/FOSS/Quotes on Free & Open Source Software/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-05*)
+
+- **[TALER](/Tech/Payment/TALER/)** in <small>[Tech](/Tech/00 Technology/) / [Payment](/Tech/Payment/Stripe/)</small> (*2025-01-03*)
+
+- **[Modern Linux](/Tech/Linux/Modern Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2025-01-03*)
+
+- **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
+
+- **[SlapOS - Introduction](/Tech/Cloud/SlapOS/SlapOS - Introduction/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
+
+- **[SlapOS - Best Practices & Guidelines](/Tech/Cloud/SlapOS/SlapOS - Best Practices & Guidelines/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
+
+- **[Porting Software to SlapOS - Tutorial](/Tech/Cloud/SlapOS/Porting Software to SlapOS - Tutorial/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
+
+- **[Buildout - Tutorial](/Tech/Cloud/SlapOS/Buildout - Tutorial/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
+
+- **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-03*)
+
+- **[Todo-Lists Management](/Business/Personal Knowledge Management/Todo-Lists Management/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
+
+- **[The Science of PKM](/Business/Personal Knowledge Management/The Science of PKM/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
+
+- **[The Forster Method - DIT](/Business/Personal Knowledge Management/The Forster Method - DIT/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
+
+- **[Personal Knowledge Management (PKM)](/Business/Personal Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
+
+- **[Mind Mapping](/Business/Personal Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
+
+- **[Linking Your Thinking](/Business/Personal Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
 
 
 
 ## Changed last 30 to 7 days
 
-- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-20*)
+- **[Information Ecologies](/Tech/Tech & Society/Information Ecologies/)** in <small>[Tech](/Tech/00 Technology/) / [Tech & Society](/Tech/Tech & Society/Information Ecologies/)</small> (*2025-01-02*)
 
-- **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
+- **[ISO-IEC 5230](/Tech/Security/ISO-IEC 5230/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2025-01-02*)
 
-- **[Porting Software to SlapOS - Tutorial](/Tech/Cloud/SlapOS/Porting Software to SlapOS - Tutorial/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
+- **[SlapOS - Q&A](/Tech/Cloud/SlapOS/SlapOS - Q&A/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-02*)
 
-- **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
+- **[SlapOS - Key Concepts](/Tech/Cloud/SlapOS/SlapOS - Key Concepts/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-02*)
 
-- **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout/)</small> (*2024-12-20*)
+- **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2025-01-02*)
+
+- **[Hop3 and the 6 Pillars of Cloud Computing](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2025-01-02*)
+
+- **[HyperOpenX](/Projects/HOX/HyperOpenX/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2025-01-02*)
+
+- **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2025-01-02*)
+
+- **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2025-01-02*)
+
+- **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
+
+- **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
+
+- **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
 
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-12-19*)
 
@@ -35,6 +79,10 @@
 - **[HyperOpen X - A year in review (2024)](/Projects/HOX/HyperOpen X - A year in review (2024)/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-12-17*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[SBOM](/Tech/Security/SBOM/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-12-09*)
 
@@ -59,10 +107,6 @@
 - **[RAG](/Tech/AI & Machine Learning/RAG/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
 
 - **[LLM - Lessons learned (2024)](/Tech/AI & Machine Learning/LLM - Lessons learned (2024)/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2024-11-27*)
 
@@ -89,8 +133,6 @@
 - **[Detailed stats on vue UI frameworks](/Tech/Web/UX-UI/Detailed stats on vue UI frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
 
 - **[Common Web Design Mistakes](/Tech/Web/UX-UI/Common Web Design Mistakes/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-25*)
-
-- **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2024-11-25*)
 
 - **[Zero Trust Architecture](/Tech/Security/Zero Trust Architecture/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-25*)
 
@@ -370,8 +412,6 @@
 
 - **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
-- **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
-
 - **[Prometheus](/Tech/Cloud/Prometheus/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
 - **[Observability](/Tech/Cloud/Observability/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
@@ -468,11 +508,7 @@
 
 - **[State of the Art - Web server](/Projects/Cython+/Web server/State of the Art - Web server/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-11-13*)
 
-- **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
-
 - **[Cython+ (2020-2022)](/Projects/Cython+/Cython+ (2020-2022)/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
-
-- **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
 
 - **[The Heilmeier Catechism](/Business/R&D and Innovation/The Heilmeier Catechism/)** in <small>[Business](/Business/00 Business/) / [R&D and Innovation](/Business/R&D and Innovation/Technology Readiness Level/)</small> (*2024-11-13*)
 
@@ -495,10 +531,6 @@
 - **[Attracting and Retaining Talent](/Business/Management Competencies/Attracting and Retaining Talent/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2024-11-13*)
 
 - **[Ambiguity](/Business/Management Competencies/Ambiguity/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2024-11-13*)
-
-- **[The Science of PKM](/Business/Knowledge Management/The Science of PKM/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-13*)
-
-- **[Personal Knowledge Management (PKM)](/Business/Knowledge Management/Personal Knowledge Management (PKM)/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-13*)
 
 - **[Is knowledge management dead (or dying)?](/Business/Knowledge Management/Is knowledge management dead (or dying)?/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-13*)
 
@@ -686,8 +718,6 @@
 
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-11-13*)
 
-- **[Principles and Values](/Tech/FOSS/Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2024-11-13*)
-
 - **[Yoshai Benkler](/Tech/FOSS/People/Yoshai Benkler/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-13*)
 
 - **[Roberto Di Cosmo](/Tech/FOSS/People/Roberto Di Cosmo/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-13*)
@@ -707,8 +737,6 @@
 - **[READMEs](/Tech/Documentation/READMEs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-11-13*)
 
 - **[Obsidian + Mkdocs](/Tech/Documentation/Obsidian + Mkdocs/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-11-13*)
-
-- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2024-11-13*)
 
 - **[Pyinfra](/Tech/Devops & Cloud/Pyinfra/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-11-13*)
 
@@ -780,8 +808,6 @@
 
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
-- **[Hop3](/Projects/Hop3/Hop3/)** in <small>[Projects](/Projects/00 Projects/) / [Hop3](/Projects/Hop3/Hop3 and the 6 Pillars of Cloud Computing/)</small> (*2024-11-13*)
-
 - **[libreactor](/Projects/Cython+/libreactor/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2024-11-13*)
 
 - **[Mongrel2](/Projects/Cython+/Web server/Mongrel2/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/) / [Web server](/Projects/Cython+/Web server/Mongrel2/)</small> (*2024-11-13*)
@@ -815,10 +841,6 @@
 - **[Action Orientation](/Business/Management Competencies/Action Orientation/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2024-11-13*)
 
 - **[Accountability](/Business/Management Competencies/Accountability/)** in <small>[Business](/Business/00 Business/) / [Management Competencies](/Business/Management Competencies/Accountability/)</small> (*2024-11-13*)
-
-- **[Mind Mapping](/Business/Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-13*)
-
-- **[Linking Your Thinking](/Business/Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-13*)
 
 - **[KM at SMEs](/Business/Knowledge Management/KM at SMEs/)** in <small>[Business](/Business/00 Business/) / [Knowledge Management](/Business/Knowledge Management/Concept Maps/)</small> (*2024-11-13*)
 

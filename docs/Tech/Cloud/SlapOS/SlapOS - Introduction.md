@@ -147,4 +147,3 @@ Full tutorial → [[Porting Software to SlapOS - Tutorial]].
 - Merge development branches into `master`.
 - Create a new release tag.
 - Add the Software Release to SlapOS automated testing pipelines.
-

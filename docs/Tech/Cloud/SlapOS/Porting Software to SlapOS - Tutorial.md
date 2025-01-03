@@ -927,7 +927,6 @@ config-port = ${instance-parameter:configuration.port}
     curl http://0.0.0.0:5000
     ```
 
-
 #### Check Monitoring
 
 1. Confirm the promise is reporting the application's health.
@@ -939,7 +938,6 @@ config-port = ${instance-parameter:configuration.port}
 - Add log rotation to manage application logs.
 - Extend the application to support custom configurations or additional dependencies.
 - Publish the Software Release following the steps in the "Freezing and Releasing the Software" section.
-
 
 ## Troubleshooting
 
@@ -980,7 +978,6 @@ When porting software to SlapOS, challenges can arise. This section addresses co
         ```bash
         buildout -vvvv
         ```
-
 
 ### Promises Failing Consistently
 
@@ -1031,7 +1028,6 @@ When porting software to SlapOS, challenges can arise. This section addresses co
 - Test the software on a local SlapOS node or Webrunner.
 - Verify both the Software Release (`software.cfg`) and the Instance Profile (`instance.cfg.in`) independently.
 
-
 ## Conclusion
 
 Porting software to SlapOS involves preparing the application, creating reusable profiles, and leveraging SlapOS features for scalability and reliability. This tutorial provided a structured approach to:
@@ -1046,102 +1042,20 @@ Porting software to SlapOS involves preparing the application, creating reusable
 ### Next Steps
 
 1. **Extend Your Profiles**:
-
     - Add more advanced monitoring and logging.
     - Explore multi-instance deployments for scalability.
 
 2. **Publish Your Software**:
-
     - Tag and release your Software Release for public or private deployment.
     - Add your release to the SlapOS catalog.
 
 3. **Learn More**:
-
     - Explore the SlapOS [documentation](https://slapos.nexedi.com/).
     - Study advanced recipes and components from the SlapOS repository.
 
 4. **Experiment with Other Applications**:
-
     - Apply these principles to port more complex applications like databases, web servers, or distributed systems.
 
 ## Glossary
 
-### Anomaly
-
-A recurring failure detected by a **Promise** in SlapOS. When multiple failures are logged over a specified number of tests, the system triggers an alert (called a "bang") to initiate corrective actions.
-
-### Bang
-
-An automated action triggered by SlapOS in response to anomalies detected by Promises. This action can include restarting instances, reinitializing processes, or reporting issues to the Master.
-
-### Buildout
-
-A Python-based build system used by SlapOS to define, install, and manage software environments. It uses configuration files (`software.cfg`, `instance.cfg.in`) to automate the setup and instantiation of applications.
-
-### Computer Partition
-
-A self-contained, lightweight container within a SlapOS Node. It isolates resources (e.g., storage, configurations, services) to host individual software instances securely and efficiently.
-
-### Component
-
-A reusable building block in SlapOS that provides a specific library, utility, or functionality. Components are stored in the `component` directory and shared across multiple software profiles.
-
-### Instance Profile
-
-A configuration file (`instance.cfg.in`) defining how a specific instance of software should behave. It includes instance-specific parameters, dynamic configurations, and monitoring logic.
-
-### Jinja2
-
-A templating engine used in SlapOS to dynamically generate configuration files based on instance parameters. It simplifies configuration management and allows customization during instantiation.
-
-### Logrotate
-
-A utility integrated into SlapOS to manage application logs. It rotates, compresses, and archives logs to ensure efficient storage usage and prevent overflow.
-
-### Master
-
-The central management system in SlapOS. It handles node orchestration, monitors software instances, and manages requests for new deployments.
-
-### MD5 Checksum
-
-A cryptographic hash used to verify the integrity of downloaded resources in SlapOS. Each external resource referenced in `software.cfg` must include its MD5 checksum to ensure consistency and security.
-
-### Node
-
-A physical or virtual machine that hosts SlapOS instances. Each node is divided into **Computer Partitions** managed by the SlapOS Master.
-
-### Promise
-
-A lightweight monitoring script in SlapOS. Promises ensure the reliability of software instances by checking specific metrics, such as process health or network connectivity.
-
-### Sense-Test-Anomaly Workflow
-
-The three-phase process used by Promises in SlapOS:
-
-- **Sense**: Collect system data or metrics.
-- **Test**: Evaluate the data to determine the health of the instance.
-- **Anomaly**: Trigger corrective actions if repeated failures are detected.
-
-### Shacache
-
-A distributed cache system used by SlapOS to store precompiled binaries and software resources. It speeds up deployments and ensures consistency across nodes.
-
-### SlapOS
-
-An open-source, decentralized cloud operating system that automates the deployment and management of software across distributed infrastructure.
-
-### Software Profile
-
-A configuration file (`software.cfg`) defining how to install software and its dependencies in SlapOS. It provides the blueprint for creating reusable **Software Releases**.
-
-### Software Instance
-
-A specific deployment of a **Software Release** within a **Computer Partition**. Instances are tailored to user requirements using **Instance Profiles**.
-
-### Software Release
-
-A reusable, versioned package of software created using a **Software Profile**. It includes all dependencies and installation instructions but lacks instance-specific configurations.
-
-### Wrapper
-
-A script or executable created by SlapOS to manage the execution of software or services. Wrappers often include parameters, paths, and environmental variables specific to the instance.
+See [[SlapOS - Key Concepts]]
