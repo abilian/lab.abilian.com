@@ -2,21 +2,25 @@
 
 ## Recent changes (last 7 days)
 
-- **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-01-09*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-12*)
 
-- **[Linux Package Management Cheat Sheet](/Tech/Linux/Packaging/Linux Package Management Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-01-09*)
 
-- **[OSS Principles and Values](/Tech/FOSS/OSS Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-09*)
 
-- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-09*)
+## Changed last 30 to 7 days
 
-- **[Gaia-X](/Tech/Cloud/Gaia-X/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-09*)
-
-- **[Quotes on Free & Open Source Software](/Tech/FOSS/Quotes on Free & Open Source Software/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-05*)
+- **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-01-03*)
 
 - **[TALER](/Tech/Payment/TALER/)** in <small>[Tech](/Tech/00 Technology/) / [Payment](/Tech/Payment/Stripe/)</small> (*2025-01-03*)
 
+- **[Linux Package Management Cheat Sheet](/Tech/Linux/Packaging/Linux Package Management Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-01-03*)
+
 - **[Modern Linux](/Tech/Linux/Modern Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2025-01-03*)
+
+- **[Quotes on Free & Open Source Software](/Tech/FOSS/Quotes on Free & Open Source Software/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-03*)
+
+- **[OSS Principles and Values](/Tech/FOSS/OSS Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-03*)
+
+- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-03*)
 
 - **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
 
@@ -30,6 +34,8 @@
 
 - **[Proxmox](/Tech/Cloud/Proxmox/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-03*)
 
+- **[Gaia-X](/Tech/Cloud/Gaia-X/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-03*)
+
 - **[Todo-Lists Management](/Business/Personal Knowledge Management/Todo-Lists Management/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
 
 - **[The Science of PKM](/Business/Personal Knowledge Management/The Science of PKM/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
@@ -41,10 +47,6 @@
 - **[Mind Mapping](/Business/Personal Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
 
 - **[Linking Your Thinking](/Business/Personal Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Information Ecologies](/Tech/Tech & Society/Information Ecologies/)** in <small>[Tech](/Tech/00 Technology/) / [Tech & Society](/Tech/Tech & Society/Information Ecologies/)</small> (*2025-01-02*)
 
