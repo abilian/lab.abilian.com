@@ -3,7 +3,7 @@
 ## Lighweight VMS
 
 - https://firecracker-microvm.github.io/
-- Kata containers
+- Kata containers: https://katacontainers.io/
 - https://github.com/newsnowlabs/runcvm
 
 ## Unikernels
@@ -30,6 +30,17 @@
 - Nixos
 - https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html
 - LXC
+
+## Specific to one language
+
+### Python
+
+- https://github.com/zopefoundation/RestrictedPython (still actively developped, actually)
+
+## Historical (obsolete) approaches
+
+- https://en.wikipedia.org/wiki/ZeroVM
+
 
 <!-- Keywords -->
 #qemu #vms

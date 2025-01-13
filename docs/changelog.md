@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-12*)
+- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-12*)
 
 
 
@@ -19,8 +19,6 @@
 - **[Quotes on Free & Open Source Software](/Tech/FOSS/Quotes on Free & Open Source Software/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-03*)
 
 - **[OSS Principles and Values](/Tech/FOSS/OSS Principles and Values/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/)</small> (*2025-01-03*)
-
-- **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-03*)
 
 - **[SlapOS](/Tech/Cloud/SlapOS/SlapOS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2025-01-03*)
 
