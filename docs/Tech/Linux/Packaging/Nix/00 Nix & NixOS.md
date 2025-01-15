@@ -19,7 +19,10 @@ https://www.youtube.com/watch?v=CwfKlX3rA6E "One day, as happens now and then wi
 
 ## Comments
 
-https://lwn.net/Articles/962788/ "A look at Nix and Guix"
+- https://lwn.net/Articles/962788/ "A look at Nix and Guix"
+- https://www.dgt.is/blog/2025-01-10-nix-death-by-a-thousand-cuts/ "Nix - Death by a thousand cuts"
+    - The author, a seasoned software engineer with extensive Linux experience, details their two-year journey using NixOS as their primary operating system. They praise Nix's declarative configuration, reproducibility, easy service management, and ephemeral development shells. However, they ultimately conclude that NixOS, in its current state (2025), is not recommended for desktop use, even for experienced Linux users. The author highlights issues such as the complexity of the Nix language, inconsistent package quality and documentation, resource usage, and a fragmented workflow due to multiple ways of achieving the same task. They also describe numerous specific problems encountered with desktop integration, ZFS setup, symbolic links, development tools like npm and Conda, and various applications. Despite appreciating Nix's potential and the helpful community, the author decides to scale back their NixOS usage, citing the constant need for troubleshooting and the feeling of being stuck in "Nix Purgatory" – aware of Nix's benefits but burdened by its complexities.
+- https://news.ycombinator.com/item?id=42666851 HN comments on the previous post
 
 ## Tools
 
