@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-16*)
+
+- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-15*)
+
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-13*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-12*)
@@ -365,8 +369,6 @@
 - **[Anatomy of a NixOS Service Description](/Tech/Linux/Packaging/Nix/Anatomy of a NixOS Service Description/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
 - **[Anatomy of a Nix Package](/Tech/Linux/Packaging/Nix/Anatomy of a Nix Package/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
-
-- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
 - **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
 
