@@ -4,7 +4,7 @@
 
 Welcome to the Abilian Innovation Lab!
 
-## Our projects
+## Our R&D projects
 
 ### Ongoing
 
@@ -21,6 +21,12 @@ Welcome to the Abilian Innovation Lab!
 [Cython+](./Projects/Cython+/00 Cython+/): The "Cython+" project aimed to transfer the extremely powerful multi-core concurrent programming model of the Go language to the Python language by relying on scientific and technological approaches stemming from three decades of French know-how in the field of concurrent object programming around Actalk.
 
 [Wendelin](./Projects/Wendelin (2014-2019)): The Wendelin project was a bold initiative to develop a superior open-source big data engine. It was designed as a hybrid solution that combined scikit-learn's machine learning capabilities with NEO's distributed storage framework, aiming to bridge powerful data analytics with scalable and efficient storage. By doing so, Wendelin offered out-of-core processing functionality for large datasets, leveraging Python’s rich ecosystem, particularly Numpy.
+
+## Our websites
+
+[Euro Stack](https://www.euro-stack.com) - Euro Stack is a comprehensive directory of European-made and European-supported digital solutions, including cloud services, open-source technologies, and interoperable tools. Our mission is to promote European technological sovereignty by connecting individuals, businesses, and public organizations with solutions designed to align with European values of transparency, privacy, and sustainability.
+
+[Abilian](https://www.abilian.com) - Abilian is a France-based company dedicated to advancing open-source technologies and digital commons. Abilian brings years of experience in building and supporting solutions that align with Europe’s values and priorities.
 
 
 ## Our technology knowledge base

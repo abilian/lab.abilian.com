@@ -64,5 +64,3 @@ From: https://news.ycombinator.com/item?id=42666851
 **Overall sentiment:**
 
 The discussion reflects a mixed but generally positive view of Nix and NixOS. While acknowledging its flaws and challenges, many users recognize its potential and appreciate the benefits it offers, particularly in terms of reproducibility, declarative configuration, and system stability. The community is actively working to address the usability issues and improve the overall experience, but there's a consensus that Nix still has a way to go before it can be considered a mainstream, user-friendly system for everyone.
-
-
