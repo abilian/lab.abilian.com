@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-16*)
-
 - **[Nix Evaluation](/Tech/Linux/Packaging/Nix/Nix Evaluation/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-16*)
 
 - **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-15*)
@@ -82,15 +80,15 @@
 
 - **[Content Addressable Storage (CAS)](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-12-19*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
 - **[HyperOpen X - A year in review (2024)](/Projects/HOX/HyperOpen X - A year in review (2024)/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
 - **[Tailwind](/Tech/Web/UX-UI/Tailwind/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-12-17*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[SBOM](/Tech/Security/SBOM/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-12-09*)
 
