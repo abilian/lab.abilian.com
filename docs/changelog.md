@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-01-19*)
-
 - **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2025-01-18*)
 
 - **[uv](/Tech/Python/Tooling/uv/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2025-01-17*)
@@ -78,13 +76,13 @@
 
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
 
-- **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
-
-- **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
+
+- **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
 
 - **[Nixpacks](/Tech/Linux/Packaging/Nix/Nixpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-12-19*)
 
