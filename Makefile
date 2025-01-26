@@ -13,7 +13,7 @@ sync:
 	uv run lab changelog
 
 deploy: build
-	rsync -e ssh --delete-after -avz site/ web@lab.abilian.com:/srv/web/lab.abilian.com/
+	invoke deploy
 
 clean:
 	rm -rf docs site
