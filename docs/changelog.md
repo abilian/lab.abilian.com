@@ -1,5 +1,11 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[Causal Inference in Python](/Tech/AI & Machine Learning/Causal Inference in Python/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-01-31*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Marketing Trends for 2025](/Business/Marketing/Marketing Trends for 2025/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
