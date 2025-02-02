@@ -2,6 +2,8 @@
 
 ## Recent changes (last 7 days)
 
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-02*)
+
 - **[Causal Inference in Python](/Tech/AI & Machine Learning/Causal Inference in Python/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-01-31*)
 
 
@@ -62,6 +64,10 @@
 
 - **[Linking Your Thinking](/Business/Personal Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Information Ecologies](/Tech/Tech & Society/Information Ecologies/)** in <small>[Tech](/Tech/00 Technology/) / [Tech & Society](/Tech/Tech & Society/Information Ecologies/)</small> (*2025-01-02*)
 
 - **[ISO-IEC 5230](/Tech/Security/ISO-IEC 5230/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2025-01-02*)
@@ -79,10 +85,6 @@
 - **[Some remarks about the Cython code base](/Projects/Cython+/Some remarks about the Cython code base/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2025-01-02*)
 
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2025-01-02*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
 
