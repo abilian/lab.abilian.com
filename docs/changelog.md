@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-02*)
+- **[Web Design - Home Page](/Business/Marketing/Web Design - Home Page/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-02-02*)
 
 - **[Causal Inference in Python](/Tech/AI & Machine Learning/Causal Inference in Python/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-01-31*)
 
@@ -25,6 +25,10 @@
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-01-13*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-12*)
+
+
+
+## Changed last 90 to 30 days
 
 - **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-01-03*)
 
@@ -63,10 +67,6 @@
 - **[Mind Mapping](/Business/Personal Knowledge Management/Mind Mapping/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
 
 - **[Linking Your Thinking](/Business/Personal Knowledge Management/Linking Your Thinking/)** in <small>[Business](/Business/00 Business/) / [Personal Knowledge Management](/Business/Personal Knowledge Management/Linking Your Thinking/)</small> (*2025-01-03*)
-
-
-
-## Changed last 90 to 30 days
 
 - **[Information Ecologies](/Tech/Tech & Society/Information Ecologies/)** in <small>[Tech](/Tech/00 Technology/) / [Tech & Society](/Tech/Tech & Society/Information Ecologies/)</small> (*2025-01-02*)
 
