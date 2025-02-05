@@ -5,6 +5,7 @@
 - Wasmer
 - WAMR
 - https://github.com/bytecodealliance/wasmtime-py "Python WebAssembly runtime powered by Wasmtime"
+- https://github.com/irrio/semblance - Simple WASM interpreter runtime in C (4000 CLOC)
 
 ## Python in WASM
 
