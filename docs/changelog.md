@@ -2,7 +2,9 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-05*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-06*)
+
+- **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-02-05*)
 
 - **[Web Design - Home Page](/Business/Marketing/Web Design - Home Page/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-02-02*)
 
@@ -585,8 +587,6 @@
 - **[GraphQL](/Tech/Web/Web (back-end)/GraphQL/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-11-13*)
 
 - **[Benchmarks HTTP](/Tech/Web/Web (back-end)/Benchmarks HTTP/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-11-13*)
-
-- **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2024-11-13*)
 
 - **[Vue](/Tech/Web/UX-UI/Vue/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2024-11-13*)
 
