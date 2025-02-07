@@ -24,6 +24,8 @@
 ## Jail
 
 - https://github.com/fsquillace/junest = The lightweight Arch Linux based distro that runs, without root privileges, upon any Linux distro
+- https://nsjail.dev/ "NsJail is a lightweight process isolation tool leveraging Linux namespaces and seccomp-bpf to enhance security and resource management across our infrastructure." 
+    - → [[Nsjail]]
 
 ## Other approaches
 
