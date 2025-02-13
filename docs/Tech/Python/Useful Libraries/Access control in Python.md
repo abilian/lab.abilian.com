@@ -45,11 +45,25 @@ https://github.com/evernym/sgl
 
 https://docs.permit.io/sdk/python/usage-example
 
+cf. also: https://github.com/permitio/opal
+
 ### Cerbos
 
 https://github.com/cerbos/cerbos-sdk-python
 
-### OSO
+### Cadurso
+
+https://github.com/flipbit03/cadurso "Authorization framework for Python-based applications. Inspired by Oso."
+
+### Django Rules
+
+https://github.com/dfunckt/django-rules?tab=readme-ov-file#using-rules-with-django
+
+Also: flask-fork → https://github.com/abilian/flask-rules (not finished)
+
+### Oso
+
+NB: Oso is now dead.
 
 API:
 
