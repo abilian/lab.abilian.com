@@ -2,13 +2,19 @@
 
 ## Recent changes (last 7 days)
 
-- **[Nsjail](/Tech/Cloud/Nsjail/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-07*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-14*)
 
-- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-07*)
+- **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-02-13*)
+
+- **[Access control in Python](/Tech/Python/Useful Libraries/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-02-13*)
 
 
 
 ## Changed last 30 to 7 days
+
+- **[Nsjail](/Tech/Cloud/Nsjail/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-07*)
+
+- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-07*)
 
 - **[WASM](/Tech/Web/WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-02-05*)
 
@@ -26,11 +32,11 @@
 
 - **[Nix Evaluation](/Tech/Linux/Packaging/Nix/Nix Evaluation/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-16*)
 
-- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-15*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-15*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-12*)
 
@@ -202,8 +208,6 @@
 
 - **[Python & SSH](/Tech/Python/Useful Libraries/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
-- **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
-
 - **[GoDaddy & Thespian](/Tech/Python/Useful Libraries/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
 - **[Components and Services](/Tech/Python/Useful Libraries/Components and Services/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
@@ -211,8 +215,6 @@
 - **[Component vs. plugin architectures](/Tech/Python/Useful Libraries/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
 - **[Baozi](/Tech/Python/Useful Libraries/Baozi/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
-
-- **[Access control in Python](/Tech/Python/Useful Libraries/Access control in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
 - **[(Pretty) tables in Python](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
@@ -272,15 +274,15 @@
 
 - **[Parsing](/Tech/Python/Useful Libraries/Parsing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-16*)
 
+
+
+## Earlier changes
+
 - **[Joblib caching](/Tech/Python/Useful Libraries/Joblib caching/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-15*)
 
 - **[Hypertag](/Tech/Python/Useful Libraries/Hypertag/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-15*)
 
 - **[Rust](/Tech/Programming Languages/Rust/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-15*)
-
-
-
-## Earlier changes
 
 - **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-14*)
 
