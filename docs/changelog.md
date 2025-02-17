@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-16*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-17*)
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-15*)
 
@@ -26,11 +26,11 @@
 
 - **[MVB - Minimal Viable Branding](/Business/Marketing/MVB - Minimal Viable Branding/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
 
-- **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2025-01-18*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2025-01-18*)
 
 - **[uv](/Tech/Python/Tooling/uv/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2025-01-17*)
 
@@ -260,6 +260,10 @@
 
 - **[DGFIP Report - Desktop Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-19*)
 
+
+
+## Earlier changes
+
 - **[Zanzibar](/Tech/Security/Zanzibar/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
 - **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
@@ -271,10 +275,6 @@
 - **[LLM, AI and RAG stuff](/Tech/AI & Machine Learning/LLM, AI and RAG stuff/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-18*)
 
 - **[Public Benefit Companies](/Business/Legal/Public Benefit Companies/)** in <small>[Business](/Business/00 Business/) / [Legal](/Business/Legal/Public Benefit Companies/)</small> (*2024-11-18*)
-
-
-
-## Earlier changes
 
 - **[Parsing](/Tech/Python/Useful Libraries/Parsing/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-16*)
 
