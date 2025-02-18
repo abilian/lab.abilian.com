@@ -2,8 +2,6 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-17*)
-
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-15*)
 
 - **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-02-13*)
@@ -186,6 +184,10 @@
 
 - **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-25*)
 
+
+
+## Earlier changes
+
 - **[FASTEN](/Tech/Python/Tooling/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-19*)
 
 - **[Software Forges](/Tech/Apps/Software Forges/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-19*)
@@ -259,10 +261,6 @@
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-19*)
 
 - **[DGFIP Report - Desktop Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-19*)
-
-
-
-## Earlier changes
 
 - **[Zanzibar](/Tech/Security/Zanzibar/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
