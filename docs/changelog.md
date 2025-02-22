@@ -2,11 +2,13 @@
 
 ## Recent changes (last 7 days)
 
-- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-15*)
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-02-22*)
 
 
 
 ## Changed last 30 to 7 days
+
+- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-15*)
 
 - **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-02-13*)
 
@@ -20,13 +22,13 @@
 
 - **[Causal Inference in Python](/Tech/AI & Machine Learning/Causal Inference in Python/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-01-31*)
 
-- **[Marketing Trends for 2025](/Business/Marketing/Marketing Trends for 2025/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
-
-- **[MVB - Minimal Viable Branding](/Business/Marketing/MVB - Minimal Viable Branding/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Marketing Trends for 2025](/Business/Marketing/Marketing Trends for 2025/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
+
+- **[MVB - Minimal Viable Branding](/Business/Marketing/MVB - Minimal Viable Branding/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
 
 - **[Donella Meadows](/Business/Authors & Leaders/Donella Meadows/)** in <small>[Business](/Business/00 Business/) / [Authors & Leaders](/Business/Authors & Leaders/00 Authors/)</small> (*2025-01-18*)
 
