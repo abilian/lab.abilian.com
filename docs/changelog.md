@@ -136,6 +136,10 @@
 
 - **[Automation](/Tech/Devops & Cloud/Automation/)** in <small>[Tech](/Tech/00 Technology/) / [Devops & Cloud](/Tech/Devops & Cloud/Automation/)</small> (*2024-11-26*)
 
+
+
+## Earlier changes
+
 - **[Shell in Python](/Tech/Python/Useful Libraries/Shell in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-25*)
 
 - **[Actor Model](/Tech/Python/Useful Libraries/Actor Model/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-25*)
@@ -179,10 +183,6 @@
 - **[VPN](/Tech/Apps/VPN/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-25*)
 
 - **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-25*)
-
-
-
-## Earlier changes
 
 - **[FASTEN](/Tech/Python/Tooling/FASTEN/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2024-11-19*)
 
