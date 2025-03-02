@@ -55,7 +55,7 @@
 - **Rebuild system and activate for now without updating bootloader**: `nixos-rebuild test`
 - **Rebuild without activating but update bootloader**: `nixos-rebuild boot`
 - **Rollback**: `nixos-rebuild switch --rollback`
-- **Build on host A, deploy to host B, authorize with sudo**:  
+- **Build on host A, deploy to host B, authorize with sudo**:
   `nixos-rebuild switch --build-host a --target-host b --use-remote-sudo`
 
 ### Garbage Collection
