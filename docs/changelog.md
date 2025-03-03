@@ -2,11 +2,11 @@
 
 ## Recent changes (last 7 days)
 
-- **[Nix cheat sheet](/Tech/Linux/Packaging/Nix/Nix cheat sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
+- **[Nix cheat sheet](/Tech/Linux/Packaging/Nix/Nix cheat sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
+
+- **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
 - **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
-
-- **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
 
 
 
@@ -24,11 +24,11 @@
 
 - **[Web Design - Home Page](/Business/Marketing/Web Design - Home Page/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-02-02*)
 
-- **[Causal Inference in Python](/Tech/AI & Machine Learning/Causal Inference in Python/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-01-31*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Causal Inference in Python](/Tech/AI & Machine Learning/Causal Inference in Python/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-01-31*)
 
 - **[Marketing Trends for 2025](/Business/Marketing/Marketing Trends for 2025/)** in <small>[Business](/Business/00 Business/) / [Marketing](/Business/Marketing/Copywriting/)</small> (*2025-01-22*)
 
