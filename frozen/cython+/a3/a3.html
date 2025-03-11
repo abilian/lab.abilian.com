@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="#4 - Concurrent programming: “Recorder” pattern and example of code optimization" href="../a4/a4.html" />
+  <link rel="prev" title="#2 - Standard classes" href="../a2/a2.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a1/a1.html" class="reference internal ">#1 - “Hello World!”</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a2/a2.html" class="reference internal ">#2 - Standard classes</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#actors-and-isolation-minimal-knowledge" class="reference internal">Actors and isolation: minimal knowledge</a></li>
+                
+                  <li class="toctree-l2"><a href="#a-scheduler-to-manage-queues-in-threads" class="reference internal">A scheduler to manage queues in threads</a></li>
+                
+                  <li class="toctree-l2"><a href="#compute-fibonacci-numbers-with-cython-actors" class="reference internal">Compute Fibonacci numbers with Cython+ actors</a></li>
+                
+                  <li class="toctree-l2"><a href="#the-setup-py-file" class="reference internal">The setup.py file</a></li>
+                
+                  <li class="toctree-l2"><a href="#funders" class="reference internal">Funders</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a4/a4.html" class="reference internal ">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a5/a5.html" class="reference internal ">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a6/a6.html" class="reference internal ">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../a2/a2.html"
+       title="previous chapter">← #2 - Standard classes</a>
+  </li>
+  <li class="next">
+    <a href="../a4/a4.html"
+       title="next chapter">#4 - Concurrent programming: “Recorder” pattern and example of code optimization →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="concurrent-programming-actor-paradigm-with-the-cython-cypclass">
+<h1>#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass<a class="headerlink" href="#concurrent-programming-actor-paradigm-with-the-cython-cypclass" title="Permalink to this headline">¶</a></h1>
+<p><strong><em>About Cython+ :</em></strong></p>
+<p><img alt="logo Cython+" src="../_images/cythonplus2.png" /> Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.</p>
+<p><strong><em>In this third article:</em></strong></p>
+<ul class="simple">
+<li><p>Actors and isolation: minimal knowledge</p></li>
+<li><p>A scheduler to manage queues in threads</p></li>
+<li><p>Compute Fibonacci numbers with Cython+ actors</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</p></li>
+</ul>
+<section id="actors-and-isolation-minimal-knowledge">
+<h2>Actors and isolation: minimal knowledge<a class="headerlink" href="#actors-and-isolation-minimal-knowledge" title="Permalink to this headline">¶</a></h2>
+<p>The goal of Cython+ is to provide a safe and efficient environment for concurrent
+programming.</p>
+<p>Basically, the actor paradigm is a principle of dividing computations into small,
+totally independent and isolated units of work. These isolated tasks can then be
+easily distributed into separate threads. The key points are: how to generate these
+isolated units of work, and of course how to retrieve the results. Those units of work
+are called <strong><em>actors</em></strong>.</p>
+<p>To achieve the creation of actors from cypclass instances, Cython+ provides some
+concepts and keywords. The goal is to achieve secure concurrency execution, without
+the complexity of locking management. Remember that Python uses the GIL to provide
+concurrency safety via this unique global lock, at the expense of limiting concurrent
+execution to 1 thread at any time.</p>
+<p>A variable is said to be <em>isolated</em> if it is the only entry point for all the data
+accessible from this variable. An isolated cypclass instance is eligible as an actor.
+A variable can be declared isolated with the keyword <strong>iso</strong>. Such a declaration will
+raise a compile-time or run-time error if this isolation condition is violated.</p>
+<p>The operand <strong>consume</strong> allows transferring the property of an instance of cypclass
+from one variable to another, by cutting the link of the old one. It also ensures the
+isolation of the instance and marks the variable as isolated. <strong>consume</strong> generates an
+error if the instance is not isolated.</p>
+<p>The <strong>activate</strong> operand transforms an isolated instance of cypclass into an actor:
+its methods can then be executed in complete safety on a thread.</p>
+<p>And finally a <strong>lock</strong> keyword allows protecting a cypclass instance by a locking
+mechanism.</p>
+<p>The basic structure to keep in mind is:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">my_actor</span> <span class="o">=</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">MyCypClass</span><span class="p">(</span><span class="n">args</span><span class="p">))</span>
+<span class="n">my_actor</span><span class="o">.</span><span class="n">method</span><span class="p">()</span>  <span class="c1"># the method can be safely executed in a thread</span>
+</pre></div>
+</div>
+<p>To summarize very briefly:</p>
+<ul class="simple">
+<li><p>the cypclass object can be “activated” and used as an actor,</p></li>
+<li><p>these actors can perform independent tasks distributed over several cores by a
+queuing mechanism.</p></li>
+</ul>
+<p>For more detailed theory, you can see:
+<em>“A Modular Actor Framework for Cython+”</em> <a class="reference external" href="https://www.cython.plus/P-CYP-Blog.Modular.Actor.Framework">https://www.cython.plus/P-CYP-Blog.Modular.Actor.Framework</a></p>
+</section>
+<section id="a-scheduler-to-manage-queues-in-threads">
+<h2>A scheduler to manage queues in threads<a class="headerlink" href="#a-scheduler-to-manage-queues-in-threads" title="Permalink to this headline">¶</a></h2>
+<p>For actor programming, we introduce two new libraries, <code class="docutils literal notranslate"><span class="pre">scheduler</span></code> and <code class="docutils literal notranslate"><span class="pre">pthread</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">pthread</span></code> contains a wrapper for the standard C libraries <code class="docutils literal notranslate"><span class="pre">pthread.h</span></code> and
+<code class="docutils literal notranslate"><span class="pre">semaphore.h</span></code>. In practice, we do not use these libraries directly. The whole
+threading mechanism is hidden from us by the scheduler.</p>
+<p><code class="docutils literal notranslate"><span class="pre">scheduler</span></code> is a class that creates multiple queues, usually one per system core, and
+dispatches actors to those queues.</p>
+<p>The scheduler provided by Cython+ uses a “work-stealing” algorithm: when a queue
+empties, it can “steal” a task from another. Thus, the workload is kept balanced
+between the threads.</p>
+<p>For more detailed theory, you can see:
+<em>“An M-to-N Actor Scheduler for Cython+”</em> <a class="reference external" href="https://www.cython.plus/P-CYP-Blog.Actor.Scheduler">https://www.cython.plus/P-CYP-Blog.Actor.Scheduler</a></p>
+</section>
+<section id="compute-fibonacci-numbers-with-cython-actors">
+<h2>Compute Fibonacci numbers with Cython+ actors<a class="headerlink" href="#compute-fibonacci-numbers-with-cython-actors" title="Permalink to this headline">¶</a></h2>
+<section id="python-reference-implementation">
+<h3>Python reference implementation<a class="headerlink" href="#python-reference-implementation" title="Permalink to this headline">¶</a></h3>
+<p>We calculate the list of Fibonacci numbers (as floats) up to 1476:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fibo</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mf">1.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+    <span class="k">return</span> <span class="n">a</span>
+</pre></div>
+</div>
+<p>The classic Fibonacci algorithm.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span> <span class="k">def</span> <span class="nf">fibo_list</span><span class="p">(</span><span class="n">level</span><span class="p">):</span>
+     <span class="k">return</span> <span class="p">[</span><span class="n">fibo</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">level</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+</pre></div>
+</div>
+<p>The list of Fibonacci numbers.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Computed values: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span><span class="si">=}</span><span class="s2">, Fibonacci(</span><span class="si">{</span><span class="n">level</span><span class="si">}</span><span class="s2">) is: </span><span class="si">{</span><span class="n">result</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">=}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>And finally, print some summary.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Computed values: len(result)=1477, Fibonacci(1476) is: result[-1]=1.3069892237633987e+308
+</pre></div>
+</div>
+<p>The expected result.</p>
+<p>The full <code class="docutils literal notranslate"><span class="pre">fibonacy.py</span></code> code is available in the <code class="docutils literal notranslate"><span class="pre">src</span></code> directory.</p>
+</section>
+<section id="cython-commented-version">
+<h3>Cython+ commented version<a class="headerlink" href="#cython-commented-version" title="Permalink to this headline">¶</a></h3>
+<p><strong>Imports</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libcythonplus.dict</span> <span class="n">cimport</span> <span class="n">cypdict</span>
+<span class="kn">from</span> <span class="nn">.scheduler.scheduler</span> <span class="n">cimport</span> <span class="n">SequentialMailBox</span><span class="p">,</span> <span class="n">NullResult</span><span class="p">,</span> <span class="n">Scheduler</span>
+</pre></div>
+</div>
+<p>Import of the scheduler: the <code class="docutils literal notranslate"><span class="pre">Scheduler</span></code> cypclass itself, and the <code class="docutils literal notranslate"><span class="pre">SequentialMailBox</span></code>
+queue variant (tasks to be executed are sent as “messages” in this “mailbox”). Think
+of <code class="docutils literal notranslate"><span class="pre">NullResult</span></code> as a placeholder for a work-in-progress feature not currently
+implemented.</p>
+<p>This line of import is quite standard in Cython+.</p>
+<blockquote>
+<div><p>Scheduler depends on the <code class="docutils literal notranslate"><span class="pre">pthread</span></code> library (<code class="docutils literal notranslate"><span class="pre">pthreads.pxd</span></code> and <code class="docutils literal notranslate"><span class="pre">semaphore.pxd</span></code>files).
+We won’t detail the contents of the<code class="docutils literal notranslate"><span class="pre">scheduler.pxd\</span></code> file, which is quite complex and
+outside the scope of these articles.</p>
+<p>Until now, the cypclass code for the examples was written as <code class="docutils literal notranslate"><span class="pre">.pyx</span></code> files. Using
+<code class="docutils literal notranslate"><span class="pre">.pxd</span></code> files is an optimization: the Cython compiler will produce faster links to
+the cypclass. Also, <code class="docutils literal notranslate"><span class="pre">.pxd</span></code> files do not need to be explicitly listed in the
+<code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file.</p>
+</div></blockquote>
+<p><strong>Fibo class</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Fibo</span> <span class="n">activable</span><span class="p">:</span>
+    <span class="n">long</span> <span class="n">level</span>
+    <span class="n">lock</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">long</span><span class="p">,</span> <span class="n">double</span><span class="p">]</span> <span class="n">results</span>
+</pre></div>
+</div>
+<p>Declaration of the cypclass <code class="docutils literal notranslate"><span class="pre">Fibo</span></code>, in charge of calculating a Fibonacci number. The
+cypclass is declared <code class="docutils literal notranslate"><span class="pre">activatable</span></code>: its instances will be used as actors.</p>
+<p>Two attribute are declared: <code class="docutils literal notranslate"><span class="pre">level</span></code> for the rank of the Fibonacci number, and
+<code class="docutils literal notranslate"><span class="pre">results</span></code>.</p>
+<p>As the actors are run asynchronously, there is no way to run the computation
+sequentially. So, we need to store in the results a key/value pair (level and
+Fibonacci number). In the python implementation, the numbers were computed
+sequentially and stored in a list whose index correspond to their level.</p>
+<p><code class="docutils literal notranslate"><span class="pre">results</span></code> is a dict that will be shared among all actors. The write access to the dict
+will be protected by a lock, thus the <code class="docutils literal notranslate"><span class="pre">lock</span></code> type declaration. We’ll see in next
+article another way to collect results without an explicit locked container.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+             <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">,</span>
+             <span class="n">lock</span> <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">double</span><span class="p">]</span> <span class="n">results</span><span class="p">,</span>
+             <span class="nb">int</span> <span class="n">level</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_result_class</span> <span class="o">=</span> <span class="n">NullResult</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_queue_class</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">SequentialMailBox</span><span class="p">(</span><span class="n">scheduler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">level</span> <span class="o">=</span> <span class="n">level</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">results</span> <span class="o">=</span> <span class="n">results</span>
+</pre></div>
+</div>
+<p>Fibo cypclass initialization: This is a common pattern for Cython+ actors.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">self._active_queue_class</span> <span class="pre">=</span> <span class="pre">consume</span> <span class="pre">SequentialMailBox(scheduler)</span></code> is the canonical
+way to allocate a destination to the actor when a method activates it.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">self._active_result_class</span> <span class="pre">=</span> <span class="pre">NullResult</span></code> is mandatory but unused at the moment.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">cdef</span> <span class="n">double</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span>
+
+        <span class="n">a</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="mf">1.0</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">level</span><span class="p">):</span>
+            <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+        <span class="k">with</span> <span class="n">wlocked</span> <span class="bp">self</span><span class="o">.</span><span class="n">results</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">results</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">level</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span>
+</pre></div>
+</div>
+<p>The cypclass method in charge of the Fibonacci calculation. Differences with Python
+version:</p>
+<ul class="simple">
+<li><p>declaration of a and b as <code class="docutils literal notranslate"><span class="pre">double</span></code>, a Cython wrapper for the 64-bit C type of same
+name.</p></li>
+<li><p>storage of the Fibonacci number in the dict results using a locking context.</p></li>
+</ul>
+<p><strong>fibo_list_cyp() function</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">lock</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">long</span><span class="p">,</span> <span class="n">double</span><span class="p">]</span> <span class="n">fibo_list_cyp</span><span class="p">(</span>
+        <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">,</span>
+        <span class="n">long</span> <span class="n">level</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">lock</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">long</span><span class="p">,</span> <span class="n">double</span><span class="p">]</span> <span class="n">results</span>
+</pre></div>
+</div>
+<p>Declaration of the <code class="docutils literal notranslate"><span class="pre">fibo_list_cyp</span></code> function, responsible for launching the
+parallelized calculation tasks.</p>
+<ul class="simple">
+<li><p>The type of the return value and of the <code class="docutils literal notranslate"><span class="pre">results</span></code> variable that will be returned
+are both of type <code class="docutils literal notranslate"><span class="pre">lock</span> <span class="pre">cypdict[long,</span> <span class="pre">double]</span></code> :  the <code class="docutils literal notranslate"><span class="pre">lock</span></code> keyword i part of the
+type definition,</p></li>
+<li><p>the <code class="docutils literal notranslate"><span class="pre">scheduler</span></code> argument is also passed with a <code class="docutils literal notranslate"><span class="pre">lock</span></code> type,</p></li>
+<li><p>the function is declared <code class="docutils literal notranslate"><span class="pre">nogil</span></code>.</p></li>
+</ul>
+<p>Passing the scheduler object as an argument is a common pattern in Cython+. Note that
+this <code class="docutils literal notranslate"><span class="pre">nogil</span></code> function has no Python objects, all arguments and variables are Cython
+objects without GIL or Cython + cypclass.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">results</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">long</span><span class="p">,</span> <span class="n">double</span><span class="p">]()</span>
+</pre></div>
+</div>
+<p>Initialization of the results variable:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cypdict[long,</span> <span class="pre">double]()</span></code> creates an empty dictionary,</p></li>
+<li><p>the <code class="docutils literal notranslate"><span class="pre">consume</span></code> operator with insure the isolation of the dictionary, allowing it to
+be assigned to the <code class="docutils literal notranslate"><span class="pre">results</span></code> variable. A variable of type <code class="docutils literal notranslate"><span class="pre">lock</span></code> must be
+initialized with an isolated content, so this construction is mandatory.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">level</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>  <span class="c1"># reverse order to compute first the big numbers</span>
+        <span class="n">fibo</span> <span class="o">=</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">Fibo</span><span class="p">(</span><span class="n">scheduler</span><span class="p">,</span> <span class="n">results</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+        <span class="n">fibo</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The main loop, launching all the computations. For each value of <code class="docutils literal notranslate"><span class="pre">n</span></code> :</p>
+<ul class="simple">
+<li><p>A <code class="docutils literal notranslate"><span class="pre">Fibo</span></code> object is created,</p></li>
+<li><p>that object is “consumed”, to insure its isolation,</p></li>
+<li><p>then it is transformed into an “actor” by the <code class="docutils literal notranslate"><span class="pre">active</span></code> operator. From now on, its
+methods will be executed in a protected environment. This operation can only be
+applied to a class of type cypclass declared <code class="docutils literal notranslate"><span class="pre">activable</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fibo.run(NULL)</span></code> asks the <code class="docutils literal notranslate"><span class="pre">fibo</span></code> actor to execute the <code class="docutils literal notranslate"><span class="pre">run()</span></code> method. Warning: A
+<code class="docutils literal notranslate"><span class="pre">NULL</span></code> first argument must be added to all actor methods. Note that <code class="docutils literal notranslate"><span class="pre">run()</span></code> should
+not require any arguments. The <code class="docutils literal notranslate"><span class="pre">NULL</span></code> has no real use in the current state of
+Cython+ development.</p></li>
+</ul>
+<blockquote>
+<div><p>The reverse calculation order is a small optimization : it aims to start the work by
+the largest calculations. Tasks are performed asynchronously, but the order in which
+requests are made still matters.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">scheduler</span><span class="o">.</span><span class="n">finish</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">results</span>
+</pre></div>
+</div>
+<p>All calculations are launched, they are executed in any order “in the background”. The
+scheduler’s <code class="docutils literal notranslate"><span class="pre">finish()</span></code> method halts execution of the main thread until all tasks in
+the scheduler’s queue are complete. This is the equivalent of a “join” in thread
+programming.</p>
+<p>Each task inserts a result into the <code class="docutils literal notranslate"><span class="pre">results</span></code> shared object (using a lock), so at this
+time, it should contain all the expected answers.</p>
+<p><strong>fibo_list() function</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="nb">list</span> <span class="n">fibo_list</span><span class="p">(</span><span class="nb">int</span> <span class="n">level</span><span class="p">):</span>
+    <span class="n">cdef</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">long</span><span class="p">,</span> <span class="n">double</span><span class="p">]</span> <span class="n">results_cyp</span>
+    <span class="n">cdef</span> <span class="nb">list</span> <span class="n">result_py</span>
+    <span class="n">cdef</span> <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">fibo_list_cyp()</span></code> function was a <code class="docutils literal notranslate"><span class="pre">nogil</span></code> function, this <code class="docutils literal notranslate"><span class="pre">fibo_list()</span></code> function
+uses Python objects and requires the GIL: its return type is <code class="docutils literal notranslate"><span class="pre">list</span></code>, a Cython type
+compatible with the Python list, but using the GIL. In this example, we aim to replace
+an existing Python piece of code by a cythonized one but keeping the same inputs and
+outputs. Breaking down the main code into functions without GIL using the cypclass
+and GIL functions in charge of interfacing with regular Python code is an efficient
+way to use Cython+.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">results_cyp</span></code> will contain the return value of fibo_list_cyp() and will be read
+into <code class="docutils literal notranslate"><span class="pre">result_py</span></code>, a Python object</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">scheduler</span></code> is declared as <code class="docutils literal notranslate"><span class="pre">lock</span></code>, this is a standard Cython+ pattern in all code
+using the scheduler.</p></li>
+</ul>
+<blockquote>
+<div><p>We have several different types of functions in a Cython source file:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span></code> <code class="docutils literal notranslate"><span class="pre">nogil</span></code> functions, not using any Python object, they are suitable for use
+into cypclass methods,</p></li>
+<li><p>‘cdef’ functions, with Python objects and GIL, they are used for interfacing
+GiL-free functions with Python objects.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">def</span></code> Python-like functions (however powered by the Cython compiler), these
+functions can be called by other pure Python modules.</p></li>
+</ul>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">scheduler</span> <span class="o">=</span> <span class="n">Scheduler</span><span class="p">()</span>
+    <span class="n">results_cyp</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">fibo_list_cyp</span><span class="p">(</span><span class="n">scheduler</span><span class="p">,</span> <span class="n">level</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">consume</span></code> allows passing data between locked and unlocked cypclass types. Remember
+that the return value of <code class="docutils literal notranslate"><span class="pre">fibo_list_cyp()</span></code> is of type <code class="docutils literal notranslate"><span class="pre">lock</span></code>. The <code class="docutils literal notranslate"><span class="pre">consume</span></code> operator
+allows you to isolate this value and then assign it to <code class="docutils literal notranslate"><span class="pre">results_cyp</span></code>, an unlocked
+variable.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="k">del</span> <span class="n">scheduler</span>
+</pre></div>
+</div>
+<p>Not required, but good practice is to remove cypclass after use to ensure you don’t
+reuse it later (and save some little memory).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">result_py</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span>
+                    <span class="nb">sorted</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">results_cyp</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">level</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+                <span class="p">]</span>
+    <span class="k">return</span> <span class="n">result_py</span>
+</pre></div>
+</div>
+<p>This code converts the dictionary resulting from the parallelized computation into the
+sequential list we need. The calculations being asynchronous, we need to sort the
+results.</p>
+<p><strong>main function</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">level</span><span class="p">:</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="mi">1476</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">fibo_list</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">level</span><span class="p">))</span>
+    <span class="c1"># print(f&quot;Computed values: {len(result)=}, Fibonacci({level}) is: {result[-1]=}&quot;)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Computed values: len(result)=</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)</span><span class="si">}</span><span class="s2">, Fibonacci(</span><span class="si">{</span><span class="n">level</span><span class="si">}</span><span class="s2">) is: result[-1]=</span><span class="si">{</span><span class="n">result</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The main() function aims to transparently replace the pure Python version.</p>
+<ul class="simple">
+<li><p>it is not optimized by a <code class="docutils literal notranslate"><span class="pre">cdef</span></code> but remains a <code class="docutils literal notranslate"><span class="pre">def</span></code> declaration (we could also
+use <code class="docutils literal notranslate"><span class="pre">cpdef</span></code>),</p></li>
+<li><p>this declaration allows calling it directly from python code
+(<code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-c</span> <span class="pre">&quot;module.main()&quot;</span></code>).</p></li>
+</ul>
+<p>The printed result is exactly the same as the pure Python version.</p>
+<blockquote>
+<div><p>The current version of Cython does not yet take into account all the options of
+the <code class="docutils literal notranslate"><span class="pre">f&quot;&quot;</span></code> formatting, hence the modification of the <code class="docutils literal notranslate"><span class="pre">print()</span></code>.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="the-setup-py-file">
+<h2>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file<a class="headerlink" href="#the-setup-py-file" title="Permalink to this headline">¶</a></h2>
+<p>The setup file is quite simple, the only functionality added is the <code class="docutils literal notranslate"><span class="pre">&quot;-pthread&quot;</span></code>
+option:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+<span class="kn">from</span> <span class="nn">setuptools.extension</span> <span class="kn">import</span> <span class="n">Extension</span>
+<span class="kn">from</span> <span class="nn">Cython.Build</span> <span class="kn">import</span> <span class="n">cythonize</span>
+
+
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">ext_modules</span><span class="o">=</span><span class="n">cythonize</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">Extension</span><span class="p">(</span>
+                <span class="n">name</span><span class="o">=</span><span class="s2">&quot;fibonacci.fibonacci_cyp&quot;</span><span class="p">,</span>
+                <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+                <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;fibonacci/fibonacci_cyp.pyx&quot;</span><span class="p">],</span>
+                <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+                    <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-pthread&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+                <span class="p">],</span>
+            <span class="p">),</span>
+        <span class="p">],</span>
+        <span class="n">language_level</span><span class="o">=</span><span class="s2">&quot;3str&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>The <a class="reference external" href="https://github.com/abilian/cythonplus-articles">https://github.com/abilian/cythonplus-articles</a> git repository contains the demo code of this article.</p>
+</section>
+<hr class="docutils" />
+<section id="funders">
+<h2>Funders<a class="headerlink" href="#funders" title="Permalink to this headline">¶</a></h2>
+<p><em>Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions.</em>
+(This Project was supported in a joint framework between the State, within the framework of the “Programme d’investissements d’avenir”, and the Regions.)</p>
+<p><img alt="Programme d'investissements d'avenir" src="../_images/investirlavenir2.png" /></p>
+<p><em>Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France.</em></p>
+<p><img alt="BPI" src="../_images/bpi2.png" />
+<img alt="Cap Digital" src="../_images/cap_digital2.jpeg" />
+<img alt="Région Île de France" src="../_images/ile_de_france2.png" /></p>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../a2/a2.html"
+       title="previous chapter">← #2 - Standard classes</a>
+  </li>
+  <li class="next">
+    <a href="../a4/a4.html"
+       title="next chapter">#4 - Concurrent programming: “Recorder” pattern and example of code optimization →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>#5 - Utilities and standard libraries for Cython+</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="#6 - cypxml, a real world Cython+ module" href="../a6/a6.html" />
+  <link rel="prev" title="#4 - Concurrent programming: “Recorder” pattern and example of code optimization" href="../a4/a4.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a1/a1.html" class="reference internal ">#1 - “Hello World!”</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a2/a2.html" class="reference internal ">#2 - Standard classes</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a3/a3.html" class="reference internal ">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a4/a4.html" class="reference internal ">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#toward-some-standard-library" class="reference internal">Toward some standard library</a></li>
+                
+                  <li class="toctree-l2"><a href="#available-components-overview" class="reference internal">Available components overview</a></li>
+                
+                  <li class="toctree-l2"><a href="#the-setup-py-file" class="reference internal">The setup.py file</a></li>
+                
+                  <li class="toctree-l2"><a href="#funders" class="reference internal">Funders</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a6/a6.html" class="reference internal ">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>#5 - Utilities and standard libraries for Cython+</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../a4/a4.html"
+       title="previous chapter">← #4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+  </li>
+  <li class="next">
+    <a href="../a6/a6.html"
+       title="next chapter">#6 - <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, a real world Cython+ module →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="utilities-and-standard-libraries-for-cython">
+<h1>#5 - Utilities and standard libraries for Cython+<a class="headerlink" href="#utilities-and-standard-libraries-for-cython" title="Permalink to this headline">¶</a></h1>
+<p><strong><em>About Cython+ :</em></strong></p>
+<p><img alt="logo Cython+" src="../_images/cythonplus4.png" /> Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.</p>
+<p><strong><em>In this fifth article:</em></strong></p>
+<ul class="simple">
+<li><p>Toward some standard library</p></li>
+<li><p>Available components overview</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</p></li>
+</ul>
+<section id="toward-some-standard-library">
+<h2>Toward some standard library<a class="headerlink" href="#toward-some-standard-library" title="Permalink to this headline">¶</a></h2>
+<section id="current-status">
+<h3>Current status<a class="headerlink" href="#current-status" title="Permalink to this headline">¶</a></h3>
+<p>In its current state, Cython+ has very few standardized libraries, the language itself
+only offers the classes <code class="docutils literal notranslate"><span class="pre">cyplist</span></code>, <code class="docutils literal notranslate"><span class="pre">cypdict</span></code> and <code class="docutils literal notranslate"><span class="pre">cypset</span></code>.</p>
+<p>Nexedi (the Cython+ development pilot) has also developed libraries which are intended
+to form the basis of a standard library:</p>
+<ul class="simple">
+<li><p>a scheduler and the underlying thread library,</p></li>
+<li><p>the <code class="docutils literal notranslate"><span class="pre">string</span></code> library and the <code class="docutils literal notranslate"><span class="pre">format</span></code> library,</p></li>
+<li><p>other low-level libraries (socket management, …).</p></li>
+</ul>
+<p>In addition, we have all of the Cython language ports of the C and C++ fundamental
+libraries (see the folders <code class="docutils literal notranslate"><span class="pre">libc</span></code>, <code class="docutils literal notranslate"><span class="pre">libcpp</span></code>, and <code class="docutils literal notranslate"><span class="pre">posix</span></code>).</p>
+</section>
+<section id="cython-libraries-are-not-sufficient">
+<h3>Cython libraries are not sufficient<a class="headerlink" href="#cython-libraries-are-not-sufficient" title="Permalink to this headline">¶</a></h3>
+<p>Cython wrappers are very close to the C/C++ language. On the other hand, the Cython
+language can be very close to Python, but then requires the GIL.</p>
+<p>Ideally, we would like to have libraries:</p>
+<ul class="simple">
+<li><p>close enough to C / C++ to be fast,</p></li>
+<li><p>not requiring the GIL, so they can be used inside cypclass for thread programming,</p></li>
+<li><p>and close to Python syntax.</p></li>
+</ul>
+</section>
+<section id="str-cypclass">
+<h3><code class="docutils literal notranslate"><span class="pre">Str()</span></code> cypclass<a class="headerlink" href="#str-cypclass" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">string.Str()</span></code> class is a good example of what would be useful:</p>
+<ul class="simple">
+<li><p>this is a cypclass,</p></li>
+<li><p>it implements a number of methods defined for Python strings: <code class="docutils literal notranslate"><span class="pre">__getitem__</span></code>,
+<code class="docutils literal notranslate"><span class="pre">__len__</span></code>, <code class="docutils literal notranslate"><span class="pre">join</span></code>, …</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Str()</span></code> relies on the C++ class <code class="docutils literal notranslate"><span class="pre">string</span></code>.</p></li>
+</ul>
+<p>The initialization code:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">._string</span> <span class="n">cimport</span> <span class="n">string</span><span class="p">,</span> <span class="n">string_view</span><span class="p">,</span> <span class="n">hash_string</span><span class="p">,</span> <span class="n">stoi</span><span class="p">,</span> <span class="n">transform</span>
+
+<span class="p">[</span><span class="o">...</span><span class="p">]</span>
+
+<span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Str</span> <span class="s2">&quot;Cy_Str&quot;</span><span class="p">:</span>
+    <span class="n">string</span> <span class="n">_str</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">const</span> <span class="n">char</span> <span class="o">*</span><span class="n">s</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_str</span> <span class="o">=</span> <span class="n">string</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Str()</span></code> uses the C++ string() class through the intermediate <code class="docutils literal notranslate"><span class="pre">_string.pxd</span></code> library.
+Therefore, the algorithms of <code class="docutils literal notranslate"><span class="pre">Str()</span></code> use low-level C++ methods on the underlying
+<code class="docutils literal notranslate"><span class="pre">_str</span></code> instance, but the results and arguments are high-level cypclasses. For example
+the <code class="docutils literal notranslate"><span class="pre">Str.join()</span></code> method which takes over the functionality of <code class="docutils literal notranslate"><span class="pre">string.join()</span></code> in
+Python:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">Str</span> <span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cyplist</span><span class="p">[</span><span class="n">Str</span><span class="p">]</span> <span class="n">strings</span><span class="p">)</span> <span class="k">except</span> <span class="n">NULL</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">Str</span> <span class="n">joined</span> <span class="o">=</span> <span class="n">Str</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">strings</span> <span class="ow">is</span> <span class="n">NULL</span> <span class="ow">or</span> <span class="n">strings</span><span class="o">.</span><span class="fm">__len__</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">joined</span>
+    <span class="n">last</span> <span class="o">=</span> <span class="n">strings</span><span class="p">[</span><span class="n">strings</span><span class="o">.</span><span class="fm">__len__</span><span class="p">()</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">del</span> <span class="n">strings</span><span class="p">[</span><span class="n">strings</span><span class="o">.</span><span class="fm">__len__</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="n">cdef</span> <span class="nb">int</span> <span class="n">total</span> <span class="o">=</span> <span class="n">last</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">strings</span><span class="p">:</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="n">s</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+    <span class="n">joined</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">strings</span><span class="p">:</span>
+        <span class="n">joined</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">_str</span><span class="p">)</span>
+        <span class="n">joined</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_str</span><span class="p">)</span>
+    <span class="n">joined</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">last</span><span class="o">.</span><span class="n">_str</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">joined</span>
+</pre></div>
+</div>
+</section>
+<section id="format-function">
+<h3><code class="docutils literal notranslate"><span class="pre">format()</span></code> function<a class="headerlink" href="#format-function" title="Permalink to this headline">¶</a></h3>
+<p>An alternative to mimicking the standard Python library is to switch to a C library
+that implements an interface close enough to Python style. This is how <code class="docutils literal notranslate"><span class="pre">format()</span></code> is
+done. This is a wrapper of the C++ <code class="docutils literal notranslate"><span class="pre">fmt</span></code> library, the description of which says:
+<em>“Format string syntax similar to Python’s format”</em>.</p>
+</section>
+<section id="pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">.pxd</span></code> files<a class="headerlink" href="#pxd-files" title="Permalink to this headline">¶</a></h3>
+<p>The various libraries discussed in this chapter have a common point: they are <code class="docutils literal notranslate"><span class="pre">.pxd</span></code>
+files.</p>
+<p>In short, <code class="docutils literal notranslate"><span class="pre">.pxd</span></code> files in Cython+:</p>
+<ul class="simple">
+<li><p>contain external C declarations, for using a C library in Cython+,</p></li>
+<li><p>when accompanied by a <code class="docutils literal notranslate"><span class="pre">.pyx</span></code> file of the same name, provide an interface with
+function signatures and <code class="docutils literal notranslate"><span class="pre">ctypedef</span></code> definitions (like a C <code class="docutils literal notranslate"><span class="pre">.h</span></code>),</p></li>
+<li><p>can contain the cypclass definitions.</p></li>
+</ul>
+<p>And an immediate benefit is that the <code class="docutils literal notranslate"><span class="pre">.pxd</span></code> files don’t need to be explicitly declared
+in the <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file: their content is automatically included by the Cython compiler.</p>
+<p>For more on .pxd files:
+<a class="reference external" href="https://cython.readthedocs.io/en/latest/src/tutorial/pxd_files.html">https://cython.readthedocs.io/en/latest/src/tutorial/pxd_files.html</a></p>
+</section>
+</section>
+<section id="available-components-overview">
+<h2>Available components overview<a class="headerlink" href="#available-components-overview" title="Permalink to this headline">¶</a></h2>
+<section id="demo-utils-pyx">
+<h3><code class="docutils literal notranslate"><span class="pre">demo_utils.pyx</span></code><a class="headerlink" href="#demo-utils-pyx" title="Permalink to this headline">¶</a></h3>
+<p>To carry out developments, we had to deal with the lack of standard libraries. As
+development proceeded, a set of utilities was collected. Their realization was done
+over time as needed, and some components would require rewriting to make them
+consistent. However, they are useful as examples of small pieces of code developed as
+part of larger projects.</p>
+<p>The source code associated with this article is a quick demonstration of a list of
+currently available libraries: <code class="docutils literal notranslate"><span class="pre">demo_utils.pyx</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">.stdlib.xml_utils</span> <span class="n">cimport</span> <span class="n">replace_one</span><span class="p">,</span> <span class="n">replace_all</span>
+<span class="kn">from</span> <span class="nn">.stdlib.xml_utils</span> <span class="n">cimport</span> <span class="n">escape</span><span class="p">,</span> <span class="n">escaped</span><span class="p">,</span> <span class="n">unescape</span><span class="p">,</span> <span class="n">unescaped</span>
+<span class="kn">from</span> <span class="nn">.stdlib.xml_utils</span> <span class="n">cimport</span> <span class="n">quoteattr</span><span class="p">,</span> <span class="n">quotedattr</span><span class="p">,</span> <span class="n">concate</span><span class="p">,</span> <span class="n">indented</span>
+<span class="kn">from</span> <span class="nn">.stdlib.strip</span> <span class="n">cimport</span> <span class="n">stripped</span>
+<span class="kn">from</span> <span class="nn">.stdlib.regex</span> <span class="n">cimport</span> <span class="n">regex_t</span><span class="p">,</span> <span class="n">regmatch_t</span><span class="p">,</span> <span class="n">regcomp</span><span class="p">,</span> <span class="n">regexec</span><span class="p">,</span> <span class="n">regfree</span>
+<span class="kn">from</span> <span class="nn">.stdlib.regex</span> <span class="n">cimport</span> <span class="n">REG_EXTENDED</span>
+<span class="kn">from</span> <span class="nn">.stdlib.abspath</span> <span class="n">cimport</span> <span class="n">abspath</span>
+<span class="kn">from</span> <span class="nn">.stdlib.startswith</span> <span class="n">cimport</span> <span class="n">startswith</span><span class="p">,</span> <span class="n">endswith</span>
+<span class="kn">from</span> <span class="nn">.stdlib.list_utils</span> <span class="n">cimport</span> <span class="n">IntList</span><span class="p">,</span> <span class="n">sort_list</span><span class="p">,</span> <span class="n">reverse_list</span>
+<span class="kn">from</span> <span class="nn">.stdlib.list_utils</span> <span class="n">cimport</span> <span class="n">min_list</span><span class="p">,</span> <span class="n">max_list</span><span class="p">,</span> <span class="n">sum_list</span><span class="p">,</span> <span class="n">copy_list</span>
+<span class="kn">from</span> <span class="nn">.stdlib.list_utils</span> <span class="n">cimport</span> <span class="n">copy_slice</span><span class="p">,</span> <span class="n">copy_slice_from</span><span class="p">,</span> <span class="n">copy_slice_to</span>
+<span class="kn">from</span> <span class="nn">.stdlib.formatdate</span> <span class="n">cimport</span> <span class="n">formatdate</span><span class="p">,</span> <span class="n">formatlog</span>
+<span class="kn">from</span> <span class="nn">.stdlib.parsedate</span> <span class="n">cimport</span> <span class="n">parsedate</span>
+</pre></div>
+</div>
+</section>
+<section id="xmlutils-pyx-pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">xmlutils.pyx/pxd</span></code> files<a class="headerlink" href="#xmlutils-pyx-pxd-files" title="Permalink to this headline">¶</a></h3>
+<p>This functions are part of an XML oriented library.</p>
+<p>The output of xml_utils demo:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>--- replace_one()
+    Some string abc abc -&gt; Some string ABC abc
+--- replace_all()
+    Some string abc abc -&gt; Some string ABC ABC
+--- escape()
+    Some string escaped in place &lt; &amp; &gt; -&gt; Some string escaped in place &amp;lt; &amp;amp; &amp;gt;
+--- escaped()
+    Some string escaped &lt; &amp; &gt; -&gt; Some string escaped &amp;lt; &amp;amp; &amp;gt;
+--- unescape()
+    in place: &amp;lt; &amp;amp; &amp;gt; -&gt; in place: &lt; &amp; &gt;
+--- unescaped()
+    no param: &amp;eacute;&amp;agrave;&amp;eacute; &amp;lt; &amp;amp; &amp;gt; -&gt; no param: &amp;eacute;&amp;agrave;&amp;eacute; &lt; &amp; &gt;
+--- unescaped()
+    with param: &amp;eacute;&amp;agrave;&amp;eacute; &amp;lt; &amp;amp; &amp;gt; -&gt; with param: éàé &lt; &amp; &gt;
+--- quoteattr()
+    &#39;ééé&#39; abc &quot;def&quot; -&gt; &quot;&#39;ééé&#39; abc &amp;quot;def&amp;quot;&quot;
+--- quotedattr()
+
+
+
+ &#39;abc&#39; &quot;def&quot; -&gt; &quot; &amp;#10;&amp;#10;&amp;#9;&amp;#13; &#39;abc&#39; &amp;quot;def&amp;quot;&quot;
+--- concate()
+    [aaa, bbb] -&gt; aaabbb
+--- stripped()
+    &#39;   with blanks         &#39; -&gt; &#39;with blanks&#39;
+--- indented()
+aaa
+bbb
+-&gt;
+  aaa
+  bbb
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">xml_utils.pxd</span></code> is a header file containing function code signatures:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="nb">int</span> <span class="n">replace_one</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="n">Str</span><span class="p">,</span> <span class="n">Str</span><span class="p">)</span> <span class="n">nogil</span>
+<span class="n">cdef</span> <span class="nb">int</span> <span class="n">replace_all</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="n">Str</span><span class="p">,</span> <span class="n">Str</span><span class="p">)</span> <span class="n">nogil</span>
+<span class="n">cdef</span> <span class="n">void</span> <span class="n">escape</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">Str</span><span class="p">,</span> <span class="n">Str</span><span class="p">])</span> <span class="n">nogil</span>
+<span class="n">cdef</span> <span class="n">Str</span> <span class="n">escaped</span><span class="p">(</span><span class="n">Str</span><span class="p">,</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">Str</span><span class="p">,</span> <span class="n">Str</span><span class="p">])</span> <span class="n">nogil</span>
+<span class="p">[</span><span class="o">...</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Comments of tricky parts of two functions of <code class="docutils literal notranslate"><span class="pre">xml_utils.pyx</span></code>:</p>
+<p><strong>replace_one() :</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="nb">int</span> <span class="n">replace_one</span><span class="p">(</span><span class="n">Str</span> <span class="n">src</span><span class="p">,</span> <span class="n">Str</span> <span class="n">pattern</span><span class="p">,</span> <span class="n">Str</span> <span class="n">content</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Replace first occurence of &#39;pattern&#39; in &#39;src&#39; by &#39;content&#39;.</span>
+
+<span class="sd">    Return number of changes, Change in place.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">cdef</span> <span class="n">size_t</span> <span class="n">start</span>
+
+    <span class="n">start</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">start</span> <span class="o">==</span> <span class="n">npos</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+    <span class="n">src</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">pattern</span><span class="o">.</span><span class="fm">__len__</span><span class="p">(),</span> <span class="n">content</span><span class="o">.</span><span class="n">_str</span><span class="p">)</span>
+    <span class="k">return</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>We use the <code class="docutils literal notranslate"><span class="pre">size_t</span></code> type, which is used internally by Cython and Cython+ for
+indexes or arrays (which are wrappers on C++ containers). Using <code class="docutils literal notranslate"><span class="pre">int</span></code> would be
+possible, but may cause some compiler warning.</p>
+<p><code class="docutils literal notranslate"><span class="pre">src._str</span></code> is a “hidden” attribute of src, a C++ string instance:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">src.find()</span></code> uses is a Str() method masking call to <code class="docutils literal notranslate"><span class="pre">src._str</span></code> methods,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">src._str.replace()</span></code> is a direct call to a method of <code class="docutils literal notranslate"><span class="pre">src._str</span></code>.</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">npos</span></code> is a C++ constant for “not found”, imported in <code class="docutils literal notranslate"><span class="pre">string.pxd</span></code> from
+<code class="docutils literal notranslate"><span class="pre">_string.pxd</span></code> wrapper:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cdef extern from &quot;&lt;string_view&gt;&quot; namespace &quot;std::string_view&quot; nogil:
+    const size_t npos
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>concate() :</strong></p>
+<p>Basically this function is a simplification of <code class="docutils literal notranslate"><span class="pre">Str.join()</span></code> where the link string is
+empty. The goal is to achieve fast concatenation by reserving memory on the
+destination object before adding the content. ie: it’s more C++ than Python.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">Str</span> <span class="n">concate</span><span class="p">(</span><span class="n">cyplist</span><span class="p">[</span><span class="n">Str</span><span class="p">]</span> <span class="n">strings</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">Str</span> <span class="n">joined</span>
+    <span class="n">cdef</span> <span class="nb">int</span> <span class="n">total</span>
+
+    <span class="n">joined</span> <span class="o">=</span> <span class="n">Str</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">strings</span><span class="o">.</span><span class="fm">__len__</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">joined</span>
+    <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">strings</span><span class="p">:</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="n">s</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+    <span class="n">joined</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">strings</span><span class="p">:</span>
+        <span class="n">joined</span><span class="o">.</span><span class="n">_str</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">_str</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">joined</span>
+</pre></div>
+</div>
+</section>
+<section id="strip-pyx-pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">strip.pyx/pxd</span></code> files<a class="headerlink" href="#strip-pyx-pxd-files" title="Permalink to this headline">¶</a></h3>
+<p>The small stripped() function is quite simple, it uses <code class="docutils literal notranslate"><span class="pre">isblank()</span></code> which is a wrapper
+of a C++ function.</p>
+</section>
+<section id="regex-pxd-file">
+<h3><code class="docutils literal notranslate"><span class="pre">regex.pxd</span></code> file<a class="headerlink" href="#regex-pxd-file" title="Permalink to this headline">¶</a></h3>
+<p>This file is a wrapper on the standard <code class="docutils literal notranslate"><span class="pre">regex.h</span></code> C basic regex implementation. This
+regular expression engine has fewer features than the PCRE standard used by Python.</p>
+<p>Wrapped functions do not include any top-level <code class="docutils literal notranslate"><span class="pre">re.match</span></code> or <code class="docutils literal notranslate"><span class="pre">re.sub</span></code> functions, so
+they must be implemented in user code. Here the basic implementation available in
+<code class="docutils literal notranslate"><span class="pre">demo_utils.pyx</span></code>. Note that this requires low-level memory access:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">bint</span> <span class="n">re_match</span><span class="p">(</span><span class="n">Str</span> <span class="n">pattern</span><span class="p">,</span> <span class="n">Str</span> <span class="n">target</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">regex_t</span> <span class="n">regex</span>
+    <span class="n">cdef</span> <span class="nb">int</span> <span class="n">result</span>
+
+    <span class="k">if</span> <span class="n">regcomp</span><span class="p">(</span><span class="o">&amp;</span><span class="n">regex</span><span class="p">,</span> <span class="n">pattern</span><span class="o">.</span><span class="n">bytes</span><span class="p">(),</span> <span class="n">REG_EXTENDED</span><span class="p">):</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;regcomp failed on </span><span class="si">{</span><span class="n">pattern</span><span class="o">.</span><span class="n">bytes</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">regexec</span><span class="p">(</span><span class="o">&amp;</span><span class="n">regex</span><span class="p">,</span> <span class="n">target</span><span class="o">.</span><span class="n">bytes</span><span class="p">(),</span> <span class="mi">0</span><span class="p">,</span> <span class="n">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="mi">0</span>
+</pre></div>
+</div>
+</section>
+<section id="abspath-pyx-pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">abspath.pyx/pxd</span></code> files<a class="headerlink" href="#abspath-pyx-pxd-files" title="Permalink to this headline">¶</a></h3>
+<p>The function returns the absolute path using a lib C posix function. Note that:</p>
+<ul class="simple">
+<li><p>the function only returns a value for an <em>existing</em> file,</p></li>
+<li><p>it is necessary to return the memory with a <code class="docutils literal notranslate"><span class="pre">free()</span></code>, which is often required when
+using C wrappers.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">Str</span> <span class="n">abspath</span><span class="p">(</span><span class="n">Str</span> <span class="n">path</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">Str</span> <span class="n">spath</span>
+    <span class="n">cdef</span> <span class="n">char</span><span class="o">*</span> <span class="n">apath</span> <span class="o">=</span> <span class="n">realpath</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">bytes</span><span class="p">(),</span> <span class="n">NULL</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">apath</span> <span class="o">==</span> <span class="n">NULL</span><span class="p">:</span>
+        <span class="n">spath</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">spath</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="n">apath</span><span class="p">)</span>
+    <span class="n">free</span><span class="p">(</span><span class="n">apath</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">spath</span>
+</pre></div>
+</div>
+</section>
+<section id="startswith-pyx-pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">startswith.pyx/pxd</span></code> files<a class="headerlink" href="#startswith-pyx-pxd-files" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">startswith</span></code> and <code class="docutils literal notranslate"><span class="pre">endswith</span></code> functions have no difficulty. They could be included
+as methods of <code class="docutils literal notranslate"><span class="pre">Str()</span></code>.</p>
+</section>
+<section id="list-utils-pyx-pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">list_utils.pyx/pxd</span></code> files<a class="headerlink" href="#list-utils-pyx-pxd-files" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">cyplist</span></code> uses C++ templates, it is difficult to define methods for all types of
+components in the list. We have therefore chosen to implement an integer version, and
+to adapt to other use cases as needed.</p>
+<p>Note in <code class="docutils literal notranslate"><span class="pre">list_utils.pxd</span></code> the type definition used everywhere in <code class="docutils literal notranslate"><span class="pre">list_utils.pyx</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ctypedef</span> <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="n">IntList</span>
+</pre></div>
+</div>
+<p><strong>sort_list() :</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">cyplist</span></code> relies the C++ <code class="docutils literal notranslate"><span class="pre">vector</span></code> class in the _elements attribute.
+<code class="docutils literal notranslate"><span class="pre">sort_list()</span></code> uses the C++ iterator via the <code class="docutils literal notranslate"><span class="pre">begin()</span></code> and <code class="docutils literal notranslate"><span class="pre">end()</span></code> methods.  The
+<code class="docutils literal notranslate"><span class="pre">sort()</span></code>, <code class="docutils literal notranslate"><span class="pre">reverse()</span></code> and <code class="docutils literal notranslate"><span class="pre">copy()</span></code> functions are imported from Cython’s
+<code class="docutils literal notranslate"><span class="pre">libcpp.algorithm</span></code> library.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">void</span> <span class="n">sort_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">lst</span><span class="o">.</span><span class="n">_active_iterators</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">sort</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Modifying a list with active iterators&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>copy_slice() :</strong></p>
+<p>In <code class="docutils literal notranslate"><span class="pre">copy_slice()</span></code> we use the undelying vector method <code class="docutils literal notranslate"><span class="pre">push_back()</span></code> to build the new
+list.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">IntList</span> <span class="n">copy_slice</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">,</span> <span class="n">size_t</span> <span class="n">start</span><span class="p">,</span> <span class="n">size_t</span> <span class="n">end</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">IntList</span> <span class="n">result</span> <span class="o">=</span> <span class="n">IntList</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">lst</span><span class="o">.</span><span class="n">_active_iterators</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+            <span class="n">result</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">result</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Modifying a list with active iterators&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="formatdate-pyx-pxd-parsedate-pyx-pxd-files">
+<h3><code class="docutils literal notranslate"><span class="pre">formatdate.pyx/pxd</span></code> <code class="docutils literal notranslate"><span class="pre">parsedate.pyx/pxd</span></code> files<a class="headerlink" href="#formatdate-pyx-pxd-parsedate-pyx-pxd-files" title="Permalink to this headline">¶</a></h3>
+<p>Those files use the Cython wrapper libc.time, with notably the <code class="docutils literal notranslate"><span class="pre">mktime</span></code> function, the
+<code class="docutils literal notranslate"><span class="pre">tm</span></code> structure, and the gmtime_r function.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libc.time</span> <span class="n">cimport</span> <span class="n">time_t</span><span class="p">,</span> <span class="n">tm</span><span class="p">,</span> <span class="n">gmtime_r</span><span class="p">,</span> <span class="n">time</span>
+</pre></div>
+</div>
+<p>The various functions of these files are
+quite simple, their purpose is to provide <code class="docutils literal notranslate"><span class="pre">Str()</span></code> results, so usable in a cypclass.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">Str</span> <span class="n">formatdate</span><span class="p">(</span><span class="n">time_t</span> <span class="n">t</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">tm</span> <span class="n">tms</span>
+    <span class="n">cdef</span> <span class="n">Str</span> <span class="n">result</span>
+
+    <span class="n">gmtime_r</span><span class="p">(</span><span class="o">&amp;</span><span class="n">t</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">tms</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">, </span><span class="si">{:02d}</span><span class="s2"> </span><span class="si">{}</span><span class="s2"> </span><span class="si">{:04d}</span><span class="s2"> </span><span class="si">{:02d}</span><span class="s2">:</span><span class="si">{:02d}</span><span class="s2">:</span><span class="si">{:02d}</span><span class="s2"> GMT&quot;</span><span class="p">,</span>
+                    <span class="n">day_string</span><span class="p">(</span><span class="n">tms</span><span class="o">.</span><span class="n">tm_wday</span><span class="p">),</span>
+                    <span class="n">tms</span><span class="o">.</span><span class="n">tm_mday</span><span class="p">,</span>
+                    <span class="n">month_string</span><span class="p">(</span><span class="n">tms</span><span class="o">.</span><span class="n">tm_mon</span><span class="p">),</span>
+                    <span class="n">tms</span><span class="o">.</span><span class="n">tm_year</span> <span class="o">+</span> <span class="mi">1900</span><span class="p">,</span>
+                    <span class="n">tms</span><span class="o">.</span><span class="n">tm_hour</span><span class="p">,</span>
+                    <span class="n">tms</span><span class="o">.</span><span class="n">tm_min</span><span class="p">,</span>
+                    <span class="n">tms</span><span class="o">.</span><span class="n">tm_sec</span>
+                    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="the-setup-py-file">
+<h2>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file<a class="headerlink" href="#the-setup-py-file" title="Permalink to this headline">¶</a></h2>
+<p>The setup file for building the <code class="docutils literal notranslate"><span class="pre">demo_util.pyx</span></code> module contains a utility function
+responsible for creating an <code class="docutils literal notranslate"><span class="pre">Extension()</span></code> instance with the standard parameters. With
+this helper we can get a safe and maintainable configuration:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">ext_pyx</span><span class="p">(</span><span class="o">*</span><span class="n">pathname</span><span class="p">):</span>
+    <span class="s2">&quot;return an Extension for Cython+ compilation&quot;</span>
+    <span class="k">return</span> <span class="n">Extension</span><span class="p">(</span>
+        <span class="n">name</span><span class="o">=</span><span class="s2">&quot;.&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pathname</span><span class="p">),</span>
+        <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+        <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="n">join</span><span class="p">(</span><span class="o">*</span><span class="n">pathname</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.pyx&quot;</span><span class="p">],</span>
+        <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+            <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-pthread&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="n">libraries</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;fmt&quot;</span><span class="p">],</span>
+        <span class="n">include_dirs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;libfmt&quot;</span><span class="p">],</span>
+        <span class="n">library_dirs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;libfmt&quot;</span><span class="p">],</span>
+    <span class="p">)</span>
+
+
+<span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;demo_utils&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;xml_utils&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;strip&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;abspath&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;startswith&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;list_utils&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;formatdate&quot;</span><span class="p">),</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;utils&quot;</span><span class="p">,</span> <span class="s2">&quot;stdlib&quot;</span><span class="p">,</span> <span class="s2">&quot;parsedate&quot;</span><span class="p">),</span>
+<span class="p">]</span>
+
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">ext_modules</span><span class="o">=</span><span class="n">cythonize</span><span class="p">(</span>
+        <span class="n">extensions</span><span class="p">,</span>
+        <span class="n">language_level</span><span class="o">=</span><span class="s2">&quot;3str&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>The <a class="reference external" href="https://github.com/abilian/cythonplus-articles">https://github.com/abilian/cythonplus-articles</a> git repository contains the demo code of this article.</p>
+</section>
+<hr class="docutils" />
+<section id="funders">
+<h2>Funders<a class="headerlink" href="#funders" title="Permalink to this headline">¶</a></h2>
+<p><em>Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions.</em>
+(This Project was supported in a joint framework between the State, within the framework of the “Programme d’investissements d’avenir”, and the Regions.)</p>
+<p><img alt="Programme d'investissements d'avenir" src="../_images/investirlavenir4.png" /></p>
+<p><em>Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France.</em></p>
+<p><img alt="BPI" src="../_images/bpi4.png" />
+<img alt="Cap Digital" src="../_images/cap_digital4.jpeg" />
+<img alt="Région Île de France" src="../_images/ile_de_france4.png" /></p>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../a4/a4.html"
+       title="previous chapter">← #4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+  </li>
+  <li class="next">
+    <a href="../a6/a6.html"
+       title="next chapter">#6 - <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, a real world Cython+ module →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

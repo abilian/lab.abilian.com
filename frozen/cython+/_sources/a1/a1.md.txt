@@ -1,0 +1,340 @@
+# #1 - "Hello World!"
+
+**_About Cython+ :_**
+
+![logo Cython+](./images/cythonplus.png) Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.
+
+
+**_In this first article:_**
+
+-   Prerequisites and installation of the environment,
+-   Code: a not so standard hello world, with comments on Cython+ basics,
+-   The Cython+ project and documentation.
+
+## Prerequisites and installation
+
+Cython+ is a language under development, therefore Cython+ requires recent versions for
+the underlying software packages. However, the requirements are limited and installation is
+easy.
+
+### Prerequisites
+
+Cython+ is currently operational on Linux (macOS and Windows environments are not
+supported at this stage). For these articles, we used Ubuntu 18.04.6 LTS and Ubuntu
+20.04.4 LTS, but any recent Linux distribution should be fine.
+
+    $ lsb_release -d
+    Description:    Ubuntu 20.04.4 LTS
+
+A working C++ compilation environment supporting the C++17 standard is required.
+Actually, Cython+ requires GCC compiler :
+
+    $ g++ --version
+    g++ (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0
+    Copyright (C) 2019 Free Software Foundation, Inc.
+    This is free software; see the source for copying conditions.  There is NO
+    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+This is not an absolute prerequisite, but for some examples we have chosen to compile
+the `fmt` library from sources, we will need `cmake`:
+
+    $ cmake --version
+    cmake version 3.16.3
+
+Python: We use python 3.9 (Python 3.8 and up should be fine). Setup a virtual
+Environment, upgrade `pip` and `setuptools`, install `wheel`.
+
+    $ python3.9 -m venv p39
+    $ source p39/bin/activate
+    $ pip install -U pip
+    $ pip install -U setuptools
+    $ pip install wheel
+
+### Installation of Cython+
+
+You may choose to compile Cython+ from the sources, but we recommend to get it through
+the Pypi package:
+<https://pypi.org/project/cython-plus/>
+
+    $ pip install cython-plus
+    Collecting cython-plus
+      Downloading cython-plus-0.1.0.post3.tar.gz (2.2 MB)
+         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 19.3 MB/s eta 0:00:00
+      Preparing metadata (setup.py) ... done
+    [...]
+    Successfully installed cython-plus-0.1.0.post3
+
+Environment installation is now complete.
+
+## The "Hello world!" program, using cypclass
+
+As Cython+ is a superset of Cython, itself a superset of Python, a simple
+`print("Hello World!")` is possible. But you probably expect a little more.
+
+### The main source file: helloworld.pyx
+
+> The suffix of file is `.pyx`, as for usual cython code. (In the next articles, we
+> will see how to use `.pyx` files for cython code and `.pxd` files for cypclass
+> definitions.)
+>
+> First line of code: Cython code designed to be compiled with C++ usually starts with
+> `# distutils: language = c++` on the first line, but not here. We recommand to
+> specify the C++ option in a dedicated `setup.py` file with the other parameters.
+
+```python
+# cython import:
+from libc.stdio cimport printf
+```
+
+First import: we imported `printf` from the regular Cython library `libc`, which is a
+wrapper of the C standard library.
+
+> We will use `printf` in a "no GIL" context, where access to "GIL" objects of Python
+> is not allowed. If we use the standard Python `print(something)`, Python will try to
+> convert `something` into a Python String, which is a Python object (PyObject)
+> requiring the "GIL", thus not possible in a "no GIL" context.
+
+```python
+# local Cython+ import:
+from helloworld.stdlib.string cimport Str
+```
+
+Then we import the `Str` class, a Cython+ cypclass that support "no GIL" operations on
+strings.
+
+> We could also use a basic `char *` or another string class, but the `Str` cypclass
+> permits high level operations.
+>
+> Both `helloworld` and the sub folder `stdlib` are python packages (with a
+> `__init__.py` file), thus we did choose an absolute import. We could also use a
+> relative import or not use package and assume that "." is in the python path.
+> However, Cython+/Cython are very sensitive to import syntax: the libraries must be
+> imported in the same way in all the code.
+
+```python
+cdef cypclass HelloWorld:
+    Str message
+```
+
+Declaration of the `HelloWorld` cypclass, with an attribute of type `Str`.
+
+> Note the `cypclass` keyword, and no `cdef` before the attribute declaration. Note
+> also that `message` is an instance attribute, not a class attribute. Actually there
+> is no class attribute in Cython+.
+>
+> Any cypclass or basic C types (int, float, char\*, ...) can be used as attribute.
+>
+> All the methods of the cypclass are in a "no GIL" context, without need to add the
+> `nogil` keyword.
+
+```python
+    __init__(self):
+        self.message = Str("Hello World!")
+```
+
+The instance initialization loads a string into the instance attribute.
+
+> Note no `def` or `cdef` before `__init__`
+>
+> Here, `"Hello World!"` is not a Python String. The Cython+ language parser analyses
+> the `Str()` argument as bytes.
+
+```python
+    void print_message(self):
+        printf("%s\n", self.message.bytes())
+```
+
+The method prints the message with the imported `printf()` function.
+
+> Note the `void` keyword: all cypclass methods require a return type (basic C type or
+> cypclass, or void), except the `__init__` method.
+>
+> The `printf()` C function expects some kind of `char*` as an argument, the `Str()`
+>  instance can supply it with its `bytes()` method.
+
+```python
+def main():
+    cdef HelloWorld hello
+```
+
+This function is a standard Python function (so using the GIL), compiled by Cython.
+Cython allows the declaration of typed variables with `cdef`, here we declare `hello`
+as an instance of cypclass `HelloWorld`. So we will be able to share code and data
+between the "Python context" and the "Cython+ context".
+
+```python
+    with nogil:
+        hello = HelloWorld()
+        hello.print_message()
+```
+
+In "no GIL" context, create the instance and execute the method.
+
+> Here the `nogil` is not mandatory by the cypclass instance, but would allow having
+> some parts of the `main()` function using standard Python objects with GIL and
+> another part without GIL, hence efficient for some multi-thread task. (More on this
+> in future articles.)
+>
+> Note: after execution of the `main()` function, the memory of the `hello` instance
+> is freed automatically.
+
+Finally, the complete code of `helloworld.pyx`:
+
+```python
+"""Cython+ example, helloworld (using syntax of march 2022)
+"""
+# cython import:
+from libc.stdio cimport printf
+
+# local Cython+ import:
+from helloworld.stdlib.string cimport Str
+
+
+cdef cypclass HelloWorld:
+    Str message
+
+    __init__(self):
+        self.message = Str("Hello World!")
+
+    void print_message(self):
+        printf("%s\n", self.message.bytes())
+
+
+def main():
+    cdef HelloWorld hello
+
+    with nogil:
+        # In this block, the Helloworld() instance and its print_message() method are
+        # outside the scope of the python GIL
+        hello = HelloWorld()
+        hello.print_message()
+```
+
+### Building the program: `setup.py`
+
+Cython+ code is translated into some C++ files and then compiled. The expected result
+is some `.so` extension files containing packages usable in a standard Python
+environment.
+
+The canonical command to build the code is: `python setup.py build_ext --inplace`
+
+The basic structure of a `setup.py` for Cython+ code:
+
+```python
+from setuptools import setup
+from setuptools.extension import Extension
+from Cython.Build import cythonize
+```
+
+Those 3 lines are identical to standard Cython setup files, except that we recommend
+to replace the usual `distutils` import by a `setuptools` import (`distutils` will be
+deprecated soon).
+
+```python
+setup(
+    ext_modules=cythonize(
+        [
+            Extension(
+                name="helloworld.helloworld",
+                sources=["helloworld/helloworld.pyx"],
+                language="c++",
+                extra_compile_args=[
+                    "-std=c++17",
+                    "-O3",
+                    "-Wno-deprecated-declarations",
+                ],
+            ),
+        ],
+        language_level="3str",
+    )
+)
+```
+
+`cythonize` will build the list of extensions. For each extension, the `nane` key is
+of the corresponding Python module, in dotted notation, the `source` key is the list
+the files to compile for the module, usually one `.pyx` per module.
+
+`language="c++"` is mandatory for Cython+.
+
+`extra_compile_args` contains flags for GCC, `"-std=c++17"` is mandatory for Cython+.
+
+Finally, `language_level="3str"` is strongly recommended (set Cython default string to
+map to Python `Str` and Python 3 syntax).
+
+**Build the code:**
+
+    $ python setup.py build_ext --inplace
+    Compiling helloworld/helloworld.pyx because it changed.
+    [1/1] Cythonizing helloworld/helloworld.pyx
+    running build_ext
+    building 'helloworld.helloworld' extension
+    [...]
+    copying build/lib.linux-x86_64-3.9/helloworld/helloworld.cpython-39-x86_64-linux-gnu.so -> helloworld
+
+Execution of the code, by loading the module and executing the main function:
+
+    $ python -c "from helloworld.helloworld import main; main()"
+    Hello World!
+
+The <https://github.com/abilian/cythonplus-articles> git repository contains the demo code of this "helloworld" example,
+with a `demo.sh` script that chains the build and execute commands.
+
+## About Cython+
+
+![logo Cython+](./images/cythonplus.png) Cython+ is a research project aiming to develop a Cython extension supporting efficient
+multithreading.
+For more on this, see the motivation for Cython+ on the project site:
+<https://www.cython.plus/P-CYP-Documentation.Motivation>
+
+This project is a work in progress, but already usable. In this article and the next
+ones we won't detail the future developments of Cython+ or current limitations, but we
+will focus on the actual benefits of the current version.
+
+### Funders
+
+_Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions._
+(This Project was supported in a joint framework between the State, within the framework of the "Programme d’investissements d’avenir", and the Regions.)
+
+![Programme d'investissements d'avenir](./images/investirlavenir.png)
+
+_Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France._
+
+![BPI](./images/bpi.png)
+![Cap Digital](./images/cap_digital.jpeg)
+![Région Île de France](./images/ile_de_france.png)
+
+### References:
+
+-   About the Cython+ project, _"Multi-core concurrent programming in Python"_:
+    <https://www.cython.plus/en/>
+
+-   Cython+ code source:
+    <https://lab.nexedi.com/nexedi/cython>
+
+### Useful documentations links
+
+-   Who's That "GIL"? If you're reading this article, you probably already know why
+    "GIL" is famous, if not here are some clues:
+    <https://realpython.com/python-gil/>
+
+-   Cython+ basic Syntax (by example): cypclass, inheritance, GIL freedom:
+    <https://www.cython.plus/P-CYP-Documentation.Basic.Syntax>
+
+-   Cython+ Interaction with Python: how Cython+ interacts with Python:
+    <https://www.cython.plus/P-CYP-Documentation.Interacting.With.Python>
+
+-   Cython+ uses a strong isolation scheme to achieve safer concurrency management.
+    Explanation of the keywords iso / consume / lock / active and their syntax:
+    <https://www.cython.plus/P-CYP-Documentation.Concurrency>
+
+-   Cython+, Cython and C++
+
+      Cython+ is designed to allow porting Python code, especially classes, into a
+      "threads-friendly" environment, using C++ classes behind the scene.
+      As such, C++ competences are not mandatory. However, you will need to
+      understand how Cython interacts with C and C++ :
+
+    -   Cython documentation, version 3.0+ :
+        <https://cython.readthedocs.io/en/latest/>
+

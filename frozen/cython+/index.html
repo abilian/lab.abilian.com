@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>Cython+ articles by Abilian</title>
+    
+          <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="_static/theme-vendors.js"></script> -->
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Search" href="search.html" />
+  <link rel="next" title="#1 - “Hello World!”" href="a1/a1.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="#" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="a1/a1.html" class="reference internal ">#1 - “Hello World!”</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="a2/a2.html" class="reference internal ">#2 - Standard classes</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="a3/a3.html" class="reference internal ">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="a4/a4.html" class="reference internal ">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="a5/a5.html" class="reference internal ">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="a6/a6.html" class="reference internal ">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+    
+    <li>Cython+ articles by Abilian</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="next">
+    <a href="a1/a1.html"
+       title="next chapter">#1 - “Hello World!” →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="cython-articles-by-abilian">
+<h1>Cython+ articles by Abilian<a class="headerlink" href="#cython-articles-by-abilian" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="a1/a1.html">#1 - “Hello World!”</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="a1/a1.html#prerequisites-and-installation">Prerequisites and installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a1/a1.html#the-hello-world-program-using-cypclass">The “Hello world!” program, using cypclass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a1/a1.html#about-cython">About Cython+</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="a2/a2.html">#2 - Standard classes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="a2/a2.html#standard-cython-libraries">Standard Cython+ libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a2/a2.html#a-powerful-library-in-the-local-stdlib-format">A powerful library in the local <code class="docutils literal notranslate"><span class="pre">stdlib</span></code>: <code class="docutils literal notranslate"><span class="pre">format</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="a2/a2.html#adding-features-list-sort-and-reverse">Adding features: list sort and reverse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a2/a2.html#the-setup-py-file">The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a2/a2.html#funders">Funders</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="a3/a3.html">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="a3/a3.html#actors-and-isolation-minimal-knowledge">Actors and isolation: minimal knowledge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a3/a3.html#a-scheduler-to-manage-queues-in-threads">A scheduler to manage queues in threads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a3/a3.html#compute-fibonacci-numbers-with-cython-actors">Compute Fibonacci numbers with Cython+ actors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a3/a3.html#the-setup-py-file">The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a3/a3.html#funders">Funders</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="a4/a4.html">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="a4/a4.html#golomb-sequence-calculation">Golomb sequence calculation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a4/a4.html#basic-cython-compilation">Basic Cython compilation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a4/a4.html#cython-version-with-recorder-pattern">Cython+ version with “Recorder” pattern</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a4/a4.html#the-setup-py-file">The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a4/a4.html#benchmark-result">Benchmark result</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a4/a4.html#funders">Funders</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="a5/a5.html">#5 - Utilities and standard libraries for Cython+</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="a5/a5.html#toward-some-standard-library">Toward some standard library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a5/a5.html#available-components-overview">Available components overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a5/a5.html#the-setup-py-file">The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a5/a5.html#funders">Funders</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="a6/a6.html">#6 - <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, a real world Cython+ module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="a6/a6.html#cypxml-xml-generator-written-in-cython"><code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, XML generator written in Cython+</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a6/a6.html#commented-source-of-cypxml">Commented source of <code class="docutils literal notranslate"><span class="pre">cypxml</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="a6/a6.html#the-demo-file">The demo file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a6/a6.html#funders">Funders</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="next">
+    <a href="a1/a1.html"
+       title="next chapter">#1 - “Hello World!” →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

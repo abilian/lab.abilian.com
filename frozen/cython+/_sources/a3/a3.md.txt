@@ -1,0 +1,397 @@
+# #3 - Concurrent programming: Actor paradigm with the Cython+ cypclass
+
+**_About Cython+ :_**
+
+![logo Cython+](./images/cythonplus.png) Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.
+
+**_In this third article:_**
+-   Actors and isolation: minimal knowledge
+-   A scheduler to manage queues in threads
+-   Compute Fibonacci numbers with Cython+ actors
+-   The `setup.py` file
+
+## Actors and isolation: minimal knowledge
+
+The goal of Cython+ is to provide a safe and efficient environment for concurrent
+programming.
+
+Basically, the actor paradigm is a principle of dividing computations into small,
+totally independent and isolated units of work. These isolated tasks can then be
+easily distributed into separate threads. The key points are: how to generate these
+isolated units of work, and of course how to retrieve the results. Those units of work
+are called **_actors_**.
+
+To achieve the creation of actors from cypclass instances, Cython+ provides some
+concepts and keywords. The goal is to achieve secure concurrency execution, without
+the complexity of locking management. Remember that Python uses the GIL to provide
+concurrency safety via this unique global lock, at the expense of limiting concurrent
+execution to 1 thread at any time.
+
+A variable is said to be _isolated_ if it is the only entry point for all the data
+accessible from this variable. An isolated cypclass instance is eligible as an actor.
+A variable can be declared isolated with the keyword **iso**. Such a declaration will
+raise a compile-time or run-time error if this isolation condition is violated.
+
+The operand **consume** allows transferring the property of an instance of cypclass
+from one variable to another, by cutting the link of the old one. It also ensures the
+isolation of the instance and marks the variable as isolated. **consume** generates an
+error if the instance is not isolated.
+
+The **activate** operand transforms an isolated instance of cypclass into an actor:
+its methods can then be executed in complete safety on a thread.
+
+And finally a **lock** keyword allows protecting a cypclass instance by a locking
+mechanism.
+
+The basic structure to keep in mind is:
+
+```python
+my_actor = activate(consume MyCypClass(args))
+my_actor.method()  # the method can be safely executed in a thread
+```
+
+To summarize very briefly:
+
+-   the cypclass object can be "activated" and used as an actor,
+-   these actors can perform independent tasks distributed over several cores by a
+    queuing mechanism.
+
+For more detailed theory, you can see:
+_"A Modular Actor Framework for Cython+"_ <https://www.cython.plus/P-CYP-Blog.Modular.Actor.Framework>
+
+## A scheduler to manage queues in threads
+
+For actor programming, we introduce two new libraries, `scheduler` and `pthread`.
+
+`pthread` contains a wrapper for the standard C libraries `pthread.h` and
+`semaphore.h`. In practice, we do not use these libraries directly. The whole
+threading mechanism is hidden from us by the scheduler.
+
+`scheduler` is a class that creates multiple queues, usually one per system core, and
+dispatches actors to those queues.
+
+The scheduler provided by Cython+ uses a "work-stealing" algorithm: when a queue
+empties, it can "steal" a task from another. Thus, the workload is kept balanced
+between the threads.
+
+For more detailed theory, you can see:
+_"An M-to-N Actor Scheduler for Cython+"_ <https://www.cython.plus/P-CYP-Blog.Actor.Scheduler>
+
+## Compute Fibonacci numbers with Cython+ actors
+
+### Python reference implementation
+
+We calculate the list of Fibonacci numbers (as floats) up to 1476:
+
+```python
+def fibo(n):
+    a = 0.0
+    b = 1.0
+    for i in range(n):
+        a, b = b, a + b
+    return a
+```
+
+The classic Fibonacci algorithm.
+
+```python
+ def fibo_list(level):
+     return [fibo(n) for n in range(level + 1)]
+```
+
+The list of Fibonacci numbers.
+
+```python
+print(f"Computed values: {len(result)=}, Fibonacci({level}) is: {result[-1]=}")
+```
+
+And finally, print some summary.
+
+    Computed values: len(result)=1477, Fibonacci(1476) is: result[-1]=1.3069892237633987e+308
+
+The expected result.
+
+The full `fibonacy.py` code is available in the `src` directory.
+
+### Cython+ commented version
+
+**Imports**
+
+```python
+from libcythonplus.dict cimport cypdict
+from .scheduler.scheduler cimport SequentialMailBox, NullResult, Scheduler
+```
+
+Import of the scheduler: the `Scheduler` cypclass itself, and the `SequentialMailBox`
+queue variant (tasks to be executed are sent as "messages" in this "mailbox"). Think
+of `NullResult` as a placeholder for a work-in-progress feature not currently
+implemented.
+
+This line of import is quite standard in Cython+.
+
+> Scheduler depends on the `pthread` library (`pthreads.pxd` and `semaphore.pxd`files).
+> We won't detail the contents of the`scheduler.pxd\` file, which is quite complex and
+> outside the scope of these articles.
+>
+> Until now, the cypclass code for the examples was written as `.pyx` files. Using
+> `.pxd` files is an optimization: the Cython compiler will produce faster links to
+> the cypclass. Also, `.pxd` files do not need to be explicitly listed in the
+> `setup.py` file.
+
+**Fibo class**
+
+```python
+cdef cypclass Fibo activable:
+    long level
+    lock cypdict[long, double] results
+```
+
+Declaration of the cypclass `Fibo`, in charge of calculating a Fibonacci number. The
+cypclass is declared `activatable`: its instances will be used as actors.
+
+Two attribute are declared: `level` for the rank of the Fibonacci number, and
+`results`.
+
+As the actors are run asynchronously, there is no way to run the computation
+sequentially. So, we need to store in the results a key/value pair (level and
+Fibonacci number). In the python implementation, the numbers were computed
+sequentially and stored in a list whose index correspond to their level.
+
+`results` is a dict that will be shared among all actors. The write access to the dict
+will be protected by a lock, thus the `lock` type declaration. We'll see in next
+article another way to collect results without an explicit locked container.
+
+```python
+    __init__(self,
+             lock Scheduler scheduler,
+             lock cypdict[int, double] results,
+             int level):
+        self._active_result_class = NullResult
+        self._active_queue_class = consume SequentialMailBox(scheduler)
+        self.level = level
+        self.results = results
+```
+
+Fibo cypclass initialization: This is a common pattern for Cython+ actors.
+
+-   `self._active_queue_class = consume SequentialMailBox(scheduler)` is the canonical
+    way to allocate a destination to the actor when a method activates it.
+-   The `self._active_result_class = NullResult` is mandatory but unused at the moment.
+
+```python
+    void run(self):
+        cdef double a, b
+
+        a = 0.0
+        b = 1.0
+        for i in range(self.level):
+            a, b = b, a + b
+        with wlocked self.results:
+            self.results[self.level] = a
+```
+
+The cypclass method in charge of the Fibonacci calculation. Differences with Python
+version:
+
+-   declaration of a and b as `double`, a Cython wrapper for the 64-bit C type of same
+    name.
+-   storage of the Fibonacci number in the dict results using a locking context.
+
+**fibo_list_cyp() function**
+
+```python
+cdef lock cypdict[long, double] fibo_list_cyp(
+        lock Scheduler scheduler,
+        long level) nogil:
+    cdef lock cypdict[long, double] results
+```
+
+Declaration of the `fibo_list_cyp` function, responsible for launching the
+parallelized calculation tasks.
+
+-   The type of the return value and of the `results` variable that will be returned
+    are both of type `lock cypdict[long, double]` :  the `lock` keyword i part of the
+    type definition,
+-   the `scheduler` argument is also passed with a `lock` type,
+-   the function is declared `nogil`.
+
+Passing the scheduler object as an argument is a common pattern in Cython+. Note that
+this `nogil` function has no Python objects, all arguments and variables are Cython
+objects without GIL or Cython + cypclass.
+
+```python
+    results = consume cypdict[long, double]()
+```
+
+Initialization of the results variable:
+
+-   `cypdict[long, double]()` creates an empty dictionary,
+-   the `consume` operator with insure the isolation of the dictionary, allowing it to
+    be assigned to the `results` variable. A variable of type `lock` must be
+    initialized with an isolated content, so this construction is mandatory.
+
+```python
+    for n in range(level, -1, -1):  # reverse order to compute first the big numbers
+        fibo = activate(consume Fibo(scheduler, results, n))
+        fibo.run(NULL)
+```
+
+The main loop, launching all the computations. For each value of `n` :
+
+-   A `Fibo` object is created,
+-   that object is "consumed", to insure its isolation,
+-   then it is transformed into an "actor" by the `active` operator. From now on, its
+    methods will be executed in a protected environment. This operation can only be
+    applied to a class of type cypclass declared `activable`.
+-   `fibo.run(NULL)` asks the `fibo` actor to execute the `run()` method. Warning: A
+    `NULL` first argument must be added to all actor methods. Note that `run()` should
+    not require any arguments. The `NULL` has no real use in the current state of
+    Cython+ development.
+
+> The reverse calculation order is a small optimization : it aims to start the work by
+> the largest calculations. Tasks are performed asynchronously, but the order in which
+> requests are made still matters.
+
+```python
+    scheduler.finish()
+    return results
+```
+
+All calculations are launched, they are executed in any order "in the background". The
+scheduler's `finish()` method halts execution of the main thread until all tasks in
+the scheduler's queue are complete. This is the equivalent of a "join" in thread
+programming.
+
+Each task inserts a result into the `results` shared object (using a lock), so at this
+time, it should contain all the expected answers.
+
+**fibo_list() function**
+
+```python
+cdef list fibo_list(int level):
+    cdef cypdict[long, double] results_cyp
+    cdef list result_py
+    cdef lock Scheduler scheduler
+```
+
+The `fibo_list_cyp()` function was a `nogil` function, this `fibo_list()` function
+uses Python objects and requires the GIL: its return type is `list`, a Cython type
+compatible with the Python list, but using the GIL. In this example, we aim to replace
+an existing Python piece of code by a cythonized one but keeping the same inputs and
+outputs. Breaking down the main code into functions without GIL using the cypclass
+and GIL functions in charge of interfacing with regular Python code is an efficient
+way to use Cython+.
+
+-   `results_cyp` will contain the return value of fibo_list_cyp() and will be read
+    into `result_py`, a Python object
+-   `scheduler` is declared as `lock`, this is a standard Cython+ pattern in all code
+    using the scheduler.
+
+> We have several different types of functions in a Cython source file:
+>
+> -   `cdef` `nogil` functions, not using any Python object, they are suitable for use
+>     into cypclass methods,
+> -   'cdef' functions, with Python objects and GIL, they are used for interfacing
+>     GiL-free functions with Python objects.
+> -   `def` Python-like functions (however powered by the Cython compiler), these
+>     functions can be called by other pure Python modules.
+
+```python
+    scheduler = Scheduler()
+    results_cyp = consume fibo_list_cyp(scheduler, level)
+```
+
+`consume` allows passing data between locked and unlocked cypclass types. Remember
+that the return value of `fibo_list_cyp()` is of type `lock`. The `consume` operator
+allows you to isolate this value and then assign it to `results_cyp`, an unlocked
+variable.
+
+```python
+    del scheduler
+```
+
+Not required, but good practice is to remove cypclass after use to ensure you don't
+reuse it later (and save some little memory).
+
+```python
+    result_py = [item[1] for item in
+                    sorted((i, results_cyp[i]) for i in range(level + 1))
+                ]
+    return result_py
+```
+
+This code converts the dictionary resulting from the parallelized computation into the
+sequential list we need. The calculations being asynchronous, we need to sort the
+results.
+
+**main function**
+
+```python
+def main(level=None):
+    if not level:
+        level = 1476
+    result = fibo_list(int(level))
+    # print(f"Computed values: {len(result)=}, Fibonacci({level}) is: {result[-1]=}")
+    print(f"Computed values: len(result)={len(result)}, Fibonacci({level}) is: result[-1]={result[-1]}")
+```
+
+The main() function aims to transparently replace the pure Python version.
+
+-   it is not optimized by a `cdef` but remains a `def` declaration (we could also
+    use `cpdef`),
+-   this declaration allows calling it directly from python code
+    (`python -c "module.main()"`).
+
+The printed result is exactly the same as the pure Python version.
+
+> The current version of Cython does not yet take into account all the options of
+> the `f""` formatting, hence the modification of the `print()`.
+
+## The `setup.py` file
+
+The setup file is quite simple, the only functionality added is the `"-pthread"`
+option:
+
+```python
+from setuptools import setup
+from setuptools.extension import Extension
+from Cython.Build import cythonize
+
+
+setup(
+    ext_modules=cythonize(
+        [
+            Extension(
+                name="fibonacci.fibonacci_cyp",
+                language="c++",
+                sources=["fibonacci/fibonacci_cyp.pyx"],
+                extra_compile_args=[
+                    "-std=c++17",
+                    "-O3",
+                    "-pthread",
+                    "-Wno-deprecated-declarations",
+                ],
+            ),
+        ],
+        language_level="3str",
+    )
+)
+```
+
+The <https://github.com/abilian/cythonplus-articles> git repository contains the demo code of this article.
+
+* * *
+
+## Funders
+
+_Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions._
+(This Project was supported in a joint framework between the State, within the framework of the "Programme d’investissements d’avenir", and the Regions.)
+
+![Programme d'investissements d'avenir](./images/investirlavenir.png)
+
+_Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France._
+
+![BPI](./images/bpi.png)
+![Cap Digital](./images/cap_digital.jpeg)
+![Région Île de France](./images/ile_de_france.png)

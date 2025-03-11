@@ -1,0 +1,412 @@
+
+# #4 - Concurrent programming: "Recorder" pattern and example of code optimization
+
+**_About Cython+ :_**
+
+![logo Cython+](./images/cythonplus.png) Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.
+
+**_In this fourth article:_**
+
+-   Golomb sequence calculation
+-   Basic Cython compilation
+-   Cython+ version with "Recorder" pattern
+-   The `setup.py` file
+-   Benchmark result
+
+## Golomb sequence calculation
+
+### Golomb sequence
+
+The Golomb sequence is a mathematical integer sequence:
+
+`1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, ...`
+
+For more about mathematical definition and properties, see:
+<https://en.wikipedia.org/wiki/Golomb_sequence>
+
+The interesting property for our example is the formula to calculate the n-th element:
+
+-   g(1) = 1
+-   g(n+1) = 1 + g(n + 1 - g(g(n))))
+
+So a direct implementation creates a _very_ recursive function, but the recursion is
+"wide", not deep, so won't cause a stack overflow.
+(Of course, a real world optimization would be to use memoization).
+
+We will compare 3 implementations:
+
+- pure Python code,
+- a basic compilation of the original python code with Cython,
+- a port of the code to Cython+.
+
+### Reference Python code
+
+The program calculates the first 50 values of the sequence, displays the length and
+the last element.
+
+```python
+def gpos(n):
+    """Return the value of position n of the Golomb sequence (recursive function)."""
+    if n == 1:
+        return 1
+    return gpos(n - gpos(gpos(n - 1))) + 1
+
+
+def golomb_sequence(size):
+    return [gpos(i) for i in range(1, size + 1)]
+
+
+def main(size=None):
+    if not size:
+        size = 50
+    sequence = golomb_sequence(int(size))
+    print(f"length of sequence: {len(sequence)}, last element: {sequence[-1]}")
+```
+
+## Basic Cython compilation
+
+We just copy the `golomb.py` file to `golomb_basic.py`
+and compile with the usual command:
+
+```bash
+python setup_basic.py build_ext --inplace
+```
+
+with this `setup_basic.py` file:
+
+```python
+from os.path import join
+from setuptools import setup
+from setuptools.extension import Extension
+from Cython.Build import cythonize
+
+
+def ext_simple(*pathname):
+    "return an Extension for basic Cython compilation"
+    return Extension(
+        name=".".join(pathname),
+        language="c",
+        sources=[join(*pathname) + ".py"],
+        extra_compile_args=[
+            "-O3",
+            "-Wno-deprecated-declarations",
+        ],
+    )
+
+
+extensions = [
+    ext_simple("golomb", "golomb_basic"),
+]
+
+setup(
+    ext_modules=cythonize(
+        extensions,
+        language_level="3str",
+    ),
+)
+```
+
+## Cython+ version with "Recorder" pattern
+
+In the previous Fibonacci example, the results of the calculation were stored in a
+`dict`. To allow secure access to this `dict`, a lock has been used. Another way is to
+apply the actor paradigm to store the result: when a result is obtained, delegate to
+an actor the task of storing it and simply add that task to the queue.
+
+**Imports**
+
+```python
+from libcythonplus.dict cimport cypdict
+from .scheduler.scheduler cimport SequentialMailBox, NullResult, Scheduler
+```
+
+The imports are the same as in the Fibonacci example.
+
+**The Golomb class**
+
+```python
+cdef cypclass Golomb activable:
+    int rank
+    active Recorder recorder
+
+    __init__(self,
+             lock Scheduler scheduler,
+             active Recorder recorder,
+             int rank):
+        self._active_result_class = NullResult
+        self._active_queue_class = consume SequentialMailBox(scheduler)
+        self.rank = rank
+        self.recorder = recorder
+```
+
+The cypclass initialization includes the usual stuff for an actor:
+
+-   `activable` keyword,
+-   `scheduler` argument,
+-   assignment of attributes `\_active_result_class` and `\_active_queue_class`.
+
+The novelty is the `recorder` attribute declared as `active Recorder`. On
+initialization, the Golomb object, an actor, receives another actor as a parameter, and
+saves it in its attributes.
+
+**Golomb calculation**
+
+```python
+    int gpos(self, int n):
+        """Return the value of position n of the Golomb sequence (recursive function).
+        """
+        if n == 1:
+            return 1
+        return self.gpos(n - self.gpos(self.gpos(n - 1))) + 1
+```
+
+The recursive calculation of the Golomb number of rank _n_, close to the python
+version.
+
+**Activation method**
+
+```python
+    void run(self):
+        cdef int value
+
+        value = self.gpos(self.rank)
+        self.recorder.store(NULL, self.rank, value)
+```
+
+The activation method of the cypclass used as an actor:
+
+-   calculation of the result,
+-   storing of the result with the `Recorder` instance.
+
+In the previous example, this part was made with a lock. Here we are using the
+`recorder` attribute.
+
+-   `recorder` is an actor (declared on initialization with `active Recorder`)
+-   as seen previously, the call to an actor received a first `NULL` parameter.
+
+**The Recorder class**
+
+```python
+cdef cypclass Recorder activable:
+    cypdict[int, int] storage
+
+    __init__(self, lock Scheduler scheduler):
+        self._active_result_class = NullResult
+        self._active_queue_class = consume SequentialMailBox(scheduler)
+        self.storage = cypdict[int, int]()
+```
+
+The `Recorder` definition has the same characteristics as others actor cypclass.
+
+A storage attribute is defined as a dictionary, similar to the `results` dictionary
+in the previous Fibonacci example.
+
+**Recorder's methods**
+
+```python
+    void store(self, int key, int value):
+        self.storage[key] = value
+
+    cypdict[int, int] content(self):
+        return self.storage
+```
+
+The class has two methods:
+
+-   `store()`, called by the Golomb calculator for each result obtained,
+-   `content()`, a _getter_ to retrieve the dictionary of results.
+
+> Note: the `Recorder` instance is an actor which will be launched several times, but
+> which will keep an internal state (the dictionary of results).
+
+**The GolombGenerator class**
+
+This is a standard actor cypclass, in charge of:
+
+-   creation of the Recorder instance
+-   iterate the loop of the numbers to clculate for the Golom sequence.
+
+```python
+cdef cypclass GolombGenerator activable:
+    int size
+    lock Scheduler scheduler
+    active Recorder recorder
+
+    __init__(self, lock Scheduler scheduler, int size):
+        self._active_result_class = NullResult
+        self._active_queue_class = consume SequentialMailBox(scheduler)
+        self.scheduler = scheduler  # keep it for use with sub objects
+        self.size = size
+        self.recorder = activate (consume Recorder(scheduler))
+```
+
+Creation of the `Recorder`instance.
+
+```python
+    void run(self):
+        # reverse order of loop for small calculation optimization:
+        for rank in range(self.size, 0, -1):
+            golomb = <active Golomb> activate(consume Golomb(self.scheduler,
+                                                             self.recorder,
+                                                             rank))
+            golomb.run(NULL)
+```
+
+The main loop, each Gomomb number is computed by an asynchronous actor.
+
+```python
+    cypdict[int, int] results(self):
+        recorder = consume self.recorder
+        return <cypdict[int, int]> recorder.content()
+```
+
+Intermediate _getter_ to retrieve the computation results from the recorder.
+
+**golomb_sequence() function**
+
+```python
+cdef cypdict[int, int] golomb_sequence(int size) nogil:
+    cdef active GolombGenerator generator
+    cdef lock Scheduler scheduler
+
+    scheduler = Scheduler()
+    generator = activate(consume GolombGenerator(scheduler, size))
+    generator.run(NULL)
+    scheduler.finish()
+    del scheduler
+    generator_object = consume(generator)
+    return <cypdict[int, int]> generator_object.results()
+```
+
+This is the `nogil` equivalent of the original Python `golomb_sequence()`:
+
+-   returns a `cypdict` and not a `list`,
+-   is in charge of the `Scheduler` management,
+-   waits at the `scheduler.finish()` to ensure that both:
+    -   all computation actors did run,
+    -   all the recorder actors did run.
+-   Then `consume` allows changing type between the "actor" cypclass instance and
+    the "object" view of the cypclass.
+
+**golomb_sequence_as_python_list() function**
+
+```python
+cdef list golomb_sequence_as_python_list(int size):
+    cdef cypdict[int, int] results
+
+    with nogil:
+        results = golomb_sequence(size)
+
+    sequence = [item[1] for item in
+                    sorted((i, results[i]) for i in range(1, size + 1))
+               ]
+    return sequence
+```
+
+This code converts the dictionary resulting from the parallelized computation into the
+sequential list we need. The calculations being asynchronous, the results must be
+sorted.
+
+The type of the returned value is a Python-like list requiring the GIL. This function
+connects the `nogil` context to the Python/GIL context.
+
+**Main function**
+
+```python
+def main(size=None):
+    if not size:
+        size = 50
+    sequence = golomb_sequence_as_python_list(int(size))
+    print(f"length of sequence: {len(sequence)}, last element: {sequence[-1]}")
+```
+
+The main() function aims to transparently replace the pure Python version.
+
+-   it is not optimized by a `cdef` but remains a \`def',
+-   this declaration allows to call it directly from python code
+    (`python -c "module.main()"`).
+
+The printed result is exactly the same as the pure Python version.
+
+## The `setup.py` file
+
+```python
+from os.path import join
+from setuptools import setup
+from setuptools.extension import Extension
+from Cython.Build import cythonize
+
+
+def ext_pyx(*pathname):
+    "return an Extension for Cython+ compilation"
+    return Extension(
+        name=".".join(pathname),
+        language="c++",
+        sources=[join(*pathname) + ".pyx"],
+        extra_compile_args=[
+            "-std=c++17",
+            "-O3",
+            "-pthread",
+            "-Wno-deprecated-declarations",
+        ],
+    )
+
+
+extensions = [
+    ext_pyx("golomb", "golomb_cyp"),
+]
+
+setup(
+    ext_modules=cythonize(
+        extensions,
+        language_level="3str",
+    )
+)
+```
+
+## Benchmark result
+
+This quick comparison of the 3 versions is done a 4-core Xeon (see `demo.sh` in
+sources):
+
+    Python version:
+    length of sequence: 50, last element: 13
+    [...]
+    1 loop, best of 5: 17.8 sec per loop
+
+    Minimal Cython version:
+    length of sequence: 50, last element: 13
+    [...]
+    1 loop, best of 5: 3.5 sec per loop
+
+    Cython+ version:
+    length of sequence: 50, last element: 13
+    [...]
+    5 loops, best of 5: 48.4 msec per loop
+
+-   An improvement in the execution speed of x5 by simply recompiling the original
+    Python code with Cython.
+-   The Cython+ version achieves an improvement rate of x360 compared to the original
+    Python code and x72 compared to the simple Cython compilation.
+
+We have chosen this example because it works well, not all codes are parallelizable
+and the actor model is not always the best approach. However, this example shows that
+this technology can be very effective.
+
+The <https://github.com/abilian/cythonplus-articles> git repository contains the demo code of this article.
+
+* * *
+
+## Funders
+
+_Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions._
+(This Project was supported in a joint framework between the State, within the framework of the "Programme d’investissements d’avenir", and the Regions.)
+
+![Programme d'investissements d'avenir](./images/investirlavenir.png)
+
+_Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France._
+
+![BPI](./images/bpi.png)
+![Cap Digital](./images/cap_digital.jpeg)
+![Région Île de France](./images/ile_de_france.png)

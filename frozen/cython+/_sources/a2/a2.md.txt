@@ -1,0 +1,559 @@
+# #2 - Standard classes
+
+**_About Cython+ :_**
+
+![logo Cython+](./images/cythonplus.png) Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.
+
+**_In this second article:_**
+
+-   Standard Cython+ libraries
+-   A powerful library in the local `stdlib`: `format`
+-   Adding features: list sort and reverse
+-   The `setup.py` file
+
+## Standard Cython+ libraries
+
+Cython+ being under development, the only classes currently available in  the core of
+the language are the basic containers. However, a growing set of commonly used modules
+is developed by the early adopters, usually installed in a `stdlib` local directory
+of the project.
+
+Cython provides a set of libraries for accessing C or C++ underlying libraries.
+Cython+ adds to this list `libcythonplus` which provides `cypclass` implementations of
+base containers: `cyplist`, `cypdict` and `cypset`.
+
+For more information on what a `cypclass` is, see the first article in the series and
+Cython+ presentation. To summarize, `cypclass` is the core of Cython+ language: all
+the expected benefits (multithreading, isolation) are obtained using
+`cypclass`.
+
+In our experience, it is very useful to read the contents of the Cython and Cython+
+libraries, both to find detailed information about the available features and as sample
+code.
+
+**Finding 'libcythonplus' among Cython libraries sources:**
+
+```python
+from pathlib import Path
+import Cython
+
+includes = Path(Cython.__file__).parent / "Includes"
+print("Cython libraries:")
+print([d.name for d in includes.glob("*")])
+print("Cython+ 'libcythonplus' library:")
+print([f.name for f in includes.glob("libcythonplus/*")])
+```
+
+Result:
+
+    Cython libraries:
+    ['cpython', 'libc', 'libcpp', 'libcythonplus', 'numpy', 'openmp.pxd', 'posix']
+    Cython+ 'libcythonplus' library:
+    ['__init__.pxd', 'dict.pxd', 'iterator.pxd', 'list.pxd', 'set.pxd']
+
+**Usage of containers: containers_v1.pyx**
+
+The `containers` package in the source code of this article shows how to use base
+containers.
+
+```python
+from libc.stdio cimport printf
+from libcythonplus.dict cimport cypdict
+from libcythonplus.list cimport cyplist
+
+from .stdlib.string cimport Str
+```
+
+Import of the container class from Cython+ environment, followed by import of Str from
+local `stdlib` package.
+
+```python
+cdef cypclass Containers:
+    cyplist[int] some_list
+    cypdict[int, float] some_dict
+    cypdict[Str, int] another_dict
+
+    __init__(self):
+        self.some_list = cyplist[int]()
+        self.some_dict = cypdict[int, float]()
+        self.another_dict = cypdict[Str, int]()
+```
+
+The `cyplist`, `cypdict` and `cypset` containers are based on C++ templates. A
+container variable is declared with types from either a Cython scalar (int, float, ...)
+or another cypclass (Str, ...)
+
+```python
+    void load_values(self):
+        self.some_list.append(1)
+        self.some_list.append(20)
+        self.some_list.append(30)
+        self.some_dict[1] = 0.1234
+        self.some_dict[20] = 3.14
+        self.another_dict[Str("a")] = 1
+        self.another_dict[Str("foo")] = self.some_list[1]
+```
+
+Containers `cyplist` and `cypdict` have methods close to their Python counterpart. For
+example `cyplist` has methods:
+`__getitem__`, `__setitem__`, `__delitem__`, `append`, `insert`, `clear`, `__add__`,
+`__iadd__`, `__mul__`, `__imul__`, `__len__`, `__contains__`, and two C++ like methods
+`begin` and `end`.
+
+```python
+    void show_content(self):
+        printf("-------- containers quick example, version 1 --------\n")
+        printf("some_listst:\n")
+        for i in self.some_list:
+            printf("  %d ", i)
+        printf("\n")
+
+        printf("some_dict:\n")
+        for item1 in self.some_dict.items():
+            printf("  %d: %f\n", <int>item1.first, <float>item1.second)
+
+        printf("another_dict:\n")
+        for item2 in self.another_dict.items():
+            printf("  %s: %d\n", (<Str>item2.first).bytes(), <int>item2.second)
+```
+
+`show_content()` prints some information, using the `printf` function.
+
+There is no `Tuple` class in Cython+, a compound structure must be implemented as a
+cypclass. `cypdict` can be iterated with the `items()` method, the resulting item is
+an instance of a `pair` class, whose element are accessed by the getters `item.first`
+and `item.second`.
+
+> Sometimes the iterator "loses" the data type, and some cast must be done:
+>    `<int>item1.first, <float>item1.second`
+>
+> Both `load_values()` and `show_content()` methods have a `void` return value.
+
+**The complete code of containers_v1.pyx:**
+
+```python
+from libc.stdio cimport printf
+from libcythonplus.dict cimport cypdict
+from libcythonplus.list cimport cyplist
+
+from .stdlib.string cimport Str
+
+
+cdef cypclass Containers:
+    cyplist[int] some_list
+    cypdict[int, float] some_dict
+    cypdict[Str, int] another_dict
+
+    __init__(self):
+        self.some_list = cyplist[int]()
+        self.some_dict = cypdict[int, float]()
+        self.another_dict = cypdict[Str, int]()
+
+    void load_values(self):
+        self.some_list.append(1)
+        self.some_list.append(20)
+        self.some_list.append(30)
+        self.some_dict[1] = 0.1234
+        self.some_dict[20] = 3.14
+        self.another_dict[Str("a")] = 1
+        self.another_dict[Str("foo")] = self.some_list[1]
+
+    void show_content(self):
+        printf("-------- containers quick example, version 1 --------\n")
+        printf("some_listst:\n")
+        for i in self.some_list:
+            printf("  %d ", i)
+        printf("\n")
+
+        printf("some_dict:\n")
+        for item1 in self.some_dict.items():
+            printf("  %d: %f\n", <int>item1.first, <float>item1.second)
+
+        printf("another_dict:\n")
+        for item2 in self.another_dict.items():
+            printf("  %s: %d\n", (<Str>item2.first).bytes(), <int>item2.second)
+
+
+def main():
+    cdef Containers c
+
+    with nogil:
+        c = Containers()
+        c.load_values()
+        c.show_content()
+```
+
+and the expected result:
+
+    -------- containers quick example, version 1 --------
+    some_listst:
+      1   20   30
+    some_dict:
+      1: 0.123400
+      20: 3.140000
+    another_dict:
+      a: 1
+      foo: 20
+
+## A powerful library in the local `stdlib`: `format`
+
+The manipulation of character strings with the `Str` library of Cython+ does not offer
+all the functionalities of Python. So in addition to `Str` we use another library for
+string manipulation: `format`.
+It is a wrapper around the C++ `fmt` library, whose syntax is inspired by Python3:
+see <https://fmt.dev/latest/syntax.html>
+
+The previous example containers_v1.pyx is modified in `containers_v2.pyx` to use the
+format `format` library. The main change is in the `show content()` code.
+
+Import of the library:
+
+```python
+from .stdlib.string cimport Str
+from .stdlib.format cimport format
+```
+
+The modified method:
+
+```python
+    void show_content(self):
+        cdef Str tmp
+
+        printf("-------- containers quick example, version 2 --------\n")
+        printf("some_listst:\n")
+        for i in self.some_list:
+            print_str(format("  {}", i))
+
+        printf("some_dict:\n")
+        for item1 in self.some_dict.items():
+            tmp = format("  {:04d}: {:.2f}", item1.first, item1.second)
+            print_str(tmp)
+
+        printf("another_dict:\n")
+        for item2 in self.another_dict.items():
+            tmp = format("  {:>6}: {:#x}", item2.first.bytes(), item2.second)
+            print_str(tmp)
+```
+
+The `print_str()` function used in the method is a on-liner utility function defined
+above:
+
+```python
+cdef void print_str(Str s) nogil:
+    printf("%s\n", s.bytes())
+```
+
+> Note: This function is a pure Cython function. To be able to use it inside a cypclass
+> method, it is necessary that the function does not use the GIL, therefore the Cython
+> keyword `nogil`. This is a common pattern of a cypclass making use of "classical"
+> Cython function.
+
+The `format` library requires the resulting `.so` compiled Cython+ library to have
+access to the `fmt` C++ library. For convenience, the `fmt` source code is provided
+with the sample code, and the `setup.py` file builds `fmt` as a static library
+(`cmake` must be installed on the computer).
+
+The expected result of this implementation:
+
+    -------- containers quick example, version 2 --------
+    some_listst:
+      1
+      20
+      30
+    some_dict:
+      0001: 0.12
+      0020: 3.14
+    another_dict:
+           a: 0x1
+         foo: 0x14
+
+## Adding features: list sort and reverse
+
+In this part, some "advanced" programming example. They are several ways to add
+features to Cython+:
+
+-   standard module using plain Cython+ and Cython code, like previous
+    `container_v1.pyx` example,
+-   make a wrapper around some C++ library, but that requires competencies in both C++
+    and Cython+ internals,
+-   use the C++ APIs still accessible in the core classes of Cython+.
+
+The cypclass `cyplist` does not provide a 'sort' or 'reverse' method as standard, this
+example proposes an implementation in a few lines.
+
+```python
+from libc.stdio cimport printf
+from libcpp.algorithm cimport sort, reverse
+from libcythonplus.list cimport cyplist
+```
+
+Cython library contains ports of many interesting C++ features, notably the algorithm
+library. We can import it from `libcpp.algorithm`.
+
+```python
+ctypedef cyplist[int] IntList
+```
+
+Cython borrowed the `typedef` feature from C/C++ to improve code readability.
+Whenever we use an integer `cyplist`, we would need to write the long `cyplist[int]`
+statement. So we use the `ctypedef` keyword to define a shortcut.
+
+```python
+cdef void print_list(IntList lst) nogil:
+    for i in range(lst.__len__()):
+        printf("%d ", <int>lst[i])
+    printf("\n")
+```
+
+`print_list()` is a Cython utility to print the elements of the list.
+
+> Note the `nogil` keyword, so this function could be used in a 'nogil' context,
+> possibly inside a cypclass
+>
+> Here some complexity:
+>
+> -   `range()` will be compiled by Cython into 'nogil' compatible code,
+> -   however, `len(some_list)` would yield a complete Python object (Python integer),
+>     thus requiring GIL,
+> -   similarly, iterating directly over the list would also generate Python objects.
+>
+> We therefore directly use the `__len__()` method of `cyplist`, which returns a
+> low-level integer compatible with the `nogil` context.
+>
+> `<int>lst[i]` is a cast to ensure C++ understand our integer type.
+
+```python
+cdef void sort_list(IntList lst) nogil:
+    if lst._active_iterators == 0:
+        sort(lst._elements.begin(), lst._elements.end())
+    else:
+        with gil:
+            raise RuntimeError("Modifying a list with active iterators")
+```
+
+`cyplist` is implemented on top of the C++ class `vector`. The `sort_list()` function
+performs in-place sorting, using the underlying C++ API.
+
+> We use the `sort` function imported from `libcpp.algorithm`.
+>
+> Note the `with gil` clause: the `raise` function relies on GIL Python object, thus
+> it can not be used in a `nogil` context.
+
+```python
+cdef void reverse_list(IntList lst) nogil:
+    if lst._active_iterators == 0:
+        reverse(lst._elements.begin(), lst._elements.end())
+    else:
+        with gil:
+            raise RuntimeError("Modifying a list with active iterators")
+```
+
+The `reverse_list()` function reverses in-place the order of the list, using the
+underlying C++ API.
+
+> We use the `reverse` function imported from `libcpp.algorithm`.
+
+The complete code of list_sort_reverse_in_place.pyx:
+
+```python
+from libc.stdio cimport printf
+from libcpp.algorithm cimport sort, reverse
+from libcythonplus.list cimport cyplist
+
+# define a specialized type: list of int
+ctypedef cyplist[int] IntList
+
+
+cdef void print_list(IntList lst) nogil:
+    for i in range(lst.__len__()):
+        printf("%d ", <int>lst[i])
+    printf("\n")
+
+
+cdef void sort_list(IntList lst) nogil:
+    if lst._active_iterators == 0:
+        sort(lst._elements.begin(), lst._elements.end())
+    else:
+        with gil:
+            raise RuntimeError("Modifying a list with active iterators")
+
+
+cdef void reverse_list(IntList lst) nogil:
+    if lst._active_iterators == 0:
+        reverse(lst._elements.begin(), lst._elements.end())
+    else:
+        with gil:
+            raise RuntimeError("Modifying a list with active iterators")
+
+
+cdef void demo_sort():
+    cdef IntList lst
+
+    lst = IntList()
+    with nogil:
+        printf("-------- containers demo list sort / reverse --------\n")
+
+        lst.append(20)
+        lst.append(300)
+        lst.append(10)
+        lst.append(2)
+        lst.append(1000)
+        lst.append(1)
+
+        printf('original list:\n')
+        print_list(lst)
+
+        printf('reverse list in-place:\n')
+        reverse_list(lst)
+        print_list(lst)
+
+        printf('reverse list in-place:\n')
+        reverse_list(lst)
+        print_list(lst)
+
+        printf('sort list in-place:\n')
+        sort_list(lst)
+        print_list(lst)
+
+        printf('reverse list in-place:\n')
+        reverse_list(lst)
+        print_list(lst)
+
+
+def main():
+    demo_sort()
+```
+
+Result:
+
+    -------- containers demo list sort / reverse --------
+    original list:
+    20 300 10 2 1000 1
+    reverse list in-place:
+    1 1000 2 10 300 20
+    reverse list in-place:
+    20 300 10 2 1000 1
+    sort list in-place:
+    1 2 10 20 300 1000
+    reverse list in-place:
+    1000 300 20 10 2 1
+
+## The `setup.py` file
+
+The two key features of this setup file are:
+
+-   compile several modules in one package,
+-   declare the use of a library: `fmt`.
+
+The complete `setup.py` file for this article's example:
+
+```python
+from os.path import join, exists, abspath, dirname
+from os import makedirs, chdir, getcwd
+from shutil import rmtree, copytree, copy
+from subprocess import run
+
+from setuptools import setup
+from setuptools.extension import Extension
+from Cython.Build import cythonize
+
+PROJECT_ROOT = abspath(dirname(__file__))
+
+
+def build_libfmt():
+    libfmt = join(PROJECT_ROOT, "libfmt")
+    if exists(join(libfmt, "libfmt.a")):
+        print("libfmt.a found")
+        return
+    if not exists(libfmt):
+        makedirs(libfmt)
+    src = "fmt-8.0.1"
+    src_path = join(PROJECT_ROOT, "..", "..", "vendor", f"{src}.tar.gz")
+    if not exists(src_path):
+        raise ValueError(f"{src_path} not found")
+    build = join(PROJECT_ROOT, "build_fmt")
+    if exists(build):
+        rmtree(build)
+    makedirs(build)
+    orig_wd = getcwd()
+    chdir(build)
+    run(["tar", "xzf", src_path])
+    chdir(join(build, src))
+    run(["cmake", "-DCMAKE_POSITION_INDEPENDENT_CODE=TRUE", "."])
+    run(["make", "fmt"])
+    chdir(orig_wd)
+    copytree(join(build, src, "include", "fmt"), join(libfmt, "fmt"))
+    copy(join(build, src, "libfmt.a"), libfmt)
+
+
+build_libfmt()
+
+setup(
+    ext_modules=cythonize(
+        [
+            Extension(
+                name="containers.containers_v1",
+                language="c++",
+                sources=["containers/containers_v1.pyx"],
+                extra_compile_args=[
+                    "-std=c++17",
+                    "-O3",
+                    "-Wno-deprecated-declarations",
+                ],
+            ),
+            Extension(
+                name="containers.containers_v2",
+                language="c++",
+                sources=["containers/containers_v2.pyx"],
+                extra_compile_args=[
+                    "-std=c++17",
+                    "-O3",
+                    "-Wno-deprecated-declarations",
+                ],
+                libraries=["fmt"],
+                include_dirs=["libfmt"],
+                library_dirs=["libfmt"],
+            ),
+            Extension(
+                name="containers.list_sort_reverse_in_place",
+                language="c++",
+                sources=["containers/list_sort_reverse_in_place.pyx"],
+                extra_compile_args=[
+                    "-std=c++17",
+                    "-O3",
+                    "-Wno-deprecated-declarations",
+                ],
+                libraries=["fmt"],
+                include_dirs=["libfmt"],
+                library_dirs=["libfmt"],
+            ),
+        ],
+        language_level="3str",
+    )
+)
+```
+
+> Note: of course the `build_libfmt()` function could be omitted or replaced by a pure
+> shell script elsewhere, but for ease of use it is included in this all-in-one
+> `setup.py`.
+>
+> It seems that the different `Extension` instances share many parameters, in future
+> articles we will simplify this part.
+
+The <https://github.com/abilian/cythonplus-articles> git repository contains the demo code of this article.
+
+* * *
+
+## Funders
+
+_Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions._
+(This Project was supported in a joint framework between the State, within the framework of the "Programme d’investissements d’avenir", and the Regions.)
+
+![Programme d'investissements d'avenir](./images/investirlavenir.png)
+
+_Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France._
+
+![BPI](./images/bpi.png)
+![Cap Digital](./images/cap_digital.jpeg)
+![Région Île de France](./images/ile_de_france.png)

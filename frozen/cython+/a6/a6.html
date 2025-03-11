@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>#6 - cypxml, a real world Cython+ module</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="prev" title="#5 - Utilities and standard libraries for Cython+" href="../a5/a5.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a1/a1.html" class="reference internal ">#1 - “Hello World!”</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a2/a2.html" class="reference internal ">#2 - Standard classes</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a3/a3.html" class="reference internal ">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a4/a4.html" class="reference internal ">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a5/a5.html" class="reference internal ">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#cypxml-xml-generator-written-in-cython" class="reference internal">cypxml, XML generator written in Cython+</a></li>
+                
+                  <li class="toctree-l2"><a href="#commented-source-of-cypxml" class="reference internal">Commented source of cypxml</a></li>
+                
+                  <li class="toctree-l2"><a href="#the-demo-file" class="reference internal">The demo file</a></li>
+                
+                  <li class="toctree-l2"><a href="#funders" class="reference internal">Funders</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>#6 - <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, a real world Cython+ module</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../a5/a5.html"
+       title="previous chapter">← #5 - Utilities and standard libraries for Cython+</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="cypxml-a-real-world-cython-module">
+<h1>#6 - <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, a real world Cython+ module<a class="headerlink" href="#cypxml-a-real-world-cython-module" title="Permalink to this headline">¶</a></h1>
+<p><strong><em>About Cython+ :</em></strong></p>
+<p><img alt="logo Cython+" src="../_images/cythonplus5.png" /> Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.</p>
+<p><strong><em>In this sixth article:</em></strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, XML generator written in Cython+</p></li>
+<li><p>Commented source of <code class="docutils literal notranslate"><span class="pre">cypxml</span></code></p></li>
+<li><p>The demo file</p></li>
+</ul>
+<section id="cypxml-xml-generator-written-in-cython">
+<h2><code class="docutils literal notranslate"><span class="pre">cypxml</span></code>, XML generator written in Cython+<a class="headerlink" href="#cypxml-xml-generator-written-in-cython" title="Permalink to this headline">¶</a></h2>
+<section id="about">
+<h3>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">cypxml</span></code> is an XML generator written in Cython+. <code class="docutils literal notranslate"><span class="pre">cypxml</span></code> was written to replace the
+<code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code> module used by Abilian.
+However, <code class="docutils literal notranslate"><span class="pre">cypxml</span></code> is not the direct translation of <code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code> to Cython+. While
+<code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code> is single-core and builds the XML tree sequentially, <code class="docutils literal notranslate"><span class="pre">cypxml</span></code> is a
+multi-core generator taking advantage of the parallelism enabled by Cython+:</p>
+<ul class="simple">
+<li><p>recursive generation of a cypclass <code class="docutils literal notranslate"><span class="pre">Str()</span></code> for each XML tag from its children,</p></li>
+<li><p>XML export XML parallelized with the Cython+ scheduler,</p></li>
+<li><p>XML instance-level configuration of the number of concurrent workers and the
+depth at which the export switches from parallel mode to simple single-core
+recursive mode.</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">cypxml</span></code> allows the direct replacement of <code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code> by a quick adaptation of the
+original code:</p>
+<ul class="simple">
+<li><p>all <code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code> unit tests passed by <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>,</p></li>
+<li><p>the result of XML exports is identical (including style and indentation),</p></li>
+<li><p>export in Cython+ <code class="docutils literal notranslate"><span class="pre">Str()</span></code> format available,</p></li>
+<li><p>syntax close enough to allow adaptation of the code almost line by line.</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">cypxml</span></code> also offers features not present in <code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code> such as inserting XML tags
+in non-sequential order, modifying attributes and content a posteriori.</p>
+<p>Both tools have quite the same performances for now:</p>
+<p><code class="docutils literal notranslate"><span class="pre">cypxml</span></code> generates a cypclass Str() for each XML tag, from the Str() of each XML
+child, recursively.</p>
+<p>Original <code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code>: <a class="reference external" href="https://github.com/galvez/%60xmlwitch%60">https://github.com/galvez/<code class="docutils literal notranslate"><span class="pre">xmlwitch</span></code></a></p>
+</section>
+<section id="usage">
+<h3>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h3>
+<p>Cython+ code using <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">.cypxml</span> <span class="n">cimport</span> <span class="n">cypxml</span>
+
+<span class="n">cdef</span> <span class="n">cypxml</span> <span class="n">gen_xml</span><span class="p">()</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">xml</span> <span class="o">=</span> <span class="n">cypxml</span><span class="p">()</span>
+    <span class="n">xml</span><span class="o">.</span><span class="n">init_version</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;1.0&quot;</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">geo</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+        <span class="n">g</span> <span class="o">=</span> <span class="n">xml</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;Geo&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;zone&quot;</span><span class="p">),</span> <span class="nb">format</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">geo</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">area</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">8</span><span class="p">):</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;Area&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;where&quot;</span><span class="p">),</span> <span class="nb">format</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">area</span><span class="p">))</span>
+            <span class="k">for</span> <span class="n">city</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">40</span><span class="p">):</span>
+                <span class="n">c</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;City&quot;</span><span class="p">))</span>
+                <span class="n">c</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;Name&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="s2">&quot;name of city </span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">city</span><span class="p">))</span>
+                <span class="n">c</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;Location&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="s2">&quot;location of city </span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">city</span><span class="p">))</span>
+                <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">):</span>
+                    <span class="n">c</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="s2">&quot;item&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;ref&quot;</span><span class="p">),</span> <span class="nb">format</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">item</span><span class="p">))</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;number&quot;</span><span class="p">),</span> <span class="n">Str</span><span class="p">(</span><span class="s2">&quot;10&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;date&quot;</span><span class="p">),</span> <span class="n">Str</span><span class="p">(</span><span class="s2">&quot;2022-1-1&quot;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">xml</span>
+
+<span class="n">xml</span> <span class="o">=</span> <span class="n">gen_xml</span><span class="p">()</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">xml</span><span class="o">.</span><span class="n">dump</span><span class="p">()</span><span class="o">.</span><span class="n">bytes</span><span class="p">()</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>XML Result:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="nt">&lt;Geo</span> <span class="na">zone=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;Area</span> <span class="na">where=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;City&gt;</span>
+      <span class="nt">&lt;Name&gt;</span>name of city 0<span class="nt">&lt;/Name&gt;</span>
+      <span class="nt">&lt;Location&gt;</span>location of city 0<span class="nt">&lt;/Location&gt;</span>
+      <span class="nt">&lt;item</span> <span class="na">ref=</span><span class="s">&quot;0&quot;</span> <span class="na">number=</span><span class="s">&quot;10&quot;</span> <span class="na">date=</span><span class="s">&quot;2022-1-1&quot;</span> <span class="nt">/&gt;</span>
+[...]
+</pre></div>
+</div>
+</section>
+</section>
+<section id="commented-source-of-cypxml">
+<h2>Commented source of <code class="docutils literal notranslate"><span class="pre">cypxml</span></code><a class="headerlink" href="#commented-source-of-cypxml" title="Permalink to this headline">¶</a></h2>
+<section id="files">
+<h3>Files<a class="headerlink" href="#files" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">cypxml</span></code> module contains the two files <code class="docutils literal notranslate"><span class="pre">cypxml.pxd</span></code> and <code class="docutils literal notranslate"><span class="pre">cypxml.pyx</span></code>, and the
+libraries files described in previous articles:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pthread</span></code> and <code class="docutils literal notranslate"><span class="pre">scheduler</span></code> libraries</p></li>
+<li><p>in <code class="docutils literal notranslate"><span class="pre">stdlib</span></code> :</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">string</span></code>, <code class="docutils literal notranslate"><span class="pre">_string</span></code>, <code class="docutils literal notranslate"><span class="pre">format</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">xml_utils</span></code></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="code-of-cypxml-pyx">
+<h3>Code of <code class="docutils literal notranslate"><span class="pre">cypxml.pyx</span></code><a class="headerlink" href="#code-of-cypxml-pyx" title="Permalink to this headline">¶</a></h3>
+<p>This <code class="docutils literal notranslate"><span class="pre">.pyx</span></code> file is very small. It only contains the import section (exact same list
+of imports as the <code class="docutils literal notranslate"><span class="pre">.pxd</span></code> file) and two utility functions: <code class="docutils literal notranslate"><span class="pre">to_str()</span></code> and
+<code class="docutils literal notranslate"><span class="pre">cypxml_to_py_str</span></code>. These functions are conversion utilities for exchanging data with pure Python code:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">to_str()</span></code> converts any Python string to Cython+ <code class="docutils literal notranslate"><span class="pre">Str()</span></code>, assuming UTF8 content,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cypxml_to_py_str()</span></code> export cypXML object to Python string.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libcythonplus.dict</span> <span class="n">cimport</span> <span class="n">cypdict</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.list</span> <span class="n">cimport</span> <span class="n">cyplist</span>
+
+<span class="kn">from</span> <span class="nn">.stdlib.string</span> <span class="n">cimport</span> <span class="n">Str</span>
+<span class="kn">from</span> <span class="nn">.stdlib.format</span> <span class="n">cimport</span> <span class="nb">format</span>
+<span class="kn">from</span> <span class="nn">.stdlib.xml_utils</span> <span class="n">cimport</span> <span class="n">escaped</span><span class="p">,</span> <span class="n">quotedattr</span><span class="p">,</span> <span class="n">nameprep</span><span class="p">,</span> <span class="n">concate</span><span class="p">,</span> <span class="n">indented</span>
+<span class="kn">from</span> <span class="nn">.scheduler.scheduler</span> <span class="n">cimport</span> <span class="n">BatchMailBox</span><span class="p">,</span> <span class="n">NullResult</span><span class="p">,</span> <span class="n">Scheduler</span>
+
+
+<span class="n">cdef</span> <span class="n">Str</span> <span class="n">to_str</span><span class="p">(</span><span class="n">byte_or_string</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">byte_or_string</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">Str</span><span class="p">(</span><span class="n">byte_or_string</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">,</span> <span class="s2">&quot;replace&quot;</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">Str</span><span class="p">(</span><span class="nb">bytes</span><span class="p">(</span><span class="n">byte_or_string</span><span class="p">))</span>
+
+
+<span class="k">def</span> <span class="nf">cypxml_to_py_str</span><span class="p">(</span><span class="n">xml</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">xml</span><span class="o">.</span><span class="n">dump</span><span class="p">()</span><span class="o">.</span><span class="n">bytes</span><span class="p">()</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="code-of-cypxml-pxd">
+<h3>Code of <code class="docutils literal notranslate"><span class="pre">cypxml.pxd</span></code><a class="headerlink" href="#code-of-cypxml-pxd" title="Permalink to this headline">¶</a></h3>
+<p><strong>All the cypclass</strong></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">cypxml.pxd</span></code> file contains the definitions of the 6 cypclass of the module:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span> <span class="pre">cypclass</span> <span class="pre">cypXML</span></code>:</p>
+<p>The main class, representing an XML document. The class contain:</p>
+<ul class="simple">
+<li><p>a reference to the root element of a tree of elements (elements are     <code class="docutils literal notranslate"><span class="pre">cypElement</span></code> instances),</p></li>
+<li><p>methods to extends the root element,</p></li>
+<li><p>‘dump()’ method to export the tree as an XML formated text,</p></li>
+<li><p>configuration parameters (indent …).</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span> <span class="pre">cypclass</span> <span class="pre">DumpRoot</span> <span class="pre">activable</span></code>:</p>
+<p>A cypclass actor (note the activatable keyword), in charge of exporting
+the root of the XML tree.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span> <span class="pre">cypclass</span> <span class="pre">Dumper</span> <span class="pre">activable</span></code>:</p>
+<p>A cypclass actor, in charge of exporting a sub tree in the XML tree.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span> <span class="pre">cypclass</span> <span class="pre">Recorder</span> <span class="pre">activable</span></code>:</p>
+<p>A cypclass actor, responsible for collecting the result of a subtree export. The
+<code class="docutils literal notranslate"><span class="pre">Recorder</span></code> algorithm was described in article #4.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span> <span class="pre">cypclass</span> <span class="pre">cypElement</span></code>:</p>
+<p>A node of the tree: an XML tag definition and the list of its children.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cdef</span> <span class="pre">cypclass</span> <span class="pre">Elem</span></code>:</p>
+<p>A wrapper class above cypElement, permitting chaining methods like:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>xml.tag(Str(&quot;Tag&quot;)).attr(Str(&quot;ref&quot;), Str(&quot;10&quot;)}&quot;.attr(Str(&quot;Qty&quot;), Str(&quot;20&quot;))
+</pre></div>
+</div>
+</li>
+</ul>
+<p><strong>General principle of the module</strong></p>
+<p>All operations are done in a cypclass, so in <code class="docutils literal notranslate"><span class="pre">nogil</span></code> mode.</p>
+<p>Creation of the tree:</p>
+<ul class="simple">
+<li><p>The elements (XML tags represented by <code class="docutils literal notranslate"><span class="pre">cypElement</span></code> instances) are inserted in a
+tree-like way under the root element,</p></li>
+<li><p>text-formatted subtrees can also be inserted into the tree (in practice, <code class="docutils literal notranslate"><span class="pre">cypxml</span></code>
+exports),</p></li>
+<li><p>the tree is designed to be created as queries are made to a database,</p></li>
+<li><p>all element content is stored as <code class="docutils literal notranslate"><span class="pre">Str()</span></code> instance when it is created.</p></li>
+</ul>
+<p>XML export:</p>
+<p>The tree is exported to an XML text by a cascade of actors:</p>
+<ul class="simple">
+<li><p>For each child node of the current tag, an actor is launched to request the XML
+formatting of the sub-tree.</p></li>
+<li><p>The actor in charge of the current tag retrieves the results of the formatted sub
+trees and returns the XML formatted for the current tag and its children.</p></li>
+<li><p>Intermediate results are collected by instances of a <code class="docutils literal notranslate"><span class="pre">Recorder</span></code> class,</p></li>
+<li><p>A parameter is used to adjust the depth at which this system of actors gives way
+to a classic recursive tree traversal mode (without actors).</p></li>
+<li><p>It is therefore possible to distribute the XML results generation load over a
+large number of CPUs.</p></li>
+</ul>
+<p><strong>The <code class="docutils literal notranslate"><span class="pre">cypXML</span></code> cypclass</strong></p>
+<p>Only the parts of interest are detailed below:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">cypXML</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A basic cypclass providing XML document API - multicore implementation</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">int</span> <span class="n">nb_workers</span>
+    <span class="nb">int</span> <span class="n">max_depth</span>
+    <span class="n">Str</span> <span class="n">version</span>
+    <span class="n">cypElement</span> <span class="n">root</span>
+    <span class="n">cyplist</span><span class="p">[</span><span class="n">Str</span><span class="p">]</span> <span class="n">content</span>
+    <span class="n">Str</span> <span class="n">indent_space</span>
+    <span class="n">cyplist</span><span class="p">[</span><span class="n">Str</span><span class="p">]</span> <span class="n">chunks</span>
+    <span class="n">cyplist</span><span class="p">[</span><span class="n">Elem</span><span class="p">]</span> <span class="n">rope</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">nb_workers</span></code>: define how many cores (threads) the scheduler will use. By default,
+the number of detected CPUs.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">max_depth</span></code> is the depth beyond which the actor system gives way to a recursive
+algorithm  for computing the subtree.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">version</span></code>: the XML version.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">root</span></code>: the root element of the tree.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">content</span></code>: textual content to add to final XML text (before root tree).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">indent_space</span></code>: indent, default is <code class="docutils literal notranslate"><span class="pre">Str(&quot;</span>&#160; <span class="pre">&quot;)</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chunks</span></code>: buffer to concatenate header, content and XML text.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rope</span></code>: a list of tags permitting chaining methods feature. A disadvantage of this
+feature is that the string must be cleared (recursively for each child) before
+XML export. The requirement here is that to achieve actor isolation, any external
+link to the object must be removed. In a future version of Cython+, this
+functionality could be realized if a “weakref”-like mechanism could be implemented.</p></li>
+</ul>
+<p><strong><code class="docutils literal notranslate"><span class="pre">tag()</span></code> method:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">Elem</span> <span class="n">tag</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">Str</span> <span class="n">name</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">root</span> <span class="ow">is</span> <span class="n">NULL</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">root</span> <span class="o">=</span> <span class="n">cypElement</span><span class="p">(</span><span class="n">Str</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">indent_space</span><span class="p">,</span> <span class="n">Str</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">rope</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">child_space</span> <span class="o">=</span> <span class="n">Str</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+    <span class="n">Elem</span> <span class="n">stag</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">const</span> <span class="n">char</span><span class="o">*</span> <span class="n">name</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">Str</span><span class="p">(</span><span class="n">name</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>This method allows to add tags directly to the cypXML() instance. Create the root
+element if not present (NULL root allows empty XML content), then add the tag to the
+root element.</p>
+<blockquote>
+<div><p>The returned element is Elem, not cypElement. We use here the wrapper for the
+chaining methods feature.
+The <code class="docutils literal notranslate"><span class="pre">stag()</span></code> method is a syntactic sugar, it allows to write ‘xml.stag(“Foo”)’
+rather than <code class="docutils literal notranslate"><span class="pre">xml.tag(Str(&quot;Foo&quot;))</span></code>. The other methods (attr, append, tail…) have
+the same shortcuts.</p>
+</div></blockquote>
+<p><strong><code class="docutils literal notranslate"><span class="pre">dump_workers()</span></code> method:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">Str</span> <span class="n">dump_workers</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Generate XML as a Str() string. Multicore implementation.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">cdef</span> <span class="n">Str</span> <span class="n">result</span><span class="p">,</span> <span class="n">s_result</span>
+        <span class="n">cdef</span> <span class="n">Str</span> <span class="n">c_result</span>
+        <span class="n">cdef</span> <span class="n">Str</span> <span class="n">item</span>
+        <span class="n">cdef</span> <span class="n">iso</span> <span class="n">cypElement</span> <span class="n">root</span>
+        <span class="n">cdef</span> <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span>
+        <span class="n">cdef</span> <span class="n">Elem</span> <span class="n">link</span>
+        <span class="n">cdef</span> <span class="n">cyplist</span><span class="p">[</span><span class="n">cypElement</span><span class="p">]</span> <span class="n">children</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">chunks</span> <span class="o">=</span> <span class="n">cyplist</span><span class="p">[</span><span class="n">Str</span><span class="p">]()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">append_header</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">content</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">chunks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">root</span> <span class="ow">is</span> <span class="n">NULL</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">concate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">chunks</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">result</span>
+
+        <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">rope</span><span class="p">:</span>
+            <span class="n">link</span><span class="o">.</span><span class="n">cut</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rope</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">cut_rope</span><span class="p">()</span>
+
+        <span class="n">scheduler</span> <span class="o">=</span> <span class="n">Scheduler</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">nb_workers</span><span class="p">)</span>
+        <span class="n">root</span> <span class="o">=</span> <span class="n">consume</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">root</span><span class="p">)</span>
+
+        <span class="n">root_dumper</span> <span class="o">=</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">DumpRoot</span><span class="p">(</span>
+                                            <span class="n">scheduler</span><span class="p">,</span>
+                                            <span class="n">consume</span><span class="p">(</span><span class="n">root</span><span class="p">),</span>
+                                            <span class="bp">self</span><span class="o">.</span><span class="n">max_depth</span><span class="p">,</span>
+                                            <span class="p">))</span>
+        <span class="n">root_dumper</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+
+        <span class="n">scheduler</span><span class="o">.</span><span class="n">finish</span><span class="p">()</span>
+        <span class="k">del</span> <span class="n">scheduler</span>
+
+        <span class="n">c_root_dumper</span> <span class="o">=</span> <span class="n">consume</span><span class="p">(</span><span class="n">root_dumper</span><span class="p">)</span>
+        <span class="n">c_recorder</span> <span class="o">=</span> <span class="n">consume</span><span class="p">(</span><span class="n">c_root_dumper</span><span class="o">.</span><span class="n">recorder</span><span class="p">)</span>
+        <span class="n">c_result</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="n">c_recorder</span><span class="o">.</span><span class="n">read_result</span><span class="p">())</span>
+        <span class="n">s_result</span> <span class="o">=</span> <span class="n">Str</span><span class="p">()</span>
+        <span class="n">s_result</span><span class="o">.</span><span class="n">_str</span> <span class="o">=</span> <span class="n">c_result</span><span class="o">.</span><span class="n">_str</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">chunks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">s_result</span><span class="p">)</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">concate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">chunks</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+<p>This method is responsible for building the XML text by launching actors.</p>
+<ul class="simple">
+<li><p>Collect headers and content into the <code class="docutils literal notranslate"><span class="pre">chunk</span></code> buffer.</p></li>
+<li><p><em>cut the rope</em> : as explained above, each element’s <code class="docutils literal notranslate"><span class="pre">rope</span></code> attribute must be
+removed for isolation.</p></li>
+<li><p>Create the scheduler. A single scheduler is created, it is passed as an argument
+to all methods.</p></li>
+<li><p>Isolate the root element and launch an instance of the cypclass <code class="docutils literal notranslate"><span class="pre">DumpRoot</span></code> as an
+actor with the command <code class="docutils literal notranslate"><span class="pre">root_dumper.run(NULL)</span></code>.</p></li>
+<li><p>When the scheduler queues are empty, all the actores have finished their work,
+the last task is to retrieve the result of the <code class="docutils literal notranslate"><span class="pre">recorder</span></code> and add it to the buffer.</p></li>
+</ul>
+<p><strong>The <code class="docutils literal notranslate"><span class="pre">DumpRoot</span></code> cypclass</strong></p>
+<p>This class has the same characteristics of <code class="docutils literal notranslate"><span class="pre">activable</span></code> cypclass seen in previous
+articles:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">activable</span></code> keyword,</p></li>
+<li><p>standard attributes (<code class="docutils literal notranslate"><span class="pre">scheduler</span></code>, <code class="docutils literal notranslate"><span class="pre">_active_result_class</span></code>, <code class="docutils literal notranslate"><span class="pre">_active_queue_class</span></code>).</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">DumpRoot</span> <span class="n">activable</span><span class="p">:</span>
+    <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span>
+    <span class="n">active</span> <span class="n">Recorder</span> <span class="n">recorder</span>
+    <span class="n">iso</span> <span class="n">cypElement</span> <span class="n">element</span>
+    <span class="nb">int</span> <span class="n">max_depth</span>
+
+    <span class="fm">__init__</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span>
+            <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">,</span>
+            <span class="n">iso</span> <span class="n">cypElement</span> <span class="n">root</span><span class="p">,</span>
+            <span class="nb">int</span> <span class="n">max_depth</span><span class="p">,</span>
+            <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_result_class</span> <span class="o">=</span> <span class="n">NullResult</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_queue_class</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">BatchMailBox</span><span class="p">(</span><span class="n">scheduler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span> <span class="o">=</span> <span class="n">scheduler</span>  <span class="c1"># keep it for use with sub objects</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span> <span class="o">=</span> <span class="n">activate</span> <span class="p">(</span><span class="n">consume</span> <span class="n">Recorder</span><span class="p">(</span><span class="n">scheduler</span><span class="p">,</span> <span class="n">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">element</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">root</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max_depth</span> <span class="o">=</span> <span class="n">max_depth</span>
+</pre></div>
+</div>
+<p><strong><code class="docutils literal notranslate"><span class="pre">run()</span></code> method:</strong></p>
+<p>The main method of this class, to be executed as an actor.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">cdef</span> <span class="nb">int</span> <span class="n">index</span>
+        <span class="n">cdef</span> <span class="nb">int</span> <span class="n">depth</span>
+        <span class="n">cdef</span> <span class="n">iso</span> <span class="n">cypElement</span> <span class="n">elem</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span><span class="n">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">consume</span> <span class="n">Str</span><span class="p">())</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span><span class="n">NULL</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">consume</span> <span class="n">Str</span><span class="p">())</span>
+
+        <span class="n">depth</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_depth</span>
+        <span class="n">element</span> <span class="o">=</span> <span class="n">consume</span> <span class="bp">self</span><span class="o">.</span><span class="n">element</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">element</span> <span class="o">=</span> <span class="n">NULL</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span><span class="o">.</span><span class="n">set_size</span><span class="p">(</span><span class="n">NULL</span><span class="p">,</span> <span class="n">element</span><span class="o">.</span><span class="n">nb_children</span><span class="p">()</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="n">index</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># can start at zero for DummpRoot: no begin and end</span>
+                   <span class="c1"># but want to keep same Recoder class</span>
+        <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">child</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">element</span><span class="o">.</span><span class="n">pop_child</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">child</span> <span class="ow">is</span> <span class="n">NULL</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">dumper</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">active</span> <span class="n">Dumper</span><span class="o">&gt;</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">Dumper</span><span class="p">(</span>
+                                                        <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span><span class="p">,</span>
+                                                        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span><span class="p">,</span>
+                                                        <span class="n">consume</span> <span class="n">child</span><span class="p">,</span>
+                                                        <span class="n">index</span><span class="p">,</span>
+                                                        <span class="n">depth</span><span class="p">,</span>
+                                                        <span class="p">))</span>
+            <span class="n">dumper</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+        <span class="k">return</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>The <code class="docutils literal notranslate"><span class="pre">Recorder</span></code> instance is unique for this element, <em>but</em> it is launched several
+times: the cypclasses allow to make reusable actors, which keep their internal
+state.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Recorder</span></code> data structure:</p>
+<ul>
+<li><p>1st position: prefix string (empty for root element),</p></li>
+<li><p>2nd position: suffix string (empty for root element),</p></li>
+<li><p>then a string for each child.</p></li>
+</ul>
+</li>
+<li><p>We know the number of chidren, so we can:</p>
+<ul>
+<li><p>assign a size to the <code class="docutils literal notranslate"><span class="pre">recorder</span></code>,</p></li>
+<li><p>use the index of children in the list to set the position of its result in
+the list of the <code class="docutils literal notranslate"><span class="pre">recorder</span></code> (because it is not known in which order the result
+will be received by the <code class="docutils literal notranslate"><span class="pre">recorder</span></code>).</p></li>
+</ul>
+</li>
+<li><p>For each child, an instance of the actor cypclass <code class="docutils literal notranslate"><span class="pre">Dumper</span></code> is created and
+launched. Almost the same class as <code class="docutils literal notranslate"><span class="pre">DumpRoot</span></code>, without the root element
+specificity.</p></li>
+</ul>
+<p><strong>The <code class="docutils literal notranslate"><span class="pre">Dumper</span></code> cypclass</strong></p>
+<p>This class is close to the <code class="docutils literal notranslate"><span class="pre">DumpRoot</span></code> class.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Dumper</span> <span class="n">activable</span><span class="p">:</span>
+    <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span>
+    <span class="n">active</span> <span class="n">Recorder</span> <span class="n">parent_recorder</span>
+
+    <span class="n">iso</span> <span class="n">cypElement</span> <span class="n">element</span>
+    <span class="nb">int</span> <span class="n">index</span>
+    <span class="nb">int</span> <span class="n">depth</span>
+
+    <span class="fm">__init__</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span>
+            <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">,</span>
+            <span class="n">active</span> <span class="n">Recorder</span> <span class="n">parent_recorder</span><span class="p">,</span>
+            <span class="n">iso</span> <span class="n">cypElement</span> <span class="n">element</span><span class="p">,</span>
+            <span class="nb">int</span> <span class="n">index</span><span class="p">,</span>
+            <span class="nb">int</span> <span class="n">depth</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_result_class</span> <span class="o">=</span> <span class="n">NullResult</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_queue_class</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">BatchMailBox</span><span class="p">(</span><span class="n">scheduler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span> <span class="o">=</span> <span class="n">scheduler</span>  <span class="c1"># keep it for use with sub objects</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parent_recorder</span> <span class="o">=</span> <span class="n">parent_recorder</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">element</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">element</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">index</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">depth</span> <span class="o">=</span> <span class="n">depth</span>
+</pre></div>
+</div>
+<p><strong><code class="docutils literal notranslate"><span class="pre">run()</span></code> method:</strong></p>
+<p>The main method of this class, to be executed as an actor.</p>
+<ul class="simple">
+<li><p>If the depth of the element in the tree reaches the limit, continue with classic
+recursion on the sub-elements.</p></li>
+<li><p>If the element has no children, store the XML content in the parent <code class="docutils literal notranslate"><span class="pre">recorder</span></code>.</p></li>
+<li><p>If they are children, the <code class="docutils literal notranslate"><span class="pre">request_children()</span></code> method will create a new <code class="docutils literal notranslate"><span class="pre">Recorder</span></code>
+instance to collect the results from the children and create a <code class="docutils literal notranslate"><span class="pre">Dumper</span></code> instance
+for each child. All of these instances are actors operating asynchronously.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">depth</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">depth</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">parent_recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span>
+                        <span class="n">NULL</span><span class="p">,</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+                        <span class="n">consume</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">dump_recursive</span><span class="p">())</span>
+                        <span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">nb_children</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">request_children</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">parent_recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span>
+                            <span class="n">NULL</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+                            <span class="n">consume</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">dump_leaf</span><span class="p">())</span>
+                            <span class="p">)</span>
+        <span class="k">return</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">request_children</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">cdef</span> <span class="n">active</span> <span class="n">Recorder</span> <span class="n">recorder</span>
+        <span class="n">cdef</span> <span class="nb">int</span> <span class="n">index</span>
+
+        <span class="n">recorder</span> <span class="o">=</span> <span class="n">activate</span> <span class="p">(</span><span class="n">consume</span> <span class="n">Recorder</span><span class="p">(</span>
+                                        <span class="n">scheduler</span><span class="p">,</span>
+                                        <span class="n">parent_recorder</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">index</span><span class="p">))</span>
+        <span class="n">recorder</span><span class="o">.</span><span class="n">set_size</span><span class="p">(</span><span class="n">NULL</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">nb_children</span><span class="p">()</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="n">recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span>
+                        <span class="n">NULL</span><span class="p">,</span>
+                        <span class="mi">0</span><span class="p">,</span>
+                        <span class="n">consume</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">dump_begin</span><span class="p">())</span>
+                        <span class="p">)</span>
+        <span class="n">recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span>
+                        <span class="n">NULL</span><span class="p">,</span>
+                        <span class="mi">1</span><span class="p">,</span>
+                        <span class="n">consume</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">dump_end</span><span class="p">())</span>
+                        <span class="p">)</span>
+        <span class="n">index</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">child</span> <span class="o">=</span> <span class="n">consume</span> <span class="bp">self</span><span class="o">.</span><span class="n">element</span><span class="o">.</span><span class="n">pop_child</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">child</span> <span class="ow">is</span> <span class="n">NULL</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">dumper</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">active</span> <span class="n">Dumper</span><span class="o">&gt;</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">Dumper</span><span class="p">(</span>
+                                                        <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span><span class="p">,</span>
+                                                        <span class="n">recorder</span><span class="p">,</span>
+                                                        <span class="n">consume</span> <span class="n">child</span><span class="p">,</span>
+                                                        <span class="n">index</span><span class="p">,</span>
+                                                        <span class="bp">self</span><span class="o">.</span><span class="n">depth</span><span class="p">,</span>
+                                                        <span class="p">))</span>
+            <span class="n">dumper</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+        <span class="k">return</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="the-demo-file">
+<h2>The demo file<a class="headerlink" href="#the-demo-file" title="Permalink to this headline">¶</a></h2>
+<p>The command <code class="docutils literal notranslate"><span class="pre">./demo.sh</span></code> builds <code class="docutils literal notranslate"><span class="pre">cypxml</span></code> and prints the <code class="docutils literal notranslate"><span class="pre">demo_cypxml.pyx</span></code>file and
+result. For more usage examples, the <code class="docutils literal notranslate"><span class="pre">test_cypxml.pyx</span></code> file contains the test code
+for the <code class="docutils literal notranslate"><span class="pre">cypXML</span></code> class, with the target XML results in the <code class="docutils literal notranslate"><span class="pre">expected</span></code> directory.</p>
+<p>Output of <code class="docutils literal notranslate"><span class="pre">demo.sh</span></code> (after build messages):</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Test cypxml
+Done.
+
+------------- cypxml/demo_cypxml.pyx :
+from .stdlib.string cimport Str
+from .cypxml cimport cypXML
+
+
+cdef bytes generate_simple_xml():
+    cdef cypXML xml
+
+    xml = cypXML()
+    xml.init_version(Str(&quot;1.0&quot;))
+    t = xml.tag(Str(&quot;person&quot;))
+    t2 = t.tag(Str(&quot;name&quot;))
+    t2.text(Str(&quot;Bob&quot;))
+    t3 = t.tag(Str(&quot;city&quot;)).sattr(&quot;country&quot;, &quot;33&quot;)
+    t3.text(Str(&quot;Paris&quot;))
+
+    return xml.dump().bytes()
+
+
+def main():
+    print(generate_simple_xml().decode(&quot;utf8&quot;))
+--------------------------------------
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;person&gt;
+  &lt;name&gt;Bob&lt;/name&gt;
+  &lt;city country=&quot;33&quot;&gt;Paris&lt;/city&gt;
+&lt;/person&gt;
+</pre></div>
+</div>
+<p>The <a class="reference external" href="https://github.com/abilian/cythonplus-articles">https://github.com/abilian/cythonplus-articles</a> git repository contains the demo code of this article.</p>
+</section>
+<hr class="docutils" />
+<section id="funders">
+<h2>Funders<a class="headerlink" href="#funders" title="Permalink to this headline">¶</a></h2>
+<p><em>Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions.</em>
+(This Project was supported in a joint framework between the State, within the framework of the “Programme d’investissements d’avenir”, and the Regions.)</p>
+<p><img alt="Programme d'investissements d'avenir" src="../_images/investirlavenir5.png" /></p>
+<p><em>Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France.</em></p>
+<p><img alt="BPI" src="../_images/bpi5.png" />
+<img alt="Cap Digital" src="../_images/cap_digital5.jpeg" />
+<img alt="Région Île de France" src="../_images/ile_de_france5.png" /></p>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../a5/a5.html"
+       title="previous chapter">← #5 - Utilities and standard libraries for Cython+</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

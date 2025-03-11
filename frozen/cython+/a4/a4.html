@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>#4 - Concurrent programming: “Recorder” pattern and example of code optimization</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="#5 - Utilities and standard libraries for Cython+" href="../a5/a5.html" />
+  <link rel="prev" title="#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass" href="../a3/a3.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a1/a1.html" class="reference internal ">#1 - “Hello World!”</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a2/a2.html" class="reference internal ">#2 - Standard classes</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a3/a3.html" class="reference internal ">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#golomb-sequence-calculation" class="reference internal">Golomb sequence calculation</a></li>
+                
+                  <li class="toctree-l2"><a href="#basic-cython-compilation" class="reference internal">Basic Cython compilation</a></li>
+                
+                  <li class="toctree-l2"><a href="#cython-version-with-recorder-pattern" class="reference internal">Cython+ version with “Recorder” pattern</a></li>
+                
+                  <li class="toctree-l2"><a href="#the-setup-py-file" class="reference internal">The setup.py file</a></li>
+                
+                  <li class="toctree-l2"><a href="#benchmark-result" class="reference internal">Benchmark result</a></li>
+                
+                  <li class="toctree-l2"><a href="#funders" class="reference internal">Funders</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a5/a5.html" class="reference internal ">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a6/a6.html" class="reference internal ">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>#4 - Concurrent programming: “Recorder” pattern and example of code optimization</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../a3/a3.html"
+       title="previous chapter">← #3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+  </li>
+  <li class="next">
+    <a href="../a5/a5.html"
+       title="next chapter">#5 - Utilities and standard libraries for Cython+ →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="concurrent-programming-recorder-pattern-and-example-of-code-optimization">
+<h1>#4 - Concurrent programming: “Recorder” pattern and example of code optimization<a class="headerlink" href="#concurrent-programming-recorder-pattern-and-example-of-code-optimization" title="Permalink to this headline">¶</a></h1>
+<p><strong><em>About Cython+ :</em></strong></p>
+<p><img alt="logo Cython+" src="../_images/cythonplus3.png" /> Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.</p>
+<p><strong><em>In this fourth article:</em></strong></p>
+<ul class="simple">
+<li><p>Golomb sequence calculation</p></li>
+<li><p>Basic Cython compilation</p></li>
+<li><p>Cython+ version with “Recorder” pattern</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</p></li>
+<li><p>Benchmark result</p></li>
+</ul>
+<section id="golomb-sequence-calculation">
+<h2>Golomb sequence calculation<a class="headerlink" href="#golomb-sequence-calculation" title="Permalink to this headline">¶</a></h2>
+<section id="golomb-sequence">
+<h3>Golomb sequence<a class="headerlink" href="#golomb-sequence" title="Permalink to this headline">¶</a></h3>
+<p>The Golomb sequence is a mathematical integer sequence:</p>
+<p><code class="docutils literal notranslate"><span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">3,</span> <span class="pre">4,</span> <span class="pre">4,</span> <span class="pre">4,</span> <span class="pre">5,</span> <span class="pre">5,</span> <span class="pre">5,</span> <span class="pre">6,</span> <span class="pre">...</span></code></p>
+<p>For more about mathematical definition and properties, see:
+<a class="reference external" href="https://en.wikipedia.org/wiki/Golomb_sequence">https://en.wikipedia.org/wiki/Golomb_sequence</a></p>
+<p>The interesting property for our example is the formula to calculate the n-th element:</p>
+<ul class="simple">
+<li><p>g(1) = 1</p></li>
+<li><p>g(n+1) = 1 + g(n + 1 - g(g(n))))</p></li>
+</ul>
+<p>So a direct implementation creates a <em>very</em> recursive function, but the recursion is
+“wide”, not deep, so won’t cause a stack overflow.
+(Of course, a real world optimization would be to use memoization).</p>
+<p>We will compare 3 implementations:</p>
+<ul class="simple">
+<li><p>pure Python code,</p></li>
+<li><p>a basic compilation of the original python code with Cython,</p></li>
+<li><p>a port of the code to Cython+.</p></li>
+</ul>
+</section>
+<section id="reference-python-code">
+<h3>Reference Python code<a class="headerlink" href="#reference-python-code" title="Permalink to this headline">¶</a></h3>
+<p>The program calculates the first 50 values of the sequence, displays the length and
+the last element.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">gpos</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the value of position n of the Golomb sequence (recursive function).&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">gpos</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="n">gpos</span><span class="p">(</span><span class="n">gpos</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)))</span> <span class="o">+</span> <span class="mi">1</span>
+
+
+<span class="k">def</span> <span class="nf">golomb_sequence</span><span class="p">(</span><span class="n">size</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">gpos</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">size</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">size</span><span class="p">:</span>
+        <span class="n">size</span> <span class="o">=</span> <span class="mi">50</span>
+    <span class="n">sequence</span> <span class="o">=</span> <span class="n">golomb_sequence</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">size</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;length of sequence: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span><span class="si">}</span><span class="s2">, last element: </span><span class="si">{</span><span class="n">sequence</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="basic-cython-compilation">
+<h2>Basic Cython compilation<a class="headerlink" href="#basic-cython-compilation" title="Permalink to this headline">¶</a></h2>
+<p>We just copy the <code class="docutils literal notranslate"><span class="pre">golomb.py</span></code> file to <code class="docutils literal notranslate"><span class="pre">golomb_basic.py</span></code>
+and compile with the usual command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python setup_basic.py build_ext --inplace
+</pre></div>
+</div>
+<p>with this <code class="docutils literal notranslate"><span class="pre">setup_basic.py</span></code> file:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">join</span>
+<span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+<span class="kn">from</span> <span class="nn">setuptools.extension</span> <span class="kn">import</span> <span class="n">Extension</span>
+<span class="kn">from</span> <span class="nn">Cython.Build</span> <span class="kn">import</span> <span class="n">cythonize</span>
+
+
+<span class="k">def</span> <span class="nf">ext_simple</span><span class="p">(</span><span class="o">*</span><span class="n">pathname</span><span class="p">):</span>
+    <span class="s2">&quot;return an Extension for basic Cython compilation&quot;</span>
+    <span class="k">return</span> <span class="n">Extension</span><span class="p">(</span>
+        <span class="n">name</span><span class="o">=</span><span class="s2">&quot;.&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pathname</span><span class="p">),</span>
+        <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c&quot;</span><span class="p">,</span>
+        <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="n">join</span><span class="p">(</span><span class="o">*</span><span class="n">pathname</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.py&quot;</span><span class="p">],</span>
+        <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+            <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+    <span class="p">)</span>
+
+
+<span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">ext_simple</span><span class="p">(</span><span class="s2">&quot;golomb&quot;</span><span class="p">,</span> <span class="s2">&quot;golomb_basic&quot;</span><span class="p">),</span>
+<span class="p">]</span>
+
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">ext_modules</span><span class="o">=</span><span class="n">cythonize</span><span class="p">(</span>
+        <span class="n">extensions</span><span class="p">,</span>
+        <span class="n">language_level</span><span class="o">=</span><span class="s2">&quot;3str&quot;</span><span class="p">,</span>
+    <span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="cython-version-with-recorder-pattern">
+<h2>Cython+ version with “Recorder” pattern<a class="headerlink" href="#cython-version-with-recorder-pattern" title="Permalink to this headline">¶</a></h2>
+<p>In the previous Fibonacci example, the results of the calculation were stored in a
+<code class="docutils literal notranslate"><span class="pre">dict</span></code>. To allow secure access to this <code class="docutils literal notranslate"><span class="pre">dict</span></code>, a lock has been used. Another way is to
+apply the actor paradigm to store the result: when a result is obtained, delegate to
+an actor the task of storing it and simply add that task to the queue.</p>
+<p><strong>Imports</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libcythonplus.dict</span> <span class="n">cimport</span> <span class="n">cypdict</span>
+<span class="kn">from</span> <span class="nn">.scheduler.scheduler</span> <span class="n">cimport</span> <span class="n">SequentialMailBox</span><span class="p">,</span> <span class="n">NullResult</span><span class="p">,</span> <span class="n">Scheduler</span>
+</pre></div>
+</div>
+<p>The imports are the same as in the Fibonacci example.</p>
+<p><strong>The Golomb class</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Golomb</span> <span class="n">activable</span><span class="p">:</span>
+    <span class="nb">int</span> <span class="n">rank</span>
+    <span class="n">active</span> <span class="n">Recorder</span> <span class="n">recorder</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+             <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">,</span>
+             <span class="n">active</span> <span class="n">Recorder</span> <span class="n">recorder</span><span class="p">,</span>
+             <span class="nb">int</span> <span class="n">rank</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_result_class</span> <span class="o">=</span> <span class="n">NullResult</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_queue_class</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">SequentialMailBox</span><span class="p">(</span><span class="n">scheduler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rank</span> <span class="o">=</span> <span class="n">rank</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span> <span class="o">=</span> <span class="n">recorder</span>
+</pre></div>
+</div>
+<p>The cypclass initialization includes the usual stuff for an actor:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">activable</span></code> keyword,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">scheduler</span></code> argument,</p></li>
+<li><p>assignment of attributes <code class="docutils literal notranslate"><span class="pre">\_active_result_class</span></code> and <code class="docutils literal notranslate"><span class="pre">\_active_queue_class</span></code>.</p></li>
+</ul>
+<p>The novelty is the <code class="docutils literal notranslate"><span class="pre">recorder</span></code> attribute declared as <code class="docutils literal notranslate"><span class="pre">active</span> <span class="pre">Recorder</span></code>. On
+initialization, the Golomb object, an actor, receives another actor as a parameter, and
+saves it in its attributes.</p>
+<p><strong>Golomb calculation</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="nb">int</span> <span class="n">gpos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">int</span> <span class="n">n</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return the value of position n of the Golomb sequence (recursive function).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">gpos</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">gpos</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gpos</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)))</span> <span class="o">+</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>The recursive calculation of the Golomb number of rank <em>n</em>, close to the python
+version.</p>
+<p><strong>Activation method</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">cdef</span> <span class="nb">int</span> <span class="n">value</span>
+
+        <span class="n">value</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">gpos</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">rank</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span><span class="o">.</span><span class="n">store</span><span class="p">(</span><span class="n">NULL</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">rank</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The activation method of the cypclass used as an actor:</p>
+<ul class="simple">
+<li><p>calculation of the result,</p></li>
+<li><p>storing of the result with the <code class="docutils literal notranslate"><span class="pre">Recorder</span></code> instance.</p></li>
+</ul>
+<p>In the previous example, this part was made with a lock. Here we are using the
+<code class="docutils literal notranslate"><span class="pre">recorder</span></code> attribute.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">recorder</span></code> is an actor (declared on initialization with <code class="docutils literal notranslate"><span class="pre">active</span> <span class="pre">Recorder</span></code>)</p></li>
+<li><p>as seen previously, the call to an actor received a first <code class="docutils literal notranslate"><span class="pre">NULL</span></code> parameter.</p></li>
+</ul>
+<p><strong>The Recorder class</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Recorder</span> <span class="n">activable</span><span class="p">:</span>
+    <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">storage</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_result_class</span> <span class="o">=</span> <span class="n">NullResult</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_queue_class</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">SequentialMailBox</span><span class="p">(</span><span class="n">scheduler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">storage</span> <span class="o">=</span> <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]()</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">Recorder</span></code> definition has the same characteristics as others actor cypclass.</p>
+<p>A storage attribute is defined as a dictionary, similar to the <code class="docutils literal notranslate"><span class="pre">results</span></code> dictionary
+in the previous Fibonacci example.</p>
+<p><strong>Recorder’s methods</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">store</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">int</span> <span class="n">key</span><span class="p">,</span> <span class="nb">int</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">storage</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">content</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">storage</span>
+</pre></div>
+</div>
+<p>The class has two methods:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">store()</span></code>, called by the Golomb calculator for each result obtained,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">content()</span></code>, a <em>getter</em> to retrieve the dictionary of results.</p></li>
+</ul>
+<blockquote>
+<div><p>Note: the <code class="docutils literal notranslate"><span class="pre">Recorder</span></code> instance is an actor which will be launched several times, but
+which will keep an internal state (the dictionary of results).</p>
+</div></blockquote>
+<p><strong>The GolombGenerator class</strong></p>
+<p>This is a standard actor cypclass, in charge of:</p>
+<ul class="simple">
+<li><p>creation of the Recorder instance</p></li>
+<li><p>iterate the loop of the numbers to clculate for the Golom sequence.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">GolombGenerator</span> <span class="n">activable</span><span class="p">:</span>
+    <span class="nb">int</span> <span class="n">size</span>
+    <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span>
+    <span class="n">active</span> <span class="n">Recorder</span> <span class="n">recorder</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span><span class="p">,</span> <span class="nb">int</span> <span class="n">size</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_result_class</span> <span class="o">=</span> <span class="n">NullResult</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_active_queue_class</span> <span class="o">=</span> <span class="n">consume</span> <span class="n">SequentialMailBox</span><span class="p">(</span><span class="n">scheduler</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span> <span class="o">=</span> <span class="n">scheduler</span>  <span class="c1"># keep it for use with sub objects</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">size</span> <span class="o">=</span> <span class="n">size</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span> <span class="o">=</span> <span class="n">activate</span> <span class="p">(</span><span class="n">consume</span> <span class="n">Recorder</span><span class="p">(</span><span class="n">scheduler</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>Creation of the <code class="docutils literal notranslate"><span class="pre">Recorder</span></code>instance.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># reverse order of loop for small calculation optimization:</span>
+        <span class="k">for</span> <span class="n">rank</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+            <span class="n">golomb</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">active</span> <span class="n">Golomb</span><span class="o">&gt;</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">Golomb</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span><span class="p">,</span>
+                                                             <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span><span class="p">,</span>
+                                                             <span class="n">rank</span><span class="p">))</span>
+            <span class="n">golomb</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The main loop, each Gomomb number is computed by an asynchronous actor.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">results</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">recorder</span> <span class="o">=</span> <span class="n">consume</span> <span class="bp">self</span><span class="o">.</span><span class="n">recorder</span>
+        <span class="k">return</span> <span class="o">&lt;</span><span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span><span class="o">&gt;</span> <span class="n">recorder</span><span class="o">.</span><span class="n">content</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Intermediate <em>getter</em> to retrieve the computation results from the recorder.</p>
+<p><strong>golomb_sequence() function</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">golomb_sequence</span><span class="p">(</span><span class="nb">int</span> <span class="n">size</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">cdef</span> <span class="n">active</span> <span class="n">GolombGenerator</span> <span class="n">generator</span>
+    <span class="n">cdef</span> <span class="n">lock</span> <span class="n">Scheduler</span> <span class="n">scheduler</span>
+
+    <span class="n">scheduler</span> <span class="o">=</span> <span class="n">Scheduler</span><span class="p">()</span>
+    <span class="n">generator</span> <span class="o">=</span> <span class="n">activate</span><span class="p">(</span><span class="n">consume</span> <span class="n">GolombGenerator</span><span class="p">(</span><span class="n">scheduler</span><span class="p">,</span> <span class="n">size</span><span class="p">))</span>
+    <span class="n">generator</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+    <span class="n">scheduler</span><span class="o">.</span><span class="n">finish</span><span class="p">()</span>
+    <span class="k">del</span> <span class="n">scheduler</span>
+    <span class="n">generator_object</span> <span class="o">=</span> <span class="n">consume</span><span class="p">(</span><span class="n">generator</span><span class="p">)</span>
+    <span class="k">return</span> <span class="o">&lt;</span><span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span><span class="o">&gt;</span> <span class="n">generator_object</span><span class="o">.</span><span class="n">results</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>This is the <code class="docutils literal notranslate"><span class="pre">nogil</span></code> equivalent of the original Python <code class="docutils literal notranslate"><span class="pre">golomb_sequence()</span></code>:</p>
+<ul class="simple">
+<li><p>returns a <code class="docutils literal notranslate"><span class="pre">cypdict</span></code> and not a <code class="docutils literal notranslate"><span class="pre">list</span></code>,</p></li>
+<li><p>is in charge of the <code class="docutils literal notranslate"><span class="pre">Scheduler</span></code> management,</p></li>
+<li><p>waits at the <code class="docutils literal notranslate"><span class="pre">scheduler.finish()</span></code> to ensure that both:</p>
+<ul>
+<li><p>all computation actors did run,</p></li>
+<li><p>all the recorder actors did run.</p></li>
+</ul>
+</li>
+<li><p>Then <code class="docutils literal notranslate"><span class="pre">consume</span></code> allows changing type between the “actor” cypclass instance and
+the “object” view of the cypclass.</p></li>
+</ul>
+<p><strong>golomb_sequence_as_python_list() function</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="nb">list</span> <span class="n">golomb_sequence_as_python_list</span><span class="p">(</span><span class="nb">int</span> <span class="n">size</span><span class="p">):</span>
+    <span class="n">cdef</span> <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">results</span>
+
+    <span class="k">with</span> <span class="n">nogil</span><span class="p">:</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="n">golomb_sequence</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+
+    <span class="n">sequence</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span>
+                    <span class="nb">sorted</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">results</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">size</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+               <span class="p">]</span>
+    <span class="k">return</span> <span class="n">sequence</span>
+</pre></div>
+</div>
+<p>This code converts the dictionary resulting from the parallelized computation into the
+sequential list we need. The calculations being asynchronous, the results must be
+sorted.</p>
+<p>The type of the returned value is a Python-like list requiring the GIL. This function
+connects the <code class="docutils literal notranslate"><span class="pre">nogil</span></code> context to the Python/GIL context.</p>
+<p><strong>Main function</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">size</span><span class="p">:</span>
+        <span class="n">size</span> <span class="o">=</span> <span class="mi">50</span>
+    <span class="n">sequence</span> <span class="o">=</span> <span class="n">golomb_sequence_as_python_list</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">size</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;length of sequence: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span><span class="si">}</span><span class="s2">, last element: </span><span class="si">{</span><span class="n">sequence</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The main() function aims to transparently replace the pure Python version.</p>
+<ul class="simple">
+<li><p>it is not optimized by a <code class="docutils literal notranslate"><span class="pre">cdef</span></code> but remains a `def’,</p></li>
+<li><p>this declaration allows to call it directly from python code
+(<code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-c</span> <span class="pre">&quot;module.main()&quot;</span></code>).</p></li>
+</ul>
+<p>The printed result is exactly the same as the pure Python version.</p>
+</section>
+<section id="the-setup-py-file">
+<h2>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file<a class="headerlink" href="#the-setup-py-file" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">join</span>
+<span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+<span class="kn">from</span> <span class="nn">setuptools.extension</span> <span class="kn">import</span> <span class="n">Extension</span>
+<span class="kn">from</span> <span class="nn">Cython.Build</span> <span class="kn">import</span> <span class="n">cythonize</span>
+
+
+<span class="k">def</span> <span class="nf">ext_pyx</span><span class="p">(</span><span class="o">*</span><span class="n">pathname</span><span class="p">):</span>
+    <span class="s2">&quot;return an Extension for Cython+ compilation&quot;</span>
+    <span class="k">return</span> <span class="n">Extension</span><span class="p">(</span>
+        <span class="n">name</span><span class="o">=</span><span class="s2">&quot;.&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pathname</span><span class="p">),</span>
+        <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+        <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="n">join</span><span class="p">(</span><span class="o">*</span><span class="n">pathname</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.pyx&quot;</span><span class="p">],</span>
+        <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+            <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-pthread&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+    <span class="p">)</span>
+
+
+<span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">ext_pyx</span><span class="p">(</span><span class="s2">&quot;golomb&quot;</span><span class="p">,</span> <span class="s2">&quot;golomb_cyp&quot;</span><span class="p">),</span>
+<span class="p">]</span>
+
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">ext_modules</span><span class="o">=</span><span class="n">cythonize</span><span class="p">(</span>
+        <span class="n">extensions</span><span class="p">,</span>
+        <span class="n">language_level</span><span class="o">=</span><span class="s2">&quot;3str&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="benchmark-result">
+<h2>Benchmark result<a class="headerlink" href="#benchmark-result" title="Permalink to this headline">¶</a></h2>
+<p>This quick comparison of the 3 versions is done a 4-core Xeon (see <code class="docutils literal notranslate"><span class="pre">demo.sh</span></code> in
+sources):</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Python version:
+length of sequence: 50, last element: 13
+[...]
+1 loop, best of 5: 17.8 sec per loop
+
+Minimal Cython version:
+length of sequence: 50, last element: 13
+[...]
+1 loop, best of 5: 3.5 sec per loop
+
+Cython+ version:
+length of sequence: 50, last element: 13
+[...]
+5 loops, best of 5: 48.4 msec per loop
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>An improvement in the execution speed of x5 by simply recompiling the original
+Python code with Cython.</p></li>
+<li><p>The Cython+ version achieves an improvement rate of x360 compared to the original
+Python code and x72 compared to the simple Cython compilation.</p></li>
+</ul>
+<p>We have chosen this example because it works well, not all codes are parallelizable
+and the actor model is not always the best approach. However, this example shows that
+this technology can be very effective.</p>
+<p>The <a class="reference external" href="https://github.com/abilian/cythonplus-articles">https://github.com/abilian/cythonplus-articles</a> git repository contains the demo code of this article.</p>
+</section>
+<hr class="docutils" />
+<section id="funders">
+<h2>Funders<a class="headerlink" href="#funders" title="Permalink to this headline">¶</a></h2>
+<p><em>Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions.</em>
+(This Project was supported in a joint framework between the State, within the framework of the “Programme d’investissements d’avenir”, and the Regions.)</p>
+<p><img alt="Programme d'investissements d'avenir" src="../_images/investirlavenir3.png" /></p>
+<p><em>Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France.</em></p>
+<p><img alt="BPI" src="../_images/bpi3.png" />
+<img alt="Cap Digital" src="../_images/cap_digital3.jpeg" />
+<img alt="Région Île de France" src="../_images/ile_de_france3.png" /></p>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../a3/a3.html"
+       title="previous chapter">← #3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+  </li>
+  <li class="next">
+    <a href="../a5/a5.html"
+       title="next chapter">#5 - Utilities and standard libraries for Cython+ →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

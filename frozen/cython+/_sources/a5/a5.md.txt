@@ -1,0 +1,438 @@
+# #5 - Utilities and standard libraries for Cython+
+
+**_About Cython+ :_**
+
+![logo Cython+](./images/cythonplus.png) Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.
+
+**_In this fifth article:_**
+
+-   Toward some standard library
+-   Available components overview
+-   The `setup.py` file
+
+## Toward some standard library
+
+### Current status
+
+In its current state, Cython+ has very few standardized libraries, the language itself
+only offers the classes `cyplist`, `cypdict` and `cypset`.
+
+Nexedi (the Cython+ development pilot) has also developed libraries which are intended
+to form the basis of a standard library:
+
+-   a scheduler and the underlying thread library,
+-   the `string` library and the `format` library,
+-   other low-level libraries (socket management, ...).
+
+In addition, we have all of the Cython language ports of the C and C++ fundamental
+libraries (see the folders `libc`, `libcpp`, and `posix`).
+
+### Cython libraries are not sufficient
+
+Cython wrappers are very close to the C/C++ language. On the other hand, the Cython
+language can be very close to Python, but then requires the GIL.
+
+Ideally, we would like to have libraries:
+
+-   close enough to C / C++ to be fast,
+-   not requiring the GIL, so they can be used inside cypclass for thread programming,
+-   and close to Python syntax.
+
+### `Str()` cypclass
+
+The `string.Str()` class is a good example of what would be useful:
+
+-   this is a cypclass,
+-   it implements a number of methods defined for Python strings: `__getitem__`,
+    `__len__`, `join`, ...
+-   `Str()` relies on the C++ class `string`.
+
+The initialization code:
+
+```python
+from ._string cimport string, string_view, hash_string, stoi, transform
+
+[...]
+
+cdef cypclass Str "Cy_Str":
+    string _str
+
+    __init__(self, const char *s):
+        self._str = string(s)
+```
+
+`Str()` uses the C++ string() class through the intermediate `_string.pxd` library.
+Therefore, the algorithms of `Str()` use low-level C++ methods on the underlying
+`_str` instance, but the results and arguments are high-level cypclasses. For example
+the `Str.join()` method which takes over the functionality of `string.join()` in
+Python:
+
+```python
+Str join(self, cyplist[Str] strings) except NULL:
+    cdef Str joined = Str()
+    if strings is NULL or strings.__len__() == 0:
+        return joined
+    last = strings[strings.__len__() -1]
+    del strings[strings.__len__() - 1]
+    cdef int total = last._str.size()
+    for s in strings:
+        total += s._str.size()
+        total += self._str.size()
+    joined._str.reserve(total)
+    for s in strings:
+        joined._str.append(s._str)
+        joined._str.append(self._str)
+    joined._str.append(last._str)
+    return joined
+```
+
+### `format()` function
+
+An alternative to mimicking the standard Python library is to switch to a C library
+that implements an interface close enough to Python style. This is how `format()` is
+done. This is a wrapper of the C++ `fmt` library, the description of which says:
+_"Format string syntax similar to Python's format"_.
+
+### `.pxd` files
+
+The various libraries discussed in this chapter have a common point: they are `.pxd`
+files.
+
+In short, `.pxd` files in Cython+:
+
+-   contain external C declarations, for using a C library in Cython+,
+-   when accompanied by a `.pyx` file of the same name, provide an interface with
+    function signatures and `ctypedef` definitions (like a C `.h`),
+-   can contain the cypclass definitions.
+
+And an immediate benefit is that the `.pxd` files don't need to be explicitly declared
+in the `setup.py` file: their content is automatically included by the Cython compiler.
+
+For more on .pxd files:
+<https://cython.readthedocs.io/en/latest/src/tutorial/pxd_files.html>
+
+## Available components overview
+
+### `demo_utils.pyx`
+
+To carry out developments, we had to deal with the lack of standard libraries. As
+development proceeded, a set of utilities was collected. Their realization was done
+over time as needed, and some components would require rewriting to make them
+consistent. However, they are useful as examples of small pieces of code developed as
+part of larger projects.
+
+The source code associated with this article is a quick demonstration of a list of
+currently available libraries: `demo_utils.pyx`.
+
+```python
+from .stdlib.xml_utils cimport replace_one, replace_all
+from .stdlib.xml_utils cimport escape, escaped, unescape, unescaped
+from .stdlib.xml_utils cimport quoteattr, quotedattr, concate, indented
+from .stdlib.strip cimport stripped
+from .stdlib.regex cimport regex_t, regmatch_t, regcomp, regexec, regfree
+from .stdlib.regex cimport REG_EXTENDED
+from .stdlib.abspath cimport abspath
+from .stdlib.startswith cimport startswith, endswith
+from .stdlib.list_utils cimport IntList, sort_list, reverse_list
+from .stdlib.list_utils cimport min_list, max_list, sum_list, copy_list
+from .stdlib.list_utils cimport copy_slice, copy_slice_from, copy_slice_to
+from .stdlib.formatdate cimport formatdate, formatlog
+from .stdlib.parsedate cimport parsedate
+```
+
+### `xmlutils.pyx/pxd` files
+
+This functions are part of an XML oriented library.
+
+The output of xml_utils demo:
+
+    --- replace_one()
+        Some string abc abc -> Some string ABC abc
+    --- replace_all()
+        Some string abc abc -> Some string ABC ABC
+    --- escape()
+        Some string escaped in place < & > -> Some string escaped in place &lt; &amp; &gt;
+    --- escaped()
+        Some string escaped < & > -> Some string escaped &lt; &amp; &gt;
+    --- unescape()
+        in place: &lt; &amp; &gt; -> in place: < & >
+    --- unescaped()
+        no param: &eacute;&agrave;&eacute; &lt; &amp; &gt; -> no param: &eacute;&agrave;&eacute; < & >
+    --- unescaped()
+        with param: &eacute;&agrave;&eacute; &lt; &amp; &gt; -> with param: éàé < & >
+    --- quoteattr()
+        'ééé' abc "def" -> "'ééé' abc &quot;def&quot;"
+    --- quotedattr()
+
+
+
+     'abc' "def" -> " &#10;&#10;&#9;&#13; 'abc' &quot;def&quot;"
+    --- concate()
+        [aaa, bbb] -> aaabbb
+    --- stripped()
+        '   with blanks         ' -> 'with blanks'
+    --- indented()
+    aaa
+    bbb
+    ->
+      aaa
+      bbb
+
+`xml_utils.pxd` is a header file containing function code signatures:
+
+```python
+cdef int replace_one(Str, Str, Str) nogil
+cdef int replace_all(Str, Str, Str) nogil
+cdef void escape(Str, cypdict[Str, Str]) nogil
+cdef Str escaped(Str, cypdict[Str, Str]) nogil
+[...]
+```
+
+Comments of tricky parts of two functions of `xml_utils.pyx`:
+
+**replace_one() :**
+
+```python
+cdef int replace_one(Str src, Str pattern, Str content) nogil:
+    """Replace first occurence of 'pattern' in 'src' by 'content'.
+
+    Return number of changes, Change in place.
+    """
+    cdef size_t start
+
+    start = src.find(pattern)
+    if start == npos:
+        return 0
+    src._str.replace(start, pattern.__len__(), content._str)
+    return 1
+```
+
+> We use the `size_t` type, which is used internally by Cython and Cython+ for
+> indexes or arrays (which are wrappers on C++ containers). Using `int` would be
+> possible, but may cause some compiler warning.
+>
+> `src._str` is a "hidden" attribute of src, a C++ string instance:
+>
+> -   `src.find()` uses is a Str() method masking call to `src._str` methods,
+> -   `src._str.replace()` is a direct call to a method of `src._str`.
+>
+> `npos` is a C++ constant for "not found", imported in `string.pxd` from
+> `_string.pxd` wrapper:
+>
+>     cdef extern from "<string_view>" namespace "std::string_view" nogil:
+>         const size_t npos
+
+**concate() :**
+
+Basically this function is a simplification of `Str.join()` where the link string is
+empty. The goal is to achieve fast concatenation by reserving memory on the
+destination object before adding the content. ie: it's more C++ than Python.
+
+```python
+cdef Str concate(cyplist[Str] strings) nogil:
+    cdef Str joined
+    cdef int total
+
+    joined = Str()
+    if strings.__len__() == 0:
+        return joined
+    total = 0
+    for s in strings:
+        total += s._str.size()
+    joined._str.reserve(total)
+    for s in strings:
+        joined._str.append(s._str)
+    return joined
+```
+
+### `strip.pyx/pxd` files
+
+The small stripped() function is quite simple, it uses `isblank()` which is a wrapper
+of a C++ function.
+
+### `regex.pxd` file
+
+This file is a wrapper on the standard `regex.h` C basic regex implementation. This
+regular expression engine has fewer features than the PCRE standard used by Python.
+
+Wrapped functions do not include any top-level `re.match` or `re.sub` functions, so
+they must be implemented in user code. Here the basic implementation available in
+`demo_utils.pyx`. Note that this requires low-level memory access:
+
+```python
+cdef bint re_match(Str pattern, Str target) nogil:
+    cdef regex_t regex
+    cdef int result
+
+    if regcomp(&regex, pattern.bytes(), REG_EXTENDED):
+        with gil:
+            raise ValueError(f"regcomp failed on {pattern.bytes()}")
+
+    if not regexec(&regex, target.bytes(), 0, NULL, 0):
+        return 1
+    return 0
+```
+
+### `abspath.pyx/pxd` files
+
+The function returns the absolute path using a lib C posix function. Note that:
+
+-   the function only returns a value for an _existing_ file,
+-   it is necessary to return the memory with a `free()`, which is often required when
+    using C wrappers.
+
+```python
+cdef Str abspath(Str path) nogil:
+    cdef Str spath
+    cdef char* apath = realpath(path.bytes(), NULL)
+
+    if apath == NULL:
+        spath = Str("")
+    else:
+        spath = Str(apath)
+    free(apath)
+    return spath
+```
+
+### `startswith.pyx/pxd` files
+
+The `startswith` and `endswith` functions have no difficulty. They could be included
+as methods of `Str()`.
+
+### `list_utils.pyx/pxd` files
+
+`cyplist` uses C++ templates, it is difficult to define methods for all types of
+components in the list. We have therefore chosen to implement an integer version, and
+to adapt to other use cases as needed.
+
+Note in `list_utils.pxd` the type definition used everywhere in `list_utils.pyx`:
+
+```python
+ctypedef cyplist[int] IntList
+```
+
+**sort_list() :**
+
+`cyplist` relies the C++ `vector` class in the \_elements attribute.
+`sort_list()` uses the C++ iterator via the `begin()` and `end()` methods.  The
+`sort()`, `reverse()` and `copy()` functions are imported from Cython's
+`libcpp.algorithm` library.
+
+```python
+cdef void sort_list(IntList lst) nogil:
+    if lst._active_iterators == 0:
+        sort(lst._elements.begin(), lst._elements.end())
+    else:
+        with gil:
+            raise RuntimeError("Modifying a list with active iterators")
+```
+
+**copy_slice() :**
+
+In `copy_slice()` we use the undelying vector method `push_back()` to build the new
+list.
+
+```python
+cdef IntList copy_slice(IntList lst, size_t start, size_t end) nogil:
+    cdef IntList result = IntList()
+
+    if lst._active_iterators == 0:
+        for i in range(start, end):
+            result._elements.push_back(lst[i])
+        return result
+    else:
+        with gil:
+            raise RuntimeError("Modifying a list with active iterators")
+```
+
+### `formatdate.pyx/pxd` `parsedate.pyx/pxd` files
+
+Those files use the Cython wrapper libc.time, with notably the `mktime` function, the
+`tm` structure, and the gmtime_r function.
+
+```python
+from libc.time cimport time_t, tm, gmtime_r, time
+```
+
+The various functions of these files are
+quite simple, their purpose is to provide `Str()` results, so usable in a cypclass.
+
+```python
+cdef Str formatdate(time_t t) nogil:
+    cdef tm tms
+    cdef Str result
+
+    gmtime_r(&t, &tms)
+    result = format("{}, {:02d} {} {:04d} {:02d}:{:02d}:{:02d} GMT",
+                    day_string(tms.tm_wday),
+                    tms.tm_mday,
+                    month_string(tms.tm_mon),
+                    tms.tm_year + 1900,
+                    tms.tm_hour,
+                    tms.tm_min,
+                    tms.tm_sec
+                    )
+    return result
+```
+
+## The `setup.py` file
+
+The setup file for building the `demo_util.pyx` module contains a utility function
+responsible for creating an `Extension()` instance with the standard parameters. With
+this helper we can get a safe and maintainable configuration:
+
+```python
+def ext_pyx(*pathname):
+    "return an Extension for Cython+ compilation"
+    return Extension(
+        name=".".join(pathname),
+        language="c++",
+        sources=[join(*pathname) + ".pyx"],
+        extra_compile_args=[
+            "-std=c++17",
+            "-O3",
+            "-pthread",
+            "-Wno-deprecated-declarations",
+        ],
+        libraries=["fmt"],
+        include_dirs=["libfmt"],
+        library_dirs=["libfmt"],
+    )
+
+
+extensions = [
+    ext_pyx("utils", "demo_utils"),
+    ext_pyx("utils", "stdlib", "xml_utils"),
+    ext_pyx("utils", "stdlib", "strip"),
+    ext_pyx("utils", "stdlib", "abspath"),
+    ext_pyx("utils", "stdlib", "startswith"),
+    ext_pyx("utils", "stdlib", "list_utils"),
+    ext_pyx("utils", "stdlib", "formatdate"),
+    ext_pyx("utils", "stdlib", "parsedate"),
+]
+
+setup(
+    ext_modules=cythonize(
+        extensions,
+        language_level="3str",
+    )
+)
+```
+
+The <https://github.com/abilian/cythonplus-articles> git repository contains the demo code of this article.
+
+* * *
+
+## Funders
+
+_Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions._
+(This Project was supported in a joint framework between the State, within the framework of the "Programme d’investissements d’avenir", and the Regions.)
+
+![Programme d'investissements d'avenir](./images/investirlavenir.png)
+
+_Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France._
+
+![BPI](./images/bpi.png)
+![Cap Digital](./images/cap_digital.jpeg)
+![Région Île de France](./images/ile_de_france.png)

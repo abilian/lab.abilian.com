@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>#2 - Standard classes</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass" href="../a3/a3.html" />
+  <link rel="prev" title="#1 - “Hello World!”" href="../a1/a1.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a1/a1.html" class="reference internal ">#1 - “Hello World!”</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">#2 - Standard classes</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#standard-cython-libraries" class="reference internal">Standard Cython+ libraries</a></li>
+                
+                  <li class="toctree-l2"><a href="#a-powerful-library-in-the-local-stdlib-format" class="reference internal">A powerful library in the local stdlib: format</a></li>
+                
+                  <li class="toctree-l2"><a href="#adding-features-list-sort-and-reverse" class="reference internal">Adding features: list sort and reverse</a></li>
+                
+                  <li class="toctree-l2"><a href="#the-setup-py-file" class="reference internal">The setup.py file</a></li>
+                
+                  <li class="toctree-l2"><a href="#funders" class="reference internal">Funders</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a3/a3.html" class="reference internal ">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a4/a4.html" class="reference internal ">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a5/a5.html" class="reference internal ">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a6/a6.html" class="reference internal ">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>#2 - Standard classes</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../a1/a1.html"
+       title="previous chapter">← #1 - “Hello World!”</a>
+  </li>
+  <li class="next">
+    <a href="../a3/a3.html"
+       title="next chapter">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="standard-classes">
+<h1>#2 - Standard classes<a class="headerlink" href="#standard-classes" title="Permalink to this headline">¶</a></h1>
+<p><strong><em>About Cython+ :</em></strong></p>
+<p><img alt="logo Cython+" src="../_images/cythonplus1.png" /> Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.</p>
+<p><strong><em>In this second article:</em></strong></p>
+<ul class="simple">
+<li><p>Standard Cython+ libraries</p></li>
+<li><p>A powerful library in the local <code class="docutils literal notranslate"><span class="pre">stdlib</span></code>: <code class="docutils literal notranslate"><span class="pre">format</span></code></p></li>
+<li><p>Adding features: list sort and reverse</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file</p></li>
+</ul>
+<section id="standard-cython-libraries">
+<h2>Standard Cython+ libraries<a class="headerlink" href="#standard-cython-libraries" title="Permalink to this headline">¶</a></h2>
+<p>Cython+ being under development, the only classes currently available in  the core of
+the language are the basic containers. However, a growing set of commonly used modules
+is developed by the early adopters, usually installed in a <code class="docutils literal notranslate"><span class="pre">stdlib</span></code> local directory
+of the project.</p>
+<p>Cython provides a set of libraries for accessing C or C++ underlying libraries.
+Cython+ adds to this list <code class="docutils literal notranslate"><span class="pre">libcythonplus</span></code> which provides <code class="docutils literal notranslate"><span class="pre">cypclass</span></code> implementations of
+base containers: <code class="docutils literal notranslate"><span class="pre">cyplist</span></code>, <code class="docutils literal notranslate"><span class="pre">cypdict</span></code> and <code class="docutils literal notranslate"><span class="pre">cypset</span></code>.</p>
+<p>For more information on what a <code class="docutils literal notranslate"><span class="pre">cypclass</span></code> is, see the first article in the series and
+Cython+ presentation. To summarize, <code class="docutils literal notranslate"><span class="pre">cypclass</span></code> is the core of Cython+ language: all
+the expected benefits (multithreading, isolation) are obtained using
+<code class="docutils literal notranslate"><span class="pre">cypclass</span></code>.</p>
+<p>In our experience, it is very useful to read the contents of the Cython and Cython+
+libraries, both to find detailed information about the available features and as sample
+code.</p>
+<p><strong>Finding ‘libcythonplus’ among Cython libraries sources:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span> <span class="nn">Cython</span>
+
+<span class="n">includes</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">Cython</span><span class="o">.</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="s2">&quot;Includes&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cython libraries:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">([</span><span class="n">d</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">includes</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*&quot;</span><span class="p">)])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cython+ &#39;libcythonplus&#39; library:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">([</span><span class="n">f</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">includes</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;libcythonplus/*&quot;</span><span class="p">)])</span>
+</pre></div>
+</div>
+<p>Result:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Cython libraries:
+[&#39;cpython&#39;, &#39;libc&#39;, &#39;libcpp&#39;, &#39;libcythonplus&#39;, &#39;numpy&#39;, &#39;openmp.pxd&#39;, &#39;posix&#39;]
+Cython+ &#39;libcythonplus&#39; library:
+[&#39;__init__.pxd&#39;, &#39;dict.pxd&#39;, &#39;iterator.pxd&#39;, &#39;list.pxd&#39;, &#39;set.pxd&#39;]
+</pre></div>
+</div>
+<p><strong>Usage of containers: containers_v1.pyx</strong></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">containers</span></code> package in the source code of this article shows how to use base
+containers.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libc.stdio</span> <span class="n">cimport</span> <span class="n">printf</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.dict</span> <span class="n">cimport</span> <span class="n">cypdict</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.list</span> <span class="n">cimport</span> <span class="n">cyplist</span>
+
+<span class="kn">from</span> <span class="nn">.stdlib.string</span> <span class="n">cimport</span> <span class="n">Str</span>
+</pre></div>
+</div>
+<p>Import of the container class from Cython+ environment, followed by import of Str from
+local <code class="docutils literal notranslate"><span class="pre">stdlib</span></code> package.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Containers</span><span class="p">:</span>
+    <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="n">some_list</span>
+    <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">]</span> <span class="n">some_dict</span>
+    <span class="n">cypdict</span><span class="p">[</span><span class="n">Str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">another_dict</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span> <span class="o">=</span> <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span> <span class="o">=</span> <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">]()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span> <span class="o">=</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">Str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]()</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">cyplist</span></code>, <code class="docutils literal notranslate"><span class="pre">cypdict</span></code> and <code class="docutils literal notranslate"><span class="pre">cypset</span></code> containers are based on C++ templates. A
+container variable is declared with types from either a Cython scalar (int, float, …)
+or another cypclass (Str, …)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">load_values</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.1234</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="p">[</span><span class="mi">20</span><span class="p">]</span> <span class="o">=</span> <span class="mf">3.14</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="p">[</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="p">[</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;foo&quot;</span><span class="p">)]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Containers <code class="docutils literal notranslate"><span class="pre">cyplist</span></code> and <code class="docutils literal notranslate"><span class="pre">cypdict</span></code> have methods close to their Python counterpart. For
+example <code class="docutils literal notranslate"><span class="pre">cyplist</span></code> has methods:
+<code class="docutils literal notranslate"><span class="pre">__getitem__</span></code>, <code class="docutils literal notranslate"><span class="pre">__setitem__</span></code>, <code class="docutils literal notranslate"><span class="pre">__delitem__</span></code>, <code class="docutils literal notranslate"><span class="pre">append</span></code>, <code class="docutils literal notranslate"><span class="pre">insert</span></code>, <code class="docutils literal notranslate"><span class="pre">clear</span></code>, <code class="docutils literal notranslate"><span class="pre">__add__</span></code>,
+<code class="docutils literal notranslate"><span class="pre">__iadd__</span></code>, <code class="docutils literal notranslate"><span class="pre">__mul__</span></code>, <code class="docutils literal notranslate"><span class="pre">__imul__</span></code>, <code class="docutils literal notranslate"><span class="pre">__len__</span></code>, <code class="docutils literal notranslate"><span class="pre">__contains__</span></code>, and two C++ like methods
+<code class="docutils literal notranslate"><span class="pre">begin</span></code> and <code class="docutils literal notranslate"><span class="pre">end</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">show_content</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;-------- containers quick example, version 1 --------</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;some_listst:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="p">:</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">%d</span><span class="s2"> &quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;some_dict:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item1</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">%d</span><span class="s2">: </span><span class="si">%f</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nb">int</span><span class="o">&gt;</span><span class="n">item1</span><span class="o">.</span><span class="n">first</span><span class="p">,</span> <span class="o">&lt;</span><span class="nb">float</span><span class="o">&gt;</span><span class="n">item1</span><span class="o">.</span><span class="n">second</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;another_dict:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item2</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">%s</span><span class="s2">: </span><span class="si">%d</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="p">(</span><span class="o">&lt;</span><span class="n">Str</span><span class="o">&gt;</span><span class="n">item2</span><span class="o">.</span><span class="n">first</span><span class="p">)</span><span class="o">.</span><span class="n">bytes</span><span class="p">(),</span> <span class="o">&lt;</span><span class="nb">int</span><span class="o">&gt;</span><span class="n">item2</span><span class="o">.</span><span class="n">second</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">show_content()</span></code> prints some information, using the <code class="docutils literal notranslate"><span class="pre">printf</span></code> function.</p>
+<p>There is no <code class="docutils literal notranslate"><span class="pre">Tuple</span></code> class in Cython+, a compound structure must be implemented as a
+cypclass. <code class="docutils literal notranslate"><span class="pre">cypdict</span></code> can be iterated with the <code class="docutils literal notranslate"><span class="pre">items()</span></code> method, the resulting item is
+an instance of a <code class="docutils literal notranslate"><span class="pre">pair</span></code> class, whose element are accessed by the getters <code class="docutils literal notranslate"><span class="pre">item.first</span></code>
+and <code class="docutils literal notranslate"><span class="pre">item.second</span></code>.</p>
+<blockquote>
+<div><p>Sometimes the iterator “loses” the data type, and some cast must be done:
+<code class="docutils literal notranslate"><span class="pre">&lt;int&gt;item1.first,</span> <span class="pre">&lt;float&gt;item1.second</span></code></p>
+<p>Both <code class="docutils literal notranslate"><span class="pre">load_values()</span></code> and <code class="docutils literal notranslate"><span class="pre">show_content()</span></code> methods have a <code class="docutils literal notranslate"><span class="pre">void</span></code> return value.</p>
+</div></blockquote>
+<p><strong>The complete code of containers_v1.pyx:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libc.stdio</span> <span class="n">cimport</span> <span class="n">printf</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.dict</span> <span class="n">cimport</span> <span class="n">cypdict</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.list</span> <span class="n">cimport</span> <span class="n">cyplist</span>
+
+<span class="kn">from</span> <span class="nn">.stdlib.string</span> <span class="n">cimport</span> <span class="n">Str</span>
+
+
+<span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">Containers</span><span class="p">:</span>
+    <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="n">some_list</span>
+    <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">]</span> <span class="n">some_dict</span>
+    <span class="n">cypdict</span><span class="p">[</span><span class="n">Str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="n">another_dict</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span> <span class="o">=</span> <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span> <span class="o">=</span> <span class="n">cypdict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">]()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span> <span class="o">=</span> <span class="n">cypdict</span><span class="p">[</span><span class="n">Str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]()</span>
+
+    <span class="n">void</span> <span class="n">load_values</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.1234</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="p">[</span><span class="mi">20</span><span class="p">]</span> <span class="o">=</span> <span class="mf">3.14</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="p">[</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="p">[</span><span class="n">Str</span><span class="p">(</span><span class="s2">&quot;foo&quot;</span><span class="p">)]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="n">void</span> <span class="n">show_content</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;-------- containers quick example, version 1 --------</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;some_listst:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="p">:</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">%d</span><span class="s2"> &quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;some_dict:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item1</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">%d</span><span class="s2">: </span><span class="si">%f</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nb">int</span><span class="o">&gt;</span><span class="n">item1</span><span class="o">.</span><span class="n">first</span><span class="p">,</span> <span class="o">&lt;</span><span class="nb">float</span><span class="o">&gt;</span><span class="n">item1</span><span class="o">.</span><span class="n">second</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;another_dict:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item2</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">%s</span><span class="s2">: </span><span class="si">%d</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="p">(</span><span class="o">&lt;</span><span class="n">Str</span><span class="o">&gt;</span><span class="n">item2</span><span class="o">.</span><span class="n">first</span><span class="p">)</span><span class="o">.</span><span class="n">bytes</span><span class="p">(),</span> <span class="o">&lt;</span><span class="nb">int</span><span class="o">&gt;</span><span class="n">item2</span><span class="o">.</span><span class="n">second</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">cdef</span> <span class="n">Containers</span> <span class="n">c</span>
+
+    <span class="k">with</span> <span class="n">nogil</span><span class="p">:</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">Containers</span><span class="p">()</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">load_values</span><span class="p">()</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">show_content</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>and the expected result:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>-------- containers quick example, version 1 --------
+some_listst:
+  1   20   30
+some_dict:
+  1: 0.123400
+  20: 3.140000
+another_dict:
+  a: 1
+  foo: 20
+</pre></div>
+</div>
+</section>
+<section id="a-powerful-library-in-the-local-stdlib-format">
+<h2>A powerful library in the local <code class="docutils literal notranslate"><span class="pre">stdlib</span></code>: <code class="docutils literal notranslate"><span class="pre">format</span></code><a class="headerlink" href="#a-powerful-library-in-the-local-stdlib-format" title="Permalink to this headline">¶</a></h2>
+<p>The manipulation of character strings with the <code class="docutils literal notranslate"><span class="pre">Str</span></code> library of Cython+ does not offer
+all the functionalities of Python. So in addition to <code class="docutils literal notranslate"><span class="pre">Str</span></code> we use another library for
+string manipulation: <code class="docutils literal notranslate"><span class="pre">format</span></code>.
+It is a wrapper around the C++ <code class="docutils literal notranslate"><span class="pre">fmt</span></code> library, whose syntax is inspired by Python3:
+see <a class="reference external" href="https://fmt.dev/latest/syntax.html">https://fmt.dev/latest/syntax.html</a></p>
+<p>The previous example containers_v1.pyx is modified in <code class="docutils literal notranslate"><span class="pre">containers_v2.pyx</span></code> to use the
+format <code class="docutils literal notranslate"><span class="pre">format</span></code> library. The main change is in the <code class="docutils literal notranslate"><span class="pre">show</span> <span class="pre">content()</span></code> code.</p>
+<p>Import of the library:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">.stdlib.string</span> <span class="n">cimport</span> <span class="n">Str</span>
+<span class="kn">from</span> <span class="nn">.stdlib.format</span> <span class="n">cimport</span> <span class="nb">format</span>
+</pre></div>
+</div>
+<p>The modified method:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">show_content</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">cdef</span> <span class="n">Str</span> <span class="n">tmp</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;-------- containers quick example, version 2 --------</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;some_listst:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_list</span><span class="p">:</span>
+            <span class="n">print_str</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;some_dict:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item1</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">some_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">tmp</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">{:04d}</span><span class="s2">: </span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">item1</span><span class="o">.</span><span class="n">first</span><span class="p">,</span> <span class="n">item1</span><span class="o">.</span><span class="n">second</span><span class="p">)</span>
+            <span class="n">print_str</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;another_dict:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item2</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">another_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">tmp</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="s2">&quot;  </span><span class="si">{:&gt;6}</span><span class="s2">: </span><span class="si">{:#x}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">item2</span><span class="o">.</span><span class="n">first</span><span class="o">.</span><span class="n">bytes</span><span class="p">(),</span> <span class="n">item2</span><span class="o">.</span><span class="n">second</span><span class="p">)</span>
+            <span class="n">print_str</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">print_str()</span></code> function used in the method is a on-liner utility function defined
+above:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">void</span> <span class="n">print_str</span><span class="p">(</span><span class="n">Str</span> <span class="n">s</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">s</span><span class="o">.</span><span class="n">bytes</span><span class="p">())</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>Note: This function is a pure Cython function. To be able to use it inside a cypclass
+method, it is necessary that the function does not use the GIL, therefore the Cython
+keyword <code class="docutils literal notranslate"><span class="pre">nogil</span></code>. This is a common pattern of a cypclass making use of “classical”
+Cython function.</p>
+</div></blockquote>
+<p>The <code class="docutils literal notranslate"><span class="pre">format</span></code> library requires the resulting <code class="docutils literal notranslate"><span class="pre">.so</span></code> compiled Cython+ library to have
+access to the <code class="docutils literal notranslate"><span class="pre">fmt</span></code> C++ library. For convenience, the <code class="docutils literal notranslate"><span class="pre">fmt</span></code> source code is provided
+with the sample code, and the <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file builds <code class="docutils literal notranslate"><span class="pre">fmt</span></code> as a static library
+(<code class="docutils literal notranslate"><span class="pre">cmake</span></code> must be installed on the computer).</p>
+<p>The expected result of this implementation:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>-------- containers quick example, version 2 --------
+some_listst:
+  1
+  20
+  30
+some_dict:
+  0001: 0.12
+  0020: 3.14
+another_dict:
+       a: 0x1
+     foo: 0x14
+</pre></div>
+</div>
+</section>
+<section id="adding-features-list-sort-and-reverse">
+<h2>Adding features: list sort and reverse<a class="headerlink" href="#adding-features-list-sort-and-reverse" title="Permalink to this headline">¶</a></h2>
+<p>In this part, some “advanced” programming example. They are several ways to add
+features to Cython+:</p>
+<ul class="simple">
+<li><p>standard module using plain Cython+ and Cython code, like previous
+<code class="docutils literal notranslate"><span class="pre">container_v1.pyx</span></code> example,</p></li>
+<li><p>make a wrapper around some C++ library, but that requires competencies in both C++
+and Cython+ internals,</p></li>
+<li><p>use the C++ APIs still accessible in the core classes of Cython+.</p></li>
+</ul>
+<p>The cypclass <code class="docutils literal notranslate"><span class="pre">cyplist</span></code> does not provide a ‘sort’ or ‘reverse’ method as standard, this
+example proposes an implementation in a few lines.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libc.stdio</span> <span class="n">cimport</span> <span class="n">printf</span>
+<span class="kn">from</span> <span class="nn">libcpp.algorithm</span> <span class="n">cimport</span> <span class="n">sort</span><span class="p">,</span> <span class="n">reverse</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.list</span> <span class="n">cimport</span> <span class="n">cyplist</span>
+</pre></div>
+</div>
+<p>Cython library contains ports of many interesting C++ features, notably the algorithm
+library. We can import it from <code class="docutils literal notranslate"><span class="pre">libcpp.algorithm</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ctypedef</span> <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="n">IntList</span>
+</pre></div>
+</div>
+<p>Cython borrowed the <code class="docutils literal notranslate"><span class="pre">typedef</span></code> feature from C/C++ to improve code readability.
+Whenever we use an integer <code class="docutils literal notranslate"><span class="pre">cyplist</span></code>, we would need to write the long <code class="docutils literal notranslate"><span class="pre">cyplist[int]</span></code>
+statement. So we use the <code class="docutils literal notranslate"><span class="pre">ctypedef</span></code> keyword to define a shortcut.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">void</span> <span class="n">print_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="fm">__len__</span><span class="p">()):</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> &quot;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nb">int</span><span class="o">&gt;</span><span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">print_list()</span></code> is a Cython utility to print the elements of the list.</p>
+<blockquote>
+<div><p>Note the <code class="docutils literal notranslate"><span class="pre">nogil</span></code> keyword, so this function could be used in a ‘nogil’ context,
+possibly inside a cypclass</p>
+<p>Here some complexity:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">range()</span></code> will be compiled by Cython into ‘nogil’ compatible code,</p></li>
+<li><p>however, <code class="docutils literal notranslate"><span class="pre">len(some_list)</span></code> would yield a complete Python object (Python integer),
+thus requiring GIL,</p></li>
+<li><p>similarly, iterating directly over the list would also generate Python objects.</p></li>
+</ul>
+<p>We therefore directly use the <code class="docutils literal notranslate"><span class="pre">__len__()</span></code> method of <code class="docutils literal notranslate"><span class="pre">cyplist</span></code>, which returns a
+low-level integer compatible with the <code class="docutils literal notranslate"><span class="pre">nogil</span></code> context.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;int&gt;lst[i]</span></code> is a cast to ensure C++ understand our integer type.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">void</span> <span class="n">sort_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">lst</span><span class="o">.</span><span class="n">_active_iterators</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">sort</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Modifying a list with active iterators&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">cyplist</span></code> is implemented on top of the C++ class <code class="docutils literal notranslate"><span class="pre">vector</span></code>. The <code class="docutils literal notranslate"><span class="pre">sort_list()</span></code> function
+performs in-place sorting, using the underlying C++ API.</p>
+<blockquote>
+<div><p>We use the <code class="docutils literal notranslate"><span class="pre">sort</span></code> function imported from <code class="docutils literal notranslate"><span class="pre">libcpp.algorithm</span></code>.</p>
+<p>Note the <code class="docutils literal notranslate"><span class="pre">with</span> <span class="pre">gil</span></code> clause: the <code class="docutils literal notranslate"><span class="pre">raise</span></code> function relies on GIL Python object, thus
+it can not be used in a <code class="docutils literal notranslate"><span class="pre">nogil</span></code> context.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">void</span> <span class="n">reverse_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">lst</span><span class="o">.</span><span class="n">_active_iterators</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">reverse</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Modifying a list with active iterators&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">reverse_list()</span></code> function reverses in-place the order of the list, using the
+underlying C++ API.</p>
+<blockquote>
+<div><p>We use the <code class="docutils literal notranslate"><span class="pre">reverse</span></code> function imported from <code class="docutils literal notranslate"><span class="pre">libcpp.algorithm</span></code>.</p>
+</div></blockquote>
+<p>The complete code of list_sort_reverse_in_place.pyx:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libc.stdio</span> <span class="n">cimport</span> <span class="n">printf</span>
+<span class="kn">from</span> <span class="nn">libcpp.algorithm</span> <span class="n">cimport</span> <span class="n">sort</span><span class="p">,</span> <span class="n">reverse</span>
+<span class="kn">from</span> <span class="nn">libcythonplus.list</span> <span class="n">cimport</span> <span class="n">cyplist</span>
+
+<span class="c1"># define a specialized type: list of int</span>
+<span class="n">ctypedef</span> <span class="n">cyplist</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="n">IntList</span>
+
+
+<span class="n">cdef</span> <span class="n">void</span> <span class="n">print_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="fm">__len__</span><span class="p">()):</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> &quot;</span><span class="p">,</span> <span class="o">&lt;</span><span class="nb">int</span><span class="o">&gt;</span><span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+
+<span class="n">cdef</span> <span class="n">void</span> <span class="n">sort_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">lst</span><span class="o">.</span><span class="n">_active_iterators</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">sort</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Modifying a list with active iterators&quot;</span><span class="p">)</span>
+
+
+<span class="n">cdef</span> <span class="n">void</span> <span class="n">reverse_list</span><span class="p">(</span><span class="n">IntList</span> <span class="n">lst</span><span class="p">)</span> <span class="n">nogil</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">lst</span><span class="o">.</span><span class="n">_active_iterators</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">reverse</span><span class="p">(</span><span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">lst</span><span class="o">.</span><span class="n">_elements</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">with</span> <span class="n">gil</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Modifying a list with active iterators&quot;</span><span class="p">)</span>
+
+
+<span class="n">cdef</span> <span class="n">void</span> <span class="n">demo_sort</span><span class="p">():</span>
+    <span class="n">cdef</span> <span class="n">IntList</span> <span class="n">lst</span>
+
+    <span class="n">lst</span> <span class="o">=</span> <span class="n">IntList</span><span class="p">()</span>
+    <span class="k">with</span> <span class="n">nogil</span><span class="p">:</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;-------- containers demo list sort / reverse --------</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+        <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+        <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+        <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+        <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s1">&#39;original list:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">print_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s1">&#39;reverse list in-place:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">reverse_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+        <span class="n">print_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s1">&#39;reverse list in-place:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">reverse_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+        <span class="n">print_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s1">&#39;sort list in-place:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">sort_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+        <span class="n">print_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s1">&#39;reverse list in-place:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">reverse_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+        <span class="n">print_list</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">demo_sort</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Result:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>-------- containers demo list sort / reverse --------
+original list:
+20 300 10 2 1000 1
+reverse list in-place:
+1 1000 2 10 300 20
+reverse list in-place:
+20 300 10 2 1000 1
+sort list in-place:
+1 2 10 20 300 1000
+reverse list in-place:
+1000 300 20 10 2 1
+</pre></div>
+</div>
+</section>
+<section id="the-setup-py-file">
+<h2>The <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file<a class="headerlink" href="#the-setup-py-file" title="Permalink to this headline">¶</a></h2>
+<p>The two key features of this setup file are:</p>
+<ul class="simple">
+<li><p>compile several modules in one package,</p></li>
+<li><p>declare the use of a library: <code class="docutils literal notranslate"><span class="pre">fmt</span></code>.</p></li>
+</ul>
+<p>The complete <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file for this article’s example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">join</span><span class="p">,</span> <span class="n">exists</span><span class="p">,</span> <span class="n">abspath</span><span class="p">,</span> <span class="n">dirname</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">makedirs</span><span class="p">,</span> <span class="n">chdir</span><span class="p">,</span> <span class="n">getcwd</span>
+<span class="kn">from</span> <span class="nn">shutil</span> <span class="kn">import</span> <span class="n">rmtree</span><span class="p">,</span> <span class="n">copytree</span><span class="p">,</span> <span class="n">copy</span>
+<span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">run</span>
+
+<span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+<span class="kn">from</span> <span class="nn">setuptools.extension</span> <span class="kn">import</span> <span class="n">Extension</span>
+<span class="kn">from</span> <span class="nn">Cython.Build</span> <span class="kn">import</span> <span class="n">cythonize</span>
+
+<span class="n">PROJECT_ROOT</span> <span class="o">=</span> <span class="n">abspath</span><span class="p">(</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+
+
+<span class="k">def</span> <span class="nf">build_libfmt</span><span class="p">():</span>
+    <span class="n">libfmt</span> <span class="o">=</span> <span class="n">join</span><span class="p">(</span><span class="n">PROJECT_ROOT</span><span class="p">,</span> <span class="s2">&quot;libfmt&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">exists</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">libfmt</span><span class="p">,</span> <span class="s2">&quot;libfmt.a&quot;</span><span class="p">)):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;libfmt.a found&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">exists</span><span class="p">(</span><span class="n">libfmt</span><span class="p">):</span>
+        <span class="n">makedirs</span><span class="p">(</span><span class="n">libfmt</span><span class="p">)</span>
+    <span class="n">src</span> <span class="o">=</span> <span class="s2">&quot;fmt-8.0.1&quot;</span>
+    <span class="n">src_path</span> <span class="o">=</span> <span class="n">join</span><span class="p">(</span><span class="n">PROJECT_ROOT</span><span class="p">,</span> <span class="s2">&quot;..&quot;</span><span class="p">,</span> <span class="s2">&quot;..&quot;</span><span class="p">,</span> <span class="s2">&quot;vendor&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">src</span><span class="si">}</span><span class="s2">.tar.gz&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">exists</span><span class="p">(</span><span class="n">src_path</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">src_path</span><span class="si">}</span><span class="s2"> not found&quot;</span><span class="p">)</span>
+    <span class="n">build</span> <span class="o">=</span> <span class="n">join</span><span class="p">(</span><span class="n">PROJECT_ROOT</span><span class="p">,</span> <span class="s2">&quot;build_fmt&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">exists</span><span class="p">(</span><span class="n">build</span><span class="p">):</span>
+        <span class="n">rmtree</span><span class="p">(</span><span class="n">build</span><span class="p">)</span>
+    <span class="n">makedirs</span><span class="p">(</span><span class="n">build</span><span class="p">)</span>
+    <span class="n">orig_wd</span> <span class="o">=</span> <span class="n">getcwd</span><span class="p">()</span>
+    <span class="n">chdir</span><span class="p">(</span><span class="n">build</span><span class="p">)</span>
+    <span class="n">run</span><span class="p">([</span><span class="s2">&quot;tar&quot;</span><span class="p">,</span> <span class="s2">&quot;xzf&quot;</span><span class="p">,</span> <span class="n">src_path</span><span class="p">])</span>
+    <span class="n">chdir</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">build</span><span class="p">,</span> <span class="n">src</span><span class="p">))</span>
+    <span class="n">run</span><span class="p">([</span><span class="s2">&quot;cmake&quot;</span><span class="p">,</span> <span class="s2">&quot;-DCMAKE_POSITION_INDEPENDENT_CODE=TRUE&quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">])</span>
+    <span class="n">run</span><span class="p">([</span><span class="s2">&quot;make&quot;</span><span class="p">,</span> <span class="s2">&quot;fmt&quot;</span><span class="p">])</span>
+    <span class="n">chdir</span><span class="p">(</span><span class="n">orig_wd</span><span class="p">)</span>
+    <span class="n">copytree</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">build</span><span class="p">,</span> <span class="n">src</span><span class="p">,</span> <span class="s2">&quot;include&quot;</span><span class="p">,</span> <span class="s2">&quot;fmt&quot;</span><span class="p">),</span> <span class="n">join</span><span class="p">(</span><span class="n">libfmt</span><span class="p">,</span> <span class="s2">&quot;fmt&quot;</span><span class="p">))</span>
+    <span class="n">copy</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">build</span><span class="p">,</span> <span class="n">src</span><span class="p">,</span> <span class="s2">&quot;libfmt.a&quot;</span><span class="p">),</span> <span class="n">libfmt</span><span class="p">)</span>
+
+
+<span class="n">build_libfmt</span><span class="p">()</span>
+
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">ext_modules</span><span class="o">=</span><span class="n">cythonize</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">Extension</span><span class="p">(</span>
+                <span class="n">name</span><span class="o">=</span><span class="s2">&quot;containers.containers_v1&quot;</span><span class="p">,</span>
+                <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+                <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;containers/containers_v1.pyx&quot;</span><span class="p">],</span>
+                <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+                    <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+                <span class="p">],</span>
+            <span class="p">),</span>
+            <span class="n">Extension</span><span class="p">(</span>
+                <span class="n">name</span><span class="o">=</span><span class="s2">&quot;containers.containers_v2&quot;</span><span class="p">,</span>
+                <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+                <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;containers/containers_v2.pyx&quot;</span><span class="p">],</span>
+                <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+                    <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+                <span class="p">],</span>
+                <span class="n">libraries</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;fmt&quot;</span><span class="p">],</span>
+                <span class="n">include_dirs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;libfmt&quot;</span><span class="p">],</span>
+                <span class="n">library_dirs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;libfmt&quot;</span><span class="p">],</span>
+            <span class="p">),</span>
+            <span class="n">Extension</span><span class="p">(</span>
+                <span class="n">name</span><span class="o">=</span><span class="s2">&quot;containers.list_sort_reverse_in_place&quot;</span><span class="p">,</span>
+                <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+                <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;containers/list_sort_reverse_in_place.pyx&quot;</span><span class="p">],</span>
+                <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+                    <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+                <span class="p">],</span>
+                <span class="n">libraries</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;fmt&quot;</span><span class="p">],</span>
+                <span class="n">include_dirs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;libfmt&quot;</span><span class="p">],</span>
+                <span class="n">library_dirs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;libfmt&quot;</span><span class="p">],</span>
+            <span class="p">),</span>
+        <span class="p">],</span>
+        <span class="n">language_level</span><span class="o">=</span><span class="s2">&quot;3str&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>Note: of course the <code class="docutils literal notranslate"><span class="pre">build_libfmt()</span></code> function could be omitted or replaced by a pure
+shell script elsewhere, but for ease of use it is included in this all-in-one
+<code class="docutils literal notranslate"><span class="pre">setup.py</span></code>.</p>
+<p>It seems that the different <code class="docutils literal notranslate"><span class="pre">Extension</span></code> instances share many parameters, in future
+articles we will simplify this part.</p>
+</div></blockquote>
+<p>The <a class="reference external" href="https://github.com/abilian/cythonplus-articles">https://github.com/abilian/cythonplus-articles</a> git repository contains the demo code of this article.</p>
+</section>
+<hr class="docutils" />
+<section id="funders">
+<h2>Funders<a class="headerlink" href="#funders" title="Permalink to this headline">¶</a></h2>
+<p><em>Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions.</em>
+(This Project was supported in a joint framework between the State, within the framework of the “Programme d’investissements d’avenir”, and the Regions.)</p>
+<p><img alt="Programme d'investissements d'avenir" src="../_images/investirlavenir1.png" /></p>
+<p><em>Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France.</em></p>
+<p><img alt="BPI" src="../_images/bpi1.png" />
+<img alt="Cap Digital" src="../_images/cap_digital1.jpeg" />
+<img alt="Région Île de France" src="../_images/ile_de_france1.png" /></p>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../a1/a1.html"
+       title="previous chapter">← #1 - “Hello World!”</a>
+  </li>
+  <li class="next">
+    <a href="../a3/a3.html"
+       title="next chapter">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

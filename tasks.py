@@ -12,6 +12,7 @@ PATH = f"/home/web/{NAME}/"
 @task
 def deploy(c):
     c.run(f"rsync -e ssh --delete-after -avz site/ {USER}@{HOST}:{PATH}/")
+    c.run(f"rsync -e ssh -avz frozen/ {USER}@{HOST}:{PATH}/")
 
 
 @task

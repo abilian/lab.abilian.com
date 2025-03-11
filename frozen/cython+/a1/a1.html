@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>#1 - “Hello World!”</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="#2 - Standard classes" href="../a2/a2.html" />
+  <link rel="prev" title="Cython+ articles by Abilian" href="../index.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Cython+ articles</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#cython-articles-by-abilian">Contents:</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">#1 - “Hello World!”</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#prerequisites-and-installation" class="reference internal">Prerequisites and installation</a></li>
+                
+                  <li class="toctree-l2"><a href="#the-hello-world-program-using-cypclass" class="reference internal">The “Hello world!” program, using cypclass</a></li>
+                
+                  <li class="toctree-l2"><a href="#about-cython" class="reference internal">About Cython+</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a2/a2.html" class="reference internal ">#2 - Standard classes</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a3/a3.html" class="reference internal ">#3 - Concurrent programming: Actor paradigm with the Cython+ cypclass</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a4/a4.html" class="reference internal ">#4 - Concurrent programming: “Recorder” pattern and example of code optimization</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a5/a5.html" class="reference internal ">#5 - Utilities and standard libraries for Cython+</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../a6/a6.html" class="reference internal ">#6 - cypxml, a real world Cython+ module</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>#1 - “Hello World!”</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../index.html"
+       title="previous chapter">← Cython+ articles by Abilian</a>
+  </li>
+  <li class="next">
+    <a href="../a2/a2.html"
+       title="next chapter">#2 - Standard classes →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="hello-world">
+<h1>#1 - “Hello World!”<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h1>
+<p><strong><em>About Cython+ :</em></strong></p>
+<p><img alt="logo Cython+" src="../_images/cythonplus.png" /> Cython+ is a research project aiming to develop a Cython extension supporting
+efficient multithreading.</p>
+<p><strong><em>In this first article:</em></strong></p>
+<ul class="simple">
+<li><p>Prerequisites and installation of the environment,</p></li>
+<li><p>Code: a not so standard hello world, with comments on Cython+ basics,</p></li>
+<li><p>The Cython+ project and documentation.</p></li>
+</ul>
+<section id="prerequisites-and-installation">
+<h2>Prerequisites and installation<a class="headerlink" href="#prerequisites-and-installation" title="Permalink to this headline">¶</a></h2>
+<p>Cython+ is a language under development, therefore Cython+ requires recent versions for
+the underlying software packages. However, the requirements are limited and installation is
+easy.</p>
+<section id="prerequisites">
+<h3>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
+<p>Cython+ is currently operational on Linux (macOS and Windows environments are not
+supported at this stage). For these articles, we used Ubuntu 18.04.6 LTS and Ubuntu
+20.04.4 LTS, but any recent Linux distribution should be fine.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ lsb_release -d
+Description:    Ubuntu 20.04.4 LTS
+</pre></div>
+</div>
+<p>A working C++ compilation environment supporting the C++17 standard is required.
+Actually, Cython+ requires GCC compiler :</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ g++ --version
+g++ (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+</pre></div>
+</div>
+<p>This is not an absolute prerequisite, but for some examples we have chosen to compile
+the <code class="docutils literal notranslate"><span class="pre">fmt</span></code> library from sources, we will need <code class="docutils literal notranslate"><span class="pre">cmake</span></code>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ cmake --version
+cmake version 3.16.3
+</pre></div>
+</div>
+<p>Python: We use python 3.9 (Python 3.8 and up should be fine). Setup a virtual
+Environment, upgrade <code class="docutils literal notranslate"><span class="pre">pip</span></code> and <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>, install <code class="docutils literal notranslate"><span class="pre">wheel</span></code>.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ python3.9 -m venv p39
+$ source p39/bin/activate
+$ pip install -U pip
+$ pip install -U setuptools
+$ pip install wheel
+</pre></div>
+</div>
+</section>
+<section id="installation-of-cython">
+<h3>Installation of Cython+<a class="headerlink" href="#installation-of-cython" title="Permalink to this headline">¶</a></h3>
+<p>You may choose to compile Cython+ from the sources, but we recommend to get it through
+the Pypi package:
+<a class="reference external" href="https://pypi.org/project/cython-plus/">https://pypi.org/project/cython-plus/</a></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ pip install cython-plus
+Collecting cython-plus
+  Downloading cython-plus-0.1.0.post3.tar.gz (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 19.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+[...]
+Successfully installed cython-plus-0.1.0.post3
+</pre></div>
+</div>
+<p>Environment installation is now complete.</p>
+</section>
+</section>
+<section id="the-hello-world-program-using-cypclass">
+<h2>The “Hello world!” program, using cypclass<a class="headerlink" href="#the-hello-world-program-using-cypclass" title="Permalink to this headline">¶</a></h2>
+<p>As Cython+ is a superset of Cython, itself a superset of Python, a simple
+<code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">World!&quot;)</span></code> is possible. But you probably expect a little more.</p>
+<section id="the-main-source-file-helloworld-pyx">
+<h3>The main source file: helloworld.pyx<a class="headerlink" href="#the-main-source-file-helloworld-pyx" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>The suffix of file is <code class="docutils literal notranslate"><span class="pre">.pyx</span></code>, as for usual cython code. (In the next articles, we
+will see how to use <code class="docutils literal notranslate"><span class="pre">.pyx</span></code> files for cython code and <code class="docutils literal notranslate"><span class="pre">.pxd</span></code> files for cypclass
+definitions.)</p>
+<p>First line of code: Cython code designed to be compiled with C++ usually starts with
+<code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">distutils:</span> <span class="pre">language</span> <span class="pre">=</span> <span class="pre">c++</span></code> on the first line, but not here. We recommand to
+specify the C++ option in a dedicated <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> file with the other parameters.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># cython import:</span>
+<span class="kn">from</span> <span class="nn">libc.stdio</span> <span class="n">cimport</span> <span class="n">printf</span>
+</pre></div>
+</div>
+<p>First import: we imported <code class="docutils literal notranslate"><span class="pre">printf</span></code> from the regular Cython library <code class="docutils literal notranslate"><span class="pre">libc</span></code>, which is a
+wrapper of the C standard library.</p>
+<blockquote>
+<div><p>We will use <code class="docutils literal notranslate"><span class="pre">printf</span></code> in a “no GIL” context, where access to “GIL” objects of Python
+is not allowed. If we use the standard Python <code class="docutils literal notranslate"><span class="pre">print(something)</span></code>, Python will try to
+convert <code class="docutils literal notranslate"><span class="pre">something</span></code> into a Python String, which is a Python object (PyObject)
+requiring the “GIL”, thus not possible in a “no GIL” context.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># local Cython+ import:</span>
+<span class="kn">from</span> <span class="nn">helloworld.stdlib.string</span> <span class="n">cimport</span> <span class="n">Str</span>
+</pre></div>
+</div>
+<p>Then we import the <code class="docutils literal notranslate"><span class="pre">Str</span></code> class, a Cython+ cypclass that support “no GIL” operations on
+strings.</p>
+<blockquote>
+<div><p>We could also use a basic <code class="docutils literal notranslate"><span class="pre">char</span> <span class="pre">*</span></code> or another string class, but the <code class="docutils literal notranslate"><span class="pre">Str</span></code> cypclass
+permits high level operations.</p>
+<p>Both <code class="docutils literal notranslate"><span class="pre">helloworld</span></code> and the sub folder <code class="docutils literal notranslate"><span class="pre">stdlib</span></code> are python packages (with a
+<code class="docutils literal notranslate"><span class="pre">__init__.py</span></code> file), thus we did choose an absolute import. We could also use a
+relative import or not use package and assume that “.” is in the python path.
+However, Cython+/Cython are very sensitive to import syntax: the libraries must be
+imported in the same way in all the code.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">HelloWorld</span><span class="p">:</span>
+    <span class="n">Str</span> <span class="n">message</span>
+</pre></div>
+</div>
+<p>Declaration of the <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code> cypclass, with an attribute of type <code class="docutils literal notranslate"><span class="pre">Str</span></code>.</p>
+<blockquote>
+<div><p>Note the <code class="docutils literal notranslate"><span class="pre">cypclass</span></code> keyword, and no <code class="docutils literal notranslate"><span class="pre">cdef</span></code> before the attribute declaration. Note
+also that <code class="docutils literal notranslate"><span class="pre">message</span></code> is an instance attribute, not a class attribute. Actually there
+is no class attribute in Cython+.</p>
+<p>Any cypclass or basic C types (int, float, char*, …) can be used as attribute.</p>
+<p>All the methods of the cypclass are in a “no GIL” context, without need to add the
+<code class="docutils literal notranslate"><span class="pre">nogil</span></code> keyword.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">message</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The instance initialization loads a string into the instance attribute.</p>
+<blockquote>
+<div><p>Note no <code class="docutils literal notranslate"><span class="pre">def</span></code> or <code class="docutils literal notranslate"><span class="pre">cdef</span></code> before <code class="docutils literal notranslate"><span class="pre">__init__</span></code></p>
+<p>Here, <code class="docutils literal notranslate"><span class="pre">&quot;Hello</span> <span class="pre">World!&quot;</span></code> is not a Python String. The Cython+ language parser analyses
+the <code class="docutils literal notranslate"><span class="pre">Str()</span></code> argument as bytes.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="n">void</span> <span class="n">print_message</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">bytes</span><span class="p">())</span>
+</pre></div>
+</div>
+<p>The method prints the message with the imported <code class="docutils literal notranslate"><span class="pre">printf()</span></code> function.</p>
+<blockquote>
+<div><p>Note the <code class="docutils literal notranslate"><span class="pre">void</span></code> keyword: all cypclass methods require a return type (basic C type or
+cypclass, or void), except the <code class="docutils literal notranslate"><span class="pre">__init__</span></code> method.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">printf()</span></code> C function expects some kind of <code class="docutils literal notranslate"><span class="pre">char*</span></code> as an argument, the <code class="docutils literal notranslate"><span class="pre">Str()</span></code>
+instance can supply it with its <code class="docutils literal notranslate"><span class="pre">bytes()</span></code> method.</p>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">cdef</span> <span class="n">HelloWorld</span> <span class="n">hello</span>
+</pre></div>
+</div>
+<p>This function is a standard Python function (so using the GIL), compiled by Cython.
+Cython allows the declaration of typed variables with <code class="docutils literal notranslate"><span class="pre">cdef</span></code>, here we declare <code class="docutils literal notranslate"><span class="pre">hello</span></code>
+as an instance of cypclass <code class="docutils literal notranslate"><span class="pre">HelloWorld</span></code>. So we will be able to share code and data
+between the “Python context” and the “Cython+ context”.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>    <span class="k">with</span> <span class="n">nogil</span><span class="p">:</span>
+        <span class="n">hello</span> <span class="o">=</span> <span class="n">HelloWorld</span><span class="p">()</span>
+        <span class="n">hello</span><span class="o">.</span><span class="n">print_message</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>In “no GIL” context, create the instance and execute the method.</p>
+<blockquote>
+<div><p>Here the <code class="docutils literal notranslate"><span class="pre">nogil</span></code> is not mandatory by the cypclass instance, but would allow having
+some parts of the <code class="docutils literal notranslate"><span class="pre">main()</span></code> function using standard Python objects with GIL and
+another part without GIL, hence efficient for some multi-thread task. (More on this
+in future articles.)</p>
+<p>Note: after execution of the <code class="docutils literal notranslate"><span class="pre">main()</span></code> function, the memory of the <code class="docutils literal notranslate"><span class="pre">hello</span></code> instance
+is freed automatically.</p>
+</div></blockquote>
+<p>Finally, the complete code of <code class="docutils literal notranslate"><span class="pre">helloworld.pyx</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Cython+ example, helloworld (using syntax of march 2022)</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="c1"># cython import:</span>
+<span class="kn">from</span> <span class="nn">libc.stdio</span> <span class="n">cimport</span> <span class="n">printf</span>
+
+<span class="c1"># local Cython+ import:</span>
+<span class="kn">from</span> <span class="nn">helloworld.stdlib.string</span> <span class="n">cimport</span> <span class="n">Str</span>
+
+
+<span class="n">cdef</span> <span class="n">cypclass</span> <span class="n">HelloWorld</span><span class="p">:</span>
+    <span class="n">Str</span> <span class="n">message</span>
+
+    <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">message</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+
+    <span class="n">void</span> <span class="n">print_message</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">bytes</span><span class="p">())</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">cdef</span> <span class="n">HelloWorld</span> <span class="n">hello</span>
+
+    <span class="k">with</span> <span class="n">nogil</span><span class="p">:</span>
+        <span class="c1"># In this block, the Helloworld() instance and its print_message() method are</span>
+        <span class="c1"># outside the scope of the python GIL</span>
+        <span class="n">hello</span> <span class="o">=</span> <span class="n">HelloWorld</span><span class="p">()</span>
+        <span class="n">hello</span><span class="o">.</span><span class="n">print_message</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="building-the-program-setup-py">
+<h3>Building the program: <code class="docutils literal notranslate"><span class="pre">setup.py</span></code><a class="headerlink" href="#building-the-program-setup-py" title="Permalink to this headline">¶</a></h3>
+<p>Cython+ code is translated into some C++ files and then compiled. The expected result
+is some <code class="docutils literal notranslate"><span class="pre">.so</span></code> extension files containing packages usable in a standard Python
+environment.</p>
+<p>The canonical command to build the code is: <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">build_ext</span> <span class="pre">--inplace</span></code></p>
+<p>The basic structure of a <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> for Cython+ code:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+<span class="kn">from</span> <span class="nn">setuptools.extension</span> <span class="kn">import</span> <span class="n">Extension</span>
+<span class="kn">from</span> <span class="nn">Cython.Build</span> <span class="kn">import</span> <span class="n">cythonize</span>
+</pre></div>
+</div>
+<p>Those 3 lines are identical to standard Cython setup files, except that we recommend
+to replace the usual <code class="docutils literal notranslate"><span class="pre">distutils</span></code> import by a <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> import (<code class="docutils literal notranslate"><span class="pre">distutils</span></code> will be
+deprecated soon).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">setup</span><span class="p">(</span>
+    <span class="n">ext_modules</span><span class="o">=</span><span class="n">cythonize</span><span class="p">(</span>
+        <span class="p">[</span>
+            <span class="n">Extension</span><span class="p">(</span>
+                <span class="n">name</span><span class="o">=</span><span class="s2">&quot;helloworld.helloworld&quot;</span><span class="p">,</span>
+                <span class="n">sources</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;helloworld/helloworld.pyx&quot;</span><span class="p">],</span>
+                <span class="n">language</span><span class="o">=</span><span class="s2">&quot;c++&quot;</span><span class="p">,</span>
+                <span class="n">extra_compile_args</span><span class="o">=</span><span class="p">[</span>
+                    <span class="s2">&quot;-std=c++17&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-O3&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;-Wno-deprecated-declarations&quot;</span><span class="p">,</span>
+                <span class="p">],</span>
+            <span class="p">),</span>
+        <span class="p">],</span>
+        <span class="n">language_level</span><span class="o">=</span><span class="s2">&quot;3str&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">cythonize</span></code> will build the list of extensions. For each extension, the <code class="docutils literal notranslate"><span class="pre">nane</span></code> key is
+of the corresponding Python module, in dotted notation, the <code class="docutils literal notranslate"><span class="pre">source</span></code> key is the list
+the files to compile for the module, usually one <code class="docutils literal notranslate"><span class="pre">.pyx</span></code> per module.</p>
+<p><code class="docutils literal notranslate"><span class="pre">language=&quot;c++&quot;</span></code> is mandatory for Cython+.</p>
+<p><code class="docutils literal notranslate"><span class="pre">extra_compile_args</span></code> contains flags for GCC, <code class="docutils literal notranslate"><span class="pre">&quot;-std=c++17&quot;</span></code> is mandatory for Cython+.</p>
+<p>Finally, <code class="docutils literal notranslate"><span class="pre">language_level=&quot;3str&quot;</span></code> is strongly recommended (set Cython default string to
+map to Python <code class="docutils literal notranslate"><span class="pre">Str</span></code> and Python 3 syntax).</p>
+<p><strong>Build the code:</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ python setup.py build_ext --inplace
+Compiling helloworld/helloworld.pyx because it changed.
+[1/1] Cythonizing helloworld/helloworld.pyx
+running build_ext
+building &#39;helloworld.helloworld&#39; extension
+[...]
+copying build/lib.linux-x86_64-3.9/helloworld/helloworld.cpython-39-x86_64-linux-gnu.so -&gt; helloworld
+</pre></div>
+</div>
+<p>Execution of the code, by loading the module and executing the main function:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ python -c &quot;from helloworld.helloworld import main; main()&quot;
+Hello World!
+</pre></div>
+</div>
+<p>The <a class="reference external" href="https://github.com/abilian/cythonplus-articles">https://github.com/abilian/cythonplus-articles</a> git repository contains the demo code of this “helloworld” example,
+with a <code class="docutils literal notranslate"><span class="pre">demo.sh</span></code> script that chains the build and execute commands.</p>
+</section>
+</section>
+<section id="about-cython">
+<h2>About Cython+<a class="headerlink" href="#about-cython" title="Permalink to this headline">¶</a></h2>
+<p><img alt="logo Cython+" src="../_images/cythonplus.png" /> Cython+ is a research project aiming to develop a Cython extension supporting efficient
+multithreading.
+For more on this, see the motivation for Cython+ on the project site:
+<a class="reference external" href="https://www.cython.plus/P-CYP-Documentation.Motivation">https://www.cython.plus/P-CYP-Documentation.Motivation</a></p>
+<p>This project is a work in progress, but already usable. In this article and the next
+ones we won’t detail the future developments of Cython+ or current limitations, but we
+will focus on the actual benefits of the current version.</p>
+<section id="funders">
+<h3>Funders<a class="headerlink" href="#funders" title="Permalink to this headline">¶</a></h3>
+<p><em>Le Projet a été soutenu dans un cadre conjoint entre l’Etat, au titre du Programme d’investissements d’avenir, et les Régions.</em>
+(This Project was supported in a joint framework between the State, within the framework of the “Programme d’investissements d’avenir”, and the Regions.)</p>
+<p><img alt="Programme d'investissements d'avenir" src="../_images/investirlavenir.png" /></p>
+<p><em>Ce projet a été sélectionné pour recevoir un financement par les Projets Structurants Pour la Compétitivité - N⁰ 1 Régions. Il est soutenu par CapDigitial et la Région Île-de-France.</em></p>
+<p><img alt="BPI" src="../_images/bpi.png" />
+<img alt="Cap Digital" src="../_images/cap_digital.jpeg" />
+<img alt="Région Île de France" src="../_images/ile_de_france.png" /></p>
+</section>
+<section id="references">
+<h3>References:<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>About the Cython+ project, <em>“Multi-core concurrent programming in Python”</em>:
+<a class="reference external" href="https://www.cython.plus/en/">https://www.cython.plus/en/</a></p></li>
+<li><p>Cython+ code source:
+<a class="reference external" href="https://lab.nexedi.com/nexedi/cython">https://lab.nexedi.com/nexedi/cython</a></p></li>
+</ul>
+</section>
+<section id="useful-documentations-links">
+<h3>Useful documentations links<a class="headerlink" href="#useful-documentations-links" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>Who’s That “GIL”? If you’re reading this article, you probably already know why
+“GIL” is famous, if not here are some clues:
+<a class="reference external" href="https://realpython.com/python-gil/">https://realpython.com/python-gil/</a></p></li>
+<li><p>Cython+ basic Syntax (by example): cypclass, inheritance, GIL freedom:
+<a class="reference external" href="https://www.cython.plus/P-CYP-Documentation.Basic.Syntax">https://www.cython.plus/P-CYP-Documentation.Basic.Syntax</a></p></li>
+<li><p>Cython+ Interaction with Python: how Cython+ interacts with Python:
+<a class="reference external" href="https://www.cython.plus/P-CYP-Documentation.Interacting.With.Python">https://www.cython.plus/P-CYP-Documentation.Interacting.With.Python</a></p></li>
+<li><p>Cython+ uses a strong isolation scheme to achieve safer concurrency management.
+Explanation of the keywords iso / consume / lock / active and their syntax:
+<a class="reference external" href="https://www.cython.plus/P-CYP-Documentation.Concurrency">https://www.cython.plus/P-CYP-Documentation.Concurrency</a></p></li>
+<li><p>Cython+, Cython and C++</p>
+<p>Cython+ is designed to allow porting Python code, especially classes, into a
+“threads-friendly” environment, using C++ classes behind the scene.
+As such, C++ competences are not mandatory. However, you will need to
+understand how Cython interacts with C and C++ :</p>
+<ul class="simple">
+<li><p>Cython documentation, version 3.0+ :
+<a class="reference external" href="https://cython.readthedocs.io/en/latest/">https://cython.readthedocs.io/en/latest/</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../index.html"
+       title="previous chapter">← Cython+ articles by Abilian</a>
+  </li>
+  <li class="next">
+    <a href="../a2/a2.html"
+       title="next chapter">#2 - Standard classes →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Abilian.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>
