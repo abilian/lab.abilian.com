@@ -1,7 +1,7 @@
 
-Nix is a truly revolutionary approach to package management and system configuration. Its core concepts – a content-addressed store, atomic upgrades and rollbacks, and declarative, reproducible builds – offer a level of control and reliability that's unmatched by traditional tools. For complex deployments, especially where reproducibility is paramount, Nix can be incredibly powerful, eliminating the "it works on my machine" problem and enabling consistent environments across development, testing, and production. 
+Nix is a truly revolutionary approach to package management and system configuration. Its core concepts – a content-addressed store, atomic upgrades and rollbacks, and declarative, reproducible builds – offer a level of control and reliability that's unmatched by traditional tools. For complex deployments, especially where reproducibility is paramount, Nix can be incredibly powerful, eliminating the "it works on my machine" problem and enabling consistent environments across development, testing, and production.
 
-However, the path to harnessing this power is often fraught with challenges, stemming from design choices that prioritize internal elegance and theoretical purity over user experience. This post discusses some of the most significant hurdles faced by Nix users (esp. newcomers), explores the potential of Guix as an alternative, and considers ways in which Nix itself could evolve to become more accessible. 
+However, the path to harnessing this power is often fraught with challenges, stemming from design choices that prioritize internal elegance and theoretical purity over user experience. This post discusses some of the most significant hurdles faced by Nix users (esp. newcomers), explores the potential of Guix as an alternative, and considers ways in which Nix itself could evolve to become more accessible.
 
 Despite its current flaws, the fundamental ideas behind Nix remain incredibly valuable, and with focused effort on usability, it could become the de facto standard for reproducible software deployment.
 
@@ -37,7 +37,7 @@ Despite its current flaws, the fundamental ideas behind Nix remain incredibly va
 6.  **"Read the Nix PhD Thesis" Culture:**
     *   **Criticism:** The frequent referral to the Nix PhD thesis (or complex academic papers) as a solution to simple user problems creates an exclusionary atmosphere.  It implies that a deep academic understanding (e.g. graduate level) is required to use Nix effectively.
     *   **User-Hostility:**  Discourages newcomers and creates a perception that Nix is only for experts.  Fails to provide accessible solutions for common problems.  Prioritizes theoretical purity over practical usability.
-- 7. **Community Focus on Technical Users:**
+7. **Community Focus on Technical Users:**
     - **Criticism:** The Nix community is largely composed of highly technical users, often developers themselves. This creates an environment where solutions and discussions often assume a high level of expertise, making it less welcoming to newcomers or those with less technical backgrounds.
     - **User-Hostility:** Excludes users who aren't already deeply familiar with both systems programming and functional programming concepts. Makes it harder to find accessible solutions to common problems.
 
@@ -66,31 +66,31 @@ Despite its current flaws, the fundamental ideas behind Nix remain incredibly va
 - 12. **Too Many Ways to Do the Same Thing (Major Point):**
     - **Criticism:** Nix offers a bewildering array of choices for accomplishing even basic tasks. The combination of Flakes vs. non-Flakes, nix-env vs. nix develop vs. nix-shell, home-manager vs. direct configuration, various installers, and the possibility of custom overlays creates a combinatorial explosion of possible configurations. This makes it extremely difficult to find definitive answers or confidently apply solutions found online.
     - **User-Hostility:** Creates massive cognitive overhead. Forces users to understand the nuances of many different approaches, even for simple tasks. Makes it impossible to rely on copy/pasting solutions without understanding the specific context in which they were created.
-        
+
 13. **Variability of Supported Packages (Quality Over Quantity):**
     - **Criticism:** While Nixpkgs boasts a large number of packages, the quality of Nix integration varies dramatically. Some packages have extensive, well-documented configuration options, while others are minimally integrated, requiring manual setup or custom Nix code.
     - **User-Hostility:** Creates an inconsistent user experience. Forces users to learn not only Nix, but also the underlying configuration mechanisms of many different applications. Makes it difficult to predict how much effort will be required to integrate a new package.
-        
+
 - 14. **Granular Package Control Difficulties:**
-    - **Criticism:** Pinning specific package versions (requiring whole-repository snapshots) and upgrading individual packages are significantly more cumbersome in Nix than in traditional package managers. 
+    - **Criticism:** Pinning specific package versions (requiring whole-repository snapshots) and upgrading individual packages are significantly more cumbersome in Nix than in traditional package managers.
     - **User-Hostility:** Adds friction to common package management tasks. Makes it harder to manage dependencies and maintain a stable system.
-        
+
 13. **Space, Bandwidth, and Resource Use:**
     - **Criticism:** Nix's hermetic nature leads to large downloads, significant disk space consumption, and occasional heavy CPU load during builds.
     - **User-Hostility:** Can be impractical for systems with limited bandwidth, storage, or processing power. Creates unexpected performance bottlenecks.
-        
+
 - 14. **Difficulties Using New Tech:**
     - **Criticism:** Trying out new software that isn't already packaged for Nix often requires significant effort, such as creating a nix-shell or writing a custom derivation.
     - **User-Hostility:** Discourages experimentation and rapid prototyping. Creates a barrier to adopting new tools and technologies.
-        
+
 - 15. **Messy Configs (and the "Nix Tax"):**
     - **Criticism:** Nix configurations often become cluttered with notes, commented-out attempts, and complex workarounds, reflecting the ongoing effort required to maintain a working setup. The "Nix tax" refers to the extra time and effort needed to integrate everything with Nix.
     - **User-Hostility:** Makes configurations harder to understand and maintain. Increases the cognitive burden on users.
-        
+
 - 16. **Development Environment Challenges:**
     - **Criticism:** Setting up and using development environments with Nix, even with tools like devenv, can be complex and frustrating. Issues include the need to "shell into shells," difficult IDE integration, and the need to Nixify every aspect of the development workflow.
     - **User-Hostility:** Adds significant overhead to development workflows. Makes it harder to collaborate with developers who aren't using Nix. Can disrupt established workflows.
-        
+
 13. **Legacy Cruft:**
     - **Criticism:** Remnants of older systems and approaches within Nix (like the misleading package search results in nix-darwin) can create confusion and frustration for users.
     - **User-Hostility:** Undermines trust in the system and makes it harder to find reliable information.

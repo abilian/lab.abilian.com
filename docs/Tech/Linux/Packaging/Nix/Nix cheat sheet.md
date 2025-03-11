@@ -1,14 +1,22 @@
 #nix
 
+## Most used commands
+
+- **Install**: `nix-env -i -f https://github.com/NixOS/nixfmt/archive/master.tar.gz` → Install the given package
+    - Alternative: `nix search nixpkgs nixfmt` then `nix profile install nixpkgs#nixfmt`
+- **Garbage collection**: `nix-store --gc` or `nix-collect-garbage -d`
+
 ## Nix package management
 
 ### Most Important Documentation Links
+
 - **Nix Docs (Tool, Language)**: [https://nixos.org/manual/nix](https://nixos.org/manual/nix)
 - **Nixpkgs Docs (Packaging, programs, libraries)**: [https://nixos.org/manual/nixpkgs](https://nixos.org/manual/nixpkgs)
 - **NixOS Docs**: [https://nixos.org/manual/nixos](https://nixos.org/manual/nixos)
 - **Nixpkgs package and NixOS module search engine**: [https://search.nixos.org](https://search.nixos.org)
 
 ### Imperative Package Management
+
 - **Update package list**: `apt update` (happens automatically in Nix)
 - **Search**: `apt search <pkgname>` | `nix search nixpkgs <pkgname>`
 - **Install**: `apt install <pkgname>` | `nix profile install nixpkgs#<pkgname>`
@@ -18,30 +26,27 @@
 - **Rollback**: `nix profile rollback`
 
 ### Per-Project Shells
+
 - **Ad-hoc shell with packages**: `nix shell nixpkgs#pkg1` or `nix shell nixpkgs#{pkg1,pkg2}`
 - **Project-shell with flake**: `nix develop`
 - **Project-shell with shell.nix or default.nix file**: `nix-shell`
 
 ### Building Packages
+
 - **Build default.nix or default pkg from flake**: `nix build`
 - **Build specific attributes (flakes)**: `nix build .#pkg1 .#pkg2`
 
 ### Input Management
 #### Flakes
+
 - **Init flake project**: `nix flake init`
 - **Init flake-parts project**: `nix flake init -t github:hercules-ci/flake-parts`
 - **Update flake inputs**: `nix flake update`
 - **Update and commit lock file**: `nix flake update --commit-lock-file`
 - **Update specific input**: `nix flake lock --update-input <name>`
 
-#### Niv (Pre-Flakes)
-- **Install Niv Files**: `niv init`
-- **Add GitHub Repository**: `niv add <github-owner>/<reponame>`
-- **Update inputs**: `niv update`
-- **Update specific input**: `niv update <name>`
-- **Switch branch/tag of input**: `niv update <name> -b <gitref>`
-
 ### Flake References
+
 - **Flake in current Directory**: `.`
 - **Local path**: `[path]:/path/to/repo`
 - **HTTPS URL to flake tarball**: `https://host/flake.tar.gz`
@@ -50,15 +55,8 @@
 - **GitHub Repo**: `github:owner/repo`
 - **Specific Branch/Tag**: `github:owner/repo?ref=abc123`
 
-### NixOS System Rebuild
-- **Rebuild system and activate**: `nixos-rebuild switch`
-- **Rebuild system and activate for now without updating bootloader**: `nixos-rebuild test`
-- **Rebuild without activating but update bootloader**: `nixos-rebuild boot`
-- **Rollback**: `nixos-rebuild switch --rollback`
-- **Build on host A, deploy to host B, authorize with sudo**:
-  `nixos-rebuild switch --build-host a --target-host b --use-remote-sudo`
-
 ### Garbage Collection
+
 - **Collect unreferenced and store paths**: `nix-collect-garbage`
 - **Also collect old profile/system generations**: `nix-collect-garbage -d`
 - **Only delete up to 50GB**: `nix-collect-garbage --max-freed 50G`
@@ -66,6 +64,7 @@
 - **Print all GC roots**: `nix-store --gc --print-roots`
 
 ### Nix REPL
+
 - **Start Nix REPL**: `nix repl`
 - **Load local Flake**: `:lf`
 - **Build derivation**: `:b attribute.with.derivation`
@@ -74,16 +73,16 @@
 - **Show documentation on built-in function**: `:doc builtins.listToAttrs`
 - **Show REPL help**: `:?`
 
-
 ## Nix language
 
-
 ### Most Important Documentation Links
+
 - **Nix builtins functions**: [https://nixos.org/manual/nix/stable/language/builtins](https://nixos.org/manual/nix/stable/language/builtins)
 - **Nixpkgs function library**: [https://nixos.org/manual/nixpkgs](https://nixos.org/manual/nixpkgs)
 - **Nixpkgs function search engine**: [https://noogle.dev](https://noogle.dev)
 
 ### Types
+
 - **String**: `"this is a string"`
 - **Multi-line String (double single-quotes)**:
   ```nix
@@ -101,6 +100,7 @@
 - **List**: `[ 3 2.0 "one" null ]`
 
 ### Syntax
+
 - **Comment**: `# a single-line comment` or `/* a multi-line comment */`
 - **If-then-else**: `if x > 3 then 10 else -10`
 - **Local variables**:
@@ -127,6 +127,7 @@
   ```
 
 ### Reference Attribute Keys
+
 - **Reference attribute keys**:
   ```nix
   s = { x = { y = 1; }; };
@@ -141,9 +142,11 @@
   ```
 
 ### List Concatenation
+
 - Concatenate lists: `[ 1 2 ] ++ [ 3 4 ] # ➡ returns [ 1 2 3 4 ]`
 
 ### Inheritance
+
 - **Inherit**:
   ```nix
   let x = 1; in { inherit x; } # same as let x = 1; in { x = x; }
@@ -158,6 +161,7 @@
   ```
 
 ### Functions
+
 - **Simple function in Python style**:
   ```nix
   let
@@ -198,6 +202,7 @@
   ```
 
 ### Other Special Syntax
+
 - **String interpolation**:
   ```nix
   let
@@ -223,6 +228,7 @@
   ```
 
 ### Special Built-in Functions
+
 - **Import file and return expression**:
   ```nix
   import ./some/file.nix
