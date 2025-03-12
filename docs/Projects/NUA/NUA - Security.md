@@ -2,15 +2,13 @@
 
 ## Minimum Viable Secure Product - Checklist
 
-https://mvsp.dev/mvsp.en/index.html "Minimum Viable Secure Product is a minimalistic security checklist for B2B software and business process outsourcing suppliers."
+https://mvsp.dev/mvsp.en/ "Minimum Viable Secure Product is a minimalistic security checklist for B2B software and business process outsourcing suppliers."
 
-See als: https://www.jit.io/ "Automating product security for busy developers - Start with MVS, Minimal Viable Security plan as code, instantly achieve continuous security"
-
+See also: https://www.jit.io/ "Automating product security for busy developers - Start with MVS, Minimal Viable Security plan as code, instantly achieve continuous security"
 
 ## Docker image checker
 
 https://github.com/docker/docker-bench-security
-
 
 ## WAF
 
@@ -28,13 +26,13 @@ The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free secur
 NB: gros truc (200 KLOC de Java)
 NB: Ce n'est pas un WAF. Ca peut quand même servir.
 
-
 ### F5 NGINX App Protect: Web Application Firewall (WAF)
 
 https://www.nginx.com/products/nginx-app-protect/web-application-firewall
 Not open source.
-Cool diagram
-[![](https://www.nginx.com/wp-content/uploads/2021/08/NGINX-App-Protect-WAF_attack-types.png)](https://www.nginx.com/wp-content/uploads/2021/08/NGINX-App-Protect-WAF_attack-types.png)
+Cool diagram:
+
+![[Screenshot 2025-03-11 at 18.59.10.png]]
 
 <!-- Keywords -->
 #owasp #security #firewall #docker
