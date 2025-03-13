@@ -2,7 +2,7 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
+- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
 
 - **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-11*)
 
@@ -531,8 +531,6 @@
 - **[WASM-4 Game jam](/Projects/Python to WASM Compiler/WASM-4 Game jam/)** in <small>[Projects](/Projects/00 Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-11-13*)
 
 - **[Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)** in <small>[Projects](/Projects/00 Projects/) / [Python to WASM Compiler](/Projects/Python to WASM Compiler/Python to WASM Compiler/)</small> (*2024-11-13*)
-
-- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
 - **[NUA - Build](/Projects/NUA/NUA - Build/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 
