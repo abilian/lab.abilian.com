@@ -2,15 +2,13 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-19*)
-
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2025-03-18*)
-
-- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
 
 
 
 ## Changed last 30 to 7 days
+
+- **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
 
 - **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-11*)
 
@@ -122,11 +120,11 @@
 
 - **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
 
-- **[Content Addressable Storage (CAS)](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-12-19*)
-
 
 
 ## Earlier changes
+
+- **[Content Addressable Storage (CAS)](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-12-19*)
 
 - **[HyperOpenX - FR](/Projects/HOX/HyperOpenX - FR/)** in <small>[Projects](/Projects/00 Projects/) / [HOX](/Projects/HOX/HyperOpen X - A year in review (2024)/)</small> (*2024-12-17*)
 
