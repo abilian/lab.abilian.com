@@ -116,13 +116,13 @@
 
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
 
-- **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
-
-- **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
-
 
 
 ## Earlier changes
+
+- **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
+
+- **[Buildout](/Tech/Cloud/SlapOS/Buildout/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
 
 - **[Content Addressable Storage (CAS)](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)** in <small>[Tech](/Tech/00 Technology/) / [Databases & Persistence](/Tech/Databases & Persistence/Content Addressable Storage (CAS)/)</small> (*2024-12-19*)
 
