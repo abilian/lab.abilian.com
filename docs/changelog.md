@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-03-22*)
+
+- **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-03-22*)
+
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2025-03-18*)
 
 
@@ -496,8 +500,6 @@
 
 - **[OneGov](/Tech/Apps/OneGov/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
 
-- **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
-
 - **[Collabora Online](/Tech/Apps/Collabora Online/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
 
 - **[Cabot](/Tech/Apps/Cabot/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
@@ -745,8 +747,6 @@
 - **[Hombrew on Linux](/Tech/Linux/Distributions/Hombrew on Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Hombrew on Linux/)</small> (*2024-11-13*)
 
 - **[Varlink](/Tech/IPC/Varlink/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-11-13*)
-
-- **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2024-11-13*)
 
 - **[Yoshai Benkler](/Tech/FOSS/People/Yoshai Benkler/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-13*)
 
