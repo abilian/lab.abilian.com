@@ -2,17 +2,15 @@
 
 ## Recent changes (last 7 days)
 
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-24*)
-
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-03-22*)
 
 - **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-03-22*)
 
-- **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2025-03-18*)
-
 
 
 ## Changed last 30 to 7 days
+
+- **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2025-03-18*)
 
 - **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
 
