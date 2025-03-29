@@ -1,14 +1,10 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
 
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-03-22*)
 
 - **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-03-22*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/Build your own Docker/)</small> (*2025-03-18*)
 
