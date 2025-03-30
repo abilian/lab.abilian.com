@@ -1,5 +1,11 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-30*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-03-22*)
@@ -24,11 +30,11 @@
 
 - **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
-- **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-15*)
 
