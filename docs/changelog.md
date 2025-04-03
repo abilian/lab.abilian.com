@@ -1,11 +1,5 @@
 # Changelog
 
-## Recent changes (last 7 days)
-
-- **[NUA - Supporting files](/Projects/NUA/NUA - Supporting files/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-30*)
-
-
-
 ## Changed last 30 to 7 days
 
 - **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-03-22*)
@@ -28,11 +22,11 @@
 
 - **[Full-stack Python Web frameworks](/Tech/Web/Full-stack Python Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-03-07*)
 
-- **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
-
 
 
 ## Changed last 90 to 30 days
+
+- **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
 - **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
 
@@ -63,6 +57,10 @@
 - **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-15*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-12*)
+
+
+
+## Earlier changes
 
 - **[Documentation](/Tech/Tools/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-01-03*)
 
@@ -121,10 +119,6 @@
 - **[A plan for Benchmarking Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)** in <small>[Projects](/Projects/00 Projects/) / [Cython+](/Projects/Cython+/A plan for Benchmarking Cython+/)</small> (*2025-01-02*)
 
 - **[Abilian SBE](/Projects/Abilian SBE/)** in <small>[Projects](/Projects/00 Projects/)</small> (*2024-12-31*)
-
-
-
-## Earlier changes
 
 - **[Differences Between Upstream Buildout and SlapOS's Variant](/Tech/Cloud/SlapOS/Differences Between Upstream Buildout and SlapOS's Variant/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/) / [SlapOS](/Tech/Cloud/SlapOS/Buildout - Tutorial/)</small> (*2024-12-20*)
 

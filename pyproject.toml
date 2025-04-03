@@ -19,9 +19,9 @@ dependencies = [
     "attrs~=24.0",
     "devtools~=0.12",
     # NLP
-    "nltk ~= 3.8.1",
-    "keybert>=0.8.5",
-    "sentence-transformers>=3.3.0",
+    # "nltk ~= 3.8.1",
+    # "keybert>=0.8.5",
+    # "sentence-transformers>=3.3.0",
     "invoke>=2.2.0",
 ]
 
