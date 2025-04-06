@@ -14,7 +14,7 @@ By understanding your repository structure (through simple configuration of your
 
 Essentially, Git Town aims to make sophisticated Git workflows feel effortless, consistent, and less error-prone.
 
-## "main branch" vs. "perennial branch" 
+## "main branch" vs. "perennial branch"
 
 "Main branch" and "perennial branch" are **roles** you assign to certain branches via Git Town's configuration.
 
