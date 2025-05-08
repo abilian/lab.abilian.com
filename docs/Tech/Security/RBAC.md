@@ -9,10 +9,18 @@ RBAC is widely used in enterprise organizations, especially in large scale syste
 -  NIST: https://csrc.nist.gov/projects/role-based-access-control
 -  ANSI INCITS 359
 
+## Python libraries
+
+→ [[Access control in Python]]
+
 ## Libraries
 
-- https://github.com/osohq/oso "Oso is a batteries-included library for building authorization in your application."
-- Apache Fortress
+- https://github.com/osohq/oso "Oso is a batteries-included library for building authorization in your application." → deprecated
+- Apache Fortress / py-fortress (Java / Python)
+- https://www.opal.ac/ / https://github.com/permitio/opal "Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)" (Python)
+- https://permify.co/ / https://github.com/Permify/permify (go)
+- https://www.openpolicyagent.org/
+- https://github.com/Permify/permify - An open-source authorization as a service inspired by Google Zanzibar (go)
 
 ## References
 
