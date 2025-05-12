@@ -1,5 +1,51 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[EU OS ↔︎ Abilian](/Projects/EU OS/EU OS ↔︎ Abilian/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-12*)
+
+- **[EU OS POC (2025)](/Projects/EU OS/EU OS POC (2025)/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-12*)
+
+- **[CSR vs. SSR](/Tech/Web/UX-UI/CSR vs. SSR/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2025-05-08*)
+
+- **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2025-05-08*)
+
+- **[GoDaddy & Thespian](/Tech/Python/Useful Libraries/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-05-08*)
+
+- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-08*)
+
+- **[State machines](/Tech/Architecture & Software Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2025-05-08*)
+
+- **[Pros and Cons of Microservices](/Tech/Architecture & Software Design/Microservices/Pros and Cons of Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-08*)
+
+- **[Alternatives to Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-08*)
+
+- **[SMO↔︎Hop3 Optimisation Integration](/Projects/NEPHELE/SMO↔︎Hop3 Optimisation Integration/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO↔︎Hop3 In-Process Integration](/Projects/NEPHELE/SMO↔︎Hop3 In-Process Integration/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO↔︎Hop3 Improvement Plan](/Projects/NEPHELE/SMO↔︎Hop3 Improvement Plan/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Tutorial](/Projects/NEPHELE/SMO - Tutorial/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Potential Improvements](/Projects/NEPHELE/SMO - Potential Improvements/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Optimization Capabilities](/Projects/NEPHELE/SMO - Optimization Capabilities/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Key Concepts](/Projects/NEPHELE/SMO - Key Concepts/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Glossary](/Projects/NEPHELE/SMO - Glossary/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Code Walkthrough](/Projects/NEPHELE/SMO - Code Walkthrough/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[SMO - Architecture](/Projects/NEPHELE/SMO - Architecture/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[H3NI Introduction](/Projects/NEPHELE/H3NI Introduction/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+- **[00 NEPHELE](/Projects/NEPHELE/00 NEPHELE/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
+
+
+
 ## Changed last 90 to 30 days
 
 - **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-04-06*)
@@ -27,8 +73,6 @@
 - **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
 - **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
-
-- **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-02-15*)
 
 - **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-02-13*)
 
@@ -224,8 +268,6 @@
 
 - **[Python & SSH](/Tech/Python/Useful Libraries/Python & SSH/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
-- **[GoDaddy & Thespian](/Tech/Python/Useful Libraries/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
-
 - **[Components and Services](/Tech/Python/Useful Libraries/Components and Services/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
 
 - **[Component vs. plugin architectures](/Tech/Python/Useful Libraries/Component vs. plugin architectures/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2024-11-19*)
@@ -277,8 +319,6 @@
 - **[DGFIP Report - Desktop Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-19*)
 
 - **[Zanzibar](/Tech/Security/Zanzibar/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
-
-- **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2024-11-18*)
 
 - **[Datalog](/Tech/Programming Languages/Datalog/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-18*)
 
@@ -456,15 +496,9 @@
 
 - **[6 pilars AWS](/Tech/Cloud/6 pilars AWS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
-- **[State machines](/Tech/Architecture & Software Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-11-13*)
-
 - **[Modulith](/Tech/Architecture & Software Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-11-13*)
 
-- **[Pros and Cons of Microservices](/Tech/Architecture & Software Design/Microservices/Pros and Cons of Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2024-11-13*)
-
 - **[Microservices vs. SOA](/Tech/Architecture & Software Design/Microservices/Microservices vs. SOA/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2024-11-13*)
-
-- **[Alternatives to Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2024-11-13*)
 
 - **[Message Queues](/Tech/Architecture & Software Design/Message Queues/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-11-13*)
 

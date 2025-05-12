@@ -1,7 +1,7 @@
 
-This note analyzes the Synergetic Meta-Orchestrator's (SMO) current optimization capabilities, as implemented in its codebase (notably within `utils/placement.py` and `utils.scaling.py`). We will describe into how these optimization functions are invoked, the specific data they consume, and how their outputs drive SMO's orchestration actions.
+This note analyzes the Synergetic Meta-Orchestrator's (SMO) current optimization capabilities, as implemented in its codebase (notably within `utils/placement.py` and `utils.scaling.py`). We will describe how these optimization functions are invoked, the specific data they consume, and how their outputs drive SMO's orchestration actions.
 
-The SMO employs mathematical optimization, primarily using the CVXPY library, to make intelligent decisions regarding the deployment and ongoing management of Hyper Distributed Application Graphs (HDAGs). Its current optimization logic is focused on two key areas: service placement and replica scaling.
+The SMO employs mathematical optimization, primarily using the [CVXPY](https://www.cvxpy.org/) convex optimization library, to make intelligent decisions regarding the deployment and ongoing management of Hyper Distributed Application Graphs (HDAGs). Its current optimization logic is focused on two key areas: service placement and replica scaling.
 
 ## 1. Service Placement Optimization
 
