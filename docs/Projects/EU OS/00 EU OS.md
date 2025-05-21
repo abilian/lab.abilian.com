@@ -4,11 +4,11 @@
 - www.eu-os.eu: main site for the project
 - [[EU OS FAQ]]
 - [EU OS Manifesto](https://gitlab.com/eu-os/eu-os.gitlab.io/-/issues/4) (draft)
-- [[Public/Projects/EU OS/EU OS ↔︎ Abilian|EU OS ↔︎ Abilian]] (draft)
+- [[EU OS <-> Abilian|EU OS <-> Abilian]] (draft)
 
 ## WIP (2025)
 
-- [[EU OS POC (2025)]]
+- [[EU OS POC (2025)]]: summary of the discussions around the EU OS POC to be developed over S1 2025.
 - Hackathon: 2-3 June, Paris.
     *   **Overall Goal:** Develop a Proof-of-Concept (PoC) for EU OS, specifically demonstrating the unattended setup of a bootc-based OS with device lifecycle and user management (including optional Active Directory integration).
     *   **Focus:** Integrating existing upstream software components, documenting the process thoroughly for reproducibility, fixing potential upstream issues, and demonstrating the working system.

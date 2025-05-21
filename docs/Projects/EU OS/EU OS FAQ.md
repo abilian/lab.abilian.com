@@ -14,7 +14,7 @@
 **4. Q: Does this image-based deployment replace the need for traditional configuration management software (like Ansible, Puppet, Chef)?**
 
 **A:** It might reduce the need, or change how configuration is applied. The idea is that much of the base configuration is built *into* the image. If the image is well-prepared, separate configuration management *might* not be required. However, options exist for more dynamic configuration:
-   
+
 *   Files can be copied directly into the image during the build process (e.g., via `recipe.yml`).
 *   Systemd unit scripts can be included in the image to run tasks upon user login or other events.
 *   Layering configurations on top of images using technologies like `systemd-sysext` is discussed.

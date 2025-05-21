@@ -2,6 +2,8 @@
 
 XState:
 - https://www.youtube.com/watch?v=VU1NKX6Qkxc
+- https://dev.indooroutdoor.io/building-an-acquisition-funnel-in-react-with-xstate
+- https://dev.indooroutdoor.io/building-an-acquisition-funnel-in-react-with-xstate-part-2
 
 ## Python / Django
 
@@ -10,5 +12,5 @@ XState:
 - https://github.com/pfouque/django-fsm-2
 
 <!-- Keywords -->
-#django #javascript
+#django #javascript #xstate
 <!-- /Keywords -->

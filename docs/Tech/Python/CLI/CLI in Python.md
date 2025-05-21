@@ -1,11 +1,5 @@
 #python #cli
 
-
-## Terminal output
-
-https://bernsteinbear.com/blog/python-parallel-output/
-
-
 ## CLI frameworks
 
 ### From the standard library
@@ -32,18 +26,12 @@ Click is internally based on `optparse` instead of `argparse`. This is an implem
 
 1. **docopt**: docopt is another Python package that provides a way to define a CLI by describing it in a docstring. It automatically generates the parser and makes it easy to define complex command-line interfaces.
 
-
-## Other frameworks
+### Other frameworks
 
 - Tyro: https://brentyi.github.io/tyro/ Uses type annotations in functions or dataclasses.
+- https://github.com/BrianPugh/cyclopts "Cyclopts is what you thought Typer was. Cyclopts's includes information from docstrings, support more complex types (even Unions and Literals!), and include proper validation support."
 
-## Console utilities
-
-- Rich (lots of - maybe to many - features)
-- Colorama
-- https://pypi.org/project/wasabi/ "wasabi: A lightweight console printing and formatting toolkit"
-
-## CLI best practices
+### CLI best practices
 
 - <https://clig.dev/>
 - <https://medium.com/jit-team/guidelines-for-creating-your-own-cli-tool-c95d4af62919>
@@ -51,6 +39,33 @@ Click is internally based on `optparse` instead of `argparse`. This is an implem
 - https://hackmd.io/@arturtamborski/cli-best-practices
 - https://eng.localytics.com/exploring-cli-best-practices/
 
+## Other topics
+
+### Terminal output
+
+- https://bernsteinbear.com/blog/python-parallel-output/
+
+### Tab completion
+
+- https://github.com/iterative/shtab
+- https://pypi.org/project/argcomplete/ (slower)
+
+### Console utilities
+
+- Rich (lots of - maybe to many - features)
+- Colorama
+- https://pypi.org/project/wasabi/ "wasabi: A lightweight console printing and formatting toolkit"
+
+
+### Formatting
+
+How to get terminal width?
+
+```python
+import os
+width = os.get_terminal_size().columns
+print(f"Terminal width: {width}")
+```
 
 ## Older notes
 
