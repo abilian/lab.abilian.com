@@ -1,5 +1,33 @@
 # Changelog
 
+## Recent changes (last 7 days)
+
+- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2025-05-21*)
+
+- **[OSTree](/Tech/Linux/Packaging/OSTree/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-05-21*)
+
+- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-21*)
+
+- **[Fedora Silverblue](/Tech/Linux/Distributions/Fedora Silverblue/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Fedora Silverblue/)</small> (*2025-05-21*)
+
+- **[Kubernetes CRD](/Tech/Containers/Kubernetes CRD/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
+
+- **[Docker Compose vs. Helm Charts](/Tech/Containers/Docker Compose vs. Helm Charts/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
+
+- **[00 Containers](/Tech/Containers/00 Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
+
+- **[State machines](/Tech/Architecture & Software Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2025-05-21*)
+
+- **[Archimate](/Tech/Architecture & Software Design/Archimate/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2025-05-21*)
+
+- **[EU OS FAQ](/Projects/EU OS/EU OS FAQ/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-21*)
+
+- **[EU OS <-> Abilian](/Projects/EU OS/EU OS <-> Abilian/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-21*)
+
+- **[00 EU OS](/Projects/EU OS/00 EU OS/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-21*)
+
+
+
 ## Changed last 30 to 7 days
 
 - **[Pros and Cons of Microservices](/Tech/Architecture & Software Design/Microservices/Pros and Cons of Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-12*)
@@ -10,10 +38,6 @@
 
 - **[EU OS POC (2025)](/Projects/EU OS/EU OS POC (2025)/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-12*)
 
-- **[EU OS FAQ](/Projects/EU OS/EU OS FAQ/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-12*)
-
-- **[00 EU OS](/Projects/EU OS/00 EU OS/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-12*)
-
 - **[CSR vs. SSR](/Tech/Web/UX-UI/CSR vs. SSR/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2025-05-08*)
 
 - **[RBAC](/Tech/Security/RBAC/)** in <small>[Tech](/Tech/00 Technology/) / [Security](/Tech/Security/CISA recommendations/)</small> (*2025-05-08*)
@@ -21,8 +45,6 @@
 - **[GoDaddy & Thespian](/Tech/Python/Useful Libraries/GoDaddy & Thespian/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-05-08*)
 
 - **[Lightweight VMs and container alternatives](/Tech/Cloud/Lightweight VMs and container alternatives/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-08*)
-
-- **[State machines](/Tech/Architecture & Software Design/State machines/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2025-05-08*)
 
 - **[SMO↔︎Hop3 Optimisation Integration](/Projects/NEPHELE/SMO↔︎Hop3 Optimisation Integration/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
 
@@ -101,8 +123,6 @@
 - **[uv](/Tech/Python/Tooling/uv/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Tooling](/Tech/Python/Tooling/Documentation/)</small> (*2025-01-17*)
 
 - **[Nix Evaluation](/Tech/Linux/Packaging/Nix/Nix Evaluation/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-16*)
-
-- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-01-15*)
 
 - **[Documentation](/Tech/Documentation/Documentation/)** in <small>[Tech](/Tech/00 Technology/) / [Documentation](/Tech/Documentation/Documentation/)</small> (*2025-01-12*)
 
@@ -193,8 +213,6 @@
 - **[Plugins](/Tech/Programming Techniques/Plugins/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Techniques](/Tech/Programming Techniques/Actors/)</small> (*2024-12-09*)
 
 - **[Windows → Linux Migration](/Tech/Linux/Windows → Linux Migration/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-12-09*)
-
-- **[Orchestration](/Tech/Containers/Orchestration/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2024-12-09*)
 
 - **[RAG](/Tech/AI & Machine Learning/RAG/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-12-09*)
 
@@ -315,8 +333,6 @@
 - **[Better Python](/Tech/Python/Language Features/Better Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Language Features](/Tech/Python/Language Features/Better Python/)</small> (*2024-11-19*)
 
 - **[Python & WASM](/Tech/Python/Compilation/Python & WASM/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Compilation](/Tech/Python/Compilation/Compiling Python/)</small> (*2024-11-19*)
-
-- **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2024-11-19*)
 
 - **[DGFIP Report - Desktop Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-19*)
 

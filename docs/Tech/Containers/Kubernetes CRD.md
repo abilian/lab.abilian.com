@@ -32,6 +32,7 @@ Here's a breakdown:
 Let's say you want to manage a custom type of application deployment called `WebApp`.
 
 1.  **Define the CRD (`WebApp` CRD):**
+
     ```yaml
     apiVersion: apiextensions.k8s.io/v1
     kind: CustomResourceDefinition
@@ -74,6 +75,7 @@ Let's say you want to manage a custom type of application deployment called `Web
     ```
 
 2.  **Create an instance (a `WebApp` CR):**
+
     ```yaml
     apiVersion: mycompany.com/v1alpha1 # Matches group and version from CRD
     kind: WebApp                       # Matches kind from CRD

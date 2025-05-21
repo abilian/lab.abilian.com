@@ -5,8 +5,9 @@
 
 ### Orchestration
 
-- [[Orchestration]]
+- [[Comparison of Orchestration Platforms]]
 - [[Kubernetes]]
+- [[Kubernetes CRD]]
 - [[Docker Swarm]]
 - [[Nomad]]
 - Comparison: [[Docker Compose vs. Helm Charts]]
