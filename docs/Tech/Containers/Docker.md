@@ -222,7 +222,6 @@ docker network create mynetwork
 docker run -d --network=mynetwork myapp:1.0
 ```
 
-
 #### Docker CLI
 
 **Definition**: The Docker Command Line Interface (CLI) is the primary tool for interacting with Docker. It provides commands to build images, run containers, manage volumes, and perform other Docker operations.
