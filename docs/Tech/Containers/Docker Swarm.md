@@ -16,153 +16,174 @@ The main features of Docker Swarm include:
 
 6.  **Rolling Updates:** Docker Swarm allows incremental updates to be performed across the entire fleet of services, minimizing the risk and impact of application updates.
 
-## Okay, let's break down Docker Swarm and Docker Stacks. They work together to help you run and manage containerized applications across multiple Docker hosts (machines).
+## Managing a Docker Swarm
 
-Imagine you have a complex application with multiple parts (e.g., a web frontend, a backend API, a database).
-*   You want to run multiple copies of some parts for scalability and reliability.
-*   You want these parts to find and talk to each other easily.
-*   You want to manage all these containers across several servers as if they were one big system.
+You can get the status of a Docker Swarm using several `docker` CLI commands, primarily executed from a **manager node**.
 
-This is where Docker Swarm and Docker Stacks come in.
+Here are the most common ones:
 
----
+### `docker node ls`
 
-## 1. Docker Swarm: The Cluster Manager
+This is the primary command to see the status of all nodes in the swarm.
 
-**What it is:**
-Docker Swarm (or Swarm mode) is Docker's native clustering and orchestration solution. It turns a pool of Docker hosts (physical or virtual machines) into a single, virtual Docker host.
+*   **Output shows:**
+    *   `ID`: The unique ID of the node.
+    *   `HOSTNAME`: The hostname of the node.
+    *   `STATUS`:
+        *   `Ready`: The node is healthy and can accept tasks.
+        *   `Down`: The node is unhealthy or unreachable.
+        *   `Unknown`: The manager has lost contact with the node.
+    *   `AVAILABILITY`:
+        *   `Active`: The node can receive new tasks.
+        *   `Pause`: The node will not receive new tasks, but existing tasks continue to run.
+        *   `Drain`: The node will not receive new tasks, and existing tasks are stopped and rescheduled on other active nodes.
+    *   `MANAGER STATUS`:
+        *   `Leader`: This is the primary manager node.
+        *   `Reachable`: This is a manager node that is part of the Raft consensus quorum and can become a leader if the current leader fails.
+        *   `<blank>`: This is a worker node.
+    *   `ENGINE VERSION`: The Docker Engine version running on the node.
 
-**Key Concepts:**
-
-*   **Node:** An instance of the Docker engine participating in the swarm.
-    *   **Manager Nodes:** These nodes perform orchestration and cluster management tasks. They make decisions about where to run containers, manage the swarm's state, and dispatch tasks to worker nodes. For high availability, you typically run multiple manager nodes (e.g., 3 or 5) using the Raft consensus algorithm to agree on the state of the swarm.
-    *   **Worker Nodes:** These nodes execute the containers (tasks) assigned by the manager nodes. They report the status of their tasks back to the managers.
-
-*   **Service:** A definition of the tasks to execute on the manager or worker nodes. It's the desired state for a set of containers. When you create a service, you specify:
-    *   The Docker image to use.
-    *   The number of replicas (how many instances of the container should run).
-    *   Port mappings.
-    *   Network connections.
-    *   Update policies (how to roll out new versions).
-    *   Resource constraints, etc.
-    Swarm will then try to maintain this desired state. If a container (task) dies, Swarm will try to reschedule it.
-
-*   **Task:** A running container that is part of a service and scheduled on a node. A service will have one or more tasks.
-
-*   **Load Balancing:** Swarm includes an internal load balancer (ingress routing mesh). When you publish a port for a service, Swarm makes that port accessible on *every node* in the swarm. Traffic to that port on any node is routed to an available task for that service, even if the task is running on a different node.
-
-**How it works (simplified):**
-1.  You initialize a swarm on a Docker host, making it the first manager node (`docker swarm init`).
-2.  Other Docker hosts join the swarm as managers or workers using a join token (`docker swarm join`).
-3.  You define services (`docker service create ...`).
-4.  The manager nodes schedule tasks (containers) for these services across the available worker nodes based on your service definition.
-5.  The swarm continuously monitors the state and tries to reconcile the actual state with the desired state (e.g., restarts failed tasks, scales services up/down).
-
----
-
-## 2. Docker Stacks: The Application Definition
-
-**What it is:**
-A Docker Stack is a higher-level abstraction for deploying and managing a multi-service application on a Docker Swarm. It allows you to define your entire application (multiple related services, networks, volumes) in a single `docker-compose.yml` file (version 3 and above) and deploy it as a single unit.
-
-**Key Concepts:**
-
-*   **`docker-compose.yml` (v3+):** This YAML file is the blueprint for your application stack. It defines:
-    *   `services`: Each service in your application (e.g., `web`, `api`, `db`).
-    *   `networks`: Custom networks for your services to communicate.
-    *   `volumes`: Persistent storage for your services.
-    *   `configs` and `secrets`: For managing configuration data and sensitive information.
-    *   **`deploy` key:** This is crucial for Swarm. Inside the `deploy` key for each service, you specify Swarm-specific configurations like:
-        *   `replicas`: Number of instances.
-        *   `placement`: Constraints on where tasks can run (e.g., only on nodes with a specific label).
-        *   `update_config`: How to perform rolling updates (parallelism, delay).
-        *   `restart_policy`: What to do if a task fails.
-        *   `resources`: CPU/memory limits and reservations.
-
-**How it works (simplified):**
-1.  You create a `docker-compose.yml` file defining all the services, networks, and volumes for your application. You include the `deploy` key for Swarm-specific settings.
-2.  You use the command `docker stack deploy -c docker-compose.yml <stack_name>` on a manager node.
-3.  Docker Swarm reads this file, and for each service defined:
-    *   It creates or updates the corresponding Swarm service.
-    *   It ensures the defined networks and volumes are available.
-    *   It deploys the tasks (containers) across the swarm according to the `deploy` configurations.
-
----
-
-## Docker Swarm + Docker Stacks: How They Work Together
-
-*   **Docker Swarm** provides the underlying **cluster infrastructure** and orchestration engine. It manages the nodes, schedules containers, ensures high availability, and handles networking and load balancing.
-*   **Docker Stacks** provide a **user-friendly way to define and manage complex, multi-service applications** that run *on top of* the Docker Swarm. The `docker-compose.yml` file (used by `docker stack deploy`) is translated into a set of Swarm service definitions.
-
-**Think of it like this:**
-
-*   **Docker Swarm is the Orchestra Pit & Conductor:** It's the environment, the musicians (nodes), and the conductor (manager nodes) making sure everyone plays their part.
-*   **Docker Stack (and its `docker-compose.yml`) is the Musical Score:** It defines all the different parts (services like violins, trumpets, drums) and how they should play together to create the full symphony (your application).
-
-**Benefits of using Docker Stacks with Docker Swarm:**
-
-1.  **Simplified Application Deployment:** Manage your entire multi-service application with a single `docker-compose.yml` file and a few `docker stack` commands.
-2.  **Declarative Configuration:** You define the *desired state* of your application, and Swarm works to achieve and maintain it.
-3.  **Scalability:** Easily scale individual services within your stack by changing the `replicas` count in your Compose file and redeploying the stack.
-4.  **Rolling Updates:** Update your application services with zero downtime using rolling updates configured in the Compose file.
-5.  **Readability & Version Control:** Your entire application infrastructure is defined in a text file, which can be version-controlled (e.g., with Git).
-6.  **Leverages Docker Compose Familiarity:** If you're already using Docker Compose for local development, moving to Swarm with Stacks is a relatively small step.
-
-**Example `docker-compose.yml` for a Stack:**
-
-```yaml
-version: '3.8' # Use a Swarm-compatible version
-
-services:
-  web:
-    image: myapp/web:latest
-    ports:
-      - "80:80" # Expose port 80 on the host, mapped to port 80 in the container
-    networks:
-      - app-net
-    deploy:
-      replicas: 3
-      update_config:
-        parallelism: 1
-        delay: 10s
-      restart_policy:
-        condition: on-failure
-
-  api:
-    image: myapp/api:v1.2
-    networks:
-      - app-net
-    deploy:
-      replicas: 2
-      placement:
-        constraints: [node.role == worker] # Only deploy on worker nodes
-      resources:
-        limits:
-          cpus: '0.50'
-          memory: 512M
-        reservations:
-          cpus: '0.25'
-          memory: 256M
-
-networks:
-  app-net:
-    driver: overlay # Overlay network for multi-host communication
 
 ```
+docker node ls
+```
 
-To deploy this:
-`docker stack deploy -c docker-compose.yml my_application_stack`
+Example output:
 
-To list stacks:
-`docker stack ls`
+```
+ID                            HOSTNAME        STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
+x7y2z...q5r6t*                manager1        Ready     Active         Leader           20.10.7
+a1b2c...g7h8i                 worker1         Ready     Active                          20.10.7
+k9l0m...o5p6q                 worker2         Down      Active                          20.10.5
+```
 
-To list services in a stack:
-`docker stack services my_application_stack`
+*(The `*` indicates the node you are currently connected to.)*
 
-To remove a stack:
-`docker stack rm my_application_stack`
+### `docker service ls`
 
-In summary, Docker Swarm provides the clustering and orchestration capabilities, while Docker Stacks offer a convenient way to define, deploy, and manage your applications on that Swarm cluster using the familiar Docker Compose file format.
+To see the status of services running on the swarm.
+
+*   **Output shows:**
+    *   `ID`: The unique ID of the service.
+    *   `NAME`: The name of the service.
+    *   `MODE`: `replicated` (a specified number of tasks) or `global` (one task per node).
+    *   `REPLICAS`: The desired number of tasks vs. the actual number of running tasks (e.g., `3/3`).
+    *   `IMAGE`: The Docker image used by the service.
+    *   `PORTS`: Any published ports.
+
+```
+docker service ls
+```
+
+Example output:
+
+```
+ID                  NAME            MODE                REPLICAS            IMAGE               PORTS
+a1b2c3d4e5f6        my_web_app      replicated          3/3                 nginx:latest        *:80->80/tcp
+g7h8i9j0k1l2        my_api          replicated          0/2                 myuser/myapi:v1.2
+```
+
+(Here, `my_api` has an issue as 0 out of 2 desired replicas are running).
+
+### `docker service ps <service_name_or_id>`
+
+To get detailed status of the tasks for a specific service. This is useful for troubleshooting why a service might not have the desired number of replicas.
+
+*   **Output shows:**
+    *   `ID`: Task ID.
+    *   `NAME`: Task name (e.g., `service_name.replica_number`).
+    *   `IMAGE`: Image used.
+    *   `NODE`: Node the task is (or was) running on.
+    *   `DESIRED STATE`: The state the scheduler wants the task to be in (e.g., `Running`).
+    *   `CURRENT STATE`: The actual state of the task (e.g., `Running`, `Shutdown`, `Failed`, `Pending`).
+    *   `ERROR`: Any error message if the task failed.
+    *   `PORTS`: Published ports.
+
+```
+docker service ps my_web_app
+```
+
+Example output:
+
+```
+ID                  NAME                IMAGE               NODE            DESIRED STATE       CURRENT STATE           ERROR               PORTS
+r2q7...             my_web_app.1        nginx:latest        worker1         Running             Running 2 minutes ago
+p5o9...             my_web_app.2        nginx:latest        manager1        Running             Running 2 minutes ago
+t4n8...             my_web_app.3        nginx:latest        worker1         Running             Running 2 minutes ago
+```
+
+### `docker info`
+
+Provides general information about the Docker installation, including swarm status if the node is part of a swarm.
+
+*   Look for the `Swarm:` section.
+*   **Output shows:**
+    *   `Swarm: active` (or `inactive`)
+    *   `NodeID`: ID of the current node.
+    *   `Is Manager: true` (or `false`)
+    *   `ClusterID`: ID of the swarm.
+    *   `Managers`: Number of manager nodes.
+    *   `Nodes`: Total number of nodes in the swarm.
+    *   `Default Address Pool`: Default subnet for overlay networks.
+    *   `SubnetSize`: Subnet mask size.
+    *   `Data Path Port`: Port for VXLAN data path.
+    *   `Orchestration`: Details about task history.
+    *   `Raft`: Raft consensus status (if manager).
+    *   `Manager Addresses`: List of manager IPs.
+
+```
+docker info
+```
+
+Relevant section from example output:
+
+```
+...
+Swarm: active
+ NodeID: x7y2z...q5r6t
+ Is Manager: true
+ ClusterID: abc123def456
+ Managers: 1
+ Nodes: 3
+ Default Address Pool: 10.0.0.0/8
+ SubnetSize: 24
+ Data Path Port: 4789
+ Orchestration:
+  Task History Retention Limit: 5
+ Raft:
+  Snapshot Interval: 10000
+  Number of Old Snapshots to Retain: 0
+  Heartbeat Tick: 1
+  Election Tick: 10
+ Dispatcher:
+  Heartbeat Period: 5 seconds
+ CA Configuration:
+  Expiry Duration: 3 months
+  Force Rotate: 0
+  External CAs:
+   None
+ Autolock Managers: false
+ Root Rotation In Progress: false
+ Node Address: 192.168.65.3
+ Manager Addresses:
+  192.168.65.3:2377
+...
+```
+
+### `docker node inspect <node_id_or_hostname>`
+
+To get detailed low-level information about a specific node in JSON format.
+
+```
+docker node inspect self  # Inspect the current node
+docker node inspect worker1 # Inspect a node named 'worker1'
+```
+
+### Summary of what to look for
+
+*   **Node Health:** `docker node ls` - ensure all nodes are `Ready` and `Active` (unless intentionally `Drained` or `Paused`). Pay attention to `MANAGER STATUS` for quorum.
+*   **Service Health:** `docker service ls` - check if `REPLICAS` shows `desired/actual` (e.g., `3/3`). If not, investigate further.
+*   **Task Health:** `docker service ps <service_name>` - check `CURRENT STATE` and `ERROR` for failing tasks. This often points to application issues, resource limits, or image problems.
 
 
 <!-- Keywords -->

@@ -2,13 +2,23 @@
 
 ## Recent changes (last 7 days)
 
-- **[Kubernetes CRD](/Tech/Containers/Kubernetes CRD/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
+- **[Kubernetes CRD](/Tech/Containers/Kubernetes CRD/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+- **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+- **[Docker Swarm & Docker Stacks](/Tech/Containers/Docker Swarm & Docker Stacks/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+- **[Docker Orchestration](/Tech/Containers/Docker Orchestration/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+- **[00 Containers](/Tech/Containers/00 Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+- **[Self-hosting a CDN](/Tech/Cloud/Self-hosting a CDN/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-23*)
 
 - **[Docker Compose vs. Helm Charts](/Tech/Containers/Docker Compose vs. Helm Charts/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
 
 - **[Comparison of Orchestration Platforms](/Tech/Containers/Comparison of Orchestration Platforms/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
-
-- **[00 Containers](/Tech/Containers/00 Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
 
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2025-05-21*)
 
@@ -262,8 +272,6 @@
 
 - **[Stefane Fermigier](/Tech/FOSS/People/Stefane Fermigier/)** in <small>[Tech](/Tech/00 Technology/) / [FOSS](/Tech/FOSS/Digital Commons/) / [People](/Tech/FOSS/People/Eben Moeglen/)</small> (*2024-11-25*)
 
-- **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2024-11-25*)
-
 - **[VPN](/Tech/Apps/VPN/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-25*)
 
 - **[Starlette](/Tech/Python/Web Frameworks/Starlette/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Web Frameworks](/Tech/Python/Web Frameworks/BlackSheep/)</small> (*2024-11-25*)
@@ -499,8 +507,6 @@
 - **[Nix and containers](/Tech/Containers/Nix and containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2024-11-13*)
 
 - **[Modus Continens](/Tech/Containers/Modus Continens/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2024-11-13*)
-
-- **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2024-11-13*)
 
 - **[Time series databases](/Tech/Cloud/Time series databases/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 

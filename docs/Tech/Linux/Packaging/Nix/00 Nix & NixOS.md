@@ -17,6 +17,17 @@ https://lewo.abesis.fr/posts/from-push-to-pull-deployment/
 
 https://www.youtube.com/watch?v=CwfKlX3rA6E "One day, as happens now and then with a bleeding-edge rolling release distro, a systemd update reversed my mouse buttons. The great thing about rolling-release and cutting-edge distributions like Arch Linux, is that you get to be a beta tester, whether you like it or not! I thought this was the way it had to be on Linux: Stability or cutting-edge features, not both. But that wasn't right at all, with NixOS you can have everything, everywhere all at once!"
 
+Short and convincing piece of Nix propaganda: https://maych.in/blog/its-time-to-give-nix-a-chanc
+e/
+Recommends:
+- [Nix Pills](https://nixos.org/guides/nix-pills/) - Explains what Nix is in brief
+- [NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world/) - A good starting point to understand more about Nix Flakes
+- [nix.dev](https://nix.dev/) - Official Nix Documentation
+- [NixOS Wiki](https://wiki.nixos.org/) - Wiki for Nix and NixOS-related stuff
+- [Noogle](https://noogle.dev) - Google, but for Nix functions
+- [NixOS Search](https://search.nixos.org) - Search packages in the official nixpkgs repository
+- [Zero to Nix](https://zero-to-nix.com/) - A general guide for Nix and Flakes
+
 ## Comments
 
 - https://lwn.net/Articles/962788/ "A look at Nix and Guix"

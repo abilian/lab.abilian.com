@@ -55,4 +55,3 @@ Self-hosting a CDN presents significant challenges:
 ## Conclusion
 
 Self-hosting a CDN offers unparalleled control and customization but comes at the cost of increased complexity, operational burden, and potentially lower out-of-the-box performance and reliability compared to mature commercial offerings. It is a viable option for those with specific needs (custom features, privacy, learning) or those operating at a scale where the cost/benefit analysis, including development and operational time, leans in favor of a bespoke solution. A thorough assessment of requirements, available resources, and technical expertise is crucial before embarking on self-hosting a CDN.
-
