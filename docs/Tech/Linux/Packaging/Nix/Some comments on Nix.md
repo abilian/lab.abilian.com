@@ -62,7 +62,7 @@ Despite its current flaws, the fundamental ideas behind Nix remain incredibly va
     - **Criticism:** Flakes, widely promoted as the modern and recommended way to use Nix, are not enabled by default. This requires users to manually enable an experimental feature that is presented as the "correct" approach. This creates confusion and inconsistency.
     - **User-Hostility:** Forces users to discover and enable a crucial feature through out-of-band channels (documentation, blog posts, etc.). Creates a disconnect between the advertised best practices and the default behavior. This is a significant onboarding hurdle.
 
-- 12. **Too Many Ways to Do the Same Thing (Major Point):**
+12. **Too Many Ways to Do the Same Thing (Major Point):**
     - **Criticism:** Nix offers a bewildering array of choices for accomplishing even basic tasks. The combination of Flakes vs. non-Flakes, nix-env vs. nix develop vs. nix-shell, home-manager vs. direct configuration, various installers, and the possibility of custom overlays creates a combinatorial explosion of possible configurations. This makes it extremely difficult to find definitive answers or confidently apply solutions found online.
     - **User-Hostility:** Creates massive cognitive overhead. Forces users to understand the nuances of many different approaches, even for simple tasks. Makes it impossible to rely on copy/pasting solutions without understanding the specific context in which they were created.
 
@@ -70,27 +70,27 @@ Despite its current flaws, the fundamental ideas behind Nix remain incredibly va
     - **Criticism:** While Nixpkgs boasts a large number of packages, the quality of Nix integration varies dramatically. Some packages have extensive, well-documented configuration options, while others are minimally integrated, requiring manual setup or custom Nix code.
     - **User-Hostility:** Creates an inconsistent user experience. Forces users to learn not only Nix, but also the underlying configuration mechanisms of many different applications. Makes it difficult to predict how much effort will be required to integrate a new package.
 
-- 14. **Granular Package Control Difficulties:**
+14. **Granular Package Control Difficulties:**
     - **Criticism:** Pinning specific package versions (requiring whole-repository snapshots) and upgrading individual packages are significantly more cumbersome in Nix than in traditional package managers.
     - **User-Hostility:** Adds friction to common package management tasks. Makes it harder to manage dependencies and maintain a stable system.
 
-13. **Space, Bandwidth, and Resource Use:**
+15. **Space, Bandwidth, and Resource Use:**
     - **Criticism:** Nix's hermetic nature leads to large downloads, significant disk space consumption, and occasional heavy CPU load during builds.
     - **User-Hostility:** Can be impractical for systems with limited bandwidth, storage, or processing power. Creates unexpected performance bottlenecks.
 
-- 14. **Difficulties Using New Tech:**
+16. **Difficulties Using New Tech:**
     - **Criticism:** Trying out new software that isn't already packaged for Nix often requires significant effort, such as creating a nix-shell or writing a custom derivation.
     - **User-Hostility:** Discourages experimentation and rapid prototyping. Creates a barrier to adopting new tools and technologies.
 
-- 15. **Messy Configs (and the "Nix Tax"):**
+17. **Messy Configs (and the "Nix Tax"):**
     - **Criticism:** Nix configurations often become cluttered with notes, commented-out attempts, and complex workarounds, reflecting the ongoing effort required to maintain a working setup. The "Nix tax" refers to the extra time and effort needed to integrate everything with Nix.
     - **User-Hostility:** Makes configurations harder to understand and maintain. Increases the cognitive burden on users.
 
-- 16. **Development Environment Challenges:**
+18. **Development Environment Challenges:**
     - **Criticism:** Setting up and using development environments with Nix, even with tools like devenv, can be complex and frustrating. Issues include the need to "shell into shells," difficult IDE integration, and the need to Nixify every aspect of the development workflow.
     - **User-Hostility:** Adds significant overhead to development workflows. Makes it harder to collaborate with developers who aren't using Nix. Can disrupt established workflows.
 
-13. **Legacy Cruft:**
+19. **Legacy Cruft:**
     - **Criticism:** Remnants of older systems and approaches within Nix (like the misleading package search results in nix-darwin) can create confusion and frustration for users.
     - **User-Hostility:** Undermines trust in the system and makes it harder to find reliable information.
 

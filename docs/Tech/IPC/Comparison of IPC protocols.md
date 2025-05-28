@@ -1,6 +1,8 @@
 
 We compare Varlink, RPyC, and gRPC, examining their strengths, weaknesses, and ideal use cases.  We also briefly discuss other common alternatives in distributed systems.
 
+This note was written with the [[Public/Projects/Hop3/Hop3|Hop3]] use cases in minds, so YMMV.
+
 ### Varlink
 
 Varlink is a lightweight, transport-agnostic Inter-Process Communication (IPC) mechanism. While primarily designed for local system communication, it can be extended to distributed environments.  Varlink prioritizes simplicity and performance. It uses a JSON-based Interface Definition Language (IDL) to define services and offers dynamic service discovery.

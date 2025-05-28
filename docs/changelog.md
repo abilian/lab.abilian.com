@@ -2,19 +2,23 @@
 
 ## Recent changes (last 7 days)
 
+- **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-27*)
+
+- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-27*)
+
+- **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-27*)
+
+- **[Self-hosting a CDN](/Tech/Cloud/Self-hosting a CDN/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-27*)
+
 - **[Kubernetes CRD](/Tech/Containers/Kubernetes CRD/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
-
-- **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[Docker Swarm & Docker Stacks](/Tech/Containers/Docker Swarm & Docker Stacks/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[Docker Orchestration](/Tech/Containers/Docker Orchestration/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[00 Containers](/Tech/Containers/00 Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
-
-- **[Self-hosting a CDN](/Tech/Cloud/Self-hosting a CDN/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-23*)
 
 - **[Docker Compose vs. Helm Charts](/Tech/Containers/Docker Compose vs. Helm Charts/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
 
@@ -23,8 +27,6 @@
 - **[CLI in Python](/Tech/Python/CLI/CLI in Python/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [CLI](/Tech/Python/CLI/Argparse/)</small> (*2025-05-21*)
 
 - **[OSTree](/Tech/Linux/Packaging/OSTree/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-05-21*)
-
-- **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-21*)
 
 - **[Fedora Silverblue](/Tech/Linux/Distributions/Fedora Silverblue/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Fedora Silverblue/)</small> (*2025-05-21*)
 
@@ -93,8 +95,6 @@
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-03-18*)
 
 - **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
-
-- **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-11*)
 
 - **[Nix cheat sheet](/Tech/Linux/Packaging/Nix/Nix cheat sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-11*)
 
