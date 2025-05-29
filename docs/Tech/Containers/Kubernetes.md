@@ -10,6 +10,7 @@ Note: some of these comments are specific to their author use cases.
 - [Gitpod: We’re leaving Kubernetes](https://www.gitpod.io/blog/we-are-leaving-kubernetes)
 
 Older (or date unknown):
+
 - [k8s and the future of security](https://www.beautiful.ai/player/-MToF5BZRnhHDSNdjfhX/k8s-the-future-of-security)
 
 

@@ -276,6 +276,8 @@ Nix Flakes introduce a more structured and user-friendly approach to managing Ni
 ## References
 
 - https://www.youtube.com/watch?v=JCeYq72Sko0 "Ultimate Nix Flakes Guide"
+- https://determinate.systems/posts/best-practices-for-nix-at-work/
+
 
 <!-- Keywords -->
 #nixpkgs #nix #nixos

@@ -2,7 +2,15 @@
 
 ## Recent changes (last 7 days)
 
-- **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-27*)
+- **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-28*)
+
+- **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-05-28*)
+
+- **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-05-28*)
+
+- **[6 pilars AWS](/Tech/Cloud/6 pilars AWS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-28*)
+
+- **[Collabora Online](/Tech/Apps/Collabora Online/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-05-28*)
 
 - **[00 Nix & NixOS](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-27*)
 
@@ -19,6 +27,10 @@
 - **[Docker Orchestration](/Tech/Containers/Docker Orchestration/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[00 Containers](/Tech/Containers/00 Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
+
+
+
+## Changed last 30 to 7 days
 
 - **[Docker Compose vs. Helm Charts](/Tech/Containers/Docker Compose vs. Helm Charts/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
 
@@ -39,10 +51,6 @@
 - **[EU OS <-> Abilian](/Projects/EU OS/EU OS <-> Abilian/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-21*)
 
 - **[00 EU OS](/Projects/EU OS/00 EU OS/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-21*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Pros and Cons of Microservices](/Tech/Architecture & Software Design/Microservices/Pros and Cons of Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-12*)
 
@@ -88,8 +96,6 @@
 
 - **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-04-06*)
 
-- **[Comparison of IPC protocols](/Tech/IPC/Comparison of IPC protocols/)** in <small>[Tech](/Tech/00 Technology/) / [IPC](/Tech/IPC/Comparison of IPC protocols/)</small> (*2025-03-22*)
-
 - **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-03-22*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-03-18*)
@@ -108,11 +114,11 @@
 
 - **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
-- **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
-
 
 
 ## Earlier changes
+
+- **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
 
 - **[Job queues](/Tech/Python/Useful Libraries/Job queues/)** in <small>[Tech](/Tech/00 Technology/) / [Python](/Tech/Python/00 Python/) / [Useful Libraries](/Tech/Python/Useful Libraries/(Pretty) tables in Python/)</small> (*2025-02-13*)
 
@@ -468,8 +474,6 @@
 
 - **[Anatomy of a Nix Package](/Tech/Linux/Packaging/Nix/Anatomy of a Nix Package/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-13*)
 
-- **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
-
 - **[Debian Packaging](/Tech/Linux/Packaging/Debian Packaging/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2024-11-13*)
 
 - **[Linux Security](/Tech/Linux/Linux Security/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/)</small> (*2024-11-13*)
@@ -520,8 +524,6 @@
 
 - **[Buildpacks](/Tech/Cloud/Buildpacks/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
 
-- **[6 pilars AWS](/Tech/Cloud/6 pilars AWS/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-13*)
-
 - **[Modulith](/Tech/Architecture & Software Design/Modulith/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-11-13*)
 
 - **[Microservices vs. SOA](/Tech/Architecture & Software Design/Microservices/Microservices vs. SOA/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2024-11-13*)
@@ -553,8 +555,6 @@
 - **[Shynet](/Tech/Apps/Shynet/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
 
 - **[OneGov](/Tech/Apps/OneGov/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
-
-- **[Collabora Online](/Tech/Apps/Collabora Online/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
 
 - **[Cabot](/Tech/Apps/Cabot/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2024-11-13*)
 

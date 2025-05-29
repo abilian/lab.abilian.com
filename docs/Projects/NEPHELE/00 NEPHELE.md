@@ -19,6 +19,7 @@ More info: [[H3NI Introduction]]
 - [[SMO - Code Walkthrough]]
 - [[SMO - Glossary]]
 - [[SMO - Tutorial]]
+- [[SMO - Placement Algorithm]]
 
 ## Notes on potential improvements
 
