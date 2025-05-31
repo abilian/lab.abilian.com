@@ -2,6 +2,20 @@
 
 ## Recent changes (last 7 days)
 
+- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-29*)
+
+- **[Determinate Nix](/Tech/Linux/Packaging/Nix/Determinate Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-29*)
+
+- **[Determinate Nix Installer](/Tech/Linux/Packaging/Nix/Determinate Nix Installer/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-29*)
+
+- **[Submariner](/Tech/Containers/Submariner/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-29*)
+
+- **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-29*)
+
+- **[SMO - Placement Algorithm](/Projects/NEPHELE/SMO - Placement Algorithm/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-29*)
+
+- **[00 NEPHELE](/Projects/NEPHELE/00 NEPHELE/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-29*)
+
 - **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-28*)
 
 - **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-05-28*)
@@ -18,6 +32,10 @@
 
 - **[Self-hosting a CDN](/Tech/Cloud/Self-hosting a CDN/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-27*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Kubernetes CRD](/Tech/Containers/Kubernetes CRD/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[Docker](/Tech/Containers/Docker/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
@@ -27,10 +45,6 @@
 - **[Docker Orchestration](/Tech/Containers/Docker Orchestration/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
 - **[00 Containers](/Tech/Containers/00 Containers/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Docker Compose vs. Helm Charts](/Tech/Containers/Docker Compose vs. Helm Charts/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-21*)
 
@@ -88,8 +102,6 @@
 
 - **[H3NI Introduction](/Projects/NEPHELE/H3NI Introduction/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
 
-- **[00 NEPHELE](/Projects/NEPHELE/00 NEPHELE/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
-
 
 
 ## Changed last 90 to 30 days
@@ -97,8 +109,6 @@
 - **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-04-06*)
 
 - **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-03-22*)
-
-- **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-03-18*)
 
 - **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
 
@@ -112,11 +122,11 @@
 
 - **[Full-stack Python Web frameworks](/Tech/Web/Full-stack Python Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-03-07*)
 
-- **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
-
 
 
 ## Earlier changes
+
+- **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
 - **[Nix Flakes - Why?](/Tech/Linux/Packaging/Nix/Nix Flakes - Why?/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-02-27*)
 
@@ -371,8 +381,6 @@
 - **[Rust](/Tech/Programming Languages/Rust/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2024-11-15*)
 
 - **[The 12 Factor App](/Tech/Cloud/The 12 Factor App/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2024-11-14*)
-
-- **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2024-11-14*)
 
 - **[Templating](/Tech/Web/Web (back-end)/Templating/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [Web (back-end)](/Tech/Web/Web (back-end)/Benchmarks HTTP/)</small> (*2024-11-13*)
 
