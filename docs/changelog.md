@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[OMeta](/Tech/Programming Languages/OMeta/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2025-06-03*)
+
+- **[SMO - Placement Algorithm](/Projects/NEPHELE/SMO - Placement Algorithm/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-06-03*)
+
 - **[Web Logic](/Tech/Web/Web Logic/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-05-31*)
 
 - **[Nix Flakes](/Tech/Linux/Packaging/Nix/Nix Flakes/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-29*)
@@ -13,8 +17,6 @@
 - **[Submariner](/Tech/Containers/Submariner/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-29*)
 
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-29*)
-
-- **[SMO - Placement Algorithm](/Projects/NEPHELE/SMO - Placement Algorithm/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-29*)
 
 - **[00 NEPHELE](/Projects/NEPHELE/00 NEPHELE/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-29*)
 
