@@ -39,10 +39,12 @@ The function expects the following data, primarily as Python lists where the ord
 The algorithm defines and solves an optimization problem characterized by:
 
 **1. Decision Variables:**
+
 *   `x[s, e]`: A binary variable (0 or 1). It's `1` if service `s` is placed on cluster `e`, and `0` otherwise. This is what the algorithm tries to determine.
 
 **2. Objective Function (What it tries to optimize - Minimize):**
 The goal is to **minimize a weighted sum of two costs**:
+
 *   **Deployment Cost (Term 1):** `w_dep * sum_over_all_s_e(x[s, e])`
     *   `w_dep` is a weight.
     *   This term, as written, tries to minimize the total number of active placement assignments. Given Constraint 1 (each service *must* be placed once), `sum(x)` will always be `num_services`. So, this term might be intended to represent something else (e.g., a fixed cost per service deployed, or a cost per cluster utilized) or is currently redundant.
@@ -69,14 +71,14 @@ The goal is to **minimize a weighted sum of two costs**:
     *   **This constraint, in its current form, does not represent typical service dependencies (e.g., service A needs to communicate with B) and needs significant review and likely replacement** based on how dependencies are defined in the "App Graph." It might be an attempt at ensuring services in a chain are somewhat co-located or that capacity is available sequentially, but it's not standard.
 
 
-**In essence:**
+**Summary:**
 
 `decide_placement` tries to find the "cheapest" way to assign each service to exactly one cluster, respecting CPU and acceleration limits, while potentially trying to minimize changes from a previous deployment. The definition of "cheapest" and how dependencies are handled are the parts most needing clarification and alignment with the actual "App Graph" semantics and desired optimization goals (like energy efficiency for H3NI).
 
 
 ## More Detailed Discussion of the `placement.py` Module
 
-**Overall Module Purpose:**
+### Overall Module Purpose
 
 This module is responsible for determining where each service (or "node") of an application graph should be deployed across a set of available clusters. It provides:
 
@@ -84,9 +86,10 @@ This module is responsible for determining where each service (or "node") of an 
 2.  **`calculate_naive_placement`:** A simpler, heuristic-based (first-fit) placement algorithm. This could be a fallback or an alternative strategy.
 3.  **Helper functions (`swap_placement`, `convert_placement`):** Utilities to transform the placement data format.
 
-**Analysis of `decide_placement` in Light of Dimitris's Comments:**
+### Analysis of `decide_placement` in Light of Dimitris's Comments
 
 Dimitris emphasized:
+
 *   **Placement is #1 priority.**
 *   **Input: "App graph."**
 *   **Output: "Configurations that effectively direct Helm chart deployment" (via Karmada).**
@@ -94,7 +97,7 @@ Dimitris emphasized:
 
 Let's see how the provided `decide_placement` function aligns and where it might need adaptation or clarification for the H3NI project and SMO integration.
 
-**Inputs to `decide_placement`:**
+#### Inputs to `decide_placement`
 
 1.  `cluster_capacities`: List of CPU capacity for each cluster.
     *   **Alignment:** This is a fundamental input for any resource-aware placement.
@@ -110,7 +113,7 @@ Let's see how the provided `decide_placement` function aligns and where it might
 6.  `current_placement`: 2D list of current placement.
     *   **Alignment:** Used in the objective function to potentially penalize re-optimization (moving services).
 
-**Output of `decide_placement`:**
+#### Output of `decide_placement`
 
 *   `placement`: A 2D list (matrix) where `placement[s][e] == 1` means service `s` is placed on cluster `e`.
     *   **Alignment with "Output = Helm chart config":** This output format is a direct representation of the placement decision. The SMO (or an intermediate layer) would take this matrix and:
@@ -118,9 +121,10 @@ Let's see how the provided `decide_placement` function aligns and where it might
         *   Use this mapping to populate the `clustersAffinity` list in the `valuesOverwrite` section of the Helm chart for each service (as seen in the Brussels Demo's `image-compression-vo`). This, in turn, configures the Karmada `PropagationPolicy`.
         *   It might also inform `serviceImportClusters` if cross-cluster communication is determined by placement.
 
-**Internal Logic of `decide_placement` (CVXPY Model):**
+#### Internal Logic of `decide_placement` (CVXPY Model)
 
 *   **Decision Variables (`x`):** A binary matrix `x[s, e]` representing if service `s` is on cluster `e`. This is standard.
+
 *   **Objective Function:**
     ```python
     objective = cp.Minimize(
@@ -128,8 +132,10 @@ Let's see how the provided `decide_placement` function aligns and where it might
         w_re * cp.sum(cp.multiply(y, (y - x))) # Re-optimization cost (penalizes changing from current_placement y)
     )
     ```
+
     *   `w_dep * cp.sum(x)`: This term aims to minimize the total number of "placements." If each service *must* be placed once (as per Constraint 1), then `cp.sum(x)` will always be `num_nodes`. This part of the objective might be redundant or intended to represent a cost *per active placement variable*, which usually isn't the goal. Often, deployment cost is associated with *using* a cluster or a cost per service *type*. This needs clarification. **If the goal is just to find a feasible placement, this term might not be necessary or could be rephrased.**
     *   `w_re * cp.sum(cp.multiply(y, (y - x)))`: This term correctly penalizes changes from the `current_placement`. `y - x` will be `1` if `y=1, x=0` (service removed), `-1` if `y=0, x=1` (service added), and `0` if no change. `y * (y-x)` will be `1` if `y=1, x=0` (cost for removing), `0` otherwise. This only penalizes *removing* a service from a cluster where it was. It doesn't directly penalize *adding* it to a new one if it wasn't there, other than through the `w_dep` term. A more common re-optimization cost is `sum(|x - y|)`, penalizing any change.
+
 *   **Constraints:**
     1.  **Each service placed once:** `cp.sum(x[s, :]) == 1`. Standard and correct.
     2.  **Cluster capacity:**
@@ -159,7 +165,7 @@ Let's see how the provided `decide_placement` function aligns and where it might
 
 *   **Solver:** `problem.solve(solver=cp.HIGHS)` uses the HiGHS solver, which is a good open-source option.
 
-**Alignment with H3NI Requirements:**
+#### Alignment with H3NI Requirements
 
 *   **Input Data:** The current `decide_placement` expects lists of numerical data. The "App Graph" (`hdag.yaml`) is more structured (dictionaries, nested objects). An **Adaptation Layer** will be needed within SMO (or as part of the H3NI plugin for SMO) to:
     1.  Parse the "App Graph."
@@ -174,7 +180,7 @@ Let's see how the provided `decide_placement` function aligns and where it might
     *   **Energy-Awareness:** To make it energy-aware, H3NI's new logic would require new inputs (cluster energy profiles, service energy consumption estimates) to be passed through the adaptation layer. The objective function and/or constraints would then incorporate energy.
     *   **Open-Source Solvers:** The current use of `cp.HIGHS` is already open-source. If other solvers are desired, CVXPY supports many, or the model could be rewritten in Pyomo for broader solver compatibility.
 
-**Key Areas for H3NI to Address for `decide_placement`:**
+#### Key Areas for H3NI to Address for `decide_placement`
 
 1.  **Clarify/Redesign the Dependency Constraint (Constraint 4):** This is the most suspect part of the current model. The "App Graph" likely has explicit `connectionPoints` or dependencies between services. These need to be correctly modeled, e.g.:
     *   To minimize latency (encourage colocation of communicating services in the objective).
@@ -183,7 +189,7 @@ Let's see how the provided `decide_placement` function aligns and where it might
 3.  **Develop the Adaptation Layer:** This is crucial for bridging the structured "App Graph" and cluster state data with the flat list inputs expected by a numerical optimization function like this one.
 4.  **Integrate Energy Data:** Determine how energy-related parameters (for clusters and potentially services) will be sourced by SMO and passed to H3NI's placement logic.
 
-**The `calculate_naive_placement` function:**
+#### The `calculate_naive_placement` function
 
 *   This is a greedy first-fit algorithm. It iterates through services and tries to place them on the first cluster that has capacity and meets acceleration requirements.
 *   **Usefulness:**
@@ -192,7 +198,7 @@ Let's see how the provided `decide_placement` function aligns and where it might
     *   Could be one of the "different algorithms" Dimitris mentioned that SMO could switch to.
 *   **Limitations:** Greedy algorithms are often suboptimal. They don't consider global objectives like minimizing re-optimization or balancing load perfectly.
 
-**In Conclusion:**
+#### In Conclusion
 
 The provided `placement.py` offers a starting point with an optimization-based approach. For H3NI to effectively integrate and enhance it:
 
