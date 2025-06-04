@@ -1,19 +1,19 @@
 
 **EU OS Project: Report on Use Cases and Technical Specifications**
 
-**1. Introduction**
+## 1. Introduction
 
-This report summarizes discussions surrounding the intended use cases and technical specifications for the EU OS project. The project's primary goal is to create a **Proof-of-Concept (PoC) for the deployment and management of a Linux-based operating system** tailored for the European public sector. It aims to address challenges related to deployability, maintainability, user management, and compliance within this context, rather than creating a new Linux distribution from scratch. The following points synthesize community input and align it with the PoC's defined scope and objectives.
+This report presents the intended use cases and technical specifications for the EU OS project. The project's primary goal is to create a **Proof-of-Concept (PoC) for the deployment and management of a Linux-based operating system** tailored for the European public sector. It aims to address challenges related to deployability, maintainability, user management, and compliance within this context, rather than creating a new Linux distribution from scratch. The following points synthesize community input and align it with the PoC's defined scope and objectives.
 
-**2. Identified Use Cases and Target Audiences**
+## 2. Identified Use Cases and Target Audiences
 
-Based on discussions and the project's stated goals, the primary target audience and use cases for the EU OS PoC are:
+The primary target audience and use cases for the EU OS PoC are:
 
 *   **Primary Target:** Administrative workers and general office staff within EU public sector organizations (e.g., government agencies, municipalities, potentially EU institutions themselves). This includes tasks related to document processing, communication, web browsing, and accessing internal corporate systems.
 *   **Strong Secondary Focus:** Educational institutions (public universities, potentially schools, building on experiences like So.Di.Linux, Pardus, Linux+1, and potentially collaborating with CERN). The need for cost-effective, manageable, and secure systems is high in this sector.
 *   **Out of Scope for Initial PoC:** While NGOs, SMEs, corporations, and the general public *might* benefit from the outcomes or adopt similar approaches later, they are not the primary design target for this initial PoC phase. The focus remains on the specific requirements of public administration workstations.
 
-**3. Core Technical Principles & Specifications**
+## 3. Core Technical Principles & Specifications
 
 To meet the goals of manageability, security, and deployability with potentially limited resources, the following technical principles and specifications are adopted for the PoC:
 
@@ -36,7 +36,7 @@ To meet the goals of manageability, security, and deployability with potentially
 *   **Project Hosting:** The project currently uses GitLab.com for PoC development.
     *   *Rationale:* Pragmatic choice for collaboration during the early phase. A transition to EU-based, self-hosted, or trusted FOSS infrastructure (like Codeberg or a dedicated Forgejo instance) would be necessary for any operational deployment to fully align with sovereignty goals, but this migration is outside the immediate PoC scope.
 
-**4. Application Strategy**
+## 4. Application Strategy
 
 *   **Core Principle:** Maintain a **minimal base image** containing only essential system components, the desktop environment, and a core application set.
     *   *Rationale:* Reduces attack surface, simplifies maintenance and updates, lowers resource consumption, and provides a clean foundation for customization via layers or user-installed applications.
@@ -60,14 +60,14 @@ To meet the goals of manageability, security, and deployability with potentially
     *   Made available via institutional Flatpak repositories.
     *   Installed by users via Flatpak if permitted by policy.
 
-**5. Addressing Key Concerns**
+## 5. Addressing Key Concerns
 
 *   **"Yet Another Linux Distro" (YaLD):** EU OS is positioned as a **deployment specification and methodology**, not a new distribution. It leverages an existing, robust base (Fedora) and adds value through its layered approach, management concept, and focus on public sector needs. Its success depends on demonstrating this added value in deployment and maintenance, not on unique core technology.
 *   **Hardware Drivers (Printers, Scanners, etc.):** This remains a significant challenge for all Linux desktop adoption. The EU OS PoC relies on the driver support provided by the upstream kernel and Fedora project. While acknowledging usability concerns (e.g., CUPS interface), the PoC itself cannot solve fundamental driver issues or compel hardware vendor support. This requires broader ecosystem and potentially policy efforts.
 *   **Organizational Adoption & Ease of Use:** The choice of KDE Plasma aims for user familiarity. The immutable model aims to simplify administration. However, successful adoption requires more than just the OS – training, support, change management, and addressing user resistance (as highlighted by blackPanther OS) are crucial but fall outside the technical PoC's scope. Learning from past projects (LiMux successes *and* failures) is important.
 *   **Comparison to Commercial EU Distros (SUSE/Canonical):** While SUSE (Germany-owned, EQT HQ in Sweden) and Canonical (UK-based) offer mature solutions, the EU OS PoC explores a community-driven approach potentially offering greater transparency, customization, and direct alignment with specific EU public sector needs, potentially using a different technical base (Fedora Atomic). The aim is to provide a *concept* that could be implemented or adapted, potentially even using SUSE/Ubuntu bases if an organization chose to.
 
-**6. Out of Scope Considerations (Acknowledged but Deferred)**
+## 6. Out of Scope Considerations
 
 The following important topics, raised during discussions, are acknowledged as critical for broader digital sovereignty but are considered out of scope for the *initial technical PoC* phase of EU OS:
 
@@ -82,7 +82,7 @@ The following important topics, raised during discussions, are acknowledged as c
 *   Self-hosting all development infrastructure during the PoC phase.
 *   Translation and adaptation of external frameworks like the German National IT Architecture Guidelines.
 
-**7. Next Steps & Recommendations (PoC Focus)**
+## 7. Next Steps & Initial Recommendations
 
 *   Refine the base Fedora Kinoite image build process using the layered approach.
 *   Document clearly how organizations can create custom layers (e.g., adding specific applications like LibreOffice, configuring settings).
@@ -90,6 +90,6 @@ The following important topics, raised during discussions, are acknowledged as c
 *   Test deployment and update mechanisms on representative hardware.
 *   Develop basic documentation outlining the management concept for users/devices/software within the PoC framework.
 
-**8. Conclusion**
+## 8. Conclusion
 
-The EU OS PoC focuses on delivering a practical, technically sound concept for deploying and managing a secure, open source desktop environment within the European public sector. By leveraging Fedora Kinoite, KDE Plasma, OSTree, and Flatpak, and adopting a minimal-base philosophy with layered customization, the project aims to demonstrate a viable path towards greater digital autonomy and efficiency for public administrations. While acknowledging the significant broader systemic challenges, this PoC concentrates on solving the immediate technical hurdles of scalable and maintainable deployment.
+The EU OS PoC effort focuses on delivering a practical, technically sound concept for deploying and managing a secure, open source desktop environment within the European public sector. By leveraging Fedora Kinoite, KDE Plasma, OSTree, and Flatpak, and adopting a minimal-base philosophy with layered customization, the project aims to demonstrate a viable path towards greater digital autonomy and efficiency for public administrations. While acknowledging the significant broader systemic challenges, this PoC concentrates on solving the immediate technical hurdles of scalable and maintainable deployment.

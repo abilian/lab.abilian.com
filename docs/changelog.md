@@ -20,6 +20,10 @@
 
 - **[00 NEPHELE](/Projects/NEPHELE/00 NEPHELE/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-29*)
 
+
+
+## Changed last 30 to 7 days
+
 - **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-28*)
 
 - **[Guix vs. Nix](/Tech/Linux/Packaging/Guix vs. Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/)</small> (*2025-05-28*)
@@ -35,10 +39,6 @@
 - **[Docker Swarm](/Tech/Containers/Docker Swarm/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-27*)
 
 - **[Self-hosting a CDN](/Tech/Cloud/Self-hosting a CDN/)** in <small>[Tech](/Tech/00 Technology/) / [Cloud](/Tech/Cloud/6 pilars AWS/)</small> (*2025-05-27*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Kubernetes CRD](/Tech/Containers/Kubernetes CRD/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-23*)
 
