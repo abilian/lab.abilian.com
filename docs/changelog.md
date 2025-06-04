@@ -2,6 +2,10 @@
 
 ## Recent changes (last 7 days)
 
+- **[Puavo](/Tech/Linux/Distributions/Puavo/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Fedora Silverblue/)</small> (*2025-06-04*)
+
+- **[EU OS POC (2025)](/Projects/EU OS/EU OS POC (2025)/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-06-04*)
+
 - **[OMeta](/Tech/Programming Languages/OMeta/)** in <small>[Tech](/Tech/00 Technology/) / [Programming Languages](/Tech/Programming Languages/CLIPS/)</small> (*2025-06-03*)
 
 - **[SMO - Placement Algorithm](/Projects/NEPHELE/SMO - Placement Algorithm/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-06-03*)
@@ -75,8 +79,6 @@
 - **[Alternatives to Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-12*)
 
 - **[SMO - Optimization Capabilities](/Projects/NEPHELE/SMO - Optimization Capabilities/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-12*)
-
-- **[EU OS POC (2025)](/Projects/EU OS/EU OS POC (2025)/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-12*)
 
 - **[CSR vs. SSR](/Tech/Web/UX-UI/CSR vs. SSR/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/) / [UX-UI](/Tech/Web/UX-UI/Accessility/)</small> (*2025-05-08*)
 
