@@ -24,7 +24,7 @@ The rich tapestry of options in system programming languages reflects a vibrant 
 
 ### The Road Ahead for Zig (Nov. 2023)
 
-For Zig to transition from an experimental language to a staple in system programming, it needs to reach a level of maturity where developers can rely on its stability. It's not just about fixing what's broken in C; it's about establishing an ecosystem where developers can confidently build and maintain systems with Zig for years to come.
+For Zig to transition from an experimental language to a staple in system programming, it needs to reach a level of maturity where developers can rely on its stability. I.e. not only "patching" C but establishing an ecosystem where developers can confidently build and maintain systems with Zig for years to come.
 
 Zig's potential niche will likely be in projects where its unique blend of performance, safety, and low-level programming capabilities align with specific project needs. Until then, the community's feedback, contributions, and the evolution of the language will be pivotal in shaping Zig's future and its adoption in the broader programming community.
 

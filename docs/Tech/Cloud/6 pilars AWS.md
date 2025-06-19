@@ -60,7 +60,7 @@ This pillar focuses on using computing resources efficiently to meet system requ
 
 ### 5. The Cost Optimization Pillar
 
-This pillar is about achieving business outcomes and delivering value at the lowest possible price point. It's not just about being cheap, but about being smart with spending and avoiding unnecessary costs.
+This pillar is about achieving business outcomes and delivering value at the lowest possible price point, i.e being smart with spending and avoiding unnecessary costs.
 
 *   **Expenditure Awareness and Tracking:** You can't optimize what you can't see. Implementing robust cost tracking, monitoring, and reporting mechanisms is crucial. This includes using tagging to allocate costs to specific projects, departments, or applications. Setting budgets and alerts helps prevent unexpected overruns.
 *   **Cost-Effective Resource Selection:** Similar to performance efficiency, choosing the right resources is key, but with a cost focus. This means selecting the most cost-effective instance types, storage options, and services that still meet performance and reliability requirements. Evaluating different pricing models (e.g., on-demand, reserved capacity, spot/interruptible instances) can lead to significant savings.

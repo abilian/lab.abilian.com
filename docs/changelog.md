@@ -1,6 +1,12 @@
 # Changelog
 
-## Recent changes (last 7 days)
+## Changed last 30 to 7 days
+
+- **[Docker Cheat Sheet](/Tech/Cheat Sheets/Docker Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Cheat Sheets](/Tech/Cheat Sheets/Docker Cheat Sheet/)</small> (*2025-06-04*)
+
+- **[Time Series Forecasting](/Tech/AI & Machine Learning/Time Series Forecasting/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-06-04*)
+
+- **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2025-06-04*)
 
 - **[Puavo](/Tech/Linux/Distributions/Puavo/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Distributions](/Tech/Linux/Distributions/Fedora Silverblue/)</small> (*2025-06-04*)
 
@@ -23,10 +29,6 @@
 - **[Kubernetes](/Tech/Containers/Kubernetes/)** in <small>[Tech](/Tech/00 Technology/) / [Containers](/Tech/Containers/00 Containers/)</small> (*2025-05-29*)
 
 - **[00 NEPHELE](/Projects/NEPHELE/00 NEPHELE/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-29*)
-
-
-
-## Changed last 30 to 7 days
 
 - **[Some comments on Nix](/Tech/Linux/Packaging/Nix/Some comments on Nix/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-05-28*)
 
@@ -74,6 +76,10 @@
 
 - **[00 EU OS](/Projects/EU OS/00 EU OS/)** in <small>[Projects](/Projects/00 Projects/) / [EU OS](/Projects/EU OS/00 EU OS/)</small> (*2025-05-21*)
 
+
+
+## Changed last 90 to 30 days
+
 - **[Pros and Cons of Microservices](/Tech/Architecture & Software Design/Microservices/Pros and Cons of Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-12*)
 
 - **[Alternatives to Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/) / [Microservices](/Tech/Architecture & Software Design/Microservices/Alternatives to Microservices/)</small> (*2025-05-12*)
@@ -108,13 +114,13 @@
 
 - **[H3NI Introduction](/Projects/NEPHELE/H3NI Introduction/)** in <small>[Projects](/Projects/00 Projects/) / [NEPHELE](/Projects/NEPHELE/00 NEPHELE/)</small> (*2025-05-08*)
 
-
-
-## Changed last 90 to 30 days
-
 - **[git-town](/Tech/Tools/git-town/)** in <small>[Tech](/Tech/00 Technology/) / [Tools](/Tech/Tools/Benchmarking CLI/)</small> (*2025-04-06*)
 
 - **[Galene](/Tech/Apps/Galene/)** in <small>[Tech](/Tech/00 Technology/) / [Apps](/Tech/Apps/00 Apps/)</small> (*2025-03-22*)
+
+
+
+## Earlier changes
 
 - **[NUA - Security](/Projects/NUA/NUA - Security/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2025-03-12*)
 
@@ -127,10 +133,6 @@
 - **[Server-Driven UI](/Tech/Web/Server-Driven UI/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-03-07*)
 
 - **[Full-stack Python Web frameworks](/Tech/Web/Full-stack Python Web frameworks/)** in <small>[Tech](/Tech/00 Technology/) / [Web](/Tech/Web/Content Repositories/)</small> (*2025-03-07*)
-
-
-
-## Earlier changes
 
 - **[Nix & Python](/Tech/Linux/Packaging/Nix/Nix & Python/)** in <small>[Tech](/Tech/00 Technology/) / [Linux](/Tech/Linux/DGFIP Report - Desktop Linux/) / [Packaging](/Tech/Linux/Packaging/Debian Packaging/) / [Nix](/Tech/Linux/Packaging/Nix/00 Nix & NixOS/)</small> (*2025-03-02*)
 
@@ -858,8 +860,6 @@
 
 - **[Stratego](/Tech/Compilation/Stratego/)** in <small>[Tech](/Tech/00 Technology/) / [Compilation](/Tech/Compilation/Stratego/)</small> (*2024-11-13*)
 
-- **[Docker Cheat Sheet](/Tech/Cheat Sheets/Docker Cheat Sheet/)** in <small>[Tech](/Tech/00 Technology/) / [Cheat Sheets](/Tech/Cheat Sheets/Docker Cheat Sheet/)</small> (*2024-11-13*)
-
 - **[Services Classes](/Tech/Architecture & Software Design/Services Classes/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-11-13*)
 
 - **[No-Code](/Tech/Architecture & Software Design/No-Code/)** in <small>[Tech](/Tech/00 Technology/) / [Architecture & Software Design](/Tech/Architecture & Software Design/00 Intro to software architecture/)</small> (*2024-11-13*)
@@ -899,8 +899,6 @@
 - **[Image Representation](/Tech/AI & Machine Learning/Image Representation/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
 - **[Deep learning](/Tech/AI & Machine Learning/Deep learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
-
-- **[00 Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)** in <small>[Tech](/Tech/00 Technology/) / [AI & Machine Learning](/Tech/AI & Machine Learning/00 Machine Learning/)</small> (*2024-11-13*)
 
 - **[NUA - build lifecycle](/Projects/NUA/NUA - build lifecycle/)** in <small>[Projects](/Projects/00 Projects/) / [NUA](/Projects/NUA/00 NUA/)</small> (*2024-11-13*)
 

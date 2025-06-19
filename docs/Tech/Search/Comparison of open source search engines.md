@@ -22,6 +22,12 @@ See also [[Search]].
 
 Note that these projects don't have the exact same scope. For instance, some are standalone search engines, while others are libraries or tools that can be used to build custom search solutions.
 
+## Added later
+
+- https://pypi.org/project/searcharray/ SearchArray turns Pandas string columns into a term index. It alows efficient BM25 / TFIDF scoring of phrases and individual tokens. Think Lucene, but as a Pandas column.
+
+
+
 <!-- Keywords -->
 #lucene #elasticsearch #google
 <!-- /Keywords -->
